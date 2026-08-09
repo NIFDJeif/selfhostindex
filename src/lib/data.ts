@@ -91,11 +91,34 @@ export const STATUS_META: Record<Status, { label: string; hue: string; blurb: st
   slowing: { label: 'Slowing', hue: 'warn', blurb: 'Activity has dropped noticeably. Check the repository before committing to it.' },
   'at-risk': { label: 'At risk', hue: 'bad', blurb: 'Little to no recent activity. Treat as unmaintained until proven otherwise.' },
   discontinued: { label: 'Discontinued', hue: 'bad', blurb: 'The repository is archived. Do not deploy for new projects.' },
-  unrated: { label: 'Unrated', hue: 'muted', blurb: 'No public repository to measure. We do not guess a score.' },
+  unrated: { label: 'Unrated', hue: 'muted', blurb: 'Developed outside the platforms our data source measures, so there is no activity history to score. This says nothing about the project — many unrated projects are actively maintained.' },
 };
+
+/**
+ * Étoiles d'un projet, ou « — » si la donnée n'a jamais été collectée.
+ * Écrire « 0 » à la place d'une absence de mesure est un chiffre faux affiché
+ * comme un fait : c'est précisément l'erreur qui faisait passer BookStack pour
+ * un projet mort. Le tiret dit « on ne sait pas », ce qui est la vérité.
+ */
+export const fmtStars = (sw: Software): string =>
+  sw.status === 'unrated' ? '—' : fmtNumber(sw.stars);
 
 export const fmtNumber = (n: number) =>
   n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, '')}k` : String(n);
+
+/**
+ * N'affiche un tag que s'il ressemble vraiment à un numéro de version.
+ * Beaucoup de dépôts taguent `stable`, `nightly` ou `desktop-v0.6` (monorepos) :
+ * afficher ça tel quel donne « vstable » et fait passer le site pour négligé.
+ */
+export function fmtVersion(tag: string | null | undefined): string | null {
+  if (!tag) return null;
+  const cleaned = tag.trim().replace(/^v(?=\d)/i, '');
+  // Doit commencer par un chiffre et contenir au moins un point : 1.2, 2026.3.1…
+  if (!/^\d+\.\d+/.test(cleaned)) return null;
+  // On garde le pré-release s'il tient, sinon on coupe au dernier segment complet.
+  return cleaned.length <= 14 ? cleaned : cleaned.split('-')[0];
+}
 
 export const fmtDate = (iso: string | null | undefined) =>
   iso ? new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : '—';

@@ -37,6 +37,29 @@ export function maintenanceProse(sw: Software): string[] {
   const sig = sw.signals;
   if (!sig) return out;
 
+  // Non noté ≠ inactif. Sans ce cas, les compteurs à zéro produisaient
+  // « aucun commit enregistré » sur des projets parfaitement vivants,
+  // simplement parce qu'ils sont développés hors GitHub.
+  if (sw.status === 'unrated') {
+    out.push(
+      `We cannot measure this one. ${sw.name} is developed outside the platforms our data source collects activity from${sw.sourceCode ? `, and its repository lives at ${new URL(sw.sourceCode).host}` : ''} — so there is no commit history or release cadence here to score.`,
+    );
+    out.push(
+      `Read that as missing data, not as a warning. Several of the best-maintained projects in this catalogue are unrated for exactly this reason. To judge it, open the repository and look at the date of the most recent commit yourself.`,
+    );
+    if (sw.dependsThirdParty) {
+      out.push(`Note that ${sw.name} depends on a third-party service to work fully. It is self-hosted, but not self-contained.`);
+    }
+    return out;
+  }
+
+  if (sw.status === 'discontinued') {
+    out.push(
+      `The repository for ${sw.name} has been archived by its maintainers. It will receive no further fixes, including security fixes. Treat anything you deploy from it as frozen, and prefer an actively developed alternative from the same category.`,
+    );
+    return out;
+  }
+
   const { c3, c12, prev3 } = sig;
   const monthsRelease = monthsSince(sw.release?.publishedAt ?? null);
 

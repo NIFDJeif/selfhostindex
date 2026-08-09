@@ -4,7 +4,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import HealthBadge from '../../components/HealthBadge.astro';
 import HostingCTA from '../../components/HostingCTA.astro';
 import Sparkline from '../../components/Sparkline.astro';
-import { alternatives, getSoftwareMany, fmtNumber, fmtDate, HISTORY_MONTHS } from '../../lib/data';
+import { alternatives, getSoftwareMany, fmtStars, fmtDate, HISTORY_MONTHS } from '../../lib/data';
 import { stripMd } from '../../lib/prose';
 import { getEnrichment } from '../../lib/enriched';
 import { site } from '../../../site.config';
@@ -92,7 +92,7 @@ const jsonLd = [
               </td>
               <td><HealthBadge status={p.status} score={p.score} /></td>
               <td style="min-width:110px"><Sparkline spark={p.spark} height={26} /></td>
-              <td class="num">{fmtNumber(p.stars)}</td>
+              <td class="num">{fmtStars(p)}</td>
               <td class="num small">{p.licenses[0] ?? '—'}</td>
               <td class="num small">{p.release?.publishedAt ? fmtDate(p.release.publishedAt) : '—'}</td>
             </tr>

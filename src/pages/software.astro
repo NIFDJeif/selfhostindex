@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import HealthBadge from '../components/HealthBadge.astro';
-import { software, meta, fmtNumber, byScore } from '../lib/data';
+import { software, meta, fmtStars, byScore } from '../lib/data';
 import { stripMd } from '../lib/prose';
 
 // Une page-index unique plutôt que 14 pages paginées : chaque fiche reçoit ainsi
@@ -58,7 +58,7 @@ const best = software.slice().sort(byScore).slice(0, 5);
                     <div class="small muted" style="max-width:52ch">{stripMd(s.description).slice(0, 120)}</div>
                   </td>
                   <td><HealthBadge status={s.status} score={s.score} /></td>
-                  <td class="num">{fmtNumber(s.stars)}</td>
+                  <td class="num">{fmtStars(s)}</td>
                   <td class="small muted">{s.tags[0] ?? '—'}</td>
                 </tr>
               ))}

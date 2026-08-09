@@ -125,7 +125,20 @@ function rawSignals(s) {
     stars: Number(s.stargazers_count) || 0,
     relDate: toDate(s.current_release?.published_at) || toDate(s.updated_at),
     hasTaggedRelease: Boolean(s.current_release?.published_at),
-    scoreable: !(s.archived === true) && (hasHistory || Boolean(s.source_code_url)),
+    /**
+     * NOTER EXIGE DE POUVOIR MESURER.
+     *
+     * ~17 % du catalogue est développé hors GitHub (Codeberg, GitLab auto-hébergé) :
+     * la source amont ne collecte alors ni commits ni étoiles. Sans ce garde-fou,
+     * ces projets étaient notés à partir de zéros et sortaient « At risk 7/100 » —
+     * BookStack, activement maintenu, était ainsi présenté comme moribond.
+     *
+     * Accuser à tort un projet vivant est la pire faute possible ici : le score
+     * n'a de valeur que si on le croit, et une seule erreur de ce type vérifiable
+     * par n'importe quel lecteur suffit à discréditer les 1 347 autres.
+     * En l'absence de mesure, on répond « non noté » — jamais « à risque ».
+     */
+    scoreable: !(s.archived === true) && hasHistory,
   };
 }
 
@@ -160,7 +173,7 @@ function percentileTable(values) {
 function healthScore(s, sig, pctCommits, pctStars) {
   if (s.archived === true) return { status: 'discontinued', score: null, parts: null, signals: sig };
   if (!sig.scoreable) {
-    // Pas de dépôt public traçable : on refuse d'inventer une note.
+    // Aucune donnée d'activité disponible : on refuse d'inventer une note.
     return { status: 'unrated', score: null, parts: null, signals: sig };
   }
 
@@ -398,6 +411,15 @@ const alternatives = altMap.entries.map((e) => {
     picked.push(slug);
   }
 
+  // Tri final par score : la page affirme noir sur blanc que le classement suit
+  // la santé du projet, pas un choix éditorial. L'ordre doit donc le refléter,
+  // sinon la contradiction est visible dans le tableau juste en dessous.
+  // La liste éditoriale décide qui figure là ; le score décide dans quel ordre.
+  picked.sort((x, y) => {
+    const a = bySlug.get(x), b = bySlug.get(y);
+    return (b.score ?? -1) - (a.score ?? -1) || b.stars - a.stars;
+  });
+
   const unresolved = (e.picks || []).filter((p) => !byName.get(nameKey(p)));
   return {
     slug: e.slug,
@@ -476,6 +498,8 @@ const meta = {
     software: software.length,
     active: software.filter((s) => !s.archived).length,
     discontinued: software.filter((s) => s.archived).length,
+    scored: software.filter((s) => s.score !== null).length,
+    unrated: software.filter((s) => s.status === 'unrated').length,
     tags: tags.length,
     platforms: platforms.length,
     licenses: licenses.length,

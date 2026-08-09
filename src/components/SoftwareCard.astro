@@ -1,8 +1,9 @@
 ---
 import HealthBadge from './HealthBadge.astro';
-import { fmtNumber, type Software } from '../lib/data';
+import { fmtNumber, fmtVersion, type Software } from '../lib/data';
 export interface Props { sw: Software; rank?: number }
 const { sw, rank } = Astro.props;
+const version = fmtVersion(sw.release?.tag);
 ---
 <a class="card sw-card" href={`/software/${sw.slug}`}>
   <div class="top">
@@ -11,8 +12,8 @@ const { sw, rank } = Astro.props;
   </div>
   <p class="desc" set:html={sw.description.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')} />
   <div class="foot">
-    <span>★ {fmtNumber(sw.stars)}</span>
+    {sw.status !== 'unrated' && <span>★ {fmtNumber(sw.stars)}</span>}
     {sw.platforms[0] && <span>{sw.platforms.slice(0, 2).join(', ')}</span>}
-    {sw.release?.publishedAt && <span>v{sw.release.tag?.replace(/^v/, '').slice(0, 12)}</span>}
+    {version && <span>v{version}</span>}
   </div>
 </a>

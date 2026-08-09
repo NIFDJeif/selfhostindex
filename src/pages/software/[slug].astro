@@ -22,6 +22,8 @@ const { sw } = Astro.props;
 const desc = stripMd(sw.description);
 const status = STATUS_META[sw.status];
 const enriched = getEnrichment(sw.slug);
+/** A-t-on réellement des métriques d'activité pour ce projet ? */
+const measured = sw.status !== 'unrated';
 
 // Position dans sa catégorie principale : contexte concurrentiel unique à cette page.
 const primaryTag = sw.tags[0] ? getTagByName(sw.tags[0]) : undefined;
@@ -87,18 +89,34 @@ const jsonLd = [
       <ScoreBreakdown sw={sw} />
 
       <div class="card">
-        <h3 style="font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--fg-faint)">
-          Commits, last {HISTORY_MONTHS} months
-        </h3>
-        <div style="margin:.7rem 0 .4rem"><Sparkline spark={sw.spark} height={44} /></div>
-        <div class="meta-row small" style="justify-content:space-between">
-          <span>{sw.spark[0]?.month}</span>
-          <span>{sw.signals?.c12 ?? 0} total</span>
-          <span>{sw.spark[sw.spark.length - 1]?.month}</span>
-        </div>
+        {measured ? (
+          <>
+            <h3 style="font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--fg-faint)">
+              Commits, last {HISTORY_MONTHS} months
+            </h3>
+            <div style="margin:.7rem 0 .4rem"><Sparkline spark={sw.spark} height={44} /></div>
+            <div class="meta-row small" style="justify-content:space-between">
+              <span>{sw.spark[0]?.month}</span>
+              <span>{sw.signals?.c12 ?? 0} total</span>
+              <span>{sw.spark[sw.spark.length - 1]?.month}</span>
+            </div>
+          </>
+        ) : (
+          <>
+            <h3 style="font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--fg-faint)">
+              Activity data
+            </h3>
+            <p class="small muted" style="margin-top:.6rem">
+              Not available for this project. Our source collects commit history from GitHub only,
+              and {sw.name} is developed elsewhere.
+            </p>
+          </>
+        )}
         <table class="tbl" style="margin-top:1rem">
           <tbody>
-            <tr><th>Stars</th><td class="num">{fmtNumber(sw.stars)}</td></tr>
+            {/* Afficher « 0 étoile » quand on n'a pas la donnée serait un chiffre faux,
+                pas une absence de chiffre. On distingue explicitement les deux. */}
+            <tr><th>Stars</th><td class="num">{measured ? fmtNumber(sw.stars) : <span class="muted">not measured</span>}</td></tr>
             <tr><th>Latest release</th><td class="num">{sw.release?.tag ?? '—'} <span class="muted">{sw.release?.publishedAt ? `· ${fmtDate(sw.release.publishedAt)}` : ''}</span></td></tr>
             <tr><th>Repo updated</th><td class="num">{fmtDate(sw.updatedAt)}</td></tr>
             <tr><th>Licence</th><td>{licenseInfo.length

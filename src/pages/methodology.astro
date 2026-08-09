@@ -93,10 +93,24 @@ const median = scored.slice().sort((a, b) => a - b)[Math.floor(scored.length / 2
 
     <h2>Projects with no score</h2>
     <p>
-      Where there is no public repository to measure, we show <em>Unrated</em> rather than
-      inventing a number. Archived repositories are shown as <em>Discontinued</em> and are excluded
-      from the percentile base, so that dead projects do not drag the scale down and flatter
-      everyone else.
+      <strong>{meta.counts.unrated} of the {meta.counts.software} projects here are deliberately
+      unrated.</strong> Our data source collects commit history and star counts for repositories
+      hosted on GitHub. A substantial minority of self-hosted projects are developed on Codeberg,
+      on self-hosted GitLab, or elsewhere — for those, no activity history reaches us.
+    </p>
+    <p>
+      An earlier version of this scoring scored them anyway, treating "no data" as "no activity".
+      That produced the worst possible outcome: BookStack, which is actively developed on Codeberg,
+      came out at 7/100 and labelled <em>At risk</em>. That is not a rounding error, it is a false
+      accusation against a healthy project, and it is exactly the kind of mistake any reader can
+      verify in thirty seconds.
+    </p>
+    <p>
+      So the rule is now absolute: <strong>no measurement, no score.</strong> An <em>Unrated</em>
+      badge means we cannot see the data — it is not a negative signal, and unrated projects
+      include some of the best-maintained software in this catalogue. Archived repositories are
+      shown as <em>Discontinued</em>. Both are excluded from the percentile base, so that missing
+      or dead entries cannot drag the scale down and flatter everyone else.
     </p>
 
     <h2>Update cadence</h2>

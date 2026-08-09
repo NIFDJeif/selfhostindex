@@ -4,7 +4,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import HealthBadge from '../../components/HealthBadge.astro';
 import Sparkline from '../../components/Sparkline.astro';
 import SoftwareCard from '../../components/SoftwareCard.astro';
-import { tags, getSoftwareMany, fmtNumber, fmtDate } from '../../lib/data';
+import { tags, getSoftwareMany, fmtStars, fmtDate } from '../../lib/data';
 import { categoryProse, stripMd } from '../../lib/prose';
 import { site } from '../../../site.config';
 
@@ -57,7 +57,7 @@ const jsonLd = {
               </td>
               <td><HealthBadge status={p.status} score={p.score} /></td>
               <td style="min-width:100px"><Sparkline spark={p.spark} height={24} /></td>
-              <td class="num">{fmtNumber(p.stars)}</td>
+              <td class="num">{fmtStars(p)}</td>
               <td class="small">{p.platforms.slice(0, 2).join(', ') || '—'}</td>
               <td class="num small">{p.release?.publishedAt ? fmtDate(p.release.publishedAt) : '—'}</td>
             </tr>

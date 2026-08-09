@@ -32,10 +32,10 @@ const jsonLd = {
       </p>
 
       <div class="stat-row">
-        <div class="stat"><div class="n">{fmtNumber(meta.counts.software)}</div><div class="l">projects scored</div></div>
+        <div class="stat"><div class="n">{meta.counts.software.toLocaleString('en-GB')}</div><div class="l">projects scored</div></div>
         <div class="stat"><div class="n">{meta.counts.tags}</div><div class="l">categories</div></div>
         <div class="stat"><div class="n">{meta.counts.alternatives}</div><div class="l">SaaS migrations</div></div>
-        <div class="stat"><div class="n">{fmtNumber(meta.counts.compare)}</div><div class="l">head-to-heads</div></div>
+        <div class="stat"><div class="n">{meta.counts.compare.toLocaleString('en-GB')}</div><div class="l">head-to-heads</div></div>
         <div class="stat"><div class="n">{meta.dataDate.slice(0, 10)}</div><div class="l">data as of</div></div>
       </div>
     </section>
