@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import SoftwareCard from '../../components/SoftwareCard.astro';
+import { platforms, getSoftwareMany } from '../../lib/data';
+
+export function getStaticPaths() {
+  return platforms.map((pf) => ({ params: { slug: pf.slug }, props: { pf } }));
+}
+const { pf } = Astro.props;
+const members = getSoftwareMany(pf.members);
+const ram = members[0]?.ramGb ?? 1;
+---
+
+<Base
+  title={`Self-hosted software built with ${pf.name}`}
+  description={`${pf.count} self-hosted projects written in ${pf.name}, ranked by maintenance health score.`}
+  path={`/platform/${pf.slug}`}
+>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Platforms', href: '/platforms' }, { label: pf.name }]} />
+    <h1>Self-hosted software built with {pf.name}</h1>
+    <p class="lede" style="margin-top:.6rem">
+      {pf.count} projects in the catalogue run on {pf.name}. Ordered by health score.
+    </p>
+    <p class="muted small" style="margin-top:.9rem;max-width:70ch">
+      Runtime matters when you are consolidating: services sharing a runtime are usually easier to
+      host on one machine. As a rough guide, {pf.name} services here start around {ram} GB of RAM
+      each — an estimate from the runtime, not a benchmark.
+    </p>
+    <div class="grid grid-3" style="margin-top:1.6rem">
+      {members.map((s) => <SoftwareCard sw={s} />)}
+    </div>
+  </div>
+</Base>

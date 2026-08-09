@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { site } from '../../site.config';
+---
+<Base
+  title="Privacy"
+  description="What this site collects: no cookies, no accounts, no tracking scripts that identify you."
+  path="/privacy"
+>
+  <div class="wrap narrow prose">
+    <Breadcrumbs items={[{ label: 'Privacy' }]} />
+    <h1>Privacy</h1>
+
+    <h2>Cookies</h2>
+    <p>
+      This site sets no cookies. There is no login, no account, no newsletter and no comment
+      system, so there is nothing to remember about you between visits. That is also why you are
+      not seeing a consent banner: there is nothing to consent to.
+    </p>
+
+    <h2>Analytics</h2>
+    {site.cloudflareAnalyticsToken ? (
+      <p>
+        We use Cloudflare Web Analytics, which is cookie-free and does not fingerprint visitors.
+        It records aggregate page views, referrers and country. It cannot identify you and we
+        cannot see individual visitors.
+      </p>
+    ) : (
+      <p>
+        No analytics are currently running. If that changes we will use a cookie-free, non-
+        fingerprinting provider and say so here.
+      </p>
+    )}
+
+    <h2>Outbound links</h2>
+    <p>
+      Links to hosting providers may be affiliate links, which means the destination site can see
+      that you arrived from here. We do not pass any information about you, because we do not have
+      any. See the <a href="/disclosure">affiliate disclosure</a>.
+    </p>
+
+    <h2>Hosting</h2>
+    <p>
+      The site is static and served by Cloudflare Pages. Cloudflare processes request logs
+      including IP addresses as part of delivering and protecting the site; that is standard for
+      any website and is governed by Cloudflare's own privacy terms.
+    </p>
+
+    <h2>Contact</h2>
+    <p>Questions about this page: <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.</p>
+  </div>
+</Base>

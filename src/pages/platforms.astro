@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { platforms, getSoftware } from '../lib/data';
+---
+<Base
+  title="Platforms and runtimes"
+  description="Self-hosted software grouped by the language or runtime it is built on, with maintenance health scores."
+  path="/platforms"
+>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Platforms' }]} />
+    <h1>Browse by platform</h1>
+    <p class="lede" style="margin-top:.6rem">
+      Consolidating services onto one server is easier when they share a runtime. These are the
+      {platforms.length} runtimes with the widest coverage in the catalogue.
+    </p>
+    <div class="tbl-scroll" style="margin-top:1.6rem">
+      <table class="tbl">
+        <thead><tr><th>Platform</th><th>Projects</th><th>Best maintained</th></tr></thead>
+        <tbody>
+          {platforms.slice().sort((a, b) => b.count - a.count).map((p) => {
+            const top = getSoftware(p.members[0]);
+            return (
+              <tr>
+                <td><a href={`/platform/${p.slug}`}><strong>{p.name}</strong></a></td>
+                <td class="num">{p.count}</td>
+                <td class="small">{top && <a href={`/software/${top.slug}`}>{top.name}</a>}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

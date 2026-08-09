@@ -1,0 +1,10 @@
+---
+import { STATUS_META, type Status } from '../lib/data';
+export interface Props { status: Status; score: number | null; showScore?: boolean }
+const { status, score, showScore = true } = Astro.props;
+const m = STATUS_META[status];
+---
+<span class={`badge badge-${m.hue}`} title={m.blurb}>
+  <span class="badge-dot" aria-hidden="true"></span>
+  {m.label}{showScore && score !== null ? ` · ${score}` : ''}
+</span>

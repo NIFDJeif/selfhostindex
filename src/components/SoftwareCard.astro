@@ -1,0 +1,18 @@
+---
+import HealthBadge from './HealthBadge.astro';
+import { fmtNumber, type Software } from '../lib/data';
+export interface Props { sw: Software; rank?: number }
+const { sw, rank } = Astro.props;
+---
+<a class="card sw-card" href={`/software/${sw.slug}`}>
+  <div class="top">
+    <div class="name">{rank ? `${rank}. ` : ''}{sw.name}</div>
+    <HealthBadge status={sw.status} score={sw.score} />
+  </div>
+  <p class="desc" set:html={sw.description.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')} />
+  <div class="foot">
+    <span>★ {fmtNumber(sw.stars)}</span>
+    {sw.platforms[0] && <span>{sw.platforms.slice(0, 2).join(', ')}</span>}
+    {sw.release?.publishedAt && <span>v{sw.release.tag?.replace(/^v/, '').slice(0, 12)}</span>}
+  </div>
+</a>

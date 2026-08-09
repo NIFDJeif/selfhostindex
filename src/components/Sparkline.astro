@@ -1,0 +1,25 @@
+---
+/** Histogramme mensuel des commits, en SVG pur : aucun JS, aucune requête. */
+export interface Props { spark: { month: string; commits: number }[]; height?: number }
+const { spark, height = 40 } = Astro.props;
+const max = Math.max(1, ...spark.map((d) => d.commits));
+const n = spark.length;
+const gap = 2;
+const w = 100; // viewBox en pourcentage de largeur : le SVG s'étire tout seul
+const bw = (w - gap * (n - 1)) / n;
+const total = spark.reduce((s, d) => s + d.commits, 0);
+---
+<svg
+  class="spark"
+  viewBox={`0 0 ${w} ${height}`}
+  preserveAspectRatio="none"
+  role="img"
+  aria-label={`${total} commits over the last ${n} months`}
+>
+  {spark.map((d, i) => {
+    const h = d.commits === 0 ? 1 : Math.max(1.5, (d.commits / max) * height);
+    return <rect x={i * (bw + gap)} y={height - h} width={bw} height={h} rx="1" opacity={d.commits === 0 ? 0.18 : 0.85}>
+      <title>{d.month}: {d.commits} commits</title>
+    </rect>;
+  })}
+</svg>

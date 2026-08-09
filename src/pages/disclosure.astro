@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { affiliates } from '../../site.config';
+const active = affiliates.filter((a) => a.enabled && a.ref);
+---
+<Base
+  title="Affiliate disclosure"
+  description="How this site makes money, which links are affiliate links, and why that never affects the health scores."
+  path="/disclosure"
+>
+  <div class="wrap narrow prose">
+    <Breadcrumbs items={[{ label: 'Affiliate disclosure' }]} />
+    <h1>Affiliate disclosure</h1>
+
+    <h2>The short version</h2>
+    <p>
+      Some links to hosting providers on this site are affiliate links. If you sign up through
+      one, we may receive a commission. You pay exactly the same price — in several cases you get
+      a signup credit that is not available otherwise.
+    </p>
+
+    <h2>What is never affected</h2>
+    <p>
+      Health scores, rankings and comparisons are computed by a script from public repository data.
+      No software project pays to appear, to rank higher, or to be included. There is no mechanism
+      by which they could: the ordering on every page is generated at build time from the score,
+      and the score has no input a third party can influence.
+    </p>
+    <p>
+      We do not take payment from software projects at all — only from hosting providers, and only
+      for signups that come from links clearly marked as sponsored.
+    </p>
+
+    <h2>Which links are affiliate links</h2>
+    {active.length > 0 ? (
+      <>
+        <p>We currently participate in the affiliate programmes of:</p>
+        <ul>{active.map((a) => <li>{a.name}</li>)}</ul>
+        <p>
+          Every such link carries <code>rel="sponsored"</code> in the page source, and appears
+          inside a block labelled as hosting. Links to project websites, source code and
+          documentation are never affiliate links.
+        </p>
+      </>
+    ) : (
+      <p>
+        No affiliate programmes are active on this site at the moment. If that changes, this page
+        lists every partner before any link goes live, and each sponsored link is marked in the
+        page source with <code>rel="sponsored"</code>.
+      </p>
+    )}
+
+    <h2>Why we say so</h2>
+    <p>
+      Because the US Federal Trade Commission requires it, because the EU Unfair Commercial
+      Practices Directive requires it, and because a directory whose ordering you cannot trust is
+      worth nothing. The scoring method is published in full on the
+      <a href="/methodology">methodology page</a> so you can check the ranking yourself.
+    </p>
+  </div>
+</Base>

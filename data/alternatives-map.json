@@ -1,0 +1,425 @@
+{
+  "_comment": "Carte SaaS propriétaire -> alternatives auto-hébergées. C'est l'actif SEO le plus rentable du site : ces requêtes ont une intention d'achat immédiate (le visiteur va louer un serveur dans les 48h). 'picks' liste des noms, PAS des slugs : le build les résout par nom normalisé contre le dataset et ignore silencieusement ceux qui n'existent pas. Le site ne peut donc pas produire de lien mort, même si le dataset amont change. 'tags' sert de filet : la page reste complète même si aucun pick ne se résout.",
+  "entries": [
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "pain": "Pricing per seat climbs fast for teams, and your entire company knowledge lives on someone else's server.",
+      "picks": ["AppFlowy", "Outline", "SiYuan", "TriliumNext Notes", "Docmost", "BookStack"],
+      "tags": ["Note-taking & Editors", "Knowledge Management Tools", "Wikis"]
+    },
+    {
+      "slug": "google-photos",
+      "name": "Google Photos",
+      "pain": "Free unlimited storage ended in 2021, and photo libraries are the hardest data to migrate once they grow.",
+      "picks": ["Immich", "PhotoPrism", "LibrePhotos", "Photoview", "Lychee"],
+      "tags": ["Photo Galleries", "Media Management"]
+    },
+    {
+      "slug": "dropbox",
+      "name": "Dropbox",
+      "pain": "You pay monthly, forever, for storage you could own outright in under an hour.",
+      "picks": ["Nextcloud", "Seafile", "Syncthing", "ownCloud", "Filestash"],
+      "tags": ["File Transfer & Synchronization", "File Transfer - Web-based File Managers"]
+    },
+    {
+      "slug": "google-drive",
+      "name": "Google Drive",
+      "pain": "Storage is shared with Gmail and Photos, so one full quota breaks all three at once.",
+      "picks": ["Nextcloud", "Seafile", "ownCloud", "Filestash"],
+      "tags": ["File Transfer & Synchronization", "Office Suites"]
+    },
+    {
+      "slug": "slack",
+      "name": "Slack",
+      "pain": "The free plan now hides messages older than 90 days — your team's history disappears unless you pay per seat.",
+      "picks": ["Rocket.Chat", "Mattermost", "Zulip", "Element", "Revolt"],
+      "tags": ["Communication - Custom Communication Systems"]
+    },
+    {
+      "slug": "trello",
+      "name": "Trello",
+      "pain": "Power-Ups and automation are gated behind paid tiers, and board limits hit quickly on the free plan.",
+      "picks": ["Vikunja", "Planka", "Wekan", "Kanboard", "Focalboard"],
+      "tags": ["Task Management & To-do Lists", "Software Development - Project Management"]
+    },
+    {
+      "slug": "asana",
+      "name": "Asana",
+      "pain": "Per-seat pricing makes it expensive the moment you add contractors or part-time collaborators.",
+      "picks": ["Plane", "Taiga", "Vikunja", "Redmine", "Leantime"],
+      "tags": ["Software Development - Project Management", "Task Management & To-do Lists"]
+    },
+    {
+      "slug": "jira",
+      "name": "Jira",
+      "pain": "Slow, complex, and priced per user — most teams use 10% of it and pay for 100%.",
+      "picks": ["Plane", "Taiga", "Redmine", "Tracker", "Vikunja"],
+      "tags": ["Software Development - Project Management", "Ticketing"]
+    },
+    {
+      "slug": "spotify",
+      "name": "Spotify",
+      "pain": "You rent access to music you never own, and tracks vanish when licensing deals expire.",
+      "picks": ["Navidrome Music Server", "Funkwhale", "Airsonic", "Koel", "Jellyfin"],
+      "tags": ["Media Streaming - Audio Streaming", "Media Streaming"]
+    },
+    {
+      "slug": "netflix",
+      "name": "Netflix",
+      "pain": "Catalogues shrink every year and prices rise — a personal library never gets removed.",
+      "picks": ["Jellyfin", "Plex", "Emby", "Streama"],
+      "tags": ["Media Streaming - Video Streaming", "Media Streaming - Multimedia Streaming"]
+    },
+    {
+      "slug": "zapier",
+      "name": "Zapier",
+      "pain": "Task-based billing punishes exactly the workflows that work well — the more useful it is, the more it costs.",
+      "picks": ["n8n", "Activepieces", "Huginn", "Node-RED", "Windmill"],
+      "tags": ["Automation", "Software Development - Low Code"]
+    },
+    {
+      "slug": "1password",
+      "name": "1Password",
+      "pain": "Your entire digital life sits in a vault you don't control, on a subscription that never ends.",
+      "picks": ["Vaultwarden", "Passbolt", "Psono", "Padloc", "Keeweb"],
+      "tags": ["Password Managers"]
+    },
+    {
+      "slug": "lastpass",
+      "name": "LastPass",
+      "pain": "After the 2022 vault breach, self-hosting is no longer paranoia — it's basic risk management.",
+      "picks": ["Vaultwarden", "Passbolt", "Psono", "Padloc"],
+      "tags": ["Password Managers"]
+    },
+    {
+      "slug": "gmail",
+      "name": "Gmail",
+      "pain": "Your address is your identity online, and it lives on an account that can be suspended without appeal.",
+      "picks": ["Mailcow", "Mailu", "Modoboa", "Mail-in-a-Box", "Stalwart"],
+      "tags": ["Communication - Email - Complete Solutions"]
+    },
+    {
+      "slug": "zoom",
+      "name": "Zoom",
+      "pain": "The 40-minute cap on free meetings exists purely to sell seats you may not need.",
+      "picks": ["Jitsi Meet", "BigBlueButton", "Galène", "MiroTalk"],
+      "tags": ["Communication - Video Conferencing"]
+    },
+    {
+      "slug": "airtable",
+      "name": "Airtable",
+      "pain": "Record limits and per-seat pricing turn a working database into a hostage situation as it grows.",
+      "picks": ["Baserow", "NocoDB", "Teable", "Grist", "Directus"],
+      "tags": ["Database Management", "Software Development - Low Code"]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "pain": "GA4 is hard to use, legally contested in the EU, and hands your visitor data to an ad company.",
+      "picks": ["Umami", "Matomo", "Plausible Analytics", "Countly", "GoatCounter"],
+      "tags": ["Analytics"]
+    },
+    {
+      "slug": "todoist",
+      "name": "Todoist",
+      "pain": "Reminders, labels and filters — the features that make it useful — are all behind the paywall.",
+      "picks": ["Vikunja", "Tasks.md", "Kanboard", "Nextcloud"],
+      "tags": ["Task Management & To-do Lists"]
+    },
+    {
+      "slug": "evernote",
+      "name": "Evernote",
+      "pain": "Repeated price hikes and a two-device limit on free accounts pushed most long-time users out.",
+      "picks": ["Joplin", "TriliumNext Notes", "SiYuan", "Memos", "Standard Notes"],
+      "tags": ["Note-taking & Editors"]
+    },
+    {
+      "slug": "calendly",
+      "name": "Calendly",
+      "pain": "One booking page is free; everything a real business needs is not.",
+      "picks": ["Cal.com", "Easy!Appointments", "Rallly", "Zeeg"],
+      "tags": ["Booking and Scheduling", "Polls and Events"]
+    },
+    {
+      "slug": "docusign",
+      "name": "DocuSign",
+      "pain": "Charging per signature envelope makes routine paperwork a metered expense.",
+      "picks": ["Docuseal", "Documenso", "OpenSign"],
+      "tags": ["Document Management"]
+    },
+    {
+      "slug": "mailchimp",
+      "name": "Mailchimp",
+      "pain": "Costs scale with list size whether or not you actually send anything.",
+      "picks": ["Listmonk", "Mautic", "Keila", "phpList"],
+      "tags": ["Communication - Email - Mailing Lists and Newsletters"]
+    },
+    {
+      "slug": "typeform",
+      "name": "Typeform",
+      "pain": "Response caps on the free plan mean a successful survey is a bill waiting to happen.",
+      "picks": ["Formbricks", "OhMyForm", "HeyForm", "LimeSurvey"],
+      "tags": ["Polls and Events", "Miscellaneous"]
+    },
+    {
+      "slug": "heroku",
+      "name": "Heroku",
+      "pain": "The free tier died in November 2022 and took a generation of side projects with it.",
+      "picks": ["Coolify", "Dokku", "CapRover", "Dokploy", "Kubero"],
+      "tags": ["Self-hosting Solutions", "Software Development - Continuous Integration & Deployment"]
+    },
+    {
+      "slug": "vercel",
+      "name": "Vercel",
+      "pain": "Bandwidth overages on a viral post can turn a hobby site into a four-figure invoice overnight.",
+      "picks": ["Coolify", "Dokploy", "CapRover", "Dokku"],
+      "tags": ["Self-hosting Solutions", "Web Servers"]
+    },
+    {
+      "slug": "firebase",
+      "name": "Firebase",
+      "pain": "Vendor lock-in is total: the data model, the auth, and the functions are all unportable by design.",
+      "picks": ["Appwrite", "PocketBase", "Supabase", "Nhost", "Parse Server"],
+      "tags": ["Software Development", "Software Development - FaaS & Serverless"]
+    },
+    {
+      "slug": "zendesk",
+      "name": "Zendesk",
+      "pain": "Agent seats are billed annually, so seasonal support teams pay year-round.",
+      "picks": ["Zammad", "FreeScout", "Chatwoot", "UVdesk", "Peppermint"],
+      "tags": ["Ticketing", "Customer Relationship Management (CRM)"]
+    },
+    {
+      "slug": "intercom",
+      "name": "Intercom",
+      "pain": "Usage-based pricing on conversations means your support bill grows with your success.",
+      "picks": ["Chatwoot", "Papercups", "Zammad", "Libre Chat"],
+      "tags": ["Ticketing", "Communication - Custom Communication Systems"]
+    },
+    {
+      "slug": "github",
+      "name": "GitHub",
+      "pain": "Private repos are free, but CI minutes, Actions and org features are not — and it's all one acquisition away from changing.",
+      "picks": ["Forgejo", "Gitea", "GitLab", "OneDev", "Gogs"],
+      "tags": ["Software Development", "Software Development - Continuous Integration & Deployment"]
+    },
+    {
+      "slug": "pocket",
+      "name": "Pocket",
+      "pain": "Mozilla shut Pocket down in 2025 — the clearest possible argument for owning your read-later list.",
+      "picks": ["Wallabag", "Linkding", "Shiori", "Karakeep", "Readeck"],
+      "tags": ["Bookmarks and Link Sharing"]
+    },
+    {
+      "slug": "feedly",
+      "name": "Feedly",
+      "pain": "Feed limits and the AI features are paywalled, for a protocol that is free by design.",
+      "picks": ["FreshRSS", "Miniflux", "Tiny Tiny RSS", "CommaFeed", "Selfoss"],
+      "tags": ["Feed Readers"]
+    },
+    {
+      "slug": "grammarly",
+      "name": "Grammarly",
+      "pain": "It reads every word you type, on every site, and sends it to a server you don't control.",
+      "picks": ["LanguageTool"],
+      "tags": ["Miscellaneous", "Software Development - Localization"]
+    },
+    {
+      "slug": "chatgpt",
+      "name": "ChatGPT",
+      "pain": "Every prompt is a data point on someone else's balance sheet, and the model changes under you without notice.",
+      "picks": ["Open WebUI", "LibreChat", "Ollama", "AnythingLLM", "LocalAI"],
+      "tags": ["Generative Artificial Intelligence (GenAI)"]
+    },
+    {
+      "slug": "shopify",
+      "name": "Shopify",
+      "pain": "Monthly fee plus transaction fees plus app subscriptions — three meters running at once.",
+      "picks": ["Medusa", "Saleor", "Vendure", "Bagisto", "Sylius"],
+      "tags": ["E-commerce"]
+    },
+    {
+      "slug": "wordpress-com",
+      "name": "WordPress.com",
+      "pain": "The hosted plan blocks plugins and custom themes on anything but the expensive tiers.",
+      "picks": ["Ghost", "WordPress", "Publii", "Grav", "WriteFreely"],
+      "tags": ["Blogging Platforms", "Content Management Systems (CMS)"]
+    },
+    {
+      "slug": "substack",
+      "name": "Substack",
+      "pain": "They take 10% of your subscription revenue forever, and own the relationship with your readers.",
+      "picks": ["Ghost", "Listmonk", "WriteFreely", "Keila"],
+      "tags": ["Blogging Platforms", "Communication - Email - Mailing Lists and Newsletters"]
+    },
+    {
+      "slug": "bitly",
+      "name": "Bitly",
+      "pain": "Free links now expire, and a dead short link breaks every place it was ever pasted.",
+      "picks": ["Shlink", "YOURLS", "Kutt", "Polr", "Lstu"],
+      "tags": ["URL Shorteners"]
+    },
+    {
+      "slug": "wetransfer",
+      "name": "WeTransfer",
+      "pain": "2 GB cap, files expire in a week, and recipients get ads on the download page.",
+      "picks": ["Send", "PsiTransfer", "Pingvin Share", "Picoshare"],
+      "tags": ["File Transfer - Single-click & Drag-n-drop Upload"]
+    },
+    {
+      "slug": "doodle",
+      "name": "Doodle",
+      "pain": "Ad-supported polls with a premium upsell, for something a single page can do.",
+      "picks": ["Rallly", "Framadate", "Nextcloud"],
+      "tags": ["Polls and Events", "Booking and Scheduling"]
+    },
+    {
+      "slug": "miro",
+      "name": "Miro",
+      "pain": "Three editable boards on the free plan — enough to get hooked, not enough to work.",
+      "picks": ["Excalidraw", "Drawio", "Tldraw", "WBO"],
+      "tags": ["Miscellaneous", "Document Management"]
+    },
+    {
+      "slug": "figma",
+      "name": "Figma",
+      "pain": "The Adobe acquisition attempt made every design team think hard about exit strategies.",
+      "picks": ["Penpot"],
+      "tags": ["Miscellaneous", "Software Development - IDE & Tools"]
+    },
+    {
+      "slug": "tableau",
+      "name": "Tableau",
+      "pain": "Licensing starts in the hundreds per user per year before you visualise a single row.",
+      "picks": ["Metabase", "Superset", "Redash", "Grafana", "Evidence"],
+      "tags": ["Analytics", "Database Management"]
+    },
+    {
+      "slug": "salesforce",
+      "name": "Salesforce",
+      "pain": "Implementation consultants often cost more than the licences, and both are permanent.",
+      "picks": ["EspoCRM", "Twenty", "Krayin", "SuiteCRM", "Odoo"],
+      "tags": ["Customer Relationship Management (CRM)", "Resource Planning"]
+    },
+    {
+      "slug": "quickbooks",
+      "name": "QuickBooks",
+      "pain": "Subscription accounting software holds your own financial history behind a renewal date.",
+      "picks": ["Akaunting", "Firefly III", "InvoiceNinja", "Kill Bill", "Crater"],
+      "tags": ["Money, Budgeting & Management"]
+    },
+    {
+      "slug": "ynab",
+      "name": "YNAB",
+      "pain": "$109/year to categorise your own transactions, with no way to export the method.",
+      "picks": ["Actual", "Firefly III", "Maybe", "Budget Zen"],
+      "tags": ["Money, Budgeting & Management"]
+    },
+    {
+      "slug": "plex",
+      "name": "Plex",
+      "pain": "Remote streaming moved behind a Plex Pass in 2025 — on a server you already own and pay to run.",
+      "picks": ["Jellyfin", "Emby", "Streama"],
+      "tags": ["Media Streaming - Multimedia Streaming", "Media Streaming - Video Streaming"]
+    },
+    {
+      "slug": "postman",
+      "name": "Postman",
+      "pain": "It moved collections to the cloud by default, then started charging for what used to be local.",
+      "picks": ["Hoppscotch Community Edition", "Bruno", "Insomnia", "Firecamp"],
+      "tags": ["Software Development - API Management", "Software Development - IDE & Tools"]
+    },
+    {
+      "slug": "dashlane",
+      "name": "Dashlane",
+      "pain": "The free tier was cut to a single device, which is not a password manager at all.",
+      "picks": ["Vaultwarden", "Passbolt", "Psono"],
+      "tags": ["Password Managers"]
+    },
+    {
+      "slug": "onedrive",
+      "name": "OneDrive",
+      "pain": "It reinstalls itself, syncs folders you didn't ask it to, and upsells storage inside the OS.",
+      "picks": ["Nextcloud", "Seafile", "Syncthing", "ownCloud"],
+      "tags": ["File Transfer & Synchronization"]
+    },
+    {
+      "slug": "google-workspace",
+      "name": "Google Workspace",
+      "pain": "Per-user-per-month across mail, docs and storage adds up to a permanent tax on headcount.",
+      "picks": ["Nextcloud", "Zimbra", "Kopano", "SOGo", "Collabora Online Development Edition"],
+      "tags": ["Groupware", "Office Suites"]
+    },
+    {
+      "slug": "microsoft-office",
+      "name": "Microsoft 365",
+      "pain": "A perpetual licence is no longer really offered — you rent your word processor now.",
+      "picks": ["Collabora Online Development Edition", "ONLYOFFICE", "Nextcloud", "CryptPad"],
+      "tags": ["Office Suites"]
+    },
+    {
+      "slug": "datadog",
+      "name": "Datadog",
+      "pain": "Per-host, per-metric and per-log billing produces famously unpredictable invoices.",
+      "picks": ["Grafana", "Zabbix", "Netdata", "Uptime Kuma", "Prometheus"],
+      "tags": ["Monitoring & Status Pages"]
+    },
+    {
+      "slug": "auth0",
+      "name": "Auth0",
+      "pain": "Pricing jumps hard past the free MAU tier, exactly when your product starts working.",
+      "picks": ["Keycloak", "Authentik", "Authelia", "Zitadel", "Ory"],
+      "tags": ["Federated Identity & Authentication", "Identity Management"]
+    },
+    {
+      "slug": "nordvpn",
+      "name": "NordVPN",
+      "pain": "You swap trusting your ISP for trusting a VPN company — running your own removes the third party.",
+      "picks": ["WireGuard", "OpenVPN", "Headscale", "Netbird", "Pritunl"],
+      "tags": ["VPN", "Network Utilities"]
+    },
+    {
+      "slug": "teamviewer",
+      "name": "TeamViewer",
+      "pain": "It aggressively flags personal use as commercial and cuts sessions off mid-support call.",
+      "picks": ["RustDesk", "MeshCentral", "Guacamole", "Remotely"],
+      "tags": ["Remote Access"]
+    },
+    {
+      "slug": "toggl",
+      "name": "Toggl Track",
+      "pain": "Reporting and billing rates — the reason you track time at all — sit on paid plans.",
+      "picks": ["Kimai", "Traggo", "ActivityWatch", "Solidtime"],
+      "tags": ["Time Tracking"]
+    },
+    {
+      "slug": "dropbox-paper",
+      "name": "Confluence",
+      "pain": "Priced per user alongside Jira, so documentation costs scale with a team that barely reads it.",
+      "picks": ["BookStack", "Outline", "Wiki.js", "DokuWiki", "XWiki"],
+      "tags": ["Wikis", "Knowledge Management Tools"]
+    },
+    {
+      "slug": "adobe-scan",
+      "name": "Adobe Acrobat",
+      "pain": "Merging two PDFs should not require a subscription to a creative suite.",
+      "picks": ["Stirling-PDF", "Paperless-ngx", "Docspell"],
+      "tags": ["Document Management"]
+    },
+    {
+      "slug": "google-maps",
+      "name": "Google Maps Platform",
+      "pain": "API billing starts the moment you exceed the credit, and geocoding costs add up silently.",
+      "picks": ["Nominatim", "OpenStreetMap", "Photon", "Tileserver GL"],
+      "tags": ["Maps and Global Positioning System (GPS)"]
+    },
+    {
+      "slug": "algolia",
+      "name": "Algolia",
+      "pain": "Search-request pricing penalises the exact behaviour good search encourages.",
+      "picks": ["Meilisearch", "Typesense", "Elasticsearch", "OpenSearch", "Sonic"],
+      "tags": ["Search Engines"]
+    }
+  ]
+}

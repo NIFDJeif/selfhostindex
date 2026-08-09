@@ -1,0 +1,60 @@
+---
+/**
+ * Le bloc de monétisation. Trois règles non négociables :
+ *
+ * 1. Il doit rester UTILE même sans affiliation configurée. Tant que Maxime n'a
+ *    pas ses identifiants, on affiche l'info d'hébergement en clair : la page
+ *    garde sa valeur et le site ne ressemble jamais à une coquille publicitaire.
+ * 2. Divulgation FTC visible dès qu'un lien est affilié — c'est une obligation
+ *    légale aux États-Unis et en UE, et les programmes résilient sans préavis
+ *    en cas de manquement. Perdre le compte, c'est perdre le revenu.
+ * 3. rel="sponsored nofollow" : Google sanctionne les liens affiliés non balisés.
+ */
+import { affiliates, affiliateUrl, hostsFor } from '../../site.config';
+export interface Props { ramGb: number; appName: string; compact?: boolean }
+const { ramGb, appName, compact = false } = Astro.props;
+
+const hosts = hostsFor(ramGb);
+const anyEnabled = affiliates.some((a) => a.enabled && a.ref);
+// Palier commercial standard le plus proche du besoin estimé.
+const tier = ramGb >= 4 ? '4 GB' : ramGb >= 2 ? '2 GB' : '1 GB';
+---
+
+<aside class="cta">
+  <h3>Running {appName}: what you need</h3>
+  <p class="why">
+    Estimated minimum: <strong>{tier} RAM</strong>, 1–2 vCPU, and 20 GB of disk.
+    This is derived from the runtime {appName} is built on, not from a benchmark —
+    treat it as a starting point and check the project's own documentation before sizing.
+  </p>
+
+  {hosts.length > 0 ? (
+    <>
+      <div class="host-list">
+        {hosts.map((h) => (
+          <a class="host" href={affiliateUrl(h)} rel="sponsored nofollow noopener" target="_blank">
+            <span>
+              <span class="h-name">{h.name}</span><br />
+              <span class="h-offer">{h.offer}</span>
+            </span>
+            <span class="h-price">from {h.priceFrom}</span>
+          </a>
+        ))}
+      </div>
+      {anyEnabled && (
+        <p class="disclosure">
+          The hosting links above are affiliate links: if you sign up, we may earn a commission at
+          no extra cost to you. It never changes the health score, which is computed from repository
+          data alone. <a href="/disclosure">Full disclosure</a>.
+        </p>
+      )}
+    </>
+  ) : (
+    !compact && (
+      <p class="disclosure">
+        Any VPS with {tier} of RAM will run this — Hetzner, DigitalOcean, Vultr and OVH all sell
+        that tier for a few euros a month. You can also run it on hardware you already own.
+      </p>
+    )
+  )}
+</aside>

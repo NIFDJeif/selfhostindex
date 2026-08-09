@@ -1,0 +1,132 @@
+---
+import '../styles/global.css';
+import { site } from '../../site.config';
+import { meta } from '../lib/data';
+
+export interface Props {
+  title: string;
+  description: string;
+  /** Chemin canonique, ex "/software/immich". */
+  path: string;
+  /** JSON-LD injecté tel quel dans un <script type="application/ld+json">. */
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  /** noindex pour les pages sans valeur de recherche (pagination profonde, etc.). */
+  noindex?: boolean;
+}
+
+const { title, description, path, jsonLd, noindex = false } = Astro.props;
+const canonical = new URL(path, site.url).href;
+const fullTitle = path === '/' ? `${site.name} — ${site.tagline}` : `${title} | ${site.name}`;
+
+// OG image générée à la volée par un service statique zéro-coût : on encode le
+// titre dans une URL de placeholder plutôt que de stocker 2 300 images.
+const ogImage = new URL('/og-default.svg', site.url).href;
+
+const year = new Date().getFullYear();
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${site.name} — updates`} href="/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
+
+    {site.cloudflareAnalyticsToken && (
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={`{"token": "${site.cloudflareAnalyticsToken}"}`}
+      />
+    )}
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">Selfhost<span>Index</span></a>
+        <nav class="nav">
+          <a href="/software">Catalogue</a>
+          <a href="/alternatives">Alternatives</a>
+          <a href="/categories">Categories</a>
+          <a href="/compare">Compare</a>
+          <a href="/methodology">Methodology</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <h4>Browse</h4>
+            <ul>
+              <li><a href="/software">All software</a></li>
+              <li><a href="/categories">Categories</a></li>
+              <li><a href="/alternatives">SaaS alternatives</a></li>
+              <li><a href="/compare">Comparisons</a></li>
+              <li><a href="/licenses">Licences</a></li>
+              <li><a href="/platforms">Platforms</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>About</h4>
+            <ul>
+              <li><a href="/methodology">How we score</a></li>
+              <li><a href="/about">About this site</a></li>
+              <li><a href="/rss.xml">RSS feed</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="/disclosure">Affiliate disclosure</a></li>
+              <li><a href="/privacy">Privacy</a></li>
+              <li><a href="/attribution">Data & attribution</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Data freshness</h4>
+            <ul>
+              <li class="muted">{meta.counts.software} projects tracked</li>
+              <li class="muted">Source updated {meta.dataDate.slice(0, 10)}</li>
+              <li class="muted">Rebuilt {meta.generatedAt.slice(0, 10)}</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-legal">
+          <p>
+            © {year} {site.name}. Health scores are computed by us from public repository activity.
+            Software metadata is derived from the
+            <a href="https://github.com/awesome-selfhosted/awesome-selfhosted-data" rel="noopener">awesome-selfhosted</a>
+            dataset, used under CC-BY-SA 3.0 — see <a href="/attribution">attribution</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

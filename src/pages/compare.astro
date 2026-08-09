@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { comparePairs, getSoftware, tags, meta } from '../lib/data';
+
+// Regroupé par catégorie : une liste plate de 800 liens n'aide ni le lecteur
+// ni le crawler à comprendre la structure du site.
+const byTag = new Map<string, typeof comparePairs>();
+for (const p of comparePairs) {
+  if (!byTag.has(p.tag)) byTag.set(p.tag, []);
+  byTag.get(p.tag)!.push(p);
+}
+const ordered = tags
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name, 'en'))
+  .filter((t) => byTag.has(t.slug));
+---
+
+<Base
+  title="Head-to-head comparisons"
+  description={`${meta.counts.compare} side-by-side comparisons of self-hosted software, based on measured maintenance activity rather than marketing claims.`}
+  path="/compare"
+>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Compare' }]} />
+    <h1>Head-to-head comparisons</h1>
+    <p class="lede" style="margin-top:.6rem">
+      {meta.counts.compare} comparisons between the leading projects in each category. Each one
+      puts commit volume, release cadence and momentum side by side — the maintenance question,
+      not the feature question.
+    </p>
+
+    {ordered.map((t) => (
+      <section style="margin-top:2rem">
+        <h2 style="margin-top:0"><a href={`/category/${t.slug}`}>{t.name}</a></h2>
+        <div class="pill-row" style="margin-top:.7rem">
+          {byTag.get(t.slug)!.map((p) => {
+            const a = getSoftware(p.a), b = getSoftware(p.b);
+            return a && b ? <a class="pill" href={`/compare/${p.slug}`}>{a.name} vs {b.name}</a> : null;
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

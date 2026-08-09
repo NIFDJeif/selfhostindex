@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { licenses, getSoftware } from '../lib/data';
+---
+<Base
+  title="Licences"
+  description="Self-hosted software grouped by open-source licence, with maintenance health scores."
+  path="/licenses"
+>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Licences' }]} />
+    <h1>Browse by licence</h1>
+    <p class="lede" style="margin-top:.6rem">
+      Which licence a project uses decides what you may do with your own modifications. These are
+      the {licenses.length} licences that cover most of the catalogue.
+    </p>
+    <div class="tbl-scroll" style="margin-top:1.6rem">
+      <table class="tbl">
+        <thead><tr><th>Licence</th><th>Projects</th><th>Best maintained</th></tr></thead>
+        <tbody>
+          {licenses.map((l) => {
+            const top = getSoftware(l.members[0]);
+            return (
+              <tr>
+                <td><a href={`/license/${l.slug}`}><strong>{l.id}</strong></a><div class="small muted">{l.name}</div></td>
+                <td class="num">{l.count}</td>
+                <td class="small">{top && <a href={`/software/${top.slug}`}>{top.name}</a>}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,53 @@
+---
+import { STATUS_META, HISTORY_MONTHS, type Software } from '../lib/data';
+export interface Props { sw: Software }
+const { sw } = Astro.props;
+const m = STATUS_META[sw.status];
+
+/** « Plus actif que 100 % des projets » est littéralement impossible : au sommet
+ *  de l'échelle, on formule en centile inverse, ce qui est exact. */
+const pctPhrase = (p: number) => (p >= 99 ? 'in the top 1%' : p <= 1 ? 'in the bottom 1%' : `more than ${p}%`);
+
+const rows = sw.parts
+  ? [
+      { lbl: 'Maintenance', val: sw.parts.maintenance, max: 40, hint: `Commit volume over ${HISTORY_MONTHS} months, ranked against every tracked project` },
+      { lbl: 'Releases', val: sw.parts.release, max: 25, hint: 'How recently a tagged release shipped' },
+      { lbl: 'Community', val: sw.parts.community, max: 20, hint: 'Repository stars, ranked against every tracked project' },
+      { lbl: 'Momentum', val: sw.parts.momentum, max: 15, hint: 'Last 3 months of commits vs the 3 before' },
+    ]
+  : [];
+---
+
+<div class="card">
+  <div class="score-hero">
+    {sw.score !== null ? (
+      <div class="score-num">{sw.score}<small>/100</small></div>
+    ) : (
+      <div class="score-num" style="font-size:1.5rem">—</div>
+    )}
+    <div>
+      <span class={`badge badge-${m.hue}`}><span class="badge-dot" aria-hidden="true"></span>{m.label}</span>
+      <p class="small muted" style="margin-top:.35rem;max-width:46ch">{m.blurb}</p>
+    </div>
+  </div>
+
+  {rows.length > 0 && (
+    <div class="bars">
+      {rows.map((r) => (
+        <div class="bar-row" title={r.hint}>
+          <span class="lbl">{r.lbl}</span>
+          <span class="bar-track"><span class="bar-fill" style={`width:${(r.val / r.max) * 100}%`}></span></span>
+          <span class="val">{r.val}/{r.max}</span>
+        </div>
+      ))}
+    </div>
+  )}
+
+  {sw.percentiles && (
+    <p class="small muted" style="margin-top:.8rem">
+      Commit activity <strong>{pctPhrase(sw.percentiles.commits)}</strong> of tracked projects;
+      popularity <strong>{pctPhrase(sw.percentiles.stars)}</strong>.
+      <a href="/methodology">How this is calculated</a>.
+    </p>
+  )}
+</div>

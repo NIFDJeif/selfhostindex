@@ -1,0 +1,10 @@
+# Le projet est développé sous Windows mais s'exécute sur des runners Linux.
+# On force LF dans le dépôt : un CRLF dans un script shell casse GitHub Actions.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
+# Sorties du pipeline : générées, jamais éditées à la main. Masquées des diffs
+# pour que les revues ne soient pas noyées sous 1 600 Ko de JSON régénéré.
+src/data/*.json linguist-generated=true
+data/enriched/*.json linguist-generated=true

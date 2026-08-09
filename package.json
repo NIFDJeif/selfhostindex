@@ -1,0 +1,29 @@
+{
+  "name": "selfhost-index",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated programmatic-SEO directory for self-hosted software.",
+  "scripts": {
+    "data:fetch": "node scripts/fetch-data.mjs",
+    "data:build": "node scripts/build-index.mjs",
+    "data": "npm run data:fetch && npm run data:build",
+    "enrich": "node scripts/enrich.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "indexnow": "node scripts/indexnow.mjs",
+    "pipeline": "npm run data && npm run enrich && npm run build"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.5.1",
+    "astro": "^5.13.5",
+    "yaml": "^2.8.1"
+  },
+  "allowScripts": {
+    "esbuild@0.27.7": true,
+    "esbuild@0.25.12": true,
+    "sharp@0.34.5": true
+  }
+}

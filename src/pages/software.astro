@@ -1,0 +1,71 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import HealthBadge from '../components/HealthBadge.astro';
+import { software, meta, fmtNumber, byScore } from '../lib/data';
+import { stripMd } from '../lib/prose';
+
+// Une page-index unique plutôt que 14 pages paginées : chaque fiche reçoit ainsi
+// un lien entrant direct depuis un seul hub, ce qui accélère nettement le crawl
+// initial d'un domaine neuf sans historique.
+const sorted = software.slice().sort((a, b) => a.name.localeCompare(b.name, 'en'));
+const groups = new Map<string, typeof sorted>();
+for (const s of sorted) {
+  const c = /^[a-z]/i.test(s.name[0]) ? s.name[0].toUpperCase() : '#';
+  if (!groups.has(c)) groups.set(c, []);
+  groups.get(c)!.push(s);
+}
+const letters = [...groups.keys()];
+const best = software.slice().sort(byScore).slice(0, 5);
+---
+
+<Base
+  title="All self-hosted software"
+  description={`Complete catalogue of ${meta.counts.software} self-hosted, open-source projects, each scored on maintenance health. Updated from repository data every week.`}
+  path="/software"
+>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Software' }]} />
+    <h1>All self-hosted software</h1>
+    <p class="lede" style="margin-top:.6rem">
+      {meta.counts.software} projects, each scored 0–100 on how actively it is maintained.
+      Data refreshed from source on {meta.dataDate.slice(0, 10)}.
+    </p>
+
+    <p class="small muted" style="margin-top:1rem">
+      Highest scoring today: {best.map((s, i) => (
+        <>{i > 0 ? ', ' : ''}<a href={`/software/${s.slug}`}>{s.name}</a> ({s.score})</>
+      ))}.
+    </p>
+
+    <nav class="toc alpha-nav" aria-label="Jump to letter">
+      {letters.map((l) => <a class="pill" href={`#${l === '#' ? 'other' : l}`}>{l}</a>)}
+    </nav>
+
+    {letters.map((l) => (
+      <section>
+        <h2 id={l === '#' ? 'other' : l}>{l}</h2>
+        <div class="tbl-scroll" style="margin-top:.8rem">
+          <table class="tbl">
+            <thead>
+              <tr><th>Project</th><th>Health</th><th>Stars</th><th>Category</th></tr>
+            </thead>
+            <tbody>
+              {groups.get(l)!.map((s) => (
+                <tr>
+                  <td>
+                    <a href={`/software/${s.slug}`}><strong>{s.name}</strong></a>
+                    <div class="small muted" style="max-width:52ch">{stripMd(s.description).slice(0, 120)}</div>
+                  </td>
+                  <td><HealthBadge status={s.status} score={s.score} /></td>
+                  <td class="num">{fmtNumber(s.stars)}</td>
+                  <td class="small muted">{s.tags[0] ?? '—'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

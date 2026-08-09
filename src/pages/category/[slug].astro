@@ -1,0 +1,99 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import HealthBadge from '../../components/HealthBadge.astro';
+import Sparkline from '../../components/Sparkline.astro';
+import SoftwareCard from '../../components/SoftwareCard.astro';
+import { tags, getSoftwareMany, fmtNumber, fmtDate } from '../../lib/data';
+import { categoryProse, stripMd } from '../../lib/prose';
+import { site } from '../../../site.config';
+
+export function getStaticPaths() {
+  return tags.map((tag) => ({ params: { slug: tag.slug }, props: { tag } }));
+}
+
+const { tag } = Astro.props;
+const members = getSoftwareMany(tag.members);
+const year = new Date().getFullYear();
+const intro = categoryProse(tag.name, members);
+
+const title = `Best self-hosted ${tag.name.toLowerCase()} (${year})`;
+const metaDesc = `${members.length} self-hosted ${tag.name.toLowerCase()} projects ranked by maintenance health, not popularity. Scores updated monthly from repository activity.`.slice(0, 158);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: title,
+  numberOfItems: members.length,
+  itemListElement: members.slice(0, 50).map((p, i) => ({
+    '@type': 'ListItem', position: i + 1, name: p.name, url: `${site.url}/software/${p.slug}`,
+  })),
+};
+---
+
+<Base title={title} description={metaDesc} path={`/category/${tag.slug}`} jsonLd={jsonLd}>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Categories', href: '/categories' }, { label: tag.name }]} />
+
+    <h1>Best self-hosted {tag.name.toLowerCase()}</h1>
+    {tag.description && <p class="lede" style="margin-top:.6rem">{tag.description}</p>}
+    <p class="muted small" style="margin-top:1rem;max-width:72ch">{intro}</p>
+
+    <div class="tbl-scroll" style="margin-top:1.5rem">
+      <table class="tbl">
+        <thead>
+          <tr>
+            <th>#</th><th>Project</th><th>Health</th><th>Activity</th>
+            <th>Stars</th><th>Built with</th><th>Last release</th>
+          </tr>
+        </thead>
+        <tbody>
+          {members.map((p, i) => (
+            <tr>
+              <td class="num muted">{i + 1}</td>
+              <td>
+                <a href={`/software/${p.slug}`}><strong>{p.name}</strong></a>
+                <div class="small muted" style="max-width:40ch">{stripMd(p.description).slice(0, 120)}</div>
+              </td>
+              <td><HealthBadge status={p.status} score={p.score} /></td>
+              <td style="min-width:100px"><Sparkline spark={p.spark} height={24} /></td>
+              <td class="num">{fmtNumber(p.stars)}</td>
+              <td class="small">{p.platforms.slice(0, 2).join(', ') || '—'}</td>
+              <td class="num small">{p.release?.publishedAt ? fmtDate(p.release.publishedAt) : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    {members.length >= 2 && (
+      <div class="narrow prose" style="margin-top:2rem">
+        <h2>Which one should you run?</h2>
+        <p>
+          If you want the safest bet on longevity, <a href={`/software/${members[0].slug}`}>{members[0].name}</a> is
+          the best-maintained project in this category right now
+          {members[0].score !== null ? ` at ${members[0].score}/100` : ''}.
+          {members[1] && (
+            <> <a href={`/software/${members[1].slug}`}>{members[1].name}</a> is the closest
+            runner-up{members[1].score !== null ? ` (${members[1].score}/100)` : ''} — see
+            the <a href={`/compare/${[members[0].slug, members[1].slug].sort().join('--vs--')}`}>side-by-side comparison</a>.</>
+          )}
+        </p>
+        <p class="small muted">
+          A health score measures whether a project is alive and shipping. It does not measure
+          whether it has the feature you need. Use it to rule options out, then compare on features.
+        </p>
+      </div>
+    )}
+
+    {tag.related.length > 0 && (
+      <>
+        <hr class="hr" />
+        <h2 style="margin-top:0">Related categories</h2>
+        <div class="pill-row" style="margin-top:.8rem">
+          {tag.related.map((r) => <a class="pill" href={`/category/${r.slug}`}>{r.name}</a>)}
+        </div>
+      </>
+    )}
+  </div>
+</Base>

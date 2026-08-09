@@ -1,0 +1,138 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import HealthBadge from '../../components/HealthBadge.astro';
+import HostingCTA from '../../components/HostingCTA.astro';
+import Sparkline from '../../components/Sparkline.astro';
+import { alternatives, getSoftwareMany, fmtNumber, fmtDate, HISTORY_MONTHS } from '../../lib/data';
+import { stripMd } from '../../lib/prose';
+import { getEnrichment } from '../../lib/enriched';
+import { site } from '../../../site.config';
+
+export function getStaticPaths() {
+  return alternatives.map((alt) => ({ params: { slug: alt.slug }, props: { alt } }));
+}
+
+const { alt } = Astro.props;
+const picks = getSoftwareMany(alt.picks);
+const top = picks[0];
+// On dimensionne l'offre d'hébergement sur le choix recommandé, pas sur une moyenne.
+const ramGb = top?.ramGb ?? 1;
+
+const healthy = picks.filter((p) => (p.score ?? 0) >= 68).length;
+const title = `Self-hosted ${alt.name} alternatives`;
+const metaDesc = `${picks.length} open-source, self-hosted alternatives to ${alt.name}, scored on real maintenance activity. ${healthy} of them are actively maintained. Updated ${new Date().toISOString().slice(0, 7)}.`.slice(0, 158);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: title,
+    numberOfItems: picks.length,
+    itemListElement: picks.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: p.name,
+      url: `${site.url}/software/${p.slug}`,
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
+      { '@type': 'ListItem', position: 2, name: 'Alternatives', item: `${site.url}/alternatives` },
+      { '@type': 'ListItem', position: 3, name: alt.name, item: `${site.url}/alternatives/${alt.slug}` },
+    ],
+  },
+];
+---
+
+<Base title={title} description={metaDesc} path={`/alternatives/${alt.slug}`} jsonLd={jsonLd}>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Alternatives', href: '/alternatives' }, { label: alt.name }]} />
+
+    <h1>Self-hosted alternatives to {alt.name}</h1>
+    <p class="lede" style="margin-top:.6rem">{alt.pain}</p>
+
+    <p class="muted small" style="margin-top:1rem;max-width:70ch">
+      Below are {picks.length} open-source projects that cover the same ground, each scored 0–100 on
+      how actively it is actually maintained — commit volume, release cadence and recent trend.
+      {healthy > 0
+        ? ` ${healthy} of the ${picks.length} are currently rated healthy or better.`
+        : ' None of them are currently in the top health band, which is itself worth knowing before you migrate.'}
+      Ordering reflects that score, not sponsorship.
+    </p>
+
+    {top && (
+      <div class="verdict" style="margin-top:1.5rem">
+        <strong>Shortest path:</strong> {top.name} is the best-maintained option here
+        {top.score !== null ? ` (health ${top.score}/100)` : ''}. {stripMd(top.description)}
+      </div>
+    )}
+
+    <div class="tbl-scroll" style="margin-top:1.5rem">
+      <table class="tbl">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Health</th>
+            <th>Activity ({HISTORY_MONTHS} mo)</th>
+            <th>Stars</th>
+            <th>Licence</th>
+            <th>Last release</th>
+          </tr>
+        </thead>
+        <tbody>
+          {picks.map((p) => (
+            <tr>
+              <td>
+                <a href={`/software/${p.slug}`}><strong>{p.name}</strong></a>
+                <div class="small muted" style="max-width:38ch">{stripMd(p.description).slice(0, 110)}</div>
+              </td>
+              <td><HealthBadge status={p.status} score={p.score} /></td>
+              <td style="min-width:110px"><Sparkline spark={p.spark} height={26} /></td>
+              <td class="num">{fmtNumber(p.stars)}</td>
+              <td class="num small">{p.licenses[0] ?? '—'}</td>
+              <td class="num small">{p.release?.publishedAt ? fmtDate(p.release.publishedAt) : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="narrow prose" style="margin-top:2.2rem">
+      <h2>How these were picked</h2>
+      <p>
+        Every project listed here is open source and can run entirely on hardware you control.
+        We start from the categories that match {alt.name}'s job
+        {alt.tags.length > 0 && (
+          <> — {alt.tags.map((t, i) => <>{i > 0 ? ', ' : ''}<a href={`/category/${t.slug}`}>{t.name}</a></>)}</>
+        )} — then rank by health score so that a popular-but-abandoned project never appears
+        above a smaller one that is actively shipping.
+        <a href="/methodology">The scoring method is documented in full</a>.
+      </p>
+      <p>
+        The scores are recomputed from repository data on every rebuild, so this page reflects
+        the state of these projects as of {fmtDate(new Date().toISOString())} — not the day it was written.
+      </p>
+    </div>
+
+    {picks.slice(0, 5).map((p) => {
+      const e = getEnrichment(p.slug);
+      return (
+        <div class="narrow prose" style="margin-top:2rem">
+          <h2 id={p.slug}>{p.name}</h2>
+          <p>{stripMd(p.description)}</p>
+          {e?.goodFor && <p><strong>Best fit:</strong> {e.goodFor}</p>}
+          {e?.watchOut && <p><strong>Worth knowing:</strong> {e.watchOut}</p>}
+          <p class="small">
+            <a href={`/software/${p.slug}`}>Full health breakdown for {p.name} →</a>
+          </p>
+        </div>
+      );
+    })}
+
+    {top && <div class="narrow"><HostingCTA ramGb={ramGb} appName={top.name} /></div>}
+  </div>
+</Base>

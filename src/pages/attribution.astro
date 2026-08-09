@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { meta } from '../lib/data';
+---
+<Base
+  title="Data and attribution"
+  description="Where the underlying software metadata comes from, how it is licensed, and what we add to it."
+  path="/attribution"
+>
+  <div class="wrap narrow prose">
+    <Breadcrumbs items={[{ label: 'Data & attribution' }]} />
+    <h1>Data and attribution</h1>
+
+    <h2>Source dataset</h2>
+    <p>
+      Software names, descriptions, categories, licences, platforms and repository metrics are
+      derived from
+      <a href="https://github.com/awesome-selfhosted/awesome-selfhosted-data" rel="noopener">awesome-selfhosted-data</a>,
+      a community-maintained catalogue of self-hosted software, used under the
+      <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener">Creative Commons Attribution-ShareAlike 3.0 Unported</a>
+      licence. The snapshot used for this build is commit <code>{meta.dataCommit}</code>, dated
+      {' '}{meta.dataDate.slice(0, 10)}.
+    </p>
+    <p>
+      In keeping with the ShareAlike term, the descriptive metadata reproduced on this site remains
+      available under CC-BY-SA 3.0. Credit for that catalogue belongs to its contributors, not to us.
+    </p>
+
+    <h2>What we add</h2>
+    <p>
+      The health scores, percentile rankings, category orderings, comparisons and all written
+      analysis on this site are ours. They are computed from the metrics above using the method
+      published on the <a href="/methodology">methodology page</a>. Those derived works are not
+      part of the upstream dataset and are not claimed by it.
+    </p>
+
+    <h2>Corrections</h2>
+    <p>
+      If a project's metadata is wrong — a broken link, a missing licence, an outdated
+      description — the durable fix is upstream, where it benefits everyone using that dataset.
+      Corrections merged there appear here automatically on the next weekly rebuild.
+    </p>
+    <p>
+      If our <em>scoring</em> misrepresents a project, that is on us: the
+      <a href="/methodology">methodology page</a> documents the known limitations of the method,
+      including the specific case of small, finished tools that need few commits.
+    </p>
+  </div>
+</Base>

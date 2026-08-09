@@ -1,0 +1,172 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import HealthBadge from '../../components/HealthBadge.astro';
+import ScoreBreakdown from '../../components/ScoreBreakdown.astro';
+import Sparkline from '../../components/Sparkline.astro';
+import SoftwareCard from '../../components/SoftwareCard.astro';
+import HostingCTA from '../../components/HostingCTA.astro';
+import {
+  software, getSoftware, getSoftwareMany, getTagByName, alternatives,
+  licenses, fmtNumber, fmtDate, STATUS_META, HISTORY_MONTHS,
+} from '../../lib/data';
+import { maintenanceProse, positionProse, stripMd } from '../../lib/prose';
+import { getEnrichment } from '../../lib/enriched';
+import { site } from '../../../site.config';
+
+export function getStaticPaths() {
+  return software.map((sw) => ({ params: { slug: sw.slug }, props: { sw } }));
+}
+
+const { sw } = Astro.props;
+const desc = stripMd(sw.description);
+const status = STATUS_META[sw.status];
+const enriched = getEnrichment(sw.slug);
+
+// Position dans sa catégorie principale : contexte concurrentiel unique à cette page.
+const primaryTag = sw.tags[0] ? getTagByName(sw.tags[0]) : undefined;
+const rank = primaryTag ? primaryTag.members.indexOf(sw.slug) + 1 : 0;
+const position = primaryTag && rank > 0 ? positionProse(sw, primaryTag.name, rank, primaryTag.count) : '';
+
+const prose = maintenanceProse(sw);
+const related = getSoftwareMany(sw.related);
+const featuredIn = alternatives.filter((a) => sw.featuredIn.includes(a.slug));
+const licenseInfo = sw.licenses.map((id) => licenses.find((l) => l.id === id)).filter(Boolean);
+
+const title = `${sw.name} — health score, activity and hosting requirements`;
+const metaDesc = `${sw.name}: ${status.label.toLowerCase()}${sw.score !== null ? ` (${sw.score}/100)` : ''}. ${desc}`.slice(0, 158);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: sw.name,
+    description: desc,
+    applicationCategory: sw.tags[0] ?? 'Server software',
+    operatingSystem: sw.platforms.join(', ') || 'Cross-platform',
+    url: sw.website ?? `${site.url}/software/${sw.slug}`,
+    softwareVersion: sw.release?.tag ?? undefined,
+    license: licenseInfo[0]?.url ?? undefined,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    ...(sw.score !== null && {
+      aggregateRating: undefined, // pas d'avis utilisateurs : on ne simule pas de notes
+    }),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
+      { '@type': 'ListItem', position: 2, name: 'Software', item: `${site.url}/software` },
+      { '@type': 'ListItem', position: 3, name: sw.name, item: `${site.url}/software/${sw.slug}` },
+    ],
+  },
+];
+---
+
+<Base title={title} description={metaDesc} path={`/software/${sw.slug}`} jsonLd={jsonLd}>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Software', href: '/software' }, { label: sw.name }]} />
+
+    <header style="display:flex;align-items:flex-start;gap:1rem;flex-wrap:wrap;justify-content:space-between">
+      <div>
+        <h1>{sw.name}</h1>
+        <p class="lede" style="margin-top:.5rem">{desc}</p>
+      </div>
+      <HealthBadge status={sw.status} score={sw.score} />
+    </header>
+
+    <div class="pill-row" style="margin-top:1rem">
+      {sw.tags.map((t) => {
+        const tg = getTagByName(t);
+        return tg ? <a class="pill" href={`/category/${tg.slug}`}>{t}</a> : <span class="pill">{t}</span>;
+      })}
+    </div>
+
+    <div class="grid grid-2" style="margin-top:1.6rem;align-items:start">
+      <ScoreBreakdown sw={sw} />
+
+      <div class="card">
+        <h3 style="font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--fg-faint)">
+          Commits, last {HISTORY_MONTHS} months
+        </h3>
+        <div style="margin:.7rem 0 .4rem"><Sparkline spark={sw.spark} height={44} /></div>
+        <div class="meta-row small" style="justify-content:space-between">
+          <span>{sw.spark[0]?.month}</span>
+          <span>{sw.signals?.c12 ?? 0} total</span>
+          <span>{sw.spark[sw.spark.length - 1]?.month}</span>
+        </div>
+        <table class="tbl" style="margin-top:1rem">
+          <tbody>
+            <tr><th>Stars</th><td class="num">{fmtNumber(sw.stars)}</td></tr>
+            <tr><th>Latest release</th><td class="num">{sw.release?.tag ?? '—'} <span class="muted">{sw.release?.publishedAt ? `· ${fmtDate(sw.release.publishedAt)}` : ''}</span></td></tr>
+            <tr><th>Repo updated</th><td class="num">{fmtDate(sw.updatedAt)}</td></tr>
+            <tr><th>Licence</th><td>{licenseInfo.length
+              ? licenseInfo.map((l) => <a href={`/license/${l!.slug}`}>{l!.id}</a>)
+              : sw.licenses.join(', ') || '—'}</td></tr>
+            <tr><th>Built with</th><td>{sw.platforms.join(', ') || '—'}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="narrow prose" style="margin-top:2rem">
+      <h2>Is {sw.name} actively maintained?</h2>
+      {prose.map((p) => <p>{p}</p>)}
+      {position && <p>{position}</p>}
+
+      {enriched?.summary && (
+        <>
+          <h2>What {sw.name} actually does</h2>
+          <p>{enriched.summary}</p>
+          {enriched.goodFor && <p><strong>Best fit:</strong> {enriched.goodFor}</p>}
+          {enriched.watchOut && <p><strong>Worth knowing:</strong> {enriched.watchOut}</p>}
+        </>
+      )}
+
+      {enriched?.deployNotes && (
+        <>
+          <h2>Deployment notes</h2>
+          <p>{enriched.deployNotes}</p>
+        </>
+      )}
+    </div>
+
+    <div class="narrow"><HostingCTA ramGb={sw.ramGb} appName={sw.name} /></div>
+
+    <div class="narrow prose">
+      <h2>Links</h2>
+      <ul>
+        {sw.website && <li><a href={sw.website} rel="noopener nofollow" target="_blank">Official website</a></li>}
+        {sw.sourceCode && <li><a href={sw.sourceCode} rel="noopener nofollow" target="_blank">Source code</a></li>}
+        {sw.documentation && <li><a href={sw.documentation} rel="noopener nofollow" target="_blank">Documentation</a></li>}
+        {sw.demo && <li><a href={sw.demo} rel="noopener nofollow" target="_blank">Live demo</a></li>}
+      </ul>
+    </div>
+
+    {featuredIn.length > 0 && (
+      <>
+        <hr class="hr" />
+        <h2 style="margin-top:0">{sw.name} as a replacement for</h2>
+        <div class="pill-row" style="margin-top:.8rem">
+          {featuredIn.map((a) => (
+            <a class="pill" href={`/alternatives/${a.slug}`}>Self-hosted {a.name} alternative</a>
+          ))}
+        </div>
+      </>
+    )}
+
+    {related.length > 0 && (
+      <>
+        <hr class="hr" />
+        <h2 style="margin-top:0">Alternatives to {sw.name}</h2>
+        <p class="muted small" style="margin-bottom:1rem">
+          Projects in the same categories, ordered by health score.
+        </p>
+        <div class="grid grid-3">
+          {related.map((r) => <SoftwareCard sw={r} />)}
+        </div>
+      </>
+    )}
+  </div>
+</Base>

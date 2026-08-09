@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import SoftwareCard from '../../components/SoftwareCard.astro';
+import { licenses, getSoftwareMany } from '../../lib/data';
+
+export function getStaticPaths() {
+  return licenses.map((lic) => ({ params: { slug: lic.slug }, props: { lic } }));
+}
+const { lic } = Astro.props;
+const members = getSoftwareMany(lic.members);
+const healthy = members.filter((m) => (m.score ?? 0) >= 68).length;
+---
+
+<Base
+  title={`Self-hosted software under ${lic.id}`}
+  description={`${lic.count} self-hosted projects released under the ${lic.name}, ranked by maintenance health.`}
+  path={`/license/${lic.slug}`}
+>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Licences', href: '/licenses' }, { label: lic.id }]} />
+    <h1>Self-hosted software under {lic.id}</h1>
+    <p class="lede" style="margin-top:.6rem">
+      {lic.count} of the projects we track are released under the {lic.name}
+      {lic.url && <> (<a href={lic.url} rel="noopener nofollow" target="_blank">licence text</a>)</>}.
+      {healthy} of them are currently rated healthy or better.
+    </p>
+    <p class="muted small" style="margin-top:.9rem;max-width:70ch">
+      Licence choice matters for self-hosting: copyleft licences such as AGPL-3.0 require you to
+      publish modifications you expose over a network, while permissive ones such as MIT and
+      Apache-2.0 do not. This page is a catalogue, not legal advice.
+    </p>
+    <div class="grid grid-3" style="margin-top:1.6rem">
+      {members.map((s) => <SoftwareCard sw={s} />)}
+    </div>
+  </div>
+</Base>

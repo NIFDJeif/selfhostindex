@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { tags, getSoftware, meta } from '../lib/data';
+
+const sorted = tags.slice().sort((a, b) => a.name.localeCompare(b.name, 'en'));
+---
+
+<Base
+  title="All categories"
+  description={`Browse ${meta.counts.tags} categories of self-hosted software, each ranked by maintenance health score.`}
+  path="/categories"
+>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Categories' }]} />
+    <h1>All categories</h1>
+    <p class="lede" style="margin-top:.6rem">
+      {meta.counts.tags} categories covering {meta.counts.software} projects. Every list is ordered
+      by health score, so the top entry is the best-maintained option — not the most starred one.
+    </p>
+
+    <div class="tbl-scroll" style="margin-top:1.6rem">
+      <table class="tbl">
+        <thead><tr><th>Category</th><th>Projects</th><th>Best maintained</th></tr></thead>
+        <tbody>
+          {sorted.map((t) => {
+            const top = getSoftware(t.members[0]);
+            return (
+              <tr>
+                <td>
+                  <a href={`/category/${t.slug}`}><strong>{t.name}</strong></a>
+                  {t.description && <div class="small muted" style="max-width:56ch">{t.description}</div>}
+                </td>
+                <td class="num">{t.count}</td>
+                <td class="small">
+                  {top && <><a href={`/software/${top.slug}`}>{top.name}</a>{top.score !== null && <span class="muted"> · {top.score}</span>}</>}
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

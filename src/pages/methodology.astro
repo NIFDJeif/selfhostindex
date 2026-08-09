@@ -1,0 +1,118 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { meta, software, HISTORY_MONTHS } from '../lib/data';
+
+const scored = software.filter((s) => s.score !== null).map((s) => s.score!);
+const dist = [
+  { label: 'Thriving', range: '82–100', n: scored.filter((s) => s >= 82).length },
+  { label: 'Healthy', range: '68–81', n: scored.filter((s) => s >= 68 && s < 82).length },
+  { label: 'Steady', range: '52–67', n: scored.filter((s) => s >= 52 && s < 68).length },
+  { label: 'Slowing', range: '36–51', n: scored.filter((s) => s >= 36 && s < 52).length },
+  { label: 'At risk', range: '0–35', n: scored.filter((s) => s < 36).length },
+];
+const median = scored.slice().sort((a, b) => a - b)[Math.floor(scored.length / 2)];
+---
+
+<Base
+  title="How the health score is calculated"
+  description="The full method behind our 0–100 maintenance health score for self-hosted software: inputs, weights, thresholds and known limitations."
+  path="/methodology"
+>
+  <div class="wrap narrow prose">
+    <Breadcrumbs items={[{ label: 'Methodology' }]} />
+    <h1>How the health score is calculated</h1>
+    <p class="lede" style="margin-top:.7rem">
+      The score answers one question: <em>is this project likely to still be maintained in two
+      years?</em> It says nothing about features, security or fitness for your use case.
+    </p>
+
+    <h2>Inputs</h2>
+    <p>
+      Everything comes from public repository metadata in the
+      <a href="https://github.com/awesome-selfhosted/awesome-selfhosted-data" rel="noopener">awesome-selfhosted</a>
+      dataset: monthly commit counts, tagged releases, star counts and archive status. We add no
+      private data and run no crawlers of our own. The snapshot behind this build is from
+      <strong>{meta.dataDate.slice(0, 10)}</strong>.
+    </p>
+    <p>
+      The source keeps a rolling window of commit history whose most recent month is still in
+      progress. We drop that partial month and measure the {HISTORY_MONTHS} complete months behind
+      it, rather than assuming a fixed year — otherwise the oldest bar on every activity chart
+      would read zero simply because the data does not go back that far.
+    </p>
+
+    <h2>The four components</h2>
+    <table class="tbl">
+      <thead><tr><th>Component</th><th>Points</th><th>Basis</th></tr></thead>
+      <tbody>
+        <tr><th>Maintenance</th><td class="num">40</td><td>Commits over the last {HISTORY_MONTHS} complete months, expressed as a percentile against every scored project</td></tr>
+        <tr><th>Releases</th><td class="num">25</td><td>Days since the most recent tagged release. Absolute thresholds, not relative</td></tr>
+        <tr><th>Community</th><td class="num">20</td><td>Repository stars, as a percentile against every scored project</td></tr>
+        <tr><th>Momentum</th><td class="num">15</td><td>Commits in the last 3 months against the 3 months before</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Why percentiles</h2>
+    <p>
+      Two components are scored <em>relative to the whole catalogue</em> rather than against fixed
+      thresholds. Absolute thresholds sound more objective but behave badly: pick any cutoff for
+      "enough commits" and a large share of projects cluster at the ceiling, which means the score
+      stops distinguishing anything. Ranking against {scored.length} peers guarantees the scale
+      stays spread out, and it cannot be inflated by pushing trivial commits, because everyone
+      else's rank moves too.
+    </p>
+    <p>
+      Release recency and momentum stay absolute, because those two <em>do</em> have a meaning
+      independent of the field. A release three years old is stale whether or not other projects
+      are worse.
+    </p>
+
+    <h2>Current distribution</h2>
+    <p>Across {scored.length} scored projects, the median is <strong>{median}</strong>.</p>
+    <table class="tbl">
+      <thead><tr><th>Band</th><th>Score</th><th>Projects</th><th>Share</th></tr></thead>
+      <tbody>
+        {dist.map((d) => (
+          <tr>
+            <th>{d.label}</th><td class="num">{d.range}</td><td class="num">{d.n}</td>
+            <td class="num">{((100 * d.n) / scored.length).toFixed(1)}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    <h2>What the score does not measure</h2>
+    <ul>
+      <li><strong>Security.</strong> An actively developed project can still be badly written. We measure activity, not code quality or audit history.</li>
+      <li><strong>Features.</strong> A lower-scoring project may do exactly what you need while the leader does not.</li>
+      <li><strong>Stability of small projects.</strong> A finished, single-purpose tool that needs no changes will score low on commit volume. That is a real limitation of the method, and why "at risk" is worded as a prompt to check rather than a verdict.</li>
+      <li><strong>Non-GitHub development.</strong> Projects whose main activity happens on a mailing list, Codeberg or a private mirror will be understated.</li>
+      <li><strong>Forks and successors.</strong> A project can be effectively continued under a new name; the score follows repositories, not lineages.</li>
+    </ul>
+
+    <h2>Projects with no score</h2>
+    <p>
+      Where there is no public repository to measure, we show <em>Unrated</em> rather than
+      inventing a number. Archived repositories are shown as <em>Discontinued</em> and are excluded
+      from the percentile base, so that dead projects do not drag the scale down and flatter
+      everyone else.
+    </p>
+
+    <h2>Update cadence</h2>
+    <p>
+      The source dataset is refreshed weekly and the whole site is rebuilt from scratch each time,
+      so every score, ranking and comparison on this site reflects the most recent snapshot.
+      Nothing here is hand-written per project, which means nothing here goes quietly stale.
+    </p>
+
+    <h2>Corrections</h2>
+    <p>
+      If a project is misrepresented, the underlying data is community-maintained and open to
+      correction — issues can be filed against the
+      <a href="https://github.com/awesome-selfhosted/awesome-selfhosted-data" rel="noopener">upstream dataset</a>,
+      and the fix will flow into the next weekly rebuild here. See also
+      <a href="/attribution">data and attribution</a>.
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,137 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ScoreBreakdown from '../../components/ScoreBreakdown.astro';
+import Sparkline from '../../components/Sparkline.astro';
+import HostingCTA from '../../components/HostingCTA.astro';
+import { comparePairs, getSoftware, getTag, fmtNumber, fmtDate, HISTORY_MONTHS, software as allSoftware } from '../../lib/data';
+import { compareVerdict, stripMd } from '../../lib/prose';
+import { site } from '../../../site.config';
+
+export function getStaticPaths() {
+  return comparePairs.map((pair) => ({ params: { slug: pair.slug }, props: { pair } }));
+}
+
+const { pair } = Astro.props;
+const a = getSoftware(pair.a)!;
+const b = getSoftware(pair.b)!;
+const tag = getTag(pair.tag);
+const verdict = compareVerdict(a, b);
+
+// Différences factuelles : chaque ligne oppose deux valeurs mesurées.
+const rows: { label: string; a: string; b: string; winner: 'a' | 'b' | null }[] = [
+  {
+    label: 'Health score',
+    a: a.score !== null ? `${a.score}/100` : '—',
+    b: b.score !== null ? `${b.score}/100` : '—',
+    winner: a.score === b.score ? null : (a.score ?? -1) > (b.score ?? -1) ? 'a' : 'b',
+  },
+  {
+    label: `Commits (${HISTORY_MONTHS} mo)`,
+    a: String(a.signals?.c12 ?? 0), b: String(b.signals?.c12 ?? 0),
+    winner: (a.signals?.c12 ?? 0) === (b.signals?.c12 ?? 0) ? null : (a.signals?.c12 ?? 0) > (b.signals?.c12 ?? 0) ? 'a' : 'b',
+  },
+  {
+    label: 'Commits (last 3 mo)',
+    a: String(a.signals?.c3 ?? 0), b: String(b.signals?.c3 ?? 0),
+    winner: (a.signals?.c3 ?? 0) === (b.signals?.c3 ?? 0) ? null : (a.signals?.c3 ?? 0) > (b.signals?.c3 ?? 0) ? 'a' : 'b',
+  },
+  {
+    label: 'Stars', a: fmtNumber(a.stars), b: fmtNumber(b.stars),
+    winner: a.stars === b.stars ? null : a.stars > b.stars ? 'a' : 'b',
+  },
+  {
+    label: 'Latest release',
+    a: a.release?.publishedAt ? fmtDate(a.release.publishedAt) : 'none tagged',
+    b: b.release?.publishedAt ? fmtDate(b.release.publishedAt) : 'none tagged',
+    winner: null,
+  },
+  { label: 'Licence', a: a.licenses.join(', ') || '—', b: b.licenses.join(', ') || '—', winner: null },
+  { label: 'Built with', a: a.platforms.join(', ') || '—', b: b.platforms.join(', ') || '—', winner: null },
+  { label: 'Typical RAM', a: `${a.ramGb} GB`, b: `${b.ramGb} GB`, winner: null },
+];
+
+const title = `${a.name} vs ${b.name}`;
+const metaDesc = `${a.name} vs ${b.name}: side-by-side comparison of maintenance health, commit activity, release cadence and licensing. Scores recomputed from repository data.`.slice(0, 158);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: `${site.url}/compare` },
+    { '@type': 'ListItem', position: 3, name: title, item: `${site.url}/compare/${pair.slug}` },
+  ],
+};
+---
+
+<Base title={title} description={metaDesc} path={`/compare/${pair.slug}`} jsonLd={jsonLd}>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Compare', href: '/compare' }, { label: `${a.name} vs ${b.name}` }]} />
+
+    <h1>{a.name} vs {b.name}</h1>
+    <p class="lede" style="margin-top:.6rem">
+      Both are self-hosted {pair.tagName.toLowerCase()} projects. This page compares how well each
+      one is actually maintained — the part you cannot see from a feature list.
+    </p>
+
+    <div class="verdict" style="margin-top:1.4rem">{verdict}</div>
+
+    <div class="tbl-scroll" style="margin-top:1.6rem">
+      <table class="tbl">
+        <thead>
+          <tr><th></th><th>{a.name}</th><th>{b.name}</th></tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <th>{r.label}</th>
+              <td class="num"><span style={r.winner === 'a' ? 'font-weight:660' : ''}>{r.a}</span></td>
+              <td class="num"><span style={r.winner === 'b' ? 'font-weight:660' : ''}>{r.b}</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="vs-grid" style="margin-top:1.8rem">
+      {[a, b].map((s) => (
+        <div>
+          <h2 style="margin-top:0"><a href={`/software/${s.slug}`}>{s.name}</a></h2>
+          <p class="small muted" style="margin-bottom:.9rem">{stripMd(s.description)}</p>
+          <ScoreBreakdown sw={s} />
+          <div class="card" style="margin-top:.85rem">
+            <h3 style="font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--fg-faint);margin-bottom:.6rem">
+              Commits, last {HISTORY_MONTHS} months
+            </h3>
+            <Sparkline spark={s.spark} height={38} />
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div class="narrow prose" style="margin-top:2rem">
+      <h2>How to read this</h2>
+      <p>
+        Everything above is measured, not opinion: commit counts and release dates come from the
+        public repositories, and the health score ranks each project against all
+        {' '}{allSoftware.length} projects we track.
+        <a href="/methodology">Read the full method</a>.
+      </p>
+      <p>
+        What this comparison deliberately does not do is tell you which has the better feature set.
+        Maintenance health tells you which project will still be receiving security fixes in two
+        years. Decide that first, then compare features on the projects that survive the filter.
+      </p>
+      {tag && (
+        <p>
+          See every option in this category: <a href={`/category/${tag.slug}`}>self-hosted {tag.name.toLowerCase()}</a>.
+        </p>
+      )}
+    </div>
+
+    <div class="narrow">
+      <HostingCTA ramGb={Math.max(a.ramGb, b.ramGb)} appName={(a.score ?? 0) >= (b.score ?? 0) ? a.name : b.name} />
+    </div>
+  </div>
+</Base>

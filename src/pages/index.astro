@@ -1,0 +1,134 @@
+---
+import Base from '../layouts/Base.astro';
+import SoftwareCard from '../components/SoftwareCard.astro';
+import HealthBadge from '../components/HealthBadge.astro';
+import { meta, tags, alternatives, getSoftwareMany, fmtNumber, HISTORY_MONTHS } from '../lib/data';
+import { site } from '../../site.config';
+
+const topRated = getSoftwareMany(meta.topRated).slice(0, 9);
+const rising = getSoftwareMany(meta.rising).slice(0, 6);
+const atRisk = getSoftwareMany(meta.atRisk).slice(0, 6);
+const bigCategories = tags.slice().sort((a, b) => b.count - a.count).slice(0, 14);
+const popularAlts = alternatives.slice(0, 16);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: site.name,
+  url: site.url,
+  description: site.description,
+};
+---
+
+<Base title="Home" description={site.description} path="/" jsonLd={jsonLd}>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Which self-hosted projects are actually still alive?</h1>
+      <p class="lede" style="margin-top:.8rem">
+        Every directory tells you what exists. None tell you what is still maintained.
+        We score {meta.counts.software} self-hosted projects from 0 to 100 on real repository
+        activity — commit volume, release cadence and recent trend — so you can rule out the
+        dead ones before you spend a weekend deploying them.
+      </p>
+
+      <div class="stat-row">
+        <div class="stat"><div class="n">{fmtNumber(meta.counts.software)}</div><div class="l">projects scored</div></div>
+        <div class="stat"><div class="n">{meta.counts.tags}</div><div class="l">categories</div></div>
+        <div class="stat"><div class="n">{meta.counts.alternatives}</div><div class="l">SaaS migrations</div></div>
+        <div class="stat"><div class="n">{fmtNumber(meta.counts.compare)}</div><div class="l">head-to-heads</div></div>
+        <div class="stat"><div class="n">{meta.dataDate.slice(0, 10)}</div><div class="l">data as of</div></div>
+      </div>
+    </section>
+
+    <hr class="hr" />
+
+    <h2 style="margin-top:0">Leaving a SaaS product?</h2>
+    <p class="muted small" style="margin-bottom:1rem">
+      The self-hosted replacements for the tools people most often want to drop, ranked by health.
+    </p>
+    <div class="pill-row">
+      {popularAlts.map((a) => (
+        <a class="pill" href={`/alternatives/${a.slug}`}>{a.name} alternatives</a>
+      ))}
+      <a class="pill" href="/alternatives"><strong>See all {meta.counts.alternatives} →</strong></a>
+    </div>
+
+    <hr class="hr" />
+
+    <h2 style="margin-top:0">Best maintained right now</h2>
+    <p class="muted small" style="margin-bottom:1rem">
+      Highest health scores across the whole catalogue, recomputed on every rebuild.
+    </p>
+    <div class="grid grid-3">
+      {topRated.map((s, i) => <SoftwareCard sw={s} rank={i + 1} />)}
+    </div>
+
+    <hr class="hr" />
+
+    <div class="grid grid-2" style="align-items:start">
+      <div>
+        <h2 style="margin-top:0">Gaining momentum</h2>
+        <p class="muted small" style="margin-bottom:.9rem">
+          Commit activity up sharply this quarter versus last.
+        </p>
+        <div class="stack">
+          {rising.map((s) => (
+            <a class="card sw-card" href={`/software/${s.slug}`}>
+              <div class="top">
+                <span class="name">{s.name}</span>
+                <HealthBadge status={s.status} score={s.score} />
+              </div>
+              <div class="foot">
+                <span>{s.signals?.prev3} → {s.signals?.c3} commits/quarter</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <h2 style="margin-top:0">Popular but stalling</h2>
+        <p class="muted small" style="margin-bottom:.9rem">
+          Well-known projects with little recent activity. Check before you deploy.
+        </p>
+        <div class="stack">
+          {atRisk.map((s) => (
+            <a class="card sw-card" href={`/software/${s.slug}`}>
+              <div class="top">
+                <span class="name">{s.name}</span>
+                <HealthBadge status={s.status} score={s.score} />
+              </div>
+              <div class="foot"><span>★ {fmtNumber(s.stars)}</span><span>{s.signals?.c12 ?? 0} commits in {HISTORY_MONTHS} months</span></div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <hr class="hr" />
+
+    <h2 style="margin-top:0">Browse by category</h2>
+    <div class="pill-row" style="margin-top:1rem">
+      {bigCategories.map((t) => (
+        <a class="pill" href={`/category/${t.slug}`}>{t.name} <span class="muted">({t.count})</span></a>
+      ))}
+      <a class="pill" href="/categories"><strong>All {meta.counts.tags} categories →</strong></a>
+    </div>
+
+    <div class="narrow prose" style="margin-top:2.5rem">
+      <h2>Why a health score</h2>
+      <p>
+        Self-hosting fails in a specific way. You pick a project because it looks good and has
+        stars, you spend a weekend deploying it, and eighteen months later you discover the last
+        commit was before you started. Migrating away costs more than the original setup did.
+      </p>
+      <p>
+        Star counts do not tell you this — they are cumulative and never go down. A project with
+        30,000 stars and no commits in a year looks more attractive than a 400-star project
+        shipping weekly, and it is the worse choice. The score on this site is designed to invert
+        that, by ranking every project against the whole catalogue on activity that actually
+        decays. <a href="/methodology">See exactly how it is computed</a>.
+      </p>
+    </div>
+  </div>
+</Base>

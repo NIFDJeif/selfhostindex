@@ -1,0 +1,111 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# LE MOTEUR AUTONOME
+#
+# Ce workflow est la seule chose qui doit tourner pour que le site vive.
+# Il s'exécute chaque jour sans intervention :
+#
+#   1. récupère les données amont fraîches (activité réelle des dépôts) ;
+#   2. recalcule les 1 347 scores de santé et tous les classements ;
+#   3. rédige 40 nouvelles fiches éditoriales via l'API gratuite de Gemini ;
+#   4. construit le site EN ENTIER — si le build casse, on ne pousse rien
+#      (ce garde-fou évite de mettre le site en ligne dans un état cassé) ;
+#   5. commit + push, ce qui déclenche le déploiement Cloudflare Pages ;
+#   6. notifie les moteurs de recherche des nouvelles URL.
+#
+# Coût : 0 €. Dépôt public = minutes GitHub Actions illimitées.
+# ─────────────────────────────────────────────────────────────────────────────
+name: Refresh data, enrich and deploy
+
+on:
+  schedule:
+    # 04:17 UTC. Heure décalée volontairement : les crons à pile sont saturés
+    # chez GitHub et se retrouvent mis en file d'attente pendant des dizaines
+    # de minutes.
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Nombre de fiches à enrichir sur cette exécution"
+        required: false
+        default: '40'
+
+concurrency:
+  # Deux exécutions simultanées se marcheraient dessus au moment du push.
+  group: refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Fetch upstream dataset
+        run: npm run data:fetch
+
+      - name: Rebuild index and health scores
+        run: npm run data:build
+
+      - name: Enrich entries (free Gemini tier)
+        # continue-on-error : une panne d'API ou un quota épuisé ne doit jamais
+        # empêcher la mise à jour des scores, qui est le cœur du produit.
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ENRICH_BATCH: ${{ github.event.inputs.batch || '40' }}
+        run: npm run enrich
+
+      - name: Build site (garde-fou avant publication)
+        run: npm run build
+
+      - name: Commit refreshed data
+        id: commit
+        run: |
+          git config user.name  "selfhostindex-bot"
+          git config user.email "actions@github.com"
+          git add src/data data/enriched
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Aucun changement — rien à publier aujourd'hui."
+          else
+            SCORES=$(git diff --staged --numstat -- src/data | wc -l)
+            NEW=$(git diff --staged --name-only --diff-filter=A -- data/enriched | wc -l)
+            git commit -m "data: refresh scores, +${NEW} enriched entries
+
+          Automated daily rebuild. ${SCORES} data file(s) changed."
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push (déclenche le déploiement Cloudflare Pages)
+        if: steps.commit.outputs.changed == 'true'
+        run: git push
+
+      - name: Notify search engines
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        run: npm run indexnow
+
+      - name: Résumé
+        run: |
+          {
+            echo "### Rebuild du $(date -u +'%Y-%m-%d')"
+            echo ""
+            echo "- Pages construites : $(find dist -name '*.html' | wc -l)"
+            echo "- Fiches enrichies au total : $(ls data/enriched/*.json 2>/dev/null | wc -l)"
+            echo "- Changements publiés : ${{ steps.commit.outputs.changed }}"
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { alternatives, getSoftwareMany, meta } from '../lib/data';
+
+const rows = alternatives
+  .map((a) => ({ alt: a, picks: getSoftwareMany(a.picks) }))
+  .sort((x, y) => x.alt.name.localeCompare(y.alt.name, 'en'));
+---
+
+<Base
+  title="Self-hosted alternatives to popular SaaS"
+  description={`Open-source, self-hosted replacements for ${meta.counts.alternatives} popular SaaS products — each option scored on how actively it is maintained.`}
+  path="/alternatives"
+>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: 'Alternatives' }]} />
+    <h1>Self-hosted alternatives to popular SaaS</h1>
+    <p class="lede" style="margin-top:.6rem">
+      Leaving a subscription is easy to decide and hard to execute. For each product below we list
+      the open-source replacements that can run on your own server, ranked by maintenance health
+      rather than popularity.
+    </p>
+
+    <div class="tbl-scroll" style="margin-top:1.6rem">
+      <table class="tbl">
+        <thead>
+          <tr><th>Replace</th><th>Best-maintained option</th><th>Others</th></tr>
+        </thead>
+        <tbody>
+          {rows.map(({ alt, picks }) => (
+            <tr>
+              <td><a href={`/alternatives/${alt.slug}`}><strong>{alt.name}</strong></a></td>
+              <td>
+                {picks[0] && (
+                  <>
+                    <a href={`/software/${picks[0].slug}`}>{picks[0].name}</a>
+                    {picks[0].score !== null && <span class="muted small"> · {picks[0].score}/100</span>}
+                  </>
+                )}
+              </td>
+              <td class="small muted">
+                {picks.slice(1, 5).map((p, i) => <>{i > 0 ? ', ' : ''}<a href={`/software/${p.slug}`}>{p.name}</a></>)}
+                {picks.length > 5 && <> +{picks.length - 5} more</>}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>
