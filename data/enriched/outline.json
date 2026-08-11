@@ -1,0 +1,8 @@
+{
+  "summary": "Outline is a collaborative wiki designed for team documentation and knowledge management. It provides a structured workspace where groups can author, organise, and share internal notes and guides.",
+  "goodFor": "Teams looking for an extensible, self-hosted documentation hub to centralise their internal knowledge bases.",
+  "watchOut": "It uses the Business Source License, which places specific restrictions on commercial use and competitive hosting until the code converts to an open source licence.",
+  "deployNotes": "You will typically need to configure Docker containers alongside a persistent database and a reverse proxy to handle TLS termination for production use.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

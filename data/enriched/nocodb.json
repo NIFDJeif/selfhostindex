@@ -1,0 +1,8 @@
+{
+  "summary": "NocoDB is an open-source no-code platform designed to sit on top of existing relational databases, exposing them through a spreadsheet-like interface. It functions as a self-hosted alternative to proprietary spreadsheet tools, allowing teams to manage tabular data and build workflows directly over their database schemas.",
+  "goodFor": "It suits technical teams or administrators who want to give non-technical users a familiar spreadsheet interface to interact with an underlying database without writing custom front-ends.",
+  "watchOut": "The software is distributed under the SUL-1.0 licence, which may impose certain restrictions on commercial redistribution or hosting as a managed service compared to permissive open-source licences.",
+  "deployNotes": "Containerised deployment via Docker typically requires mapping persistent volumes for application state and configuring a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

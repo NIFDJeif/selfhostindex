@@ -1,0 +1,8 @@
+{
+  "summary": "MedusaJs is a headless e-commerce engine built to help developers construct online shop backends and digital retail applications. It provides the core business logic and APIs required to manage products, orders, and customers independently of any specific frontend interface.",
+  "goodFor": "Developers looking to build bespoke online retail platforms who prefer a custom frontend over standard monolithic store builders.",
+  "watchOut": "Because it is headless, you will need to build and maintain your own storefront interface separately from the backend engine.",
+  "deployNotes": "As a Node.js application, it typically requires a separate database such as PostgreSQL, a persistent storage volume for media uploads, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

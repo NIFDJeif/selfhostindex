@@ -1,0 +1,8 @@
+{
+  "summary": "n8n is a node-based workflow automation tool that lets you connect different services and APIs to handle repetitive tasks. It provides a visual interface for constructing multi-step sequences of triggers and actions without writing traditional scripts from scratch.",
+  "goodFor": "It suits developers and system administrators who want to self-host their automation infrastructure and manage custom data pipelines between disparate web services.",
+  "watchOut": "The licensing model combines Apache-2.0 with the Commons-Clause, which restricts selling the software as a paid service to third parties. Operational overhead includes managing workflow state and handling potential queue bottlenecks as execution volume grows.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent database backend like PostgreSQL or SQLite, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

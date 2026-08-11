@@ -1,0 +1,8 @@
+{
+  "summary": "Appwrite is a self-hosted backend server designed to help developers build web, native, and mobile applications. It functions as an integrated middleware solution providing foundational backend services under a permissive open-source licence.",
+  "goodFor": "Developers looking to consolidate common backend services into a single self-hosted stack rather than piecing together multiple disparate tools.",
+  "watchOut": "Self-hosting a comprehensive backend server introduces significant operational overhead for maintenance, security updates, and scaling.",
+  "deployNotes": "Because the software relies on Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

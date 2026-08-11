@@ -1,0 +1,8 @@
+{
+  "summary": "Mattermost is a self-hosted collaboration platform designed for software development workflows and secure team communication. It serves as an alternative to proprietary chat services like Slack and integrates directly with version control systems such as GitLab. The system is written in Go and packaging typically relies on containerised environments.",
+  "goodFor": "Engineering teams looking for a self-hosted communication hub that integrates closely with their GitLab infrastructure and adheres to strict security requirements.",
+  "watchOut": "The software uses a proprietary licence model for certain distributions, which may limit free access to advanced enterprise capabilities. It also requires careful resource management compared to simpler communication tools.",
+  "deployNotes": "As a containerised Go application intended for Docker and Kubernetes orchestration, deployment typically requires persistent volume storage for message histories, an external relational database, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

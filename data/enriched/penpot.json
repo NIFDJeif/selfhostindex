@@ -1,0 +1,8 @@
+{
+  "summary": "Penpot is a web-based platform designed for interface design and interactive prototyping. It enables multidisciplinary teams to collaborate on visual layouts within a browser environment. As an open-source alternative to proprietary design tools, it provides a dedicated workspace for creating digital products.",
+  "goodFor": "Teams looking for a self-hosted design and prototyping tool that avoids proprietary cloud ecosystems and subscription lock-in.",
+  "watchOut": "Migrating existing assets from established proprietary design tools can sometimes introduce formatting inconsistencies or require manual layout adjustments.",
+  "deployNotes": "Because the application runs via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

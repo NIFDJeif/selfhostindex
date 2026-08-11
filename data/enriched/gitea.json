@@ -1,0 +1,8 @@
+{
+  "summary": "Gitea is a self-hosted software development service that combines Git repositories, code review tools, and team collaboration spaces into a single platform. It also includes package registries and continuous integration capabilities to handle the complete application lifecycle. Written in Go, it functions as a lightweight alternative to larger platforms like GitHub or GitLab.",
+  "goodFor": "Teams and individuals who want a complete, self-hosted code management and collaboration platform without the resource demands of heavier enterprise alternatives.",
+  "watchOut": "It requires significant ongoing management for upgrades, backups, and user access control, and it overlaps heavily with more established self-hosted Git solutions.",
+  "deployNotes": "Deployment typically involves setting up persistent storage for your repository data, configuring a separate database such as PostgreSQL or MySQL, and placing the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

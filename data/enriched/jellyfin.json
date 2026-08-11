@@ -1,0 +1,8 @@
+{
+  "summary": "Jellyfin is a self-hosted media server that indexes and streams audio, video, books, comics, and photos over a network. It processes media files for playback and provides client applications for various modern hardware platforms.",
+  "goodFor": "Users who want to centralise their personal media collections and stream them across multiple devices without relying on third-party cloud services.",
+  "watchOut": "Transcoding high-bitrate media files can demand significant CPU or GPU resources from your host server depending on the client compatibility.",
+  "deployNotes": "You can typically run this software inside a container using Docker or via native deb packages, and you will usually need to mount persistent volumes for your media library and configuration data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

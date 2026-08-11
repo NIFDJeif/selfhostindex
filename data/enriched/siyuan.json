@@ -1,0 +1,8 @@
+{
+  "summary": "SiYuan is a privacy-first personal knowledge management system built using TypeScript and Go. It is designed to help you organise, link, and store your notes locally or on your own infrastructure.",
+  "goodFor": "It suits individuals who want absolute control over their personal notes without relying on third-party cloud services.",
+  "watchOut": "The AGPL-3.0 licence may impose copyleft constraints if you plan to modify and distribute the code, and the tool competes in a crowded market of established note-taking applications.",
+  "deployNotes": "As a containerised application, deployment typically requires persistent volume mounts for your data directory and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

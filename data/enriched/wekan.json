@@ -1,0 +1,8 @@
+{
+  "summary": "Wekan is an open-source task management tool that arranges workflows on a kanban board, similar to Trello. It allows you to organise projects, create cards for tasks, and move them across different columns to track progress.",
+  "goodFor": "It is a practical fit if you need a self-hosted, card-based visual workflow board without relying on proprietary cloud services.",
+  "watchOut": "You should consider that it overlaps heavily with many other kanban tools and project management systems, so migration or feature alignment might require extra effort.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent database such as MongoDB to store user data and boards, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

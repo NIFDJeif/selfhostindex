@@ -1,0 +1,8 @@
+{
+  "summary": "ElasticSearch is a distributed search and analytics engine that communicates via a RESTful interface. It indexes large volumes of structured and unstructured data to provide fast search and aggregation capabilities.",
+  "goodFor": "It is a suitable choice if you need to ingest and query vast datasets across distributed nodes with low latency.",
+  "watchOut": "The software uses the Server Side Public License, which carries specific compliance obligations for commercial hosting, and it typically demands substantial memory and CPU resources to run reliably.",
+  "deployNotes": "Because it is built with Java, you will need to allocate sufficient heap memory to the JVM and ensure persistent storage volumes are correctly configured for your cluster nodes.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

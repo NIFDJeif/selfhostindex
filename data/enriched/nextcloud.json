@@ -1,0 +1,8 @@
+{
+  "summary": "Nextcloud is a self-hosted platform for synchronising and sharing files across devices. It also provides tools for managing calendars, contacts, and email under your own administrative control.",
+  "goodFor": "It suits individuals and organisations who want to keep their files and productivity data on their own hardware rather than relying on commercial cloud storage.",
+  "watchOut": "Running a large PHP-based groupware suite requires careful resource tuning and regular updates to maintain security and acceptable performance.",
+  "deployNotes": "Deployment typically involves setting up a web server running PHP alongside a separate SQL database, with persistent storage attached for user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Joplin is a client-side note-taking application featuring a markdown editor and encryption support across desktop and mobile platforms. It allows you to store your notes locally and synchronise them through your own infrastructure, such as a Nextcloud instance. It functions as an alternative to proprietary services like Evernote.",
+  "goodFor": "It is well-suited for users who want to maintain ownership of their notes using markdown while keeping compatibility with mobile and desktop devices.",
+  "watchOut": "You will need to manage your own synchronisation backend and handle client-side configuration across all your devices, which introduces operational overhead compared to managed cloud services.",
+  "deployNotes": "As a Node.js-based application, it typically requires persistent storage for local data and a reverse proxy to handle TLS termination if accessed remotely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

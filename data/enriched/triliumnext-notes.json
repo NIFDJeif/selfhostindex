@@ -1,0 +1,8 @@
+{
+  "summary": "TriliumNext Notes is a cross-platform note-taking application designed for constructing large, hierarchical personal knowledge bases. It acts as a continuation of the original Trilium Notes project, helping you organise complex webs of interconnected information in a structured tree format. You can run it self-hosted to maintain full ownership of your data.",
+  "goodFor": "Users who need to manage extensive, deeply nested personal documentation and want a dedicated self-hosted repository for their notes.",
+  "watchOut": "The AGPL-3.0 licence may have implications if you plan to modify and distribute the code within a networked environment.",
+  "deployNotes": "As a Node.js application, deployment typically involves using Docker or Kubernetes, ensuring you provision persistent storage for your note database and configure a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

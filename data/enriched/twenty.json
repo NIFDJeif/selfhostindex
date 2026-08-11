@@ -1,0 +1,8 @@
+{
+  "summary": "Twenty is an open-source customer relationship management platform designed to track contacts, interactions, and sales pipelines. It provides an alternative to proprietary tools by letting organisations host their own database and interface. The application features a modern web-based layout aimed at teams managing client data.",
+  "goodFor": "It suits organisations requiring a self-hosted contact management system with full access to the source code and data layer.",
+  "watchOut": "The AGPL-3.0 licence places restrictions on distributing modified versions, which may affect teams building commercial services on top of the codebase. It also faces strong competition from mature proprietary and open-source CRM alternatives.",
+  "deployNotes": "Deployment relies on Docker, so you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

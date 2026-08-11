@@ -1,0 +1,8 @@
+{
+  "summary": "LocalAI is a self-hosted platform designed to execute machine learning models on your own infrastructure. It provides functionality for generating text, images, and audio as an alternative to proprietary cloud APIs. The software is distributed under an MIT licence and is actively maintained.",
+  "goodFor": "It suits developers and organisations who want to run generative AI workloads locally to maintain data privacy or bypass external service costs.",
+  "watchOut": "You will need to provide your own compatible hardware, such as GPUs, to achieve acceptable inference speeds. Running complex models locally can also introduce significant resource management overhead.",
+  "deployNotes": "Deployment typically relies on Docker or Kubernetes, meaning you will need to configure persistent storage volumes for model weights and place a reverse proxy in front of the service for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

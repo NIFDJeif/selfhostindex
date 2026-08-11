@@ -1,0 +1,8 @@
+{
+  "summary": "Open-WebUI provides a browser-based interface for interacting with large language models. It connects directly to backend providers such as Ollama or the OpenAI API to facilitate text generation and chat functionality.",
+  "goodFor": "It suits administrators who want a self-hosted graphical interface for local AI models without relying on third-party web services.",
+  "watchOut": "Running local models requires significant hardware resources, and managing multiple backend integrations can introduce unexpected configuration overhead.",
+  "deployNotes": "As a containerised application, it typically requires persistent storage for user data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

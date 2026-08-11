@@ -1,0 +1,8 @@
+{
+  "summary": "PhotoPrism is a self-hosted photo management system that uses machine learning models to automatically tag and organise image libraries. It allows you to browse, search, and share your personal collection through a web interface. The backend is written in Go and integrates with TensorFlow for image recognition.",
+  "goodFor": "It suits individuals who want to organise large, self-hosted image collections with automated tagging without relying on external cloud services.",
+  "watchOut": "Running TensorFlow inference locally can demand significant CPU or memory resources, and the AGPL-3.0 licence may impose constraints if you plan to modify and distribute the code.",
+  "deployNotes": "You can typically run it using Docker with persistent volumes attached for your media library and configuration data. It generally requires a reverse proxy in front to handle HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

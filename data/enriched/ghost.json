@@ -1,0 +1,8 @@
+{
+  "summary": "Ghost is an open-source platform designed for publishing blogs and managing content. Written in Node.js and distributed under the MIT licence, it provides a dedicated environment for creating and organising text-based articles.",
+  "goodFor": "It suits individuals or teams who want a focused, self-hosted space dedicated specifically to publishing a blog without the wider scope of a general content management system.",
+  "watchOut": "You will need to manage your own server updates, backups, and security hardening, as with any self-hosted publishing tool.",
+  "deployNotes": "As a Node.js application, it typically requires a process manager like PM2, a reverse proxy such as Nginx to handle TLS termination, and a persistent database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

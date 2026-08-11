@@ -1,0 +1,8 @@
+{
+  "summary": "Activepieces is an open-source, no-code automation tool that connects different web services to trigger workflows. It allows you to build event-driven integrations, such as forwarding alerts between separate software applications without writing code.",
+  "goodFor": "Teams looking for a self-hosted alternative to proprietary workflow automation services to retain data control.",
+  "watchOut": "Self-hosting an automation platform introduces operational overhead in managing workflow execution queues, credentials, and potential failure states.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

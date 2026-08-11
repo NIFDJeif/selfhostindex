@@ -1,0 +1,8 @@
+{
+  "summary": "Stirling-PDF is a self-hosted web application designed for processing PDF documents. It provides an interface for common document workflows including merging, splitting, file conversions and optical character recognition.",
+  "goodFor": "It is well-suited for users who need a centralised tool for document manipulation without relying on external cloud-based services.",
+  "watchOut": "The resource footprint of a Java-based web application can be heavier than native alternatives, requiring adequate memory allocation on your server.",
+  "deployNotes": "Deployment is typically handled via Docker, requiring persistent storage volumes for temporary file processing and a reverse proxy to manage HTTPS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

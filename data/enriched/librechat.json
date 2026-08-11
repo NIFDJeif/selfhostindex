@@ -1,0 +1,8 @@
+{
+  "summary": "LibreChat is a self-hosted, ChatGPT-compatible interface designed to connect with various artificial intelligence providers through a single web dashboard. It includes multi-user authentication, message history search functionality, and support for extensible plugins. The project is distributed under the MIT licence and built on Node.js.",
+  "goodFor": "It suits administrators who want to host a centralised, multi-user AI chat interface with support for multiple upstream model providers.",
+  "watchOut": "Managing API keys, user permissions, and upstream rate limits across multiple providers introduces ongoing operational overhead. It also duplicates the functionality of various native vendor applications.",
+  "deployNotes": "Deployment typically involves running the application via Docker alongside a persistent database for storing user data and message history, fronted by a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

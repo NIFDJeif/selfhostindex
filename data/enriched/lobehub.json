@@ -1,0 +1,8 @@
+{
+  "summary": "LobeHub is a self-hosted AI chat framework designed to interface with multiple artificial intelligence providers. It includes features for an application marketplace and supports advanced text generation displays.",
+  "goodFor": "Teams or individuals looking for a customisable, self-hosted web interface to interact with various generative AI APIs in one place.",
+  "watchOut": "The software uses a proprietary licence, which may restrict how you can modify or redistribute the source code compared to standard open-source alternatives.",
+  "deployNotes": "As a Node.js application packaged for Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

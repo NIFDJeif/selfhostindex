@@ -1,0 +1,8 @@
+{
+  "summary": "Ente is an end-to-end encrypted platform designed for storing and sharing personal photographs as a self-hosted alternative to mainstream cloud services. It provides a secure repository for media libraries while maintaining privacy through client-side encryption. The codebase is distributed under the AGPL-3.0 licence.",
+  "goodFor": "Privacy-conscious individuals who want to replace commercial cloud photo storage with an encrypted, self-hosted solution.",
+  "watchOut": "Ente requires careful key management, as losing your encryption credentials means permanent loss of access to your stored photos.",
+  "deployNotes": "Deployment typically relies on Docker for container orchestration, requiring persistent storage volumes for media data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

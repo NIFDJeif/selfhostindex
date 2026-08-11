@@ -1,0 +1,8 @@
+{
+  "summary": "Apache Airflow is an automation platform designed to programmatically author, schedule, and monitor complex workflows. It allows you to define execution pipelines as code, typically using Python, to coordinate tasks across infrastructure. The system tracks job states and dependencies, providing visibility into process completion.",
+  "goodFor": "Data engineering teams and developers who need to orchestrate multi-step automated processes with strict dependency ordering and scheduling requirements.",
+  "watchOut": "Operating this platform introduces a significant administrative burden, as it requires managing multiple moving parts like a metadata database, scheduler, and worker nodes.",
+  "deployNotes": "Because the runtime relies on Python and Docker, deployments typically require a separate persistent database for state management and an external volume for log storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

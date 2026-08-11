@@ -1,0 +1,8 @@
+{
+  "summary": "MeiliSearch is a full-text search engine that provides instant, typo-tolerant query responses via an API. It is designed to be integrated into applications to deliver fast search results as users type. The project is open-source under the MIT licence and written in Rust.",
+  "goodFor": "Developers looking to add fast, typo-tolerant search capabilities to their applications without the operational complexity of larger search ecosystems.",
+  "watchOut": "You will need to manage index storage and memory consumption carefully as your dataset grows, and ensure your queries do not exceed available hardware resources during peak traffic.",
+  "deployNotes": "It typically runs via Docker or native packages, requiring persistent storage volumes for your search indices and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

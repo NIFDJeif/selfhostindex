@@ -1,0 +1,8 @@
+{
+  "summary": "Infisical Community Edition is a self-hosted platform designed for managing secrets, digital certificates, and privileged access. It provides a centralised system to store, audit, and distribute configuration credentials and sensitive data across your infrastructure.",
+  "goodFor": "Teams looking for an open-source, self-hosted option to centralise secrets management and access control across their technical infrastructure.",
+  "watchOut": "Operating a centralised secrets manager introduces a critical single point of failure and high availability requirement for your infrastructure. It also overlaps with established identity and secrets management alternatives, meaning migration overhead should be considered.",
+  "deployNotes": "Deployment typically relies on Docker or Kubernetes, so you will need to provision persistent storage for state and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

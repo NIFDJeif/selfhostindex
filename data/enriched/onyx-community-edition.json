@@ -1,0 +1,8 @@
+{
+  "summary": "Onyx Community Edition provides a chat interface designed to connect with various large language models. It includes built-in tools such as web search, retrieval-augmented generation, agents, and connectors for numerous knowledge sources.",
+  "goodFor": "Self-hosters who want a feature-rich, unified chat front-end to interface with multiple external or local language models under an MIT licence.",
+  "watchOut": "Integrating numerous knowledge connectors and running advanced agentic workflows can introduce significant configuration overhead and high resource consumption.",
+  "deployNotes": "Deployment typically relies on container orchestration via Docker or Kubernetes, which usually requires provisioning persistent volumes for state and configuring a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

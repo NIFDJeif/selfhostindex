@@ -1,0 +1,8 @@
+{
+  "summary": "Metabase is a web-based analytics tool that lets you connect to various databases and explore data through queries and visualisations. It is designed to make data querying accessible to both technical and non-technical users within an organisation. The application is built with Java and distributed as a container image.",
+  "goodFor": "Teams that need a self-hosted business intelligence interface allowing multiple users to run queries and build dashboards without writing raw SQL every time.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which imposes strict copyleft obligations if you modify the code or offer it as a hosted service to third parties. It also requires careful access management to prevent users from accidentally executing expensive database queries.",
+  "deployNotes": "You will typically deploy it using Docker, attaching a persistent volume for internal application data and configuring a separate application database such as PostgreSQL for production use. A reverse proxy is usually required in front of the container to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

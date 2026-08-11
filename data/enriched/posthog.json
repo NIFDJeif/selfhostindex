@@ -1,0 +1,8 @@
+{
+  "summary": "PostHog is an open-source suite designed for tracking user behaviour within digital products. It combines analytics, session recordings, feature flags, and A/B testing into a single platform that you run on your own infrastructure.",
+  "goodFor": "Teams looking to consolidate multiple third-party product analytics and experimentation tools into a single self-hosted platform.",
+  "watchOut": "Running a comprehensive analytics platform locally requires substantial server resources and operational overhead compared to using managed cloud services.",
+  "deployNotes": "As a Python-based application, it typically requires a persistent database backend, a message queue, and a reverse proxy to handle TLS termination in production.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

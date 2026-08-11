@@ -1,0 +1,8 @@
+{
+  "summary": "Pangolin is an identity-aware reverse proxy that routes traffic through WireGuard-based tunnels and provides a centralised dashboard for access control. It operates as a self-hosted alternative to established tools like Cloudflare Tunnel or Tailscale, managing secure external connections to your internal infrastructure.",
+  "goodFor": "Self-hosters who want to expose private internal services securely without opening inbound firewall ports, while retaining control over identity management and routing.",
+  "watchOut": "It overlaps heavily with well-established alternatives, meaning you should evaluate whether its specific dashboard and WireGuard approach suits your existing network architecture better than simpler solutions.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for state data and ensure proper TLS termination at your network edge.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

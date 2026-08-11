@@ -1,0 +1,8 @@
+{
+  "summary": "Superset is an analytics platform designed for data exploration and visualising datasets. It allows users to query information and build visual dashboards through a web interface. The project is implemented in Python and distributed under the Apache-2.0 licence.",
+  "goodFor": "Data teams and technical organisations that need a self-hosted platform to query and visualise large datasets for internal stakeholders.",
+  "watchOut": "Deploying and maintaining an analytics platform of this scale brings a significant operational burden, requiring careful management of user permissions, database connectors, and underlying query performance.",
+  "deployNotes": "As a Python-based application, it typically requires a separate relational database for metadata storage, a caching layer, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

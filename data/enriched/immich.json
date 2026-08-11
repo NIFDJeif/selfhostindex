@@ -1,0 +1,8 @@
+{
+  "summary": "Immich is a self-hosted media management system designed to back up photos and videos directly from mobile devices. It functions as a direct alternative to commercial cloud storage services like Google Photos, allowing you to retain full control over your personal media library. The project is distributed under the AGPL-3.0 licence and is packaged primarily for containerised environments.",
+  "goodFor": "This is a strong fit for individuals seeking to replace commercial cloud photo storage with an on-premises alternative that prioritises data privacy.",
+  "watchOut": "The software is under active development, which means schema changes and breaking updates can occur frequently and require careful upgrade procedures.",
+  "deployNotes": "Because it relies on Docker, you will typically need to configure persistent volume mounts for your media files and database storage, alongside a reverse proxy to handle external TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

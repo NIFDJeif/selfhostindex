@@ -1,0 +1,8 @@
+{
+  "summary": "Novu provides notification infrastructure designed for developers to manage and dispatch user alerts. It centralises messaging workflows across multiple channels through a unified backend system.",
+  "goodFor": "Development teams building applications that require complex multi-channel alert routing and template management.",
+  "watchOut": "Self-hosting involves running a Node.js-based stack with multiple dependent services, which can introduce significant operational and resource overhead.",
+  "deployNotes": "You will typically need to run this via Docker alongside a persistent database and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

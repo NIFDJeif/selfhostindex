@@ -1,0 +1,8 @@
+{
+  "summary": "Rocket.Chat is a self-hosted communication platform designed to prioritise data protection as an alternative to proprietary services like Slack. It allows organisations to host their own chat infrastructure for team messaging and collaboration. The application is built using Node.js and supports deployment via Docker and Kubernetes.",
+  "goodFor": "It is a strong fit for organisations that require a custom communication system and need strict control over their data privacy. It suits teams migrating away from third-party Software-as-a-Service chat tools.",
+  "watchOut": "Managing a Node.js application at scale requires careful resource monitoring and regular maintenance to handle updates safely. It also overlaps heavily with well-established proprietary messaging tools, which may offer easier initial onboarding.",
+  "deployNotes": "You will typically need to configure persistent storage for your data, set up a database such as MongoDB, and place the application behind a reverse proxy for TLS termination. Using Docker or Kubernetes makes container orchestration straightforward, though environment variables must be configured carefully for proper startup.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Chatwoot is a customer communication platform that acts as an alternative to proprietary services like Intercom and Zendesk. It centralises customer queries from various channels into a single shared inbox for support teams. The codebase is built with Ruby and distributed primarily for Docker and Kubernetes deployments.",
+  "goodFor": "Teams looking for an open-source or self-hosted alternative to mainstream customer support helpdesks to maintain data control.",
+  "watchOut": "The software is distributed under a proprietary licence rather than a standard open-source licence, which may restrict how you can commercialise or modify it. It also carries a high operational burden typical of a monolithic Ruby application with multiple background workers.",
+  "deployNotes": "You will typically need to provision persistent storage volumes, configure a separate relational database and Redis instance, and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}

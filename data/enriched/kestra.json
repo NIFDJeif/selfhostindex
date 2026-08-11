@@ -1,0 +1,8 @@
+{
+  "summary": "Kestra is an event-driven automation platform designed to schedule, execute, and monitor workflows defined in code. It provides a centralised system to coordinate complex data pipelines and operational tasks, such as ETL and ELT processes, across different programming languages.",
+  "goodFor": "It suits technical teams that need to manage programmatic workflows and data pipelines using code-based configurations within an event-driven architecture.",
+  "watchOut": "Adopting a new workflow orchestrator introduces a learning curve for defining processes in its specific syntax, and it will overlap heavily with established orchestration alternatives you might already run.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for state storage, provision an external database, and set up a reverse proxy with TLS termination for secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-11"
+}
