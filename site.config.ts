@@ -8,7 +8,7 @@ export const site = {
   /** Nom de marque affiché partout. */
   name: 'SelfhostIndex',
   /** Domaine complet, SANS slash final. Change-le si tu achètes un vrai domaine. */
-  url: 'https://selfhostindex.pages.dev',
+  url: 'https://selfhostindex.legoressel6.workers.dev',
   tagline: 'The health-scored directory of self-hosted software',
   description:
     'Find, compare and deploy self-hosted software. 1,400+ open-source apps scored on real maintenance activity, with hosting requirements and migration guides.',
