@@ -23,8 +23,14 @@ n'es pas sur la bonne offre — arrête-toi et vérifie.
 3. Envoie le projet (copie-colle ce bloc en remplaçant `TON-PSEUDO`) :
 
 ```bash
-cd "C:/Users/maxim/Desktop/usine à argent" && git remote add origin https://github.com/TON-PSEUDO/selfhostindex.git && git branch -M main && git push -u origin main
+cd "C:\Users\maxim\Desktop\usine à argent"; git remote add origin https://github.com/TON-PSEUDO/selfhostindex.git; git branch -M main; git push -u origin main
 ```
+
+> **Toutes les commandes de ce guide utilisent `;` et non `&&`.** Tu es sous PowerShell, où `&&`
+> n'existe pas (c'est une syntaxe bash) et provoque l'erreur « Le jeton `&&` n'est pas un
+> séparateur d'instruction valide ».
+>
+> Au premier `push`, une fenêtre de connexion GitHub s'ouvre. C'est normal, et ça n'arrive qu'une fois.
 
 ---
 
@@ -59,7 +65,7 @@ structurées. Une URL fausse ici et Google indexe des adresses qui n'existent pa
 Puis :
 
 ```bash
-git add site.config.ts && git commit -m "config: set live URL" && git push
+git add site.config.ts; git commit -m "config: set live URL"; git push
 ```
 
 > **Bande passante illimitée, gratuite, pour toujours.** C'est l'offre Cloudflare Pages.
@@ -81,7 +87,7 @@ cloudflareAnalyticsToken: 'colle-le-token-ici',
 ```
 
 ```bash
-git add site.config.ts && git commit -m "config: enable analytics" && git push
+git add site.config.ts; git commit -m "config: enable analytics"; git push
 ```
 
 > Sans cookies, sans bandeau de consentement, conforme RGPD. C'est déjà écrit dans la page
@@ -124,7 +130,7 @@ Sans cette étape, Google mettra des mois à trouver le site. Avec, quelques jou
 3. Place ce fichier dans le dossier `public/` du projet, puis :
 
 ```bash
-git add public/ && git commit -m "seo: google search console verification" && git push
+git add public/; git commit -m "seo: google search console verification"; git push
 ```
 
 4. Attends que Cloudflare redéploie (~3 min), puis clique **Valider** dans la Search Console.
@@ -174,7 +180,7 @@ Pour chacun, une fois accepté, ouvre `site.config.ts` et renseigne **deux champ
 ```
 
 ```bash
-git add site.config.ts && git commit -m "money: enable digitalocean affiliate" && git push
+git add site.config.ts; git commit -m "money: enable digitalocean affiliate"; git push
 ```
 
 Les blocs d'hébergement apparaissent alors sur les **2 345 pages** d'un coup, avec la mention
