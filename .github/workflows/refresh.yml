@@ -45,6 +45,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Un peu d'historique est nécessaire pour pouvoir rebaser si le dépôt
+          # distant a avancé pendant l'exécution. `0` (historique complet) ferait
+          # grossir le clone indéfiniment : ce dépôt réécrit ~1,7 Mo de JSON par jour.
+          fetch-depth: 10
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -91,8 +96,33 @@ jobs:
           fi
 
       - name: Push (déclenche le déploiement Cloudflare)
+        id: push
         if: steps.commit.outputs.changed == 'true'
-        run: git push
+        run: |
+          # Le job dure plusieurs minutes. Si quelqu'un pousse pendant ce temps,
+          # `git push` est rejeté (« fetch first ») et le job tombe — c'est
+          # exactement ce qui s'est produit au premier lancement.
+          # On rebase donc systématiquement avant de pousser, avec quelques essais.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push; then
+                echo "Poussé à la tentative ${attempt}."
+                exit 0
+              fi
+              echo "Push rejeté (tentative ${attempt}) — le distant a encore bougé."
+              sleep 5
+            else
+              # Conflit sur des fichiers générés : inutile de le résoudre.
+              # Tout est reconstruit intégralement demain à partir de la source,
+              # donc on abandonne proprement plutôt que de faire échouer le job.
+              git rebase --abort || true
+              echo "::warning::Conflit au rebase sur des fichiers générés. Rien n'est publié ; le prochain cycle régénérera tout."
+              exit 0
+            fi
+          done
+          echo "::warning::Push impossible après 3 tentatives. Le prochain cycle réessaiera."
+          exit 0
 
       - name: Notify search engines
         if: steps.commit.outputs.changed == 'true'
