@@ -1,0 +1,13 @@
+{
+  // Cloudflare a fusionné Pages dans Workers : un site statique s'y déploie
+  // désormais comme un Worker « assets-only » (aucun code serveur, juste des
+  // fichiers servis depuis le edge). C'est ce fichier que `npx wrangler deploy`
+  // cherche — sans lui, le déploiement échoue immédiatement.
+  "name": "selfhostindex",
+  "compatibility_date": "2026-08-09",
+  "assets": {
+    "directory": "./dist",
+    // Sert dist/404.html sur les URL inconnues, au lieu d'une page vide.
+    "not_found_handling": "404-page"
+  }
+}
