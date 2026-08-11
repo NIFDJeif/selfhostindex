@@ -83,11 +83,10 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "Aucun changement — rien à publier aujourd'hui."
           else
-            SCORES=$(git diff --staged --numstat -- src/data | wc -l)
-            NEW=$(git diff --staged --name-only --diff-filter=A -- data/enriched | wc -l)
-            git commit -m "data: refresh scores, +${NEW} enriched entries
-
-          Automated daily rebuild. ${SCORES} data file(s) changed."
+            # Message sur une seule ligne : un message multi-lignes dans un bloc
+            # YAML dépend d'une indentation fragile, pour zéro bénéfice ici.
+            NEW=$(git diff --staged --name-only --diff-filter=A -- data/enriched | wc -l | tr -d ' ')
+            git commit -m "data: refresh scores, +${NEW} enriched entries"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -101,11 +100,18 @@ jobs:
         run: npm run indexnow
 
       - name: Résumé
+        # `if: always()` : le résumé doit s'écrire MÊME quand une étape a échoué —
+        # c'est précisément là qu'on a besoin de savoir où on en était.
+        if: always()
         run: |
+          # `|| true` partout : un compteur de diagnostic ne doit jamais être la
+          # cause d'un échec de job. `ls` sort en erreur quand le motif ne matche rien.
+          PAGES=$(find dist -name '*.html' 2>/dev/null | wc -l | tr -d ' ' || echo 0)
+          ENRICHED=$(find data/enriched -name '*.json' 2>/dev/null | wc -l | tr -d ' ' || echo 0)
           {
             echo "### Rebuild du $(date -u +'%Y-%m-%d')"
             echo ""
-            echo "- Pages construites : $(find dist -name '*.html' | wc -l)"
-            echo "- Fiches enrichies au total : $(ls data/enriched/*.json 2>/dev/null | wc -l)"
+            echo "- Pages construites : ${PAGES}"
+            echo "- Fiches enrichies au total : ${ENRICHED}"
             echo "- Changements publiés : ${{ steps.commit.outputs.changed }}"
           } >> "$GITHUB_STEP_SUMMARY"
