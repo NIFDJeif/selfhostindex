@@ -1,5 +1,6 @@
 {
   "_comment": "Carte SaaS propriétaire -> alternatives auto-hébergées. C'est l'actif SEO le plus rentable du site : ces requêtes ont une intention d'achat immédiate (le visiteur va louer un serveur dans les 48h). 'picks' liste des noms, PAS des slugs : le build les résout par nom normalisé contre le dataset et ignore silencieusement ceux qui n'existent pas. Le site ne peut donc pas produire de lien mort, même si le dataset amont change. 'tags' sert de filet : la page reste complète même si aucun pick ne se résout.",
+  "_hors_perimetre": "NE PAS ajouter d'entrées sur le monitoring (Datadog, New Relic, UptimeRobot), l'identité/SSO (Okta, Auth0) ou le CI/CD (CircleCI, Jenkins). awesome-selfhosted délègue explicitement ces catégories à awesome-sysadmin via une clé 'redirect' dans ses fichiers de tags : elles existent en nom mais comptent zéro logiciel. Grafana, Zabbix, Netdata, Keycloak, Prometheus et Jenkins sont donc absents du catalogue. awesome-sysadmin n'est qu'un README markdown, sans étoiles ni historique de commits : l'intégrer produirait des centaines de fiches 'non notées', ce qui contredirait la raison d'être du site. Sept entrées ont été retirées pour cette raison le 2026-08-11.",
   "entries": [
     {
       "slug": "notion",
@@ -359,20 +360,6 @@
       "tags": ["Office Suites"]
     },
     {
-      "slug": "datadog",
-      "name": "Datadog",
-      "pain": "Per-host, per-metric and per-log billing produces famously unpredictable invoices.",
-      "picks": ["Grafana", "Zabbix", "Netdata", "Uptime Kuma", "Prometheus"],
-      "tags": ["Monitoring & Status Pages"]
-    },
-    {
-      "slug": "auth0",
-      "name": "Auth0",
-      "pain": "Pricing jumps hard past the free MAU tier, exactly when your product starts working.",
-      "picks": ["Keycloak", "Authentik", "Authelia", "Zitadel", "Ory"],
-      "tags": ["Federated Identity & Authentication", "Identity Management"]
-    },
-    {
       "slug": "nordvpn",
       "name": "NordVPN",
       "pain": "You swap trusting your ISP for trusting a VPN company — running your own removes the third party.",
@@ -394,7 +381,7 @@
       "tags": ["Time Tracking"]
     },
     {
-      "slug": "dropbox-paper",
+      "slug": "confluence",
       "name": "Confluence",
       "pain": "Priced per user alongside Jira, so documentation costs scale with a team that barely reads it.",
       "picks": ["BookStack", "Outline", "Wiki.js", "DokuWiki", "XWiki"],
@@ -420,6 +407,300 @@
       "pain": "Search-request pricing penalises the exact behaviour good search encourages.",
       "picks": ["Meilisearch", "Typesense", "Elasticsearch", "OpenSearch", "Sonic"],
       "tags": ["Search Engines"]
+    },
+    {
+      "slug": "sentry",
+      "name": "Sentry",
+      "pain": "Event-volume pricing means a bad deploy costs you twice — once in downtime, once on the invoice.",
+      "picks": ["GlitchTip", "Bugsink", "Errbit", "Sentry"],
+      "tags": ["Software Development", "Monitoring & Status Pages"]
+    },
+    {
+      "slug": "retool",
+      "name": "Retool",
+      "pain": "Internal tools are billed per user, so the admin panel nobody sees costs the same as customer-facing software.",
+      "picks": ["Appsmith", "Budibase", "ToolJet", "NocoDB", "Directus"],
+      "tags": ["Software Development - Low Code", "Database Management"]
+    },
+    {
+      "slug": "linear",
+      "name": "Linear",
+      "pain": "Fast and well designed, but your entire product roadmap sits in a system you cannot export meaningfully.",
+      "picks": ["Plane", "Vikunja", "Taiga", "Tracker", "Redmine"],
+      "tags": ["Software Development - Project Management", "Task Management & To-do Lists"]
+    },
+    {
+      "slug": "mixpanel",
+      "name": "Mixpanel",
+      "pain": "Event-based pricing punishes exactly the detailed tracking that makes product analytics useful.",
+      "picks": ["PostHog", "Matomo", "Countly", "Umami"],
+      "tags": ["Analytics"]
+    },
+    {
+      "slug": "amplitude",
+      "name": "Amplitude",
+      "pain": "Free until you have real traffic, then priced for a funded startup rather than a side project.",
+      "picks": ["PostHog", "Matomo", "Umami"],
+      "tags": ["Analytics"]
+    },
+    {
+      "slug": "hotjar",
+      "name": "Hotjar",
+      "pain": "Session recordings capture whatever users type, on a third-party server, under someone else's retention policy.",
+      "picks": ["PostHog", "Matomo", "OpenReplay"],
+      "tags": ["Analytics"]
+    },
+    {
+      "slug": "contentful",
+      "name": "Contentful",
+      "pain": "API call limits and per-seat pricing turn a content backend into a metered dependency.",
+      "picks": ["Directus", "Strapi", "Payload", "Cockpit", "Keystone"],
+      "tags": ["Content Management Systems (CMS)", "Software Development - API Management"]
+    },
+    {
+      "slug": "webflow",
+      "name": "Webflow",
+      "pain": "You design freely, then discover that hosting the result is a monthly fee per site, forever.",
+      "picks": ["Ghost", "WordPress", "Publii", "Grav", "Silverstripe"],
+      "tags": ["Content Management Systems (CMS)", "Blogging Platforms"]
+    },
+    {
+      "slug": "squarespace",
+      "name": "Squarespace",
+      "pain": "A monthly subscription for a brochure site that hasn't changed in two years.",
+      "picks": ["WordPress", "Ghost", "Grav", "Publii"],
+      "tags": ["Content Management Systems (CMS)", "Static Site Generators"]
+    },
+    {
+      "slug": "wix",
+      "name": "Wix",
+      "pain": "Migrating away is deliberately painful — there is no clean export of a Wix site.",
+      "picks": ["WordPress", "Ghost", "Grav", "Publii"],
+      "tags": ["Content Management Systems (CMS)", "Blogging Platforms"]
+    },
+    {
+      "slug": "sendgrid",
+      "name": "SendGrid",
+      "pain": "Shared sending IPs mean another customer's spam can land your transactional email in junk.",
+      "picks": ["Postal", "Mailu", "Mailcow", "Haraka", "Stalwart"],
+      "tags": ["Communication - Email - Mail Transfer Agents", "Communication - Email - Complete Solutions"]
+    },
+    {
+      "slug": "mailgun",
+      "name": "Mailgun",
+      "pain": "Per-message pricing on top of a monthly floor, for a protocol that costs almost nothing to run.",
+      "picks": ["Postal", "Mailu", "Mailcow", "Haraka"],
+      "tags": ["Communication - Email - Mail Transfer Agents"]
+    },
+    {
+      "slug": "surveymonkey",
+      "name": "SurveyMonkey",
+      "pain": "You cannot see your own responses past the free limit — the data is held hostage, not the software.",
+      "picks": ["LimeSurvey", "Formbricks", "HeyForm", "OhMyForm"],
+      "tags": ["Polls and Events", "Miscellaneous"]
+    },
+    {
+      "slug": "jotform",
+      "name": "Jotform",
+      "pain": "Submission caps reset monthly, so a form that works is a form that stops working.",
+      "picks": ["Formbricks", "HeyForm", "LimeSurvey"],
+      "tags": ["Polls and Events", "Miscellaneous"]
+    },
+    {
+      "slug": "basecamp",
+      "name": "Basecamp",
+      "pain": "A flat fee is fairer than per-seat, but it is still rent on your own project history.",
+      "picks": ["Plane", "Taiga", "Kanboard", "Leantime", "Vikunja"],
+      "tags": ["Software Development - Project Management", "Task Management & To-do Lists"]
+    },
+    {
+      "slug": "monday-com",
+      "name": "Monday.com",
+      "pain": "Priced per seat with a minimum team size, so small teams subsidise features they never open.",
+      "picks": ["Plane", "Vikunja", "Taiga", "Planka", "Kanboard"],
+      "tags": ["Software Development - Project Management", "Task Management & To-do Lists"]
+    },
+    {
+      "slug": "clickup",
+      "name": "ClickUp",
+      "pain": "Every useful view — Gantt, workload, automations — sits one tier above whatever you are on.",
+      "picks": ["Plane", "Vikunja", "Taiga", "Focalboard"],
+      "tags": ["Task Management & To-do Lists", "Software Development - Project Management"]
+    },
+    {
+      "slug": "box",
+      "name": "Box",
+      "pain": "Enterprise file storage priced per user, for something a single server does at a fraction of the cost.",
+      "picks": ["Nextcloud", "Seafile", "ownCloud", "Filestash"],
+      "tags": ["File Transfer & Synchronization", "Document Management"]
+    },
+    {
+      "slug": "amazon-s3",
+      "name": "Amazon S3",
+      "pain": "Storage is cheap; egress is not, and that asymmetry is the entire business model.",
+      "picks": ["MinIO", "Garage", "SeaweedFS", "Zenko CloudServer", "Ceph"],
+      "tags": ["File Transfer - Object Storage & File Servers", "File Transfer - Distributed Filesystems"]
+    },
+    {
+      "slug": "obsidian-sync",
+      "name": "Obsidian Sync",
+      "pain": "The editor is free but syncing your own markdown files across devices is a subscription.",
+      "picks": ["Joplin", "SiYuan", "TriliumNext Notes", "Memos", "Syncthing"],
+      "tags": ["Note-taking & Editors", "File Transfer & Synchronization"]
+    },
+    {
+      "slug": "readwise",
+      "name": "Readwise",
+      "pain": "$8/month to keep highlights you made in books you already bought.",
+      "picks": ["Wallabag", "Karakeep", "Readeck", "Linkding", "Shiori"],
+      "tags": ["Bookmarks and Link Sharing"]
+    },
+    {
+      "slug": "instapaper",
+      "name": "Instapaper",
+      "pain": "Read-later services keep dying — Pocket in 2025, and Instapaper has changed owners three times.",
+      "picks": ["Wallabag", "Readeck", "Shiori", "Linkding"],
+      "tags": ["Bookmarks and Link Sharing"]
+    },
+    {
+      "slug": "buffer",
+      "name": "Buffer",
+      "pain": "Priced per social channel, so posting to five networks costs five times posting to one.",
+      "picks": ["Postiz", "Mixpost", "Mastodon"],
+      "tags": ["Communication - Social Networks and Forums", "Automation"]
+    },
+    {
+      "slug": "vimeo",
+      "name": "Vimeo",
+      "pain": "Storage and bandwidth tiers make a single popular video an unexpected bill.",
+      "picks": ["PeerTube", "Owncast", "MediaCMS", "Jellyfin"],
+      "tags": ["Media Streaming - Video Streaming", "Media Streaming"]
+    },
+    {
+      "slug": "twitch",
+      "name": "Twitch",
+      "pain": "They take up to half your subscription revenue and can demonetise a channel without explanation.",
+      "picks": ["Owncast", "PeerTube", "Restreamer"],
+      "tags": ["Media Streaming - Video Streaming"]
+    },
+    {
+      "slug": "discord",
+      "name": "Discord",
+      "pain": "Your community's entire history lives on a platform that has never had a working export.",
+      "picks": ["Revolt", "Rocket.Chat", "Mattermost", "Element", "Zulip"],
+      "tags": ["Communication - Custom Communication Systems", "Communication - Social Networks and Forums"]
+    },
+    {
+      "slug": "google-meet",
+      "name": "Google Meet",
+      "pain": "Recording, breakout rooms and longer calls all require a Workspace subscription.",
+      "picks": ["Jitsi Meet", "BigBlueButton", "MiroTalk", "Galène"],
+      "tags": ["Communication - Video Conferencing"]
+    },
+    {
+      "slug": "google-docs",
+      "name": "Google Docs",
+      "pain": "Convenient right up to the day the account is locked and every document goes with it.",
+      "picks": ["Collabora Online Development Edition", "ONLYOFFICE", "CryptPad", "Etherpad", "Nextcloud"],
+      "tags": ["Office Suites", "Document Management"]
+    },
+    {
+      "slug": "google-forms",
+      "name": "Google Forms",
+      "pain": "Free, but every response your users submit becomes data on Google's servers.",
+      "picks": ["Formbricks", "LimeSurvey", "HeyForm", "OhMyForm"],
+      "tags": ["Polls and Events"]
+    },
+    {
+      "slug": "google-keep",
+      "name": "Google Keep",
+      "pain": "No meaningful export, no API, and Google has closed comparable products before.",
+      "picks": ["Memos", "Joplin", "SiYuan", "Standard Notes"],
+      "tags": ["Note-taking & Editors"]
+    },
+    {
+      "slug": "disqus",
+      "name": "Disqus",
+      "pain": "The free tier injects ads and trackers into your readers' browsers, on your domain.",
+      "picks": ["Isso", "Commento", "Remark42", "Comentario"],
+      "tags": ["Miscellaneous", "Communication - Social Networks and Forums"]
+    },
+    {
+      "slug": "freshdesk",
+      "name": "Freshdesk",
+      "pain": "Agent seats billed annually, plus per-feature add-ons that used to be included.",
+      "picks": ["Zammad", "FreeScout", "Chatwoot", "UVdesk"],
+      "tags": ["Ticketing", "Customer Relationship Management (CRM)"]
+    },
+    {
+      "slug": "help-scout",
+      "name": "Help Scout",
+      "pain": "Priced per user per month for a shared inbox — the simplest possible support tool.",
+      "picks": ["FreeScout", "Zammad", "Chatwoot"],
+      "tags": ["Ticketing"]
+    },
+    {
+      "slug": "netlify",
+      "name": "Netlify",
+      "pain": "Build minutes and bandwidth overages have produced some famously large surprise bills.",
+      "picks": ["Caddy", "Nginx Proxy Manager", "YunoHost", "CapRover"],
+      "tags": ["Self-hosting Solutions", "Web Servers"]
+    },
+    {
+      "slug": "anydesk",
+      "name": "AnyDesk",
+      "pain": "Like TeamViewer, it flags personal use as commercial and cuts sessions short.",
+      "picks": ["MeshCentral", "Guacamole", "Remotely", "X2Go"],
+      "tags": ["Remote Access"]
+    },
+    {
+      "slug": "looker",
+      "name": "Looker Studio",
+      "pain": "Free until you need scheduled reports or row-level security, then it is Google Cloud pricing.",
+      "picks": ["Metabase", "Superset", "Redash", "Evidence"],
+      "tags": ["Analytics", "Database Management"]
+    },
+    {
+      "slug": "power-bi",
+      "name": "Power BI",
+      "pain": "Per-user licensing, and sharing a dashboard requires every viewer to be licensed too.",
+      "picks": ["Metabase", "Superset", "Redash"],
+      "tags": ["Analytics", "Database Management"]
+    },
+    {
+      "slug": "twilio",
+      "name": "Twilio",
+      "pain": "Per-minute and per-message pricing on infrastructure you could run yourself for a flat cost.",
+      "picks": ["Asterisk", "FreeSWITCH", "Kamailio", "FusionPBX"],
+      "tags": ["Communication - SIP"]
+    },
+    {
+      "slug": "moodle-cloud",
+      "name": "Blackboard",
+      "pain": "Institutional licensing costs more than the teaching staff it supports.",
+      "picks": ["Moodle", "Canvas LMS", "Chamilo", "openSIS"],
+      "tags": ["Learning and Courses"]
+    },
+    {
+      "slug": "ring",
+      "name": "Ring",
+      "pain": "A subscription to review footage from a camera you already bought, uploaded to a company that has shared it with police.",
+      "picks": ["Frigate", "ZoneMinder", "Shinobi", "MotionEye"],
+      "tags": ["Video Surveillance"]
+    },
+    {
+      "slug": "nest",
+      "name": "Google Nest",
+      "pain": "Cloud-dependent by design: no internet, no thermostat schedule, no camera history.",
+      "picks": ["Home Assistant", "openHAB", "Domoticz", "Zigbee2MQTT"],
+      "tags": ["Internet of Things (IoT)", "Automation"]
+    },
+    {
+      "slug": "smartsheet",
+      "name": "Smartsheet",
+      "pain": "A spreadsheet with permissions, priced per editor per month.",
+      "picks": ["Baserow", "NocoDB", "Grist", "Directus"],
+      "tags": ["Database Management", "Software Development - Low Code"]
     }
   ]
 }

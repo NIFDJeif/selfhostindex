@@ -113,6 +113,22 @@ const median = scored.slice().sort((a, b) => a - b)[Math.floor(scored.length / 2
       or dead entries cannot drag the scale down and flatter everyone else.
     </p>
 
+    <h2>What the catalogue does not contain</h2>
+    <p>
+      Scope is inherited from the upstream dataset, and it has a deliberate boundary worth knowing
+      about: <strong>monitoring, identity and SSO, and CI/CD are not covered here.</strong>
+      awesome-selfhosted delegates those categories to its sister list,
+      <a href="https://github.com/awesome-foss/awesome-sysadmin" rel="noopener">awesome-sysadmin</a>.
+      So you will not find Grafana, Zabbix, Netdata, Prometheus, Keycloak or Jenkins on this site —
+      not because they are unworthy, but because they sit outside the catalogue we score.
+    </p>
+    <p>
+      We could import that list. We have chosen not to: it is a hand-maintained markdown document
+      with no star counts and no commit history, so every entry would arrive unrated. A directory
+      whose selling point is a health score should not pad itself with hundreds of entries it
+      cannot score.
+    </p>
+
     <h2>Update cadence</h2>
     <p>
       The source dataset is refreshed weekly and the whole site is rebuilt from scratch each time,
