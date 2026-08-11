@@ -1,0 +1,359 @@
+---
+/**
+ * LE CONTENU À BACKLINKS.
+ *
+ * Les fiches produit se positionnent en longue traîne mais n'attirent aucun lien :
+ * personne ne cite un annuaire. Ce que les gens citent, ce sont des CHIFFRES —
+ * « 24 % des projets self-hosted n'ont pas eu de commit ce trimestre » se reprend
+ * dans un article, un post Reddit, une newsletter. Chaque reprise est un backlink,
+ * et les backlinks sont l'unique chose qui manque à un domaine neuf.
+ *
+ * URL volontairement sans millésime : les liens accumulés au fil des ans pointent
+ * tous vers la même page, qui se met à jour seule. Une URL en « -2026 » repartirait
+ * de zéro chaque janvier et perdrait toute autorité acquise.
+ */
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import HealthBadge from '../components/HealthBadge.astro';
+import {
+  software, tags, platforms, licenses, meta,
+  getSoftware, getSoftwareMany, fmtNumber, HISTORY_MONTHS,
+} from '../lib/data';
+import { site } from '../../site.config';
+
+const year = new Date().getFullYear();
+const scored = software.filter((s) => s.score !== null);
+const scores = scored.map((s) => s.score!).sort((a, b) => a - b);
+const median = (arr: number[]) =>
+  arr.length ? (arr.length % 2 ? arr[(arr.length - 1) / 2] : Math.round((arr[arr.length / 2 - 1] + arr[arr.length / 2]) / 2)) : 0;
+
+const overallMedian = median(scores);
+
+/* Répartition globale. */
+const bands = [
+  { label: 'Thriving', range: '82–100', n: scores.filter((s) => s >= 82).length, hue: 'ok' },
+  { label: 'Healthy', range: '68–81', n: scores.filter((s) => s >= 68 && s < 82).length, hue: 'ok' },
+  { label: 'Steady', range: '52–67', n: scores.filter((s) => s >= 52 && s < 68).length, hue: 'mid' },
+  { label: 'Slowing', range: '36–51', n: scores.filter((s) => s >= 36 && s < 52).length, hue: 'warn' },
+  { label: 'At risk', range: '0–35', n: scores.filter((s) => s < 36).length, hue: 'bad' },
+];
+
+/* Chiffres d'ouverture — ce sont ceux qui se citent. */
+const noCommitsQuarter = scored.filter((s) => (s.signals?.c3 ?? 0) === 0).length;
+const noCommitsYear = scored.filter((s) => (s.signals?.c12 ?? 0) === 0).length;
+const recentRelease = scored.filter((s) => {
+  const d = s.release?.publishedAt;
+  if (!d) return false;
+  return (Date.now() - new Date(d).getTime()) / 86400000 <= 90;
+}).length;
+const noTaggedRelease = scored.filter((s) => !s.release?.publishedAt).length;
+const pct = (n: number, total = scored.length) => Math.round((100 * n) / total);
+// Le chiffre le plus fort du rapport : la part du catalogue qui a décroché.
+// « 9 % sans commit ce trimestre » est vrai mais faible ; « un tiers ralentit
+// ou est à l'arrêt » est la formulation exacte qui se reprend dans un article.
+const decliningN = scores.filter((s) => s < 52).length;
+
+/* Santé par catégorie — seuil de 8 projets pour que la médiane veuille dire quelque chose. */
+const MIN_MEMBERS = 8;
+const catHealth = tags
+  .map((t) => {
+    const members = getSoftwareMany(t.members).filter((s) => s.score !== null);
+    return { tag: t, n: members.length, med: median(members.map((s) => s.score!).sort((a, b) => a - b)) };
+  })
+  .filter((c) => c.n >= MIN_MEMBERS)
+  .sort((a, b) => b.med - a.med);
+
+const bestCats = catHealth.slice(0, 8);
+const worstCats = catHealth.slice(-8).reverse();
+
+/* Santé par runtime : la question « quel langage vieillit le mieux ». */
+const platHealth = platforms
+  .map((p) => {
+    const members = getSoftwareMany(p.members).filter((s) => s.score !== null);
+    return { p, n: members.length, med: median(members.map((s) => s.score!).sort((a, b) => a - b)) };
+  })
+  .filter((x) => x.n >= 15)
+  .sort((a, b) => b.med - a.med);
+
+/* Licences : part de copyleft dans l'auto-hébergé. */
+const licHealth = licenses
+  .map((l) => {
+    const members = getSoftwareMany(l.members).filter((s) => s.score !== null);
+    return { l, n: l.count, med: median(members.map((s) => s.score!).sort((a, b) => a - b)) };
+  })
+  .filter((x) => x.n >= 15)
+  .sort((a, b) => b.n - a.n)
+  .slice(0, 10);
+
+const busiest = scored.slice().sort((a, b) => (b.signals?.c12 ?? 0) - (a.signals?.c12 ?? 0)).slice(0, 15);
+const rising = getSoftwareMany(meta.rising).slice(0, 10);
+const stalling = getSoftwareMany(meta.atRisk).slice(0, 10);
+
+const maxCat = Math.max(...catHealth.map((c) => c.med), 1);
+const maxPlat = Math.max(...platHealth.map((c) => c.med), 1);
+
+const title = `The State of Self-Hosted Software ${year}`;
+const description = `We scored ${meta.counts.software} self-hosted projects on real repository activity: ${pct(decliningN)}% are slowing or at risk, and ${pct(meta.counts.unrated, meta.counts.software)}% cannot be measured at all. Which categories, runtimes and licences are thriving or dying.`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Report',
+  name: title,
+  datePublished: meta.generatedAt.slice(0, 10),
+  dateModified: meta.generatedAt.slice(0, 10),
+  url: `${site.url}/state-of-self-hosted`,
+  publisher: { '@type': 'Organization', name: site.name, url: site.url },
+  description,
+};
+---
+
+<Base title={title} description={description} path="/state-of-self-hosted" jsonLd={jsonLd}>
+  <div class="wrap">
+    <Breadcrumbs items={[{ label: `State of Self-Hosted ${year}` }]} />
+
+    <h1>The State of Self-Hosted Software {year}</h1>
+    <p class="lede" style="margin-top:.7rem">
+      We measure the maintenance health of every project in the self-hosted catalogue, every week.
+      This is what {meta.counts.software} projects look like in aggregate — which categories are
+      thriving, which runtimes age worst, and how much of the ecosystem has quietly stopped moving.
+    </p>
+    <p class="small muted" style="margin-top:.7rem">
+      Data as of {meta.dataDate.slice(0, 10)} · {scored.length} projects scored ·
+      {meta.counts.unrated} not measurable · <a href="/methodology">method</a> ·
+      Free to cite and reproduce with attribution.
+    </p>
+
+    <div class="stat-row" style="margin-top:1.8rem">
+      <div class="stat"><div class="n">{pct(decliningN)}%</div><div class="l">slowing or at risk</div></div>
+      <div class="stat"><div class="n">{pct(meta.counts.unrated, meta.counts.software)}%</div><div class="l">impossible to measure</div></div>
+      <div class="stat"><div class="n">{pct(recentRelease)}%</div><div class="l">released in last 90 days</div></div>
+      <div class="stat"><div class="n">{pct(noCommitsQuarter)}%</div><div class="l">no commit last quarter</div></div>
+      <div class="stat"><div class="n">{overallMedian}</div><div class="l">median health score</div></div>
+    </div>
+
+    <div class="narrow prose" style="margin-top:2.2rem">
+      <h2>The headline</h2>
+      <p>
+        <strong>{pct(decliningN)}% of scored self-hosted projects are slowing or at risk</strong> —
+        {' '}{decliningN} of {scored.length}. That is the figure worth carrying away: pick a project
+        at random from a directory and there is roughly a one-in-three chance its development has
+        materially decelerated or stopped.
+      </p>
+      <p>
+        It is not all decay, and the ecosystem's reputation for abandonment is unfair.
+        {' '}{pct(recentRelease)}% shipped a tagged release within the last ninety days, and only
+        {' '}{pct(noCommitsQuarter)}% went the whole quarter without a single commit. Self-hosted
+        software is not dying — it is <em>bimodal</em>. A large active core ships constantly, a long
+        tail sits untouched, and the median score of {overallMedian} falls in the valley between them.
+      </p>
+      <p>
+        Which is precisely why an average is useless here and a per-project score is not. The
+        catalogue does not have a health problem; it has a <em>selection</em> problem. The good
+        options and the dead ones sit side by side in every category, indistinguishable until you
+        look at the commit log — and star counts actively mislead, because they only ever go up.
+      </p>
+    </div>
+
+    <h2>Distribution of health scores</h2>
+    <div class="tbl-scroll" style="margin-top:1rem">
+      <table class="tbl">
+        <thead><tr><th>Band</th><th>Score</th><th>Projects</th><th>Share</th><th style="width:38%"></th></tr></thead>
+        <tbody>
+          {bands.map((b) => (
+            <tr>
+              <th><span class={`badge badge-${b.hue}`}><span class="badge-dot" aria-hidden="true"></span>{b.label}</span></th>
+              <td class="num">{b.range}</td>
+              <td class="num">{b.n}</td>
+              <td class="num">{pct(b.n)}%</td>
+              <td><span class="bar-track"><span class="bar-fill" style={`width:${(100 * b.n) / Math.max(...bands.map((x) => x.n))}%`}></span></span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="narrow prose">
+      <h2>The measurement gap nobody talks about</h2>
+      <p>
+        <strong>{meta.counts.unrated} of {meta.counts.software} projects ({pct(meta.counts.unrated, meta.counts.software)}%)
+        cannot be scored at all</strong>, because they are developed outside GitHub — on Codeberg,
+        on self-hosted Forgejo or GitLab, or on infrastructure the project runs itself.
+      </p>
+      <p>
+        There is something quietly appropriate about that: the self-hosting community hosts its own
+        forges, and in doing so becomes invisible to the tooling that measures open-source health.
+        Every ecosystem dashboard you have ever read has this blind spot, and almost none of them
+        say so. We report those projects as <em>unrated</em> rather than guessing, because scoring
+        them from missing data produces exactly one outcome — healthy projects labelled dead.
+      </p>
+    </div>
+
+    <h2>Healthiest categories</h2>
+    <p class="muted small" style="margin-bottom:1rem">
+      Median health score, categories with at least {MIN_MEMBERS} scored projects.
+    </p>
+    <div class="tbl-scroll">
+      <table class="tbl">
+        <thead><tr><th>Category</th><th>Projects</th><th>Median</th><th style="width:34%"></th></tr></thead>
+        <tbody>
+          {bestCats.map((c) => (
+            <tr>
+              <td><a href={`/category/${c.tag.slug}`}>{c.tag.name}</a></td>
+              <td class="num">{c.n}</td>
+              <td class="num"><strong>{c.med}</strong></td>
+              <td><span class="bar-track"><span class="bar-fill" style={`width:${(100 * c.med) / maxCat}%`}></span></span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Categories in trouble</h2>
+    <p class="muted small" style="margin-bottom:1rem">
+      The same measure, at the other end. A low median does not mean no good option exists — it
+      means most of the field has stopped moving, so picking at random is risky.
+    </p>
+    <div class="tbl-scroll">
+      <table class="tbl">
+        <thead><tr><th>Category</th><th>Projects</th><th>Median</th><th>Best in category</th></tr></thead>
+        <tbody>
+          {worstCats.map((c) => {
+            const top = getSoftware(c.tag.members[0]);
+            return (
+              <tr>
+                <td><a href={`/category/${c.tag.slug}`}>{c.tag.name}</a></td>
+                <td class="num">{c.n}</td>
+                <td class="num"><strong>{c.med}</strong></td>
+                <td class="small">{top && <a href={`/software/${top.slug}`}>{top.name}</a>}{top?.score !== null && top ? ` · ${top.score}` : ''}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Which runtimes age best</h2>
+    <p class="muted small" style="margin-bottom:1rem">
+      Median health by the language or platform a project is built on, minimum 15 scored projects.
+      This says more about which communities are currently active than about the languages themselves.
+    </p>
+    <div class="tbl-scroll">
+      <table class="tbl">
+        <thead><tr><th>Platform</th><th>Projects</th><th>Median</th><th style="width:34%"></th></tr></thead>
+        <tbody>
+          {platHealth.map((x) => (
+            <tr>
+              <td><a href={`/platform/${x.p.slug}`}>{x.p.name}</a></td>
+              <td class="num">{x.n}</td>
+              <td class="num"><strong>{x.med}</strong></td>
+              <td><span class="bar-track"><span class="bar-fill" style={`width:${(100 * x.med) / maxPlat}%`}></span></span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Licences</h2>
+    <p class="muted small" style="margin-bottom:1rem">
+      The ten most common licences in the catalogue, with the median health of the projects using them.
+    </p>
+    <div class="tbl-scroll">
+      <table class="tbl">
+        <thead><tr><th>Licence</th><th>Projects</th><th>Share</th><th>Median health</th></tr></thead>
+        <tbody>
+          {licHealth.map((x) => (
+            <tr>
+              <td><a href={`/license/${x.l.slug}`}>{x.l.id}</a> <span class="muted small">{x.l.name}</span></td>
+              <td class="num">{x.n}</td>
+              <td class="num">{pct(x.n, meta.counts.software)}%</td>
+              <td class="num"><strong>{x.med}</strong></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>The busiest repositories</h2>
+    <p class="muted small" style="margin-bottom:1rem">
+      Raw commit volume over {HISTORY_MONTHS} months. Volume is not quality — but it does show
+      where the ecosystem's engineering effort is actually going.
+    </p>
+    <div class="tbl-scroll">
+      <table class="tbl">
+        <thead><tr><th>#</th><th>Project</th><th>Commits</th><th>Stars</th><th>Health</th></tr></thead>
+        <tbody>
+          {busiest.map((s, i) => (
+            <tr>
+              <td class="num muted">{i + 1}</td>
+              <td><a href={`/software/${s.slug}`}><strong>{s.name}</strong></a></td>
+              <td class="num">{fmtNumber(s.signals?.c12 ?? 0)}</td>
+              <td class="num">{fmtNumber(s.stars)}</td>
+              <td><HealthBadge status={s.status} score={s.score} /></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid grid-2" style="margin-top:2rem;align-items:start">
+      <div>
+        <h2 style="margin-top:0">Accelerating</h2>
+        <p class="muted small" style="margin-bottom:.9rem">Commit activity up sharply last quarter versus the one before.</p>
+        <div class="tbl-scroll">
+          <table class="tbl">
+            <tbody>
+              {rising.map((s) => (
+                <tr>
+                  <td><a href={`/software/${s.slug}`}>{s.name}</a></td>
+                  <td class="num small">{s.signals?.prev3} → {s.signals?.c3}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <h2 style="margin-top:0">Popular but stalling</h2>
+        <p class="muted small" style="margin-bottom:.9rem">Well-known projects with little recent activity — the trap star counts hide.</p>
+        <div class="tbl-scroll">
+          <table class="tbl">
+            <tbody>
+              {stalling.map((s) => (
+                <tr>
+                  <td><a href={`/software/${s.slug}`}>{s.name}</a></td>
+                  <td class="num small">★ {fmtNumber(s.stars)}</td>
+                  <td class="num small">{s.signals?.c12 ?? 0} commits</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="narrow prose" style="margin-top:2.5rem">
+      <h2>Method, in one paragraph</h2>
+      <p>
+        Every project is scored 0–100 from public repository metadata: commit volume over
+        {' '}{HISTORY_MONTHS} complete months (40 points, percentile-ranked against the whole
+        catalogue), days since the last tagged release (25, absolute), community size (20,
+        percentile-ranked) and quarter-on-quarter momentum (15, absolute). Percentile ranking on the
+        two continuous components stops the scale saturating and makes the score impossible to
+        inflate with trivial commits. Archived and unmeasurable projects are excluded from the
+        ranking base. <a href="/methodology">Full method, including its known limitations</a>.
+      </p>
+
+      <h2>Using these figures</h2>
+      <p>
+        Every number here is recomputed from source on each rebuild, so this page does not go stale
+        the way an annual PDF does. You are welcome to quote, chart or reproduce any of it — a link
+        back to this page is all we ask. The underlying software metadata comes from the
+        community-maintained awesome-selfhosted dataset under CC-BY-SA 3.0
+        (<a href="/attribution">attribution</a>); the scores and analysis are ours.
+      </p>
+      <p class="small muted">
+        Last recomputed {meta.generatedAt.slice(0, 10)} from source data dated {meta.dataDate.slice(0, 10)}.
+      </p>
+    </div>
+  </div>
+</Base>
