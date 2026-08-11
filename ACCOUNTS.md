@@ -34,30 +34,45 @@ cd "C:\Users\maxim\Desktop\usine à argent"; git remote add origin https://githu
 
 ---
 
-## Étape 2 — Cloudflare Pages (15 min) · héberge le site
+## Étape 2 — Cloudflare (15 min) · héberge le site
+
+> Cloudflare a **fusionné Pages dans Workers**. Un site statique s'y déploie désormais comme un
+> Worker « assets-only » : aucun code serveur, juste des fichiers servis depuis le edge. La
+> configuration ne se fait plus dans un formulaire mais dans le fichier
+> [`wrangler.jsonc`](wrangler.jsonc), déjà présent dans le dépôt. Tu n'as donc rien à régler
+> toi-même : les anciens champs « Framework preset » et « Build output directory » n'existent plus.
 
 1. Crée un compte : **https://dash.cloudflare.com/sign-up**
-2. Menu de gauche → **Compute (Workers & Pages)** → **Create** → onglet **Pages** →
-   **Connect to Git** → autorise GitHub → choisis le dépôt `selfhostindex`
-3. Renseigne **exactement** ceci :
+2. **Compute (Workers & Pages)** → **Create** → **Import a repository** → autorise GitHub →
+   choisis `selfhostindex`
+3. L'écran « Set up your application » se pré-remplit. Vérifie seulement :
 
    | Champ | Valeur |
    |---|---|
-   | Framework preset | `Astro` |
+   | Project name | `selfhostindex` |
    | Build command | `npm run build` |
-   | Build output directory | `dist` |
-   | Root directory | *(laisser vide)* |
+   | Deploy command | `npx wrangler deploy` |
+   | API token | `Create new token` |
+   | API token name | *(laisser vide)* |
+   | Variable name / value | *(laisser vide)* |
 
-4. **Save and Deploy**. Compte 3 à 5 minutes pour le premier build.
-5. Note l'URL obtenue, du type `selfhostindex-a1b.pages.dev`.
+   Aucune variable d'environnement n'est nécessaire : la clé Gemini vit côté GitHub Actions,
+   jamais côté Cloudflare.
 
-### 2b. Si l'URL n'est PAS exactement `selfhostindex.pages.dev`
+4. **Deploy**. Compte 3 à 5 minutes pour le premier build.
+5. Note l'URL obtenue, du type `selfhostindex.TON-SOUS-DOMAINE.workers.dev`.
 
-Ouvre `site.config.ts`, ligne ~13, et remplace par ton URL réelle :
+### 2b. Reporte l'URL réelle dans la config — **obligatoire**
+
+L'URL par défaut du projet est un espace réservé. Ouvre `site.config.ts`, ligne ~13, et remplace
+par celle que Cloudflare vient de te donner :
 
 ```ts
-url: 'https://selfhostindex-a1b.pages.dev',
+url: 'https://selfhostindex.ton-sous-domaine.workers.dev',
 ```
+
+C'est cette valeur qui alimente le sitemap, les URL canoniques et les données structurées. Si elle
+est fausse, tu déclares à Google 2 330 pages qui n'existent pas.
 
 C'est **indispensable** : cette valeur alimente le sitemap, les URL canoniques et les données
 structurées. Une URL fausse ici et Google indexe des adresses qui n'existent pas.
@@ -68,7 +83,8 @@ Puis :
 git add site.config.ts; git commit -m "config: set live URL"; git push
 ```
 
-> **Bande passante illimitée, gratuite, pour toujours.** C'est l'offre Cloudflare Pages.
+> **Bande passante illimitée, gratuite, pour toujours.** C'est l'offre Workers static assets :
+> les fichiers statiques ne sont pas facturés, et il n'y a pas de plafond de requêtes sur eux.
 > Même si le site prend 500 000 visites/mois, tu paieras 0 €.
 
 ---
@@ -78,7 +94,7 @@ git add site.config.ts; git commit -m "config: set live URL"; git push
 Sans mesure, tu ne sauras jamais quelles pages rapportent, donc quoi développer.
 
 1. Dashboard Cloudflare → **Analytics & Logs** → **Web Analytics** → **Add a site**
-2. Saisis ton domaine `.pages.dev`
+2. Saisis ton domaine `.workers.dev`
 3. Copie le **token** (une longue chaîne hexadécimale)
 4. Colle-le dans `site.config.ts` :
 
@@ -125,7 +141,7 @@ entries`. À partir de là, ça tourne **tout seul chaque jour à 04h17 UTC**.
 Sans cette étape, Google mettra des mois à trouver le site. Avec, quelques jours.
 
 1. **https://search.google.com/search-console** → **Ajouter une propriété** →
-   choisis **Préfixe d'URL** (la case de droite) → saisis ton URL complète `https://....pages.dev`
+   choisis **Préfixe d'URL** (la case de droite) → saisis ton URL complète `https://....workers.dev`
 2. Méthode de validation : **Fichier HTML**. Télécharge le fichier `googleXXXX.html` proposé.
 3. Place ce fichier dans le dossier `public/` du projet, puis :
 
@@ -204,14 +220,14 @@ page vide en attente de pub.
 
 ## L'unique dépense qui vaut le coup (facultative, ~10 €/an)
 
-Un vrai domaine, du type `selfhostindex.com`, au lieu de `.pages.dev`.
+Un vrai domaine, du type `selfhostindex.com`, au lieu de `.workers.dev`.
 
-**Pourquoi ça compte :** un sous-domaine `.pages.dev` est partagé par des millions de sites, dont
+**Pourquoi ça compte :** un sous-domaine `.workers.dev` est partagé par des millions de sites, dont
 beaucoup de spam. Google traite ces domaines mutualisés avec méfiance, et tu ne pourras jamais
 revendre le site sans posséder son domaine.
 
 Si un jour tu veux le faire : achète-le chez **Cloudflare Registrar** (prix coûtant, sans marge),
-puis Pages → **Custom domains** → ajoute-le. Il reste ensuite **une seule** ligne à changer,
+puis ton projet Worker → **Settings** → **Domains & Routes** → ajoute-le. Il reste ensuite **une seule** ligne à changer,
 `url:` dans `site.config.ts`, et tout le site se reconfigure.
 
 Ce n'est pas nécessaire pour démarrer. Fais-le si le trafic décolle.

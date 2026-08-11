@@ -81,7 +81,7 @@ catalogue, puis continue de rafraîchir les scores indéfiniment.
 
 | Poste | Fournisseur | Coût |
 |---|---|---|
-| Hébergement + bande passante | Cloudflare Pages | 0 € (illimité) |
+| Hébergement + bande passante | Cloudflare Workers (static assets) | 0 € (illimité) |
 | CI/CD quotidien | GitHub Actions (dépôt public) | 0 € (illimité) |
 | Rédaction IA | Google AI Studio, offre gratuite | 0 € |
 | Analytics | Cloudflare Web Analytics | 0 € |

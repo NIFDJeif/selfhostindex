@@ -9,7 +9,7 @@
 #   3. rédige 40 nouvelles fiches éditoriales via l'API gratuite de Gemini ;
 #   4. construit le site EN ENTIER — si le build casse, on ne pousse rien
 #      (ce garde-fou évite de mettre le site en ligne dans un état cassé) ;
-#   5. commit + push, ce qui déclenche le déploiement Cloudflare Pages ;
+#   5. commit + push, ce qui déclenche le déploiement Cloudflare ;
 #   6. notifie les moteurs de recherche des nouvelles URL.
 #
 # Coût : 0 €. Dépôt public = minutes GitHub Actions illimitées.
@@ -91,7 +91,7 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Push (déclenche le déploiement Cloudflare Pages)
+      - name: Push (déclenche le déploiement Cloudflare)
         if: steps.commit.outputs.changed == 'true'
         run: git push
 
