@@ -1,0 +1,8 @@
+{
+  "summary": "Home Assistant is a self-hosted platform designed to aggregate and control disparate Internet of Things devices within a local network. It provides a centralised dashboard and automation engine for managing smart home hardware without relying on cloud-based infrastructure. The software runs via containerised environments and is implemented primarily in Python.",
+  "goodFor": "It is a strong fit for technical users who want to manage smart home devices locally, ensuring privacy and operability without an internet connection.",
+  "watchOut": "The platform requires significant configuration effort, and maintaining stability across diverse hardware integrations can demand ongoing administrative oversight.",
+  "deployNotes": "As a Docker workload, you will typically need to configure persistent storage volumes for state retention and set up a reverse proxy to handle secure TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Teleport acts as a unified access plane and certificate authority, managing authentication and connection permissions for infrastructure targets such as SSH servers, Kubernetes clusters, databases, and web applications. It issues short-lived credentials rather than relying on static passwords or long-lived keys, centralising entry control across distributed environments.",
+  "goodFor": "Engineering teams managing diverse, distributed infrastructure who need granular audit trails and strict identity-based access controls.",
+  "watchOut": "Operating a central certificate authority creates a single point of failure and a high-value security target, requiring careful key management and high availability planning.",
+  "deployNotes": "Because the application is packaged for container and Kubernetes environments, you will typically need to configure persistent storage for audit logs and state, alongside TLS termination at your network edge.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

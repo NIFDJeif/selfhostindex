@@ -1,0 +1,8 @@
+{
+  "summary": "Beets is a command-line music library manager and metadata tagger that connects to the MusicBrainz database to organise audio collections. It includes an optional web interface for browsing files and relies on Python and standard package formats for its installation environment. Under an MIT licence, it operates primarily as a terminal utility to clean up filenames, directories, and ID3 tags.",
+  "goodFor": "It is well-suited for terminal-centric users and audiophiles who want strict, automated control over their music metadata rather than relying on heavy graphical media servers.",
+  "watchOut": "Because it relies heavily on the command line and complex configuration files, the initial setup and curation process has a steep learning curve. Automation rules can also inadvertently alter existing tags if your configuration is not thoroughly tested first.",
+  "deployNotes": "As a Python application, it typically runs as a persistent background service requiring persistent storage for your audio library and configuration files. You will usually need to configure a reverse proxy if you intend to access its web interface securely over a network.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

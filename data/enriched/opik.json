@@ -1,0 +1,8 @@
+{
+  "summary": "Opik is a self-hosted platform designed to evaluate, test, and monitor large language model applications. It provides observability tools to help you calibrate model outputs and track performance throughout both the development and production lifecycles.",
+  "goodFor": "Development teams building language model applications who need internal tooling to test outputs, track behaviour, and maintain quality control across environments.",
+  "watchOut": "The platform introduces significant architectural complexity and storage requirements typical of telemetry systems, meaning you will need to monitor resource consumption carefully in production.",
+  "deployNotes": "As a Docker-based application built with Python, you will typically need to configure persistent volumes for data storage, manage environment variables for configuration, and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

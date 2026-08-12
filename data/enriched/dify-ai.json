@@ -1,0 +1,8 @@
+{
+  "summary": "Dify.ai is an open-source platform designed for building, testing, and deploying applications powered by large language models. It provides a low-code environment to orchestrate prompts, manage data contexts, and integrate AI models into operational workflows.",
+  "goodFor": "Development teams and engineers looking for a low-code interface to rapidly prototype and deploy LLM-backed workflows without writing custom orchestration layers from scratch.",
+  "watchOut": "The software carries a dual Apache-2.0 and Commons-Clause licence, which restricts commercial redistribution and hosted service offerings. As with many LLM orchestration platforms, operational resource requirements can scale quickly depending on the underlying model and concurrency.",
+  "deployNotes": "Deployment relies on Docker, meaning you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination and domain routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

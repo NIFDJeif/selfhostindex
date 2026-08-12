@@ -1,0 +1,8 @@
+{
+  "summary": "Mautic is an open-source marketing automation platform designed to manage email campaigns, social media interactions, and audience segmentation. Written in PHP, it provides self-hosted infrastructure for tracking user behaviour and executing automated communication workflows. It serves as a central hub for handling large-scale outreach and managing contact databases directly on your own infrastructure.",
+  "goodFor": "Teams with technical resources who want to retain ownership of their marketing data and user lists without relying on third-party SaaS providers.",
+  "watchOut": "Self-hosting a comprehensive marketing platform introduces significant operational overhead, particularly around maintaining deliverability rates, managing bounce handling, and configuring reliable background cron jobs for campaign delivery.",
+  "deployNotes": "Deploying this PHP application typically requires a dedicated relational database like MySQL or MariaDB, a web server such as Nginx or Apache, and a properly configured background task queue. You will also need to handle TLS termination via a reverse proxy and ensure persistent storage is available for uploaded media and logs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

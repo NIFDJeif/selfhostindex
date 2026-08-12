@@ -1,0 +1,8 @@
+{
+  "summary": "Kodi is an entertainment centre application designed to organise and play music, videos, and images. It provides a centralised interface for local media consumption across multiple operating systems, having evolved from its origins as XBMC.",
+  "goodFor": "Users who want a customisable, local media playback interface for a dedicated living room setup or multi-platform device collection.",
+  "watchOut": "It functions primarily as a standalone client application rather than a server-first streaming daemon, which can complicate remote web access and multi-device synchronisation.",
+  "deployNotes": "As a compiled C++ application distributed via native packages, it typically requires local persistent storage for media libraries and configuration files, alongside appropriate audio and video drivers on the host machine.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

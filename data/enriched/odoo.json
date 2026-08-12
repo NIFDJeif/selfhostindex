@@ -1,0 +1,8 @@
+{
+  "summary": "Odoo is a free, open-source enterprise resource planning system designed to help organisations manage core business operations. It provides a centralised platform for handling resource planning tasks under the LGPL-3.0 licence.",
+  "goodFor": "This software suits teams seeking a comprehensive, self-hosted resource planning suite that they can modify freely.",
+  "watchOut": "Enterprise resource planning platforms typically demand significant configuration effort and administrative overhead to align with specific business workflows.",
+  "deployNotes": "As a Python application, it typically requires a persistent database backend, such as PostgreSQL, and a reverse proxy to handle TLS termination securely in a production environment.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

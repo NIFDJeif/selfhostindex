@@ -1,0 +1,8 @@
+{
+  "summary": "OpenSearch is a distributed search and analytics engine that provides a RESTful interface for indexing, searching, and managing large datasets. It operates as a cluster of nodes handling concurrent read and write operations over structured and unstructured data. The software is licensed under the Apache-2.0 licence.",
+  "goodFor": "It is well-suited for teams building centralised log aggregation, full-text search capabilities, or real-time application monitoring infrastructure at scale.",
+  "watchOut": "Running a distributed search cluster introduces significant operational complexity, including memory tuning for the Java runtime and managing persistent storage across nodes.",
+  "deployNotes": "You will typically deploy it using Docker or Kubernetes with persistent volumes attached for data nodes, and place a reverse proxy in front for secure TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

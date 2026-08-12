@@ -1,0 +1,8 @@
+{
+  "summary": "Bitwarden is a self-hosted password manager that lets you store and synchronise credentials across multiple devices. It provides interfaces including a web application, browser extensions, and mobile apps to manage your sensitive data.",
+  "goodFor": "It suits individuals or organisations who want to retain full control over their authentication credentials and sensitive data on their own infrastructure.",
+  "watchOut": "Running your own password manager introduces a critical single point of failure; if your server experiences downtime or data loss, accessing your credentials becomes much harder.",
+  "deployNotes": "Deployment typically relies on Docker and requires persistent storage volumes to preserve your database and configuration state. You will also need to configure a reverse proxy to handle TLS termination for secure client connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

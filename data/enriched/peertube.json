@@ -1,0 +1,8 @@
+{
+  "summary": "PeerTube is a federated video hosting platform that uses peer-to-peer technology within the browser to distribute bandwidth across viewers. Built with Node.js and distributed under the AGPL-3.0 licence, it allows administrators to run independent video streaming nodes that can interconnect with each other.",
+  "goodFor": "Self-hosters who want to build an independent video platform or participate in a decentralised media network without relying on centralised corporate infrastructure.",
+  "watchOut": "The peer-to-peer playback model relies on active viewers sharing data, meaning videos with low initial viewership will place higher bandwidth demands directly on your server.",
+  "deployNotes": "Node.js applications typically require a reverse proxy like Nginx or Caddy to handle TLS termination, alongside persistent storage for media files and a separate database system.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Super Productivity is a self-hosted task management application featuring built-in time tracking and timeboxing tools. It allows you to organise your daily workload while connecting directly to external issue trackers such as Jira, GitHub, GitLab, Redmine, and OpenProject.",
+  "goodFor": "Developers and project managers who want to combine personal task organisation, time tracking, and issue tracker synchronization within a single interface.",
+  "watchOut": "Relying on external issue tracker integrations means you will need to manage API tokens and network access permissions for each connected service.",
+  "deployNotes": "Since it is distributed as a Docker container, you will typically need to configure persistent storage for your application data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

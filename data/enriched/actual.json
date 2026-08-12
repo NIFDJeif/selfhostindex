@@ -1,0 +1,8 @@
+{
+  "summary": "Actual is a self-hosted personal finance application that uses a zero-sum budgeting model to help you manage your money. It supports manual transaction imports alongside optional automatic bank synchronization and device syncing.",
+  "goodFor": "It suits individuals wanting local-first control over their personal budgeting data without relying on third-party cloud services.",
+  "watchOut": "Setting up automatic bank synchronization can require external configuration and API integrations depending on your financial institutions.",
+  "deployNotes": "As a Docker-based Node.js application, you will typically need to configure persistent volume storage for your financial data and place it behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

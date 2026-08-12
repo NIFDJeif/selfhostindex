@@ -1,0 +1,8 @@
+{
+  "summary": "Syncthing is an open source file synchronisation tool that operates on a peer-to-peer model. It replicates directories directly between your local machines or servers without routing data through a central third-party cloud service. The software is written in Go and distributed via container images and binary packages.",
+  "goodFor": "It is well-suited for users who want to maintain complete ownership of their data while keeping multiple devices synchronised across a local network or the internet.",
+  "watchOut": "You will need to manage your own firewall rules and ensure that both devices can establish a direct network connection or route through a relay, which can complicate setup behind strict corporate NATs.",
+  "deployNotes": "Deployments typically require persistent storage volumes to retain synchronised files and configuration data across container restarts. You may also want to configure a reverse proxy to secure the administrative web interface with TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

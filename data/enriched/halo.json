@@ -1,0 +1,8 @@
+{
+  "summary": "Halo is a self-hosted website building and content management tool written in Java. It allows you to construct and manage public-facing web pages and documentation directly from your own server infrastructure.",
+  "goodFor": "Teams or individuals looking for a Java-centric content management platform who can navigate documentation primarily written in Chinese.",
+  "watchOut": "The primary documentation and community resources are predominantly in Chinese, which may present a barrier to troubleshooting for non-fluent speakers.",
+  "deployNotes": "As a Java application deployed via Docker, it typically requires persistent volume mounts for stored data and a separate reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

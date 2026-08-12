@@ -1,0 +1,8 @@
+{
+  "summary": "Element is a client application designed to connect to the Matrix communication network across web browsers and mobile devices. It provides an interface for text messaging, voice communication, and file sharing within custom chat environments. As a Matrix client, it relies on a separately hosted homeserver to route traffic and store message history.",
+  "goodFor": "It suits technical teams or individuals who want to maintain full control over their communication channels using the open Matrix protocol.",
+  "watchOut": "You will need to manage user authentication, homeserver federation, and client updates independently, which adds ongoing administrative overhead.",
+  "deployNotes": "Since it runs on Node.js, you will typically need to serve it behind a reverse proxy to handle TLS termination and configure persistent storage if you are hosting the client assets locally alongside your server.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "OpenProject is a web-based platform designed for tracking projects, organising tasks, and defining goals. It facilitates team collaboration through work packages and provides integration options with external version control platforms like GitHub.",
+  "goodFor": "It suits teams requiring a structured, self-hosted environment to manage complex workflows and link project tasks directly to code repositories.",
+  "watchOut": "As a comprehensive Ruby-based application, it can be resource-intensive to host and maintain compared to lightweight task lists.",
+  "deployNotes": "You can typically deploy this software using Docker alongside persistent storage volumes for your database and file attachments, fronted by a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

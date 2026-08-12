@@ -1,0 +1,8 @@
+{
+  "summary": "Strapi is an open-source headless content management framework built with Node.js. It allows developers to define content structures and automatically generates a REST or GraphQL API to manage that data. This lets you build custom user interfaces or frontend applications while relying on a centralized backend for content storage.",
+  "goodFor": "It suits developers who want to quickly set up a structured API-driven content backend using JavaScript and TypeScript without writing boilerplate code.",
+  "watchOut": "Content management frameworks of this type often introduce significant database complexity and can be resource-heavy compared to flat-file or purely static alternatives.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent storage layer, a connection to a separate relational database, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

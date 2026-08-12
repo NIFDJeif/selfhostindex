@@ -1,0 +1,8 @@
+{
+  "summary": "Paperless-ngx is a self-hosted document management system that lets you digitise, index, and archive physical paperwork through a web interface. It acts as a central repository for scanned files, converting them into searchable formats for easier retrieval.",
+  "goodFor": "It is well-suited for home users or small offices wanting to reduce physical clutter by moving invoices, receipts, and letters into a searchable digital archive.",
+  "watchOut": "OCR processing and text extraction can be resource-intensive during initial ingestion, potentially straining lower-powered home server hardware.",
+  "deployNotes": "As a containerised application built with Python, it typically requires persistent storage volumes for uploaded files and a database backend, along with a reverse proxy for handling TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

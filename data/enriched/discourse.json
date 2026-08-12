@@ -1,0 +1,8 @@
+{
+  "summary": "Discourse is an advanced web-based platform designed for building online communities, discussion boards, and social forums. It is constructed using Ruby and JavaScript, providing structured environments for multi-user conversation and knowledge sharing. The project is open source under the GPL-2.0 licence and relies heavily on containerisation for deployment.",
+  "goodFor": "It is well-suited for organisations or administrators who need a heavily maintained, structured forum solution for large communities. It works best when you want a dedicated space for long-form discussions rather than quick chat streams.",
+  "watchOut": "The stack has significant resource requirements and an operational footprint that can be heavy for small hobbyist servers. Running it demands careful management of its containerised dependencies and background worker processes.",
+  "deployNotes": "Because the runtime is packaged via Docker, you will typically need to configure persistent storage volumes for database and asset data. You should also place the container behind a reverse proxy to handle TLS termination and incoming HTTP traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

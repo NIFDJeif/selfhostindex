@@ -1,0 +1,8 @@
+{
+  "summary": "Postiz is a self-hosted social media management tool that lets you schedule posts, monitor content performance, and oversee multiple accounts from a single dashboard. It serves as an open-source alternative to commercial platforms like Buffer, Hootsuite, and Sprout Social. The project focuses on analytics and centralised publishing workflows.",
+  "goodFor": "It suits teams or individuals who want to manage and analyse multiple social media channels from their own infrastructure without relying on proprietary SaaS tools.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your deployment if you modify and network the software, which may impact enterprise compliance. It also competes in a crowded space with deeply entrenched commercial alternatives.",
+  "deployNotes": "As a containerised application distributed via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

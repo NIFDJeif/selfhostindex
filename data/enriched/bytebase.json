@@ -1,0 +1,8 @@
+{
+  "summary": "Bytebase provides database schema change management and version control tools for engineering teams. It supports multiple relational and analytical database systems, allowing administrators to track and review alterations systematically.",
+  "goodFor": "Teams managing database migrations across multiple database engines who require structured review processes before applying modifications to production environments.",
+  "watchOut": "Adopting a centralised database management tool introduces a single point of failure and a new operational dependency that requires careful access control.",
+  "deployNotes": "Deployment typically involves running a container via Docker or Kubernetes, requiring persistent storage for internal state and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

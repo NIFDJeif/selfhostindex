@@ -1,0 +1,8 @@
+{
+  "summary": "Memos is a self-hosted knowledge base application designed for capturing and organising notes. It stores data locally in a SQLite database file, keeping your information self-contained. The project is released under the MIT licence.",
+  "goodFor": "It suits individuals looking for a lightweight, single-tenant personal wiki or scratchpad that runs without a complex external database dependency.",
+  "watchOut": "SQLite may become a bottleneck or present backup challenges if you scale to heavy concurrent usage or very large volumes of data. It also overlaps with numerous established note-taking tools, so check if specific features you need are present.",
+  "deployNotes": "You will typically run it via Docker, ensuring you mount a persistent volume for the SQLite database file to avoid data loss on container recreation. A reverse proxy is usually required in front of the container to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

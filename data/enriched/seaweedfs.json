@@ -1,0 +1,8 @@
+{
+  "summary": "SeaweedFS is an open-source distributed file system designed to manage large volumes of small files efficiently. It implements standard storage interfaces such as WebDAV, S3, and HDFS, allowing administrators to scale capacity simply by adding nodes.",
+  "goodFor": "Environments that need to handle millions of small files while serving them through common object storage and network file system protocols.",
+  "watchOut": "Operating a distributed storage cluster introduces significant operational complexity regarding node management, data replication, and network partitioning.",
+  "deployNotes": "Written in Go, it typically compiles to a single static binary that requires persistent storage volumes for data and a reverse proxy if you need TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

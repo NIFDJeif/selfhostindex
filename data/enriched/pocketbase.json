@@ -1,0 +1,8 @@
+{
+  "summary": "PocketBase is a compact, single-file backend designed to support web applications and mobile apps. Written in Go and released under the MIT licence, it provides core backend services in a unified binary.",
+  "goodFor": "Developers building lightweight SaaS products or mobile applications who want to avoid managing complex multi-service backend architectures.",
+  "watchOut": "The all-in-one approach may lead to scaling limitations or tight coupling as your application logic and data models grow significantly more complex.",
+  "deployNotes": "You will typically need to configure persistent storage for the single-file database and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

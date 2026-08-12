@@ -1,0 +1,8 @@
+{
+  "summary": "Umami is a web analytics tool designed to track visitor traffic and page views without relying on invasive tracking cookies. It provides a lightweight alternative to mainstream hosted analytics platforms while keeping data storage entirely under your control. The codebase is distributed under the MIT licence and built with Node.js.",
+  "goodFor": "It is a suitable option if you need basic traffic metrics for personal or commercial sites and prefer a self-hosted, privacy-respecting setup.",
+  "watchOut": "You will need to manage your own data retention policies and database backups, as historical metrics accumulate over time.",
+  "deployNotes": "Containerised deployment via Docker typically requires a persistent storage volume and a separate relational database instance, usually fronted by a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

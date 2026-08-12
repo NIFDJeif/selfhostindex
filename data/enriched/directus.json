@@ -1,0 +1,8 @@
+{
+  "summary": "Directus provides a ready-made admin panel and automatic REST and GraphQL APIs that sit directly on top of a relational database. It reads your database schema and generates the necessary endpoints and management interface without requiring custom backend code. This allows both developers and non-technical staff to interact with the same underlying data stores.",
+  "goodFor": "Teams that need a quick, user-friendly control panel for an existing SQL database alongside standard programmatic interfaces.",
+  "watchOut": "The software uses the Business Source License (BUSL-1.1), which restricts certain commercial uses, and it relies heavily on the performance and integrity of your primary database.",
+  "deployNotes": "As a Node.js application packaged in Docker, it typically requires a persistent volume for uploaded files and sits behind a reverse proxy to handle TLS termination and incoming traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

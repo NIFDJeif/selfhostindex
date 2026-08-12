@@ -1,0 +1,8 @@
+{
+  "summary": "Thingsboard is an open-source platform designed for Internet of Things workloads. It provides tools for device management, data collection, processing, and visual representation of connected hardware metrics. It is distributed under the Apache-2.0 licence.",
+  "goodFor": "It suits developers and organisations building self-hosted IoT monitoring pipelines that require structured telemetry ingestion and dashboarding.",
+  "watchOut": "The enterprise stack is built with Java and containerised orchestration tools, which implies a significant operational baseline and memory footprint compared to lighter single-binary alternatives.",
+  "deployNotes": "You will typically deploy this via Docker or Kubernetes with persistent volumes for data storage and a reverse proxy to handle TLS termination for device endpoints.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

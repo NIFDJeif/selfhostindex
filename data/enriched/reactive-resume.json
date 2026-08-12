@@ -1,0 +1,8 @@
+{
+  "summary": "Reactive Resume is a self-hosted application designed for creating and exporting personal CVs and resumes. It places a strong emphasis on user privacy, allowing you to manage your career documents locally without relying on third-party cloud services.",
+  "goodFor": "It suits individuals who want absolute control over their personal data and prefer to generate professionally styled resumes in a secure, self-managed environment.",
+  "watchOut": "You will need to handle your own data backups and ensure proper access controls if you expose the instance to the wider internet.",
+  "deployNotes": "Deployment typically involves running a Docker container, and you will usually need to configure persistent storage for user data alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

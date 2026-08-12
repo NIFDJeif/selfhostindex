@@ -1,0 +1,8 @@
+{
+  "summary": "EMQX is an open-source MQTT message broker designed to handle large-scale connections from Internet of Things devices. It facilitates real-time data ingestion and message routing across distributed server clusters.",
+  "goodFor": "Deploying in industrial or enterprise environments that need to manage millions of concurrent MQTT client connections and high message throughput.",
+  "watchOut": "Running large Erlang-based clusters requires deep expertise in distributed systems tuning, memory management, and network troubleshooting under high loads.",
+  "deployNotes": "You can deploy it using Docker containers, and you will typically need to configure persistent storage for retained messages as well as a reverse proxy to handle TLS termination for client connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

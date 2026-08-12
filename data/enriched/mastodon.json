@@ -1,0 +1,8 @@
+{
+  "summary": "Mastodon is a federated microblogging server that lets you run an independent node for public status updates and short-form messaging. It connects with other compliant servers across the wider network to distribute users and content without a single central authority. The platform is released under the AGPL-3.0 licence and is built with Ruby.",
+  "goodFor": "It is well-suited for communities, organisations, or individuals who want to host their own social network infrastructure and control their own data rather than relying on commercial platforms.",
+  "watchOut": "Managing a federated server involves handling user moderation, dealing with potential abuse from interconnected instances, and managing storage for media attachments as the user base grows.",
+  "deployNotes": "Because it is built with Ruby, you will typically need to provision a separate relational database, a caching layer, and a reverse proxy to handle TLS termination and asset serving.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

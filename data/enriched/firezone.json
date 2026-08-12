@@ -1,0 +1,8 @@
+{
+  "summary": "Firezone is a self-hosted remote access gateway built around the WireGuard protocol. It provides a web-based interface alongside support for single sign-on and multi-factor authentication to manage network connections.",
+  "goodFor": "Administrators seeking a manageable WireGuard deployment with built-in identity provider integration and a graphical user interface.",
+  "watchOut": "You will need to evaluate how its access control model and authentication dependencies fit your existing security infrastructure.",
+  "deployNotes": "As a containerised Elixir application, deployment typically involves running Docker containers behind a reverse proxy for TLS termination, with persistent volumes configured for state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

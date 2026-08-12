@@ -1,0 +1,8 @@
+{
+  "summary": "PrestaShop is a PHP-based e-commerce platform designed to help you set up and manage an online shop. It provides the core catalog, cart, and checkout functionalities needed to run a transactional web storefront. As an open-source solution licensed under the OSL-3.0, it allows you to host and customise your digital retail operations entirely on your own infrastructure.",
+  "goodFor": "This is a suitable choice if you want to deploy a self-hosted online store using standard PHP hosting environments and need deep control over your shop data.",
+  "watchOut": "The Open Software License (OSL-3.0) can impose restrictive conditions regarding modification and distribution, which you should review carefully if you plan to build proprietary derivatives.",
+  "deployNotes": "You will typically need a standard PHP runtime environment paired with a relational database such as MySQL or MariaDB. Persistent storage is required for uploaded product media and user session data, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

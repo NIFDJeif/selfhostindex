@@ -1,0 +1,8 @@
+{
+  "summary": "WooCommerce is an e-commerce solution built on top of the WordPress content management system, written in PHP and distributed under the GPL-3.0 licence. It provides the core functionality needed to set up an online store, manage products, and handle transactions within a standard WordPress installation.",
+  "goodFor": "It is well-suited for administrators who already run a WordPress site and wish to add online retail capabilities without adopting a separate platform.",
+  "watchOut": "Because it relies entirely on the underlying WordPress architecture, performance can degrade significantly under high traffic or with a large product catalog if the server is not properly configured.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or MariaDB, and persistent storage for media uploads and plugin files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

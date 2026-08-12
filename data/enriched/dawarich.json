@@ -1,0 +1,8 @@
+{
+  "summary": "Dawarich is a self-hosted location history visualiser and tracking tool designed as a private alternative to mainstream timeline services. It allows you to record movements, plot coordinates, and review travel patterns while retaining complete control over your geographic data. The project provides an open-source platform for mapping activities locally without sending telemetry to third-party servers.",
+  "goodFor": "This is a strong fit for privacy-conscious users who want to collect and analyse their location history on their own infrastructure rather than relying on commercial cloud tracking.",
+  "watchOut": "You will need to maintain a reliable method for continuously feeding location data from your mobile devices into the instance, which can impact battery life and require careful client-side configuration.",
+  "deployNotes": "As a containerised application, deployment typically involves Docker and requires persistent storage volumes for your geographic database alongside a reverse proxy to handle secure TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

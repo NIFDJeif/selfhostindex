@@ -1,0 +1,8 @@
+{
+  "summary": "Budibase is a low-code platform designed for constructing internal tools, administrative panels, dashboards, and CRUD applications rapidly. It serves as an alternative to proprietary enterprise platforms like OutSystems, Retool, Mendix, and Appian.",
+  "goodFor": "Teams looking to speed up the creation of internal business software and admin dashboards without writing every line of code from scratch.",
+  "watchOut": "The software uses a proprietary licence rather than open-source terms, which may impose restrictions on commercial use or enterprise deployment depending on your organisational policies.",
+  "deployNotes": "Because it runs on Node.js, Docker, and Kubernetes, you will typically need to configure persistent storage for your application state and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

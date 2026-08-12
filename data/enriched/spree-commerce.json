@@ -1,0 +1,8 @@
+{
+  "summary": "Spree Commerce is an open-source, API-driven e-commerce platform built on the Ruby on Rails framework. It provides a modular foundation for building online stores and managing product catalogues, customer orders, and storefront logic.",
+  "goodFor": "It is well-suited for development teams with existing Ruby on Rails expertise who need a customisable, headless e-commerce backend.",
+  "watchOut": "You will need to maintain a Ruby environment and handle custom frontend integration, as it is primarily a backend-focused system.",
+  "deployNotes": "Deployments typically require a Ruby application server, a relational database, and a reverse proxy to handle incoming TLS traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

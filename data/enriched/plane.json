@@ -1,0 +1,8 @@
+{
+  "summary": "Plane is a self-hosted project management tool designed to track software issues, epics, and product roadmaps. It functions as an open-source alternative to proprietary services like Jira, Linear, and Height.",
+  "goodFor": "Development teams looking for a streamlined, self-hosted issue tracker to manage roadmaps and sprints without relying on cloud-based proprietary alternatives.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which imposes strict copyleft requirements if you modify and network the application. It also competes in a crowded space with well-established proprietary and open-source project management tools.",
+  "deployNotes": "Deployment relies on Docker, so you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}

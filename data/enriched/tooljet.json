@@ -1,0 +1,8 @@
+{
+  "summary": "ToolJet is an open-source low-code framework designed for building and deploying internal business applications. It allows developers to construct user interfaces and connect them to various data sources using minimal custom code, functioning as a self-hosted alternative to proprietary platforms like Retool.",
+  "goodFor": "Engineering teams looking to rapidly assemble internal dashboards, admin panels, and operational workflows without building custom frontends from scratch.",
+  "watchOut": "Adopting a GPL-3.0 licensed platform may introduce compliance constraints for certain commercial deployments, and low-code solutions often present challenges when tracking complex application state and debugging underlying generated code.",
+  "deployNotes": "Deployment is typically handled via Docker containers or Kubernetes, requiring persistent storage for state and a reverse proxy to manage TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-12"
+}
