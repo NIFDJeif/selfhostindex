@@ -1,0 +1,8 @@
+{
+  "summary": "Docs is a collaborative platform designed for note-taking, wikis, and documentation management. It provides a shared space to author and organise structured content at scale.",
+  "goodFor": "Teams looking for a dedicated self-hosted workspace to maintain internal documentation and collaborative knowledge bases.",
+  "watchOut": "The software requires significant infrastructure resources to run, and it overlaps with many established proprietary and open-source alternatives.",
+  "deployNotes": "Because the application runs on Kubernetes, you will typically need to configure persistent volume claims for data storage and set up an ingress controller with TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

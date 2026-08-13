@@ -1,0 +1,8 @@
+{
+  "summary": "LinkWarden is a self-hosted bookmark and archive manager designed to store and organise useful web links. It helps you preserve content by saving copies of pages so they remain accessible even if the original site changes or disappears. The project is distributed under the MIT licence.",
+  "goodFor": "It is a good fit if you want a dedicated, private repository to collect, categorise, and archive web pages for long-term reference.",
+  "watchOut": "You should consider how it compares to browser-native bookmarking tools or existing read-it-later services, as maintaining a separate self-hosted archive requires ongoing server management and storage allocation.",
+  "deployNotes": "Because it runs via Docker and Node.js, you will typically need to configure persistent volumes for your stored data and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

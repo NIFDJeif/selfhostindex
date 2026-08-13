@@ -1,0 +1,8 @@
+{
+  "summary": "evcc is an extensible charge controller for electric vehicles combined with a home energy management system. It coordinates power distribution between your grid, renewable generation sources, and vehicle batteries. Written in Go, it is designed to run locally on your own infrastructure.",
+  "goodFor": "Self-hosters who want to integrate electric vehicle charging with local home energy monitoring and automation hardware.",
+  "watchOut": "Requires specific hardware integration and configuration for your meters, inverters, and vehicle APIs to function correctly.",
+  "deployNotes": "You can deploy it using Docker or standard deb packages, typically requiring persistent storage for configuration files and a reverse proxy for secure web access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

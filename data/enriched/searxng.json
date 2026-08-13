@@ -1,0 +1,8 @@
+{
+  "summary": "SearXNG is an open-source internet metasearch engine that combines queries from multiple external search services and databases into a single interface. As a fork of Searx, it aims to provide aggregated search results while routing requests through a self-hosted instance to improve privacy.",
+  "goodFor": "It is a good fit if you want to eliminate third-party tracking from your web searches by routing your queries through your own infrastructure.",
+  "watchOut": "You may face reliability issues when upstream search services change their scraping protections, which can break specific result fetchers until updates are applied.",
+  "deployNotes": "Deployment is typically handled via Docker containers, and you will usually need to configure a reverse proxy in front of the application to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

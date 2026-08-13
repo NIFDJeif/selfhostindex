@@ -1,0 +1,8 @@
+{
+  "summary": "Etherpad is a web-based text editor that allows multiple users to write and edit documents concurrently in real time. As typing occurs, every change is instantly synchronised and displayed to all active participants in the same browser session. It is designed to be extensively customised and integrated into existing workflows.",
+  "goodFor": "Teams or organisations that require synchronous, multi-user text editing hosted entirely on their own infrastructure.",
+  "watchOut": "Self-hosting involves managing real-time synchronisation state, which can increase operational overhead compared to static document storage.",
+  "deployNotes": "You will typically deploy this via Docker, fronted by a reverse proxy to handle TLS termination, with persistent storage configured for user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Sylius is an open-source, full-stack e-commerce platform built on the Symfony framework. It provides developers with a modular foundation to construct custom online stores and marketplace applications using PHP.",
+  "goodFor": "It is a solid option for development teams with strong PHP and Symfony expertise who need to build heavily tailored, bespoke e-commerce platforms rather than using rigid standard software.",
+  "watchOut": "Because it is a developer-centric framework rather than a turnkey solution out-of-the-box, setup and long-term maintenance require significant custom coding and continuous dependency management.",
+  "deployNotes": "You will typically need a standard PHP application server setup alongside a relational database like MySQL or PostgreSQL, with a reverse proxy handling TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

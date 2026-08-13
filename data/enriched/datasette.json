@@ -1,0 +1,8 @@
+{
+  "summary": "Datasette is a Python-based tool for exploring and publishing structured data. It provides interfaces for database management alongside simple import and export functions.",
+  "goodFor": "Developers and data analysts who need to quickly publish queryable datasets on a server.",
+  "watchOut": "The Apache-2.0 licence is permissive, but you will need to evaluate the security implications of exposing your database management interfaces publicly.",
+  "deployNotes": "As a Python and Docker application, it typically requires persistent storage volumes for your database files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

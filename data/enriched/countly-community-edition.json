@@ -1,0 +1,8 @@
+{
+  "summary": "Countly Community Edition is a self-hosted analytics platform designed to track user interactions across mobile and web applications. It also includes built-in tools for monitoring application crashes and dispatching push notifications. Built using Node.js, it provides an alternative to third-party cloud analytics services by keeping your data on your own infrastructure.",
+  "goodFor": "Teams that need to collect mobile and web telemetry data internally for compliance or privacy reasons, and want a unified dashboard for analytics and crash reports.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which imposes strict copyleft requirements if you modify the code or offer it as a service to external users. Operating a real-time event ingestion platform also demands careful capacity planning for storage and database resources as event volume scales.",
+  "deployNotes": "Because the application runs via Docker and Node.js, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination. You should also ensure adequate memory allocation for the Node.js runtime and its associated database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

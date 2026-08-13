@@ -1,0 +1,8 @@
+{
+  "summary": "NodeBB is a forum application designed for web-based discussion and community interaction. It provides structured spaces for users to post topics, reply to threads, and organise conversations.",
+  "goodFor": "It suits administrators who want to host a traditional discussion board using modern JavaScript technology stacks.",
+  "watchOut": "You must manage server resources, community moderation, and potential performance scaling under high traffic loads yourself.",
+  "deployNotes": "As a Node.js application containerised via Docker, you will typically need to run it behind a reverse proxy for TLS termination and connect it to a persistent database instance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

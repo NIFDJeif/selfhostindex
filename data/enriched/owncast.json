@@ -1,0 +1,8 @@
+{
+  "summary": "Owncast is a self-hosted platform designed for single-user live video streaming and integrated chat. It enables individuals to run independent broadcasts comparable in style to major commercial streaming services. The software is written in Go and distributed under the MIT licence.",
+  "goodFor": "This tool suits individual creators who want total control over their video broadcasting infrastructure without relying on hosted third-party services.",
+  "watchOut": "Running your own video streaming server demands significant network bandwidth and compute resources, particularly when handling multiple concurrent viewers.",
+  "deployNotes": "As a Go application, it typically compiles into a single binary, but you will usually need a reverse proxy to handle TLS termination and persistent storage for any user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

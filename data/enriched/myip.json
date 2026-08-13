@@ -1,0 +1,8 @@
+{
+  "summary": "MyIP is an all-in-one network diagnostic dashboard that lets you inspect your public IP addresses, geolocation details, DNS leaks, and WebRTC connections. It also bundles connectivity diagnostics such as speed tests, ping tests, MTR routines, and website availability checks into a single interface.",
+  "goodFor": "Ideal for network administrators or homelab operators who want a self-hosted utility page to quickly diagnose connection issues and verify routing metrics.",
+  "watchOut": "Because it aggregates numerous active network tests like speed and MTR tests, running it publicly exposed on a resource-constrained VPS may lead to unexpected bandwidth usage or CPU spikes.",
+  "deployNotes": "It runs via Docker using Node.js, so you will typically need to map container ports and place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

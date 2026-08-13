@@ -1,0 +1,8 @@
+{
+  "summary": "Stalwart Mail Server is an all-in-one messaging platform that handles SMTP, IMAP4, and JMAP protocols. It provides a complete solution for self-hosting electronic mail infrastructure with a focus on modern protocol support.",
+  "goodFor": "It is well-suited for system administrators looking to deploy a contemporary, containerised email stack with support for modern protocols like JMAP.",
+  "watchOut": "Self-hosting email carries a high operational burden regarding deliverability, DNS configuration, and security, compounded by the copyleft requirements of the AGPL-3.0 licence.",
+  "deployNotes": "As a containerised Rust application, it typically requires persistent storage volumes for mail data and a reverse proxy to handle TLS termination properly.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

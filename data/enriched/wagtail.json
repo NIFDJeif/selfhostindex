@@ -1,0 +1,8 @@
+{
+  "summary": "Wagtail is a content management system built on top of the Django framework, designed to help you structure and publish digital content. It provides a dedicated administration interface that allows editors to manage pages and media without modifying underlying code. As a Python-based platform, it integrates directly into existing web applications or serves as the foundation for new ones.",
+  "goodFor": "It is a suitable choice for developers already working within the Python and Django ecosystem who require a customisable content management workflow.",
+  "watchOut": "You will need to maintain a Python runtime environment and handle schema migrations as the application updates, which requires familiarity with Django's administrative tooling.",
+  "deployNotes": "You will typically deploy this application behind a reverse proxy to handle TLS termination, paired with a relational database and persistent storage for uploaded media assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

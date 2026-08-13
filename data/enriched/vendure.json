@@ -1,0 +1,8 @@
+{
+  "summary": "Vendure is a headless e-commerce framework designed to build custom online stores and marketplace backends. It separates the core business logic and API from the storefront presentation layer, giving developers architectural flexibility. Written in TypeScript and Node.js, it relies on modern web standards for its plugin and extension ecosystem.",
+  "goodFor": "Developers who want to build a bespoke e-commerce platform using Node.js and TypeScript rather than configuring a monolithic hosted store.",
+  "watchOut": "Because it is a headless framework rather than a turn-key application, you will need to build or integrate your own frontend presentation layer entirely from scratch.",
+  "deployNotes": "You will typically need to run this behind a reverse proxy for TLS termination, provision a persistent relational database instance, and ensure adequate Node.js runtime memory management.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

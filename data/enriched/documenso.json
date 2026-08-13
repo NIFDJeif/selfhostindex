@@ -1,0 +1,8 @@
+{
+  "summary": "Documenso is an open-source digital document signing platform that functions as a self-hosted alternative to proprietary services like DocuSign. It allows you to manage document workflows, prepare agreements, and collect legally binding signatures directly from your own infrastructure. Built using Node.js and distributed via Docker, it handles the end-to-end lifecycle of signing documents within a private environment.",
+  "goodFor": "This is a good fit if you need to retain strict control over signing logs and sensitive documents to comply with internal privacy policies or external data regulations.",
+  "watchOut": "The project is licensed under the AGPL-3.0, which places strict copyleft requirements on your network if you modify and distribute the software. It also competes in a heavily entrenched market, meaning external third-party integrations may require more manual configuration than commercial equivalents.",
+  "deployNotes": "As a Node.js application packaged in Docker, it typically requires a persistent volume for uploaded documents and a separate database backend to store user and signing records. You will also need to sit the container behind a reverse proxy to handle TLS termination and domain routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

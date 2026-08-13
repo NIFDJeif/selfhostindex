@@ -1,0 +1,8 @@
+{
+  "summary": "BigBlueButton is a video conferencing platform built for online learning and remote classrooms. It facilitates real-time streaming of audio, video, and presentations with collaborative whiteboard controls, chat functionality, and desktop sharing. Instructors can also manage remote attendees using built-in polling, status emojis, and smaller breakout rooms.",
+  "goodFor": "Educational institutions and organisations that require a dedicated virtual classroom environment with interactive teaching tools.",
+  "watchOut": "Deploying and scaling a multi-media web conferencing server can demand significant system resources and network bandwidth compared to simpler chat tools.",
+  "deployNotes": "As a Java application, it typically requires a reverse proxy to handle TLS termination and sufficient server memory to support real-time media processing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

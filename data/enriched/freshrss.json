@@ -1,0 +1,8 @@
+{
+  "summary": "FreshRSS is a self-hostable feed aggregator designed to collect and organise web feed updates in one interface. It allows you to track content from various websites without relying on third-party subscription services. The application runs on your own hardware via PHP or Docker.",
+  "goodFor": "It suits individuals who want to centralise their web reading habits and maintain complete control over their subscription data.",
+  "watchOut": "You need to manage your own server infrastructure, updates, and backups, which creates an ongoing maintenance overhead compared to managed reading services.",
+  "deployNotes": "You will typically need to configure persistent storage for your feed data and set up a reverse proxy with TLS termination for secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

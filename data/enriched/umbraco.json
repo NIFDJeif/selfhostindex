@@ -1,0 +1,8 @@
+{
+  "summary": "Umbraco is an open source content management system built on the .NET framework. It provides the backend infrastructure and editing interfaces needed to build and manage websites. Developers use its extensible architecture to create custom digital experiences and structured content workflows.",
+  "goodFor": "Teams with existing .NET expertise who need a customisable, developer-friendly content management system for corporate websites or web applications.",
+  "watchOut": "It requires familiarity with the .NET ecosystem to configure and extend effectively, which might present a steeper learning curve if your infrastructure is centered around other runtimes.",
+  "deployNotes": "You will typically need to provision a separate relational database such as Microsoft SQL Server, and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

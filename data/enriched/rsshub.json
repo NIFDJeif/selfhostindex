@@ -1,0 +1,8 @@
+{
+  "summary": "RSSHub is an extensible feed generator that creates standard RSS feeds from websites and platforms that do not natively provide them. It turns content from sources like social media profiles and university pages into structured feeds that you can consume in your preferred reader. The project is open-source under the MIT licence and built with Node.js.",
+  "goodFor": "It is a good fit if you want to centralise updates from modern web platforms that lack native syndication feeds into a single feed reader.",
+  "watchOut": "Target websites frequently change their layouts or implement anti-scraping measures, which can cause specific feed routes to break and require frequent updates.",
+  "deployNotes": "You can deploy it using Docker, and you will typically need to configure a reverse proxy in front of it to handle TLS termination and manage external web traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

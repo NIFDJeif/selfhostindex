@@ -1,0 +1,8 @@
+{
+  "summary": "Manticore Search is a full-text search engine and data analytics tool designed to deliver fast response times across various dataset sizes. It serves as an open-source alternative to Elasticsearch for managing and querying text-based data.",
+  "goodFor": "Self-hosters who need a fast, dedicated search engine to index and query large volumes of text data without the heavy resource footprint of larger alternatives.",
+  "watchOut": "Migrating queries from more established search stacks can require significant configuration effort, and you will need to manage the indexing pipelines yourself.",
+  "deployNotes": "You can typically run this via Docker or Kubernetes, ensuring you provision persistent storage for your search indices and configure appropriate resource limits.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

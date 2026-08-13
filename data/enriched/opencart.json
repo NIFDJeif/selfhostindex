@@ -1,0 +1,8 @@
+{
+  "summary": "OpenCart is an e-commerce platform designed for setting up and managing online storefronts. It provides the core functionality needed to list products, process customer orders, and handle basic web shop operations.",
+  "goodFor": "It is a suitable option if you want a dedicated PHP-based shop system that you can host on your own infrastructure.",
+  "watchOut": "You will need to manage your own payment gateway integrations, security updates, and plugin compatibility as your catalogue grows.",
+  "deployNotes": "You will typically need a standard PHP runtime environment paired with a relational database like MySQL or MariaDB, along with a web server such as Nginx or Apache.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

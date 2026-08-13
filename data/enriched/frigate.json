@@ -1,0 +1,8 @@
+{
+  "summary": "Frigate is an open-source video surveillance application that processes camera feeds using local artificial intelligence. It handles object detection directly on your hardware, allowing you to monitor video streams without relying on external cloud processing services.",
+  "goodFor": "Self-hosters who want to run a private video monitoring system with local machine learning capabilities and integration into existing smart home setups.",
+  "watchOut": "Local AI processing requires significant computational resources, meaning you will likely need dedicated hardware accelerators like a TPU or a compatible GPU to maintain performance across multiple feeds.",
+  "deployNotes": "As a containerised application, deployment typically requires mounting persistent storage volumes for recorded video footage and configuring a reverse proxy to handle secure web access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

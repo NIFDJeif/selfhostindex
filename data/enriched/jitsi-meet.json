@@ -1,0 +1,8 @@
+{
+  "summary": "Jitsi Meet is a WebRTC-based video conferencing application that routes media streams through the Jitsi Videobridge. It enables browser-based multi-party meetings without requiring plugins or proprietary client software. The platform is designed for scalable, high-quality audio and video communication.",
+  "goodFor": "It suits administrators who need to host their own encrypted video conferencing infrastructure for teams or organisations.",
+  "watchOut": "Self-hosting WebRTC infrastructure involves significant bandwidth demands and complex NAT traversal troubleshooting, which can complicate deployment behind strict corporate firewalls.",
+  "deployNotes": "You will typically need to configure a reverse proxy for TLS termination and manage multiple supporting containers or packages for the web interface, videobridge, and signaling server.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

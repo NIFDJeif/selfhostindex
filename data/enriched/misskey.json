@@ -1,0 +1,8 @@
+{
+  "summary": "Misskey is a self-hosted microblogging platform designed for the Fediverse. It enables users to publish short status updates, interact with others, and connect with external networks via the ActivityPub protocol.",
+  "goodFor": "This is a suitable choice for administrators wanting to join the wider Fediverse with an alternative microblogging interface.",
+  "watchOut": "Federated social platforms require ongoing moderation of remote content and management of peer-to-peer delivery queues, which can increase administrative overhead.",
+  "deployNotes": "Deployment typically involves running the application via Docker behind a reverse proxy to handle TLS termination, alongside persistent volumes for application data and a database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

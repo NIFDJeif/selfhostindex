@@ -1,0 +1,8 @@
+{
+  "summary": "Sure is a self-hosted personal finance application derived from the Maybe project. It helps you manage, track, and organise your personal money, accounts, and budgeting data on your own infrastructure.",
+  "goodFor": "It is a suitable choice if you want an open-source, self-hosted alternative for tracking personal finances and prefer containerised deployments.",
+  "watchOut": "Being a fork in active development, it may undergo frequent changes and might lack the maturity or broad integration support of long-established commercial equivalents.",
+  "deployNotes": "As a containerised application distributed via Docker, you will typically need to configure persistent volumes for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

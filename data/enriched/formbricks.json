@@ -1,0 +1,8 @@
+{
+  "summary": "Formbricks is an open-source experience management suite designed to help you collect and manage customer surveys. It allows you to gather structured feedback across various stages of the user journey.",
+  "goodFor": "It is well-suited for product and development teams looking to self-host their own survey infrastructure using open-source tools.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which carries strict copyleft compliance obligations if you modify the code and provide it as a network service.",
+  "deployNotes": "As a Node.js application packaged with Docker, it typically requires a persistent volume for data storage, an external database, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

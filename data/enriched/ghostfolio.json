@@ -1,0 +1,8 @@
+{
+  "summary": "Ghostfolio is a self-hosted platform designed for personal wealth management and portfolio tracking. It allows you to monitor assets such as equities, exchange-traded funds, and digital currencies from a single interface. The application helps you maintain an overview of your financial holdings on your own infrastructure.",
+  "goodFor": "Privacy-conscious individuals who prefer to consolidate their asset tracking locally rather than relying on commercial third-party services.",
+  "watchOut": "You will need to manually import or maintain your transaction data, as direct automated bank integrations may be limited depending on your region and asset types.",
+  "deployNotes": "As a containerised Node.js application, it typically requires persistent storage for database records and a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

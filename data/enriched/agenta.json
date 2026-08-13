@@ -1,0 +1,8 @@
+{
+  "summary": "Agenta is a self-hosted LLMOps platform designed to help teams manage prompts, evaluate language model outputs, and observe application behaviour in production. It provides a centralised workspace for collaborative prompt engineering and testing. The software is released under the MIT licence.",
+  "goodFor": "Engineering teams building production applications on top of large language models who require collaborative prompt management and systematic evaluation.",
+  "watchOut": "Evaluating and observing LLM workflows can generate significant data volumes, meaning you need to monitor storage and performance scaling carefully as traffic grows.",
+  "deployNotes": "Because the application runs via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

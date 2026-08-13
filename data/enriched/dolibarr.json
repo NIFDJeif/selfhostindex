@@ -1,0 +1,8 @@
+{
+  "summary": "Dolibarr is a modular enterprise resource planning and customer relationship management package designed to handle core business operations. It provides centralized tools for tracking contacts, managing suppliers, processing invoices and orders, monitoring stock levels, and handling basic accounting tasks. Written in PHP, it serves as a self-hosted alternative for businesses needing to consolidate administrative workflows into a single web-accessible system.",
+  "goodFor": "Small to medium enterprises or foundations looking for an open-source, monolithic platform to manage internal administration and commercial activities without relying on hosted SaaS tools.",
+  "watchOut": "The GPL-3.0 licence requires that any modified source code be made available if you distribute the software publicly, and monolithic PHP applications can sometimes become difficult to maintain as your customisation needs grow.",
+  "deployNotes": "Deployment typically requires a standard LAMP or LEMP stack with a relational database like MySQL or PostgreSQL, alongside persistent storage for user uploads and document generation. You will also need to configure a web server such as Nginx or Apache with PHP-FPM and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

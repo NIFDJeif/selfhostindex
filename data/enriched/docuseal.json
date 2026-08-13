@@ -1,0 +1,8 @@
+{
+  "summary": "Docuseal is an open-source application designed to handle the creation, completion, and electronic signing of digital documents. It functions as a self-hosted alternative to proprietary signing services like DocuSign. The platform allows you to manage document workflows directly on your own infrastructure.",
+  "goodFor": "This is a suitable choice for teams or individuals looking to replace third-party e-signature SaaS tools with an in-house solution operating under an AGPL-3.0 licence.",
+  "watchOut": "You will need to review the AGPL-3.0 licence requirements carefully if you plan to modify and distribute the software or offer it as a service to external users.",
+  "deployNotes": "Deployment typically involves running a Docker container, which will usually require a persistent volume for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

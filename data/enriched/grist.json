@@ -1,0 +1,8 @@
+{
+  "summary": "Grist is a modern spreadsheet application designed with a relational database structure, allowing you to link tables and enforce data types. It includes row-level, formula-based access control and uses a portable, self-contained format for your records. It functions primarily as an open-source alternative to proprietary tools like Airtable.",
+  "goodFor": "Teams and individuals who need the flexibility of a spreadsheet combined with the referential integrity of a relational database, particularly when self-hosting is a strict requirement.",
+  "watchOut": "It represents a heavy software stack involving both Node.js and Python, which increases the surface area for maintenance compared to flat files or single-binary tools. It also directly competes with established proprietary SaaS platforms, meaning user migration and team adoption may require deliberate effort.",
+  "deployNotes": "As a containerised application built on Node.js and Python, deployment typically involves running a Docker image behind a reverse proxy to handle TLS termination. You will also need to ensure that persistent volumes are properly configured to retain your spreadsheet data and associated configurations across container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

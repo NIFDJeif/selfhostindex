@@ -1,0 +1,8 @@
+{
+  "summary": "Krayin is a self-hosted customer relationship management platform designed to help small and medium enterprises track leads and manage their sales pipeline. Built using PHP under the MIT licence, it provides a central workspace to handle interactions across the entire customer lifecycle. It serves as an open-source alternative to proprietary CRM systems.",
+  "goodFor": "Teams looking for an open-source PHP-based CRM that they can host internally and customise without proprietary vendor lock-in.",
+  "watchOut": "As an enterprise CRM with a broad feature set, it may require significant configuration and ongoing maintenance to align with specific sales workflows compared to simpler alternatives.",
+  "deployNotes": "Hosting typically requires a standard PHP environment backed by a relational database such as MySQL or PostgreSQL, alongside a web server like Nginx or Apache configured to handle application routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

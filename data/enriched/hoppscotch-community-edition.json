@@ -1,0 +1,8 @@
+{
+  "summary": "Hoppscotch Community Edition provides a web-based interface for constructing and testing HTTP, GraphQL, and WebSocket API requests. It helps developers debug endpoints, inspect response payloads, and manage API collections directly from a browser or self-hosted client.",
+  "goodFor": "Teams and individual developers who want a lightweight, self-hosted alternative to proprietary API development workbenches.",
+  "watchOut": "It requires ongoing maintenance to stay aligned with upstream releases, and you may need to configure user authentication manually for multi-user setups.",
+  "deployNotes": "As a Node.js application packaged for Docker, it typically requires a persistent volume for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

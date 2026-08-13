@@ -1,0 +1,8 @@
+{
+  "summary": "Zoneminder is a closed-circuit television application designed to monitor and manage camera feeds. It provides support for IP, USB, and analog cameras within a self-hosted video surveillance setup.",
+  "goodFor": "Home users and administrators who need to manage mixed-technology camera hardware using an open-source video surveillance platform.",
+  "watchOut": "Setting up a reliable surveillance pipeline can require significant configuration effort, particularly when integrating diverse camera types and hardware configurations.",
+  "deployNotes": "As a PHP application packaged for Debian-based systems, it typically requires a web server, a database backend, and persistent storage for recorded video data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

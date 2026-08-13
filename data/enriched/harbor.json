@@ -1,0 +1,8 @@
+{
+  "summary": "Harbor is a cloud-native image registry that stores, signs, and scans container content. It helps teams manage container images and related artefacts securely within their own infrastructure.",
+  "goodFor": "It is well-suited for engineering teams running Kubernetes clusters who need centralised, private control over container image lifecycles and security scanning.",
+  "watchOut": "Running a full container registry with integrated scanning and signing involves significant resource overhead and operational complexity compared to simpler storage solutions.",
+  "deployNotes": "Because it relies on Docker and Kubernetes ecosystems, you will typically need persistent storage volumes for the registry data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

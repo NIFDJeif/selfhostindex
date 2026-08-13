@@ -1,0 +1,8 @@
+{
+  "summary": "Leantime is a self-hosted project management tool designed to take initiatives from the initial idea phase through to final delivery. It provides a structured workspace tailored for small teams and startups to plan tasks, track progress, and organise workflows.",
+  "goodFor": "Small teams and startups looking for a dedicated, open-source project management system to coordinate tasks from conception to execution.",
+  "watchOut": "The AGPL-3.0 licence places strong copyleft obligations on network services, which may restrict how you modify and redistribute the code within your organisation.",
+  "deployNotes": "As a PHP application, deployment typically involves setting up a container with a web server, a persistent database backend, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

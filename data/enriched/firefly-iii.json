@@ -1,0 +1,8 @@
+{
+  "summary": "Firefly III is a self-hosted personal finance manager designed to track personal accounts, credit cards, and cash flow. It includes a rule engine for categorising transactions automatically and provides budgeting tools to forecast future expenses. You can also import external transaction data from various financial institutions.",
+  "goodFor": "It suits individuals who want to take full control of their personal financial records on their own infrastructure rather than relying on commercial budgeting services.",
+  "watchOut": "Self-hosting financial data carries inherent privacy and security responsibilities, and setting up complex import rules or integrating multiple bank feeds requires significant configuration effort.",
+  "deployNotes": "As a PHP and Docker application, deployment typically requires persistent storage for your database and uploaded files, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Node RED is a browser-based flow editor designed for wiring together hardware devices, APIs, and online services. It provides a visual interface to connect disparate inputs and outputs without writing traditional code for every integration. This helps you build Internet of Things solutions and automation pipelines.",
+  "goodFor": "Developers and hobbyists who need to visually prototype and coordinate IoT hardware integrations or API data flows quickly.",
+  "watchOut": "Managing large collections of interconnected flows can become difficult to debug and maintain over time compared to traditional code bases.",
+  "deployNotes": "You will typically deploy this via Docker, ensuring that you configure persistent storage for your flow data and place it behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-13"
+}
