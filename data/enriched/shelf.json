@@ -1,0 +1,8 @@
+{
+  "summary": "Shelf is a self-hosted asset tracking system designed to help teams catalogue and monitor equipment across multiple locations. It functions as a centralised asset database and includes built-in tools for generating QR codes to label physical items. The platform is free to use with unlimited asset capacity under an open-source licence.",
+  "goodFor": "Teams managing physical inventory or equipment pools who want an internal directory without per-user SaaS subscription costs.",
+  "watchOut": "Because asset tracking depends heavily on reliable physical tagging and consistent user scanning habits, adoption friction within your team is a primary risk.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy for TLS termination and ensure you configure persistent storage for your database and uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

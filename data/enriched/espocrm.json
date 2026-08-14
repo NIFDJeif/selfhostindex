@@ -1,0 +1,8 @@
+{
+  "summary": "EspoCRM is a customer relationship management platform built with a single-page application frontend and a REST API. It allows organisations to track interactions, manage accounts, and handle sales pipelines through a browser-based interface. The system relies on PHP for its backend execution.",
+  "goodFor": "It suits teams that require a self-hosted platform to manage customer interactions and need programmatic access via a REST API. It is also an option if you prefer a single-page application architecture for your CRM.",
+  "watchOut": "You should check the implications of the AGPL-3.0 licence closely if you plan to modify and distribute the software or offer it as a service. It may also require significant configuration to match specific enterprise workflows.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, alongside a compatible database such as MySQL or MariaDB. You will also need to configure persistent storage for user uploads and set up a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

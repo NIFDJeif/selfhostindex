@@ -1,0 +1,8 @@
+{
+  "summary": "MediaMTX is a zero-dependency real-time media server and proxy written in Go. It enables you to publish, read, record, playback and route video and audio streams across multiple protocols including SRT, WebRTC, RTSP, RTMP, HLS, MPEG-TS, and RTP.",
+  "goodFor": "It is well-suited for developers and systems administrators who need a lightweight, protocol-agnostic streaming relay or proxy without complex software dependencies.",
+  "watchOut": "As it handles multiple low-latency protocols simultaneously, you will need to monitor network throughput and ensure your server hardware can support the required bandwidth and encoding overhead.",
+  "deployNotes": "Being a Go application available as a Docker container, it typically does not require an external database, though you will want a reverse proxy for TLS termination and persistent storage if you plan to utilise its recording capabilities.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

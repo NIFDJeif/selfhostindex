@@ -1,0 +1,8 @@
+{
+  "summary": "Gogs is a self-hosted Git service designed to let you manage your own source code repositories. It provides a web interface for project management and repository administration. The application is written in Go and distributed under the MIT licence.",
+  "goodFor": "It is well-suited for developers who want a lightweight alternative to larger platforms for hosting Git repositories on personal or small-scale infrastructure.",
+  "watchOut": "It overlaps heavily with better-known alternatives like Gitea and GitLab, meaning you should consider whether the specific ecosystem or community size meets your long-term requirements.",
+  "deployNotes": "Because it is compiled in Go, it typically runs as a single binary, though you will usually want to place it behind a reverse proxy for TLS termination and connect it to a persistent database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Loomio is a web-based platform designed to facilitate group discussions and collaborative decision-making processes. It provides structured ways for teams or communities to debate proposals, test consensus, and reach agreements together.",
+  "goodFor": "It suits organisations, cooperatives, or community groups that operate on democratic or consensus-driven models rather than top-down hierarchies.",
+  "watchOut": "Adoption relies heavily on active group participation, meaning it can add little value if members are already disengaged from the decision-making process. The AGPL-3.0 licence also imposes strict copyleft requirements if you modify and distribute the source code.",
+  "deployNotes": "Because the application is packaged for Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

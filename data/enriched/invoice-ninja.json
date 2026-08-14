@@ -1,0 +1,8 @@
+{
+  "summary": "Invoice Ninja is a web-based application designed to help businesses issue bills and track payments online. It provides core functionality for managing client accounts, generating payment requests, and monitoring outstanding balances. The software is distributed under the Elastic-2.0 licence and can be deployed via containerised environments.",
+  "goodFor": "Freelancers and small businesses looking for a self-hosted platform to handle client billing and financial tracking.",
+  "watchOut": "The Elastic-2.0 licence places specific restrictions on commercial managed hosting use, which you should verify before offering this as a paid service to third parties.",
+  "deployNotes": "Deployment typically involves running the application containers alongside a persistent database instance, with a reverse proxy configured to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

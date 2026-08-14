@@ -1,0 +1,8 @@
+{
+  "summary": "Rallly is a self-hosted web application designed for creating polls to find mutually convenient dates and times for groups. It functions as an open-source alternative to commercial scheduling tools like Doodle. Users can set up time options and invite participants to vote without requiring an account.",
+  "goodFor": "It is well-suited for teams or social groups who need to coordinate event dates and wish to keep scheduling data on their own infrastructure.",
+  "watchOut": "The AGPL-3.0 licence places strong copyleft obligations on your deployment if you modify and distribute the source code or offer it as a hosted service to external users.",
+  "deployNotes": "As a Node.js application packaged with Docker, you will typically need to configure persistent storage for application data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

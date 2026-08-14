@@ -1,0 +1,8 @@
+{
+  "summary": "Usertour is a self-hosted user onboarding platform designed to help you build in-app product tours, interactive checklists, and user surveys. It provides a centralised way to guide users through software interfaces without relying on third-party cloud services.",
+  "goodFor": "Teams that need to design product walkthroughs and gather user feedback directly within their own applications while maintaining strict data privacy.",
+  "watchOut": "The AGPL-3.0 licence may have strict copyleft implications if you modify the code and offer it as a service to external users.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for your data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Ever Gauzy is an open business management platform designed for collaborative, on-demand, and sharing economies. It combines enterprise resource planning, customer relationship management, human resources, applicant tracking, and project management into a single system. The software integrates time tracking, inventory management, resource planning, and task management.",
+  "goodFor": "It suits organisations looking to consolidate multiple business operations, such as HR, CRM, and resource planning, into one self-hosted platform under an AGPL-3.0 licence.",
+  "watchOut": "Deploying an all-in-one platform handling multiple business domains introduces a significant operational footprint and high configuration complexity. It also competes with many well-established standalone alternatives for each of its included modules.",
+  "deployNotes": "As it is packaged with Docker and built on Node.js, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

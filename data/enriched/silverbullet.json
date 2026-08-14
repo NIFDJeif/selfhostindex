@@ -1,0 +1,8 @@
+{
+  "summary": "SilverBullet is a self-hosted note-taking application tailored for technical users who prefer customisable, Markdown-based workflows. It provides an environment to capture, link, and organise text files directly on your own infrastructure. Falling under the note-taking and editor category, it functions as a lightweight personal knowledge base.",
+  "goodFor": "It is well-suited for developers and power users who want local control over their Markdown notes and prefer customisable, hacker-friendly tooling.",
+  "watchOut": "The ecosystem is niche and has a steeper learning curve compared to mainstream note-taking tools, meaning you may need to configure and maintain your own plugins or extensions.",
+  "deployNotes": "Since it runs via Docker, you will typically need to map a persistent volume for your note storage and place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

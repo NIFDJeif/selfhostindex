@@ -1,0 +1,8 @@
+{
+  "summary": "Navidrome is a self-hosted audio streaming server designed to manage and broadcast your personal music collection. It provides a web-based interface and compatibility with existing Subsonic and Airsonic clients to access your media from various devices.",
+  "goodFor": "This is a suitable choice if you want to host your own audio library and prefer using established third-party desktop or mobile music apps that support the Subsonic API.",
+  "watchOut": "You should check whether your preferred client apps are fully compatible with this particular server implementation, as feature support can vary across different Subsonic clients.",
+  "deployNotes": "As a containerised Go application, you will typically need to map persistent storage volumes for your music files and database, and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

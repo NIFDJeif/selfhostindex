@@ -1,0 +1,8 @@
+{
+  "summary": "Vikunja is a self-hosted task management platform designed to help you track to-do lists and organise daily projects. It provides a central interface for planning personal or collaborative work items. The backend is written in Go and distributed under open source licences.",
+  "goodFor": "It suits individuals or teams seeking an independent, self-hosted task tracker that avoids third-party cloud services.",
+  "watchOut": "You may find it overlaps significantly with mature, well-known project management alternatives, and its feature set depends on how you choose to configure and maintain the instance.",
+  "deployNotes": "As a Go application, it typically compiles into a single binary that requires a separate database like PostgreSQL or MySQL, alongside a reverse proxy for TLS termination and persistent storage for user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Hasura generates instant GraphQL APIs directly from existing PostgreSQL databases. It includes fine-grained access control policies and supports triggering webhooks on database events.",
+  "goodFor": "Developers who need a rapid GraphQL interface over a PostgreSQL schema without writing boilerplate API routing code.",
+  "watchOut": "Adopting this tooling ties your API layer tightly to its specific execution model and schema introspection patterns, which can complicate future migrations away from it.",
+  "deployNotes": "You will typically deploy this via containers on Kubernetes or Docker, requiring persistent storage for configuration and a reliable connection to your PostgreSQL instance behind a TLS-terminating reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

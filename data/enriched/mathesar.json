@@ -1,0 +1,8 @@
+{
+  "summary": "Mathesar provides a web-based user interface for PostgreSQL databases, allowing teams to view, edit, and collaborate on data without relying entirely on direct SQL queries. It can connect to an existing database or initialise a new one, bridging the gap between raw database storage and spreadsheet-style interaction. The project is licensed under the GPL-3.0 and is actively maintained.",
+  "goodFor": "It is well-suited for teams and organisations that need to give non-technical users safe, structured access to a PostgreSQL database.",
+  "watchOut": "Because it directly modifies or interfaces with database schemas, you should thoroughly test it on non-production instances first to avoid unintended data structure changes.",
+  "deployNotes": "Deployment typically relies on Docker and Python, meaning you will need persistent volume mounts for your database storage and a standard reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

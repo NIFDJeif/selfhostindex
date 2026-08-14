@@ -1,0 +1,8 @@
+{
+  "summary": "ownCloud is a self-hosted platform designed for storing, synchronising, and sharing files across multiple devices. It also incorporates collaborative tools such as calendar and address book management to help users organise personal or professional data.",
+  "goodFor": "It is a suitable option if you want to retain full control over your stored documents and shared resources on private infrastructure.",
+  "watchOut": "You should consider the ongoing operational overhead of managing PHP-based web applications, including performance tuning and keeping dependencies secure.",
+  "deployNotes": "Deployment typically involves setting up persistent storage volumes for user data, configuring a relational database, and placing the service behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

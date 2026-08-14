@@ -1,0 +1,8 @@
+{
+  "summary": "Caddy is an open source web server designed to handle HTTP traffic with built-in, automated TLS certificate management. Written in Go, it can be run as a containerised service or installed via standard package managers like deb. It simplifies the setup and maintenance of web services by automating HTTPS configuration out of the box.",
+  "goodFor": "It is a strong fit if you want a modern web server that manages TLS certificates automatically without complex external tooling like Certbot.",
+  "watchOut": "Migrating complex routing and security rules from established alternatives like Nginx or Apache may require rewriting configuration syntax to match Caddy's structure.",
+  "deployNotes": "You will typically run this via Docker or a deb package, ensuring persistent storage is mounted for your site files and certificate cache.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Ampache is a web-based media streaming application designed to serve both audio and video files over a network. It provides a centralised interface for organising and accessing your personal media library from remote clients. As an AGPL-3.0 licensed tool built with PHP, it allows you to self-host your own streaming platform.",
+  "goodFor": "This is a strong choice for individuals who want to maintain direct control over their personal audio and video libraries without relying on commercial streaming services.",
+  "watchOut": "You should consider the operational overhead of managing a PHP-based web application and the AGPL-3.0 licence requirements if you modify or distribute the code.",
+  "deployNotes": "Hosting this application typically requires a PHP-capable web server, a dedicated SQL database for metadata storage, and a persistent volume mounted for your media files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

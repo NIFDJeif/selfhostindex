@@ -1,0 +1,8 @@
+{
+  "summary": "MeshCentral is a self-hosted web application designed for remote device management and control across local networks and the internet. It provides administrators with a centralised interface to interact with managed computers. The platform is built using Node.js and distributed under the Apache-2.0 licence.",
+  "goodFor": "System administrators and IT support teams who require a dedicated, self-hosted solution for managing multiple remote endpoints without relying on third-party cloud services.",
+  "watchOut": "Self-hosting a remote management infrastructure introduces significant security responsibilities, as any misconfiguration could expose managed endpoints to unauthorised access.",
+  "deployNotes": "As a Node.js application, it typically requires a reverse proxy to handle TLS termination and persistent storage to maintain configuration data and device state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

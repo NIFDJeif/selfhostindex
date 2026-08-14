@@ -1,0 +1,8 @@
+{
+  "summary": "Karakeep is a self-hosted application designed for saving bookmarks, links, and text snippets. It incorporates artificial intelligence features to assist users in managing and searching through their collected data.",
+  "goodFor": "Data hoarders and individuals who want a centralised, self-hosted system to store and organise large quantities of web links and textual content.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft requirements if you modify the code and distribute it over a network. Additionally, the inclusion of AI features may introduce higher resource demands depending on how they are processed.",
+  "deployNotes": "As a containerised application, it typically requires persistent volumes for data storage and a reverse proxy to handle TLS termination. You should also ensure Docker and Docker Compose are available on your host system.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

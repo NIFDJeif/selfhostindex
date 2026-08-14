@@ -1,0 +1,8 @@
+{
+  "summary": "OliveTin provides a web-based user interface designed to execute predefined Linux shell commands. It translates command-line tasks into clickable web buttons, allowing operators to trigger administrative scripts through a browser. The application is written in Go and distributed under the AGPL-3.0 licence.",
+  "goodFor": "This tool suits system administrators who want to give non-technical team members a safe, controlled way to run specific server scripts without granting direct terminal access.",
+  "watchOut": "Exposing shell commands via a web interface introduces significant security risks if scripts are not carefully written and permissions are not strictly isolated. Additionally, the AGPL-3.0 licence places restrictions on network-based service providers.",
+  "deployNotes": "As a compiled Go binary, it typically runs as a standalone service without heavy external database dependencies. You will usually want to place it behind a reverse proxy to handle TLS termination and secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

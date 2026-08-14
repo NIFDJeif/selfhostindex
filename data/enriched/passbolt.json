@@ -1,0 +1,8 @@
+{
+  "summary": "Passbolt is an open-source, collaborative password manager designed to help teams securely store and share sensitive credentials. It provides a central platform for managing access permissions across organisations, using an AGPL-3.0 licence.",
+  "goodFor": "Teams looking for a self-hosted credential management system that supports collaborative access control and open-source auditing.",
+  "watchOut": "Self-hosting a team password manager introduces a single point of failure and a high-value target, requiring careful backup strategies and security hardening.",
+  "deployNotes": "Deployment typically involves setting up a containerised stack using Docker or Kubernetes, which will usually require a persistent volume for data and a separate database instance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

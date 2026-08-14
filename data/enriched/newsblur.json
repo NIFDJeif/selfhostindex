@@ -1,0 +1,8 @@
+{
+  "summary": "NewsBlur is a self-hosted feed reader that aggregates news sources and allows users to discuss articles. It provides an alternative way to consume and share web content through RSS and related syndication formats.",
+  "goodFor": "It suits individuals or small groups who want to self-host their news consumption and social discussion around feeds.",
+  "watchOut": "Self-hosting feed readers often involves managing background worker processes for continuous polling, which can consume notable resources depending on your subscription volume.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI server behind a reverse proxy handling TLS, alongside a relational database and persistent storage for reliable operation.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

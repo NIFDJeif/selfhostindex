@@ -1,0 +1,8 @@
+{
+  "summary": "Erxes is a self-hosted platform combining marketing, sales, and customer service tools to manage customer interactions and ticketing in one place. It is built using Node.js and distributed as containerised images, allowing you to run the complete suite on your own infrastructure.",
+  "goodFor": "Teams looking for an open-source alternative to commercial customer relationship and ticketing suites who want direct control over their operational data.",
+  "watchOut": "The software combines AGPL-3.0 licensing with a Commons-Clause restriction, which may limit commercial usage or resale depending on your intended deployment model.",
+  "deployNotes": "Deployment typically relies on Docker Compose, requiring persistent volumes for database storage and an external reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

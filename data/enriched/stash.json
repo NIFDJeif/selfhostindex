@@ -1,0 +1,8 @@
+{
+  "summary": "Stash is a self-hosted media library organiser and player designed specifically for adult collections. It includes automated tagging capabilities and metadata scraping to help you catalogue and browse your files through a web interface.",
+  "goodFor": "This is a suitable choice if you manage a large, local collection of adult media and want a dedicated web interface to organise and stream it.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your deployment if you modify and distribute the source code, and dealing with extensive metadata scraping can consume significant storage and network resources.",
+  "deployNotes": "As a containerised Go application, deployment typically involves Docker with persistent volumes mapped for media storage and a reverse proxy configured to handle HTTPS traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

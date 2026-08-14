@@ -1,0 +1,8 @@
+{
+  "summary": "OpenCloud is a self-hosted platform designed for file sharing and collaboration. It allows users to store, sync, and collaborate on files across devices from their own infrastructure. The system is built using Docker, Go, and Node.js under the Apache-2.0 licence.",
+  "goodFor": "Teams and individuals seeking an open-source solution for managing and sharing documents on private hardware.",
+  "watchOut": "It competes in a crowded space dominated by mature alternatives like Nextcloud and Owncloud, meaning community resources or documentation may be less extensive.",
+  "deployNotes": "Deployment typically involves running containers via Docker, requiring persistent volumes for file storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

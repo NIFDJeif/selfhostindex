@@ -1,0 +1,8 @@
+{
+  "summary": "Octobox is a self-hosted dashboard designed to help you manage and triage your GitHub notifications more efficiently. It provides an alternative interface to group, filter, and clear your notification backlog outside of the standard web platform. The project is built using Ruby and is distributed under the AGPL-3.0 licence.",
+  "goodFor": "This is a good fit for developers and teams who receive a high volume of GitHub alerts and prefer a dedicated, self-hosted interface to stay organised.",
+  "watchOut": "You will need to maintain your own instance and ensure it has reliable network access to the GitHub API. The AGPL-3.0 licence also imposes copyleft requirements if you modify and network-host the source code.",
+  "deployNotes": "As a Ruby application packaged with Docker, you will typically need to provision persistent storage for the database and configure an external reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

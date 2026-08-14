@@ -1,0 +1,8 @@
+{
+  "summary": "Papra is a self-hosted document storage, management and archiving platform designed with a minimalist interface. It provides a centralised system to organise and store digital files for easier retrieval. The project is open-source under the AGPL-3.0 licence and maintains high developer activity.",
+  "goodFor": "It is a suitable option if you want a straightforward, lightweight digital filing system without the complexity of enterprise content management software.",
+  "watchOut": "Because the platform focuses heavily on minimalism, it may lack advanced document processing features, collaborative editing, or granular access controls found in more established alternatives.",
+  "deployNotes": "Deployment relies on Docker, so you will typically need to configure persistent volumes for file storage and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

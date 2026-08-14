@@ -1,0 +1,8 @@
+{
+  "summary": "Pimcore is a multi-channel experience and engagement management platform built on PHP. It functions as a content management system designed to handle digital content and customer data across multiple channels. You can deploy it using Docker to centralise your digital assets and publishing workflows.",
+  "goodFor": "It suits technical teams that need an open-source PHP framework to manage complex, multi-channel content and digital experiences.",
+  "watchOut": "The platform requires significant server resources and has a steep learning curve due to its extensive feature set and architectural complexity.",
+  "deployNotes": "You will typically need to configure persistent storage for user uploads, set up a separate relational database, and use a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

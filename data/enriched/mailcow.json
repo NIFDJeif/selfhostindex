@@ -1,0 +1,8 @@
+{
+  "summary": "Mailcow is a complete email server suite built on top of standard open-source components like Dovecot and Postfix. It wraps these traditional mail transfer and delivery agents into a containerised architecture with a browser-based administration interface for managing domains and mailboxes.",
+  "goodFor": "Self-hosters who need to run a full-featured mail server and prefer a unified web interface over manual configuration file editing.",
+  "watchOut": "Running your own mail server involves significant operational burden regarding IP reputation, spam filtering, and DNS record management. Misconfiguration can easily lead to delivery failures.",
+  "deployNotes": "Because it is distributed as a set of Docker containers, you will typically need persistent volumes for your mail storage and configuration data, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

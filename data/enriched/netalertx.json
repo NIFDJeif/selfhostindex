@@ -1,0 +1,8 @@
+{
+  "summary": "NetAlertX is a network utility designed to scan local networks for connected hardware and flag any unknown devices. It acts as an automated presence detector and intruder alert system for self-hosted environments. The project is distributed under the GPL-3.0 licence.",
+  "goodFor": "Home lab operators and system administrators who want an automated way to monitor local network attachments and spot unauthorised clients.",
+  "watchOut": "You will need to ensure your scanning configuration aligns with your local subnet layout to avoid false positives or missed devices, which can require ongoing tuning.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent storage for historical scan logs and ensure the container has appropriate network access permissions to scan your subnet.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

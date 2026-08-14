@@ -1,0 +1,8 @@
+{
+  "summary": "Invidious provides an alternative front-end for accessing video streaming platforms without relying on official client applications. It allows you to watch content through a lightweight web interface designed to bypass heavy client-side scripts and tracking. The application is built using Crystal and distributed with Docker support.",
+  "goodFor": "This is a good fit if you want to stream online videos through a minimal interface that prioritises lightweight access and avoids proprietary client runtimes.",
+  "watchOut": "Alternative front-ends for large video platforms frequently break when upstream APIs change, requiring regular updates and maintenance to remain functional.",
+  "deployNotes": "You will typically deploy this application using Docker containers behind a reverse proxy to handle TLS termination and incoming traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

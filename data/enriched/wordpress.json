@@ -1,0 +1,8 @@
+{
+  "summary": "WordPress is a PHP-based content management system and blogging platform used to publish and organise web pages and posts. It provides an administrative interface for creating content and storing it in a backend database. The software is distributed under the GPL-2.0 licence.",
+  "goodFor": "It suits users who need a widely adopted publishing platform to manage text-based content and static pages with minimal initial setup.",
+  "watchOut": "The massive ecosystem of plugins and themes can introduce security vulnerabilities and maintenance overhead if updates are neglected.",
+  "deployNotes": "You will typically need a PHP-compatible web server, a relational database such as MySQL or MariaDB, and persistent storage for uploaded media assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

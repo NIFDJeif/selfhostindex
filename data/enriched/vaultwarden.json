@@ -1,0 +1,8 @@
+{
+  "summary": "Vaultwarden is a Rust-based server implementation of the Bitwarden API, designed to handle credential storage and synchronisation. It allows you to host your own password management infrastructure using significantly fewer hardware resources than the official enterprise server stack.",
+  "goodFor": "It is well-suited for individuals or small teams who already use Bitwarden-compatible client applications but want complete control over their stored credentials on private hardware.",
+  "watchOut": "Because it is an alternative API implementation rather than the official codebase, there is a risk of minor compatibility lag when official client applications introduce new protocol features.",
+  "deployNotes": "You will typically run the container via Docker, ensuring you mount persistent storage for the database files and configure a reverse proxy to handle mandatory TLS termination for the clients.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

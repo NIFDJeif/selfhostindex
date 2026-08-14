@@ -1,0 +1,8 @@
+{
+  "summary": "Nginx Proxy Manager is a containerised tool that provides a graphical user interface for configuring Nginx proxy hosts. It simplifies the setup of routing web traffic without requiring direct editing of text-based server block configurations.",
+  "goodFor": "Self-hosters who want to manage reverse proxies and TLS termination through a web dashboard rather than the command line.",
+  "watchOut": "It abstracts away the underlying configuration files, which can make advanced customisations or debugging more difficult if you encounter edge cases.",
+  "deployNotes": "Because it runs as a container, you will typically need to map persistent volumes for your configuration and certificate data to survive container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

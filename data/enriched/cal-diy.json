@@ -1,0 +1,8 @@
+{
+  "summary": "Cal.diy is a web-based appointment scheduling system designed to coordinate calendars and meetings. It provides a centralised platform for users to manage availability and share booking links with participants. The codebase is written in Node.js and distributed under the MIT licence.",
+  "goodFor": "It is well-suited for individuals or teams needing a self-hosted scheduling tool to replace commercial calendar and booking services.",
+  "watchOut": "You should expect significant overlap with established scheduling alternatives, and managing a large Node.js codebase may introduce notable maintenance and dependency update overhead.",
+  "deployNotes": "Deploying this Node.js application typically requires a persistent database connection, a reverse proxy to handle TLS termination, and environment variable configuration for proper runtime operation.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

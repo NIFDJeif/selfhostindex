@@ -1,0 +1,8 @@
+{
+  "summary": "CommaFeed is a self-hosted RSS feed reader styled after the classic Google Reader interface. It allows you to aggregate, organise, and read news and updates from multiple web feeds in a single web-based dashboard. The project is implemented in Java and distributed as a containerised application.",
+  "goodFor": "It is a suitable option if you want a straightforward, self-hosted web reader to track web feeds without relying on a third-party hosted service.",
+  "watchOut": "You should note that it relies on a specific Java stack and duplicates functionality found in many other open-source feed readers, so configuration may be familiar if you already manage similar services.",
+  "deployNotes": "Because it runs as a Docker container, you will typically need to configure persistent storage for your feed data and set up a reverse proxy to handle HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

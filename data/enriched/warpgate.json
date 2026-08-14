@@ -1,0 +1,8 @@
+{
+  "summary": "Warpgate is a bastion host and Privileged Access Management tool that proxies SSH, HTTPS, Kubernetes, MySQL, and PostgreSQL connections. It operates transparently without requiring custom client-side software installation.",
+  "goodFor": "Teams needing centralised, audited access to internal infrastructure protocols without forcing developers to install proprietary client tools.",
+  "watchOut": "As a critical infrastructure gateway, any downtime or misconfiguration immediately impacts all remote access paths to your systems.",
+  "deployNotes": "It typically runs within a containerised environment and requires persistent storage for configuration data, alongside network routing configuration to handle the proxied protocols.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}

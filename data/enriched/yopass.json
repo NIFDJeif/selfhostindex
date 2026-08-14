@@ -1,0 +1,8 @@
+{
+  "summary": "Yopass is a self-hosted utility designed for encrypted transmission of sensitive data such as passwords, confidential notes, and files. It ensures that shared information self-destructs after a single view or a defined expiration time, preventing persistent storage risks. The service is written in Go and distributed as a container image.",
+  "goodFor": "It suits administrators and teams who need a secure, internal mechanism to transmit credentials or configuration files without relying on third-party cloud services.",
+  "watchOut": "You will need to manage your own expiration policies and network access controls, as exposed instances can become vectors for data exfiltration if left unsecured.",
+  "deployNotes": "Container deployment is straightforward via Docker, typically requiring a reverse proxy for TLS termination and optionally a key-value store depending on the persistence backend chosen.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-14"
+}
