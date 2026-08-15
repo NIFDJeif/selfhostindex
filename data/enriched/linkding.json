@@ -1,0 +1,8 @@
+{
+  "summary": "Linkding is a self-hosted application designed for saving and organising web bookmarks through a streamlined interface. It operates within the bookmarks and link sharing category, providing users with a dedicated space to store URLs for future reference. The software is distributed under the MIT licence and is maintained actively.",
+  "goodFor": "This tool is a strong fit if you want a lightweight, private service to manage your personal bookmark collection without relying on commercial browser extensions or third-party web platforms.",
+  "watchOut": "As a niche tool focused entirely on bookmarks, it lacks the broader feature sets of larger note-taking or personal knowledge management suites. You should also consider whether maintaining a separate service for links is worth the operational overhead compared to browser-native synchronisation.",
+  "deployNotes": "Deployment relies on Docker, meaning you will typically need to configure a container, map persistent volumes for data storage, and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

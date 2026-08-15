@@ -1,0 +1,8 @@
+{
+  "summary": "Shlink is a self-hosted URL shortener that lets you create and manage short links on your own domain. It provides a REST API and a command line interface for automation, alongside an official progressive web application for management.",
+  "goodFor": "It suits developers and teams who require a private URL shortening service with programmatic access via an API.",
+  "watchOut": "You will need to maintain and secure your own instance, which overlaps with many simpler open-source redirection tools.",
+  "deployNotes": "As a PHP and Docker application, it typically requires a persistent database backend and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

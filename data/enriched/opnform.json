@@ -1,0 +1,8 @@
+{
+  "summary": "OpnForm is an open-source tool designed to create and manage web forms for polls, events, and data collection. It provides a self-hosted interface to build and deploy custom input forms without relying on third-party SaaS providers.",
+  "goodFor": "It suits teams or individuals who want to keep form submission data on their own infrastructure while avoiding monthly subscription fees.",
+  "watchOut": "The AGPL-3.0 licence places strong copyleft requirements on your modifications, which may complicate usage if you plan to integrate it into proprietary internal services.",
+  "deployNotes": "As a Docker-based deployment utilising PHP and Node.js, you will typically need to configure persistent storage for your database and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "MotionEye provides a web-based user interface for managing the Motion video surveillance daemon. It allows you to monitor camera feeds and configure motion detection settings through a browser. The application is built using Python and is commonly packaged as a container.",
+  "goodFor": "Self-hosters who want a dedicated browser interface for the Motion surveillance engine without configuring text files manually.",
+  "watchOut": "It relies entirely on the underlying Motion software for core video processing and detection, which can be resource-intensive depending on your camera resolution and frame rate.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for your recorded video footage and use a reverse proxy if you require TLS termination for remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

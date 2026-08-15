@@ -1,0 +1,8 @@
+{
+  "summary": "AliasVault is a self-hosted password manager that combines credential storage with an integrated email alias service. It uses end-to-end encryption to secure your sensitive data on your own infrastructure.",
+  "goodFor": "Users who want to manage their login credentials while simultaneously generating and controlling private email addresses from a single self-hosted dashboard.",
+  "watchOut": "As an alternative in the crowded password management sector, you will need to evaluate its maturity against established options like Bitwarden or Vaultwarden before trusting it with critical credentials.",
+  "deployNotes": "Deployment relies on Docker, meaning you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "DietPi is a stripped-down Debian operating system tailored specifically for single-board computers. It provides an administrative interface to help you install and configure various home server software packages without manual command-line setup.",
+  "goodFor": "It is well-suited for users running single-board computers who want a lightweight base system and a streamlined method to set up self-hosted services.",
+  "watchOut": "Because it modifies standard Debian foundations heavily to achieve its minimal footprint, troubleshooting unusual hardware or software issues might require familiarity with its specific custom scripts.",
+  "deployNotes": "As an entire operating system image rather than a standard containerised application, deployment typically requires flashing the image directly to an SD card or eMMC storage for your target single-board hardware.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

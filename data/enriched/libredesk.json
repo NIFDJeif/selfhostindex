@@ -1,0 +1,8 @@
+{
+  "summary": "Libredesk is a self-hosted customer support platform designed to handle multi-channel enquiries such as live chat and email within a single application. It consolidates inbound communications into a ticketing workflow to help teams manage and respond to user requests. The software is packaged as a single binary containing both backend and frontend components.",
+  "goodFor": "Teams looking to centralise their customer support channels into a single self-hosted ticketing system without relying on proprietary cloud services.",
+  "watchOut": "The AGPL-3.0 licence requires you to make the source code available if you modify the software and offer it as a network service. It also competes in a crowded space alongside mature alternatives with larger ecosystems.",
+  "deployNotes": "Because it runs via Docker and includes backend services written in Go and Node.js, you will typically need to configure persistent storage volumes for data retention and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

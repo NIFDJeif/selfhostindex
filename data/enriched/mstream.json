@@ -1,0 +1,8 @@
+{
+  "summary": "mStream is a self-hosted audio streaming server equipped with graphical management tools for organising your music library. It runs across macOS, Windows and Linux operating systems, allowing you to access your personal audio files from remote locations. The project is open source and built on the Node.js runtime environment.",
+  "goodFor": "It suits users who want a dedicated, cross-platform audio streaming solution with a web-based graphical interface for managing their music collection.",
+  "watchOut": "The audio streaming software space includes many mature alternatives, meaning you should evaluate whether this specific option fits your workflow better than more widely adopted media servers.",
+  "deployNotes": "As a Node.js application, you will typically need to configure persistent storage for your media files and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

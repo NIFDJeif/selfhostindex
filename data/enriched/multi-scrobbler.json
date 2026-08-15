@@ -1,0 +1,8 @@
+{
+  "summary": "Multi-scrobbler is a Node.js utility designed to listen for media playback events from various input sources and forward those records to multiple audio tracking services. It acts as an integration layer for synchronising listening history across platforms that do not natively interoperate. The project is distributed under the MIT licence and provides official container images for self-hosting.",
+  "goodFor": "This is a suitable tool if you use multiple distinct audio streaming services or media players and want a unified way to report your playback history to external tracking platforms without manual intervention.",
+  "watchOut": "You may need to manually configure API credentials, webhook endpoints, and authentication tokens for every single input and output service you wish to connect, which can introduce maintenance overhead if upstream APIs change.",
+  "deployNotes": "As a Node.js application packaged in a Docker container, it typically requires persistent storage for configuration files and database states. You will also usually want to deploy it behind a reverse proxy to handle TLS termination if any webhooks require secure HTTPS callbacks.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

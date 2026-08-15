@@ -1,0 +1,8 @@
+{
+  "summary": "Viseron is a self-hosted network video recorder and computer vision system designed to run entirely locally. It processes video feeds to handle tasks such as motion and object detection without relying on external cloud services.",
+  "goodFor": "Home labs and privacy-conscious users wanting local-only video surveillance with AI detection capabilities running on their own infrastructure.",
+  "watchOut": "Running local computer vision models requires significant processing resources, and setup may involve tuning detection parameters to avoid false positives.",
+  "deployNotes": "As a containerised application, deployment typically requires configuring persistent storage volumes for camera footage and adequate hardware passthrough for video decoding.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

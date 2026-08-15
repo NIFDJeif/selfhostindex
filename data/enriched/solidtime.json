@@ -1,0 +1,8 @@
+{
+  "summary": "solidtime is a self-hosted time tracking application designed for freelancers and agencies. It provides a centralised web interface to log billable hours and monitor project timelines. The codebase is distributed under the AGPL-3.0 licence and is hosted in a public repository.",
+  "goodFor": "Freelancers and small agency teams who want to self-host their billing and time-tracking infrastructure rather than relying on third-party SaaS tools.",
+  "watchOut": "The AGPL-3.0 licence imposes strong copyleft requirements if you modify the code and offer it as a service to external users. It also faces competition from many established time-tracking platforms in this category.",
+  "deployNotes": "Deployment is handled via Docker, which typically requires configuring persistent storage volumes for your data and placing the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Dokuwiki is a PHP-based wiki engine that stores all content directly in plain text files rather than a relational database. Its straightforward syntax allows you to read and edit your documentation files even outside the application interface.",
+  "goodFor": "It is well-suited for users seeking a lightweight documentation system that avoids database management and keeps data portable.",
+  "watchOut": "File-based storage can experience performance bottlenecks or concurrency issues at very large scales compared to database-backed alternatives.",
+  "deployNotes": "You will typically need a standard web server like Nginx or Apache with PHP support, alongside persistent storage for the flat files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

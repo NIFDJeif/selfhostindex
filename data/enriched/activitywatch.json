@@ -1,0 +1,8 @@
+{
+  "summary": "ActivityWatch is an open-source application designed to automatically monitor and record your device usage. It logs your active window titles, browser history, and application runtimes to give you an overview of how your hours are spent. All data remains locally stored on your machine rather than being sent to a third-party cloud service.",
+  "goodFor": "It is well-suited for freelancers, developers, and privacy-conscious users who want to audit their daily habits without sharing telemetry data with external companies.",
+  "watchOut": "The project relies on a beta release cycle and relies on various client-side watchers that can occasionally require manual troubleshooting across different operating systems. You should also expect to manage local storage growth over time as event logs accumulate.",
+  "deployNotes": "Because the backend is built with Python, running it as a persistent server typically requires setting up a process manager like systemd and ensuring adequate persistent storage for the local database. If you expose the web UI externally, you will need to configure a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

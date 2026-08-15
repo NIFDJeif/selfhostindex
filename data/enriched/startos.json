@@ -1,0 +1,8 @@
+{
+  "summary": "StartOS is a browser-based, graphical operating system designed to simplify the administration of a personal server. It abstracts away command-line complexity to make self-hosting applications feel similar to using a standard desktop computer.",
+  "goodFor": "Users who want to host their own services and data on dedicated hardware but prefer a graphical web interface over manual command-line configuration.",
+  "watchOut": "Graphical operating systems for personal servers can sometimes restrict low-level system customisation and introduce abstraction layers that make manual troubleshooting more difficult.",
+  "deployNotes": "As an operating system image, it typically requires dedicated hardware or a virtualisation environment with persistent storage allocated for system state and hosted services.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

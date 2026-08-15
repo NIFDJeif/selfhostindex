@@ -1,0 +1,8 @@
+{
+  "summary": "Bugsink is a self-hosted ticketing and error-tracking tool designed to aggregate application exceptions in real time. It centralises debugging logs and diagnostic details to help developers monitor software failures from a single interface.",
+  "goodFor": "Teams looking for an alternative to managed SaaS error tracking who want to keep their application logs on their own infrastructure.",
+  "watchOut": "It uses a proprietary licence, meaning you cannot freely modify or redistribute the source code despite being able to self-host it.",
+  "deployNotes": "As a Docker-based application written in Python, you will typically need to configure persistent storage volumes for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

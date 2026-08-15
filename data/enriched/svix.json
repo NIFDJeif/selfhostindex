@@ -1,0 +1,8 @@
+{
+  "summary": "Svix is an open-source webhooks-as-a-service platform designed to help API providers manage and dispatch outgoing webhooks reliably. It handles standard delivery concerns such as retries, rate limiting, and signing to ensure endpoints receive data securely. Built using Rust and distributed via Docker under the MIT licence, it provides a self-hosted alternative to managed webhook infrastructure.",
+  "goodFor": "Development teams building public APIs who need a dedicated system to handle outgoing webhooks without relying on third-party cloud services.",
+  "watchOut": "Deploying and operating a dedicated webhook delivery pipeline introduces additional infrastructure complexity compared to writing ad-hoc queuing logic within your existing application.",
+  "deployNotes": "Because it is packaged as Docker containers, you will typically need to provision persistent storage for state, configure a reverse proxy for TLS termination, and connect a separate relational database to store delivery logs and configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "SimpleLogin is an open source email alias tool designed to shield your primary inbox from spam and tracking. It routes messages through temporary or dedicated addresses using browser extensions and mobile clients. The project is licensed under the MIT licence.",
+  "goodFor": "It suits individuals wanting to self-host their own email forwarding infrastructure to protect their personal address from third-party services.",
+  "watchOut": "Running your own email infrastructure carries operational overhead regarding DNS configuration, IP reputation, and reliable delivery to prevent your messages ending up in spam folders.",
+  "deployNotes": "Because it runs on Docker and Python, deployment typically involves setting up persistent volumes for data storage and placing a reverse proxy in front of the container to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

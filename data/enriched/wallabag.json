@@ -1,0 +1,8 @@
+{
+  "summary": "Wallabag is a self-hosted read-it-later application that fetches web pages and strips away clutter to provide a clean reading interface. It falls under archiving and digital preservation by letting you retain local copies of online content for future access.",
+  "goodFor": "It suits users who want to store offline copies of web articles rather than relying on commercial third-party bookmarking services.",
+  "watchOut": "You will need to maintain your own instance and manage updates, and it competes with mature, well-known alternatives like Pocket or browser-native reading modes.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a separate database such as MySQL or PostgreSQL, and persistent storage for any cached assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

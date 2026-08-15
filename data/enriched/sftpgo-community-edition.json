@@ -1,0 +1,8 @@
+{
+  "summary": "sftpgo Community Edition is a file transfer server that handles SFTP connections, along with optional support for FTP/S and WebDAV protocols. It provides a configurable system for moving data to and from various storage backends. The application is written in Go and available via Debian packages or container images.",
+  "goodFor": "Self-hosters who need a dedicated, configurable file transfer endpoint with alternative protocol support for multiple users.",
+  "watchOut": "The software is distributed under the AGPL-3.0 licence, which places copyleft requirements on network services if you modify the code and host it for others. It also carries the operational overhead of managing file access permissions and secure authentication credentials.",
+  "deployNotes": "You can typically deploy this using Docker or a native binary on a Debian host, ensuring you attach persistent volumes for your file storage and configuration data. A reverse proxy is usually required in front of the application to handle external TLS termination and proxy incoming traffic securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

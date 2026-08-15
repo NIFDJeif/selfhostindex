@@ -1,0 +1,8 @@
+{
+  "summary": "Tududi is a task management application featuring hierarchical task structures and smart recurring schedules. It also includes integrated support for Telegram messaging to help manage items directly from chat interfaces.",
+  "goodFor": "It suits users who want to organise complex to-do lists in a nested hierarchy while keeping track of tasks through Telegram.",
+  "watchOut": "As a relatively niche project compared to established alternatives like Nextcloud Tasks or Vikunja, it may lack extensive community documentation or plugins.",
+  "deployNotes": "Since it runs via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Docmost Community Edition is a self-hosted platform designed for collaborative knowledge management, team wikis, and documentation creation. It functions as an open-source alternative to proprietary workspace tools like Notion and Confluence. The software allows teams to structure documents, share notes, and collaborate on text-based content in a central repository.",
+  "goodFor": "It is well-suited for teams and organisations looking for an open-source, self-hosted workspace to replace commercial documentation tools.",
+  "watchOut": "The project is licensed under the AGPL-3.0, which places specific compliance obligations on network services, and it competes in a crowded market with much older alternatives.",
+  "deployNotes": "As it relies on Node.js and containerisation, you will typically need to configure persistent storage volumes for your data and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Teampass is a self-hosted password manager designed specifically for team collaboration and shared credential management. It relies on a single symmetric key stored server-side to encrypt all team secrets within the database and filesystem. The application runs on standard web stacks using PHP, Apache, and MySQL.",
+  "goodFor": "Teams that need a centralized, self-hosted system to manage and share credentials among multiple users without relying on third-party cloud services.",
+  "watchOut": "Relying on a single symmetric key stored on the server presents a distinct security trade-off compared to zero-knowledge architectures used by modern alternatives. It also overlaps heavily with more robust, enterprise-grade secret management solutions.",
+  "deployNotes": "You will typically need to configure a LAMP stack with PHP and a MySQL database, alongside a reverse proxy to handle TLS termination for secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

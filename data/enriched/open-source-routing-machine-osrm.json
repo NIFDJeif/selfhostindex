@@ -1,0 +1,8 @@
+{
+  "summary": "Open Source Routing Machine is a high-performance routing engine designed to process OpenStreetMap data. It provides an HTTP API, a C++ library interface, and a Node.js wrapper to calculate paths and navigation routes. The software is written in C++ and released under the BSD-2-Clause licence.",
+  "goodFor": "Self-hosters who need to build custom mapping applications or require local, high-speed routing services using OpenStreetMap data without relying on third-party APIs.",
+  "watchOut": "Setting up and preprocessing large geographical datasets can be computationally demanding and requires careful hardware planning. It also has a specific dependency on OpenStreetMap data formats.",
+  "deployNotes": "As a C++ application, you will typically need to allocate sufficient RAM and persistent storage for the processed map data. Placing the HTTP API behind a standard reverse proxy is recommended for handling TLS termination and access control.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

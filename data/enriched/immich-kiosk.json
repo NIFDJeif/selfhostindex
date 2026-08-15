@@ -1,0 +1,8 @@
+{
+  "summary": "Immich Kiosk is a lightweight slideshow application designed to run on dedicated display devices and standard web browsers. It connects directly to an Immich instance to fetch and display your photograph collections. The project is implemented in Go and distributed via Docker containers under the GPL-3.0 licence.",
+  "goodFor": "It is well-suited for setting up dedicated photo frames, lobby displays, or wall-mounted screens using an existing Immich server as the backend.",
+  "watchOut": "As a specialised display client rather than a full gallery management tool, its functionality is strictly limited to slideshow playback. You will need to manage your photo organisation and user permissions entirely within the upstream Immich server.",
+  "deployNotes": "Deployment typically involves running the provided Docker container and supplying environment variables to point the service at your Immich API endpoint. Because it runs in web browsers or kiosk hardware, you will usually want to ensure stable local network connectivity and proper browser autostart configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

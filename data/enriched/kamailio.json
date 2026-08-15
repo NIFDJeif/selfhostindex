@@ -1,0 +1,8 @@
+{
+  "summary": "Kamailio is a modular SIP server designed to act as a registrar, proxy, or router for voice-over-IP and real-time communication systems. It processes and directs session initiation protocol traffic within telecommunication infrastructures. The architecture allows administrators to load specific modules depending on the routing and authentication requirements of their network.",
+  "goodFor": "Deploying a high-capacity custom SIP routing layer or registrar for enterprise voice architectures and telecommunication service providers.",
+  "watchOut": "Configuration is notoriously complex and steep-learning-curve-driven, relying on a custom scripting language rather than standard configuration files.",
+  "deployNotes": "As a compiled C application distributed via deb packages, it typically requires a separate database backend like MySQL or PostgreSQL for subscriber data and usually runs behind appropriate firewall and TLS termination setups.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

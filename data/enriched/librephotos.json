@@ -1,0 +1,8 @@
+{
+  "summary": "LibrePhotos is a self-hosted photo management service designed as an alternative to proprietary cloud solutions like Google Photos. It allows you to organise and browse your image library through a web interface, featuring visual analytics and graphs. The project is built using Python and distributed under the MIT licence.",
+  "goodFor": "It is well-suited for privacy-conscious users who want to host their own image archive and explore visual breakdowns of their collection.",
+  "watchOut": "Self-hosted photo management can be resource-intensive when indexing large libraries, and feature completeness may lag behind commercial alternatives.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for your image storage and database, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Tyk is an open-source API gateway and management platform designed to handle, secure, and monitor HTTP traffic routing. It provides core infrastructure for managing API endpoints, collecting analytics, and publishing documentation via an integrated developer portal.",
+  "goodFor": "Teams running microservices architectures who need a centralised point to enforce rate limits, authentication, and traffic policies across multiple backend services.",
+  "watchOut": "Operating a complete API management suite involves managing multiple components like analytics databases and dashboards, which increases the baseline operational overhead compared to lightweight standalone proxies.",
+  "deployNotes": "Because it is built with Go and containerised for Docker and Kubernetes, deployment typically relies on orchestrators alongside a persistent data store such as Redis for token and session storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

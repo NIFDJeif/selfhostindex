@@ -1,0 +1,8 @@
+{
+  "summary": "Fider is a self-hosted platform designed to gather, organise, and prioritise user feedback. It provides a centralised space where communities or customers can submit feature requests and vote on items.",
+  "goodFor": "Teams and project maintainers who want an open-source alternative to proprietary feedback tools like UserVoice to run on their own infrastructure.",
+  "watchOut": "Adoption depends entirely on getting your users to use a separate platform for feedback rather than your existing issue tracker or support channels.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage, set up a reverse proxy to handle TLS termination, and link a separate database instance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

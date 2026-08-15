@@ -1,0 +1,8 @@
+{
+  "summary": "Lychee is a grid and album-based photo management system designed to run on your own infrastructure. It provides a web interface for organising, browsing, and sharing your digital image collections.",
+  "goodFor": "Self-hosters who want a dedicated, lightweight web application specifically for managing photo albums without relying on third-party cloud services.",
+  "watchOut": "You will need to manage your own storage volumes for large image libraries, and performance may depend heavily on your server's hardware when generating thumbnails.",
+  "deployNotes": "As a PHP application packaged for Docker, you will typically need to configure persistent volumes for your photo storage and a separate database backend to maintain application state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Gotenberg is a self-hosted API service that converts various document formats, such as HTML, Markdown, Word, and Excel, into PDF files. It acts as an integration layer that delegates conversion tasks to underlying tools like Chromium and LibreOffice. The system allows developers to automate document generation workflows via HTTP requests.",
+  "goodFor": "Developers and system administrators who need a programmatic, containerised service to generate PDFs from diverse document templates within an automated workflow.",
+  "watchOut": "Running heavy headless browsers like Chromium alongside LibreOffice can consume significant memory and CPU resources under high conversion loads. You will need to monitor resource allocation carefully to prevent performance degradation.",
+  "deployNotes": "Because the application runs as a Docker container, you will typically need to configure a reverse proxy to handle TLS termination and secure HTTP access. Persistent storage is generally not required unless you are caching generated files or custom templates locally.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

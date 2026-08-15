@@ -1,0 +1,8 @@
+{
+  "summary": "Listmonk is a self-hosted application designed for managing mailing lists and sending newsletters through a web dashboard. It provides administrative tools to handle subscriber databases, campaigns, and delivery tracking from your own infrastructure.",
+  "goodFor": "It is well-suited for developers and organisations who want to run their own bulk email infrastructure without relying on third-party SaaS providers.",
+  "watchOut": "You must manage your own email deliverability reputation, SMTP relay configuration, and bounce handling, which can require significant operational effort. The copyleft AGPL-3.0 licence may also impose restrictions if you modify and network the software.",
+  "deployNotes": "As a containerised Go application, deployment typically involves Docker and requires persistent storage for data alongside a relational database such as PostgreSQL.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "CryptPad is a self-hosted office suite designed for real-time document collaboration and synchronisation. It allows multiple users to edit documents simultaneously while keeping data synchronised across sessions.",
+  "goodFor": "Teams requiring collaborative office tools who need to self-host their infrastructure under an open source licence.",
+  "watchOut": "You will need to evaluate how well its feature set and document formats meet your specific workflow requirements compared to more established office suites.",
+  "deployNotes": "As a Node.js application packaged with Docker, you will typically need to configure persistent storage for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

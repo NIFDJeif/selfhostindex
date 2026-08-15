@@ -1,0 +1,8 @@
+{
+  "summary": "Forward Email is a self-hosted suite designed to handle encrypted electronic mail, functioning as an alternative to mainstream hosted communication and mass mailing services. It combines message routing and delivery infrastructure within a single deployment package. The project is built using Node.js and distributed under dual licences.",
+  "goodFor": "It suits technical administrators who want to host their own encrypted email infrastructure and communication workflows using containerised environments.",
+  "watchOut": "Self-hosting email infrastructure involves managing complex Domain Name System records like SPF, DKIM, and DMARC, alongside the operational risk of IP blacklisting. The licensing model also uses the Business Source Licence alongside the Mozilla Public Licence, which may restrict certain commercial uses.",
+  "deployNotes": "As a Node.js application packaged with Docker, you will typically need to configure persistent storage volumes for user data and set up a reverse proxy to manage TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

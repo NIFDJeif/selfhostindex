@@ -1,0 +1,8 @@
+{
+  "summary": "Modoboa is a self-hosted mail hosting and management platform designed to simplify the administration of email servers. It provides a web-based user interface to help operators manage mailboxes, domains, and associated services from a central dashboard.",
+  "goodFor": "System administrators looking for an integrated web interface to manage email infrastructure on their own hardware without relying entirely on command-line tools.",
+  "watchOut": "Email server administration carries a high operational burden regarding DNS configuration, IP reputation, and spam prevention, which this platform does not eliminate entirely.",
+  "deployNotes": "As a Python application, it typically requires a WSGI server, a separate relational database, and a reverse proxy to handle TLS termination and static file serving.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Zammad is an open-source ticketing and support system designed to help teams manage customer service requests and communication channels in one place. It organizes incoming queries into a structured queue for tracking, assignment, and resolution. The software is released under the AGPL-3.0 licence and built using Ruby.",
+  "goodFor": "It suits teams that require a self-hosted support desk platform to handle incoming customer inquiries and streamline ticketing workflows.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft obligations if you modify the code and offer it as a network service, and deployment requires managing a Ruby-based stack alongside associated database dependencies.",
+  "deployNotes": "Because it relies on Ruby and packages distributed as deb files, you will typically need to provision a separate database backend, configure a reverse proxy for TLS termination, and ensure persistent storage is attached for user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

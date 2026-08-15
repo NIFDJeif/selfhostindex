@@ -1,0 +1,8 @@
+{
+  "summary": "ShellHub is a centralised SSH server designed to replace standard sshd for remote access to Linux devices. It allows you to connect to your machines using either a standard command-line SSH client or a browser-based user interface. This provides an alternative way to manage remote infrastructure without maintaining traditional port-forwarding or VPN setups.",
+  "goodFor": "Administrators who need centralised remote access management for multiple Linux devices spread across different networks.",
+  "watchOut": "Replacing standard SSH daemon configurations introduces a single point of failure and a non-standard attack surface for your remote infrastructure.",
+  "deployNotes": "Because the application runs via Docker, you will typically need to configure persistent volumes for data storage and place a reverse proxy in front of it to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

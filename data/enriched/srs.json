@@ -1,0 +1,8 @@
+{
+  "summary": "SRS is a real-time video streaming server designed to handle common protocols like RTMP, WebRTC, HLS, HTTP-FLV, and SRT. It ingests video feeds and distributes them efficiently to viewers across different platforms and devices. The software is written in C++ and distributed under the MIT licence.",
+  "goodFor": "Self-hosters who need to ingest and redistribute live video streams with low latency using standard streaming protocols.",
+  "watchOut": "Streaming servers can consume significant CPU and network bandwidth depending on the number of concurrent streams and transcoding requirements, which may lead to high resource usage.",
+  "deployNotes": "It is typically deployed using Docker, and you will usually need to configure a reverse proxy for TLS termination and ensure appropriate port mapping for streaming protocols.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "QloApps is a web-based reservation system and booking engine designed for hotel management. It allows hospitality operators to manage room inventories, accept online bookings, and handle customer interactions through a customisable interface. The platform is written in PHP and Node.js.",
+  "goodFor": "Independent hotels or property managers seeking a self-hosted platform to run their own dedicated booking website without relying on third-party commissions.",
+  "watchOut": "The OSL-3.0 licence has strong copyleft requirements that may affect how you can modify and distribute the source code. It also has a smaller community and ecosystem compared to mainstream general-purpose content management systems and their booking plugins.",
+  "deployNotes": "You will typically need a standard web server stack for PHP alongside Node.js support, coupled with a relational database like MySQL or MariaDB. Persistent storage is required for uploaded media and property documents, and you should place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

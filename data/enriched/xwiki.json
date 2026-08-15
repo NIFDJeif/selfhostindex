@@ -1,0 +1,8 @@
+{
+  "summary": "XWiki is a second-generation wiki platform designed to let you extend its core capabilities through a modular extension architecture. It provides a structured space for collaborative documentation and knowledge management within your own infrastructure.",
+  "goodFor": "It suits technical teams or organisations that need a heavily customisable knowledge base and are prepared to manage a Java-based stack.",
+  "watchOut": "The Java runtime and extension architecture introduce a higher operational overhead and resource footprint than lightweight text-based alternatives.",
+  "deployNotes": "You will typically need to run it inside a Docker container or via deb packages, paired with a separate relational database and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}

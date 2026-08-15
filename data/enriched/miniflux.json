@@ -1,0 +1,8 @@
+{
+  "summary": "Miniflux is a minimalist news reader designed to aggregate web feeds in a clean interface. It allows you to subscribe to RSS and Atom sources and consume updates without unnecessary clutter or tracking.",
+  "goodFor": "It suits self-hosters who want a lightweight, distraction-free reading environment running on their own infrastructure.",
+  "watchOut": "Being a minimalist application, it lacks advanced content-curation workflows or complex social sharing features found in heavier alternatives.",
+  "deployNotes": "You will typically deploy this via Docker or the provided deb package, ensuring you configure a persistent database backend and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-15"
+}
