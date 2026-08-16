@@ -1,0 +1,8 @@
+{
+  "summary": "LinkAce is a self-hosted bookmark management system that stores your saved links and monitors them for availability. It includes automated backup functionality to the Internet Archive and provides a REST API for programmatic access.",
+  "goodFor": "Users who want a private, self-hosted service to archive web links and verify that they remain accessible over time.",
+  "watchOut": "The project relies on PHP and external archiving services, which might introduce dependencies or maintenance overhead if upstream APIs change.",
+  "deployNotes": "Deployment is typically handled via Docker or a standard PHP environment, which usually requires persistent storage for your database and uploaded data, alongside a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

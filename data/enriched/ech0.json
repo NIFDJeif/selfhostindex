@@ -1,0 +1,8 @@
+{
+  "summary": "Ech0 is a lightweight, federated publishing platform designed for personal idea sharing. It operates within the blogging and content management system category, allowing you to publish notes or articles and connect across federated networks. Please note that the primary documentation is currently available in Chinese.",
+  "goodFor": "It suits individuals who want to self-host a federated publishing space for personal thoughts and documentation rather than a traditional multi-author magazine.",
+  "watchOut": "The primary documentation is in Chinese, which may create a barrier for non-Mandarin speakers configuring or troubleshooting the platform.",
+  "deployNotes": "As a containerised application, it typically requires persistent storage volumes for your published content and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

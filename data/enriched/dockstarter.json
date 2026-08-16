@@ -1,0 +1,8 @@
+{
+  "summary": "DockSTARTer is an MIT-licensed shell utility designed to help you set up and manage containerised services on a home server. It automates the initial configuration of Docker and associated application containers to simplify deployment. The project is actively maintained with frequent commits and a stable release cycle.",
+  "goodFor": "It is a good fit if you want to quickly bootstrap a Docker-based home server environment without writing configuration files from scratch.",
+  "watchOut": "Because it relies heavily on shell scripts to manage system configuration, troubleshooting errors can require familiarity with the command line when things go wrong.",
+  "deployNotes": "Since it runs via shell execution on a host system, you will typically need root access, persistent storage volumes for your container data, and a separate reverse proxy if you require TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

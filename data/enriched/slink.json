@@ -1,0 +1,8 @@
+{
+  "summary": "Slink is a self-hosted platform for uploading and sharing images through drag-and-drop or single-click actions. It runs via Docker under the AGPL-3.0 licence, providing an alternative to third-party media hosts while keeping your files on your own infrastructure.",
+  "goodFor": "Self-hosters who want a dedicated, private endpoint for sharing screenshots or image files without relying on external services.",
+  "watchOut": "The image-sharing category has many mature alternatives, meaning you should check whether its specific feature set meets your workflow before migrating.",
+  "deployNotes": "Because it runs in Docker, you will typically need to configure persistent volumes for your uploaded media and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "WriteFreely is a self-hosted blogging platform designed for minimalist publishing and federated networking. It allows you to run a clean, text-focused blog or an entire multi-user community connected to the wider fediverse. The software focuses on a distraction-free writing experience without the bloat of traditional content management systems.",
+  "goodFor": "It is well-suited for individuals or small groups who want a lightweight, federated web presence without relying on mainstream social media or heavy publishing suites.",
+  "watchOut": "The strict AGPL-3.0 licence may present compliance challenges if you plan to modify and distribute the code within a commercial environment. It also offers a very minimalist feature set, meaning advanced layouts and plugins require significantly more manual effort compared to established alternatives.",
+  "deployNotes": "Written in Go, the application typically compiles into a single binary that requires a reverse proxy for TLS termination and a separate relational database like MySQL or PostgreSQL for data persistence.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

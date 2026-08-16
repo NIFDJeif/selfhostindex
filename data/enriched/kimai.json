@@ -1,0 +1,8 @@
+{
+  "summary": "Kimai is a self-hosted time-tracking application designed to log working hours and generate activity summaries on demand. It provides a centralised web interface for recording billable or non-billable tasks against various projects and clients. The software is released under the AGPL-3.0 licence and built using PHP.",
+  "goodFor": "Freelancers, small teams, or agencies needing a dedicated, self-hosted system to monitor billable hours and produce basic work reports without relying on third-party SaaS tools.",
+  "watchOut": "The AGPL-3.0 licence imposes strong copyleft requirements if you modify the code and offer it as a service over a network, and you will need to manage your own database backups and user authentication.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a PHP runtime, and a separate relational database such as MySQL or MariaDB. You should ensure proper persistent storage for data volumes and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

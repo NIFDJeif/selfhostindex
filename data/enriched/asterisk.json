@@ -1,0 +1,8 @@
+{
+  "summary": "Asterisk is an open-source IP PBX system, VoIP gateway, and conference server. It allows you to route phone calls, manage extensions, and handle digital telephony traffic on your own hardware.",
+  "goodFor": "It suits system administrators and telephony engineers who need to build custom voice communication infrastructure or private branch exchange networks from scratch.",
+  "watchOut": "Configuring telephony routing and SIP trunks requires deep technical knowledge, and mistakes can result in misconfigured audio paths or security vulnerabilities like toll fraud.",
+  "deployNotes": "As a compiled C application distributed via deb packages, it typically requires persistent storage for call logs and voicemails, and may integrate with a separate database backend for configuration data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

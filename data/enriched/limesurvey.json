@@ -1,0 +1,8 @@
+{
+  "summary": "LimeSurvey is a web-based polling and survey application written in PHP. It allows you to create, publish, and collect responses for questionnaires that require complex branching and conditional logic. Data is stored on your own infrastructure under the GPL-2.0 licence.",
+  "goodFor": "This is a suitable choice if you need to run structured questionnaires with advanced skip patterns and conditional logic on your own infrastructure.",
+  "watchOut": "The user interface can feel dated and configuration requires managing a traditional PHP application stack alongside a relational database.",
+  "deployNotes": "You will typically need a standard LAMP or LEMP stack with a dedicated database like MySQL or PostgreSQL, plus a reverse proxy configured for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

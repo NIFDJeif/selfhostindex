@@ -1,0 +1,8 @@
+{
+  "summary": "Chamilo LMS is an open-source platform designed to set up a virtual campus for online and blended learning. It provides tools to manage courses, track learner progress, and deliver training materials in a web-based environment. The software operates under the GPL-3.0 licence and is built using PHP.",
+  "goodFor": "It is a suitable choice if you need to deploy a traditional learning management system for a school, university, or corporate training programme using a standard PHP hosting environment.",
+  "watchOut": "The codebase is substantial and may require dedicated administrative oversight for updates, security patching, and integration with other enterprise systems.",
+  "deployNotes": "You will typically need to provision a LAMP stack with a compatible database backend, configure persistent storage for user uploads and course assets, and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

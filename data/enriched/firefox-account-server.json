@@ -1,0 +1,8 @@
+{
+  "summary": "Firefox Account Server allows you to host your own authentication infrastructure for Firefox services. It provides the backend identity management required to handle user accounts, synchronisation, and related data locally. While the official description is minimal, it serves the bookmarks and link sharing category by controlling the user authentication layer.",
+  "goodFor": "This is a good fit if you run a self-hosted browser sync environment and need to decouple your infrastructure from Mozilla's public authentication servers.",
+  "watchOut": "Setting up custom authentication servers can introduce significant configuration complexity and maintenance overhead for your self-hosted infrastructure. It also requires careful management of client-side overrides to point to your private instance.",
+  "deployNotes": "Given the Node.js and Java stack, you will typically need to run separate runtime environments behind a reverse proxy handling TLS termination. Persistent storage will also be required for user account data and session states.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

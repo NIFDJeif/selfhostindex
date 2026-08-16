@@ -1,0 +1,8 @@
+{
+  "summary": "FreeSWITCH is an open-source communications platform designed to handle cross-platform telephony routing and signaling. Written in C under the MPL-2.0 licence, it provides the core infrastructure required to build voice, video and messaging applications. You can use it to manage SIP sessions, route audio streams, and build custom interactive voice response systems.",
+  "goodFor": "It suits developers and systems administrators building carrier-grade voice applications or custom private branch exchange setups from scratch.",
+  "watchOut": "Telephony software of this nature carries a steep configuration curve and debugging SIP routing issues can become exceptionally complex in production.",
+  "deployNotes": "As a compiled C application, it typically runs as a dedicated system service with local configuration files, though you may need external database integration for complex multi-tenant call routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

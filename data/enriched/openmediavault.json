@@ -1,0 +1,8 @@
+{
+  "summary": "OpenMediaVault is a network-attached storage solution built on Debian Linux. It provides out-of-the-box file sharing and utility services such as SSH, FTP, SMB, and BitTorrent clients.",
+  "goodFor": "Users who want to set up a dedicated file server on Debian hardware and prefer a web-managed interface for standard network storage protocols.",
+  "watchOut": "You should check whether its plugin ecosystem and default feature set meet your specific storage requirements, as it relies heavily on Debian packages.",
+  "deployNotes": "As a PHP-based application running on Linux, it typically requires persistent storage for your configuration and data, along with appropriate file permissions.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

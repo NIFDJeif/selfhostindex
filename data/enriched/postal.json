@@ -1,0 +1,8 @@
+{
+  "summary": "Postal is a fully featured email server designed specifically to handle outbound and inbound mail for websites and web servers. Built using Ruby and distributed under the MIT licence, it provides a comprehensive mail delivery platform that you can self-host. It functions as a complete solution for managing mail routing, delivery tracking, and server infrastructure.",
+  "goodFor": "It is a suitable choice if you need to run your own mail infrastructure to send and receive transactional emails from multiple web applications rather than relying on third-party SaaS providers.",
+  "watchOut": "Running a self-hosted email server involves a high operational burden, particularly around maintaining domain reputation, handling DNS records like SPF, DKIM, and DMARC, and avoiding spam blacklists.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "OpenRouteService is a self-hosted routing engine built to calculate geographical directions, travel time-distance matrices, isochrones, and route optimization. It falls under the category of maps and global positioning system software, allowing you to compute spatial data locally. The project is implemented in Java and distributed under the GNU General Public License v3.0.",
+  "goodFor": "It suits developers and system administrators who require a dedicated, locally hosted mapping and routing backend without relying on third-party commercial APIs.",
+  "watchOut": "The codebase requires substantial system memory and compute resources to process large geographic datasets and routing graphs efficiently. It also demands careful handling of spatial data imports during initial setup.",
+  "deployNotes": "Deployment is typically handled via Docker containers, which usually require persistent volumes for storing map data and graph cache files. You will also need to configure a reverse proxy in front of the container to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

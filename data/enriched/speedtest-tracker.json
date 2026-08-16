@@ -1,0 +1,8 @@
+{
+  "summary": "Speedtest Tracker is a network utility designed to monitor the performance and uptime of your internet connection over time. It regularly runs automated speed tests and logs the resulting metrics so you can track historical bandwidth and stability.",
+  "goodFor": "It is a good fit if you want to keep a persistent local record of your internet service provider's actual speeds versus what you pay for.",
+  "watchOut": "Frequent automated speed tests consume significant outbound bandwidth throughout the day, which might occasionally impact other network traffic or draw scrutiny from strict ISPs.",
+  "deployNotes": "You can deploy this via Docker or Kubernetes, which typically requires configuring persistent volume storage to retain your historical test data across container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "OvenMediaEngine is a media streaming server designed to deliver video feeds with sub-second latency. It processes and distributes live streams for applications that require near-real-time communication.",
+  "goodFor": "Developers building interactive live-streaming platforms, web-based broadcast tools, or security systems where glass-to-glass delay must be minimized.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which places strict copyleft obligations on network services and derivative works. It also demands careful tuning of network resources to achieve its claimed low latency.",
+  "deployNotes": "As a compiled C++ application usually run inside containers, you will typically need to configure persistent storage for logs or recordings and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

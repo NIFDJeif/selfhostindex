@@ -1,0 +1,8 @@
+{
+  "summary": "Zenko CloudServer is an open-source object storage solution that implements the Amazon S3 protocol. It allows you to host your own S3-compatible storage infrastructure for applications that require standard object storage APIs. The project provides a self-hosted backend to manage and retrieve data using familiar cloud storage methods.",
+  "goodFor": "This is a suitable choice if you need a self-hosted, S3-compliant object storage endpoint for development, testing, or internal applications without relying on external cloud providers.",
+  "watchOut": "You should consider how well it competes with more established S3-compatible alternatives like MinIO regarding performance and community resources. Scaling and maintaining object storage in production also introduces inherent operational overhead for data durability and backup.",
+  "deployNotes": "Since it runs via Docker and Node.js, you will typically need to configure persistent volumes for data storage and place a reverse proxy in front for TLS termination. Resource allocation should be monitored based on expected file transfer volumes.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

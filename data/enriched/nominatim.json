@@ -1,0 +1,8 @@
+{
+  "summary": "Nominatim is a server application that processes OpenStreetMap data to handle geocoding and reverse geocoding requests. It translates postal addresses into geographic coordinates and converts coordinates back into readable location data. This self-hosted service allows applications to perform mapping lookups locally without relying on external third-party APIs.",
+  "goodFor": "Self-hosters and developers building location-based services who require a private, local endpoint for address lookup and coordinate translation.",
+  "watchOut": "Setting up the full planet dataset requires substantial storage space and significant initial processing time to import the geographical data correctly.",
+  "deployNotes": "As a compiled application processing large spatial datasets, it typically requires a dedicated database backend and persistent storage volumes for optimal performance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

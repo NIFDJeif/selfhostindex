@@ -1,0 +1,8 @@
+{
+  "summary": "Kutt is a self-hosted URL shortener that lets you map shortened links to your own custom domains. It provides a centralised way to generate and manage concise links for your web properties. The project is distributed under an open-source MIT licence and is backed by a sizeable community of users.",
+  "goodFor": "This is a good fit if you need to run your own branding for short links rather than relying on a third-party SaaS provider.",
+  "watchOut": "Maintenance activity is moderate, meaning you should be prepared to handle potential security updates or community patches yourself.",
+  "deployNotes": "As a Node.js application packaged with Docker, you will typically need to run it behind a reverse proxy for TLS termination and connect it to a persistent database instance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

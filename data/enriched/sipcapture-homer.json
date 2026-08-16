@@ -1,0 +1,8 @@
+{
+  "summary": "SIPCAPTURE Homer is a system designed for monitoring and troubleshooting VoIP calls by capturing and analysing network traffic. It processes SIP signalling and related media data to help administrators diagnose call delivery failures and performance issues. The project combines Node.js and Go components, and is distributed under the AGPL-3.0 licence.",
+  "goodFor": "Network administrators and VoIP engineers who need to capture, store, and inspect SIP traffic for debugging purposes on their own infrastructure.",
+  "watchOut": "The AGPL-3.0 licence requires you to make the source code available if you modify the software and offer it as a network service. Additionally, high-volume VoIP environments may generate significant storage and processing overhead for captured packets.",
+  "deployNotes": "As it is packaged with Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle secure web access. You should also ensure adequate network routing is set up to capture the relevant SIP traffic streams.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

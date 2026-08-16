@@ -1,0 +1,8 @@
+{
+  "summary": "Meelo is a self-hosted personal music server tailored for dedicated media collectors. It allows you to host and stream your audio library directly from your own hardware. The project is distributed under the GPL-3.0 licence and maintained actively.",
+  "goodFor": "It suits individuals who prefer keeping their music collection on a local server rather than using commercial streaming services.",
+  "watchOut": "As a niche alternative to more established media servers, it may lack extensive third-party client support and integration options.",
+  "deployNotes": "Deployment relies on Docker, so you will typically need to map persistent volumes for your music library and configure a reverse proxy for secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

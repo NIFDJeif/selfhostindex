@@ -1,0 +1,8 @@
+{
+  "summary": "Otter Wiki is a lightweight documentation tool that processes Markdown files to generate a browsable knowledge base. It provides a straightforward interface for teams or individuals looking to maintain text-based documentation without a heavy database backend.",
+  "goodFor": "It suits small teams or self-hosters who want a simple, file-backed wiki that is quick to set up using standard container tooling.",
+  "watchOut": "As a minimalist wiki, it lacks the advanced permission management, enterprise integrations, and extensive plugin ecosystems found in larger alternatives.",
+  "deployNotes": "You can deploy it using Docker, which typically requires mapping a persistent volume for your content files and configuring a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

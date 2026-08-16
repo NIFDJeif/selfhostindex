@@ -1,0 +1,8 @@
+{
+  "summary": "Mailu is a complete mail server packaged as a collection of Docker images. It provides standard email services through containerised components, managed with Python. It aims to offer a self-hosted communication backend without requiring complex manual configuration.",
+  "goodFor": "It suits administrators who want to run their own email infrastructure using container orchestration tools rather than configuring raw postfix anddovecot packages by hand.",
+  "watchOut": "Running a self-hosted mail server carries inherent operational burdens, particularly around IP reputation, spam filtering, and DNS record management like SPF and DKIM. Deliverability issues can be difficult to troubleshoot.",
+  "deployNotes": "Because it runs via Docker, you will need persistent volumes for your mail storage and database files. You will also typically need to configure external ports for SMTP and IMAP alongside a reverse proxy for the web administration interface.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

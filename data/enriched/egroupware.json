@@ -1,0 +1,8 @@
+{
+  "summary": "EGroupware is a server-hosted suite designed for team collaboration and administrative tasks. It provides tools such as shared calendars, address books, notepads, project tracking, and customer relationship management within a single platform.",
+  "goodFor": "Teams looking to consolidate scheduling, project tracking, and contact management into a single self-hosted environment.",
+  "watchOut": "It covers a very broad feature set, which may introduce unnecessary complexity if you only require basic calendar or contact synchronisation.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Apache or Nginx, a separate relational database such as MariaDB or MySQL, and persistent storage for user-uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Canvas LMS is a learning management system designed to facilitate online education and course administration. It provides a centralised platform for educators to publish materials, assign tasks, and manage student interactions. As an open-source option in the learning and courses sector, it offers infrastructure for academic institutions to run their own e-learning environments.",
+  "goodFor": "This is a suitable choice for schools, universities, or organisations that require a self-hosted platform to manage educational courses and student progress under an open licence.",
+  "watchOut": "The AGPL-3.0 licence has strict copyleft implications if you modify and distribute the software over a network, and maintaining a large Ruby-based platform demands ongoing operational effort.",
+  "deployNotes": "You will typically need to provision a separate database server, configure persistent storage for user uploads, and set up a reverse proxy to handle TLS termination for the Ruby application runtime.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

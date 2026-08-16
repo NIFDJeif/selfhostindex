@@ -1,0 +1,8 @@
+{
+  "summary": "Hister is a self-hosted personal search engine that automatically indexes websites you visit. It provides local file support, offline result previews, and optional semantic search capabilities for multiple users.",
+  "goodFor": "Users who want a private, locally indexed history of their web browsing and personal files that can be searched quickly without relying on external cloud services.",
+  "watchOut": "The AGPL-3.0 licence requires you to release the source code of any modified versions if you host it as a network service. It also relies on continuous background indexing, which may increase disk I/O and storage requirements over time.",
+  "deployNotes": "As a containerised Go application, you will typically need to configure persistent volumes for the index data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

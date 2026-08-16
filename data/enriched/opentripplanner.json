@@ -1,0 +1,8 @@
+{
+  "summary": "OpenTripPlanner is a multimodal journey planning platform that combines OpenStreetMap geographical data with standard GTFS transit feeds. It computes routes across local public transport networks to provide travel itineraries.",
+  "goodFor": "It suits transport authorities, researchers, or developers who need to run a self-hosted journey planner using standard open geographic and transit data.",
+  "watchOut": "Ingesting and indexing large regional transit datasets and street networks can require substantial memory and processing resources.",
+  "deployNotes": "Because the application runs on Java, you will typically need to configure appropriate heap size limits and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

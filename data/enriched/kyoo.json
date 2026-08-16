@@ -1,0 +1,8 @@
+{
+  "summary": "Kyoo is a self-hosted media browser built for streaming anime, television series, and movies. It includes features such as dynamic video transcoding, automatic watch history tracking, and automated retrieval of metadata for your media library.",
+  "goodFor": "This is a good fit if you want a dedicated, self-hosted interface for anime and general video collections with automated metadata management.",
+  "watchOut": "The project has a smaller user base and fewer integrations than industry heavyweights like Plex or Jellyfin, which may limit community support and troubleshooting resources.",
+  "deployNotes": "Deployment relies on Docker, so you will typically need to configure persistent storage volumes for your media files and database, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

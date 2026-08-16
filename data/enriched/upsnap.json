@@ -1,0 +1,8 @@
+{
+  "summary": "Upsnap is a lightweight dashboard application designed for sending Wake on LAN signals across a local network. It allows you to monitor the real-time operational status of your connected machines from a single web interface. The project is written in Go and distributed under the MIT licence.",
+  "goodFor": "It suits home lab administrators and network managers who need a straightforward visual interface to power on machines remotely without relying on command-line utilities.",
+  "watchOut": "Wake on LAN functionality relies heavily on your local network configuration, and misconfigured broadcast packets or router settings can cause devices to fail to wake despite the application running correctly.",
+  "deployNotes": "As a containerised Go application, it typically runs via Docker with minimal resource overhead, though you will need to ensure the container has appropriate network access to send broadcast packets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

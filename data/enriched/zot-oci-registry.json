@@ -1,0 +1,8 @@
+{
+  "summary": "ZOT OCI Registry is a vendor-neutral container image registry that implements the Open Container Initiative specifications. It stores and serves container images and artifacts in standard OCI formats without relying on proprietary backend structures. You can deploy it as a standalone service to manage your container distribution workflows.",
+  "goodFor": "It is a suitable choice if you require a dedicated OCI-compliant registry that avoids vendor lock-in for your container infrastructure.",
+  "watchOut": "It overlaps heavily with well-established alternatives like distribution or Harbor, meaning integration documentation and community tooling may be less extensive.",
+  "deployNotes": "As a Go application packaged via Docker, it typically requires persistent storage volumes for image data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

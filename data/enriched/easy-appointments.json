@@ -1,0 +1,8 @@
+{
+  "summary": "Easy!Appointments is a web application designed to handle customer scheduling and appointment bookings over the internet. It provides a centralised interface where users can coordinate calendars and manage service slots.",
+  "goodFor": "It is a suitable choice for small businesses or independent practitioners who need to self-host a straightforward booking portal for clients.",
+  "watchOut": "You may find that it lacks the extensive ecosystem of integrations and enterprise features found in larger Software-as-a-Service booking platforms, requiring more manual configuration.",
+  "deployNotes": "Because it is built with PHP, you will typically need to provision a standard web server stack with a database backend like MySQL or MariaDB, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

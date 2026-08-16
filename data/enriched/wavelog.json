@@ -1,0 +1,8 @@
+{
+  "summary": "Wavelog is a web-based logging application designed for radio amateurs to record their contacts, known as QSOs. It provides browser-based access to detailed logs, geographical maps, and operational statistics. Built with PHP and distributed under the MIT licence, the project is actively maintained.",
+  "goodFor": "Radio amateurs looking for a self-hosted, browser-accessible alternative to traditional desktop logging software for tracking contacts and statistics.",
+  "watchOut": "You will need to manage your own backups and ensure proper network configuration if you plan to access your logs remotely. As a niche tool, it may lack integrations with certain hardware or less common logging formats.",
+  "deployNotes": "Deployment typically involves running a Docker container which will require persistent storage for your database and log files. You will also usually need to place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

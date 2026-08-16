@@ -1,0 +1,8 @@
+{
+  "summary": "YOURLS is a collection of PHP scripts that enables you to host a private URL redirection service on your own infrastructure. It provides core link shortening capabilities alongside custom aliases, bookmarklets, an API, and analytics tracking.",
+  "goodFor": "It suits administrators who want complete control over their redirected links and statistics without relying on external third-party services.",
+  "watchOut": "Because it relies on a mature PHP codebase, you should expect to handle routine security maintenance and configuration tuning yourself.",
+  "deployNotes": "You will typically need a standard web server like Apache or Nginx, a PHP runtime, and a relational database such as MySQL to store your links and metrics.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

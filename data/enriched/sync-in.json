@@ -1,0 +1,8 @@
+{
+  "summary": "Sync-in is a self-hosted platform providing file storage, syncing, and sharing capabilities alongside collaboration tools like real-time document editing. It includes permission management features as well as dedicated desktop and command-line clients for local integration. The application is distributed under the AGPL-3.0 licence.",
+  "goodFor": "It suits teams or individuals requiring a self-hosted file management system with multi-client synchronisation and collaborative editing features.",
+  "watchOut": "The AGPL-3.0 copyleft licence requires you to make your modified source code available if you offer the software as a network service, which may affect proprietary deployments.",
+  "deployNotes": "As a Docker-based Node.js application, you will typically need to configure persistent volumes for file storage, a reverse proxy to handle TLS termination, and potentially an external database depending on the default configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "OnionShare is a tool designed to let you securely and anonymously transfer files of any size directly from your machine. It operates within the File Transfer category, focusing on single-click and drag-and-drop upload workflows. The project is distributed under the GPL-3.0 licence and built using Python.",
+  "goodFor": "It is well-suited for individuals or teams who need to send large files without relying on third-party cloud storage providers or revealing their network location.",
+  "watchOut": "You must account for the dependency on the Tor network for anonymity, which can introduce latency and transfer bottlenecks depending on network conditions.",
+  "deployNotes": "As a Python application packaged via deb, deployment typically involves managing standard system dependencies and configuring persistent storage for file handling.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "MediaCMS is an open-source video and media content management system built with a Python, Django, and React stack. It provides a structured web interface and REST API for publishing, storing, and streaming digital media files.",
+  "goodFor": "It is suited for teams or organisations that need a self-hosted platform to host and stream video content internally or publicly.",
+  "watchOut": "The AGPL-3.0 licence requires you to make the source code available if you modify the software and run it as a network service. It also competes in a space with heavily established alternatives.",
+  "deployNotes": "As a containerised Python and React application, it typically requires persistent storage for uploaded media files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

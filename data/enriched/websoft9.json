@@ -1,0 +1,8 @@
+{
+  "summary": "Websoft9 is a GitOps-driven hosting platform designed for cloud and home servers. It facilitates the single-click deployment of over two hundred open source applications.",
+  "goodFor": "Users who want to manage multiple open source applications on a single server without manual configuration for each service.",
+  "watchOut": "The platform relies on shell scripts and Python under the hood, which may complicate debugging when underlying automation scripts fail.",
+  "deployNotes": "You will typically need to ensure persistent storage volumes are configured for the managed applications and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Jotty is a self-hosted alternative for organising file-based notes and checklists. It provides a lightweight interface to manage personal documentation stored directly on your server.",
+  "goodFor": "It suits individuals looking for a minimalist, file-backed system for personal notes and tasks without heavier database dependencies.",
+  "watchOut": "The AGPL-3.0 licence may impose copyleft restrictions if you modify and distribute the code, and the project occupies a crowded space alongside mature alternatives.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes to ensure your note files survive container restarts, alongside a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

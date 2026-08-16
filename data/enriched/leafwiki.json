@@ -1,0 +1,8 @@
+{
+  "summary": "LeafWiki is a lightweight wiki engine that organises documentation in a hierarchical tree structure using standard Markdown files stored directly on disk. It provides fast editing capabilities and relies on folder-based navigation rather than chronological feeds.",
+  "goodFor": "It is a strong fit if you prefer maintaining your documentation repository as plain files on a local filesystem while retaining a web-based interface for reading and editing.",
+  "watchOut": "As a relatively niche project with a modest community compared to mainstream alternatives, you may need to handle custom integrations and extensions yourself.",
+  "deployNotes": "Because the application is packaged as a Docker container using Go, you will typically need to configure persistent volume storage for your Markdown files and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}

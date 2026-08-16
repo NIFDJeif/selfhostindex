@@ -1,0 +1,8 @@
+{
+  "summary": "Haraka is an asynchronous mail transfer agent built to process incoming and outgoing email at high volume. Written in JavaScript, it uses an event-driven architecture to handle network traffic efficiently without spawning heavy worker processes for every connection.",
+  "goodFor": "It is suited for administrators looking to build custom email routing logic or security filters using JavaScript plugins rather than traditional configuration languages.",
+  "watchOut": "Node-based mail servers demand careful monitoring of event loop blockages and memory limits under sustained high traffic loads, and they have a smaller community footprint than established alternatives like Postfix or Exim.",
+  "deployNotes": "Because it runs on Node.js, you will need a modern runtime environment installed on your server along with process managers like PM2 to keep the service running reliably in the background.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-16"
+}
