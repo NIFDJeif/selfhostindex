@@ -1,0 +1,8 @@
+{
+  "summary": "Group Office is a self-hosted enterprise CRM and groupware platform designed to help teams collaborate online. It provides centralised tools for managing shared calendars, documents, emails, and collaborative projects with colleagues and clients.",
+  "goodFor": "Organisations looking to unify their customer relationship management and team productivity tools under a single self-hosted system.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft obligations if you modify and network-host the software, and adoption is much lower than competing enterprise suites.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a separate relational database such as MySQL or MariaDB, and persistent storage for uploaded files and email data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

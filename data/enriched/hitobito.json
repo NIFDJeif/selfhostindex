@@ -1,0 +1,8 @@
+{
+  "summary": "Hitobito is an open-source application designed to handle complex group hierarchies, membership lists, and event organization. It provides tools for structuring multiple interconnected groups and managing the people within them. The codebase is written in Ruby and licensed under the AGPL-3.0.",
+  "goodFor": "Organisations or large community networks that need to model intricate hierarchies of subgroups, manage memberships, and coordinate internal events.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft implications if you modify and distribute the software over a network, which may not suit all institutional policies.",
+  "deployNotes": "As a Ruby application, it typically requires a persistent relational database, a web server such as Puma, and a reverse proxy like Nginx to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

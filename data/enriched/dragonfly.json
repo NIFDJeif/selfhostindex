@@ -1,0 +1,8 @@
+{
+  "summary": "DragonFly is a lightweight mail transfer agent designed for routing electronic mail on home and small office setups. It runs on Linux and FreeBSD operating systems, handling the core tasks of sending and receiving messages. As a compact MTA, it provides a functional routing layer without the heavy configuration footprint of enterprise-grade mail servers.",
+  "goodFor": "It is a suitable choice if you want to run a simple, self-contained mail routing daemon on a lightweight Linux or FreeBSD server without excessive resource overhead.",
+  "watchOut": "The codebase has a low maintenance activity score and lacks tagged releases, meaning you may need to patch bugs yourself or rely on unreleased development commits.",
+  "deployNotes": "Being written in C, it typically compiles down to a standalone binary with minimal runtime dependencies, though you will need to configure persistent storage for mail queues and handle TLS certificates separately.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

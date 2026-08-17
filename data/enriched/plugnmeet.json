@@ -1,0 +1,8 @@
+{
+  "summary": "plugNmeet is a web conferencing system designed to handle real-time video communication and online meetings. It provides the core infrastructure needed to host virtual rooms for multiple participants over the web. The software is released under the MIT licence.",
+  "goodFor": "It suits administrators who need a self-hosted video conferencing option and want to manage their own meeting infrastructure.",
+  "watchOut": "Deploying and scaling a real-time media server requires careful network configuration, particularly regarding STUN/TURN servers and UDP port management, which can introduce operational complexity.",
+  "deployNotes": "Because it is built with Docker and Go, you will typically run it via container orchestration alongside a reverse proxy to handle TLS termination and persistent volumes for any configuration data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

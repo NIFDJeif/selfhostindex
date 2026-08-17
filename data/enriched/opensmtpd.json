@@ -1,0 +1,8 @@
+{
+  "summary": "OpenSMTPD is a secure mail transfer agent developed by the OpenBSD project. It handles the routing, sending, and receiving of emails across SMTP networks. As a standard mail server implementation, it facilitates communication infrastructure for self-hosted environments.",
+  "goodFor": "It is a suitable choice if you require a minimalist, security-focused mail transfer agent developed with OpenBSD's rigorous standards. It fits well into traditional Unix-like server setups.",
+  "watchOut": "Configuration can be notoriously complex and documentation is often sparse compared to more mainstream alternatives like Postfix. Low development activity means you may need to rely heavily on community patches or internal expertise for troubleshooting.",
+  "deployNotes": "Being a native C binary typically packaged for Debian-based systems, it usually integrates directly into the host operating system without heavy dependencies. You will need to provision persistent storage for mail queues and configure system certificates for TLS handling.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

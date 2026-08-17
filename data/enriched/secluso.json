@@ -1,0 +1,8 @@
+{
+  "summary": "Secluso is a video surveillance system designed for Raspberry Pi hardware. It offers end-to-end encrypted remote access alongside mobile applications to handle live feeds, alerts, and playback of recorded footage.",
+  "goodFor": "This application suits individuals who want a self-hosted home security camera setup centred around low-power ARM hardware and mobile access.",
+  "watchOut": "With a modest repository popularity and steady maintenance status, you may encounter edge cases or hardware-specific driver limitations that are common in DIY camera setups.",
+  "deployNotes": "As a compiled Rust application, it typically requires persistent storage volumes for recorded video files and a reverse proxy to handle secure TLS termination for remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

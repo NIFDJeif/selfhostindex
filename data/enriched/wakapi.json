@@ -1,0 +1,8 @@
+{
+  "summary": "Wakapi is a self-hosted time-tracking utility designed to collect and aggregate coding statistics from your code editor. It functions as a drop-in replacement for the proprietary WakaTime service, receiving telemetry data and generating productivity metrics. The application is written in Go and distributed under the GPL-3.0 licence.",
+  "goodFor": "Developers who want to maintain ownership of their programming metrics and prefer using open-source tools compatible with existing WakaTime editor plugins.",
+  "watchOut": "You will need to configure your editor plugins to point to your private instance rather than the default endpoint, and manage your own data retention policies.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent storage for the database and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

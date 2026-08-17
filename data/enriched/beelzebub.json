@@ -1,0 +1,8 @@
+{
+  "summary": "Beelzebub is a honeypot framework written in Go and distributed under an MIT licence. It provides a controlled environment to detect and analyse cyber attacks targeting your network infrastructure. The project is packaged for containerised environments and is typically managed using Docker or Kubernetes.",
+  "goodFor": "Security engineers and system administrators who want to deploy a customisable honeypot to monitor unauthorised network access attempts.",
+  "watchOut": "Operating a honeypot carries inherent security risks if the container isolation is compromised, and the framework's moderate maintenance level means you should audit updates carefully.",
+  "deployNotes": "You will typically run this service inside a container using Docker or Kubernetes, ensuring that network traffic is properly routed and isolated from critical infrastructure.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

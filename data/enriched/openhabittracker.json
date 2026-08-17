@@ -1,0 +1,8 @@
+{
+  "summary": "OpenHabitTracker is a self-hosted tool designed for logging daily habits, managing tasks, and recording notes. It incorporates time tracking, a calendar interface, and analytics to review completion statistics over time.",
+  "goodFor": "Users who want a private, containerised application to monitor personal routines and productivity metrics without relying on third-party SaaS services.",
+  "watchOut": "With a relatively small community and modest repository activity, you may encounter edge cases or lack integration options compared to more mature alternatives.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Tine is a web-based collaboration and groupware suite designed to help organisations manage daily team operations. It bundles various communication and organisational tools into a single platform for internal business use. The project is distributed under the AGPL-3.0 licence and receives active development.",
+  "goodFor": "Teams looking for an open-source, self-hosted alternative to mainstream commercial groupware and office coordination platforms.",
+  "watchOut": "The ecosystem and community around the project are relatively small compared to industry giants, which may limit the availability of third-party documentation and troubleshooting resources.",
+  "deployNotes": "Deployment is handled via Docker, which typically requires configuring persistent storage volumes for your data and placing the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

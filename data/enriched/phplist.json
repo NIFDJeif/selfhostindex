@@ -1,0 +1,8 @@
+{
+  "summary": "phpList is a self-hosted platform designed for managing newsletters, subscriber lists, and email marketing campaigns. It includes built-in handling for incoming bounces and an extension system via plugins.",
+  "goodFor": "It suits administrators who need to manage high-volume mailing lists independently using a standard PHP stack.",
+  "watchOut": "The AGPL-3.0 licence places strong copyleft requirements on network-deployed modifications, and the project's maintenance pace has slowed down.",
+  "deployNotes": "You will typically need a standard web server configured for PHP, a relational database such as MySQL or MariaDB, and a cron job to handle scheduled email dispatches.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

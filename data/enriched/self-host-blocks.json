@@ -1,0 +1,8 @@
+{
+  "summary": "Self Host Blocks is a modular server management tool built on NixOS modules. It provides a structured approach to configuring infrastructure with an emphasis on established operational best practices.",
+  "goodFor": "This is a solid option for administrators already using NixOS who want structured, reusable configurations for their self-hosted services.",
+  "watchOut": "The AGPL-3.0 licence requires source code disclosure if you modify and network-host the software, and adoption is limited compared to mainstream control panels.",
+  "deployNotes": "Deployment typically requires a host running NixOS with persistent storage allocated for your managed services and a separate reverse proxy configured for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

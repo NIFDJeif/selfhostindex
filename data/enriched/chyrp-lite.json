@@ -1,0 +1,8 @@
+{
+  "summary": "Chyrp Lite is a minimalist blogging engine written in PHP. It provides a lightweight platform for publishing web log content without the overhead of heavier content management systems.",
+  "goodFor": "It suits administrators who want a simple, resource-efficient publishing tool for a personal site rather than a complex multi-author publication.",
+  "watchOut": "You may find fewer plugins, themes, and community resources available compared to dominant alternatives like WordPress.",
+  "deployNotes": "You will typically need a standard web server with PHP support, along with a relational database such as MySQL or PostgreSQL for data storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

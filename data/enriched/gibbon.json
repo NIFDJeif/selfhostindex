@@ -1,0 +1,8 @@
+{
+  "summary": "Gibbon is a self-hosted school management platform designed to organise administrative tasks, learning, and communication for educational communities. It provides a centralised system to coordinate workflows between teachers, students, parents, and institutional leaders. As an open-source tool within the learning and courses category, it handles standard academic record-keeping and course administration.",
+  "goodFor": "It is well-suited for educational institutions seeking an open-source, customisable administrative platform that they can host on their own infrastructure.",
+  "watchOut": "The project exhibits a slowing maintenance trajectory, which may impact long-term security updates and community support for complex deployments.",
+  "deployNotes": "Because it is built with PHP, you will typically need to provision a web server such as Nginx or Apache, a relational database like MySQL or MariaDB, and ensure persistent storage for uploaded user files and documents.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

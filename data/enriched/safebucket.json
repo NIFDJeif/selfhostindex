@@ -1,0 +1,8 @@
+{
+  "summary": "Safebucket is a self-hosted file sharing platform released under the Apache-2.0 licence. It uses pluggable infrastructure to route uploads and downloads directly between client browsers and S3-compatible object storage.",
+  "goodFor": "It suits administrators who want to provide a drag-and-drop file transfer interface while storing all binary data directly in their existing S3 buckets.",
+  "watchOut": "The project has a moderate maintenance health score and an older repository footprint, meaning you should evaluate its long-term stability before relying on it for critical workflows.",
+  "deployNotes": "Because it is distributed as a Docker container built with Go, you will typically need to run it behind a reverse proxy to handle TLS termination, while persistent configuration data should be mapped to a local volume.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

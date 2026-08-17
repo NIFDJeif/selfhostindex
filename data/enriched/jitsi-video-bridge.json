@@ -1,0 +1,8 @@
+{
+  "summary": "Jitsi Video Bridge is a Selective Forwarding Unit that handles multi-party video communication using WebRTC. It routes media streams between participants in a conference rather than mixing them centrally, which reduces processing overhead on the host server.",
+  "goodFor": "Self-hosters who want to build or integrate an open-source video conferencing infrastructure using Java components.",
+  "watchOut": "Setting up and maintaining a WebRTC media server can involve complex network configurations, including STUN/TURN servers and UDP port management.",
+  "deployNotes": "As a Java application typically distributed via deb packages, it usually runs on a dedicated Linux host and requires a reverse proxy for handling web traffic and TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

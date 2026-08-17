@@ -1,0 +1,8 @@
+{
+  "summary": "Flare is a self-hosted server designed to store and manage files and screenshots uploaded from desktop tools like ShareX, Flameshot, and Spectacle. It features optical character recognition for searching text within stored images, alongside standard web-based file management capabilities.",
+  "goodFor": "This is a suitable choice if you want a dedicated, self-hosted vault for quick screenshot and file uploads from your desktop environment.",
+  "watchOut": "The project has a relatively small community and a slowing maintenance score, meaning you may need to patch bugs yourself.",
+  "deployNotes": "Because it runs on Docker and Node.js, you will typically need to map persistent volumes for your file storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

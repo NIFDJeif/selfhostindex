@@ -1,0 +1,8 @@
+{
+  "summary": "Zipline is a self-hosted file sharing server built with Node.js and a React-based web interface. It provides a fast API and is frequently paired with client utilities like ShareX to enable quick upload workflows.",
+  "goodFor": "Ideal if you want a dedicated, lightweight endpoint for rapidly uploading and sharing files via drag-and-drop or automated client tools.",
+  "watchOut": "Maintenance health is steady rather than rapid, and as a niche file sharing tool, it may lack the extensive ecosystem and collaboration features found in larger storage platforms.",
+  "deployNotes": "You will typically deploy this via Docker, ensuring you attach persistent storage volumes for uploaded files and configure a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

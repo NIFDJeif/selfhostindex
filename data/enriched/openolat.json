@@ -1,0 +1,8 @@
+{
+  "summary": "OpenOLAT is a web-based learning management system designed to support teaching, education, assessment, and communication within academic or corporate environments. It provides a structured platform for educators to deliver course materials and for students to interact with learning content. The software coordinates course management and evaluation workflows in a centralised location.",
+  "goodFor": "It is a suitable option for educational institutions or organisations seeking an open-source platform to manage online learning courses and student assessments.",
+  "watchOut": "Given its modest repository activity and niche standing compared to dominant alternatives like Moodle, you may encounter fewer community resources, plugins, and third-party integrations.",
+  "deployNotes": "As a Java application, it typically requires a dedicated servlet container or application server, a persistent relational database, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

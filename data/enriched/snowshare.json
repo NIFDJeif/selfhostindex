@@ -1,0 +1,8 @@
+{
+  "summary": "Snowshare is a self-hosted platform designed for sharing files, short URLs, and text snippets. It includes features such as adjustable expiration times, privacy controls, and QR code generation for shared items.",
+  "goodFor": "It suits small teams or individuals who want a single, self-hosted interface for handling quick file transfers, pastebin tasks, and link shortening.",
+  "watchOut": "With a modest repository size and steady maintenance score, it may lack the extensive community support and plugin ecosystem found in more established alternatives.",
+  "deployNotes": "As a Node.js application packaged with Docker, you will typically need to configure persistent volumes for uploaded data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

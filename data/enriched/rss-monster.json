@@ -1,0 +1,8 @@
+{
+  "summary": "RSS Monster is a self-hosted web application designed to aggregate and read syndicated feeds. It provides a centralised interface for managing subscriptions and is compatible with the Fever API to sync read states with external clients.",
+  "goodFor": "Users who want a straightforward, self-hosted feed reader with Fever API compatibility to coordinate between web and mobile clients.",
+  "watchOut": "It relies on a niche API standard and overlaps with more widely adopted alternatives like FreshRSS or Tiny Tiny RSS, potentially limiting community support and plugin availability.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server like Apache or Nginx, PHP runtime extensions, and a relational database such as MySQL or MariaDB with persistent storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

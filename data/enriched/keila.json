@@ -1,0 +1,8 @@
+{
+  "summary": "Keila is a self-hosted newsletter management system designed as an alternative to commercial email marketing services like Mailchimp and Sendinblue. It allows you to handle contact lists, compose campaigns, and dispatch mass emails directly from your own infrastructure. The software is distributed under the AGPL-3.0 licence and relies on containerised deployment.",
+  "goodFor": "This is a good fit for individuals or small teams who want to move their email campaigns off third-party platforms and maintain full control over subscriber data.",
+  "watchOut": "Self-hosting an email dispatch tool requires careful configuration of DNS records like SPF, DKIM, and DMARC to avoid deliverability issues. Additionally, the AGPL-3.0 licence imposes strict copyleft obligations if you modify the code and offer it as a service over a network.",
+  "deployNotes": "Deployment is handled via Docker, which typically requires mapping persistent volumes for database storage and setting up a reverse proxy to manage TLS certificates.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

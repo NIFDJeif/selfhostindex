@@ -1,0 +1,8 @@
+{
+  "summary": "Open eClass is a PHP-based learning management system designed to support digital teaching and course delivery. It provides a platform within the learning and courses category to organise educational content and facilitate remote instruction. The project is distributed under the GPL-2.0 licence and is actively maintained with frequent code updates.",
+  "goodFor": "It is a suitable choice for educational institutions and self-hosters looking for a standard, open-source e-learning platform built on a traditional PHP stack.",
+  "watchOut": "You may find that it faces strong competition from more widely adopted learning management systems, which could mean a smaller community for troubleshooting and fewer third-party integrations.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Apache or Nginx, a relational database such as MySQL or MariaDB, and persistent storage for user uploads and course materials.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

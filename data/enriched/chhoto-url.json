@@ -1,0 +1,8 @@
+{
+  "summary": "Chhoto URL is a lightweight link shortening tool designed to convert long web addresses into concise, manageable links. It is distributed as a Docker container and focuses on speed without unnecessary features. As a minimalist project, it serves basic redirection needs efficiently.",
+  "goodFor": "Self-hosters who want a fast, low-resource link shortener without the overhead of heavy enterprise frameworks.",
+  "watchOut": "It is a minimalist fork with limited advanced features compared to more established redirection platforms, meaning you may miss complex analytics or user management out of the box.",
+  "deployNotes": "Because it runs via Docker and is built in Rust, deployment typically involves setting up a container, mounting persistent storage if link data needs to be saved, and placing it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "ONLYOFFICE is a self-hosted office suite designed to handle document editing, project management, and customer relationship tasks within a single interface. It provides collaborative tooling for teams needing an alternative to cloud-based office ecosystems. The software is distributed under the AGPL-3.0 licence and integrates with containerised environments.",
+  "goodFor": "Teams looking to self-host an integrated workspace for document editing and basic collaboration behind their own firewall.",
+  "watchOut": "The AGPL-3.0 licence places copyleft constraints on network services, which may affect how you integrate it into your internal infrastructure. Furthermore, running a comprehensive office suite with multiple backend services can introduce significant resource overhead.",
+  "deployNotes": "As a containerised Node.js application, deployment typically requires persistent volume mounts for document storage and a reverse proxy to handle TLS termination. You will also generally need to provision an external database instance depending on your scaling requirements.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

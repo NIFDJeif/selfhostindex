@@ -1,0 +1,8 @@
+{
+  "summary": "MiroTalk SFU is a self-hosted web application designed to facilitate real-time video conferences across multiple browsers and platforms. It utilises selective forwarding units to handle media streams, aiming to support high-resolution video outputs up to 4k. The project is distributed under an open-source licence and containerised for deployment.",
+  "goodFor": "It suits teams or individuals looking for a dedicated, self-hosted video conferencing node that they can run entirely on their own infrastructure.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft implications if you modify and distribute the code or offer it as a hosted service. Additionally, managing real-time media routing can impose significant bandwidth and CPU demands on your server.",
+  "deployNotes": "As a Node.js application packaged with Docker, you will typically need to configure a reverse proxy to handle TLS termination and manage persistent storage or environment variables according to your setup.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

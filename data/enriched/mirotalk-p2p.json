@@ -1,0 +1,8 @@
+{
+  "summary": "MiroTalk P2P is a web application for browser-based video conferencing and real-time communication. It relies on peer-to-peer connections to stream audio and video streams directly between participants without routing media through a central server.",
+  "goodFor": "It suits small teams or casual meetings where direct browser communication is preferred over routing traffic through a hosted third-party platform.",
+  "watchOut": "The peer-to-peer architecture does not scale efficiently beyond a few participants, leading to high bandwidth demands on each client device. Additionally, the copyleft AGPL-3.0 licence may restrict how you integrate or modify the codebase in proprietary environments.",
+  "deployNotes": "You can deploy the container using Docker, though you will typically need to configure a reverse proxy to handle TLS termination for secure WebRTC access. STUN and TURN servers may also be required depending on network topologies and NAT traversal needs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

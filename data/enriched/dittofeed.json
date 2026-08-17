@@ -1,0 +1,8 @@
+{
+  "summary": "Dittofeed is an open-source platform for customer engagement and messaging automation, operating as a self-hosted alternative to tools like Braze or Customer.io. It helps teams orchestrate multi-channel communications and automated message flows for their user base. The project is distributed under an MIT licence and containerised for straightforward deployment.",
+  "goodFor": "It suits technical teams wanting to run their own marketing automation and user messaging infrastructure without relying on proprietary cloud services.",
+  "watchOut": "The codebase has a moderate maintenance tempo and relies on a feature set that directly competes with established, highly polished commercial platforms.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage, set up environment variables for external services, and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

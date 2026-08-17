@@ -1,0 +1,8 @@
+{
+  "summary": "ILIAS is a learning management system designed to handle educational content delivery and course organisation. As a platform within the learning and courses category, it provides tools for managing educational materials, tracking progress, and structuring online training environments.",
+  "goodFor": "Organisations and institutions needing a structured, self-hosted platform to manage and deliver educational courses.",
+  "watchOut": "The platform overlaps with several established enterprise learning management systems, which may offer more widespread community support and integration options.",
+  "deployNotes": "Because it is built with PHP, you will typically need a standard web server stack with a database backend like MySQL or PostgreSQL, alongside persistent storage for uploaded course materials.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

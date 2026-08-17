@@ -1,0 +1,8 @@
+{
+  "summary": "Sympa is a mature open-source mailing list manager designed to handle large-scale email distribution and subscriber lists. It automates the administration of electronic discussions and newsletters, processing subscription requests, bounce management, and message distribution. Written in Perl, it operates as a traditional server-side tool for managing email communication infrastructure.",
+  "goodFor": "It suits system administrators and organisations needing an established, self-hosted solution to manage high-volume email lists and structured mailing communications.",
+  "watchOut": "Maintenance activity is currently slowing down, and configuration can be complex due to its older architecture and extensive feature set. You should expect a significant administrative learning curve compared to modern web applications.",
+  "deployNotes": "Because it is built with Perl, deployment typically requires setting up a standard web server with FastCGI support, a dedicated relational database like PostgreSQL or MySQL, and a local mail transfer agent to process inbound and outbound messages.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

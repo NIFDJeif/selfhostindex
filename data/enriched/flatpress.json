@@ -1,0 +1,8 @@
+{
+  "summary": "FlatPress is a blogging engine that stores all content directly in flat files rather than a traditional relational database. It provides a straightforward interface for publishing posts and managing content without the overhead of complex database administration. Being built with PHP, it can be hosted on modest server hardware.",
+  "goodFor": "A good fit if you want a minimalist, self-hosted publishing platform for a personal journal or simple blog without managing a database backend.",
+  "watchOut": "It relies on flat files for storage, which can become a bottleneck or difficult to query efficiently as your content archive grows significantly.",
+  "deployNotes": "You will typically need a standard web server like Apache or Nginx configured with a PHP runtime and persistent storage for the file-based database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

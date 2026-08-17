@@ -1,0 +1,8 @@
+{
+  "summary": "SOGo is a groupware server that provides centralised access to collaborative messaging and calendar data. It supports standard synchronisation protocols like CalDAV, CardDAV, and ActiveSync alongside a built-in web interface for end users. This allows you to manage schedules and contacts across different client applications and devices from a single self-hosted instance.",
+  "goodFor": "It is a good fit if you need to coordinate shared calendars and address books across a mixed fleet of mobile devices, desktop clients, and mail applications.",
+  "watchOut": "The codebase is written in Objective-C, which can make debugging and contributing less straightforward if your team lacks experience with that ecosystem. It also overlaps with widely adopted alternatives like Nextcloud, meaning integration support might be narrower.",
+  "deployNotes": "You will typically need to run SOGo behind a reverse proxy to handle TLS termination, and it usually requires a relational database backend like PostgreSQL for persistent state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

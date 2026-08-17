@@ -1,0 +1,8 @@
+{
+  "summary": "Strix is a utility designed to automatically locate functional stream uniform resource locators for internet protocol cameras. It then outputs configuration files tailored for systems like Frigate and go2rtc. This automates the tedious discovery phase of setting up a local video surveillance network.",
+  "goodFor": "Home lab operators and self-hosters who are setting up multiple internet protocol cameras and want to skip the manual work of finding stream endpoints.",
+  "watchOut": "Development activity has slowed down recently, which might mean slower responses to protocol changes or camera firmware updates. It also depends on the stability of third-party camera discovery methods.",
+  "deployNotes": "Because it is distributed as a container, you can typically run it via Docker with persistent volume mounts for saving generated configurations. You will generally want to secure the web interface behind a reverse proxy if exposed outside your local network.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

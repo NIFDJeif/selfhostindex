@@ -1,0 +1,8 @@
+{
+  "summary": "Seatsurfing is a web-based application designed to manage workspace reservations in an office environment. It allows staff to book specific desks, meeting rooms, and shared seats through a centralised interface. The project is distributed under the GPL-3.0 licence and is hosted in a public repository with over 300 stars.",
+  "goodFor": "It is a suitable choice for small to medium organisations implementing hybrid working models who need a straightforward way to track desk and room occupancy.",
+  "watchOut": "Adoption relies entirely on team compliance, and it lacks the extensive third-party enterprise calendar integrations typically found in commercial workspace suites.",
+  "deployNotes": "Because the application is packaged for Docker, you will typically need to configure a persistent volume for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

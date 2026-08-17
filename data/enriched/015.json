@@ -1,0 +1,8 @@
+{
+  "summary": "015 is a self-hosted platform designed for temporary file sharing and text exchange. It allows users to upload content that is intended to be accessed once or for a limited duration. The application combines functionality typical of single-click file transfer tools and pastebins.",
+  "goodFor": "This is a suitable choice if you frequently need to share single files or snippets of text quickly without leaving permanent data behind on your infrastructure.",
+  "watchOut": "The project has a modest community footprint and moderate maintenance activity, meaning you may encounter rough edges or need to rely on the source code to resolve issues. The AGPL-3.0 licence also places strict copyleft requirements on any modifications you distribute.",
+  "deployNotes": "Because the application is distributed as a Docker container, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

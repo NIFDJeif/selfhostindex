@@ -1,0 +1,8 @@
+{
+  "summary": "FusionPBX provides a web-based administration interface for the FreeSWITCH voice switch platform. It allows you to manage multi-tenant telephony environments, routing, and user extensions through a graphical browser UI. The software acts as a control panel layer rather than handling the underlying audio processing directly.",
+  "goodFor": "Administrators who want to deploy and manage FreeSWITCH setups without relying entirely on raw configuration files. It suits environments requiring multi-tenant voice routing.",
+  "watchOut": "The Mozilla Public License 1.1 can present copyleft compliance challenges depending on how you modify and distribute the source code. It also inherits the steep configuration complexity of the underlying FreeSWITCH engine.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a separate relational database for state management, and a persistent backend for FreeSWITCH data. You will also need to configure proper network routing for SIP signaling and RTP media streams.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}

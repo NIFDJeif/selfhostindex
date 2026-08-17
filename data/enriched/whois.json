@@ -1,0 +1,8 @@
+{
+  "summary": "Whois provides an HTTP API for querying domain registration records, IP addresses, CIDR ranges, and autonomous system numbers. It normalises output into a single JSON format and includes built-in caching, API key authentication, and batch query handling. It also supports the Model Context Protocol to integrate with AI assistants.",
+  "goodFor": "Developers building automation scripts or internal dashboards that need to query network registry data and parse the results reliably via JSON.",
+  "watchOut": "With a low repository star count and limited maturity, you should evaluate the error-handling and resilience against upstream rate limits before depending on it in production.",
+  "deployNotes": "As a Go application packaged for Docker, it typically requires minimal resources and can be run behind a standard reverse proxy for TLS termination, though you may want to configure persistent storage if the internal cache needs to survive restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-17"
+}
