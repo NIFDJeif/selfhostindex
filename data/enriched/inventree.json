@@ -1,0 +1,8 @@
+{
+  "summary": "Inventree is an open-source inventory management system designed to track parts and control stock levels. It provides structured oversight for physical items, components, and assemblies within a self-hosted environment. The platform is built using Python and distributed under the MIT licence.",
+  "goodFor": "It is well-suited for small workshops, laboratories, or hardware developers who need to catalogue physical components and manage internal stock without relying on proprietary cloud services.",
+  "watchOut": "You should expect to handle your own data backups, user access controls, and ongoing system updates since self-hosted inventory tools require active administrative maintenance.",
+  "deployNotes": "As a Python application, you will typically need to configure a relational database, persistent storage for uploaded files, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

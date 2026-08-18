@@ -1,0 +1,8 @@
+{
+  "summary": "Sunshine is a self-hosted remote game streaming host designed to pair with the Moonlight client. It allows you to stream desktop games at resolutions up to 4K and refresh rates up to 120 frames per second over your network. The software is released under the GPL-3.0 licence and is written in C++, with distribution options including Debian packages and container images.",
+  "goodFor": "This is a suitable choice for users who want to stream games from a dedicated host machine to various client devices without relying on proprietary cloud streaming services.",
+  "watchOut": "Low-latency streaming depends heavily on your local network performance, client hardware capabilities, and proper configuration of video encoding pipelines on the host.",
+  "deployNotes": "As a compiled C++ application available in Docker and deb formats, deployment typically requires persistent storage for configuration files and appropriate network port forwarding or firewall rules for streaming traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

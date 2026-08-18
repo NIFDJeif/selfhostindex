@@ -1,0 +1,8 @@
+{
+  "summary": "AnythingLLM is an all-in-one desktop and containerised application designed for interacting with language models. It includes built-in retrieval-augmented generation, automated agents, and support for the Model Context Protocol.",
+  "goodFor": "It suits users wanting a self-hosted workspace to query private documents and run local AI workflows without relying on external cloud services.",
+  "watchOut": "Running local embedding models and large language models requires significant hardware resources, particularly a capable GPU.",
+  "deployNotes": "You will typically deploy this via Docker, ensuring persistent storage volumes are mounted for your document workspace data and vector database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

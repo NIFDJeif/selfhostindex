@@ -1,0 +1,8 @@
+{
+  "summary": "CyberChef is a browser-based utility designed to perform data transformation tasks such as encryption, decryption, hashing, and encoding. It provides a web interface where you can chain different operations together to process text and binary data entirely on the client side.",
+  "goodFor": "Developers, sysadmins, and security analysts who frequently need to decode payloads, inspect hashes, or convert data formats without relying on external online services.",
+  "watchOut": "Because it processes data entirely within the browser client, heavy operations on very large files can consume significant memory and potentially freeze your browser tab.",
+  "deployNotes": "As a purely static Javascript application, it typically requires only a basic web server to serve the static files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

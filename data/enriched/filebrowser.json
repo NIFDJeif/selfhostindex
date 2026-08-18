@@ -1,0 +1,8 @@
+{
+  "summary": "Filebrowser provides a web-based file manager interface built with Material Design principles. It allows you to manage files and directories directly through your browser on a self-hosted server.",
+  "goodFor": "This is a good fit if you need a lightweight web interface to manage files on a server without installing a full cloud storage stack.",
+  "watchOut": "It overlaps heavily with standard SFTP clients and more complex cloud storage platforms, so ensure it fits your specific access control requirements before adopting it.",
+  "deployNotes": "Being compiled in Go, it typically runs as a single static binary that can be deployed behind a reverse proxy for TLS termination, with persistent storage mapped to your file directories.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

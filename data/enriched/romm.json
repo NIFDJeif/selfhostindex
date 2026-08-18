@@ -1,0 +1,8 @@
+{
+  "summary": "RomM is a self-hosted ROM manager designed to help you organise, enrich, and play retro games across hundreds of different platforms. It acts as a centralised control panel for large collections of game files, streamlining metadata management and browser-based access.",
+  "goodFor": "It is a good fit for self-hosters with extensive retro game libraries who want a web-accessible interface to catalogue and play titles.",
+  "watchOut": "The software is distributed under the AGPL-3.0 licence, which imposes strict copyleft obligations if you modify and network-host the code. Additionally, relying on browser-based emulation for hundreds of disparate platforms can introduce complex performance and compatibility trade-offs.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent volumes for your game library and metadata storage, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

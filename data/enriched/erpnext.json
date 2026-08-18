@@ -1,0 +1,8 @@
+{
+  "summary": "ERPNext is an open-source enterprise resource planning platform designed to manage core business operations. It provides structured modules to help organisations handle administrative workflows, financial data, and general resource management.",
+  "goodFor": "It suits small to medium-sized businesses looking for a self-hosted, customisable suite to consolidate various operational workflows under a single interface.",
+  "watchOut": "Deploying and maintaining an enterprise resource planning system involves a steep learning curve and considerable configuration overhead before it matches specific business processes.",
+  "deployNotes": "As a Python application containerised with Docker, it typically requires persistent storage volumes for database and file persistence, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

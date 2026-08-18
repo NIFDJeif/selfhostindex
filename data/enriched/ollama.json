@@ -1,0 +1,8 @@
+{
+  "summary": "Ollama provides a runtime environment to download, configure, and execute large language models locally on your own hardware. It abstracts the underlying model files and execution libraries into a standardised interface for text generation tasks.",
+  "goodFor": "Developers and system administrators who want to run generative AI models locally without relying on external cloud APIs.",
+  "watchOut": "Running large language models locally demands substantial hardware resources, particularly compatible GPUs with sufficient VRAM for acceptable performance.",
+  "deployNotes": "As a containerised application, it typically requires persistent storage volumes to save downloaded model weights and a reverse proxy if you need to handle TLS termination for network access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

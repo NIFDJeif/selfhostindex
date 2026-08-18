@@ -1,0 +1,8 @@
+{
+  "summary": "Collabora Online Development Edition (CODE) provides a web-based office suite for editing word documents, spreadsheets, and presentations. Built on LibreOffice, it allows you to host your own collaborative document editing infrastructure on private servers.",
+  "goodFor": "Self-hosters who want to integrate browser-based document editing capabilities into their existing private cloud storage or infrastructure.",
+  "watchOut": "Document editing suites typically impose significant memory and CPU overhead under load, and this development edition lacks clear metrics on recent maintenance or tagged releases.",
+  "deployNotes": "As a C++ application handling browser communication, you will typically need to run it behind a reverse proxy configured for TLS and allocate persistent storage for user documents.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

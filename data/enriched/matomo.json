@@ -1,0 +1,8 @@
+{
+  "summary": "Matomo is an open-source web analytics platform designed as a self-hosted alternative to Google Analytics. It tracks visitor traffic, page views, and user behaviour while aiming to keep all data under your direct control to protect user privacy.",
+  "goodFor": "This is a strong fit if you require detailed usage statistics for your websites but must comply with strict privacy regulations by keeping analytics data on your own infrastructure.",
+  "watchOut": "Self-hosting an analytics platform can generate significant database storage over time, requiring you to manage data archiving, table optimisation, and regular maintenance tasks yourself.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, along with a persistent relational database such as MySQL or MariaDB to store the captured telemetry.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

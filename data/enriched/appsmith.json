@@ -1,0 +1,8 @@
+{
+  "summary": "Appsmith is an open-source low-code framework designed for constructing administrative interfaces, data-entry forms, and internal business workflows. It provides visual UI components that connect to data sources, allowing developers to assemble custom internal tooling faster than writing code from scratch.",
+  "goodFor": "Development teams who need to quickly build and maintain internal dashboards or database interfaces without designing custom front ends.",
+  "watchOut": "Self-hosting involves running a complex containerised stack with a substantial memory footprint, which may be heavy for minimal server setups.",
+  "deployNotes": "You can typically deploy the application using Docker Compose or Kubernetes, though you will need to provision persistent storage for state and configure an external reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

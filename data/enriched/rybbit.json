@@ -1,0 +1,8 @@
+{
+  "summary": "Rybbit is a self-hosted analytics platform designed to track web traffic and product usage as an alternative to Google Analytics. It aims to provide a straightforward setup process and a more intuitive interface for viewing user behaviour data. The software is distributed under the AGPL-3.0 licence and containerised via Docker.",
+  "goodFor": "This is a good fit if you need to gather visitor metrics and product telemetry on your own infrastructure while avoiding third-party data sharing.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your modifications if you offer the software as a hosted service to others, and migrating historical data between analytics platforms can be complex.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for your analytics database and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

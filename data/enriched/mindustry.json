@@ -1,0 +1,8 @@
+{
+  "summary": "Mindustry is a tower defense game focused on resource management and logistics, comparable to titles like Factorio. Players construct automated production chains to gather materials and build fortified facilities to defend against enemy waves.",
+  "goodFor": "Self-hosters looking for a multiplayer-capable strategy and logistics game to run on a dedicated home server or virtual private server for friends.",
+  "watchOut": "Running a dedicated game server can consume significant CPU and memory resources depending on the scale of the factories and player count. The GPL-3.0 licence also means any modifications or derivative server code must be kept open source if distributed.",
+  "deployNotes": "As a Java application, you will typically need a suitable Java Runtime Environment installed on your host. You should also ensure persistent storage is configured for your game save files and world data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

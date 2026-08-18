@@ -1,0 +1,8 @@
+{
+  "summary": "Homepage by gethomepage is an application dashboard and startpage designed to organise your web services in one place. It integrates with Docker and various service APIs to display live status information directly on your interface. The project is open source under the GPL-3.0 licence and built using Node.js.",
+  "goodFor": "It is well-suited for self-hosters managing multiple internal services who want a centralised, customisable landing page with live container metrics.",
+  "watchOut": "Configuration is handled entirely through text files, which can become tedious to maintain as your number of services grows.",
+  "deployNotes": "Deployment typically involves running a Docker container, requiring persistent storage for configuration files and network access to the APIs you wish to monitor.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

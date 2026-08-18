@@ -1,0 +1,8 @@
+{
+  "summary": "Forgejo is a software forge derived from Gitea, providing project management and ticketing tools for code repositories. It is designed around principles of federation, privacy, and scalability for managing source code hosting infrastructure.",
+  "goodFor": "It suits administrators seeking a lightweight alternative to larger forges for managing Git repositories and team workflows on private hardware.",
+  "watchOut": "As a fork of Gitea, its exact divergence and long-term maintenance path relative to its parent project require careful evaluation before adoption.",
+  "deployNotes": "Being built with Go and containerised via Docker, deployment typically requires configuring persistent storage volumes for repository data and placing the service behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

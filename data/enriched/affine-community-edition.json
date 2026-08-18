@@ -1,0 +1,8 @@
+{
+  "summary": "AFFiNE Community Edition is a self-hosted knowledge base and workspace combining document editing, planning, and visual brainstorming into a single interface. It serves as an open-source alternative to proprietary platforms like Notion and Miro with a focus on local data control. The software allows you to organise notes, structured tables, and whiteboards within one environment.",
+  "goodFor": "It suits teams or individuals seeking a privacy-focused, customisable workspace for documentation and visual collaboration without relying on cloud services.",
+  "watchOut": "The project uses a split licence structure including AGPL-3.0, and because it aims to replace multiple complex tools, it may have a steeper resource footprint and operational learning curve.",
+  "deployNotes": "As a Docker-based deployment, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

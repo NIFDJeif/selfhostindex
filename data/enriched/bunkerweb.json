@@ -1,0 +1,8 @@
+{
+  "summary": "BunkerWeb functions as a web application firewall designed to protect HTTP-based services from common cyber attacks. It integrates into your infrastructure to inspect traffic before it reaches your backend applications.",
+  "goodFor": "Self-hosters who need an additional security layer in front of their web services and prefer open-source perimeter defence.",
+  "watchOut": "Configuring a WAF often introduces complexity regarding false positives, which can block legitimate traffic unless tuned carefully.",
+  "deployNotes": "It typically runs via containers like Docker or Kubernetes, requiring persistent storage for logs and configuration data alongside an appropriate reverse proxy setup.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

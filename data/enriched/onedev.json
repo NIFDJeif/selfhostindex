@@ -1,0 +1,8 @@
+{
+  "summary": "OneDev is a self-hosted platform combining Git repository management, issue tracking, and continuous integration and deployment (CI/CD) pipelines into a single system. It is designed to handle the core phases of software development workflows on your own infrastructure. The tool provides a unified interface for code hosting and project coordination without requiring separate third-party services.",
+  "goodFor": "It is a good fit for teams looking for an all-in-one alternative to larger developer platforms who want to host their own source code and build pipelines together.",
+  "watchOut": "The project lacks visible recent commit activity and release tags in the provided data, meaning you should carefully evaluate its long-term maintenance status before adopting it for critical workflows.",
+  "deployNotes": "Because the application is built with Java and runs on Docker or Kubernetes, you will typically need to allocate adequate memory for the Java Virtual Machine and configure persistent volumes for data storage and Git repositories.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

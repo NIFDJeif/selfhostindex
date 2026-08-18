@@ -1,0 +1,8 @@
+{
+  "summary": "Coder provides remote development environments managed on your own infrastructure. It provisions and orchestrates containerised workspaces to standardise development setups across teams. The platform is written in Go and integrates directly with Kubernetes and Docker.",
+  "goodFor": "Development teams who need to centralise their coding environments on private infrastructure rather than relying on public cloud IDEs.",
+  "watchOut": "Managing a Kubernetes-backed development platform introduces significant operational overhead compared to local machine setups. The AGPL-3.0 licence may also impose strict compliance requirements if you modify and distribute the software.",
+  "deployNotes": "Deployment typically requires a functional Kubernetes cluster or Docker host, along with an ingress controller or reverse proxy to handle TLS termination. You will also need to provision persistent storage volumes for user workspaces.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

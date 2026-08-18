@@ -1,0 +1,8 @@
+{
+  "summary": "Dashy is an open-source personal dashboard designed to act as a central hub for your homelab. It allows you to organise and launch links to your various self-hosted services through a structured layout configured via a local file.",
+  "goodFor": "It suits self-hosters who want a customisable, text-configured landing page to keep track of numerous internal services in one browser tab.",
+  "watchOut": "Managing the configuration entirely through text files can become tedious if you frequently add or modify services, requiring manual edits rather than a web interface.",
+  "deployNotes": "As a containerised Node.js application, it typically requires a persistent volume mounted for your configuration file and a reverse proxy to handle TLS termination if accessed externally.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

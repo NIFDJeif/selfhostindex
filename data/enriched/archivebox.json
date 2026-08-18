@@ -1,0 +1,8 @@
+{
+  "summary": "ArchiveBox is a self-hosted tool designed to preserve web pages by generating static HTML and visual screenshots from various input sources such as bookmarks and RSS feeds. It functions as a private alternative to public archiving services like the Wayback Machine, storing snapshots locally for future reference. The project is distributed under the MIT licence and maintained as a Python application.",
+  "goodFor": "Ideal for researchers, archivists, or anyone who wants to maintain a permanent local copy of web content independent of external websites.",
+  "watchOut": "Capturing and rendering dynamic web pages locally can consume significant storage space and computing resources over time.",
+  "deployNotes": "As a Python and Docker application, deployment typically requires persistent volume mounts to retain stored archives and database state across container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

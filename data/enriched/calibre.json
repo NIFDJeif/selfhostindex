@@ -1,0 +1,8 @@
+{
+  "summary": "Calibre is an e-book library manager designed to view, convert, and catalog files across major e-book formats. It includes a built-in web server to allow remote access for clients over a network.",
+  "goodFor": "Users who need to organise large local collections of digital literature and serve them to remote devices.",
+  "watchOut": "The built-in web server may lack advanced access controls out of the box, requiring careful network configuration when exposed publicly.",
+  "deployNotes": "As a Python application distributed via deb packages, it typically requires persistent storage for the e-book library database and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

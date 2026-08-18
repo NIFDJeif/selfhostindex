@@ -1,0 +1,8 @@
+{
+  "summary": "Magento Open Source is a self-hosted e-commerce platform built with PHP. It provides the foundational backend structure for managing online storefronts, product catalogues, and customer transactions.",
+  "goodFor": "It is suitable for developers and merchants who need a customisable, self-hosted web shop built on a traditional PHP stack.",
+  "watchOut": "The Open Software Licence (OSL-3.0) carries specific legal implications for derivative works and distribution that you should review carefully before deployment.",
+  "deployNotes": "You will typically need a dedicated PHP-compatible web server, a relational database such as MySQL, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

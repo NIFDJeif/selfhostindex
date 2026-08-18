@@ -1,0 +1,8 @@
+{
+  "summary": "Huly is a comprehensive project management platform designed to replace multiple tools like issue trackers, chat applications, and documentation workspaces. It consolidates software development workflows, team communication, and task tracking into a single unified interface.",
+  "goodFor": "Engineering teams looking to self-host an all-in-one alternative to proprietary cloud suites like Jira, Linear, and Slack. It suits organisations aiming to centralise their collaboration and tracking tooling under one codebase.",
+  "watchOut": "The platform covers a broad scope of functionality, which often introduces a steeper configuration curve and heavier resource footprint than single-purpose tools. It also competes directly with widely adopted alternatives, meaning team buy-in may require migration effort.",
+  "deployNotes": "Deployment is typically managed via Docker or Kubernetes, relying on Node.js for runtime execution. You will need to provision persistent storage volumes and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "qBittorrent is a free, cross-platform BitTorrent client designed for peer-to-peer file sharing. It provides a comprehensive web user interface, allowing you to manage torrent downloads and uploads remotely from a browser. Written in C++, it operates as a standard desktop or daemon file transfer tool under the GPL-2.0 licence.",
+  "goodFor": "It is well-suited for users who need a reliable, open-source peer-to-peer filesharing client that can be hosted on a headless server and controlled via a web interface.",
+  "watchOut": "Exposing the web interface to the internet requires careful configuration of authentication and reverse proxy settings to prevent unauthorised access to your host system.",
+  "deployNotes": "As a C++ application, it typically runs as a standalone daemon without needing a separate database, though you should configure persistent storage for your configuration files and download directories.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

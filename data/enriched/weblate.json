@@ -1,0 +1,8 @@
+{
+  "summary": "Weblate is a web-based translation management system designed to connect directly with version control repositories. It allows contributors to translate software strings inside a browser interface while automatically synchronising changes back to the underlying codebase.",
+  "goodFor": "Development teams looking to manage localisation workflows directly alongside their source code repositories.",
+  "watchOut": "Maintaining a self-hosted translation platform introduces administrative overhead for user permission management and repository credential security.",
+  "deployNotes": "As a Python application packaged for containerised environments, it typically requires a persistent volume for data storage, an external database backend, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

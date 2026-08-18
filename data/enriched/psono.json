@@ -1,0 +1,8 @@
+{
+  "summary": "Psono is a self-hosted password manager designed for organisational use. It provides a central platform for teams to store, manage, and share credentials securely within their own infrastructure.",
+  "goodFor": "It is suitable for businesses looking to maintain strict internal control over their sensitive login data rather than relying on a third-party cloud service.",
+  "watchOut": "The repository currently shows no tagged releases and zero recent commits, which suggests you should carefully evaluate its active development status before adopting it in a production environment.",
+  "deployNotes": "As a Python application, it will typically require a WSGI-compatible server setup, a persistent database backend, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

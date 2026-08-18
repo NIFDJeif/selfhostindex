@@ -1,0 +1,8 @@
+{
+  "summary": "Local Deep Research is a self-hosted artificial intelligence tool designed to perform investigations using multiple sources such as academic databases and the web. It extracts text from PDF documents and keeps your data secure using encrypted local storage. The application is packaged for containerised environments and is released under the MIT licence.",
+  "goodFor": "Researchers and privacy-conscious professionals who need an automated tool to query literature and web sources while keeping their data strictly on local hardware.",
+  "watchOut": "Running local AI models and multi-source search pipelines requires significant local compute resources and hardware acceleration.",
+  "deployNotes": "As a containerised Python application, you will typically need to configure persistent volumes for the encrypted storage and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

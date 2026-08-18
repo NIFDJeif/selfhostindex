@@ -1,0 +1,8 @@
+{
+  "summary": "Saleor is an open-source e-commerce storefront built on the Django framework. It provides the backend logic and interfaces needed to run an online retail operation. Self-hosters can deploy it to manage product catalogues, customer transactions, and order processing.",
+  "goodFor": "It suits developers and organisations with Python expertise who require a customisable online retail platform and want full control over their transactional data.",
+  "watchOut": "E-commerce platforms typically carry a high operational burden regarding security compliance, payment gateway configuration, and database integrity. You will also need to manage frequent upstream updates.",
+  "deployNotes": "Deployment relies on Docker and Python, which typically requires provisioning a separate relational database, configuring persistent volumes for media storage, and placing the application behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

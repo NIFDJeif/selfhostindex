@@ -1,0 +1,8 @@
+{
+  "summary": "Sentry Self-Hosted is an error tracking platform designed to capture application exceptions across multiple programming languages. It aggregates and surfaces runtime failures through an API to help developers diagnose bugs. The application is written in Python.",
+  "goodFor": "Development teams requiring an on-premise error tracking solution that integrates with diverse codebases while retaining full control over their telemetry data.",
+  "watchOut": "The software is distributed under the Business Source License (BUSL-1.1), which restricts certain commercial uses, and self-hosting typically introduces a significant operational footprint.",
+  "deployNotes": "As a Python application, it usually requires a persistent database backend, such as PostgreSQL, alongside a reverse proxy to handle TLS termination and proper storage for stateful data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

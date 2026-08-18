@@ -1,0 +1,8 @@
+{
+  "summary": "Copyparty is a self-contained file server that runs on Python without mandatory external dependencies. It provides file management capabilities such as resumable uploads, deduplication, media indexing, and protocol support like WebDAV and FTP.",
+  "goodFor": "Deploying a lightweight, portable file sharing and management solution quickly on a local network or a standalone server without complex infrastructure setup.",
+  "watchOut": "It has a large codebase packed with many disparate features, which might make deep customisation or auditing more complex than using simpler, single-purpose alternatives.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for your files and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

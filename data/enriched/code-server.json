@@ -1,0 +1,8 @@
+{
+  "summary": "code-server runs the Visual Studio Code interface inside a web browser, allowing you to access a remote development environment over the network. It bridges the gap between local editors and remote compute resources by hosting the entire IDE stack on your own server. This setup enables you to write and execute code from any device with a modern web browser.",
+  "goodFor": "It is a practical choice if you need to work on software projects from multiple low-powered devices or want a consistent development environment tied to a single powerful server.",
+  "watchOut": "Browser-based IDEs can introduce latency compared to native applications, and exposing an editor to the internet requires careful attention to authentication and network security to prevent unauthorized access.",
+  "deployNotes": "Since it relies on Node.js and Docker, you will typically need to configure a reverse proxy to handle TLS termination and set up persistent volumes to ensure your source code and configurations survive container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

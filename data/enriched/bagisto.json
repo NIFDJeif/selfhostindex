@@ -1,0 +1,8 @@
+{
+  "summary": "Bagisto is an open-source e-commerce framework built on PHP using the Laravel ecosystem. It provides core online store functionality including multi-inventory management, localized settings, taxation, and dropshipping workflows.",
+  "goodFor": "Developers and merchants who want to build and customise an online store using the PHP and Laravel technology stack under an MIT licence.",
+  "watchOut": "You will need to maintain your own PHP environment and database, and the framework shares space with numerous established e-commerce platforms which may offer larger plugin ecosystems.",
+  "deployNotes": "You will typically deploy this on a standard PHP-compatible web server backed by a relational database such as MySQL or PostgreSQL, sitting behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

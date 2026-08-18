@@ -1,0 +1,8 @@
+{
+  "summary": "Sonarr is a self-hosted television series manager that coordinates downloads through Usenet and BitTorrent clients. It automates the retrieval, sorting, and renaming of new episodes, and can automatically replace existing files when higher-quality formats appear.",
+  "goodFor": "It is suited for users who want to automate their television media libraries and maintain consistent file organisation across storage volumes.",
+  "watchOut": "You will need to run and maintain compatible download clients separately, as this application handles organisation rather than direct protocol transfers.",
+  "deployNotes": "Deployment typically involves setting up persistent storage volumes for your media library and configuration data, alongside a reverse proxy if you require external TLS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Zulip is an open-source group chat application designed for team communication. It provides a structured messaging environment to help organisations manage conversations efficiently.",
+  "goodFor": "Teams that require a self-hosted alternative to proprietary group chat systems to maintain complete control over their communications data.",
+  "watchOut": "Self-hosting group chat software often brings a significant operational burden regarding backups, user management, and system updates.",
+  "deployNotes": "As a Python application, it typically requires a separate database for data persistence and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-18"
+}
