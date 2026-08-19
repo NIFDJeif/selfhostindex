@@ -1,0 +1,8 @@
+{
+  "summary": "OpenTTD is a transport tycoon simulation game based upon a popular classic title. You construct and manage transport networks involving road, rail, air and water routes to move passengers and cargo across a map.",
+  "goodFor": "Self-hosters looking to run a dedicated multiplayer server for friends or community members to build networks together.",
+  "watchOut": "Running a dedicated multiplayer server requires managing network ports and potential state synchronization issues between clients and the host.",
+  "deployNotes": "As a compiled C++ application wrapped in Docker, it typically requires persistent storage for game maps and saves, plus appropriate firewall configuration for incoming connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

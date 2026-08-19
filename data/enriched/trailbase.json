@@ -1,0 +1,8 @@
+{
+  "summary": "TrailBase is a self-hosted backend platform packaged as a single executable, offering automated REST and realtime APIs alongside an integrated admin interface. It includes a built-in JavaScript and TypeScript runtime for custom logic and handles user authentication out of the box. Designed to provide low-latency operations, it serves as an alternative to proprietary Backend-as-a-Service providers.",
+  "goodFor": "Developers seeking a lightweight, self-contained backend with rapid API generation and built-in database administration for low-code or standard web applications.",
+  "watchOut": "The Open Software Licence (OSL-3.0) has strong copyleft implications that might restrict how you integrate or distribute the software within proprietary commercial systems.",
+  "deployNotes": "As a single-executable Rust application, it typically runs well inside a lightweight Docker container with a persistent volume attached for data storage. You will usually need to place it behind a reverse proxy to handle TLS termination and manage incoming traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

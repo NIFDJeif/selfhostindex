@@ -1,0 +1,8 @@
+{
+  "summary": "NGINX functions as a web server, reverse proxy, mail proxy, and generic TCP/UDP proxy server. It routes incoming network traffic, serves static content, and delegates requests to backend applications.",
+  "goodFor": "Deploying a reliable, high-performance edge proxy or web server in front of your self-hosted applications.",
+  "watchOut": "Configuration is entirely text-file based and syntax errors will prevent the service from reloading properly.",
+  "deployNotes": "You can deploy it using Docker or native deb packages, and it typically requires persistent storage for access and error logs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Anubis acts as a web firewall utility designed to shield backend services from automated scraper bots. It intercepts incoming HTTP traffic to filter out unwanted scraping activity before requests reach your upstream applications.",
+  "goodFor": "Self-hosters and administrators who need to protect public-facing web applications or APIs from excessive automated scraping and data harvesting.",
+  "watchOut": "Deploying a dedicated upstream traffic filter introduces an additional point of failure and potential latency for every incoming request. You will also need to monitor for false positives to ensure legitimate users are not blocked.",
+  "deployNotes": "Because it is built with Go and available as a Docker container, you can typically run it behind an existing reverse proxy that handles TLS termination. It generally sits in front of your core web services to inspect and route traffic accordingly.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

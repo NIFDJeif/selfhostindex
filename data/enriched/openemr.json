@@ -1,0 +1,8 @@
+{
+  "summary": "OpenEMR provides electronic health records and medical practice management capabilities. It functions as a centralised system for recording patient data and handling the administrative tasks of a medical practice. The software is written in PHP and distributed under the GPL-3.0 licence.",
+  "goodFor": "It is well-suited for medical practices and healthcare providers needing an open-source system to manage patient records and practice administration.",
+  "watchOut": "Managing electronic health records involves strict regulatory compliance regarding data privacy and security, which introduces significant operational and legal responsibilities for self-hosters.",
+  "deployNotes": "Since it relies on PHP and is often deployed via Docker, you will typically need to configure persistent storage volumes for database and file data, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "AdGuard Home is a network-wide DNS server designed to block advertisements and online trackers. By routing your network requests through this application, you can filter unwanted content before it reaches your devices. It operates as a centralised authority for domain name resolution.",
+  "goodFor": "It is well-suited for users who want network-level tracking protection and ad-blocking without needing to install individual extensions on every device.",
+  "watchOut": "Misconfiguration of network DNS settings can lead to complete loss of internet connectivity for connected clients. Additionally, it overlaps heavily with alternative DNS filtering tools like Pi-hole.",
+  "deployNotes": "As a Docker container, it typically requires persistent storage for configuration and log data. You will also need to ensure that port 53 is correctly mapped and available on the host for DNS traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

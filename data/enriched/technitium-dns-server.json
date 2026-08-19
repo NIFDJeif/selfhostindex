@@ -1,0 +1,8 @@
+{
+  "summary": "Technitium DNS Server is an authoritative and recursive Domain Name System server that includes built-in ad blocking capabilities. It allows you to host your own DNS infrastructure and resolve network queries locally while filtering unwanted domains. The application is written in C# and is distributed under the GPL-3.0 licence.",
+  "goodFor": "Self-hosters who want fine-grained control over their local network's DNS resolution and require an integrated ad-blocking solution without managing a separate DNS sinkhole.",
+  "watchOut": "Running your own recursive and authoritative DNS server introduces operational complexity if misconfigured, as network-wide internet access depends on its uptime and correct setup.",
+  "deployNotes": "Deployment is typically handled via Docker containers, requiring persistent storage for configuration data and logs. You will need to ensure port 53 is correctly mapped and avoid conflicts with host-level DNS resolvers.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

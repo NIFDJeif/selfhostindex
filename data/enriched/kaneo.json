@@ -1,0 +1,8 @@
+{
+  "summary": "Kaneo is a project management platform designed to streamline task tracking and team workflows with a focus on simplicity and efficiency. It provides tools to organise work items, monitor progress, and coordinate development tasks within an internal team. The project operates under an MIT licence and is hosted via containerised infrastructure.",
+  "goodFor": "It is well-suited for technical teams looking for a lightweight, source-available project management tool that can be hosted locally without proprietary vendor lock-in.",
+  "watchOut": "Given the crowded market of project tracking tools, it may lack the extensive ecosystem of integrations and plugins found in more mature, long-standing alternatives.",
+  "deployNotes": "Deployment relies on Docker and Kubernetes, so you will typically need to configure persistent volumes for data storage, manage container orchestration manifests, and sit the service behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Bookwyrm is a self-hosted platform designed for managing e-books, tracking reading habits, writing reviews, and discussing literature within a social network. It helps users catalogue their personal libraries and share reading progress with others.",
+  "goodFor": "This is a good fit for individuals or small reading groups who want to manage their book collections and reviews outside of commercial platforms.",
+  "watchOut": "The software is distributed under a proprietary licence rather than an open-source one, which may restrict how you can modify or redistribute the code.",
+  "deployNotes": "As a Python application, it will typically require a persistent database for data storage and a reverse proxy to handle TLS termination in a production environment.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

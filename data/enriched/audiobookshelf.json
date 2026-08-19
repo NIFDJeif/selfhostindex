@@ -1,0 +1,8 @@
+{
+  "summary": "Audiobookshelf functions as a dedicated server for hosting and streaming audiobooks and podcasts. It tracks playback state across multiple client interfaces, ensuring listening progress remains synchronised. The platform supports standard audio formats and provides companion mobile applications.",
+  "goodFor": "Self-hosters who want to centralise their personal collection of audiobooks and podcasts with multi-device synchronisation.",
+  "watchOut": "You will need to manually manage, organise, and tag your own media library, as the server relies on your existing files.",
+  "deployNotes": "Containerised deployments typically require persistent storage volumes mapped for media files and configuration data, alongside a reverse proxy to handle external TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

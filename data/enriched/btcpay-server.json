@@ -1,0 +1,8 @@
+{
+  "summary": "BTCPay Server is a self-hosted payment processor designed to handle transactions in Bitcoin and alternative cryptocurrencies. It allows merchants and individuals to accept digital currency payments directly without relying on a third-party payment gateway or incurring intermediary fees.",
+  "goodFor": "This is a suitable tool for merchants or organisations wanting to process cryptocurrency payments autonomously and retain full control over their financial data.",
+  "watchOut": "Running your own payment processor introduces significant operational responsibilities, including managing node synchronization, cryptographic key security, and handling customer payment disputes directly.",
+  "deployNotes": "As a C# application, it typically requires a persistent storage volume for ledger and transaction data, and you will usually need to configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

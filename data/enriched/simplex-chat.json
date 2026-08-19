@@ -1,0 +1,8 @@
+{
+  "summary": "SimpleX Chat is an instant messaging platform built to operate without user identifiers like phone numbers or account numbers, using anonymous unidirectional queues instead. It provides end-to-end encrypted communication through custom application layers, keeping metadata hidden from intermediaries. The project is implemented in Haskell and distributed under the AGPL-3.0 licence.",
+  "goodFor": "Privacy-focused individuals and technical teams who want to communicate without exposing transport metadata or relying on centralised account registries.",
+  "watchOut": "Because it avoids standard identifiers and uses a decentralised queue architecture, setting it up for non-technical peers can be complex, and adoption heavily trails mainstream chat tools.",
+  "deployNotes": "Hosting typically requires configuring a reverse proxy for TLS termination and ensuring persistent storage is mapped for message queues. Haskell applications generally run well inside lightweight container environments with adequate memory allocated for the runtime.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

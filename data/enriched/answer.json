@@ -1,0 +1,8 @@
+{
+  "summary": "Answer is a self-hosted knowledge base and question-and-answer platform designed for community support and user communication. It provides a structured forum interface where users can ask questions, share technical solutions, and organise information collaboratively.",
+  "goodFor": "It suits teams and organisations wanting to host their own technical support forum or internal knowledge repository under an Apache-2.0 licence.",
+  "watchOut": "Adopting a niche forum platform over established alternatives may limit your access to pre-built integrations, plugins, and community documentation.",
+  "deployNotes": "Deployment typically relies on Docker, meaning you will need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

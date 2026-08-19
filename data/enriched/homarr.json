@@ -1,0 +1,8 @@
+{
+  "summary": "Homarr is a personal dashboard that acts as a central hub for organising your links and self-hosted services. It features a web-based configuration interface and aims to integrate with various external applications to display real-time information.",
+  "goodFor": "It suits users who want a tidy, customisable starting page for their home lab or personal server environment.",
+  "watchOut": "Depending on the complexity of your setup, configuring multiple third-party integrations can require significant initial effort and troubleshooting.",
+  "deployNotes": "You will typically deploy this via Docker, ensuring you mount a persistent volume for your configuration files and sit it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

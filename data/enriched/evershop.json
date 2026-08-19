@@ -1,0 +1,8 @@
+{
+  "summary": "EverShop is a modular e-commerce platform built on Node.js and distributed under the GPL-3.0 licence. It provides core online retail functionality with a codebase designed for deep customisation by developers.",
+  "goodFor": "It is well-suited for developers who need a flexible, self-hosted online shop backend that they can modify extensively without proprietary restrictions.",
+  "watchOut": "As an e-commerce platform, it requires careful handling of security patches and payment integrations, and it competes in a crowded ecosystem with more mature alternatives.",
+  "deployNotes": "Being a Node.js application packaged for Docker, you will typically need to configure persistent volumes for data storage, an upstream reverse proxy for TLS termination, and a separate database instance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

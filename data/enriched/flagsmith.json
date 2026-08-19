@@ -1,0 +1,8 @@
+{
+  "summary": "Flagsmith provides a centralised dashboard, API, and client-side SDKs to manage feature flags across your software applications. It serves as a self-hosted alternative to proprietary feature toggle platforms like LaunchDarkly. You can use it to remotely control application features without needing to deploy new code.",
+  "goodFor": "Development teams who want to control software releases dynamically while keeping full ownership of their feature flag data and infrastructure.",
+  "watchOut": "Self-hosting adds operational overhead for managing high availability and ensuring your flag evaluation API remains responsive, as any downtime directly impacts your applications.",
+  "deployNotes": "Deployment typically relies on container orchestration tools like Docker or Kubernetes, requiring persistent storage for the database and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

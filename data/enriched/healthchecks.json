@@ -1,0 +1,8 @@
+{
+  "summary": "Healthchecks is an automation tool designed to monitor periodic tasks, scripts, and cron jobs. It listens for HTTP pings sent by your processes and triggers notifications if those signals fail to arrive on schedule.",
+  "goodFor": "It is well-suited for developers and system administrators who need a self-hosted way to track background job execution across multiple servers.",
+  "watchOut": "You will need to configure your existing scripts and cron jobs to send outward HTTP requests to this service, which requires updates to your source code or job definitions.",
+  "deployNotes": "Since it is packaged as a Docker container, deployment typically involves setting up persistent volumes for database storage and placing a reverse proxy in front of the application to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Koel is an open-source personal audio streaming server designed to let you host and listen to your own music collection through a web interface. It functions as a self-hosted alternative to commercial cloud-based music streaming services, giving you direct control over your local audio files. The project is licensed under the MIT licence and built with PHP.",
+  "goodFor": "It is a good fit for users who want to access their personal local music library from anywhere without relying on third-party cloud services.",
+  "watchOut": "Maintaining a self-hosted audio streaming server requires managing your own media storage and ensuring your files are properly organised and tagged for the web interface.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a database backend such as MySQL, and persistent storage mounted for your music files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

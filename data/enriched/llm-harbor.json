@@ -1,0 +1,8 @@
+{
+  "summary": "LLM Harbor is a containerised toolkit managed through a command-line interface for running large language model backends, APIs, and frontends. It orchestrates multiple GenAI services within a single environment using standard container infrastructure.",
+  "goodFor": "Self-hosters who want a unified command-line tool to quickly spin up various LLM-related services without configuring each component manually.",
+  "watchOut": "The project relies heavily on shell scripts and container orchestration, which can make debugging complex configuration issues or custom integrations difficult.",
+  "deployNotes": "Since it uses Docker and shell scripts, you will typically need a host with Docker installed, persistent volumes configured for model weights and data, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

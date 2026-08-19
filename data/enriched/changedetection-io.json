@@ -1,0 +1,8 @@
+{
+  "summary": "changedetection.io is an automation tool designed to monitor web pages and notify you when their content changes. It runs on your own infrastructure to track updates across various online sources without relying on third-party cloud monitoring services.",
+  "goodFor": "Self-hosters who need to track specific updates on web pages that lack official RSS feeds or change logs.",
+  "watchOut": "Frequent polling of dynamic or heavy JavaScript-rendered sites can consume significant CPU and memory resources on your server.",
+  "deployNotes": "You will typically deploy this via Docker, ensuring you map a persistent volume for your monitored data and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

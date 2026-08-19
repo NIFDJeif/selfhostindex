@@ -1,0 +1,8 @@
+{
+  "summary": "Shopware Community Edition is an open-source, PHP-based e-commerce platform designed to manage online stores and product catalogues. It provides a foundational framework for merchants to build and operate transactional websites with customisable storefronts and backend administration tools.",
+  "goodFor": "It is well-suited for developers and businesses looking for an MIT-licensed, self-hosted online retail system built on a PHP stack.",
+  "watchOut": "Operating a PHP-based e-commerce application requires ongoing maintenance for security patches, dependency management, and performance tuning under traffic load.",
+  "deployNotes": "You will typically need to provision a compatible PHP runtime, a relational database such as MySQL or MariaDB, and a web server configured with a reverse proxy for TLS termination and static asset handling.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "wger is a web-based utility designed to log personal workouts, fitness routines, and weight metrics. It functions as both a self-hosted tracker for individuals and a basic management tool for gym environments, complete with a REST API for programmatic access.",
+  "goodFor": "It suits individuals wanting privacy over their health data who prefer self-hosted fitness tracking, or small facilities needing a straightforward management interface.",
+  "watchOut": "The AGPL-3.0 licence requires you to make the source code available if you modify the software and offer it as a network service.",
+  "deployNotes": "Containerised deployment via Docker typically requires attaching persistent volumes for data storage and placing the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

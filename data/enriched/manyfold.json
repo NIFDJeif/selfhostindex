@@ -1,0 +1,8 @@
+{
+  "summary": "Manyfold is a self-hosted digital asset manager designed specifically for organising and viewing 3D printing files such as STL, OBJ, and 3MF formats. It provides a centralised web interface to catalogue, search, and manage geometric models rather than leaving them scattered across local drives. The application helps makers keep track of their design libraries with proper tagging and preview capabilities.",
+  "goodFor": "Makers, hobbyists, and small workshops with large collections of local 3D print models who want a searchable web interface to manage their files.",
+  "watchOut": "You will need to ensure your underlying storage is reliable and backed up, as managing large binary asset libraries locally carries typical disk space and data loss risks.",
+  "deployNotes": "As it is distributed via Docker, you will typically need to configure persistent volumes for your file storage and database data, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

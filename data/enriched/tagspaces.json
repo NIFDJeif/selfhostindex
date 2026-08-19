@@ -1,0 +1,8 @@
+{
+  "summary": "TagSpaces is a cross-platform, offline file manager and organiser that doubles as a note-taking application. The WebDAV variant can be deployed directly on top of existing storage backends like Nextcloud or ownCloud. It runs on Node.js and is licensed under the AGPL-3.0.",
+  "goodFor": "Users who want to organise local files and notes using tags rather than traditional nested folder hierarchies, while leveraging existing WebDAV infrastructure.",
+  "watchOut": "You are adopting a tool with a specific tagging paradigm that may overlap heavily with standard file managers and alternative note-taking systems, requiring careful directory standardisation.",
+  "deployNotes": "As a Node.js application, it typically requires a process manager such as PM2, persistent storage for user files and metadata, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

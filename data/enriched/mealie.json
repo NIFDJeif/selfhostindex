@@ -1,0 +1,8 @@
+{
+  "summary": "Mealie is a self-hosted recipe manager styled with Material design that lets you organise meals using categories and tags. It includes built-in tools for generating shopping lists, planning weekly menus, and customising site appearance while aiming to remain accessible for non-technical household members.",
+  "goodFor": "It suits households looking to centralise their culinary collection, coordinate grocery shopping, and plan meals on a private server.",
+  "watchOut": "You may find that maintaining shared access across multiple family members requires some initial user management and device configuration.",
+  "deployNotes": "As a Python-based application, it typically requires persistent storage for uploaded recipes and images, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

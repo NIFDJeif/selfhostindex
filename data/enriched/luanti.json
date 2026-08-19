@@ -1,0 +1,8 @@
+{
+  "summary": "Luanti, formerly known as Minetest, is an open-source voxel game engine and platform. It allows users to play various pre-existing games, write custom modifications using Lua, design entirely new titles, or host and join multiplayer servers.",
+  "goodFor": "Self-hosters looking for a lightweight, extensible voxel gaming platform to run private or public multiplayer servers for friends and communities.",
+  "watchOut": "Content quality and gameplay balance depend entirely on the specific sub-games and mods you choose to install, as the core engine itself provides only the foundational framework.",
+  "deployNotes": "Hosting a server typically involves managing persistent storage for world data and configuring network ports for client connections. You will need to provision sufficient CPU and memory resources depending on the number of active players and loaded mods.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

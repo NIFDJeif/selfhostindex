@@ -1,0 +1,8 @@
+{
+  "summary": "WorkAdventure is a virtual office and conference application styled as a 16-bit role-playing video game. Users navigate a 2D map via avatars and can initiate video and audio calls with others who are physically close to them within the virtual space.",
+  "goodFor": "Teams looking for an interactive, spatial alternative to traditional video conferencing tools for remote collaboration or virtual events.",
+  "watchOut": "The dual AGPL-3.0 and Commons-Clause licensing requires careful review if you plan to modify or commercialise the codebase. Additionally, managing spatial audio and video routing for larger virtual rooms can introduce significant infrastructure overhead.",
+  "deployNotes": "Deployment relies on Docker containers, which typically requires setting up a reverse proxy for TLS termination and configuring persistent storage for map assets and user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Pi-hole acts as a network-wide DNS sinkhole that blocks advertisements and trackers before they reach your devices. It includes a web-based graphical interface for managing blocklists and monitoring DNS query traffic in real time. Written in Shell and PHP, it can be deployed directly on host operating systems or packaged as a container.",
+  "goodFor": "It suits self-hosters who want centralised, network-level ad blocking without needing client-side extensions on every individual device.",
+  "watchOut": "Blocking domains at the DNS level inevitably breaks some legitimate website content, tracking pixels required by certain applications, or deep-linked ads, requiring manual whitelist curation.",
+  "deployNotes": "Containerised deployments typically require persistent storage volumes to retain query logs and blocklists across restarts, alongside standard port mapping for DNS resolution.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

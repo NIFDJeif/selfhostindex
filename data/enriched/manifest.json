@@ -1,0 +1,8 @@
+{
+  "summary": "Manifest is a backend platform configured entirely through a single YAML file, aiming to simplify server-side development. It falls into the low-code category, allowing developers to set up database structures and logic without writing extensive traditional code. The project is open-source under the MIT licence and built on Node.js.",
+  "goodFor": "It suits developers who want to rapidly prototype applications or build internal tools without manually scaffolding a complex backend stack.",
+  "watchOut": "Relying on a single configuration file for an entire backend can introduce scaling or customisation limits when your application outgrows standard low-code patterns.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy to handle TLS and configure persistent storage for any underlying data it generates.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

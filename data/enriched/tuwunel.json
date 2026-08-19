@@ -1,0 +1,8 @@
+{
+  "summary": "Tuwunel is a chat server implementing the Matrix protocol, acting as a high-performance alternative following the conduwuit fork of Conduit. It manages message routing, federation, and client connections for decentralised communication infrastructures. Written in Rust, it aims to provide a resource-efficient backend for Matrix deployments.",
+  "goodFor": "Administrators seeking a resource-efficient Matrix homeserver implementation with strong community momentum.",
+  "watchOut": "As a successor to a fork, it may experience rapid protocol shifts and potential edge-case incompatibilities compared to more established reference implementations.",
+  "deployNotes": "Containerised or package-based deployments typically require persistent storage volumes for state data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

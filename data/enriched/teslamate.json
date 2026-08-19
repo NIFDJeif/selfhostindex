@@ -1,0 +1,8 @@
+{
+  "summary": "TeslaMate is a self-hosted data logging application designed specifically for Tesla vehicles. It collects and stores telemetry data locally, allowing you to monitor your car's efficiency, charging history, and trips without relying on third-party cloud services.",
+  "goodFor": "Owners who want complete control over their vehicle's telemetry data and prefer running their own infrastructure.",
+  "watchOut": "You will need to manage API tokens and authentication securely, and continuous logging can generate significant database writes over time.",
+  "deployNotes": "As a Dockerised application built with Elixir, it typically requires persistent storage for its database backend and a reverse proxy to handle secure web access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

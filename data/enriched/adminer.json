@@ -1,0 +1,8 @@
+{
+  "summary": "Adminer is a database management tool packaged as a single PHP file. It allows you to interact with various database systems, including MySQL, PostgreSQL, SQLite, and MongoDB, through a web interface.",
+  "goodFor": "Ideal for minimalist deployments where you need a lightweight, portable interface to inspect and manage multiple database types without installing a heavy software stack.",
+  "watchOut": "Exposing a single database management script directly to the web can present a significant security risk if not properly protected behind strict access controls.",
+  "deployNotes": "You will typically deploy this on an existing web server with PHP support enabled, and you should ensure TLS is configured via a reverse proxy to secure your login credentials.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

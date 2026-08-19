@@ -1,0 +1,8 @@
+{
+  "summary": "MindsDB is a database management tool that integrates artificial intelligence directly into existing data stores. It enables users to build, train, and deploy machine learning models using standard database queries.",
+  "goodFor": "Teams looking to train and deploy machine learning models directly within their current database infrastructure without building separate data pipelines.",
+  "watchOut": "The software uses the Elastic License 2.0, which places restrictions on offering the product as a managed service to third parties. It also introduces significant compute overhead to your database server during model training.",
+  "deployNotes": "Deployment typically relies on Docker and Python, meaning you will need to provision persistent storage for trained models and configure a reverse proxy for secure TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

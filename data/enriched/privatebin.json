@@ -1,0 +1,8 @@
+{
+  "summary": "PrivateBin is a minimalist pastebin and discussion board application designed to keep hosted data completely private from the server administrator. It allows you to share snippets of text securely by performing encryption directly in the browser before any data reaches the backend.",
+  "goodFor": "It is well-suited for privacy-conscious teams or individuals who need to share sensitive notes, logs, or code snippets without trusting the hosting provider with plaintext data.",
+  "watchOut": "Because the server has zero knowledge of the data, you cannot recover lost passwords or reset encrypted pastes if the access link is misplaced.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server like Nginx or Apache, and because it stores pastes as flat files by default, you should ensure appropriate persistent volume storage is mounted.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

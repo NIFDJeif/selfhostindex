@@ -1,0 +1,8 @@
+{
+  "summary": "Druid is an open-source analytics data store designed for distributed, column-oriented workloads that require real-time data ingestion and querying. It is written in Java and licensed under the Apache-2.0 licence. The software is built to handle large volumes of event data while maintaining low latency on analytical queries.",
+  "goodFor": "It suits large-scale operational analytics use cases where high-concurrency ingestion and sub-second query performance on massive datasets are mandatory.",
+  "watchOut": "Operating a distributed data store of this complexity introduces significant infrastructure overhead and operational maintenance compared to traditional relational databases.",
+  "deployNotes": "Because it relies on Java and Docker, you will typically need to allocate dedicated memory and configure persistent storage volumes for your container orchestration setup.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

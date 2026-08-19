@@ -1,0 +1,8 @@
+{
+  "summary": "Frappe HR is a human resources management system covering thirteen distinct modules. It manages internal organizational data including staff records, onboarding processes, leave tracking, payroll computation, and tax calculations.",
+  "goodFor": "Organisations looking for a comprehensive, self-hosted human resources suite that covers everything from initial staff onboarding to monthly payroll processing under a single application.",
+  "watchOut": "Deploying and maintaining an extensive enterprise HRM platform built on the Frappe framework requires familiarity with its specific ecosystem, database management, and regular administrative overhead.",
+  "deployNotes": "As a Python and Node.js application, deployment typically relies on Docker alongside a persistent relational database backend and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

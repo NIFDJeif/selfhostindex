@@ -1,0 +1,8 @@
+{
+  "summary": "ezbookkeeping is a lightweight personal finance application designed to run on your own infrastructure. It provides tools for tracking personal expenses, income, and overall monetary management through a self-hosted web interface.",
+  "goodFor": "This is a suitable option if you want to track your personal finances locally without relying on third-party Software-as-a-Service platforms.",
+  "watchOut": "As a niche personal bookkeeping tool, it has a smaller community and fewer integrations compared to established commercial alternatives or heavier open-source accounting suites.",
+  "deployNotes": "Because it is distributed as a Docker container, you will typically need to configure persistent storage volumes for your financial data and place the service behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}

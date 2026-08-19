@@ -1,0 +1,8 @@
+{
+  "summary": "Plausible Analytics is a privacy-friendly web analytics tool designed to track website traffic without using cookies. With a script size under 1 KB, it records page views and visitor metrics while respecting user privacy regulations.",
+  "goodFor": "It suits site operators who want straightforward traffic metrics and GDPR compliance without complex enterprise tracking suites.",
+  "watchOut": "You must review the AGPL-3.0 licence implications if you plan to modify and distribute the code, and ensure your server meets the operational requirements for self-hosting.",
+  "deployNotes": "As an Elixir application, it typically requires a separate database like PostgreSQL, persistent storage for analytics data, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-19"
+}
