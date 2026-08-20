@@ -1,0 +1,8 @@
+{
+  "summary": "Habitica is a habit tracker application that incorporates role-playing game mechanics into goal management. It motivates users to complete daily routines and tasks by rewarding progress within a fictional game context. The project is open source, licensed under GPL-3.0 and CC-BY-SA-3.0, and has gathered over 14,000 repository stars.",
+  "goodFor": "This is well suited for individuals who want to experiment with gamified personal productivity systems and prefer managing their tasks via self-hosted infrastructure.",
+  "watchOut": "Self-hosting requires managing a Node.js-based stack with active development, which may introduce maintenance overhead when handling updates and dependencies.",
+  "deployNotes": "Deployment is typically handled via Docker containers, which usually require persistent volumes for data storage and a reverse proxy to manage HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

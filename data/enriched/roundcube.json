@@ -1,0 +1,8 @@
+{
+  "summary": "Roundcube is a web-based email client that connects to standard IMAP servers to let you read, send, and organise messages through a browser. It provides a traditional application-like interface for interacting with your email accounts. The project is open source, licensed under the GPL-3.0, and built using PHP.",
+  "goodFor": "It is a practical choice if you need a reliable, self-hosted webmail interface to access your existing IMAP mailboxes from any browser. It suits administrators who prefer a standard PHP-based stack.",
+  "watchOut": "You will need to manage your own IMAP server backend alongside the webmail client, as this software handles the interface rather than the mail storage itself. It also faces strong competition from other established webmail suites.",
+  "deployNotes": "Because it runs on PHP and packages are available as deb formats, you will typically need a web server like Nginx or Apache, a PHP runtime environment, and usually a relational database to store user preferences and contacts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

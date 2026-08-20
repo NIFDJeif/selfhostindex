@@ -1,0 +1,8 @@
+{
+  "summary": "Flipt is an open-source feature flag solution designed to help you manage feature toggles across your applications. It provides an alternative to commercial services like LaunchDarkly, allowing you to store and evaluate flag states using various supported data backends. The software helps decouple feature deployment from code releases.",
+  "goodFor": "Development teams wanting a self-hosted, open-source feature toggle platform that avoids proprietary cloud vendor lock-in.",
+  "watchOut": "Using a GPL-3.0 licence means you must comply with copyleft obligations if you modify the codebase and distribute the resulting software. It also has a smaller community and fewer integrations compared to dominant commercial alternatives.",
+  "deployNotes": "As a Go application packaged for Docker and Kubernetes, it typically requires persistent storage for its configured data backend and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

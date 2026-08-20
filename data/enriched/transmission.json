@@ -1,0 +1,8 @@
+{
+  "summary": "Transmission is a peer-to-peer file transfer client designed for downloading and sharing content via the BitTorrent protocol. It provides a lightweight interface for managing multiple torrent transfers concurrently. Written in C++, it is distributed under the GPL-3.0 licence.",
+  "goodFor": "It suits users looking for a straightforward, resource-efficient torrent client for a dedicated home server or seedbox.",
+  "watchOut": "Exposing the management interface to the internet requires careful configuration of authentication and a reverse proxy to prevent unauthorised access.",
+  "deployNotes": "As a compiled C++ application typically packaged as a deb, it generally requires persistent storage for downloaded files and configuration data, but does not rely on a separate database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

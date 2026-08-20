@@ -1,0 +1,8 @@
+{
+  "summary": "Radarr is an automated media management tool designed to monitor, find, and retrieve movie files through Usenet and BitTorrent networks. Operating as a fork of Sonarr, it handles the lifecycle of movie collection by watching for new releases and organising existing directories. It functions as a background service that interacts with various download clients.",
+  "goodFor": "It is well-suited for media enthusiasts who want to maintain an automated, self-hosted film library without manual searching and sorting.",
+  "watchOut": "You will need to ensure compliance with local copyright regulations regarding automated downloading, and the software must be carefully secured if exposed to the internet.",
+  "deployNotes": "Containerised deployments typically require persistent volume mounts for configuration files and media directories, alongside a reverse proxy if you require secure remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

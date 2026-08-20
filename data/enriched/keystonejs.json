@@ -1,0 +1,8 @@
+{
+  "summary": "KeystoneJS is a content management system and web application platform built with Node.js and distributed under the MIT licence. It provides a foundational structure for building backend services and managing digital content through code. Developers use its framework to model data schemas and generate administrative interfaces.",
+  "goodFor": "It is well-suited for developers looking to build custom web applications and content-driven platforms using a JavaScript-centric stack.",
+  "watchOut": "Because it functions as a programmatic framework rather than a turnkey site builder, you will need to write custom code for frontend presentation and feature logic.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent server environment, a separate database backend, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

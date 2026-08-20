@@ -1,0 +1,8 @@
+{
+  "summary": "RStudio Server provides a web-based integrated development environment for the R programming language. It allows data analysts and developers to write, execute, and manage R scripts directly within a browser interface hosted on a remote machine. This setup centralises computational workloads and data access away from local workstations.",
+  "goodFor": "Data science teams and researchers who need centralised access to R environments and shared computational resources.",
+  "watchOut": "The AGPL-3.0 licence places copyleft constraints on network-deployed modifications, which may require legal review depending on how you integrate the service.",
+  "deployNotes": "As a C++ and Java application, it typically runs behind a reverse proxy to handle TLS termination and requires persistent storage for user projects and configuration files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

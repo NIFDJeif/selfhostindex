@@ -1,0 +1,8 @@
+{
+  "summary": "Termix is a clientless web-based platform for managing remote servers directly from your browser. It provides an interface featuring an SSH terminal, tunneling utilities, and file editing capabilities.",
+  "goodFor": "System administrators and developers who need a browser-accessible management interface for remote infrastructure without installing local client software.",
+  "watchOut": "Exposing a web-based terminal and file management interface to the network introduces significant security risks if access controls and authentication are not strictly managed.",
+  "deployNotes": "Because it runs in Docker, you will typically need to map persistent volumes for configuration data and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

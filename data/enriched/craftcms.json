@@ -1,0 +1,8 @@
+{
+  "summary": "CraftCMS is a content management system designed to structure and deliver web pages and digital content. It provides an administrative interface for content managers alongside developer-focused tooling for defining data schemas. The software runs on a PHP stack and manages content storage for websites.",
+  "goodFor": "Teams looking for a flexible, content-first web publishing platform where developers can maintain strict control over the underlying data models.",
+  "watchOut": "The software is proprietary, which may limit how you modify the source code or use it within certain commercial licensing models. It also relies on a paid commercial model for full access to certain editions.",
+  "deployNotes": "You will typically need to provision a PHP runtime environment alongside a relational database such as MySQL or PostgreSQL. Persistent storage is required for uploaded media assets, and a reverse proxy is generally used to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

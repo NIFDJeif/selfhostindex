@@ -1,0 +1,8 @@
+{
+  "summary": "go-doxy is a lightweight reverse proxy written in Go that features a web user interface and native Docker integration. It automatically manages container lifecycles by starting and stopping them based on incoming traffic. This helps reduce resource consumption for infrequently accessed containerised services.",
+  "goodFor": "It is well-suited for homelab environments and resource-constrained servers where you want to idle inactive containers to save system resources.",
+  "watchOut": "As a relatively niche proxy solution, it may lack the extensive community documentation, advanced routing rules, and middleware ecosystems found in more established alternatives like Nginx Proxy Manager or Traefik.",
+  "deployNotes": "Deployment typically involves running a Docker container and mounting the Docker socket so the application can monitor and control other containers on the host. You will also need to ensure proper port bindings and persistent storage for any configuration data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

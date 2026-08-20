@@ -1,0 +1,8 @@
+{
+  "summary": "OpenZiti is an Apache-2.0 licensed, Go-based software project that establishes a zero trust, full mesh overlay network. It provides out-of-the-box two-factor authentication and supplies client applications for all major desktop and mobile operating systems.",
+  "goodFor": "This is suitable if you need to build a secure overlay network across disparate infrastructure and require native client support for multiple operating systems.",
+  "watchOut": "Setting up and maintaining a full mesh zero trust overlay network introduces significant configuration and operational complexity compared to traditional VPN solutions.",
+  "deployNotes": "As a Go application, it typically compiles into a single binary, though you will need to plan for persistent storage and network ports to handle the overlay traffic routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

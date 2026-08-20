@@ -1,0 +1,8 @@
+{
+  "summary": "Gotify is a self-hosted notification server that lets you route messages from various services to your devices using an API. It provides dedicated Android and command-line clients to receive these alerts directly, serving as an alternative to proprietary services like PushBullet. It is written in Go and distributed under the MIT licence.",
+  "goodFor": "Developers and self-hosters who want a private, lightweight endpoint to centralise automated alerts from scripts, servers, or home automation systems.",
+  "watchOut": "You will need to configure your own device clients and bridging scripts, as it does not include pre-built integrations for every third-party notification source.",
+  "deployNotes": "As a Go application packaged for Docker, it typically requires persistent storage for its internal database and a reverse proxy to handle HTTPS for the client connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

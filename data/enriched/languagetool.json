@@ -1,0 +1,8 @@
+{
+  "summary": "LanguageTool is an open-source proofreading engine designed to detect grammatical, spelling, and stylistic errors across more than twenty languages. It catches complex mistakes that traditional spell checkers typically miss by analysing sentence structure and context. This self-hosted variant allows you to run your own grammar checking service locally or on your private infrastructure.",
+  "goodFor": "It suits privacy-conscious teams or individuals who need to process sensitive text internally without sending data to third-party cloud correction services.",
+  "watchOut": "Running a Java-based natural language processor locally can demand significant memory and CPU resources depending on your concurrency levels.",
+  "deployNotes": "You will typically deploy this via Docker and configure persistent storage for custom dictionaries or models, alongside a reverse proxy to handle incoming TLS traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

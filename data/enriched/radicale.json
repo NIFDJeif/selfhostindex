@@ -1,0 +1,8 @@
+{
+  "summary": "Radicale is a lightweight, self-hosted server designed to store and synchronise calendars and contact lists. It allows you to manage schedules and address books across multiple devices using standard protocols like CalDAV and CardDAV. The project is implemented in Python and focuses on minimal resource usage and straightforward administration.",
+  "goodFor": "This tool is a practical fit for individuals or small teams who want to host their own calendar and contact data without the complexity of heavy groupware suites.",
+  "watchOut": "It lacks an integrated graphical user interface for managing accounts and permissions, meaning you will need to handle user configuration directly on the server or via command-line utilities.",
+  "deployNotes": "As a Python application packaged for Debian-based systems, you will typically run it behind a reverse proxy to handle TLS termination and ensure persistent storage is mapped for your data directory.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

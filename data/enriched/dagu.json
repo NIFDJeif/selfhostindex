@@ -1,0 +1,8 @@
+{
+  "summary": "Dagu is a task scheduler and alternative to traditional cron jobs that manages command execution via a web interface. It lets you define task dependencies using Directed Acyclic Graphs within declarative YAML configuration files.",
+  "goodFor": "It suits developers and system administrators who need to orchestrate complex multi-step automation workflows with visual monitoring through a browser.",
+  "watchOut": "The project relies on a specific YAML workflow syntax and GPL-3.0 licensing, meaning you will need to evaluate how its dependency model and copyleft terms fit your compliance and operational requirements compared to established workflow engines.",
+  "deployNotes": "Because it is built with Go and distributed as a container image, you can typically run it via Docker with persistent volume mounts for your workflow definitions and a reverse proxy for HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

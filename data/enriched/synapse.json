@@ -1,0 +1,8 @@
+{
+  "summary": "Synapse acts as a home server for the Matrix ecosystem, implementing an open standard for decentralized and persistent communication. It handles the relaying of messages, user authentication, and synchronisation across multiple clients in a federated network. By hosting this software, you can run your own independent communication node that interoperates with other servers on the network.",
+  "goodFor": "Self-hosters and organisations wanting to establish a private, federated messaging infrastructure under their own administrative control.",
+  "watchOut": "Resource consumption can be relatively high under load, and managing a federated server requires careful handling of database maintenance and storage growth.",
+  "deployNotes": "As a Python application packaged via debian formats, it typically requires a separate PostgreSQL database for optimal performance and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

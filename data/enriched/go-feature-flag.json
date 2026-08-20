@@ -1,0 +1,8 @@
+{
+  "summary": "GO Feature Flag is a self-hosted tool designed to manage feature toggles within application codebases. It provides a lightweight alternative to commercial platforms like LaunchDarkly, allowing teams to control feature rollouts without deploying new code. The software is written in Go and distributed under an MIT licence.",
+  "goodFor": "Development teams looking for an open-source, self-hosted feature flag system that can be integrated into existing infrastructure without vendor lock-in.",
+  "watchOut": "As an alternative to managed SaaS platforms, you will need to handle your own high availability, backup strategies, and monitoring for the service.",
+  "deployNotes": "Being a Go binary, it typically compiles into a single executable or runs within a container, though you will generally need to provide persistent storage for flag configurations and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

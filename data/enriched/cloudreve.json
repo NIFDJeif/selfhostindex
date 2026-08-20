@@ -1,0 +1,8 @@
+{
+  "summary": "Cloudreve is a self-hosted file management and sharing platform written in Go. It enables you to organise, upload, and distribute files through a web interface while connecting to multiple underlying storage providers. The project is distributed under the GPL-3.0 licence.",
+  "goodFor": "It suits individuals or teams needing a centralised, web-accessible repository that can interface with various external cloud storage buckets or local disks.",
+  "watchOut": "You should check how well its specific permission models and sharing controls align with your security requirements, as file-sharing systems often require careful access configuration.",
+  "deployNotes": "Because it is distributed as a Go binary and containerised with Docker, you will typically need to configure persistent volumes for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

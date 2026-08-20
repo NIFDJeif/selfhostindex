@@ -1,0 +1,8 @@
+{
+  "summary": "ejabberd is a server implementation for the XMPP instant messaging protocol. It enables you to host your own real-time communication infrastructure for chat and messaging services. Written in Erlang and distributed under the GPL-2.0 licence, it is designed for message routing and user presence management.",
+  "goodFor": "It is a suitable choice if you require a self-hosted XMPP server for organisational chat or federated messaging. It fits administrators who need a long-maintained Erlang-based communication backend.",
+  "watchOut": "XMPP protocol configuration and Erlang runtime maintenance can involve a steep learning curve compared to newer single-binary chat solutions. The GPL-2.0 licence also imposes copyleft requirements if you distribute modified versions.",
+  "deployNotes": "Containerised deployments using Docker typically require persistent storage for message history and user data volumes. You will also usually need an external reverse proxy to handle TLS termination and properly route client connection ports.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

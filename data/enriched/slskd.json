@@ -1,0 +1,8 @@
+{
+  "summary": "Slskd is a client-server application designed to interact with the Soulseek peer-to-peer file sharing network. It separates the core sharing engine from the user interface, allowing you to run the service persistently on a remote machine and access it via a web client. This setup facilitates decentralized music and file exchange over the legacy network protocol.",
+  "goodFor": "This is a strong option if you specifically need to interface with the Soulseek network and prefer a headless, containerised setup that runs continuously on a home server.",
+  "watchOut": "The AGPL-3.0 licence imposes strict copyleft requirements if you modify and distribute the code, and interacting with peer-to-peer file sharing networks often carries inherent legal and network-security risks.",
+  "deployNotes": "As a containerised C# application, you will typically need to configure persistent storage volumes for downloaded files and state data, along with a reverse proxy for secure remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

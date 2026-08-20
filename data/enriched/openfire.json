@@ -1,0 +1,8 @@
+{
+  "summary": "Openfire is a real-time collaboration server that facilitates instant messaging and chat infrastructure. Built on Java and distributed under the Apache-2.0 licence, it handles client connections for XMPP-based communication networks. It provides a centralised backend for managing users, routing messages, and administering chat services across an organisation.",
+  "goodFor": "It is a solid fit if you need to run an internal, self-hosted XMPP messaging network behind your own firewall.",
+  "watchOut": "Managing a Java-based enterprise server can introduce significant operational overhead regarding memory tuning, security updates, and configuration management compared to lighter alternatives.",
+  "deployNotes": "Because it runs on Java, you will typically need to provision a compatible runtime environment, configure persistent storage for chat logs and user data, and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Leon is an open-source personal assistant designed to be hosted directly on your own infrastructure. Built with Node.js and distributed under the MIT licence, it provides a self-hosted framework for managing task automation and user-defined assistant workflows.",
+  "goodFor": "It suits developers and system administrators who want a private, self-hosted alternative to commercial voice or text assistants.",
+  "watchOut": "The repository's active development pace means that updating may require careful tracking of breaking changes between releases.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent environment, process management via something like PM2, and a reverse proxy such as Nginx to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

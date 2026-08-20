@@ -1,0 +1,8 @@
+{
+  "summary": "Pomerium is an identity-aware reverse proxy that intercepts HTTP requests to enforce authentication checks before traffic reaches your internal backend services. It acts as a gatekeeper, requiring users to authenticate via an identity provider before granting access to self-hosted applications on the public internet.",
+  "goodFor": "Self-hosters who need to expose internal web applications to external users without relying solely on VPN clients.",
+  "watchOut": "Configuring identity providers and policy rules introduces significant operational complexity compared to standard reverse proxies.",
+  "deployNotes": "As a Go application distributed via Docker, it typically runs behind a TLS termination proxy and relies on an external identity provider for session management.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

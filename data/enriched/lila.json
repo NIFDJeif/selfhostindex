@@ -1,0 +1,8 @@
+{
+  "summary": "Lila is the open-source chess server backend that powers lichess.org, providing the core logic and matchmaking capabilities. It comes accompanied by official mobile client applications for both iOS and Android platforms. The project is implemented in Scala and licensed under the AGPL-3.0.",
+  "goodFor": "Self-hosters who want to run a dedicated, ad-free chess platform for a community or private group using the exact software architecture behind a major chess site.",
+  "watchOut": "The latest tagged release is notably old, which means you may need to rely on the current development branch or handle compatibility issues yourself. Operating a large-scale multiplayer game server also involves significant operational oversight.",
+  "deployNotes": "As a Scala application, it typically runs on the Java Virtual Machine and will usually require a compatible JDK installed on your host. You will also typically want a reverse proxy in front of it to handle TLS termination and manage persistent database connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

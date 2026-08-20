@@ -1,0 +1,8 @@
+{
+  "summary": "The Battle for Wesnoth is an open-source, turn-based tactical strategy game set in a high fantasy universe. It supports both single-player campaigns and multiplayer matches via hotseat or online play.",
+  "goodFor": "Self-hosters and gaming communities looking to run an established tactical strategy game for multiplayer sessions on their own infrastructure.",
+  "watchOut": "Multiplayer hosting may require network configuration such as port forwarding, and you should ensure your server environment meets the runtime requirements for C++ applications packaged as Debian binaries.",
+  "deployNotes": "Deployment typically involves managing standard package dependencies and ensuring persistent storage is available for game states and server configurations if hosting a dedicated multiplayer instance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

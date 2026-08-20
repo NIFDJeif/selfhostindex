@@ -1,0 +1,8 @@
+{
+  "summary": "OctoBot is a self-hosted application designed for automated cryptocurrency trading. It enables users to execute programmatic financial strategies across various digital asset exchanges using a containerised runtime environment.",
+  "goodFor": "It suits technical users who want to run automated cryptocurrency trading strategies on their own infrastructure under the GPL-3.0 licence.",
+  "watchOut": "Automated financial trading carries inherent risks of capital loss through misconfigured strategies or unexpected market volatility, and self-hosted trading bots require constant connection to external exchange APIs.",
+  "deployNotes": "As a Python application packaged for Docker, you will typically need to configure persistent volumes for configuration and logs, along with a reverse proxy if you expose a web interface.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

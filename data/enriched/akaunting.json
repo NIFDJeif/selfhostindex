@@ -1,0 +1,8 @@
+{
+  "summary": "Akaunting is a web-based financial application tailored for small businesses and independent contractors. It provides tools to record financial transactions, generate invoices, and manage budgets in a self-hosted environment. The software operates within the Money, Budgeting and Management category.",
+  "goodFor": "Freelancers and small business owners who want to maintain direct control over their financial records on their own infrastructure.",
+  "watchOut": "The software uses the BUSL-1.1 licence, which places certain restrictions on commercial use and modification compared to traditional open-source licences.",
+  "deployNotes": "Deployment typically requires a standard PHP runtime environment connected to a separate relational database, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

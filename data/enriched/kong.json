@@ -1,0 +1,8 @@
+{
+  "summary": "Kong is an API gateway and platform designed to route, manage, and govern traffic between microservices. It typically sits between clients and your backend services to handle cross-cutting concerns like request routing and traffic control.",
+  "goodFor": "It suits distributed architectures and teams managing multiple microservices that require centralised traffic routing and API governance.",
+  "watchOut": "Managing a distributed API gateway can introduce significant operational complexity and latency overhead, especially when scaling across multiple nodes.",
+  "deployNotes": "You can deploy it using Docker, Kubernetes, or native deb packages, and it typically requires a persistent database backend such as PostgreSQL to store configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

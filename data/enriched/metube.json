@@ -1,0 +1,8 @@
+{
+  "summary": "MeTube provides a web-based user interface for managing video downloads through youtube-dl and its forks. It supports batch queuing and playlist retrieval from a wide range of supported video-sharing platforms.",
+  "goodFor": "Self-hosters who want a simple, browser-accessible queue for archiving video content without using the command line.",
+  "watchOut": "Upstream video platforms frequently alter their site structures, requiring regular updates to the underlying download engine to prevent breakage.",
+  "deployNotes": "You will typically need to configure persistent volume storage to retain your downloaded media and handle proxy headers properly if placing the web interface behind a TLS terminator.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

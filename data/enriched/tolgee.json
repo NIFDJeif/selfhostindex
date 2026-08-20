@@ -1,0 +1,8 @@
+{
+  "summary": "Tolgee is a web-based localization platform designed for managing software translations. It enables development teams to handle translation workflows and update strings directly within the applications they are building.",
+  "goodFor": "Development teams looking for a centralised platform to manage software localization workflows and integrate translation tasks directly into their development cycle.",
+  "watchOut": "The Apache-2.0 licence is permissive, but self-hosting requires maintaining an external service for your core translation workflow, adding an operational dependency for your development team.",
+  "deployNotes": "As a Java-based application distributed via Docker, it typically requires a persistent volume for data storage and a connection to a separate relational database like PostgreSQL.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

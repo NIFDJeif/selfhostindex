@@ -1,0 +1,8 @@
+{
+  "summary": "imgproxy is a standalone server designed to handle the resizing and format conversion of remote images on demand. It acts as an intermediary proxy, processing source images dynamically before serving them to clients. This helps decouple heavy image manipulation tasks from your primary application infrastructure.",
+  "goodFor": "It is a good fit for developers managing web applications with high-volume image delivery requirements who need to offload resource-intensive graphic transformations.",
+  "watchOut": "Running your own image processing proxy can introduce significant CPU and memory overhead under heavy load, requiring careful resource allocation and rate limiting.",
+  "deployNotes": "As a Go application containerised for Docker and Kubernetes, it typically runs without requiring a persistent database or storage volume, though it usually sits behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

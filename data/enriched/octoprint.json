@@ -1,0 +1,8 @@
+{
+  "summary": "Octoprint provides a web-based interface designed to manage consumer 3D printers remotely. It allows you to monitor print jobs and control machine operations through a browser rather than interacting with the hardware directly.",
+  "goodFor": "This is a solid choice if you want to operate a 3D printer over your local network without relying on vendor-locked cloud services.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which imposes strict copyleft obligations if you modify and distribute the code or offer it as a hosted network service.",
+  "deployNotes": "Because the runtime is packaged with Docker and Python, you will typically need to map persistent storage for your configuration files and set up a reverse proxy to handle secure TLS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

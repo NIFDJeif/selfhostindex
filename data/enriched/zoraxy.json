@@ -1,0 +1,8 @@
+{
+  "summary": "Zoraxy is a general-purpose HTTP reverse proxy and traffic forwarding utility written in Go. It allows you to route incoming web requests to different backend services running on your network. It is distributed under the AGPL-3.0 licence and can be run easily via Docker.",
+  "goodFor": "It is well-suited for systems administrators and home lab enthusiasts who need a straightforward tool to manage web traffic routing without complex configurations.",
+  "watchOut": "The project overlaps heavily with more established reverse proxy alternatives, meaning you might find less community documentation and fewer ready-made troubleshooting resources online.",
+  "deployNotes": "As a containerised Go application, you will typically need to configure persistent storage volumes for your routing configurations and provide a TLS certificate strategy if you are terminating HTTPS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

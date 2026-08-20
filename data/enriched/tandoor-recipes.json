@@ -1,0 +1,8 @@
+{
+  "summary": "Tandoor Recipes is a Django-based web application designed to help you organise, tag, and search your personal collection of culinary guides. It supports both native data entry and the attachment of external files such as PDFs or images for your cooking reference.",
+  "goodFor": "It is well suited for self-hosters who want a dedicated, locally hosted repository for digitising and searching through their household recipe collection.",
+  "watchOut": "The software carries the Commons-Clause alongside its MIT licence, which restricts commercial use and monetisation of the code. Additionally, managing Django applications via containers requires attention to migration procedures during updates.",
+  "deployNotes": "As a containerised Python application, it typically requires a persistent volume for uploaded files and a database backend, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}

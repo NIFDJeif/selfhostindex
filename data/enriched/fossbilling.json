@@ -1,0 +1,8 @@
+{
+  "summary": "FOSSBilling is an open-source automation platform designed for web hosting management and client billing. It connects directly with control panels such as cPanel, WHM, and HestiaCP to provision services automatically. It also includes an API for custom integrations and extensions.",
+  "goodFor": "Freelance web designers or independent hosting providers who need to automate client invoicing and server provisioning without proprietary software costs.",
+  "watchOut": "It competes directly with established commercial billing platforms, meaning you may encounter a smaller ecosystem of third-party plugins and community support.",
+  "deployNotes": "As a PHP application, you will typically need to run it behind a web server with a relational database, and Docker deployments will require persistent volumes for storing application state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-20"
+}
