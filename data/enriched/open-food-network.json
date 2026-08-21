@@ -1,0 +1,8 @@
+{
+  "summary": "Open Food Network is a platform for running online marketplaces focused on local food distribution. It connects independent farmers and food hubs directly with individual consumers and local businesses through a networked store system. The software is written in Ruby and available under the AGPL-3.0 licence.",
+  "goodFor": "Ideal for agricultural cooperatives, local food hubs, and community-supported agriculture networks wanting to operate their own cooperative digital marketplace.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft implications if you modify the code and offer it as a service over a network, and running a multi-vendor marketplace introduces significant operational complexity.",
+  "deployNotes": "As a Ruby application, it typically requires a relational database like PostgreSQL, a background job processor, and a reverse proxy such as Nginx or Caddy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

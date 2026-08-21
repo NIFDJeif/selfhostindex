@@ -1,0 +1,8 @@
+{
+  "summary": "Friendica is a decentralised social communication server built with PHP. It allows you to host your own independent social network node, facilitating federated interaction across the wider fediverse. The platform focuses on open standards for public and private messaging.",
+  "goodFor": "It suits administrators wanting to run an independent federated social network node using standard LAMP-style hosting stacks.",
+  "watchOut": "Federated social platforms typically demand ongoing moderation effort and can accumulate significant storage overhead for media and database records over time.",
+  "deployNotes": "You will typically need a standard web server with PHP support, a persistent database backend such as MySQL or PostgreSQL, and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

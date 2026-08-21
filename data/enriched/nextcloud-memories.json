@@ -1,0 +1,8 @@
+{
+  "summary": "Nextcloud Memories is a photo management suite designed to run directly inside an existing Nextcloud instance. It provides tools to organise, browse, and view large collections of images and videos through a modern web interface. Because it operates as an application layer on top of Nextcloud, it relies on your core storage and user management setup.",
+  "goodFor": "This is a good fit if you already self-host Nextcloud and want a dedicated, faster interface for managing personal photo libraries without setting up a separate standalone service.",
+  "watchOut": "The AGPL-3.0 licence requires you to release source modifications if you offer the software as a modified network service, and heavy indexing of large image libraries can create significant load on your server.",
+  "deployNotes": "As a PHP application running within Nextcloud, it typically requires a standard LEMP or LAMP stack with persistent storage configured for your media files and a robust reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

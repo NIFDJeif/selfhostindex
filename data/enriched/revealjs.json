@@ -1,0 +1,8 @@
+{
+  "summary": "revealjs is a web-based framework that allows you to author slide decks using standard HTML markup. It relies on CSS and JavaScript to handle layout, transitions, and rendering directly in a web browser.",
+  "goodFor": "Developers and technical writers who prefer writing documentation or slide decks in markup rather than using traditional graphical office suites.",
+  "watchOut": "Creating and editing presentations requires manual markup editing rather than a visual WYSIWYG interface, which can slow down rapid iteration.",
+  "deployNotes": "Since it is a static JavaScript application, it typically requires only a basic web server to serve static files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

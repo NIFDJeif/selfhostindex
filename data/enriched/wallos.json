@@ -1,0 +1,8 @@
+{
+  "summary": "Wallos is a lightweight self-hosted utility designed to track recurring personal subscriptions and display associated financial statistics. It includes options for notifications to help you stay on top of upcoming payments. Built with PHP, it is distributed under the GPL-3.0 licence.",
+  "goodFor": "It is a good fit if you want a dedicated local tool to monitor your fixed monthly expenses and recurring digital services without relying on third-party budgeting SaaS.",
+  "watchOut": "As a niche tool, it may overlap heavily with broader personal finance suites or spreadsheet setups, meaning you should consider whether you truly need a standalone interface for subscriptions alone.",
+  "deployNotes": "Because it runs on Docker and uses PHP, you will typically need to configure persistent volume storage for your financial data and sit the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

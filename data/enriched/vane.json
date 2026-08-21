@@ -1,0 +1,8 @@
+{
+  "summary": "Vane is an open-source, AI-powered search engine designed as an alternative to proprietary services like Perplexity AI. It combines large language models with web retrieval to provide synthesized answers rather than a standard list of links. The codebase is distributed under the MIT licence and is hosted on GitHub.",
+  "goodFor": "It suits developers and organisations wanting to self-host a conversational search interface that aggregates web data using modern generative AI models.",
+  "watchOut": "Running large language models and retrieval pipelines locally or via external API keys introduces significant hardware requirements and ongoing operational costs. It also competes in a fast-moving space where underlying integration APIs change frequently.",
+  "deployNotes": "Because the application is packaged for Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination. Environment variables are usually required to connect external language model providers and retrieval services.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

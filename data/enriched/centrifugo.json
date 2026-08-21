@@ -1,0 +1,8 @@
+{
+  "summary": "Centrifugo is a self-hosted server designed for language-agnostic real-time messaging using protocols like WebSocket or SockJS. It allows applications to push updates to clients instantly and manage bi-directional communication channels at scale. The software is written in Go and can be deployed via Docker or Kubernetes.",
+  "goodFor": "This is a suitable choice if you need to add real-time features to a stack that uses multiple programming languages and you prefer to run your own messaging infrastructure.",
+  "watchOut": "Operating a persistent real-time messaging server introduces additional infrastructure complexity compared to standard stateless HTTP backends, particularly around connection management and horizontal scaling.",
+  "deployNotes": "You will typically deploy the container behind a reverse proxy to handle TLS termination properly, and you may need to configure an external broker depending on your scaling requirements.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

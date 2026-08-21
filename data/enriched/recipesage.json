@@ -1,0 +1,8 @@
+{
+  "summary": "RecipeSage is a self-hosted application designed to help you store recipes, plan meals, and manage shopping lists in one place. It includes functionality to extract recipe data directly from web URLs for easier collection. The platform falls under recipe and inventory management software categories.",
+  "goodFor": "It is a suitable choice if you want to centralise your digital cookbook and meal planning without relying on third-party cloud services.",
+  "watchOut": "The AGPL-3.0 licence requires you to make the source code available if you modify the software and offer it as a network service.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy for TLS termination and ensure you configure persistent storage for your data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

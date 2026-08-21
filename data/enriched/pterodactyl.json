@@ -1,0 +1,8 @@
+{
+  "summary": "Pterodactyl is an open-source management panel designed to administer game servers through a web interface. It allows users to handle server instances, configurations, and user permissions from a central dashboard.",
+  "goodFor": "Server administrators looking for a self-hosted interface to provision and manage multiple game instances without relying on commercial platforms.",
+  "watchOut": "Setting up the panel and its corresponding daemon requires careful configuration of system dependencies, permissions, and network ports.",
+  "deployNotes": "As a PHP application, you will typically need to pair it with a web server like Nginx or Apache, a database such as MySQL or MariaDB, and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

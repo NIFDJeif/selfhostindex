@@ -1,0 +1,8 @@
+{
+  "summary": "Yarr is a web-based feed aggregator designed to collect and display content from various web feeds. It functions as a standalone desktop application or as a self-hosted server accessible via a browser.",
+  "goodFor": "Users who want a lightweight, self-hosted feed reader with minimal resource consumption that can be accessed from multiple devices.",
+  "watchOut": "The software occupies a crowded space alongside mature alternatives, meaning it may lack advanced filtering or third-party syncing integrations found in larger projects.",
+  "deployNotes": "Being built with Go, it typically compiles into a single binary that requires persistent storage for your feed database and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Cypht is an open-source webmail client and feed reader written in PHP. It aggregates multiple email accounts and web feeds into a single interface under the LGPL-2.1 licence.",
+  "goodFor": "It is well-suited for users who want to consolidate their email checking and feed reading into one self-hosted web application.",
+  "watchOut": "It faces strong competition from widely adopted, feature-rich webmail suites and alternative feed aggregators, which may offer more polished user experiences.",
+  "deployNotes": "As a PHP application, deployment typically requires a standard web server like Nginx or Apache, alongside a PHP runtime and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

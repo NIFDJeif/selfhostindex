@@ -1,0 +1,8 @@
+{
+  "summary": "RudderStack is an open-source customer data platform that collects event data from various sources, transforms it, and routes it to multiple third-party marketing and analytics destinations. It serves as a self-hosted alternative to proprietary routing services like Segment. The software is built using Go and Node.js.",
+  "goodFor": "Teams that need to control their customer data pipeline locally while syncing events to numerous SaaS marketing and product tools.",
+  "watchOut": "The Elastic-2.0 licence restricts managed service offerings, and configuring complex event routing pipelines introduces a notable operational overhead compared to simpler analytics tools.",
+  "deployNotes": "You will typically deploy this via Docker or Kubernetes, requiring persistent storage for state and a reverse proxy to handle incoming webhook traffic securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "SQLPage is a low-code tool that enables you to build dynamic websites directly using SQL queries. Written in Rust and distributed under the MIT licence, it renders database query results into user interfaces without requiring traditional frontend programming.",
+  "goodFor": "It is well-suited for developers and database administrators who want to quickly spin up internal tools, dashboards, or CRUD interfaces straight from existing database tables.",
+  "watchOut": "Writing entire web applications in SQL can lead to complex and hard-to-maintain database logic, and it may not scale well for applications requiring intricate frontend state management.",
+  "deployNotes": "Since it is containerised via Docker, deployment typically involves mounting a persistent volume for your configuration and database files, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

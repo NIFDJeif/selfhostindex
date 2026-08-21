@@ -1,0 +1,8 @@
+{
+  "summary": "TiddlyWiki is a non-linear personal web notebook that allows you to store, organise and share complex information in a single self-contained HTML file or via a Nodejs backend. It structures data into discrete fragments called tiddlers, which can be linked and tagged dynamically. This wiki software provides a flexible environment for managing interconnected notes without relying on external relational databases.",
+  "goodFor": "It is a strong fit for technical users who want complete ownership over their personal knowledge base and prefer a single-file portable format or a lightweight server.",
+  "watchOut": "The non-linear approach has a steep learning curve and may not suit teams looking for traditional hierarchical documentation or straightforward markdown editing out of the box.",
+  "deployNotes": "When running the Nodejs variant, you will typically need a process manager like PM2, persistent storage for your workspace data, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

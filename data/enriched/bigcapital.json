@@ -1,0 +1,8 @@
+{
+  "summary": "Bigcapital is a self-hosted platform designed for managing financial accounting and inventory operations. It helps small to medium businesses track their monetary transactions and stock levels within a single system.",
+  "goodFor": "Small businesses and self-hosted administrators looking for an open-source alternative to proprietary accounting and inventory tools.",
+  "watchOut": "The AGPL-3.0 license imposes strict copyleft requirements if you modify the code and offer it as a service over a network, and the software faces competition from well-established commercial ERPs.",
+  "deployNotes": "As a containerised application, it typically requires persistent storage volumes for database records and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

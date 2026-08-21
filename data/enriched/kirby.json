@@ -1,0 +1,8 @@
+{
+  "summary": "Kirby is a file-based content management system that stores website data in flat files rather than a traditional relational database. It provides an interface for editing content and is built using PHP, allowing developers to manage web pages without complex database setup.",
+  "goodFor": "It is a strong fit for developers and small teams who prefer managing content through flat files and version control rather than traditional database-driven systems.",
+  "watchOut": "It uses a proprietary license, meaning you will need to purchase a commercial license for production use despite hosting it yourself.",
+  "deployNotes": "Because it runs on PHP and stores data in files, you will typically need a standard web server like Nginx or Apache with PHP support and reliable persistent storage for the file system.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

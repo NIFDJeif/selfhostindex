@@ -1,0 +1,8 @@
+{
+  "summary": "CKAN is a software platform designed to build open data portals and repositories. It helps organisations publish, share, and manage structured datasets for public or internal access.",
+  "goodFor": "Public sector bodies, research institutions, and large organisations needing to host searchable data catalogues.",
+  "watchOut": "The AGPL-3.0 licence places strict copyleft requirements on your modifications if you host the service for third-party access, and customising templates can involve a steep learning curve.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI server behind a reverse proxy handling TLS, alongside a separate relational database and persistent storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

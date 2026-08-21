@@ -1,0 +1,8 @@
+{
+  "summary": "Atomic Server is a knowledge graph database that combines document editing, tabular data management, and search functionality into a single system. It exposes a linked data application programming interface and is designed to operate as a lightweight, self-contained service without external dependencies.",
+  "goodFor": "It suits technical users who want a self-hosted alternative to Notion backed by a structured graph database and an accessible linked data interface.",
+  "watchOut": "Being a beta-stage project, you should expect potential breaking changes in updates and a smaller community compared to established proprietary tools.",
+  "deployNotes": "You can typically run it via Docker with persistent volume mounts for your data, placing a reverse proxy in front for Transport Layer Security.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

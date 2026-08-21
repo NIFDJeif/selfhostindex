@@ -1,0 +1,8 @@
+{
+  "summary": "Weechat is a command-line chat client primarily used for connecting to Internet Relay Chat networks. It is written in C and designed to consume minimal system resources while offering extensibility through scripts. The project has a healthy development history and uses the GPL-3.0 licence.",
+  "goodFor": "Experienced system administrators and developers who prefer a keyboard-driven, resource-efficient interface for terminal-based communication.",
+  "watchOut": "The text-based user interface has a steep learning curve for those unfamiliar with terminal workflows, and configuration relies heavily on manual text editing or internal commands.",
+  "deployNotes": "Since it runs as a container or native package without a mandatory companion database, you typically just need persistent storage for your configuration files and logs, along with a terminal multiplexer like tmux if you run it persistently on a remote server.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

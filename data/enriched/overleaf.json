@@ -1,0 +1,8 @@
+{
+  "summary": "Overleaf provides a web-based interface for writing documents in the LaTeX typesetting system. It enables multiple users to edit the same project simultaneously through a browser. The platform manages the compilation of source files into final PDF output.",
+  "goodFor": "It suits research groups, academic teams, and technical authors who need collaborative document creation without installing local LaTeX toolchains.",
+  "watchOut": "The codebase has had very infrequent tagged releases for a long time, meaning you may need to rely on the main branch for updates and security fixes.",
+  "deployNotes": "As a Ruby application, it typically requires a managed database backend, a process manager like Puma or Unicorn, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

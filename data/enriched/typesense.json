@@ -1,0 +1,8 @@
+{
+  "summary": "Typesense is an open-source search engine designed to handle fast text queries and correct minor spelling mistakes in user input. It is built to provide an alternative indexing and retrieval backend for applications that need responsive search capabilities. The project is distributed under the GPL-3.0 licence and provides standard packaging formats for deployment.",
+  "goodFor": "Developers looking for a self-hosted search index with built-in typo tolerance that prioritises straightforward setup and operation over complex configuration.",
+  "watchOut": "The GPL-3.0 copyleft licence may restrict usage if you plan to modify and distribute the engine as part of a commercial managed service. It also competes directly with deeply entrenched search alternatives, meaning community tooling and migration paths might be narrower.",
+  "deployNotes": "You can typically run the service using containers or standard Debian packages with persistent storage attached for index data. A reverse proxy is usually required in front of the application instance to handle TLS termination and secure client connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

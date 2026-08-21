@@ -1,0 +1,8 @@
+{
+  "summary": "2FAuth is a self-hosted web application designed to store two-factor authentication accounts and generate their respective security codes. It provides a centralised interface for managing time-based one-time passwords independently of mobile apps or proprietary cloud ecosystems. The project is implemented in PHP and distributed under the AGPL-3.0 licence.",
+  "goodFor": "This is a suitable tool if you want to migrate your 2FA token management away from consumer-oriented phone apps and keep your authentication seeds on your own infrastructure.",
+  "watchOut": "Hosting your own 2FA generator creates a single point of failure; if your server goes down or loses its data, you may lose access to all associated accounts unless you maintain separate offline backups of your recovery codes.",
+  "deployNotes": "Deployment is typically handled via Docker, requiring persistent storage for database or configuration files to prevent data loss between container restarts. You will also need to place the instance behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

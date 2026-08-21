@@ -1,0 +1,8 @@
+{
+  "summary": "SuiteCRM is an open-source platform designed to manage customer relationships, business contacts, and sales pipelines. It provides organisations with tools to track leads, log communications, and coordinate customer service operations on their own infrastructure. As a customer relationship management system, it centralises interaction histories to assist teams in tracking commercial processes.",
+  "goodFor": "It suits self-hosters requiring a traditional, customisable CRM built on PHP without relying on proprietary Software-as-a-Service vendors.",
+  "watchOut": "The AGPL-3.0 licence may impose copyleft compliance obligations if you modify the code and offer it as a service over a network, and maintaining a PHP-based monolith can present ongoing administration overhead.",
+  "deployNotes": "You will typically need to provision a separate relational database, configure a web server with PHP runtime support, and set up persistent storage for uploaded user data and attachments.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Tinode is a self-hosted instant messaging platform built with a Go backend. It provides official clients across Swift for iOS, Java for Android, a JavaScript web application, command-line scripts, and support for automated chatbots.",
+  "goodFor": "Developers looking to deploy a custom, self-hosted chat system with multi-platform client support and chatbot integration.",
+  "watchOut": "It operates in a crowded space dominated by widely adopted open-source chat alternatives, which may offer more extensive community documentation and integrations.",
+  "deployNotes": "As a Go application, it typically compiles into a single binary that benefits from a reverse proxy for TLS termination and a persistent database backend for message storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "AppFlowy is an open-source alternative to Notion designed for managing tasks, notes, and project structures. It enables you to organise lists and track the status of multiple workflows in a self-hosted environment.",
+  "goodFor": "Teams and individuals who want a locally hosted workspace for task management and project organisation without relying on proprietary cloud services.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your modifications if you distribute the software, and the feature set closely mirrors larger established ecosystems.",
+  "deployNotes": "Deployment typically involves Docker containers, requiring persistent volumes for your stored data and a standard reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

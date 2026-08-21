@@ -1,0 +1,8 @@
+{
+  "summary": "FreeScout is a self-hosted customer support platform that provides shared mailbox and ticketing functionality. It serves as an open-source alternative to commercial help desk services like Zendesk and Help Scout. The application handles incoming emails and converts them into trackable support threads for team collaboration.",
+  "goodFor": "Teams looking to migrate their shared inbox and customer support operations from proprietary SaaS platforms to their own infrastructure.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft obligations if you modify the code and distribute it or offer it as a hosted service to third parties.",
+  "deployNotes": "As a PHP application packaged for Docker, you will typically need to configure persistent storage for attachments and database files, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

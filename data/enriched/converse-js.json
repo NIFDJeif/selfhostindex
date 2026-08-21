@@ -1,0 +1,8 @@
+{
+  "summary": "Converse.js is a web-based XMPP chat client implemented entirely in JavaScript. It allows users to connect to instant messaging servers directly from their browser without needing a separate desktop application. The software runs client-side and interfaces with existing Extensible Messaging and Presence Protocol infrastructure.",
+  "goodFor": "This is a good fit if you run your own XMPP server and want to provide a browser-accessible chat interface for your users.",
+  "watchOut": "You will need an existing XMPP server infrastructure to connect this client to, as it does not function as a standalone messaging backend by itself.",
+  "deployNotes": "As a static JavaScript application, it typically requires only a basic web server to serve the assets and a reverse proxy to handle TLS termination and CORS policies if connecting across domains.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

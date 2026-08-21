@@ -1,0 +1,8 @@
+{
+  "summary": "Joomla! is a PHP-based content management system released under the GPL-2.0 licence. It provides a structured environment for publishing, organising, and managing web content on a self-hosted server. The platform relies on a traditional LAMP or similar PHP stack to handle page rendering and administrative workflows.",
+  "goodFor": "It is a suitable choice if you need a structured content management system with native support for complex user permission levels and multilingual sites.",
+  "watchOut": "You should consider the maintenance overhead associated with keeping a PHP-based CMS and its various extensions updated against potential security vulnerabilities.",
+  "deployNotes": "You will typically need to provision a PHP runtime, a relational database such as MySQL or PostgreSQL, and a web server like Nginx or Apache with persistent storage for uploaded assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

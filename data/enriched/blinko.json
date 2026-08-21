@@ -1,0 +1,8 @@
+{
+  "summary": "Blinko is a self-hosted note-taking application that incorporates artificial intelligence features. It allows you to record and organise personal notes within your own infrastructure using a containerised deployment model.",
+  "goodFor": "It suits individuals looking for a private, self-hosted alternative to mainstream note apps who want to experiment with integrated AI functionality.",
+  "watchOut": "As an AGPL-3.0 licensed tool with a specific feature set, it may overlap heavily with more mature open-source note-taking alternatives, and its reliance on AI features could introduce external API dependencies or higher resource demands.",
+  "deployNotes": "Because it is distributed via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

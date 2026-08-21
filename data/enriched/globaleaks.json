@@ -1,0 +1,8 @@
+{
+  "summary": "GlobaLeaks is a self-hosted platform designed to facilitate secure whistleblowing and anonymous reporting. It provides the necessary infrastructure for organisations to receive tips and maintain communication channels while protecting the identity of sources. The system can be deployed using Python, Debian packages, or Docker containers.",
+  "goodFor": "It is well-suited for investigative journalism outlets, human rights organisations, and enterprises that require a dedicated, confidential channel for internal reporting.",
+  "watchOut": "Operating a secure whistleblowing platform carries significant legal and operational responsibilities regarding data retention and anonymity. You will also need to comply with the copyleft requirements of the AGPL-3.0 licence if you modify or distribute the source code.",
+  "deployNotes": "You will typically need to configure a reverse proxy for TLS termination and ensure persistent storage volumes are provisioned for database and file attachments. Deployment via Docker or standard deb packages allows for straightforward integration into existing server environments.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

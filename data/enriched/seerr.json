@@ -1,0 +1,8 @@
+{
+  "summary": "Seerr is an open-source media request management tool that interfaces with popular home server platforms such as Plex, Jellyfin, and Emby. It provides a centralised web interface where users can submit and track requests for new movies and TV shows to be added to a shared library. As a fork of Overseerr, it serves the same fundamental purpose of streamlining content curation for self-hosted media setups.",
+  "goodFor": "It is well-suited for administrators of shared media servers who want to delegate content requests to family or friends via a structured approval workflow.",
+  "watchOut": "Because it relies entirely on external media servers and management tools to function, it adds another layer of software to maintain and troubleshoot within your self-hosted stack.",
+  "deployNotes": "It is typically deployed using Docker, which requires you to map persistent volumes for configuration data and set up a reverse proxy to handle external HTTPS traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

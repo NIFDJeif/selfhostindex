@@ -1,0 +1,8 @@
+{
+  "summary": "Remark42 is a privacy-focused, self-hosted commenting engine designed to be embedded directly into static sites, blogs, and articles. It provides a lightweight backend and frontend widget for managing reader discussions without relying on third-party tracking networks. Written in Go and distributed under the MIT license, it offers a transparent alternative to hosted commenting services.",
+  "goodFor": "Self-hosters and site owners who want to offer reader discussions on static blogs or websites while strictly avoiding user tracking and third-party data collection.",
+  "watchOut": "Adoption requires managing your own backend instance and handling comment moderation infrastructure, which adds an ongoing operational overhead compared to turnkey hosted alternatives.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent storage volumes for comment data and sits behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

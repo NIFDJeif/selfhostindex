@@ -1,0 +1,8 @@
+{
+  "summary": "Domoticz is a self-hosted home automation hub designed to track and manage connected hardware such as lighting, switches, and environmental meters. It provides an interface to observe sensor data including temperature, precipitation, wind speed, UV levels, and utility consumption metrics. The project is implemented in C and C++ and is available as containerised images for standard server environments.",
+  "goodFor": "It suits self-hosters looking for a lightweight, resource-efficient control panel to aggregate diverse IoT hardware locally without relying on external cloud services.",
+  "watchOut": "The ecosystem and user interface can feel dated compared to more prominent alternatives, and configuring complex automation logic may require manual scripting.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for your state data and place the instance behind a reverse proxy to handle secure TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

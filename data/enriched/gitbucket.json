@@ -1,0 +1,8 @@
+{
+  "summary": "Gitbucket is a self-hosted Git service that provides repository management, issue tracking, and collaboration tools. It implements a significant portion of the GitHub API, allowing existing tooling to integrate with your private instance. The platform is written in Scala and Java.",
+  "goodFor": "Teams looking for a lightweight, self-hosted GitHub alternative that runs on the Java Virtual Machine and requires minimal setup complexity.",
+  "watchOut": "It overlaps heavily with much larger, more established platforms like GitLab and Gitea, which might offer broader community support and integrations.",
+  "deployNotes": "Because it runs on Java and Scala, you will typically need to provision sufficient JVM heap memory, attach persistent storage for repository data, and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

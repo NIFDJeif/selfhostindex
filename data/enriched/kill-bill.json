@@ -1,0 +1,8 @@
+{
+  "summary": "Kill Bill is an open-source subscription billing and payments platform designed to handle recurring financial transactions. It provides access to real-time analytics and financial reporting tools to help track revenue streams.",
+  "goodFor": "Self-hosters and businesses looking for a customisable, code-driven engine to manage complex recurring billing cycles without relying entirely on proprietary SaaS providers.",
+  "watchOut": "As an enterprise-grade financial platform written in Java, it carries a significant operational and configuration overhead compared to lighter-weight budgeting tools.",
+  "deployNotes": "Containerised deployments using Docker typically require persistent storage volumes for state retention, an external relational database, and a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

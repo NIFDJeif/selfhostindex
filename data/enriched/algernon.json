@@ -1,0 +1,8 @@
+{
+  "summary": "Algernon is a standalone web server written in Go that supports handling Markdown files, Lua scripting, and protocols like HTTP/2 and QUIC. It also includes built-in integration options for Redis and PostgreSQL databases.",
+  "goodFor": "Developers looking for a lightweight, self-contained server to run small applications or render Markdown documents directly without complex configuration.",
+  "watchOut": "It has a smaller community and fewer contributors compared to mainstream web servers, which may limit troubleshooting resources for edge cases.",
+  "deployNotes": "As a compiled Go binary, it typically runs well inside a minimal Docker container with a single persistent volume for local content.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

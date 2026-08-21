@@ -1,0 +1,8 @@
+{
+  "summary": "BentoPDF is a self-hosted document management tool designed for handling PDF operations directly within your web browser. It provides a client-side environment to merge, edit, and process files while keeping your data local. The software is distributed under the AGPL-3.0 licence and packaged for containerised deployment.",
+  "goodFor": "It suits individuals and teams who need to manipulate sensitive documents locally without uploading files to third-party cloud services.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your modifications if you expose the service over a network, which may not suit all commercial environments.",
+  "deployNotes": "Since it relies on Docker and Node.js, you will typically run it behind a reverse proxy to handle TLS termination and configure persistent volumes if you need to retain application state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

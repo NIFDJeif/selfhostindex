@@ -1,0 +1,8 @@
+{
+  "summary": "LinuxCNC is a software controller designed to operate computer numerical control machines directly from a computer running a Linux operating system. It provides real-time control signals to drive hardware such as milling machines, lathes, 3D printers, and robotic arms.",
+  "goodFor": "It is suited for workshops, makers, and engineers looking to build or retrofit physical manufacturing hardware using open-source control software.",
+  "watchOut": "You need compatible computer hardware capable of meeting strict real-time kernel requirements, as standard desktop installations will cause timing jitter and machine failure.",
+  "deployNotes": "It is typically distributed as native packages for Debian-based systems and requires direct hardware access rather than standard containerised deployment.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}

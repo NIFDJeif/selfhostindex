@@ -1,0 +1,8 @@
+{
+  "summary": "ITFlow is a self-hosted platform designed for Managed Service Providers to handle client IT documentation, support ticketing, invoicing, and accounting tasks. Built with PHP under the GPL-3.0 licence, it provides a centralised system to track client assets and service requests. It serves as an open-source alternative to proprietary PSA and documentation tools.",
+  "goodFor": "Managed Service Providers and independent system administrators who want to host their own client management and ticketing stack without paying per-seat SaaS fees.",
+  "watchOut": "Adopting an open-source MSP platform means you are entirely responsible for data security, backups, and recovering from integration or billing errors. It also carries the usual migration overhead of moving existing client data away from established commercial alternatives.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server stack such as Apache or Nginx alongside a relational database like MySQL or MariaDB. You will also need to configure persistent storage for uploaded documents and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-21"
+}
