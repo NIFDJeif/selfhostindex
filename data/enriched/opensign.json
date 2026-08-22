@@ -1,0 +1,8 @@
+{
+  "summary": "OpenSign is a self-hosted document signing application designed to handle electronic signatures and workflow management. It provides a viable open-source alternative to commercial services like DocuSign, running via containerised environments. The software allows you to upload agreements, route them for signatures, and track completion status.",
+  "goodFor": "Teams requiring an internal digital signing workflow who need to retain strict control over their contract data and documentation. It suits organisations seeking to replace proprietary SaaS signing platforms with an on-premise solution.",
+  "watchOut": "Adopting the AGPL-3.0 licence means any modifications you make and host publicly or as a service must also be open source, which requires legal review for commercial deployments. It also lacks the extensive third-party integration ecosystem of larger proprietary competitors.",
+  "deployNotes": "Deployment typically relies on Docker containers running a Node.js stack, which will usually require a persistent volume for storing uploaded documents and completed files. You will also need to configure a reverse proxy to handle TLS termination and domain routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

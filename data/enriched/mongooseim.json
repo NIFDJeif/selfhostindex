@@ -1,0 +1,8 @@
+{
+  "summary": "MongooseIM is a self-hosted messaging server built for handling high-volume chat traffic using the XMPP protocol. It provides the core backend infrastructure required to route instant messages between clients while prioritising system throughput and scale. The platform is distributed under the GPL-2.0 licence and is designed to run in containerised environments.",
+  "goodFor": "It is a suitable choice for systems administrators and developers building large-scale chat services who specifically require an XMPP-compliant architecture.",
+  "watchOut": "Deploying and operating an Erlang-based stack with Kubernetes orchestration introduces a steep learning curve and notable maintenance overhead if you lack prior experience with these technologies.",
+  "deployNotes": "Given its Erlang runtime and container-native design via Docker and Kubernetes, you will typically need to configure persistent storage for message queues or state, set up a database backend, and handle ingress TLS termination via a reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

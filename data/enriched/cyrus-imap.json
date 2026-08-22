@@ -1,0 +1,8 @@
+{
+  "summary": "Cyrus IMAP is a mail server that handles IMAP and POP3 protocols, alongside integrated support for contacts and calendars. It provides backend storage and retrieval services for email infrastructure, making it suitable for administrators building a self-hosted mail system. Written in C, it operates as a foundational component within a larger mail delivery architecture.",
+  "goodFor": "Systems administrators and technical users who need a traditional, standards-compliant mail storage backend for their own infrastructure.",
+  "watchOut": "Configuring a complete mail server stack involves significant operational complexity and careful management of security certificates, DNS records, and spam filtering.",
+  "deployNotes": "As a C-based server daemon, it typically requires persistent storage for mail spools and databases, along with a reverse proxy or direct network configuration to handle secure TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

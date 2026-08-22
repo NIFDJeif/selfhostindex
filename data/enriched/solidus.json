@@ -1,0 +1,8 @@
+{
+  "summary": "Solidus is a free, open-source e-commerce platform built on Ruby that provides the underlying framework for running an online store. It offers a programmatic approach to managing products, orders, and customer data with full access to the source code. Developers can modify the core logic and integrate custom payment or inventory systems as needed.",
+  "goodFor": "This platform suits teams with Ruby expertise who need deep customisation over their online store without licensing fees.",
+  "watchOut": "Maintaining a Ruby-based application requires ongoing dependency management and server upkeep, and the ecosystem is smaller than major alternatives like WooCommerce or Shopify.",
+  "deployNotes": "You will typically run this via Docker alongside a relational database such as PostgreSQL and a reverse proxy to handle TLS termination and static asset serving.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

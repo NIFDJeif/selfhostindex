@@ -1,0 +1,8 @@
+{
+  "summary": "Part-DB is an open-source inventory management system designed specifically for tracking electronic components and related hardware. It helps hobbyists and engineers catalogue their stock of resistors, integrated circuits, and other physical parts in a centralised web interface. The project is actively maintained under the AGPL-3.0 licence.",
+  "goodFor": "Makers, repair shops, and small engineering labs that need a dedicated tool to organise physical electronics stock rather than relying on generic spreadsheets.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft implications if you modify the code and host it as a network service. Additionally, niche inventory tools often require significant manual data entry before they become genuinely useful.",
+  "deployNotes": "Deployment is typically handled via Docker containers, requiring persistent storage volumes for uploaded data and database states. You will also want to place the instance behind a standard reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

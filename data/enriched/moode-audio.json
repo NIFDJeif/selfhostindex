@@ -1,0 +1,8 @@
+{
+  "summary": "moOde Audio provides high-fidelity music playback specifically designed for Raspberry Pi single-board computers. The application runs on PHP and manages local audio files, network streams, and connected digital-to-analogue converters. It is published under the GPL-3.0 licence and caters to dedicated audio setups.",
+  "goodFor": "It is well-suited for enthusiasts wanting to turn a Raspberry Pi into a dedicated, high-quality network music player connected to a stereo system.",
+  "watchOut": "Hardware compatibility is strictly limited to the Raspberry Pi family, meaning it cannot be easily deployed on standard x86 servers or generic Linux hardware.",
+  "deployNotes": "Because the application relies on a PHP runtime, you will typically need a standard web server configuration with appropriate audio device permissions on the host system. Persistent storage is required for your local music library and configuration state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

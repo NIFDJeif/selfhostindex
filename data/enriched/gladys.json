@@ -1,0 +1,8 @@
+{
+  "summary": "Gladys is a privacy-first home assistant designed to help you manage and automate your Internet of Things devices locally. It functions as a centralised platform for controlling smart home hardware without routing your telemetry through external cloud services. The project is open-source under the Apache-2.0 licence.",
+  "goodFor": "It is well-suited if you want to centralise your smart home automation while keeping your personal data strictly on your own local network.",
+  "watchOut": "You may encounter a smaller ecosystem of native integrations compared to dominant market alternatives, which could require more manual configuration for certain hardware.",
+  "deployNotes": "Since it is packaged for Docker, you will typically need to configure persistent volumes for your application data and place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

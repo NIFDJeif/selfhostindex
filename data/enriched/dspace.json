@@ -1,0 +1,8 @@
+{
+  "summary": "DSpace is a turnkey repository application designed to provide long-term access to digital resources and institutional documents. It falls under the category of digital library software and document management systems, helping organisations store and preserve structured digital assets. The project is implemented in Java and is distributed under the BSD-3-Clause licence.",
+  "goodFor": "It is a suitable choice for academic institutions, libraries, or research organisations that need a standardised platform to archive and manage scholarly outputs. It fits administrators who require a structured repository with an active open-source community.",
+  "watchOut": "Deploying and maintaining enterprise Java applications can involve significant configuration overhead and complex dependency management. You should also expect a steeper learning curve compared to lightweight document management alternatives.",
+  "deployNotes": "As a Java application, it typically requires a dedicated application server or servlet container alongside a persistent relational database like PostgreSQL. You will also usually need to place it behind a reverse proxy to handle TLS termination and manage persistent storage volumes for uploaded digital files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "HomeBox is a self-hosted inventory and organisation system designed to help domestic users catalogue their belongings. It provides a centralised digital interface to record items, locations, and metadata. The software is written in Go and distributed under the AGPL-3.0 licence.",
+  "goodFor": "It suits individuals looking to maintain a private, structured database of their household possessions rather than relying on commercial cloud services.",
+  "watchOut": "The AGPL-3.0 licence carries strong copyleft implications if you modify and redistribute the source code over a network. Additionally, as an inventory tool, it requires consistent manual data entry to remain useful.",
+  "deployNotes": "Deployment typically relies on Docker with persistent volumes configured for data storage. You will also usually need to place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

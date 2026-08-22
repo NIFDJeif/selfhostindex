@@ -1,0 +1,8 @@
+{
+  "summary": "Lago is an open-source platform designed for metering and usage-based billing. It allows you to track consumption metrics and generate invoices based on actual customer usage rather than flat subscription tiers. The codebase is distributed under the AGPL-3.0 licence.",
+  "goodFor": "It is a suitable choice for technical teams building usage-based pricing models who want to retain control over their billing infrastructure instead of relying on closed commercial APIs.",
+  "watchOut": "You must evaluate the AGPL-3.0 licence carefully if you intend to offer the software as a hosted service to third parties, as it carries strict copyleft obligations. Additionally, integrating a central billing engine requires rigorous handling of event data to prevent revenue leakage.",
+  "deployNotes": "Because the application is packaged for Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

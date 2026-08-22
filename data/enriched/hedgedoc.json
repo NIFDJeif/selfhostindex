@@ -1,0 +1,8 @@
+{
+  "summary": "HedgeDoc provides a platform for editing and sharing markdown documents collaboratively in real time. It allows multiple users to work on the same text simultaneously across various devices through a web interface. The project evolved from earlier collaborative markdown tools like CodiMD and HackMD CE.",
+  "goodFor": "Teams or individuals who need a self-hosted, browser-based environment for drafting and editing markdown notes together without relying on third-party cloud services.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which imposes strict copyleft requirements if you modify the codebase and offer it as a network service. Additionally, it competes in a crowded space of note-taking tools, so consider whether its specific collaboration model fits your workflow.",
+  "deployNotes": "As a Node.js application packaged with Docker, it typically requires a persistent volume for storing notes and uploaded assets, alongside a reverse proxy to handle TLS termination. You will also usually need to provision a separate database backend to maintain your data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Pretalx is a web application designed to handle conference workflows, specifically managing the Call for Papers process, review cycles, and schedule generation. It provides import and export functions to interface with external tooling used in event organisation. The platform is written in Python and licensed under the Apache-2.0 licence.",
+  "goodFor": "Organisers of academic symposia, user groups, or tech conferences who need an open-source tool to collect submissions and build a timetable on their own hardware.",
+  "watchOut": "Self-hosting event management software requires you to manage your own data backups, user authentication, and uptime during critical submission deadlines.",
+  "deployNotes": "As a Python application, it will typically require a WSGI or ASGI server behind a reverse proxy handling TLS, alongside a persistent relational database and storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

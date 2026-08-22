@@ -1,0 +1,8 @@
+{
+  "summary": "Heimdall is a web-based dashboard designed to help you organise links to your various self-hosted applications and services in one central location. It provides a clean landing page interface so you can quickly access your local network tools and web services without memorising individual ports and IP addresses. The project is implemented in PHP and made available under an open-source MIT licence.",
+  "goodFor": "It suits homelab enthusiasts and self-hosters who want a straightforward, visually tidy landing page for their browser bookmarks without complex configuration.",
+  "watchOut": "Development activity is modest, and the feature set is relatively basic compared to more customisable or dynamic dashboard alternatives.",
+  "deployNotes": "As a PHP application, you will typically need a web server like Nginx or Apache with PHP-FPM configured, along with persistent storage if you rely on local configuration persistence.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

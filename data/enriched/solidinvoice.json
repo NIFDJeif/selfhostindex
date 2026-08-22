@@ -1,0 +1,8 @@
+{
+  "summary": "SolidInvoice is an open-source application designed for managing quotes and billing clients. It provides a self-hosted platform to handle the financial paperwork associated with freelance work or small business operations. Built with PHP and released under the MIT licence, it allows you to maintain full control over your billing data.",
+  "goodFor": "Freelancers and small business owners who prefer to self-host their financial administration tools rather than relying on third-party SaaS billing platforms.",
+  "watchOut": "Financial applications carry a high operational risk if misconfigured, and self-hosting means you are entirely responsible for your own backups, security hardening, and data recovery.",
+  "deployNotes": "You will typically need to provision a PHP-compatible web server with a separate relational database like MySQL or PostgreSQL, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

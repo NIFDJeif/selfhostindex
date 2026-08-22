@@ -1,0 +1,8 @@
+{
+  "summary": "Pelican Panel is a web-based control panel designed to help you deploy, configure, and monitor multiple game servers from a single interface. It functions as a fork of the Pterodactyl project, providing administrative utilities for server management with extensive customisation options. The application is built using PHP and Docker.",
+  "goodFor": "It is a suitable choice for server administrators and gaming communities who need a centralised web interface to manage various game server instances.",
+  "watchOut": "As an AGPL-3.0 licensed application derived from an established codebase, you should review the network-use copyleft requirements before integrating it into commercial services or proprietary infrastructure.",
+  "deployNotes": "Because the application relies on PHP and Docker, you will typically need to configure persistent storage volumes for game data, set up a reverse proxy to handle TLS termination, and provision a separate database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

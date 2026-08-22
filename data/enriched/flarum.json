@@ -1,0 +1,8 @@
+{
+  "summary": "Flarum is open-source forum software designed for hosting online community discussions. Written in PHP, it provides a straightforward platform for user-generated threads and replies under an MIT licence. It targets the traditional bulletin board category of web applications.",
+  "goodFor": "It is a suitable choice if you want to run a lightweight community discussion board using a standard PHP hosting stack.",
+  "watchOut": "Community software in this category often requires ongoing moderation effort and plugin management, and it may overlap heavily with larger, more established alternatives.",
+  "deployNotes": "You will typically need to provision a compatible PHP environment alongside a relational database such as MySQL or PostgreSQL, sitting behind a standard web server configured with TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

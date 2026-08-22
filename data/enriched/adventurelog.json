@@ -1,0 +1,8 @@
+{
+  "summary": "AdventureLog is a self-hosted application designed for tracking travel and planning trips. It helps users organise their journeys, itineraries, and location data within a centralised dashboard.",
+  "goodFor": "It is well-suited for individuals who want to manage their personal travel data independently rather than relying on commercial cloud-based trip planners.",
+  "watchOut": "As a relatively young project under active development, you may encounter breaking changes between releases and less comprehensive documentation than mature alternatives.",
+  "deployNotes": "Since it is distributed as a Docker container, you will typically need to configure persistent volumes for your travel data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Live Helper Chat is a self-hosted customer communication system that provides real-time messaging functionality for websites. It allows visitor inquiries to be handled directly through a custom interface on your own infrastructure under an Apache-2.0 licence. Built on PHP, it serves as an alternative to proprietary third-party customer support widgets.",
+  "goodFor": "It suits teams that require a self-hosted communication tool for website visitor support and want full control over their chat data.",
+  "watchOut": "You will need to manage your own server resources, updates, and database maintenance, and the software may overlap with more widely adopted commercial helpdesk alternatives.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or MariaDB, and a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

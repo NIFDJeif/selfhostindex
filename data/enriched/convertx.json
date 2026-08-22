@@ -1,0 +1,8 @@
+{
+  "summary": "ConvertX is an online file conversion tool that handles over a thousand different formats. It provides a centralised utility for transforming documents, media, and other file types from one structure to another.",
+  "goodFor": "It suits administrators who need a self-hosted conversion utility to process various file formats without relying on third-party web services.",
+  "watchOut": "File conversion can be computationally intensive, and the AGPL-3.0 licence may impose obligations if you modify and distribute the software.",
+  "deployNotes": "As a Docker container, it typically requires a reverse proxy for TLS termination and persistent volumes if you need to retain uploaded or converted files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

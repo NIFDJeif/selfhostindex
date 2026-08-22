@@ -1,0 +1,8 @@
+{
+  "summary": "Calibre Web is a Python-based web application that provides a browser interface for your existing e-book library. It allows you to search, read, and download digital publications directly from a central database. The software acts as a lightweight reading portal without replacing your primary desktop management tools.",
+  "goodFor": "Self-hosters who already maintain a structured e-book collection and want remote web access to their library across multiple devices.",
+  "watchOut": "You will need an existing desktop library setup to populate the database, and managing concurrent user access can sometimes cause database locking issues.",
+  "deployNotes": "As a Python application, you will typically need to run it behind a reverse proxy for HTTPS termination and ensure persistent volume storage is attached for your database files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

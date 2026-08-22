@@ -1,0 +1,8 @@
+{
+  "summary": "Spoolman is a self-hosted application designed to track physical inventories of 3D-printer filament spools. It helps you record remaining weights, material types, colours, and locations to prevent running out of material mid-print. The software acts as a centralised ledger for workshop consumables.",
+  "goodFor": "Makers and small print farms who need a dedicated database to manage multiple filament rolls across various printers.",
+  "watchOut": "It addresses a very niche operational problem, meaning it will likely require manual data entry and may not integrate with your existing general inventory systems.",
+  "deployNotes": "As a Dockerised Python application, it will typically require a persistent volume mounted for database storage and an external reverse proxy if you require TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

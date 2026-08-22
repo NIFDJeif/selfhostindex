@@ -1,0 +1,8 @@
+{
+  "summary": "HumHub provides a modular toolkit for hosting private social networks and community spaces on your own infrastructure. It allows groups to create dedicated environments for member interaction, communication, and content sharing using PHP. The project is licensed under the AGPL-3.0 and is actively maintained with a steady release cycle.",
+  "goodFor": "It suits organisations or communities wanting a self-hosted alternative to commercial social platforms to keep member discussions and data entirely internal.",
+  "watchOut": "Deploying and maintaining a PHP-based social network platform introduces routine administrative overhead, including handling updates, managing user permissions, and scaling the underlying stack as activity grows.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Apache or Nginx, a separate relational database such as MySQL or MariaDB, and persistent storage for user-uploaded media files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

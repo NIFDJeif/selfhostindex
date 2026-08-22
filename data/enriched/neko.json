@@ -1,0 +1,8 @@
+{
+  "summary": "Neko is a containerised virtual browser that streams a desktop environment to clients using WebRTC. Written in Go and licensed under Apache-2.0, it allows multiple users to interact with a shared browser session simultaneously within isolated Docker containers.",
+  "goodFor": "It is well-suited for collaborative browsing sessions, remote assistance tasks, or running automated web workflows where visual isolation is required.",
+  "watchOut": "WebRTC streaming can be resource-intensive and often requires careful configuration of network ports, firewalls, and STUN/TURN servers to maintain low-latency connections behind NAT.",
+  "deployNotes": "You will typically deploy this via Docker, ensuring proper permissions for containerised graphics rendering and placing a reverse proxy in front to handle TLS termination for the WebRTC signalling.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

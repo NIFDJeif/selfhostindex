@@ -1,0 +1,8 @@
+{
+  "summary": "Planka is a realtime kanban board application designed for collaborative task management within workgroups. It functions as a self-hosted alternative to proprietary services like Trello, allowing teams to organise projects visually. The software is built on Node.js and can be deployed via Docker or Kubernetes.",
+  "goodFor": "This is a suitable choice if you require a dedicated, self-hosted kanban interface for team collaboration without relying on external cloud services.",
+  "watchOut": "The software uses a proprietary licence, which may impose restrictions on commercial use or modification compared to open-source alternatives. Additionally, project maintenance is steady rather than rapid, meaning support and updates may progress at a moderate pace.",
+  "deployNotes": "As a Node.js application packaged for Docker and Kubernetes, you will typically need to provision persistent storage for user data and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

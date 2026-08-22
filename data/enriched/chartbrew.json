@@ -1,0 +1,8 @@
+{
+  "summary": "Chartbrew is an open-source web application that connects directly to various data sources and APIs to render visual charts and dashboards. It provides a centralised interface for querying backend stores and presenting the resulting metrics clearly without requiring custom frontend code.",
+  "goodFor": "It is well-suited for developers and analysts who need to quickly spin up internal dashboards using existing relational databases or web services.",
+  "watchOut": "You should consider how exposing direct database connections to a self-hosted business intelligence tool impacts your security perimeter and network architecture.",
+  "deployNotes": "As a Node.js application packaged with Docker, it typically requires a persistent storage volume for configuration data and a reverse proxy to handle HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

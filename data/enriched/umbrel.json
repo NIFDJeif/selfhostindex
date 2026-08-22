@@ -1,0 +1,8 @@
+{
+  "summary": "Umbrel is a personal server operating system designed to run on single-board computers like the Raspberry Pi 4 or standard Linux distributions. It provides a web-based dashboard for installing and managing various self-hosted applications packaged in containers. The system abstracts away much of the underlying server configuration to simplify local service deployment.",
+  "goodFor": "It suits users who want a graphical interface to manage local applications on dedicated hardware without configuring Linux services manually from the command line.",
+  "watchOut": "The software is proprietary, meaning you cannot freely inspect or modify its core codebase, and its heavy reliance on a proprietary ecosystem may restrict deep customisation.",
+  "deployNotes": "Because it runs via containerisation and Node.js, you will need to ensure persistent storage volumes are correctly mapped to prevent data loss during updates. You should also provision a reverse proxy if you intend to access the interface securely over external networks.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Glance is a personal dashboard designed to centralise various web feeds into a single interface. It allows you to organise and monitor multiple content streams from one place using a customisable layout. The application is packaged as a Docker container.",
+  "goodFor": "It suits users who want to consolidate diverse web feeds and personal monitoring widgets into a single, self-hosted browser page.",
+  "watchOut": "The AGPL-3.0 licence requires you to make the source code available if you modify the software and run it as a network service. Additionally, highly customisable dashboard tools often require manual YAML or configuration editing rather than offering fully graphical setup.",
+  "deployNotes": "As a Docker-based Go application, it typically requires a persistent volume mounted for configuration storage and a reverse proxy to handle TLS termination. It generally runs as a lightweight container without needing a separate database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

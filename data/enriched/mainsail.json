@@ -1,0 +1,8 @@
+{
+  "summary": "Mainsail provides a web-based user interface designed specifically for the Klipper 3D printer firmware. It allows you to monitor print jobs and control your manufacturing hardware remotely from standard web browsers across multiple devices.",
+  "goodFor": "Operators running Klipper-based 3D printers who want a clean, responsive web control panel accessible from various devices on their local network or via remote tunnels.",
+  "watchOut": "It has a narrow scope dedicated strictly to Klipper, meaning you cannot use it as a general control interface for other common 3D printer firmwares without significant adaptation.",
+  "deployNotes": "As a containerised application, it typically requires persistent volumes to retain configuration data and a reverse proxy to handle secure HTTPS connections from external networks.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

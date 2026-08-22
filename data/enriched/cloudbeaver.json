@@ -1,0 +1,8 @@
+{
+  "summary": "CloudBeaver is a web-based database management tool that allows you to administer multiple database systems through a browser interface. It serves as a hosted counterpart to the DBeaver desktop application, providing centralized access for querying and managing your data sources.",
+  "goodFor": "Teams or administrators who need a centralized, browser-accessible interface to manage various relational databases without installing desktop clients on individual machines.",
+  "watchOut": "Exposing a database management interface to the web presents significant security risks if not properly isolated, and the lack of a recent tagged release may require relying on rolling tags or building from source.",
+  "deployNotes": "As it runs via Docker, you will typically need to map persistent volumes for configuration and session data, and place the container behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Kavita is a self-hosted server designed for organising and reading digital literature, including e-books, comics, manga, and PDFs through a web interface. It includes built-in user management, rating systems, and metadata fetching to help you maintain a structured digital library. The application can be installed on various platforms and supports containerised deployments.",
+  "goodFor": "It is well-suited for individuals with large collections of digital reading material who want a centralised, web-accessible reading platform with multiple user accounts.",
+  "watchOut": "Depending on the size of your library and metadata requirements, initial scanning and indexing can consume significant server resources.",
+  "deployNotes": "You will typically need to configure persistent volumes for your library files and database storage, alongside a reverse proxy to handle HTTPS traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

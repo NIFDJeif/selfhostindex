@@ -1,0 +1,8 @@
+{
+  "summary": "Filestash is a self-hosted web file manager that provides a unified interface for accessing data stored across multiple remote protocols and cloud storage providers. It allows you to browse, edit, and organise files located on services like SFTP, WebDAV, S3, and Dropbox through a single browser-based dashboard. The application is packaged as a Docker container.",
+  "goodFor": "This is a good fit if you need a centralised web interface to manage various remote file stores and cloud accounts without installing native clients locally.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which imposes strict copyleft obligations if you modify the code or offer it as a hosted service to third parties. Additionally, you must consider the security implications of aggregating multiple sensitive credentials into a single web application.",
+  "deployNotes": "Deployment is handled via Docker, so you will typically need to map a persistent volume for application data configuration. You should also place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

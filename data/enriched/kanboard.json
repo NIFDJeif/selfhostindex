@@ -1,0 +1,8 @@
+{
+  "summary": "Kanboard is a self-hosted task management tool that visualises workflows using a board interface. It provides a straightforward method for tracking projects and todo lists through various stages of completion. The application is built with PHP and licensed under the MIT licence.",
+  "goodFor": "It suits individuals or teams seeking a lightweight, traditional task board deployed within their own infrastructure without complex dependencies.",
+  "watchOut": "The feature set is minimal compared to larger project management platforms, meaning advanced workflows may require manual organisation or external tooling.",
+  "deployNotes": "You will typically need a standard PHP-compatible web server with a relational database backend and persistent storage configured for user uploads.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

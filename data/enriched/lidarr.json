@@ -1,0 +1,8 @@
+{
+  "summary": "Lidarr is a music collection manager designed to automate the downloading and organization of albums via Usenet and BitTorrent sources. It monitors specified artists, detects new releases, and integrates with download clients to retrieve and file your audio files. Written in C#, it functions as a dedicated backend service for media enthusiasts.",
+  "goodFor": "Self-hosters who want to fully automate their music acquisition workflow and keep their digital audio libraries meticulously organised without manual intervention.",
+  "watchOut": "Setting up and maintaining matching rules, indexers, and download clients requires patience and ongoing configuration, and the project shares an operational model with other resource-heavy automation tools.",
+  "deployNotes": "As a containerised C# application deployed via Docker, you will typically need to map persistent volumes for your configuration database and media library, as well as handle networking if you run it behind a reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

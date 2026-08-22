@@ -1,0 +1,8 @@
+{
+  "summary": "asciinema is a web application designed for hosting and sharing terminal session recordings, known as asciicasts. It allows you to publish text-based command-line interactions so they can be viewed and played back inside a web browser.",
+  "goodFor": "It is a good fit if you need a private platform to host and share terminal recordings within your own infrastructure without relying on external services.",
+  "watchOut": "You should note that managing a self-hosted instance of this niche media platform requires maintaining an Elixir runtime stack and handling ongoing updates.",
+  "deployNotes": "Deployment typically involves running the application via Docker behind a reverse proxy for TLS termination, alongside provisioning a persistent database for stored records.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

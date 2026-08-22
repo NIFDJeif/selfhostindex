@@ -1,0 +1,8 @@
+{
+  "summary": "InvoicePlane is a self-hosted application designed to handle billing operations for small businesses. It provides tools to generate and track customer quotes, invoices, and incoming payments from a single interface.",
+  "goodFor": "Freelancers and small business owners who want an independent, self-hosted system to manage their client billing without relying on third-party SaaS platforms.",
+  "watchOut": "The codebase relies on PHP, which requires careful configuration of your server stack and regular maintenance to patch security vulnerabilities.",
+  "deployNotes": "You will typically need to provision a LEMP or LAMP stack alongside a relational database such as MySQL or MariaDB, and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

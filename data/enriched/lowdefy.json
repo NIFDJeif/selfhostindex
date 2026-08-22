@@ -1,0 +1,8 @@
+{
+  "summary": "Lowdefy is an open-source platform that lets you build internal applications, admin panels, and dashboards using configuration files written in YAML or JSON. It connects directly to your existing data sources and can be hosted independently on your own infrastructure. You can deploy it using Docker or serverless environments depending on your architecture preferences.",
+  "goodFor": "Developers or small teams who want to rapidly prototype or deploy internal tooling and dashboards without writing traditional front-end code.",
+  "watchOut": "Relying entirely on YAML or JSON for layout and logic can become difficult to maintain as application complexity grows compared to traditional coded frameworks.",
+  "deployNotes": "You will typically run the container via Docker and place it behind a reverse proxy to handle TLS termination and domain routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

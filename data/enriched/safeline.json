@@ -1,0 +1,8 @@
+{
+  "summary": "SafeLine functions as a web application firewall and reverse proxy designed to intercept and filter traffic before it reaches your web services. It acts as an intermediary layer to detect and block common web-based attacks and exploits. The software is distributed under the GPL-3.0 licence and is hosted via containerisation.",
+  "goodFor": "Self-hosters who need a dedicated proxy layer to filter malicious traffic heading towards internal web applications.",
+  "watchOut": "The moderate maintenance activity indicates that you should be prepared to monitor for updates and troubleshoot issues independently.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for log and configuration storage, alongside a separate mechanism to handle TLS termination if required.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

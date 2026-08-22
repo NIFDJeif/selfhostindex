@@ -1,0 +1,8 @@
+{
+  "summary": "eLabFTW is an electronic lab notebook designed for research facilities to document experiments, maintain databases of reagents and protocols, and handle legal timestamping. Users can export records to PDF or zip archives and collaborate with colleagues on scientific data. It is an open-source tool built with PHP and licensed under the AGPL-3.0.",
+  "goodFor": "Research laboratories and academic teams that need a self-hosted platform to organise experiments and manage inventory with strict data ownership.",
+  "watchOut": "The AGPL-3.0 licence carries strong copyleft implications if you modify and network the software, which may conflict with strict institutional compliance policies. It also overlaps with generic wiki or document management tools, meaning adoption depends on how well it fits existing laboratory workflows.",
+  "deployNotes": "As a PHP-based application, it typically requires a web server like Nginx or Apache, a separate SQL database backend, and persistent storage for uploaded files and documents. You will also need to configure a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}

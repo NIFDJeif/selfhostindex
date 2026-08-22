@@ -1,0 +1,8 @@
+{
+  "summary": "iSponsorBlockTV is a self-hosted utility designed to automate the skipping of sponsored segments within YouTube video playback. It also handles the muting and bypassing of standard advertisements to streamline media consumption on supported television clients. The project is distributed under the GPL-3.0 licence and relies on Python.",
+  "goodFor": "This is a suitable choice if you want to automate sponsor segment skipping and ad muting across your living room media setup without manual intervention.",
+  "watchOut": "You may need to handle configuration updates or API changes as YouTube frequently modifies its underlying client interfaces, which can occasionally break third-party integrations.",
+  "deployNotes": "Deployment typically involves running a Docker container on your local network, requiring persistent storage for configuration files and network access to reach your target media playback devices.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-22"
+}
