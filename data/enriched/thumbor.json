@@ -1,0 +1,8 @@
+{
+  "summary": "Thumbor is a smart imaging service that handles on-demand image cropping, resizing, filter application, and optimisation. It allows you to process and serve image transformations dynamically rather than storing multiple static variants on disk.",
+  "goodFor": "It is a good fit if you run a media-heavy platform and need to offload image processing and thumbnail generation from your primary application servers.",
+  "watchOut": "High volumes of uncached requests can heavily strain CPU and memory resources, requiring careful tuning and upstream caching strategies to maintain acceptable performance.",
+  "deployNotes": "As a Python application packaged for Docker, you will typically deploy it behind a reverse proxy to handle TLS termination and place a caching layer like Varnish or Nginx in front of it to handle repeated image requests efficiently.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Stump is a free and open-source server application designed to host and stream comics, manga, and digital books. It includes support for the OPDS protocol, allowing you to browse and read your library across various compatible client devices.",
+  "goodFor": "It suits self-hosters who want a dedicated, lightweight solution specifically tailored for comics and manga libraries rather than general-purpose document managers.",
+  "watchOut": "Given the early version numbering and moderate maintenance activity, you may encounter missing features, rough edges in the user interface, or breaking changes during updates.",
+  "deployNotes": "As a compiled Rust application, it typically runs efficiently in a container and requires persistent storage volumes for your media library, alongside a reverse proxy for HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

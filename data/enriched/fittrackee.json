@@ -1,0 +1,8 @@
+{
+  "summary": "FitTrackee is a self-hosted application designed for recording and reviewing physical workouts and daily activities. Built with Python and distributed via Docker containers, it provides a centralised platform to manage your exercise logs. While the exact scope of supported sensors and metrics is undefined in the core description, it serves as a private alternative to commercial fitness platforms.",
+  "goodFor": "This is a suitable option if you want to store your personal fitness logs on your own hardware rather than relying on third-party cloud services.",
+  "watchOut": "The project relies on the AGPL-3.0 licence, which has strict copyleft obligations if you modify and network the software, and it may lack the extensive integration ecosystem found in mainstream fitness apps.",
+  "deployNotes": "Deployment typically involves running a Docker container, requiring you to configure persistent volumes for your workout data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

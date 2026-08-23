@@ -1,0 +1,8 @@
+{
+  "summary": "StackStorm is an event-driven automation platform designed to handle infrastructure remediation, security responses, and operational workflows. It combines a rules engine, workflow execution, and an extensive collection of integration packs to trigger automated actions. Additionally, it provides ChatOps functionality to interact directly with your systems through chat interfaces.",
+  "goodFor": "It is a suitable choice for systems administrators and operations teams looking to automate complex, multi-step incident response and deployment tasks triggered by external events.",
+  "watchOut": "Managing and maintaining a large number of integration packs and complex automation rules can introduce a significant operational overhead and learning curve. It also competes directly with widely adopted infrastructure orchestration and CI/CD tools.",
+  "deployNotes": "As a Python-based application, it typically requires persistent storage for state management and configuration, along with a separate database backend and a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

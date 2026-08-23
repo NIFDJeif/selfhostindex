@@ -1,0 +1,8 @@
+{
+  "summary": "Eclipse Che is an open source workspace server and cloud-based integrated development environment. It allows developers to host and access coding environments directly from a browser. The platform relies on containerised workspaces to manage development tools and source code on a remote server.",
+  "goodFor": "It is well-suited for teams wanting to standardise developer workstations or centralise development environments on private infrastructure.",
+  "watchOut": "Running a multi-container cloud IDE server introduces a significant operational burden and demands substantial server resources compared to local editors.",
+  "deployNotes": "Deployment typically relies on Docker and Java runtimes, meaning you will need to configure persistent volumes for user data and a reverse proxy to handle secure TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

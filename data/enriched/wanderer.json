@@ -1,0 +1,8 @@
+{
+  "summary": "Wanderer is a self-hosted trail database that lets you upload recorded GPS tracks or draw new ones. You can enrich these routes with custom metadata to organise and search your personal collection of outdoor paths.",
+  "goodFor": "Hikers, cyclists and outdoor enthusiasts who want a private, self-hosted archive for their GPS tracks and mapping data.",
+  "watchOut": "The project operates with moderate community activity and a relatively small contributor base, meaning niche bugs may take longer to resolve. It also falls under the AGPL-3.0 licence, which has strict copyleft implications if you modify and redistribute the code.",
+  "deployNotes": "Because the application relies on Docker, you will typically need to configure persistent volumes to store your uploaded tracks and database files safely. You should also place the container behind a reverse proxy to handle TLS termination for secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

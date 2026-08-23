@@ -1,0 +1,8 @@
+{
+  "summary": "OTS is a self-hosted platform designed for sharing sensitive information securely over the web. It uses symmetric 256-bit AES encryption directly within the browser before any data is transmitted to the server. This ensures that secrets can be viewed only once and cannot be intercepted from server logs later.",
+  "goodFor": "It is well-suited for teams or individuals who need to securely transmit passwords, API keys, or confidential notes without relying on third-party SaaS tools.",
+  "watchOut": "You must trust the initial delivery channel of the secret link, as anyone who intercepts the link before the intended recipient can read and destroy the secret.",
+  "deployNotes": "Because the application is written in Go, it typically compiles down to a single binary that you can run behind a standard reverse proxy like Nginx or Caddy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

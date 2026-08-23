@@ -1,0 +1,8 @@
+{
+  "summary": "Standard Notes is a self-hosted note-taking application designed to keep your written records private. It provides a centralised server backend alongside client applications to store and sync your plain text or formatted notes securely.",
+  "goodFor": "It is a good fit for individuals or small teams who prioritise data privacy and want control over their sync server.",
+  "watchOut": "Setup and ongoing maintenance can involve managing multiple components like a database and background workers, which introduces operational overhead.",
+  "deployNotes": "As a Ruby application, it typically requires a persistent database, a reverse proxy for TLS termination, and process management for background queues.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

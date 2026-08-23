@@ -1,0 +1,8 @@
+{
+  "summary": "LinuxGSM is a command-line utility designed to deploy and manage dedicated game servers on Linux systems. It automates common administrative tasks across a large catalog of supported multiplayer titles.",
+  "goodFor": "Self-hosters and system administrators who prefer managing game servers via the terminal and shell scripts rather than using heavy web-based control panels.",
+  "watchOut": "Relying entirely on a command-line interface means there is no graphical dashboard out of the box, which might increase the learning curve for less technical users.",
+  "deployNotes": "Because it runs as a shell-based tool, it typically requires direct access to the host operating system with appropriate user permissions and persistent storage for game files and configurations.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

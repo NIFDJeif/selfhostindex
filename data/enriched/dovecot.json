@@ -1,0 +1,8 @@
+{
+  "summary": "Dovecot is a mail delivery agent providing IMAP and POP3 server functionality. It handles message retrieval for email clients, with a primary focus on security implementation. Written in C, it serves as a core component for self-hosted mail infrastructures.",
+  "goodFor": "It suits administrators building a custom mail server from scratch who require a standard-compliant IMAP and POP3 daemon. It fits environments prioritising established mail delivery agents with active maintenance.",
+  "watchOut": "Configuring a mail server securely involves significant operational complexity and careful handling of encryption certificates. Misconfiguration can easily lead to open relay vulnerabilities or delivery failures.",
+  "deployNotes": "As a compiled C application packaged via debian binaries, it typically runs directly on the host operating system with persistent storage required for mail directories. You will usually need to manage system service files and configure a separate TLS termination layer.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

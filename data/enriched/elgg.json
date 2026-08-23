@@ -1,0 +1,8 @@
+{
+  "summary": "Elgg is an open-source social networking engine that provides the core infrastructure for building custom online communities and collaborative platforms. It allows developers to deploy user profiles, activity streams, and messaging systems on their own infrastructure. The project is written in PHP and distributed under the GPL-2.0 licence.",
+  "goodFor": "It is a suitable choice for organisations or developers wanting to self-host a dedicated, closed social network or community portal rather than relying on commercial platforms.",
+  "watchOut": "Customising and maintaining a PHP-based social network requires ongoing administrative effort, and Elgg may overlap heavily with more modern or widely adopted forum and community alternatives.",
+  "deployNotes": "Deployment typically requires a standard PHP runtime environment, a relational database such as MySQL or PostgreSQL, and a reverse proxy like Nginx or Apache to handle TLS termination and persistent file storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Komga is a self-hosted media server designed to organise and stream comics, mangas, and bande dessinées. It provides a web-based reader and a browser interface, alongside an API and OPDS support for integration with third-party reading clients.",
+  "goodFor": "It is a practical choice if you maintain a large digital collection of graphic novels and want a dedicated browser interface to read them across devices.",
+  "watchOut": "The codebase relies on Java and is maintained at a steady pace, but you should expect typical self-hosted operational maintenance such as handling library metadata updates and permissions.",
+  "deployNotes": "As a Java application packaged in Docker, it typically requires persistent storage volumes mounted for your media libraries and configuration data, alongside a reverse proxy for HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

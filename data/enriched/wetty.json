@@ -1,0 +1,8 @@
+{
+  "summary": "WeTTY provides a terminal interface accessible directly through a web browser using HTTP or HTTPS protocols. It bridges standard shell environments and web clients without requiring local terminal emulators on the end user machine. The project is built on Node.js and distributed under the MIT licence.",
+  "goodFor": "It suits administrators who need quick, browser-based access to a remote command line interface without installing dedicated SSH clients on every connecting device.",
+  "watchOut": "Exposing a command-line interface to a web browser introduces significant security risks if not properly authenticated and encrypted, potentially granting attackers direct shell access.",
+  "deployNotes": "As a Node.js application packaged for Docker, it typically requires a reverse proxy to handle TLS termination securely and manage incoming web traffic. It does not generally require a separate database since it functions primarily as a shell gateway.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

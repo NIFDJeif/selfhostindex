@@ -1,0 +1,8 @@
+{
+  "summary": "HeyForm is a self-hosted form builder designed to create conversational surveys, questionnaires, quizzes, and polls. It provides an interface for gathering user input through interactive, step-by-step questions rather than static web pages.",
+  "goodFor": "Teams and individuals who need to host their own interactive survey tooling to collect user feedback or questionnaire responses independently.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your modifications if you offer the software as a network service, and the project competes with numerous established hosted and self-hosted form alternatives.",
+  "deployNotes": "Because the application is distributed as a container, you will typically need to configure Docker Compose alongside persistent volumes for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

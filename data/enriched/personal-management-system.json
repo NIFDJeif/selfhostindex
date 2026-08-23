@@ -1,0 +1,8 @@
+{
+  "summary": "Personal Management System is an open-source personal dashboard designed to help you consolidate daily organisation tasks. It provides a centralised space for routine requirements such as to-do lists, note-taking, payment tracking, and schedule management.",
+  "goodFor": "It suits individuals looking for a self-hosted, MIT-licensed dashboard to manage everyday life admin without relying on proprietary cloud services.",
+  "watchOut": "Given the broad scope of a general personal dashboard, it may overlap with dedicated single-purpose applications while lacking deep specialised features in areas like financial accounting or advanced note-taking.",
+  "deployNotes": "As a containerised application distributed via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

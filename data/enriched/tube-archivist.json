@@ -1,0 +1,8 @@
+{
+  "summary": "Tube Archivist is a self-hosted application designed to help you download, organise, and watch your YouTube subscriptions and video collections locally. It indexes metadata to provide searchable access to your downloaded media through a web interface, while also tracking your viewing history.",
+  "goodFor": "This tool suits users who want to maintain a local archive of online video content independent of the original platform and need an interface to browse it.",
+  "watchOut": "Running a local video archiver requires substantial storage space, and performance depends on how efficiently metadata indexing scales with large collections.",
+  "deployNotes": "You will typically need to configure persistent volumes for data storage and connect a reverse proxy to handle TLS termination for the web interface.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

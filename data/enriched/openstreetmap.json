@@ -1,0 +1,8 @@
+{
+  "summary": "OpenStreetMap is a collaborative project for creating a free, editable map of the world. It provides geographical data and mapping capabilities that you can host independently to serve your own map tiles and spatial queries.",
+  "goodFor": "This is a good fit if you need to run an independent geographical mapping service without relying on commercial map providers.",
+  "watchOut": "Self-hosting mapping infrastructure involves heavy resource requirements for rendering and storing large spatial datasets, which can demand significant disk space and hardware tuning.",
+  "deployNotes": "As a Ruby application, it typically requires a separate database for spatial data storage, a process manager, and a reverse proxy to handle web traffic securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

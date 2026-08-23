@@ -1,0 +1,8 @@
+{
+  "summary": "Youtarr is a self-hosted media tool that automates downloading videos from specified YouTube channels on a recurring schedule. It features a web interface for browsing and picking specific media, and outputs files compatible with popular home theatre platforms like Plex, Jellyfin, Kodi, and Emby.",
+  "goodFor": "Self-hosters who want to curate offline archives of specific YouTube creators and integrate them smoothly into an existing media server setup.",
+  "watchOut": "Relying on scheduled scraping of third-party platforms means maintenance overhead when the upstream site changes its structure or blocks download mechanisms.",
+  "deployNotes": "As a Docker container, it typically requires persistent volume mounts for downloaded media storage and configuration data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Yamtrack is a self-hosted platform designed to help you organise and monitor your consumption of various media formats, including films, television series, anime, manga, video games and books. It provides a centralised dashboard to track your progress and manage your personal entertainment library. The project is distributed under the AGPL-3.0 licence and is written in Python.",
+  "goodFor": "It is a suitable choice if you want to consolidate multiple tracking lists for different media types into a single self-hosted database rather than relying on separate third-party services.",
+  "watchOut": "The project is still maturing and has a relatively small community compared to established alternatives, which may mean fewer integrations and slower troubleshooting for edge cases.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

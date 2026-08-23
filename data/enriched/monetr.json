@@ -1,0 +1,8 @@
+{
+  "summary": "Monetr is a self-hosted budgeting application designed specifically to help you plan for recurring expenses. It provides tools to track regular financial commitments and manage your personal finances on your own infrastructure. The project is distributed under the FSL-1.1-MIT licence.",
+  "goodFor": "It is a good fit if you want to self-host your personal financial tracking with a focus on subscription and recurring bill management.",
+  "watchOut": "The project uses the Business Source Licence (FSL-1.1-MIT), which converts to a standard MIT licence only after a time delay, and it has a relatively small community compared to mainstream budgeting tools.",
+  "deployNotes": "You will typically need to configure persistent storage for your financial data and deploy the container behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

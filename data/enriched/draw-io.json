@@ -1,0 +1,8 @@
+{
+  "summary": "draw.io is a web-based diagramming application used for creating flowcharts, process diagrams, organisational charts, and technical schematics like UML and network graphs. It provides a visual canvas for structuring information and sketching out workflows. The project is licensed under the Apache-2.0 licence and built using JavaScript.",
+  "goodFor": "It is a suitable choice if you need a self-hosted visual editor for mapping out processes and technical architecture without relying on third-party cloud services.",
+  "watchOut": "You should note that self-hosting the full collaborative feature set may require configuring additional backend services beyond the static frontend assets.",
+  "deployNotes": "Since it runs as a Docker container using JavaScript, you will typically need to place it behind a reverse proxy to handle TLS termination and map container ports to your host.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "SWAG functions as an Nginx-based web server and reverse proxy, packaging PHP execution, automated Let's Encrypt certificate generation via Certbot, and fail2ban protection into a single containerised application. It is designed to route incoming web traffic while handling encryption and basic intrusion prevention out of the box. The project operates under the GPL-3.0 licence and maintains an active release cycle.",
+  "goodFor": "It suits self-hosters who want a pre-configured Nginx proxy stack with automated TLS certificate management without manually wiring Certbot and fail2ban together.",
+  "watchOut": "Configuration relies heavily on text-based Nginx files and container environment variables, which can introduce friction for administrators preferring a graphical management interface.",
+  "deployNotes": "You will typically need to mount persistent volumes for your configuration files, log outputs, and web root directories, while ensuring ports 80 and 43 for HTTP challenges and traffic are correctly forwarded.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

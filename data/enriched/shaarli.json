@@ -1,0 +1,8 @@
+{
+  "summary": "Shaarli is a lightweight, database-free bookmarking and link-sharing tool written in PHP. It allows you to save, tag, and share web links from a self-hosted interface without relying on external services. Because it avoids traditional database engines, it offers a streamlined deployment path for personal archive management.",
+  "goodFor": "Users who want a fast, self-contained bookmark manager running on standard PHP infrastructure without the overhead of maintaining a separate database.",
+  "watchOut": "Without a traditional database backend, scaling to very large archives or handling concurrent write operations may present limitations compared to alternatives.",
+  "deployNotes": "You will typically need a standard web server like Apache or Nginx configured to run PHP, along with persistent storage to maintain your flat-file data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

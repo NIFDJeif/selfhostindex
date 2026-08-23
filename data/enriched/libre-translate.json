@@ -1,0 +1,8 @@
+{
+  "summary": "LibreTranslate is a self-hosted machine translation API that allows you to translate text between different languages programmatically. It provides an alternative to proprietary cloud translation services by running entirely on your own infrastructure. The service can be integrated into other applications via its HTTP API.",
+  "goodFor": "This is a good fit for developers who need to integrate automated translation into their own software stack without sending private data to third-party cloud providers.",
+  "watchOut": "Machine translation models typically require significant RAM and CPU resources, or a compatible GPU, to run with acceptable latency. You should also verify that the AGPL-3.0 licence aligns with your organisation's compliance requirements.",
+  "deployNotes": "Deployment is typically handled via Docker, requiring a reverse proxy for TLS termination if exposed to the internet. You will need to ensure adequate persistent storage if the container downloads and caches translation models locally.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

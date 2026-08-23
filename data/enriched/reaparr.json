@@ -1,0 +1,8 @@
+{
+  "summary": "Reaparr is a cross-platform tool designed to facilitate downloading media between separate Plex servers. It automates the process of copying content collections from external libraries into your own local instance.",
+  "goodFor": "It suits administrators who manage multiple Plex servers and want to automate the synchronisation or sharing of media libraries between them.",
+  "watchOut": "Depending on your setup, copying media across servers can consume significant bandwidth and storage, and it may overlap with established download automation stacks.",
+  "deployNotes": "Since it is distributed via Docker, you will typically need to map persistent volumes for configuration and media storage, and place it behind a reverse proxy if you require external TLS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

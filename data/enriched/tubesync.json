@@ -1,0 +1,8 @@
+{
+  "summary": "Tubesync is an application that downloads and synchronises YouTube channels and playlists directly to local storage. It automates the retrieval process so that video content is mirrored on your own hardware without manual intervention. The project is implemented in Python and distributed via Docker containers under the AGPL-3.0 licence.",
+  "goodFor": "This tool is well-suited for users who want to maintain a local archive of specific online video creators or educational playlists for offline viewing.",
+  "watchOut": "Relying on scraping and downloading from third-party video platforms means that upstream layout changes frequently break functionality, requiring regular software updates.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for the downloaded media files and the application state, alongside a reverse proxy if you require external web access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

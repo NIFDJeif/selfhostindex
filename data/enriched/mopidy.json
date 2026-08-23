@@ -1,0 +1,8 @@
+{
+  "summary": "Mopidy is an extensible music server that implements the MPD protocol while connecting to external audio streaming providers. It allows you to manage and play local and remote audio collections through a single backend interface.",
+  "goodFor": "It is well-suited for users who want to control their audio playback via command-line clients or dedicated remote apps while streaming from multiple digital sources.",
+  "watchOut": "Extension stability varies depending on third-party API changes, which can occasionally break specific streaming integrations without warning.",
+  "deployNotes": "As a Python application distributed via Debian packages, it typically requires system dependencies for audio handling and persistent storage for configuration files and local library databases.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

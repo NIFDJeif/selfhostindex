@@ -1,0 +1,8 @@
+{
+  "summary": "Pretix is a ticket sales platform designed to handle event registration and admission processes. Written in Python and distributed under the AGPL-3.0 licence, it provides a self-hosted alternative for managing ticketing workflows. The software enables you to set up event storefronts and process ticket orders directly from your own infrastructure.",
+  "goodFor": "It is a suitable fit for event organisers or organisations that require direct control over their ticketing data and sales infrastructure without relying on third-party SaaS platforms.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft obligations if you modify the code and provide it as a network service to others, which may impact commercial hosting models.",
+  "deployNotes": "As a Python application packaged for Docker, you will typically need to configure persistent storage for user data, an external database backend, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

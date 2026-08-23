@@ -1,0 +1,8 @@
+{
+  "summary": "OSSN is a self-hosted social networking engine built in PHP. It provides the core functionality needed to run a dedicated community website where registered users can interact and share interests.",
+  "goodFor": "It is well-suited if you want to deploy a private or public interest-based community forum on your own infrastructure.",
+  "watchOut": "The CAL-1.0 licence places specific restrictions on commercial use and distribution, so you should review its terms carefully before adopting it for business projects.",
+  "deployNotes": "As a PHP application, it typically requires a standard LAMP or LEMP stack with a relational database and persistent storage for user uploads.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

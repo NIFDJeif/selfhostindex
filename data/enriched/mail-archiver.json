@@ -1,0 +1,8 @@
+{
+  "summary": "Mail-archiver is a self-hosted web application designed to collect, search, and export emails from IMAP and Microsoft 365 accounts, or via direct imports. It includes capabilities for folder synchronisation, attachment handling, and mailbox migration, all managed through a central dashboard.",
+  "goodFor": "It is well-suited for individuals or small organisations needing a centralised, searchable archive for multiple email accounts.",
+  "watchOut": "Maintaining a local email archive introduces significant storage growth over time and requires careful handling of sensitive credentials for your mail servers.",
+  "deployNotes": "Because it runs as a container, you will typically need to configure persistent volumes for your stored data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

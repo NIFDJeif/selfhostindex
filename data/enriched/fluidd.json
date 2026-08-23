@@ -1,0 +1,8 @@
+{
+  "summary": "Fluidd is a lightweight web-based user interface designed specifically for the Klipper 3D printer firmware. It provides operators with a responsive control panel to monitor prints, manage configuration files, and send G-code commands directly to the printer. Built using Node.js and containerised with Docker, it runs as a companion service alongside your existing printer firmware stack.",
+  "goodFor": "Makers and engineers running Klipper who want a clean, fast browser interface to manage their 3D printing workflows.",
+  "watchOut": "It is tightly coupled to Klipper ecosystem components like Moonraker, so you will need to configure multiple dependent services rather than just a standalone application.",
+  "deployNotes": "Deployment typically involves running the Docker container behind a reverse proxy to handle web traffic, with persistent volumes configured for storing configuration files and logs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Khoj is a self-hosted AI assistant designed to retrieve answers from the internet or local documents. It allows you to construct custom agents, schedule automations, and conduct research using either online or local language models.",
+  "goodFor": "It suits technical users who want to query their personal documentation and automate workflows using self-hosted or cloud-based language models.",
+  "watchOut": "The AGPL-3.0 licence requires you to release the complete source code of your modified version if you offer it as a network service, which may affect commercial usage.",
+  "deployNotes": "As a Python application packaged with Docker, it typically requires persistent volumes for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Kan is a self-hosted kanban board application designed to help you organise tasks, track project progress, and manage workflows. It serves as an open-source alternative to proprietary board tools like Trello. You can deploy it within your own infrastructure to keep project data local.",
+  "goodFor": "It is a suitable choice if you want a straightforward, self-hosted board interface for personal task tracking or team project organisation without relying on cloud services.",
+  "watchOut": "The project operates in a crowded category with many established alternatives, and you should evaluate whether its specific feature set matches your workflow needs.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

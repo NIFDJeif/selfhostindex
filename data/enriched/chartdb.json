@@ -1,0 +1,8 @@
+{
+  "summary": "ChartDB is a database diagram editor designed to help you visualise and design database schemas using a single query. It falls under the database management category, offering tools to map out structures directly from existing database instances.",
+  "goodFor": "It is a practical choice if you need to quickly generate and edit visual diagrams of your database architecture without relying on external cloud services.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which imposes strict copyleft requirements if you modify the code and offer it as a service over a network. Additionally, it overlaps with numerous established database administration and diagramming alternatives.",
+  "deployNotes": "Since it is distributed as a Docker container running on Node.js, you will typically need to configure a reverse proxy for TLS termination and ensure any necessary configuration data has persistent storage mounted.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

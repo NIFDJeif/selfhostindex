@@ -1,0 +1,8 @@
+{
+  "summary": "LiveCodes is a client-side code playground that supports a wide array of programming languages and frameworks directly in the browser. It allows developers to write, test, and share code snippets across dozens of environments without requiring server-side compilation setups for each language. The application is distributed under the MIT licence.",
+  "goodFor": "It is a good fit if you need a self-hosted, multi-language coding playground for internal team sharing, workshops, or offline development prototyping.",
+  "watchOut": "It has a modest community footprint with under two thousand repository stars, meaning you may need to rely primarily on upstream documentation for support. As a feature-rich browser-based IDE, client-side resource consumption can also be significant depending on the languages loaded.",
+  "deployNotes": "Since it is built with Node.js, you will typically run it behind a reverse proxy to handle TLS termination and manage process lifecycles. It generally does not require a dedicated database for basic operation, relying instead on static file serving or containerised Node deployment.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

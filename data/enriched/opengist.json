@@ -1,0 +1,8 @@
+{
+  "summary": "Opengist is a self-hosted pastebin application that stores snippets using Git as the underlying mechanism. It provides a web interface for managing text snippets and code sharing within your own infrastructure. The project is licensed under the AGPL-3.0 and is actively maintained.",
+  "goodFor": "It suits teams or individuals who want a private, Git-backed alternative to public pastebins for sharing code snippets.",
+  "watchOut": "The AGPL-3.0 licence places strong copyleft requirements on your deployment if you modify and network the software. It also introduces the operational overhead of managing Git repositories compared to standard database-backed pastebins.",
+  "deployNotes": "As it relies on Docker, Go, and Node.js, you will typically need to configure persistent volumes for your Git data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}

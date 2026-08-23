@@ -1,0 +1,8 @@
+{
+  "summary": "Movim is a self-hosted, federated social network built on the XMPP protocol. It allows you to run a decentralised node supporting group chats, microblogging, and user subscriptions.",
+  "goodFor": "It suits administrators who want to deploy a decentralised social platform integrated within the XMPP ecosystem.",
+  "watchOut": "Federated software often requires careful configuration of domain routing, ports, and server-to-server communication to maintain network connectivity.",
+  "deployNotes": "As a PHP and Docker application, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-23"
+}
