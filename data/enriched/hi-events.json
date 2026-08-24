@@ -1,0 +1,8 @@
+{
+  "summary": "Hi.Events is an open-source ticketing and event management platform designed for hosting conferences, concerts, and similar gatherings. It provides tools to build custom event pages and embed ticket purchasing widgets directly into external websites.",
+  "goodFor": "Organisers who want to self-host their own ticketing infrastructure and avoid paying commission fees to third-party event platforms.",
+  "watchOut": "The software is distributed under the AGPL-3.0 licence, which places strict copyleft obligations on network services if you modify and host the code.",
+  "deployNotes": "Since it is containerised with Docker, deployment typically requires persistent volumes for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

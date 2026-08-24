@@ -1,0 +1,8 @@
+{
+  "summary": "Coral provides a platform for managing online discussions and user comments on digital publications. Developed by Vox Media, it offers tools designed to improve community engagement and moderate user-generated content. The system runs on Node.js and is packaged via Docker containers.",
+  "goodFor": "Publishers and site operators looking for a dedicated, self-hosted system to handle article comments and community moderation.",
+  "watchOut": "Running a dedicated commenting platform introduces ongoing operational overhead, including database management, storage for user data, and routine software updates.",
+  "deployNotes": "Deployment typically involves setting up a Docker container alongside a persistent database instance. You will also need to configure a reverse proxy to handle TLS termination and route incoming web traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Pydio is a self-hosted file management system designed to act as an alternative to mainstream cloud storage providers. It runs on a web server to let you organise, store, and access files remotely through a browser interface. The project is implemented in Go and licensed under the AGPL-3.0.",
+  "goodFor": "It is a suitable choice if you want to replace commercial cloud storage with an on-premise file management platform. It fits teams requiring centralised document access over standard web protocols.",
+  "watchOut": "The AGPL-3.0 licence places strong copyleft requirements on your modifications, which may complicate internal compliance if you alter the source code. It also competes in a mature space against widely adopted alternatives with larger ecosystems.",
+  "deployNotes": "As a Go application, it typically compiles into a single binary, though you will still need to provision persistent storage for user files and place it behind a reverse proxy to handle TLS termination. A separate database backend is also usually required depending on the specific configuration and metadata volume.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

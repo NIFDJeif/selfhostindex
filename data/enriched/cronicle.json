@@ -1,0 +1,8 @@
+{
+  "summary": "Cronicle is a distributed task scheduler and runner equipped with a web-based user interface. It allows you to schedule and execute jobs across multiple servers from a centralised dashboard. The application is built using Node.js and distributed under the MIT licence.",
+  "goodFor": "It suits administrators who need a lightweight, self-hosted web interface to manage and monitor scheduled routines across a small to medium cluster of servers.",
+  "watchOut": "You should consider that community activity and maintenance are steady rather than rapid, meaning you may encounter delays with modern dependency updates or security patches.",
+  "deployNotes": "Because it runs on Node.js, you will typically need to provision a persistent process manager like PM2, set up a reverse proxy to handle TLS termination, and ensure local storage is configured if job logs need to persist across restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

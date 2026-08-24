@@ -1,0 +1,8 @@
+{
+  "summary": "Calagopus is a self-hosted control panel designed for managing multiplayer game servers such as Minecraft and Hytale. It provides administrative utilities to deploy, monitor, and oversee various game instances from a centralized interface. The system is built using Rust and utilizes Docker containers for deployment.",
+  "goodFor": "Administrators and communities who want a modern, open-source dashboard to manage multiple game server instances on their own hardware.",
+  "watchOut": "As a relatively niche project with a modest repository star count, you may encounter edge cases, limited community documentation, or fewer third-party integrations compared to more established game panels.",
+  "deployNotes": "Because it relies on Docker and packages via deb, you will typically need to configure persistent storage volumes for game data and set up a reverse proxy with TLS termination for secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

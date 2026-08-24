@@ -1,0 +1,8 @@
+{
+  "summary": "Mox is an all-in-one mail server written in Go that handles both sending and receiving messages. It includes built-in support for standard protocols, cryptographic authentication records, spam filtering, and an integrated webmail interface.",
+  "goodFor": "Self-hosters who want to run a complete email stack with minimal external dependencies or complex configuration scripts.",
+  "watchOut": "Running a self-hosted mail server involves significant operational overhead regarding IP reputation, delivery issues, and constant security maintenance.",
+  "deployNotes": "As a Go application, it typically compiles down to a single binary that requires persistent storage for mail data and access to standard network ports.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

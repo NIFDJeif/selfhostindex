@@ -1,0 +1,8 @@
+{
+  "summary": "The Lounge is a self-hosted web IRC client that runs on your own infrastructure. It maintains a persistent connection to chat networks so you can access your channels and direct messages from a browser.",
+  "goodFor": "It suits individuals or teams who rely on IRC for communication and want a centralized, always-on web client accessible from multiple devices.",
+  "watchOut": "You will need to manage user authentication and ensure your server is properly secured, as running an exposed web chat client carries inherent access risks.",
+  "deployNotes": "Deployment typically involves running a Docker container, where you will need to map persistent storage for user configurations and place the service behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Gonic is a music streaming server written in Go that provides a Subsonic-compatible backend for your personal audio collection. It allows you to host your own music library and stream it to various client applications over the network. You can deploy it easily using Docker containers.",
+  "goodFor": "It is a good fit if you want a lightweight solution to stream your locally stored audio collection using existing Subsonic clients.",
+  "watchOut": "The feature set relies heavily on the Subsonic API standard, which might limit advanced custom functionality found in other bespoke media servers.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for your music library and database files, alongside a reverse proxy to handle external TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

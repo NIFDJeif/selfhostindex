@@ -1,0 +1,8 @@
+{
+  "summary": "HortusFox is a collaborative plant management and tracking system designed for plant enthusiasts. It provides a centralised web interface to record and monitor plant care tasks and collection details among multiple users. The application is built using PHP and is distributed under the MIT licence.",
+  "goodFor": "It is a suitable choice for hobbyists or households wanting a dedicated, self-hosted tool to track plant care schedules collaboratively rather than relying on generic note-taking apps.",
+  "watchOut": "The software addresses a very specific niche, meaning you may find fewer integrations, community plugins, or extensive documentation compared to more mainstream self-hosted options.",
+  "deployNotes": "As a PHP application packaged for Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

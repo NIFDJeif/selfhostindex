@@ -1,0 +1,8 @@
+{
+  "summary": "Wildduck is a mail server implementation providing IMAP and POP3 protocols designed to avoid single points of failure. Written in JavaScript for the Node.js runtime, it aims to handle horizontal scaling for email delivery and storage. It is distributed under the EUPL-1.2 open source licence.",
+  "goodFor": "Self-hosters and system administrators looking to run a scalable mail delivery infrastructure using a JavaScript-centric stack.",
+  "watchOut": "Email server deployment involves complex configuration around DNS, SPF, DKIM, and reputation management, which creates a high operational burden regardless of the software used. It also has a smaller community and fewer integrations compared to traditional mail transfer agents like Postfix or Dovecot.",
+  "deployNotes": "Because it runs on Node.js and is packaged for Docker, you will typically need to configure persistent volumes for data storage and place a reverse proxy in front for handling TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

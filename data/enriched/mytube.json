@@ -1,0 +1,8 @@
+{
+  "summary": "MyTube is a self-hosted media management tool that lets you download and play content from sites supported by yt-dlp. It includes features for managing channel subscriptions, organising a local library, and uploading media to cloud storage.",
+  "goodFor": "It suits users who want a dedicated interface to automate downloading and organising video content from various supported platforms onto their own hardware.",
+  "watchOut": "The absence of tagged releases suggests that stability may vary, requiring you to rely on rolling updates or source builds which could introduce breaking changes.",
+  "deployNotes": "Since it runs via Docker and Node.js, you will typically need to mount persistent volumes for your downloaded media library and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

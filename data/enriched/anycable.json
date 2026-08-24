@@ -1,0 +1,8 @@
+{
+  "summary": "AnyCable is a backend server designed to handle persistent, real-time connections using protocols like WebSockets and Server-Sent Events. It allows applications to manage high volumes of concurrent bidirectional data streams without overwhelming traditional application servers.",
+  "goodFor": "It suits systems that need to scale concurrent real-time connections beyond the typical capacity of standard web frameworks.",
+  "watchOut": "Running a dedicated socket server adds architectural complexity and requires careful capacity planning for persistent memory and connection states.",
+  "deployNotes": "As a Go application packaged for containers, you will typically run it behind a reverse proxy handling TLS and couple it with an external message broker like Redis for inter-process communication.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

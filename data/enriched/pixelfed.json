@@ -1,0 +1,8 @@
+{
+  "summary": "Pixelfed is a self-hosted image-sharing platform that operates as a federated alternative to centralised services like Instagram. Built on PHP and utilising the ActivityPub protocol, it allows users to publish and share photographs while connecting with others across the wider decentralized social web.",
+  "goodFor": "It suits individuals or small communities looking for an independent, standards-compliant photo-sharing space without corporate tracking or data collection.",
+  "watchOut": "Federated networks require active moderation tools and can be resource-intensive depending on media storage volumes and the number of remote instances you interact with.",
+  "deployNotes": "Hosting typically requires a standard PHP runtime environment, a relational database such as PostgreSQL or MySQL, and persistent object storage for uploaded media files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

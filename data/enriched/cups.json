@@ -1,0 +1,8 @@
+{
+  "summary": "CUPS is a print management system built in C that relies on the Internet Printing Protocol to handle output jobs. It acts as the underlying service on Unix-like environments to route documents between local machines and networked printing hardware.",
+  "goodFor": "This is a suitable choice if you manage a traditional Unix-like network and need a standardised mechanism to queue and dispatch print jobs.",
+  "watchOut": "Configuring the underlying driver rules and network queues can involve complex troubleshooting, and legacy endpoints can expose security vulnerabilities if left unpatched.",
+  "deployNotes": "As a compiled C application, it typically runs directly on the host system as a persistent background daemon without requiring a separate database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

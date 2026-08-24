@@ -1,0 +1,8 @@
+{
+  "summary": "Fredy is an automation tool designed to scrape property listings from German real estate portals such as ImmoScout24 and Immowelt. It aggregates newly posted apartments, houses, and flats, and forwards the results directly to messaging platforms including Slack and Telegram.",
+  "goodFor": "This is a practical solution if you are actively searching for housing in Germany and want to automate the process of checking listing sites manually.",
+  "watchOut": "Real estate portals frequently update their layouts and anti-scraping measures, which can break automated polling and require regular maintenance of your scraper configuration.",
+  "deployNotes": "You can run this via Docker on your own server, ensuring you provide persistent storage for any configuration data and a reverse proxy if you need secure external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

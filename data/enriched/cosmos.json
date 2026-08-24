@@ -1,0 +1,8 @@
+{
+  "summary": "Cosmos is an application gateway and server management tool designed to run containerised services with integrated privacy controls. Written in Go and built around Docker, it functions as a protective entry point while helping administrators oversee their hosting environment. It provides structural organisation for self-hosted infrastructure without requiring complex manual networking setups.",
+  "goodFor": "Self-hosters looking for an all-in-one control panel to manage Docker containers and secure inbound traffic through a unified gateway.",
+  "watchOut": "The licensing combines Apache-2.0 with a Commons-Clause restriction, which may limit commercial usage or redistribution depending on your interpretation. It also has a moderate development momentum, meaning you should evaluate its long-term stability for critical workloads.",
+  "deployNotes": "Because it relies on Docker and Go, you will typically need to mount persistent volumes for configuration data and ensure your host machine has proper port mapping for its gateway functionality.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

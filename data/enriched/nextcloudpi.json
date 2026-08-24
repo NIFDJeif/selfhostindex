@@ -1,0 +1,8 @@
+{
+  "summary": "NextCloudPi provides a preconfigured implementation of the Nextcloud platform, bundling a web and text management interface to simplify setting up a private data hosting server. It supplies ready-to-use installation images for various single-board computers and container environments alongside scripts for Debian-based distributions.",
+  "goodFor": "It is well-suited for users wanting to deploy private file storage and synchronisation on ARM-based single-board computers or local hardware without manual configuration.",
+  "watchOut": "Preconfigured appliance layers can obscure underlying system states, potentially complicating manual troubleshooting or advanced customisations when updates fail.",
+  "deployNotes": "As a PHP and shell-based application stack, it typically requires persistent storage volumes to retain user data safely across container or device restarts, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Apostrophe is a content management system built with Node.js that prioritises in-context editing tools. It allows content authors to modify web pages directly within the live layout rather than relying solely on traditional admin dashboards. The project is available under the MIT licence and has gathered a moderate community following.",
+  "goodFor": "Development teams using Node.js who want to build custom, editable web pages where clients can modify text and layouts directly on the screen.",
+  "watchOut": "The lack of recent tagged releases may indicate that installation requires pulling directly from development branches, which can introduce instability.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent server environment, a process manager like PM2, and a reverse proxy such as Nginx to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

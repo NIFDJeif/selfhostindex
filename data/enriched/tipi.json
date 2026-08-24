@@ -1,0 +1,8 @@
+{
+  "summary": "Tipi is a homeserver manager designed to simplify the deployment of self-hosted applications on your own hardware. It provides a command-line setup script alongside a web interface that allows you to install various services with minimal configuration. The project falls under the self-hosting solutions category.",
+  "goodFor": "It is a practical choice if you want to quickly spin up multiple containerised applications on a home server without configuring each one manually.",
+  "watchOut": "You should consider how its specific management model fits your existing server setup, as it may overlap with or conflict with established container management workflows.",
+  "deployNotes": "Because the installation is driven by shell scripts, you will typically need a Unix-like environment with root access and proper persistent storage volumes configured for your applications.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Ombi provides a self-hosted platform allowing users to submit requests for media content to be added to their personal servers. It integrates with various media management and automation tools to handle the request lifecycle from submission to availability. The project is open-source, written in C#, and maintains an active development cycle.",
+  "goodFor": "This is a suitable choice for administrators of shared media servers who want a dedicated interface for user requests rather than managing them informally.",
+  "watchOut": "You may find that setting up and maintaining multiple downstream integrations requires careful configuration and troubleshooting when upstream APIs change.",
+  "deployNotes": "As a C# application typically distributed via deb packages, you will usually need to configure persistent storage for application data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

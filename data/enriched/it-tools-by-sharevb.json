@@ -1,0 +1,8 @@
+{
+  "summary": "IT-Tools is a web-based collection of utilities designed for developers and system administrators. It groups common conversion, encoding, generation, and formatting functions into a single interface. The project is a community-maintained fork of the original it-tools repository.",
+  "goodFor": "A good fit if you want a self-hosted alternative to public online utility websites for your internal team or personal lab.",
+  "watchOut": "It duplicates functionality easily found in command-line tools, browser extensions, or existing single-purpose web apps.",
+  "deployNotes": "It typically deploys as a stateless container using Docker, meaning you only need to configure port mapping and a reverse proxy for HTTPS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

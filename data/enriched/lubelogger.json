@@ -1,0 +1,8 @@
+{
+  "summary": "LubeLogger is a web-based application designed to log and monitor vehicle maintenance records and fuel economy. It provides a centralised interface to record service history, fuel fill-ups, and operational costs for one or more vehicles. This helps vehicle owners maintain a systematic digital logbook of their fleet or personal transport.",
+  "goodFor": "It is a practical tool for vehicle owners and small fleet operators who want to self-host their maintenance records rather than relying on commercial mobile apps.",
+  "watchOut": "As a niche utility, it may lack the extensive third-party integrations or automated data imports found in larger commercial fleet management platforms, meaning all entries must be managed manually.",
+  "deployNotes": "Containerised deployment via Docker or Kubernetes is straightforward, and you will typically need to configure a persistent volume to ensure your maintenance logs and configuration data survive container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

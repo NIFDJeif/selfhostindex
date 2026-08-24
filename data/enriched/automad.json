@@ -1,0 +1,8 @@
+{
+  "summary": "Automad is a flat-file content management system combined with an integrated template engine. It allows you to build and manage websites directly from text files stored on your server without needing a separate relational database. Content is structured and rendered through its native templating syntax.",
+  "goodFor": "Deployments where you want a lightweight, file-based publishing workflow without the overhead of managing a traditional database-backed CMS.",
+  "watchOut": "Flat-file architectures can become harder to query and manage efficiently as content volume grows very large. It also has a smaller community and ecosystem compared to dominant alternatives like WordPress.",
+  "deployNotes": "Because it relies on a flat-file structure, you must ensure that your persistent storage volume is correctly mounted for your Docker container. You will also typically need to place it behind a reverse proxy to handle TLS termination and domain routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

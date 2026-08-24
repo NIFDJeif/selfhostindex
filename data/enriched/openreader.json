@@ -1,0 +1,8 @@
+{
+  "summary": "OpenReader is a self-hosted document reader that converts text files, EPUBs, PDFs, DOCX documents, and Markdown notes into speech. It allows you to listen to documents in real time using text-to-speech engines or export them as audiobooks.",
+  "goodFor": "It suits individuals who want to convert their personal document libraries into audio formats or listen to reading materials on private infrastructure.",
+  "watchOut": "High-quality text-to-speech processing can be resource-intensive, requiring adequate hardware depending on the TTS engines utilised.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volume mounts to retain your document library and generated audio files, alongside a reverse proxy for HTTPS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

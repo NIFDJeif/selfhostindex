@@ -1,0 +1,8 @@
+{
+  "summary": "TileServer GL is a self-hosted map tile server that processes vector and raster map data using Mapbox GL styles. It provides map rendering capabilities for web clients, mobile applications, and GIS software via standard protocols such as WMTS.",
+  "goodFor": "This is a suitable choice if you need to serve custom-styled map tiles locally or privately without relying on third-party mapping APIs.",
+  "watchOut": "Server-side rendering using Mapbox GL Native can be resource-intensive under heavy traffic, requiring careful hardware provisioning and monitoring.",
+  "deployNotes": "You can typically deploy the application using Docker, and you will usually need persistent storage for your map data files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

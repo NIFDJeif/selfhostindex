@@ -1,0 +1,8 @@
+{
+  "summary": "AnonAddy is a self-hosted email forwarding service designed to help you create and manage distinct aliases. By routing messages through a central server, it lets you hide your primary email address from third-party services. It is provided under the MIT licence and developed using PHP and Docker.",
+  "goodFor": "It is a suitable choice for privacy-conscious users who want to host their own email routing infrastructure rather than relying on a managed third-party service.",
+  "watchOut": "Operating your own email forwarding infrastructure carries a significant maintenance burden regarding domain reputation, DNS configuration, and reliable delivery to external inboxes.",
+  "deployNotes": "As a PHP and Docker application, deployment typically involves setting up a container runtime, a persistent database backend, and a reverse proxy to handle TLS termination and incoming mail routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

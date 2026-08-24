@@ -1,0 +1,8 @@
+{
+  "summary": "ZenTao is an open-source project management application tailored for agile and Scrum workflows. It helps development teams plan sprints, track tasks, and monitor software delivery cycles. The project is implemented in PHP and licensed under the AGPL-3.0.",
+  "goodFor": "Teams following Scrum methodologies who need a dedicated self-hosted platform to coordinate software development tasks and track project milestones.",
+  "watchOut": "The AGPL-3.0 licence places strict copyleft obligations on network services, which may affect your organisation if you modify and distribute the code. It also competes directly with widely adopted alternatives like Jira and Redmine, meaning migration and user familiarity could be hurdles.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or MariaDB, and persistent storage for file uploads. You will also need to configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

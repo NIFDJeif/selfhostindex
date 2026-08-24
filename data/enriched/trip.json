@@ -1,0 +1,8 @@
+{
+  "summary": "TRIP is a self-hosted tool designed for tracking points of interest on maps and organising itineraries. It functions as a centralised planner for geographic locations and travel routes. The application is distributed under the MIT licence and provides containerised deployment.",
+  "goodFor": "It suits individuals looking for a lightweight, self-hosted alternative to commercial map trackers and itinerary planners.",
+  "watchOut": "With a modest community and standard maintenance metrics, you may encounter edge cases or lack support compared to mainstream travel platforms.",
+  "deployNotes": "As a Docker-based service, you will typically need to configure persistent volumes for your map data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

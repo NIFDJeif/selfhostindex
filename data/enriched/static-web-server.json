@@ -1,0 +1,8 @@
+{
+  "summary": "Static Web Server is a cross-platform, asynchronous utility designed specifically for serving static files over HTTP. Built in Rust, it aims to deliver high performance while handling multiple requests concurrently with low resource overhead.",
+  "goodFor": "It is well-suited for developers who need a lightweight, dedicated binary or container to serve pre-compiled frontend assets, documentation, or static sites.",
+  "watchOut": "It focuses strictly on static files, meaning you will need separate solutions for dynamic backend processing, database integration, or complex application routing.",
+  "deployNotes": "Because it typically runs as a standalone container or binary, you will usually need to mount a volume containing your static assets and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

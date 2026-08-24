@@ -1,0 +1,8 @@
+{
+  "summary": "Shaper is an analytics tool designed for constructing data dashboards using only SQL queries. It relies on DuckDB as its underlying engine to process and query datasets efficiently. The application is distributed under the MPL-2.0 licence.",
+  "goodFor": "It is well-suited for engineers and analysts who prefer writing SQL over configuring complex graphical dashboard builders.",
+  "watchOut": "As it relies on DuckDB and SQL for dashboard generation, it may have a steeper learning curve for non-technical users and could face performance bottlenecks with extremely large, distributed datasets compared to dedicated enterprise data warehouses.",
+  "deployNotes": "Given its containerised stack utilising Node.js, Python, and Go, you will typically need to provide persistent storage volumes for your data and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

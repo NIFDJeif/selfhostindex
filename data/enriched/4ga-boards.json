@@ -1,0 +1,8 @@
+{
+  "summary": "4ga Boards is a self-hosted kanban board application designed for realtime task tracking and project management. It provides a dark mode interface with collapsible to-do lists and tools intended to support team workflows. The project is available under the MIT licence and relies on a Node.js stack.",
+  "goodFor": "Teams looking for an open-source, lightweight kanban tool that can be deployed locally using standard container infrastructure.",
+  "watchOut": "It faces competition from deeply established project management tools, meaning community plugins and extended ecosystem integrations may be limited.",
+  "deployNotes": "Given the Node.js and Docker stack, you will typically need to configure persistent storage for your data, set up a reverse proxy to handle TLS termination, and manage container orchestration via Kubernetes if scaling.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

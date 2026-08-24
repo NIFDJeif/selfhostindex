@@ -1,0 +1,8 @@
+{
+  "summary": "LMS is a self-hosted audio streaming server that lets you access your personal music collection through a standard web interface. Written in C++, it is designed to run on your own hardware so you can stream your audio files remotely. The project is actively maintained with regular tagged releases under the GPL-3.0 licence.",
+  "goodFor": "It suits individuals who want a dedicated, self-hosted web player for their local music library without relying on third-party cloud services.",
+  "watchOut": "As an audio streaming platform focusing on a web interface, it competes in a crowded field alongside more mature alternatives like Navidrome or Plex, meaning you might find fewer community plugins or client apps.",
+  "deployNotes": "You can deploy it using Docker or standard Debian packages, and you will typically need to map persistent storage for your music files and configure a reverse proxy to handle secure HTTPS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "WYGIWYH is a self-hosted finance tracker designed to help you monitor and manage your money and budgets. It provides a centralised interface for recording transactions and reviewing financial standing on your own infrastructure.",
+  "goodFor": "It is well-suited for individuals wanting a dedicated, self-hosted tool for personal budgeting and transaction tracking under the AGPL-3.0 licence.",
+  "watchOut": "Given the early release version, expect potential API or schema changes, and note that it overlaps heavily with more established open-source personal finance platforms.",
+  "deployNotes": "As a Docker-based application written in Python, deployment typically requires persistent volume mounts for database or file storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Peergos is a self-hosted platform designed for private file storage and management, supporting photos, videos, music, and documents. It also bundles collaborative tools such as a calendar, news feed, task lists, chat, and an email client within a single application.",
+  "goodFor": "It suits users looking for an all-in-one, privacy-focused alternative to mainstream cloud storage and productivity suites on their own infrastructure.",
+  "watchOut": "The lack of a tagged release in the version history and a moderate maintenance health score mean you should vet stability carefully before depending on it for critical data.",
+  "deployNotes": "Because the application is built with Java, you will typically need to allocate sufficient memory for the Java Virtual Machine and place the service behind a reverse proxy to handle TLS termination and persistent storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

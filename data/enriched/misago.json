@@ -1,0 +1,8 @@
+{
+  "summary": "Misago is a self-hosted forum application designed to handle community discussions. It provides a responsive interface for user interaction and topic management.",
+  "goodFor": "It suits administrators looking for a modern community platform deployed via containerised infrastructure.",
+  "watchOut": "You may find a smaller ecosystem of plugins and themes compared to more established forum software.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

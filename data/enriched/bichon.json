@@ -1,0 +1,8 @@
+{
+  "summary": "Bichon is a self-hosted email archiving server that connects to your existing IMAP accounts to sync and index messages. It provides full-text search capabilities and exposes a REST API alongside a web interface with support for multiple accounts. The system operates without needing an external database.",
+  "goodFor": "It is well-suited for individuals or small teams who want to maintain an independent, searchable archive of multiple email accounts on their own infrastructure.",
+  "watchOut": "The project relies on the AGPL-3.0 licence, which has strict copyleft implications if you modify and network the software, and it is a niche alternative compared to more established mail archiving solutions.",
+  "deployNotes": "As a Docker container implemented in Rust, deployment typically requires mounting a persistent volume for data storage and placing the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

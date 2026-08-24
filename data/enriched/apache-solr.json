@@ -1,0 +1,8 @@
+{
+  "summary": "Apache Solr is an enterprise search platform built for processing text and document data. It provides indexing capabilities to handle full-text queries, faceted navigation, and content extraction from files like PDFs and Word documents.",
+  "goodFor": "It suits large-scale document repositories and applications requiring complex, real-time search queries across structured and unstructured data.",
+  "watchOut": "Operational overhead can be high due to the complexity of tuning and maintaining a Java-based search cluster at scale.",
+  "deployNotes": "Containerised deployments typically require persistent storage volumes for index data and adequate Java memory allocation within your orchestrator.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}

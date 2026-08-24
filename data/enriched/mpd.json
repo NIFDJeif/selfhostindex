@@ -1,0 +1,8 @@
+{
+  "summary": "mpd is a background service that runs on your server to manage, organise, and stream audio collections. Because it operates headless, you connect to it using separate client applications to control playback and manage your playlists remotely.",
+  "goodFor": "It is well-suited for tech-savvy users who want a lightweight, decentralised audio backend that can be controlled from various client devices across a local network.",
+  "watchOut": "You will need to configure and manage a separate client application to interact with the daemon, as it does not provide a built-in user interface out of the box.",
+  "deployNotes": "As a C++ daemon, it typically runs as a system service with access to local storage for your audio files and does not usually require an external database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-24"
+}
