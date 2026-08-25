@@ -1,0 +1,8 @@
+{
+  "summary": "Featbit is a self-hosted feature flag platform designed for software development workflows. It allows engineering teams to toggle application features on and off remotely without requiring a new deployment. This capability helps manage rollouts and test changes in production environments.",
+  "goodFor": "Development teams requiring an open-source, self-hosted feature toggle system under an MIT licence. It suits organisations that need to keep control of their feature flag infrastructure and telemetry data in-house.",
+  "watchOut": "Self-hosting a dedicated flag management service introduces an operational dependency for your application runtime, meaning any downtime of the platform could impact feature flag evaluation. It also competes in a crowded space alongside mature commercial and open-source alternatives.",
+  "deployNotes": "As it relies on Docker and Kubernetes, deployment typically involves managing container orchestration manifests and persistent storage for state. You will usually need to configure an external database and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

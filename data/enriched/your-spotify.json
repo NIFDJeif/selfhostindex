@@ -1,0 +1,8 @@
+{
+  "summary": "Your Spotify is a self-hosted application that captures your music streaming history and displays listening statistics via a web interface. It runs as a Docker container and relies on Node.js, storing your data locally for private analysis.",
+  "goodFor": "This is a good fit for users who want to retain a permanent, self-hosted record of their music consumption without relying on third-party analytical services.",
+  "watchOut": "You will need to register a developer application with the streaming provider to obtain the necessary API credentials for data collection to function.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for your collected data and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

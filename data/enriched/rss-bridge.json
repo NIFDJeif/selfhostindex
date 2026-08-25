@@ -1,0 +1,8 @@
+{
+  "summary": "RSS-Bridge is a self-hosted tool that generates standard RSS and Atom feeds for websites that do not natively provide them. It acts as a translation layer, scraping target sites to output syndication formats that your regular feed reader can consume. This allows you to centralise updates from platforms that lack subscription options.",
+  "goodFor": "Anyone who relies on a central feed reader and wants to follow websites, forums, or social platforms that only display content on their own pages.",
+  "watchOut": "Target websites frequently update their layouts, which can break individual bridges and require constant maintenance or community updates to keep working.",
+  "deployNotes": "As a PHP application available via Docker, it typically requires a persistent volume if you modify default configurations, and sits behind a standard reverse proxy handling TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "TYPO3 is a content management system designed for building and maintaining websites and digital publishing platforms. It provides structured tooling to organise pages, manage media assets, and control multi-user editing workflows. Built using PHP, it relies on a traditional server-side rendering stack.",
+  "goodFor": "It suits organisations requiring a structured publishing platform with strict editorial roles and multi-site management capabilities.",
+  "watchOut": "The platform has a steep learning curve for administration and customisation, and it shares a crowded space with better-known alternatives like WordPress and Drupal.",
+  "deployNotes": "Deployment typically requires a standard PHP runtime environment, a relational database such as MySQL or PostgreSQL, and a web server like Nginx or Apache with TLS termination configured via a reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

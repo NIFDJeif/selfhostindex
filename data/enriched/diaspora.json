@@ -1,0 +1,8 @@
+{
+  "summary": "diaspora* is a distributed social networking server that allows you to self-host an independent node within a federated network. It handles user profiles, posts, and interactions across multiple autonomous servers rather than relying on a single centralised platform. The project is written in Ruby and licensed under the AGPL-3.0.",
+  "goodFor": "It suits individuals or small communities wanting to run an independent social network without depending on commercial platforms. It is also relevant if you specifically prefer the Ruby ecosystem for your federated communication tools.",
+  "watchOut": "Federated software often requires active moderation of incoming content from other nodes and can suffer from low user adoption compared to mainstream alternatives. The project maintains a steady development pace, but federated protocols can occasionally present network-wide synchronization challenges.",
+  "deployNotes": "As a Ruby application, it typically requires a dedicated application server such as Puma alongside a database like PostgreSQL and a reverse proxy for TLS termination. You will also need to configure persistent storage for user uploads and ensure background worker queues are running.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

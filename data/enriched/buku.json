@@ -1,0 +1,8 @@
+{
+  "summary": "Buku is a command-line bookmark manager and textual web archiver. It allows you to store, organise, search and tag web links locally from your terminal. It functions as a personal offline repository for managing your frequently accessed URLs.",
+  "goodFor": "Terminal-centric users who prefer managing their bookmarks through a lightweight command-line interface rather than a browser extension or graphical web service.",
+  "watchOut": "It lacks a native graphical user interface and requires comfort with command-line tools, which may limit its appeal if you rely on visual bookmark sync across multiple devices.",
+  "deployNotes": "As a Python application packaged via debian formats, it typically requires a persistent local data directory for its storage backend and can be run directly on any standard Linux host with Python installed.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

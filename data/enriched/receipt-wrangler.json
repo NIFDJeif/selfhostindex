@@ -1,0 +1,8 @@
+{
+  "summary": "Receipt Wrangler is a self-hosted tool designed to help you manage and categorise your receipts. It incorporates artificial intelligence features to assist with processing your expense documents quickly and with minimal manual effort.",
+  "goodFor": "It suits individuals or small teams wanting to organise their financial paperwork on their own hardware rather than relying on a commercial cloud service.",
+  "watchOut": "The codebase has a modest community following and you should verify whether its specific AI capabilities depend on external third-party API keys or local models.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

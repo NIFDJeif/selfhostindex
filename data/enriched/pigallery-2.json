@@ -1,0 +1,8 @@
+{
+  "summary": "PiGallery 2 is a directory-first photo gallery web application designed to serve image collections from a local folder structure. It features a rich user interface while maintaining a lightweight footprint, making it particularly well-suited for running on low-resource hardware.",
+  "goodFor": "It is a practical choice if you want to self-host and browse a large existing directory of photos on modest hardware without complex database setups.",
+  "watchOut": "The project relies heavily on directory structures rather than advanced metadata management, and it may lack some of the sophisticated machine learning features found in heavier alternatives.",
+  "deployNotes": "You can deploy it using Docker with persistent volume mounts mapped to your local photo directory. A reverse proxy is typically required in front of the Node.js backend if you want to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

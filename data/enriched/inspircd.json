@@ -1,0 +1,8 @@
+{
+  "summary": "InspIRCd is a modular Internet Relay Chat server written in C++ and designed to run across multiple operating systems including Linux, BSD, Windows, and macOS. It allows you to host your own chat network using a structured, plugin-based architecture for customising server behaviour. As an open-source communication tool licensed under the GPL-2.0, it provides the core infrastructure required to handle client connections and channel routing.",
+  "goodFor": "It is a suitable choice if you need to run a lightweight, self-hosted chat network with modular extensions for specific moderation or routing requirements.",
+  "watchOut": "Managing an IRC server requires familiarity with network administration, user permission configurations, and handling potential abuse or spam manually. It also occupies a niche protocol space that has been largely superseded by modern web-based chat platforms for general team collaboration.",
+  "deployNotes": "Containerised deployments using Docker typically require persistent storage volumes to retain configuration files and logs across restarts. You will also usually need to configure TLS termination externally or via server modules if you require encrypted client connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

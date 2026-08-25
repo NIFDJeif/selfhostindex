@@ -1,0 +1,8 @@
+{
+  "summary": "Black Candy is a self-hosted audio streaming server designed to let you host and listen to your personal music collection over the network. It provides a web-based interface for playback and library management, functioning as a private alternative to commercial cloud streaming services. The project is open source under the MIT licence.",
+  "goodFor": "It is a suitable choice if you want to store your music files on your own hardware and stream them to your personal devices without relying on third-party services.",
+  "watchOut": "The project has a moderate maintenance profile and a smaller community compared to long-standing media server alternatives, which may mean fewer extensions or community-built companion apps.",
+  "deployNotes": "As it is packaged with Docker, you will typically need to map persistent volumes for your music library and database storage, as well as configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

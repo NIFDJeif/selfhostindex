@@ -1,0 +1,8 @@
+{
+  "summary": "Ryot is a self-hosted personal dashboard designed to track various facets of your daily life, such as media consumption and fitness routines. It provides a centralised interface to log and monitor personal data using containerised infrastructure. The project is open-source under the GPL-3.0 licence and maintains an active community base on GitHub.",
+  "goodFor": "It is a suitable tool if you want a dedicated, private space to aggregate your personal statistics and lifestyle metrics without relying on third-party cloud services.",
+  "watchOut": "The codebase has a moderate maintenance health score, meaning you should be prepared to handle potential bugs or slower update cycles for niche features.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Ergo is an IRCv3 server implemented in Go that integrates traditional daemon functions, network services, and bouncer capabilities into a single binary. It manages real-time text communication channels and client connections according to modern Internet Relay Chat specifications. The software is distributed under the MIT licence.",
+  "goodFor": "Self-hosters who want to run a lightweight, consolidated chat infrastructure without managing separate services and bouncer daemons.",
+  "watchOut": "Adopters may face a smaller community and fewer troubleshooting resources compared to older, more established IRC servers like InspIRCd or UnrealIRCd.",
+  "deployNotes": "Since it is packaged for Docker and written in Go, you will typically need to configure persistent storage for state data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

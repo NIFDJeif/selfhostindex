@@ -1,0 +1,8 @@
+{
+  "summary": "MantisBT is a web-based issue tracking system designed primarily for software development teams. It helps you log, assign, and monitor software bugs, tasks, and feature requests throughout a project lifecycle. The application is written in PHP and distributed under the GNU General Public License.",
+  "goodFor": "It suits small to medium-sized development teams looking for a traditional, self-hosted bug tracker with mature ticketing workflows. It is also an option if you require a GPL-licensed PHP tool that can run on standard LAMP stacks.",
+  "watchOut": "The project exhibits steady maintenance but lacks recent tagged releases, which may concern teams seeking rapid feature development or modern UI updates. It also competes in a crowded category against widely adopted alternatives like Jira or GitLab issues.",
+  "deployNotes": "You will typically deploy this on a standard web server running PHP alongside a relational database such as MySQL or MariaDB. Persistent storage is required for uploaded attachments, and you should use a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

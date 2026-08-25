@@ -1,0 +1,8 @@
+{
+  "summary": "Paaster is a self-hosted pastebin service designed for sharing text securely. It uses end-to-end encryption to ensure that the content remains private while keeping the user interface straightforward.",
+  "goodFor": "Users who want a private, encrypted alternative to public text-sharing websites and prefer a minimalist approach.",
+  "watchOut": "The project is relatively niche with a modest community footprint, meaning you may need to rely on the source code rather than extensive documentation for troubleshooting.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure a reverse proxy to handle TLS termination and ensure any necessary data persistence volumes are mapped correctly.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

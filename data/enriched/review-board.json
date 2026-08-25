@@ -1,0 +1,8 @@
+{
+  "summary": "Review Board is a self-hosted code review tool designed to help development teams inspect, discuss, and track changes to source code. It provides structured workflows for developers to submit patches or pull requests, receive feedback from peers, and iterate on code quality before merging. The project is distributed under the MIT licence and built with Python.",
+  "goodFor": "It is a suitable fit for engineering teams that require an independent, self-hosted platform specifically dedicated to code review and asynchronous developer collaboration.",
+  "watchOut": "You should consider that it occupies a crowded space alongside integrated Git hosting platforms with native code review, meaning adoption may duplicate existing toolsets.",
+  "deployNotes": "Because the application runs via Docker and relies on Python, you will typically need to configure persistent storage for uploaded files and attach a separate relational database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

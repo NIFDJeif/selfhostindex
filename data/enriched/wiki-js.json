@@ -1,0 +1,8 @@
+{
+  "summary": "Wiki.js is a self-hosted documentation platform built on Node.js that stores pages as Markdown files and synchronises them directly with a Git repository. It provides a structured web interface for teams or individuals to author and organise reference materials, technical notes, or knowledge bases.",
+  "goodFor": "It is well-suited for technical teams who already manage their workflows around Git repositories and prefer writing documentation in plain text Markdown.",
+  "watchOut": "The AGPL-3.0 licence may present compliance challenges if you intend to modify the source code and offer it as a service over a network. Additionally, the maintenance pace has slowed recently.",
+  "deployNotes": "You will typically run this application via Docker or Kubernetes, ensuring you mount persistent storage for your configuration and database files. A reverse proxy such as Nginx or Caddy is usually required in front of the Node.js process to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Xandikos is an open-source CardDAV and CalDAV server designed to handle calendar and contact synchronisation with minimal administrative overhead. It stores all data directly within a Git repository, allowing you to track changes and manage history simply. The software is built with Python and distributed as a Debian package.",
+  "goodFor": "Self-hosters who want a lightweight calendar and contacts backend that integrates easily with existing Git workflows for backups and version control.",
+  "watchOut": "Using a Git repository as the backing store may lead to performance bottlenecks or merge conflicts if you have heavy, concurrent write operations from multiple clients.",
+  "deployNotes": "You will typically need to run it behind a reverse proxy to handle TLS termination, and ensure persistent storage is configured so the underlying Git repository survives container or service restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

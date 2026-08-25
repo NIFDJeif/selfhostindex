@@ -1,0 +1,8 @@
+{
+  "summary": "Open-Meteo is a self-hosted weather API that aggregates forecasts, historical records, and climate data sourced from major national meteorological services. It provides programmatic access to meteorological information through open data sets without relying on third-party commercial endpoints. The software is packaged as a Docker container.",
+  "goodFor": "It is well-suited for developers who want to integrate weather data into their applications while maintaining complete control over their data pipeline and avoiding external API rate limits or subscription fees.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft obligations if you modify the code and distribute it over a network. Additionally, maintaining a local instance requires dealing with large data sets and ongoing updates to ensure forecasting accuracy.",
+  "deployNotes": "You will typically deploy this via Docker alongside a reverse proxy to handle TLS termination. Persistent storage volumes are usually required to cache historical records and forecast data locally.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

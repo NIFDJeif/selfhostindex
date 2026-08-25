@@ -1,0 +1,8 @@
+{
+  "summary": "Request Tracker is an enterprise-grade issue tracking system designed to manage and triage incoming support requests, bug reports, and operational tasks. It handles communication workflows, ticket routing, and status tracking across organisational teams. Built on Perl and licensed under the GPL-2.0, it provides a structured platform for managing high volumes of correspondence.",
+  "goodFor": "It is well-suited for larger organisations, IT service desks, and support teams that require a self-hosted, customisable ticketing system with rigorous access controls.",
+  "watchOut": "Deploying and maintaining Perl-based web applications can involve a steeper operational learning curve and more complex dependency management compared to newer stack alternatives.",
+  "deployNotes": "You will typically need to provision a separate relational database, configure a web server with a FastCGI or PSGI interface, and place a reverse proxy in front for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

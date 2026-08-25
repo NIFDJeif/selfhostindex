@@ -1,0 +1,8 @@
+{
+  "summary": "Gerrit is a web-based code review and project management tool designed for Git repositories. It allows engineering teams to examine changes, propose patches, and manage project workflows before code is merged into the main codebase.",
+  "goodFor": "Development teams managing Git-based projects who require structured, line-by-line code review workflows before changes are integrated.",
+  "watchOut": "It requires familiarity with Git review workflows and carries a maintenance overhead, overlapping heavily with widely used alternatives like GitHub and GitLab.",
+  "deployNotes": "As a Java application available via Docker, you will typically need to configure persistent storage volumes for repository data, set up a database, and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Bencher provides a suite of continuous benchmarking tools designed to detect performance regressions within your CI pipelines. It helps development teams monitor code performance metrics over time by integrating directly into automated build and test workflows.",
+  "goodFor": "Development teams that need to track performance metrics across builds and want to catch performance degradations before code reaches production.",
+  "watchOut": "Adopting a self-hosted benchmarking tool requires ongoing maintenance of historical performance data and careful configuration of your CI environment to ensure consistent measurement hardware.",
+  "deployNotes": "As a Rust application, it typically compiles down to a lightweight binary that requires a persistent database for storing historical benchmark results and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

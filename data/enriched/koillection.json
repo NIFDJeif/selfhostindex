@@ -1,0 +1,8 @@
+{
+  "summary": "Koillection is a self-hosted web service designed for cataloguing and organising physical or digital personal collections. It provides a structured interface to keep track of items, categories, and related metadata.",
+  "goodFor": "It suits individuals who want a dedicated, self-hosted system to inventory personal belongings, media, or memorabilia rather than relying on commercial spreadsheet tools.",
+  "watchOut": "The project serves a niche use case and overlaps with broader personal knowledge management systems or generic database tools, which might offer more flexibility.",
+  "deployNotes": "As a Docker-based PHP application, it typically requires persistent storage volumes for uploaded images and user data, alongside a separate database container and a reverse proxy for HTTPS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

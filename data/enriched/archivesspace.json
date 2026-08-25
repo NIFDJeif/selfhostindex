@@ -1,0 +1,8 @@
+{
+  "summary": "ArchivesSpace is an information management application designed for cataloguing and providing web access to physical archives, manuscripts, and digital objects. It helps institutions organise complex archival collections and publish descriptions for researchers. The project is implemented in Ruby and distributed under the Educational Community License.",
+  "goodFor": "Libraries, museums, and university archives that need a dedicated system to catalogue and publish collection guides for public web access.",
+  "watchOut": "The software has a modest community footprint on code repositories, which may mean fewer third-party extensions and less community troubleshooting documentation compared to mainstream content management systems.",
+  "deployNotes": "As a Ruby application, it typically requires a relational database backend, a process manager like Puma or Unicorn, and a reverse proxy such as Nginx to handle TLS termination and static assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

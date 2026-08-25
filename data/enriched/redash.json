@@ -1,0 +1,8 @@
+{
+  "summary": "Redash is an analytics tool designed to connect to various data sources so you can write queries and build visual dashboards. It allows teams to share these data visualisations and insights across their organisation.",
+  "goodFor": "Teams that need a self-hosted workspace to query multiple databases and assemble shared reporting dashboards.",
+  "watchOut": "The project shows signs of slowing maintenance activity, which may impact long-term security updates and community support.",
+  "deployNotes": "As it relies on Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

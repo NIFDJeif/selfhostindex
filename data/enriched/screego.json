@@ -1,0 +1,8 @@
+{
+  "summary": "Screego enables browser-based screen sharing for single or multiple viewers without requiring external third-party services. Built in Go and distributed as a Docker container, it provides a self-hosted custom communication system for desktop streaming. It acts as a lightweight relay for video and audio feeds directly over the web.",
+  "goodFor": "It suits teams or individuals who need to share screens privately within their own infrastructure without relying on proprietary SaaS platforms.",
+  "watchOut": "Because it overlaps with widely adopted video conferencing tools, deployment requires convincing users to adopt a separate dedicated link. Maintenance depends on a modest upstream activity level.",
+  "deployNotes": "You can typically run it via Docker with a reverse proxy to handle TLS termination securely. Persistent storage is usually unnecessary unless you are logging application state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

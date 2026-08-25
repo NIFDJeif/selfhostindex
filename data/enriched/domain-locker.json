@@ -1,0 +1,8 @@
+{
+  "summary": "Domain Locker is a self-hosted tool designed for domain name portfolio management and tracking. It helps you keep an inventory of your web addresses in one place, though the exact feature set beyond basic tracking is not detailed in the official description. It is distributed under the MIT licence and built using Deno and Docker.",
+  "goodFor": "Individuals or small teams managing a growing collection of domain names who want a dedicated self-hosted registry rather than relying solely on registrar interfaces.",
+  "watchOut": "The project is at an early release stage, meaning you may encounter missing features, undocumented edge cases, or breaking changes during updates.",
+  "deployNotes": "You can typically run this via Docker with a mounted volume for persistent storage to preserve your domain records. A reverse proxy should be placed in front of the container to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

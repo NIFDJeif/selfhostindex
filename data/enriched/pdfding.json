@@ -1,0 +1,8 @@
+{
+  "summary": "PdfDing is a self-hosted document management tool designed for handling PDFs through a web interface. It provides functionality to view, edit, and organise PDF files across different devices. The application is packaged for containerised environments to simplify installation.",
+  "goodFor": "It suits individuals and small teams looking for a lightweight, self-hosted option to manage and view PDF documents without relying on proprietary cloud services.",
+  "watchOut": "The project has a moderate maintenance health score and an AGPL-3.0 licence, which may carry copyleft implications if you modify and distribute the code. It also competes in a crowded category with many mature document management alternatives.",
+  "deployNotes": "Deployment relies on container runtimes like Docker or Kubernetes, so you will typically need to configure persistent storage volumes for your documents and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

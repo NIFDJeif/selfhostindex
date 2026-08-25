@@ -1,0 +1,8 @@
+{
+  "summary": "Homer is a static homepage designed to display links to various server services. It relies on a straightforward YAML file for configuration and includes built-in connectivity checks for the listed endpoints.",
+  "goodFor": "It suits administrators who want a lightweight, centralized landing page for their home lab or private network without running a dynamic backend.",
+  "watchOut": "Because configuration is entirely file-based, making changes or adding new services requires manual editing of the YAML structure rather than using a graphical interface.",
+  "deployNotes": "As a static asset, it typically runs inside a minimal container and does not require a persistent database, though you will need to mount a volume to supply your configuration file.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

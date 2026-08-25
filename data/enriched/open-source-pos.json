@@ -1,0 +1,8 @@
+{
+  "summary": "Open Source POS is a web-based point of sale system released under the MIT licence and built with PHP. It provides a browser-based interface to manage retail sales transactions, inventories, and related checkout tasks. Because the official description is minimal, exact workflow details remain unspecified, but it targets the standard requirements of handling in-person sales and stock control.",
+  "goodFor": "It suits small business owners or developers who want a self-hosted, customisable e-commerce checkout interface without paying proprietary software fees.",
+  "watchOut": "The latest tagged release is marked as unstable, and with a moderate maintenance health score, you may encounter bugs or need to patch issues yourself.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Apache or Nginx, a relational database such as MySQL, and a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

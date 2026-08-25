@@ -1,0 +1,8 @@
+{
+  "summary": "docker-mailserver packages a comprehensive email infrastructure stack into a single container instance. It provides standard protocols such as SMTP and IMAP alongside supplementary services like spam filters and virus scanners, using flat configuration files instead of relational databases.",
+  "goodFor": "Self-hosters who want to run a complete, self-contained mail stack entirely through container orchestration and file-based configuration.",
+  "watchOut": "Email server administration carries a notoriously high operational burden, particularly around maintaining proper deliverability, reverse DNS records, and IP reputation.",
+  "deployNotes": "You will typically need to map persistent volumes for configuration and mail storage, and ensure standard mail ports are correctly exposed on your host interface.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

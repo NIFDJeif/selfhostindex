@@ -1,0 +1,8 @@
+{
+  "summary": "GoModel is an AI gateway written in Go that provides a single, OpenAI-compatible API endpoint for multiple large language model providers. It includes built-in cost tracking, usage analytics, budget controls, request guardrails, response caching, and a web-based admin dashboard.",
+  "goodFor": "Teams managing multiple upstream LLM providers who need centralised cost control, usage monitoring, and routing behind a standardised API interface.",
+  "watchOut": "As a relatively young project with moderate activity, it may lack the extensive community ecosystem and edge-case testing found in older, more established API gateways.",
+  "deployNotes": "Being a Go application packaged via Docker, it typically requires persistent storage for analytics data and a standard reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

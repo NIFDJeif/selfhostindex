@@ -1,0 +1,8 @@
+{
+  "summary": "INGInious is a self-hosted grading platform designed to run and test student code automatically. It uses containerisation to execute untrusted submissions in a secure environment and provides feedback based on predefined test cases. The project falls under learning and courses tooling for educational institutions.",
+  "goodFor": "It is a practical fit for educators and administrators managing programming courses who need an automated way to grade coding assignments securely.",
+  "watchOut": "The AGPL-3.0 licence means any modifications you network must be made freely available, and the moderate maintenance activity suggests you should audit the codebase before relying on it for production exams.",
+  "deployNotes": "Because the application relies on Docker to execute student code, you will typically need to configure appropriate container permissions and persistent storage for submissions. A standard reverse proxy is usually required to handle TLS termination in front of the web interface.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Bar Assistant is a self-hosted tool designed for organising home bar inventories and managing cocktail recipes. Users can catalogue their available ingredients, search through drink databases, and input custom mixology instructions. It falls squarely into the recipe management category, tailored specifically to beverage preparation.",
+  "goodFor": "It is a practical choice for home bartenders and cocktail enthusiasts who want a dedicated digital inventory of their bottles and mixers rather than a generic notes app.",
+  "watchOut": "Given its niche scope, it may lack the broader integrations or community support found in more mainstream general recipe managers.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for your database and uploaded assets, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

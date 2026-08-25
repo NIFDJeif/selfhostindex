@@ -1,0 +1,8 @@
+{
+  "summary": "Artalk is a self-hosted comment system written in Go that allows you to embed a discussion section on websites. It acts as a lightweight alternative to hosted commenting widgets, giving you direct control over user-submitted text and metadata.",
+  "goodFor": "It is well-suited for independent bloggers and developers running static site generators who want an open-source comment backend under their own control.",
+  "watchOut": "You will need to manage your own database storage, moderation queues, and spam prevention since these operational tasks fall entirely on the administrator.",
+  "deployNotes": "Deployment typically involves running the container via Docker alongside a persistent volume for data storage, sitting behind a standard reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

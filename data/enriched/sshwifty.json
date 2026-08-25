@@ -1,0 +1,8 @@
+{
+  "summary": "Sshwifty is a web-based connector that provides terminal access via SSH and Telnet protocols directly from a browser interface. It allows administrators to manage remote servers without needing a local terminal client installed. The application is written in Go and distributed via Docker containers under the AGPL-3.0 licence.",
+  "goodFor": "It is a suitable choice if you need a lightweight, browser-accessible terminal gateway for remote administration without client configuration.",
+  "watchOut": "The AGPL-3.0 licence places strong copyleft requirements on your modifications if you host it as a service for third parties. Additionally, exposing a web-based terminal interface significantly increases your attack surface if not properly secured behind authentication and TLS.",
+  "deployNotes": "Deployment typically involves running the provided Docker container behind a reverse proxy to handle TLS termination. Since it operates primarily as a protocol gateway, it generally does not require a separate external database for basic operation.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

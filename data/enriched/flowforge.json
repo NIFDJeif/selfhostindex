@@ -1,0 +1,8 @@
+{
+  "summary": "FlowForge is a management and delivery platform designed for Node-RED applications. It provides DevOps tooling to help development teams deploy, scale, and secure their low-code automation flows.",
+  "goodFor": "Teams using Node-RED for Internet of Things workloads who need centralised control over multiple development instances and production environments.",
+  "watchOut": "The platform adds an extra operational layer on top of Node-RED, which may introduce unnecessary complexity for single-user or small-scale hobbyist deployments.",
+  "deployNotes": "Because the stack relies on containers and orchestration runtimes, you will typically need to configure persistent storage volumes for state and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

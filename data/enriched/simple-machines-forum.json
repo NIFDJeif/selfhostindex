@@ -1,0 +1,8 @@
+{
+  "summary": "Simple Machines Forum is a PHP-based package designed to help you run a web discussion board and manage threaded conversations. It provides the core functionality needed to set up user accounts, organise topics into boards, and moderate interactions within a self-hosted community. Released under a BSD-3-Clause licence, the codebase is publicly accessible for deployment on your own infrastructure.",
+  "goodFor": "This is a suitable choice if you want a traditional, structured forum hosted on your own server rather than relying on a proprietary third-party platform.",
+  "watchOut": "Traditional forum software often attracts automated spam and requires active administrative oversight to maintain community health and security.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a relational database such as MySQL or MariaDB, and persistent storage for user uploads.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}

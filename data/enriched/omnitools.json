@@ -1,0 +1,8 @@
+{
+  "summary": "OmniTools provides a browser-based suite of utilities for handling common file and text manipulation tasks. It bundles functions for working with code, images, videos, documents and data sets into a single interface.",
+  "goodFor": "It is well-suited for developers or system administrators who frequently need a quick, local utility to convert, edit, or format various file types without relying on external web services.",
+  "watchOut": "The software is at an early release stage and bundles many distinct utilities into one codebase, which may increase the attack surface or contain edge-case bugs in individual tools.",
+  "deployNotes": "As a Docker-based web application, you will typically need to configure a reverse proxy for TLS termination and mount persistent volumes if any of the tools require local file storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-25"
+}
