@@ -1,0 +1,8 @@
+{
+  "summary": "LedgerSMB is a self-hosted accounting and enterprise resource planning system tailored for small and midsize businesses. It provides double-entry accounting alongside core modules for managing invoicing, orders, inventory, budgeting, and project tracking. The platform is written in Perl and distributed under the GPL-2.0 licence.",
+  "goodFor": "It is a suitable choice if you need a comprehensive, open-source ERP system for financial and inventory management and prefer a self-hosted Perl stack.",
+  "watchOut": "The project has a moderate maintenance profile and a smaller community footprint than some mainstream alternatives, which may affect how quickly you find troubleshooting support. Customising or maintaining a Perl-based codebase can also require niche administrative skills.",
+  "deployNotes": "As it is packaged for Docker, you will typically need to configure persistent volumes for your database and application data, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Reader is a web application and library designed for processing web feeds. Built entirely using pure Python and standard library components, it provides a straightforward codebase that you can deploy as a standalone service or embed directly into other Python projects.",
+  "goodFor": "Python developers who want a lightweight feed processing tool with minimal external dependencies or who wish to integrate feed parsing and management into custom applications.",
+  "watchOut": "The project relies on a niche pure-Python stack, meaning you may encounter fewer community resources, themes, or third-party integrations compared to more mainstream feed readers.",
+  "deployNotes": "As a Python web application, you will typically run it behind a reverse proxy to handle TLS termination and manage it with a process manager like systemd or within a container.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

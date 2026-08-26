@@ -1,0 +1,8 @@
+{
+  "summary": "ClearFlask is a self-hosted community feedback tool designed to help you collect user suggestions and organise a public roadmap. It serves as an open-source alternative to proprietary services like Canny and UserVoice within the polls and events category. You can deploy it using Docker under the AGPL-3.0 licence.",
+  "goodFor": "This is a suitable fit for product teams and project maintainers who want to centralise user feature requests on their own infrastructure rather than relying on third-party SaaS platforms.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your modifications if you offer the software as a service over a network. It also competes in a space with many established hosted and self-hosted alternatives, which may affect community plugin availability.",
+  "deployNotes": "Since it runs via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

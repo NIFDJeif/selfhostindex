@@ -1,0 +1,8 @@
+{
+  "summary": "AirTrail is a personal flight tracking system designed for logging and managing aviation journeys. Built using Node.js and distributed as a Docker container under the GPL-3.0 licence, it provides a self-hosted platform to record your travel history.",
+  "goodFor": "Aviation enthusiasts and frequent flyers who want to maintain a private, self-hosted archive of their flight logs without relying on proprietary third-party services.",
+  "watchOut": "The codebase has a moderate maintenance profile and you may find that it lacks the extensive ecosystem integrations of larger, commercial flight tracking platforms.",
+  "deployNotes": "Since it runs via Docker and Node.js, you will typically need to map persistent volumes for your log data and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

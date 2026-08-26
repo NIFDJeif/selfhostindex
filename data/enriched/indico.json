@@ -1,0 +1,8 @@
+{
+  "summary": "Indico is a self-hosted event management system developed at CERN. It provides tools to organise conferences, workshops, and meetings, handling registration, abstract management, and timetable scheduling in a web interface.",
+  "goodFor": "Research institutions, universities, and large organisations that need to host academic or scientific meetings with complex scheduling requirements.",
+  "watchOut": "The software has a specific scope rooted in scientific event organisation, which may make it less adaptable for corporate marketing events or paid ticket sales compared to commercial alternatives.",
+  "deployNotes": "As a Python application, it typically requires a WSGI-compatible server behind a reverse proxy for TLS, alongside a relational database and persistent storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

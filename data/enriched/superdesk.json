@@ -1,0 +1,8 @@
+{
+  "summary": "Superdesk is a content management system designed to handle the entire lifecycle of news production, from initial creation and curation to distribution and publishing. It provides editorial teams with a centralised workspace for managing newsroom workflows and content delivery. The platform is built using Python and PHP, and is packaged for containerised deployment via Docker.",
+  "goodFor": "Newsrooms, publishing organisations, and editorial teams requiring an open-source, end-to-end platform for collaborative news production.",
+  "watchOut": "The software is licensed under the AGPL-3.0, which places strict copyleft requirements on your organisation if you modify and network the application. It also has a relatively niche focus compared to mainstream content management systems, which may result in a steeper adoption curve.",
+  "deployNotes": "Deployment relies on Docker, meaning you will typically need to configure persistent storage volumes for uploaded assets and a backing database. You should also place the container behind a reverse proxy to handle TLS termination and secure web traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

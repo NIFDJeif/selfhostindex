@@ -1,0 +1,8 @@
+{
+  "summary": "Corteza is a self-hosted customer relationship management platform that combines a unified workspace, enterprise messaging, and a low-code environment. It allows organisations to rapidly build and deploy secure, records-based management applications on their own infrastructure. Built using the Go programming language, it provides an open-source alternative for teams requiring centralised business tooling.",
+  "goodFor": "It is well-suited for technical teams and enterprises looking to build custom, records-based CRM solutions while keeping full control over their data and workflows.",
+  "watchOut": "Deploying and maintaining a comprehensive low-code platform with integrated messaging requires significant administrative overhead compared to simpler single-purpose CRMs.",
+  "deployNotes": "As a Go application, it typically compiles into a single binary, but you will usually need to provision a separate relational database, configure persistent storage, and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Graphweaver is a self-hosted tool that aggregates multiple disparate data sources and exposes them through a unified GraphQL API. It acts as an integration layer to help developers query and manage backend data from a single endpoint. The project is available under the MIT licence and built on Node.js.",
+  "goodFor": "This is a suitable choice if you need to consolidate several internal data services into a single GraphQL schema without writing a custom API gateway from scratch.",
+  "watchOut": "Because the repository has moderate maintenance activity and a smaller community, you may encounter edge cases or lack pre-built integrations for less common data sources.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent environment, process management via something like PM2 or Docker, and a reverse proxy such as Nginx to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

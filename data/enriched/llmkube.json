@@ -1,0 +1,8 @@
+{
+  "summary": "LLMKube is a Kubernetes operator designed to manage self-hosted large language model inference workloads directly on cluster infrastructure. It provides support for multiple backend runtimes, device accelerators including NVIDIA CUDA and Apple Silicon Metal, and exposes an OpenAI-compatible API.",
+  "goodFor": "Platform engineers running Kubernetes who need to orchestrate and scale self-hosted language model inference across heterogeneous hardware.",
+  "watchOut": "Early-stage projects with modest community adoption carry inherent risks regarding API stability, long-term maintenance, and rapid upstream changes.",
+  "deployNotes": "As a Kubernetes operator built with Go, it typically requires cluster-admin privileges for custom resource definitions and RBAC configurations, alongside persistent storage for model weights if caching locally.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

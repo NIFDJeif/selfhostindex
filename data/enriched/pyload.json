@@ -1,0 +1,8 @@
+{
+  "summary": "pyLoad is a lightweight download manager designed to handle files from one-click hosting sites and similar web sources. It provides remote management capabilities so you can queue, monitor, and control your downloads from a web interface.",
+  "goodFor": "It suits users running low-power home servers who need a dedicated automation tool specifically for direct web downloads rather than torrents.",
+  "watchOut": "The AGPL-3.0 licence may impose strict copyleft obligations if you modify the code and expose it as a service over a network. It also overlaps heavily with more widely adopted alternative download tools.",
+  "deployNotes": "Being built with Python, it typically requires a virtual environment or container runtime with persistent storage volumes configured for downloaded files. You will usually want to place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

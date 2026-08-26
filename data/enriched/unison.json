@@ -1,0 +1,8 @@
+{
+  "summary": "Unison is a file synchronisation utility designed to operate across macOS, Unix, and Windows systems. It allows you to maintain identical copies of directory structures on two separate machines or storage locations. When files are modified in both places, it attempts to detect and handle conflicts during the sync process.",
+  "goodFor": "It is well-suited for developers and system administrators who need bidirectional file synchronisation across disparate operating systems without relying on third-party cloud storage.",
+  "watchOut": "Resolving complex bidirectional synchronisation conflicts can require manual intervention, and network topology must allow direct connectivity between the participating hosts.",
+  "deployNotes": "Packages are typically distributed via standard .deb formats or built from OCaml source, usually requiring persistent storage mounted to the directories being synchronised.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "SabreDAV is an open-source framework and server implementation for CardDAV, CalDAV, and WebDAV protocols. It allows you to host your own calendar, contact synchronisation, and file storage endpoints on your own infrastructure. Built using PHP and released under the MIT licence, it provides the backend components needed to sync PIM data across multiple devices.",
+  "goodFor": "Developers and system administrators looking to integrate standards-compliant calendar and contact sync into an existing PHP application or custom server setup.",
+  "watchOut": "It requires significant manual configuration and familiarity with WebDAV standards rather than offering a ready-to-use end-user product out of the box.",
+  "deployNotes": "You will typically need a standard PHP runtime environment, a web server such as Nginx or Apache, and a persistent database backend to store calendar and contact records.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

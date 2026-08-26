@@ -1,0 +1,8 @@
+{
+  "summary": "PodFetch is a media management tool designed for downloading podcasts. Written in Rust and distributed as a Docker container, it retrieves audio files for offline listening and archival purposes.",
+  "goodFor": "It suits self-hosters who want a dedicated, lightweight utility solely focused on automating podcast acquisition.",
+  "watchOut": "The project has a relatively small community and narrower scope compared to comprehensive media servers, which may limit plugin availability and third-party integrations.",
+  "deployNotes": "You will typically need to configure persistent volume storage for downloaded media and use a standard reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

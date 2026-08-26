@@ -1,0 +1,8 @@
+{
+  "summary": "Watcharr is a self-hosted media tracking tool designed to help you log and monitor the television shows and movies you watch. It features built-in user authentication, a minimalist user interface, and a straightforward configuration process.",
+  "goodFor": "It suits individuals or small households looking for a dedicated, private watchlist manager running on their own infrastructure rather than relying on commercial services.",
+  "watchOut": "With a modest community and codebase maturity, you may encounter fewer integrations and documentation resources compared to more established media trackers.",
+  "deployNotes": "Since it relies on Docker, you will typically need to configure persistent volumes for data retention and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

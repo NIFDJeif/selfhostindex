@@ -1,0 +1,8 @@
+{
+  "summary": "Baby Buddy is a self-hosted application designed for caregivers to record daily infant activities. It provides interfaces for logging events such as sleep intervals, feeding sessions, diaper changes, and tummy time exercises.",
+  "goodFor": "It suits parents and caregivers who prefer running their own infrastructure to log childcare data locally rather than using commercial mobile services.",
+  "watchOut": "You may find that managing a self-hosted service for minute-by-minute infant tracking introduces unnecessary friction compared to readily available mobile applications.",
+  "deployNotes": "As a Python application, it typically requires a persistent storage volume for the database, a WSGI or ASGI server, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Keygen provides a backend application programming interface designed to handle software licensing and binary distribution. It allows developers to manage product keys, entitlements, and updates programmatically via web requests. The codebase is written in Ruby and is distributed under a proprietary source-available model.",
+  "goodFor": "It suits development teams who need a self-hosted licensing infrastructure to control software access without relying on third-party cloud services.",
+  "watchOut": "The proprietary licence restricts how you can modify and redistribute the code, and you will need to evaluate the long-term maintenance overhead of running a steady-state project with moderate activity.",
+  "deployNotes": "As a Ruby application, it typically requires a persistent relational database, a process manager like Puma or Unicorn behind a reverse proxy for TLS termination, and secure storage for release binaries.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

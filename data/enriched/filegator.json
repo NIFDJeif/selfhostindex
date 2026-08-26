@@ -1,0 +1,8 @@
+{
+  "summary": "FileGator is a self-hosted web application that provides a single-page user interface for managing files on a server. It allows multiple users to browse, upload, download, and organise directories directly through a web browser. The project is licensed under the MIT licence and built with PHP.",
+  "goodFor": "It suits administrators who need a lightweight, browser-based file management interface for multi-user access on an existing PHP or Docker stack.",
+  "watchOut": "The project has moderate maintenance activity and faces heavy competition from more mature cloud storage and file management platforms, which might offer richer ecosystem integrations.",
+  "deployNotes": "As a PHP and Docker application, it typically requires persistent storage volumes mapped for user files and a properly configured reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

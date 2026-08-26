@@ -1,0 +1,8 @@
+{
+  "summary": "YaCy is a decentralised, peer-to-peer search engine server built to index and retrieve web content without relying on a central authority. It operates as part of a distributed network where nodes share index data with each other. The project is implemented in Java and is available under the GPL-2.0 licence.",
+  "goodFor": "It is suited for technical users who want to experiment with distributed information retrieval or operate an independent search index outside of commercial providers.",
+  "watchOut": "Peer-to-peer architectures often require significant bandwidth and computational resources to synchronise indices, and discovery quality can lag significantly behind traditional centralised indexers.",
+  "deployNotes": "Container images for Docker and Kubernetes configurations are available, and you will typically need to allocate persistent storage for the search index data along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

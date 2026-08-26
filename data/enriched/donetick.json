@@ -1,0 +1,8 @@
+{
+  "summary": "Donetick is a self-hosted task and chore management application designed for individuals and families. It provides tools for scheduling, flexible assignment, and group sharing of routine responsibilities, alongside an API for automation.",
+  "goodFor": "It suits individuals or households looking for a private, self-hosted alternative to commercial family chore and task tracking tools.",
+  "watchOut": "The project is still in beta release, which may indicate potential instability or breaking changes in updates, and it uses the strict AGPL-3.0 licence.",
+  "deployNotes": "As a Docker-based Go application, it typically requires persistent volume storage for your data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

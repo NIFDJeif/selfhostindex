@@ -1,0 +1,8 @@
+{
+  "summary": "Calibre Web Automated is a self-hosted e-book management tool that combines a lightweight web user interface with the backend processing features of Calibre. It is designed as a fork of Calibre-Web to provide an integrated solution for organising, reading, and managing digital libraries.",
+  "goodFor": "This is a good fit for users who want to host their own e-book collection behind a web interface while retaining the heavy-duty metadata and conversion capabilities of Calibre.",
+  "watchOut": "Maintenance activity is moderate, meaning you may need to rely on the community or your own troubleshooting if you encounter edge cases or bugs.",
+  "deployNotes": "Because it runs in Docker, you will typically need to configure persistent volumes for your library files and database, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

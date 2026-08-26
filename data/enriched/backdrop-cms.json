@@ -1,0 +1,8 @@
+{
+  "summary": "Backdrop CMS is a content management system designed to help small and medium-sized organisations build and manage their websites. Written in PHP, it provides tools for organizing and publishing digital content without requiring deep programming knowledge. It operates under the GPL-2.0 licence, making it open source and self-hostable.",
+  "goodFor": "It is a suitable choice if you need a traditional PHP-based content management platform for a business or non-profit website.",
+  "watchOut": "You may face a smaller community and fewer third-party modules compared to dominant alternatives like WordPress or Drupal.",
+  "deployNotes": "You will typically need a standard web server running PHP alongside a relational database such as MySQL or MariaDB, plus persistent storage for uploaded media.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

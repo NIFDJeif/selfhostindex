@@ -1,0 +1,8 @@
+{
+  "summary": "Lyrion Music Server is a backend application designed to stream audio to networked hardware players and compatible endpoints. It acts as the central control hub for managing digital music libraries and routing playback streams to specific audio devices around a network. Formerly known as Logitech Media Server, the platform is distributed under the GPL-2.0 licence.",
+  "goodFor": "This is a suitable choice if you maintain a collection of legacy Squeezebox hardware or compatible network audio devices that require a dedicated self-hosted streaming server.",
+  "watchOut": "The codebase is heavily reliant on Perl and maintenance activity is steady rather than rapid, which may limit how quickly modern extensions or protocol updates are integrated. It also occupies a niche compared to more ubiquitous media streaming platforms, so community troubleshooting resources for edge cases can be sparse.",
+  "deployNotes": "You can deploy the service using standard Debian packages or Docker containers, both of which typically require persistent storage volumes to retain your media indexes and configuration state. A reverse proxy is usually required if you need to secure external web access with TLS certificates.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

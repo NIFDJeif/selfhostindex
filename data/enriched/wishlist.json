@@ -1,0 +1,8 @@
+{
+  "summary": "Wishlist is a self-hosted application designed for creating and sharing gift registries with friends and family. It provides a centralised space to manage desired items and coordinate gift-giving among your social circle.",
+  "goodFor": "This is a suitable choice if you want to self-host a private gift-sharing registry rather than relying on commercial third-party platforms.",
+  "watchOut": "The project has a moderate maintenance level, meaning you should be prepared to handle potential bugs or lack of rapid feature development yourself.",
+  "deployNotes": "As it runs via Docker and Kubernetes, you will typically need to configure persistent volume storage for your data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

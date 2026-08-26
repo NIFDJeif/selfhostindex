@@ -1,0 +1,8 @@
+{
+  "summary": "OFBiz is an enterprise resource planning system that provides a collection of business applications designed for cross-industry use. It functions as a foundational framework for managing core organisational processes such as accounting, inventory, and order fulfilment. The platform is written in Java and licensed under the Apache-2.0 licence.",
+  "goodFor": "It is a suitable choice if you need a customisable, open-source enterprise resource planning foundation that you can adapt to specific business workflows.",
+  "watchOut": "Enterprise resource planning platforms of this scale typically carry a significant operational burden and a steep learning curve for customisation and maintenance.",
+  "deployNotes": "Because it is built on Java, you will typically need to allocate sufficient memory for the Java Virtual Machine and run it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

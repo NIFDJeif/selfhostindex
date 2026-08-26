@@ -1,0 +1,8 @@
+{
+  "summary": "UUSEC WAF is a specialised web application firewall and API security gateway derived from the Nginx codebase. It employs artificial intelligence and semantic analysis to inspect HTTP traffic and protect web services from common application-layer threats. The system is designed to sit at the edge of your network to filter incoming requests before they reach your backend applications.",
+  "goodFor": "It suits technical administrators seeking an Nginx-based security gateway with built-in AI and semantic traffic filtering for API protection.",
+  "watchOut": "As a direct fork of Nginx with specialised detection logic, it may introduce compatibility challenges when mirroring existing complex Nginx configurations or keeping pace with upstream security patches.",
+  "deployNotes": "Deployment typically involves running the provided Docker container behind or alongside your existing infrastructure, requiring persistent storage for logs and rule definitions but usually no external database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

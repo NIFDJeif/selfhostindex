@@ -1,0 +1,8 @@
+{
+  "summary": "Transmute is a self-hosted file conversion utility designed to handle various formats across images, video, audio, JSON, and Excel documents. It provides a centralised interface to process media and data files directly on your own infrastructure. The software supports thousands of distinct conversion pathways.",
+  "goodFor": "It suits homelab administrators who regularly need to batch-process different file formats without relying on public cloud conversion services.",
+  "watchOut": "Depending on the underlying conversion libraries utilised, heavy video or audio transcoding tasks may place significant demand on your server CPU.",
+  "deployNotes": "You will typically run this as a Docker container, ensuring you mount persistent storage volumes for your input and output files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

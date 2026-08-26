@@ -1,0 +1,8 @@
+{
+  "summary": "farmOS is a web application designed for recording and managing agricultural data and field activities. It provides a structured digital workspace within the resource planning category to help track farm operations over time. The project is built with PHP and packaged for containerised environments.",
+  "goodFor": "It suits agricultural operations and land managers looking for a self-hosted, open-source tool under a GPL-2.0 licence to maintain their own records.",
+  "watchOut": "As an active PHP application with a moderate maintenance cadence, you will need to manage your own software updates, database backups, and security hardening.",
+  "deployNotes": "Because it runs on PHP and Docker, you will typically need to provision persistent volumes for data storage and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

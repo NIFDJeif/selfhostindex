@@ -1,0 +1,8 @@
+{
+  "summary": "WBO is a web-based application designed for real-time collaboration on visual notes, drawings, and schemas. It allows multiple users to share a digital canvas simultaneously to work together on visual tasks.",
+  "goodFor": "It is well-suited for small teams or individuals who need a straightforward, self-hosted digital whiteboard for remote brainstorming and sketching sessions.",
+  "watchOut": "The repository lacks tagged releases and exhibits a modest maintenance score, which may present risks regarding long-term support and stability. Additionally, the copyleft AGPL-3.0 licence requires you to make modified source code publicly available if you host it as a service.",
+  "deployNotes": "As a Node.js application packaged with Docker, it typically requires a container runtime, a persistent volume if session or board data needs to be saved, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

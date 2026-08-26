@@ -1,0 +1,8 @@
+{
+  "summary": "rustypaste is a lightweight file upload and pastebin service written in Rust. It provides a straightforward backend for hosting your own text snippets and binary files. The project is distributed under the MIT licence.",
+  "goodFor": "It suits developers who want a minimal, self-hosted endpoint for sharing code snippets or logs without the bloat of larger platforms.",
+  "watchOut": "As a minimalist utility, it lacks advanced features like user management or complex access control out of the box, meaning you will need to handle authentication and rate limiting externally.",
+  "deployNotes": "Being a compiled Rust binary, it typically runs as a standalone service behind a reverse proxy like Nginx or Caddy to handle TLS and domain routing, alongside persistent storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

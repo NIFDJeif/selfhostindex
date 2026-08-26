@@ -1,0 +1,8 @@
+{
+  "summary": "GoatCounter is an open-source web analytics platform designed to measure traffic without collecting personal data or setting tracking cookies. It processes visitor metrics while maintaining user privacy, operating under the EUPL-1.2 licence. Written in Go, the application provides a straightforward interface for reviewing page views and referral sources.",
+  "goodFor": "Self-hosters who want lightweight, privacy-focused website statistics without the heavy resource footprint or tracking concerns of commercial analytics suites.",
+  "watchOut": "The project maintains a moderate maintenance rhythm, and it may lack the advanced funnel analysis or deep segmentation found in larger enterprise alternatives.",
+  "deployNotes": "As a Go binary, it typically compiles into a single executable and requires a reverse proxy to handle TLS termination, alongside persistent storage for its database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

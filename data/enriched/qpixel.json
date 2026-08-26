@@ -1,0 +1,8 @@
+{
+  "summary": "Qpixel is a Ruby-based application designed to facilitate question-and-answer community knowledge sharing. It allows groups to build a central repository of questions, answers, and discussions similar to public forum platforms. The software is released under the AGPL-3.0 licence and provides a structured environment for collaborative problem-solving.",
+  "goodFor": "It is a suitable option for technical teams or community groups seeking a self-hosted Q&A platform built on a Ruby stack.",
+  "watchOut": "The project has a relatively niche adoption level compared to mainstream forum software, and the AGPL-3.0 copyleft licence may require careful consideration if you plan to modify and distribute it within a commercial context.",
+  "deployNotes": "As a Ruby application, it will typically require a persistent database backend, a process manager like Puma or Unicorn, and a reverse proxy such as Nginx to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

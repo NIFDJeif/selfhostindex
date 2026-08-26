@@ -1,0 +1,8 @@
+{
+  "summary": "Fusio is an open-source API management platform designed to help developers build and manage REST APIs. It provides tooling to define endpoints, handle routing, and control access within your own infrastructure. As an AGPL-3.0 licensed project, it offers a self-hosted alternative to commercial API gateways.",
+  "goodFor": "Developers and teams who need a dedicated self-hosted interface to design, publish, and secure custom REST endpoints.",
+  "watchOut": "The AGPL-3.0 licence places strict copyleft obligations on network services, meaning you must release your modified source code if you offer the platform as a hosted service to others. It also has a smaller community footprint than some mainstream API gateways, which may limit readily available troubleshooting resources.",
+  "deployNotes": "Because it relies on PHP and Docker, you will typically need to provision persistent storage for application data and run a separate database backend alongside it. A reverse proxy is also usually required to handle TLS termination and direct incoming traffic to the container.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

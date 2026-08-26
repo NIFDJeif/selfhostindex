@@ -1,0 +1,8 @@
+{
+  "summary": "DDraceNetwork is a cooperative platform game derived from the Teeworlds modification. It focuses on collaborative movement mechanics where players work together to navigate through custom levels. The project is implemented in C++ and made available under the Zlib licence.",
+  "goodFor": "It suits self-hosters looking to run a dedicated multiplayer gaming server for groups interested in cooperative platformer challenges.",
+  "watchOut": "The repository lacks tagged releases, which can complicate release management, and maintenance health is moderate rather than pristine.",
+  "deployNotes": "As a C++ game server application, you will typically need to allocate persistent storage for custom maps and configurations, and place it behind a firewall to manage network traffic for multiplayer sessions.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

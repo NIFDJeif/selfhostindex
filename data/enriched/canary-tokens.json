@@ -1,0 +1,8 @@
+{
+  "summary": "Canary Tokens generates lightweight, embedded honeypot triggers that alert you when unauthorized access occurs. By deploying these tokens across your network or documents, you can detect intruders attempting to read files or probe services. It provides a straightforward mechanism for early intrusion detection.",
+  "goodFor": "This tool is well-suited for security engineers and system administrators who want to set up tripwires across internal networks or sensitive document stores to catch lateral movement.",
+  "watchOut": "Maintenance health is moderate, meaning you should keep an eye on upstream updates and dependency management. Relying solely on tokens for security is insufficient without proper monitoring and incident response workflows.",
+  "deployNotes": "Since it runs via Docker and Python, you will typically need to configure persistent storage for your generated tokens and logs, alongside a reverse proxy to handle incoming TLS connections securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

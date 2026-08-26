@@ -1,0 +1,8 @@
+{
+  "summary": "Photofield is an experimental application designed for rapid image viewing. Built using Go and distributed via Docker under an MIT licence, it addresses the challenge of browsing large collections of photographs efficiently.",
+  "goodFor": "It suits self-hosters who want to experiment with alternative photo viewing interfaces and have large local image directories to organise.",
+  "watchOut": "Given its experimental status and modest repository community, you should expect potential rough edges in usability, missing standard features, and limited documentation.",
+  "deployNotes": "As a containerised Go application, you will typically need to mount your photo library as a persistent volume and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

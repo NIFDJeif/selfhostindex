@@ -1,0 +1,8 @@
+{
+  "summary": "Scoold is a self-hosted question-and-answer platform structured similarly to Stack Overflow. It provides an enterprise-ready environment featuring full-text search, SAML and LDAP integration, and social login capabilities.",
+  "goodFor": "It is well-suited for organisations needing an internal or community-facing knowledge base with enterprise authentication requirements.",
+  "watchOut": "Adoption might be lower than mainstream alternatives, and customisation depends on familiarity with its specific Java stack.",
+  "deployNotes": "As a Java application containerised for Docker and Kubernetes, you will typically need to configure persistent storage for user data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

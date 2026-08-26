@@ -1,0 +1,8 @@
+{
+  "summary": "Saltcorn is an open-source platform designed for building database-driven web and mobile applications without traditional coding. It combines user interface design, data backends, workflows, and document generation into a single system under an MIT licence.",
+  "goodFor": "It suits developers and technical administrators who need to rapidly prototype or deploy internal database applications using a self-hosted stack.",
+  "watchOut": "The platform has a moderate maintenance health score and lacks tagged releases, which may introduce risks regarding stability and upgrade paths for production environments.",
+  "deployNotes": "You can deploy it using Docker with Node.js, which typically requires configuring persistent storage for your database and setting up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}

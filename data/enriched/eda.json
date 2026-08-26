@@ -1,0 +1,8 @@
+{
+  "summary": "EDA is a web application designed for data analysis and visualization. It provides a browser-based interface to examine datasets and generate visual representations of underlying information. The project is distributed under the AGPL-3.0 licence and is packaged as a container image.",
+  "goodFor": "This is suitable if you need a self-hosted analytics environment for handling data exploration tasks within a private infrastructure. It fits developers who prefer AGPL-licensed tooling deployed via container engines.",
+  "watchOut": "The repository has a modest star count of around two hundred, indicating a niche community compared to mainstream business intelligence platforms. You should also review the copyleft implications of the AGPL-3.0 licence if you plan to modify or build services around the codebase.",
+  "deployNotes": "As a Node.js application packaged for Docker, you will typically need to configure persistent storage volumes for your data and place the container behind a reverse proxy to handle TLS termination. Depending on the architecture, you may also need to provision a separate database instance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-26"
+}
