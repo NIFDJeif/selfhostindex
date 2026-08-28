@@ -1,0 +1,8 @@
+{
+  "summary": "Tiny Tiny RSS is a web-based application designed to aggregate and read RSS and Atom news feeds. It runs on your own infrastructure, allowing you to collect and manage subscriptions to various web feeds from a central interface. As a self-hosted feed reader, it keeps your reading habits and subscription lists under your direct control.",
+  "goodFor": "It is a solid fit for technical users who want to move away from commercial, cloud-based news readers and prefer hosting their own data.",
+  "watchOut": "The project relies on a rolling development model without tagged releases, which can make tracking specific versions or stability milestones less predictable.",
+  "deployNotes": "Because it is built with PHP and packaged for Docker, you will typically need to provision persistent storage for your database and feeds, alongside a standard reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "XBackBone is a lightweight file manager designed for quick uploads and sharing. It integrates directly with tools like ShareX to let you send screenshots and files to your own server instantly.",
+  "goodFor": "Self-hosters who want a dedicated, private endpoint for ShareX uploads without relying on third-party services.",
+  "watchOut": "It is a niche utility with a moderate community size, meaning you may need to rely on the existing codebase for troubleshooting custom setups.",
+  "deployNotes": "As a PHP application packaged for Docker, you will typically need to configure persistent storage for uploaded files and place it behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

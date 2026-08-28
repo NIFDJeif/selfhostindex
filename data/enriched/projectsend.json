@@ -1,0 +1,8 @@
+{
+  "summary": "ProjectSend is a self-hosted platform designed for file management and client collaboration. It enables you to create user accounts for clients, upload specific files, and securely assign those assets to the appropriate recipients for retrieval.",
+  "goodFor": "Freelancers and small agencies that need a straightforward, branded portal to share deliverables directly with individual clients without relying on third-party cloud storage.",
+  "watchOut": "The codebase has a moderate maintenance tempo, meaning you should evaluate whether the feature set and security update cadence align with your long-term requirements.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server stack with a database backend such as MySQL or MariaDB, alongside persistent storage configured for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Baïkal provides a lightweight server for hosting calendars, reminders, and contacts. It uses the CalDAV and CardDAV protocols to synchronise schedule and address book data across multiple devices. The project is built using PHP and relies on the sabre/dav library.",
+  "goodFor": "It suits users who want a dedicated, low-resource self-hosted solution specifically for calendar and contact synchronisation without the overhead of a full groupware suite.",
+  "watchOut": "The project has modest development activity and a relatively low maintenance score, meaning you may encounter slower responses to bugs or compatibility updates.",
+  "deployNotes": "Because it is a PHP application, you will typically need to configure a web server like Nginx or Apache with a PHP-FPM runtime, along with a database such as MySQL or SQLite for persistent storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

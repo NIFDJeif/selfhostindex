@@ -1,0 +1,8 @@
+{
+  "summary": "Thelia is an open-source e-commerce solution written in PHP and distributed under the LGPL-3.0 licence. It provides a foundational framework for setting up and managing online stores and digital catalogues. Because the official documentation offers few specific details on built-in features, users should expect to configure standard shop capabilities such as product management, cart handling, and payment processing themselves.",
+  "goodFor": "It is a suitable option if you need an open-source PHP-based e-commerce platform that you can modify under a copyleft licence.",
+  "watchOut": "The project has a modest community with limited repository stars and overlapping competition from much larger, heavily documented e-commerce platforms, which may impact third-party plugin availability.",
+  "deployNotes": "As a PHP application, it will typically require a web server like Nginx or Apache, a separate relational database such as MySQL or MariaDB, and persistent storage for uploaded product assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "CoreShop is an e-commerce plugin designed to run directly on top of the Pimcore platform. It provides the backend logic and data structures necessary to manage online stores, products, and transactions within your existing Pimcore installation.",
+  "goodFor": "Teams and developers who are already using Pimcore for content or master data management and want to add online selling capabilities without adopting a separate standalone e-commerce platform.",
+  "watchOut": "Because it is tightly coupled to Pimcore, you inherit the architectural complexity and learning curve of the underlying framework. It also has a relatively small community and lower visibility compared to mainstream standalone e-commerce systems.",
+  "deployNotes": "As a PHP application running on Pimcore, it typically requires a web server like Nginx or Apache, a relational database such as MySQL, and persistent storage for media files and session data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

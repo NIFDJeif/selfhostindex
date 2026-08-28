@@ -1,0 +1,8 @@
+{
+  "summary": "Docspell is a self-hosted document management system designed to organise and archive digital files. It features automated tagging to help sort incoming paperwork without manual intervention. The application is packaged for containerised environments.",
+  "goodFor": "It suits individuals or small teams looking to centralise their paperwork and automate basic filing tasks using a dedicated local archive.",
+  "watchOut": "The JVM-based runtime can demand higher memory overhead compared to lightweight alternatives, and you should consider whether the moderate maintenance activity fits your long-term stability requirements.",
+  "deployNotes": "You will typically need to configure persistent volumes for your file storage and database data, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

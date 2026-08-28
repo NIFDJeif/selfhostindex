@@ -1,0 +1,8 @@
+{
+  "summary": "Wayback is a self-hosted toolkit written in Go designed to archive webpages across multiple destinations. It allows you to save snapshots to the Internet Archive, archive.today, IPFS, and local storage backends from a single application. This helps ensure that web content you rely on remains accessible even if the original source disappears.",
+  "goodFor": "It is a suitable fit if you want to automate digital preservation workflows for specific URLs or maintain independent local copies alongside public archives.",
+  "watchOut": "The moderate maintenance level means you should monitor for upstream changes in the third-party archiving services it targets, which can occasionally break submission pipelines. Additionally, the GPL-3.0 licence requires you to make the source code available if you modify and distribute the software.",
+  "deployNotes": "As a compiled Go binary, it typically runs as a lightweight standalone process that benefits from a reverse proxy for TLS termination and persistent volumes for local archive storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

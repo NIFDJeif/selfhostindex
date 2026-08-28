@@ -1,0 +1,8 @@
+{
+  "summary": "Retrom is a self-hosted server and frontend designed for distributing and launching private game libraries. It functions as a centralised hub to manage and stream your game collection across devices from your own infrastructure. Built with Rust and distributed as a container, it handles the backend organisation and client-side access for self-hosters.",
+  "goodFor": "Self-hosters who want a dedicated, private alternative to commercial platforms for organising and streaming their personal digital game archives.",
+  "watchOut": "The project has a moderate maintenance tempo and occupies a crowded niche, meaning you may encounter rough edges or less community documentation compared to mature alternatives.",
+  "deployNotes": "As a Docker-based application, you will need to configure persistent volumes for your game library data and metadata storage. You should also place the container behind a reverse proxy to handle TLS termination for secure remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

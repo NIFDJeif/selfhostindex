@@ -1,0 +1,8 @@
+{
+  "summary": "Sharry is a self-hosted web application for transferring files over the internet. It supports bidirectional sharing between authenticated users and anonymous visitors using resumable upload and download mechanisms.",
+  "goodFor": "It suits administrators who need a dedicated, private drop-box or sharing portal where external parties can upload or retrieve data without needing an account.",
+  "watchOut": "With a modest community following and steady maintenance, it occupies a niche space alongside much more widely adopted file-sharing alternatives.",
+  "deployNotes": "Deployment is typically handled via Docker or native packages, requiring persistent storage volumes for uploaded data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

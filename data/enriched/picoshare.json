@@ -1,0 +1,8 @@
+{
+  "summary": "PicoShare is a lightweight, self-hosted web service designed for uploading and sharing individual files or images. It provides a straightforward interface that allows users to transfer assets quickly without complex configuration.",
+  "goodFor": "It suits individuals or small teams needing a private, no-frills file drop utility running on their own infrastructure.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your deployment if you modify and distribute the source code, and feature depth is intentionally minimal compared to full enterprise cloud storage.",
+  "deployNotes": "As a containerised Go application, it typically requires a persistent volume mounted for stored files and a standard reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

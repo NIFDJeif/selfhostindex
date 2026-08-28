@@ -1,0 +1,8 @@
+{
+  "summary": "Routr functions as a Session Initiation Protocol proxy, location server, and registrar designed to handle telephony and voice over IP infrastructure. It helps route signalling traffic between clients and servers within a communication network. The system is distributed under an MIT licence and is managed via containerised deployments.",
+  "goodFor": "It suits administrators who need a lightweight SIP routing layer for scalable voice infrastructures without relying on monolithic PBX systems.",
+  "watchOut": "Setting up and debugging SIP routing can involve complex network topologies, NAT traversal issues, and strict protocol compliance requirements.",
+  "deployNotes": "You will typically deploy this using Docker or Kubernetes, ensuring that appropriate container networking and port mappings are configured for SIP signalling traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

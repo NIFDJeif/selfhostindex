@@ -1,0 +1,8 @@
+{
+  "summary": "FileRise is an open-source web-based file manager that lets you handle file transfers, uploads, and organisation directly through a browser interface. It includes features such as tagging, shareable links, multiple layout views including gallery and table formats, and an integrated text editor.",
+  "goodFor": "It suits individuals or small teams needing a straightforward, self-hosted web interface to manage files and share links without relying on commercial cloud storage.",
+  "watchOut": "The project operates with steady but modest maintenance health and faces significant competition from much larger, more established alternatives in the self-hosted file management space.",
+  "deployNotes": "Since it is distributed via Docker and built with PHP, you will typically need to configure persistent volume mounts for your stored files and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

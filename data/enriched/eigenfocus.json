@@ -1,0 +1,8 @@
+{
+  "summary": "Eigenfocus is a self-hosted project management tool designed for handling planning, workflows, and time tracking. It scales to support both individual use and multi-member team collaboration. The application is packaged via Docker for straightforward containerised deployment.",
+  "goodFor": "It suits teams or individuals looking for a dedicated project management and time-tracking environment they can host themselves.",
+  "watchOut": "The software is proprietary rather than open source, meaning you cannot modify the source code, and it overlaps with a vast, highly mature ecosystem of alternative project management tools.",
+  "deployNotes": "Because it runs via Docker, you will typically need to map persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

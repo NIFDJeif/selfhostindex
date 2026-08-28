@@ -1,0 +1,8 @@
+{
+  "summary": "Guacamole is a server-side remote desktop gateway that renders desktop sessions directly within a web browser. It acts as an intermediary, translating standard remote access protocols such as VNC and RDP into HTML5-based web traffic without requiring any client-side plugins.",
+  "goodFor": "It suits administrators who need to provide browser-based access to remote machines across an organisation without installing client software on every local device.",
+  "watchOut": "The codebase has a moderate maintenance profile and relies on a mix of Java and C components, which might complicate troubleshooting or custom modifications.",
+  "deployNotes": "You will typically need to run a servlet container for the Java web application alongside the native C daemon, and place the setup behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

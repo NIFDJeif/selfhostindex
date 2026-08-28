@@ -1,0 +1,8 @@
+{
+  "summary": "CookCLI is a command-line utility designed to handle meal planning and shopping list generation using Cooklang recipe files. Written in Rust under an MIT licence, it integrates into UNIX-style scripting workflows and includes an embedded web server for local access.",
+  "goodFor": "It suits technical users who prefer managing recipes in plain text and automating kitchen logistics via the command line or shell scripts.",
+  "watchOut": "The command-line interface and text-file format mean there is a steep learning curve compared to traditional graphical recipe managers.",
+  "deployNotes": "As a compiled Rust binary with an integrated web server, it typically runs as a standalone service behind a reverse proxy for TLS termination, with persistent storage required for your recipe files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

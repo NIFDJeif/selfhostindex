@@ -1,0 +1,8 @@
+{
+  "summary": "InvoiceShelf is a self-hosted financial management tool that allows you to handle invoicing, track expenses, and record client payments. As a fork of Crater, it provides a centralised interface for managing your business billing and estimates. It is written in PHP and distributed under the AGPL-3.0 licence.",
+  "goodFor": "Freelancers and small business owners who want an open-source, self-hosted alternative to proprietary invoicing and expense-tracking SaaS platforms.",
+  "watchOut": "The codebase relies on pre-release alpha software versions, which may introduce stability risks or breaking changes during upgrades. Additionally, the AGPL-3.0 licence imposes copyleft obligations if you modify the code and offer it as a service over a network.",
+  "deployNotes": "As a PHP application packaged for Docker, you will typically need to configure persistent volumes for your file storage and connect it to a separate database backend such as MySQL or PostgreSQL. You should also place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

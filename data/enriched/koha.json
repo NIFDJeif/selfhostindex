@@ -1,0 +1,8 @@
+{
+  "summary": "Koha is an open-source integrated library system designed to manage library operations such as cataloguing, acquisitions, and circulation. It includes specialised utilities including label printing and an offline circulation mode for operation during internet outages. Built with Perl under the GPL-3.0 licence, it provides a comprehensive suite for document management in institutional settings.",
+  "goodFor": "It suits public, academic, or special libraries that require a fully featured, self-hosted system to manage physical collections and patron transactions.",
+  "watchOut": "The Perl codebase and extensive feature set can present a significant maintenance and configuration overhead for administrators unfamiliar with the ecosystem.",
+  "deployNotes": "As a Perl-based application, it typically requires a dedicated database backend, persistent storage for library data, and a standard reverse proxy setup to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

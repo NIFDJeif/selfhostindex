@@ -1,0 +1,8 @@
+{
+  "summary": "Stringer is a self-hosted RSS reader built with Ruby that provides an alternative to third-party feed aggregation services. It is described as anti-social, meaning it focuses on direct content consumption rather than sharing or community features. As a work-in-progress project distributed under the MIT licence, it allows you to collect and read web feeds on your own infrastructure.",
+  "goodFor": "This software suits technical users who want a private, self-hosted space for consuming RSS feeds without relying on commercial reader platforms.",
+  "watchOut": "The project lacks tagged releases and has a modest maintenance score, which may indicate that updates are irregular or installation paths are less polished.",
+  "deployNotes": "Because it runs on Ruby, you will typically need to provision a persistent database, configure a web and application server stack, and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

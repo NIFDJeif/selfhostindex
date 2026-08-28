@@ -1,0 +1,8 @@
+{
+  "summary": "Zero-K is an open-source real-time strategy game built on the Spring RTS engine. It offers competitive matches centred around physics-based mechanics, terrain manipulation, and a diverse unit roster.",
+  "goodFor": "Self-hosters and communities looking to run an open-source, competitive RTS title with custom physics and terrain manipulation features.",
+  "watchOut": "The project lacks tagged releases, which can complicate release management, and relies on an niche game engine that may present a steep operational learning curve.",
+  "deployNotes": "Hosting typically requires setting up the Spring engine environment and ensuring adequate persistent storage for game assets and server logs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

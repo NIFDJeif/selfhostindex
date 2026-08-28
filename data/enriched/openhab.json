@@ -1,0 +1,8 @@
+{
+  "summary": "openHAB is an open-source home automation platform designed to integrate various smart devices and technologies regardless of their manufacturer. It acts as a centralised hub to monitor, control, and automate domestic hardware through a unified interface. Written in Java, the software provides a vendor-agnostic environment for managing internet-connected things.",
+  "goodFor": "It is a suitable choice for technical users who need to unify fragmented smart home devices from different manufacturers under a single self-hosted control system.",
+  "watchOut": "The EPL-2.0 licence requires careful attention if you plan to distribute modified versions, and integration complexity can vary significantly depending on the specific hardware standards you use.",
+  "deployNotes": "Because the runtime relies on Java, you will typically need to allocate sufficient memory for the Java Virtual Machine and ensure persistent storage is configured for your configuration files and state databases.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

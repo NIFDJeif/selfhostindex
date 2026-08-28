@@ -1,0 +1,8 @@
+{
+  "summary": "Django-CRM is a customer relationship management platform built for tracking business contacts, managing tasks, and executing email campaigns. It provides a foundational framework for individuals and companies seeking an extensible codebase for sales and client operations. Because the official documentation is broad, exact workflow capabilities beyond core contact management should be verified directly from the source repository.",
+  "goodFor": "Freelancers and small businesses requiring a Python-based CRM framework that they can adapt and customise for their own workflows.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft implications if you modify and distribute the software or offer it as a hosted service to third parties. It also overlaps significantly with mature, highly polished alternatives in the CRM space.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI server such as Gunicorn behind a reverse proxy like Nginx for TLS termination. You will also need to configure a persistent relational database backend and persistent storage for any uploaded assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

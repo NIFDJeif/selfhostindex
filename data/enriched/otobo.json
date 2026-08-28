@@ -1,0 +1,8 @@
+{
+  "summary": "OTOBO is a web-based ticketing system designed to help organisations manage customer service requests, help desk queries, and IT service management workflows. It functions as a centralised platform for logging, tracking, and resolving incoming user support tickets. The application is built using Perl and supports containerised deployment via Docker.",
+  "goodFor": "It is a suitable option for internal IT teams or customer support departments looking for an open-source, self-hosted help desk solution under the GPL-3.0 licence.",
+  "watchOut": "With a relatively modest community footprint and niche popularity, you may find fewer third-party integrations, community plugins, and troubleshooting resources compared to more mainstream alternatives.",
+  "deployNotes": "As a web-based database application running in Docker, you will typically need to configure persistent storage volumes for your database and file attachments, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

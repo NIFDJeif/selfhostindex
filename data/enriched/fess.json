@@ -1,0 +1,8 @@
+{
+  "summary": "Fess is an enterprise search server designed to index and retrieve data across various repositories. It provides a centralised search interface that you can integrate into existing systems and web applications. Written in Java and packaged for containerised environments, it handles document indexing and query processing.",
+  "goodFor": "It suits administrators who need an open-source search engine deployed on their own infrastructure using standard container tools.",
+  "watchOut": "Enterprise search engines typically demand significant memory and tuning for garbage collection, and configuration can be complex depending on your data sources.",
+  "deployNotes": "You will typically run this via Docker with persistent volumes attached for index storage, placing a reverse proxy in front to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

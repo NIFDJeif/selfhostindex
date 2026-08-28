@@ -1,0 +1,8 @@
+{
+  "summary": "Fava provides a web-based graphical interface for Beancount, which is a plain text ledger for double-entry bookkeeping. It allows you to view financial statements, query your records, and inspect account balances directly through a browser. The application is built using Python and distributed under the MIT licence.",
+  "goodFor": "This is a suitable tool for technical users who prefer maintaining their financial records in version-controlled text files rather than using proprietary accounting software.",
+  "watchOut": "Because it relies entirely on plain text accounting data files, you will need to manage your own file synchronisation and ensure your underlying records are backed up properly.",
+  "deployNotes": "As a Python web application, it typically runs behind a reverse proxy to handle TLS termination and requires persistent storage for your ledger files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

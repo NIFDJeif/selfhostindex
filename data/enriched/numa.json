@@ -1,0 +1,8 @@
+{
+  "summary": "Numa is a DNS resolver written in Rust that blocks ads and performs recursive resolution with DNSSEC validation. It supports encrypted protocols like DoH and DoT, along with local service domains and overrides, packaged as an alternative to tools such as Pi-hole.",
+  "goodFor": "Self-hosters looking for a lightweight, memory-safe alternative to standard DNS blockers that handles encrypted upstream queries natively.",
+  "watchOut": "The project overlaps heavily with mature, widely adopted alternatives like Pi-hole and AdGuard Home, meaning you may encounter fewer community guides and edge-case solutions.",
+  "deployNotes": "As a self-contained Rust binary, it typically runs well inside a Docker container without needing an external database, though you will need to map persistent storage for your configuration and expose port 53.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

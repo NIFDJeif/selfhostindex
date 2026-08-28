@@ -1,0 +1,8 @@
+{
+  "summary": "Flyimg is a self-hosted service that dynamically resizes and crops images on demand. It processes graphic assets using ImageMagick and outputs optimised formats like MozJPEG, WebP, or PNG, while relying on a built-in caching layer to serve repeat requests quickly.",
+  "goodFor": "This tool is a practical fit if you need to run your own dedicated image transformation pipeline behind a web application rather than depending on a third-party SaaS provider.",
+  "watchOut": "Image processing is CPU-intensive, meaning heavy traffic can spike your server resource usage and require careful cache configuration to avoid performance degradation.",
+  "deployNotes": "Because the application runs via Docker, you will typically need to mount a persistent volume for the cache directory and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

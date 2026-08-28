@@ -1,0 +1,8 @@
+{
+  "summary": "Directory Lister is a lightweight web application written in PHP that renders the contents of a server directory and its subdirectories. It provides a browser-based interface to navigate through file structures directly on your hosting environment. The project is distributed under the MIT licence and has achieved moderate popularity on GitHub.",
+  "goodFor": "This is a suitable choice if you need a quick, no-frills method to browse and traverse local server directories via a web browser without installing complex file management suites.",
+  "watchOut": "The maintenance score indicates a steady but modest development pace, meaning you should not expect rapid feature additions or immediate hotfixes for edge cases. It also provides a basic feature set that may lack advanced user permissions and editing tools found in larger web-based file managers.",
+  "deployNotes": "Because it runs on PHP, you will typically need a standard web server stack such as Apache or Nginx, or you can use the provided Docker image for containerised deployment. You must mount your target directories as persistent volumes to allow the application to read and navigate your files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

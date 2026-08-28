@@ -1,0 +1,8 @@
+{
+  "summary": "Samvera Hyrax provides a web front-end interface for browsing and managing digital repositories built on the Samvera framework. It runs as a Ruby on Rails application designed to interact with Fedora-based backend storage systems. The software is targeted at organisations needing to organise, curate and serve academic or cultural heritage collections.",
+  "goodFor": "It suits university libraries and archival institutions implementing institutional repositories using the Samvera and Fedora stack.",
+  "watchOut": "You face a complex operational stack due to the dependency on both the Ruby on Rails application layer and the underlying Fedora repository architecture.",
+  "deployNotes": "You will typically need to provision a relational database, a persistent storage volume for uploaded assets, and configure a reverse proxy to handle TLS termination for the Ruby application.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

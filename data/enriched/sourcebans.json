@@ -1,0 +1,8 @@
+{
+  "summary": "SourceBans++ is a centralised management tool designed for administrators of servers running Valve's Source engine. It provides a web-based interface to handle player bans, communication restrictions, and administrative permissions across multiple game instances.",
+  "goodFor": "Server operators and gaming communities running Source engine titles who need a unified web dashboard to manage staff and player penalties.",
+  "watchOut": "The licensing terms require adherence to CC-BY-SA-4.0, and you should evaluate how well its feature set fits your specific game server architecture compared to alternative panel options.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server setup with a relational database like MySQL or MariaDB, alongside persistent storage for configuration and logs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

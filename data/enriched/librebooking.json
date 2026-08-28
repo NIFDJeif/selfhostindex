@@ -1,0 +1,8 @@
+{
+  "summary": "LibreBooking is a web-based resource scheduling tool designed to help organisations manage reservations for shared assets like meeting rooms or equipment. It provides a mobile-friendly interface with extensible options for customising booking workflows. The application is built with PHP and packaged for containerised environments.",
+  "goodFor": "It is a good fit for internal IT teams or office managers who need a self-hosted calendar system to coordinate shared physical resources across a team.",
+  "watchOut": "Given its moderate community traction, you may encounter fewer third-party plugins or community guides compared to mainstream commercial alternatives.",
+  "deployNotes": "As a PHP application deployed via Docker, you will typically need to provision persistent storage for user uploads and a separate database backend, alongside a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

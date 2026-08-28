@@ -1,0 +1,8 @@
+{
+  "summary": "Piwigo is a web-based photo gallery application developed in PHP. It allows you to host, organise, and share large collections of images through a browser-based interface.",
+  "goodFor": "It suits individuals and communities who want a dedicated, self-hosted web platform to manage extensive photo libraries rather than relying on external cloud storage.",
+  "watchOut": "The project relies on a moderate community-driven development model, which may mean slower responses to emerging security or compatibility issues compared to larger commercial equivalents.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server like Apache or Nginx, alongside a relational database such as MySQL or MariaDB, and persistent storage for your image files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

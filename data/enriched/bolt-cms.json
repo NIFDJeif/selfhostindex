@@ -1,0 +1,8 @@
+{
+  "summary": "Bolt is an open-source content management system written in PHP that focuses on straightforward publishing workflows. It provides a structured interface for organising and delivering web content without the complexity of larger enterprise platforms. The project is distributed under the MIT licence.",
+  "goodFor": "It suits developers and small teams looking for a lightweight PHP-based publishing tool that is easy to modify and deploy.",
+  "watchOut": "With a relatively small community and modest repository activity, you may find fewer third-party plugins and community-maintained extensions compared to dominant alternatives.",
+  "deployNotes": "You will typically need a standard PHP runtime environment, a web server such as Nginx or Apache, and a compatible relational database to store your content.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}

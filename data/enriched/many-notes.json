@@ -1,0 +1,8 @@
+{
+  "summary": "Many Notes is a web-based note-taking application built around Markdown formatting. It provides a straightforward digital workspace for writing and organising plain text notes in a browser. The project is distributed under the MIT licence and managed via Docker containers.",
+  "goodFor": "This is a suitable option if you want a lightweight, self-hosted Markdown scratchpad without the complexity of larger knowledge management suites.",
+  "watchOut": "The repository has a modest community size and competes in a crowded ecosystem of well-established note-taking tools, meaning you might encounter missing features or fewer third-party integrations.",
+  "deployNotes": "As a containerised web application, you will typically need to map a persistent volume for your notes storage and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-28"
+}
