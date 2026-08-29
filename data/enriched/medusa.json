@@ -1,0 +1,8 @@
+{
+  "summary": "Medusa is a media management tool written in Python that automates the organisation and tracking of television show libraries. It monitors external sources for new episodes and handles their retrieval according to pre-configured user preferences.",
+  "goodFor": "Self-hosters running a dedicated media server who want automated tracking and organisation of television show files.",
+  "watchOut": "The project shares significant functional overlap with more actively maintained alternatives in the media management space, and its moderate activity level may mean slower responses to upstream changes.",
+  "deployNotes": "As a Python application, it typically requires a persistent volume for configuration and library data, along with a reverse proxy if TLS termination is needed for external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

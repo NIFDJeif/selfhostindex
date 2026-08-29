@@ -1,0 +1,8 @@
+{
+  "summary": "dayGLANCE is a self-hosted day planner that combines drag-and-drop time blocking, task management, habit tracking, and goal organisation into a single interface. It includes built-in Pomodoro focus tools and supports synchronisation with external calendars via iCal and CalDAV. Data is stored locally in the browser by default, with optional synchronisation through WebDAV or GLANCEvault.",
+  "goodFor": "It suits individuals looking for a consolidated personal productivity dashboard that keeps their task and calendar data under local control.",
+  "watchOut": "With a relatively small repository star count, the project has a smaller community and ecosystem compared to more established open-source productivity alternatives.",
+  "deployNotes": "As a containerised JavaScript application, you will typically need to configure persistent storage volumes for your synchronisation data and place it behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

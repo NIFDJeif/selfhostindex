@@ -1,0 +1,8 @@
+{
+  "summary": "Django-wiki is a modular wiki application designed to be integrated into existing Python-based web projects. It relies on standard database models to store content and provides a clean user interface for managing documentation.",
+  "goodFor": "Developers who are already maintaining a Python application and need to embed a collaborative knowledge base directly into their existing stack.",
+  "watchOut": "Because it is structured as a component library rather than a standalone turnkey application, you will likely need to write custom integration glue and handle user authentication wiring yourself.",
+  "deployNotes": "You will typically need to run it behind a WSGI or ASGI server like Gunicorn, pair it with a relational database, and configure a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

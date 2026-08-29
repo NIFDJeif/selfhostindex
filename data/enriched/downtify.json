@@ -1,0 +1,8 @@
+{
+  "summary": "Downtify is a media management utility designed to download Spotify tracks along with their associated metadata and album art. It is packaged as a Docker container, making it straightforward to integrate into existing containerised home server setups. The project is open-source under the GPL-3.0 licence and maintains a steady development pace.",
+  "goodFor": "It is suitable for self-hosters looking for a dedicated tool to pull audio files and artwork directly from Spotify for offline archival.",
+  "watchOut": "As an open-source tool interacting with proprietary streaming services, its longevity and reliability depend heavily on upstream API changes which can break functionality unexpectedly.",
+  "deployNotes": "You will typically need to configure persistent volume mounts to ensure downloaded media and configuration files are saved outside the container lifespan.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

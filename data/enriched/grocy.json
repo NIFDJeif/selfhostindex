@@ -1,0 +1,8 @@
+{
+  "summary": "grocy is a self-hosted enterprise resource planning system designed for household and grocery management. It helps you track household inventory, chore schedules, and meal planning in a single web interface. The project is built with PHP and available under an MIT licence.",
+  "goodFor": "This is a good fit if you want a dedicated system to manage home supplies, expiry dates, and domestic chores rather than relying on generic spreadsheets.",
+  "watchOut": "The development pace is slowing down, and self-hosting an application of this type requires ongoing manual data entry to keep inventories accurate.",
+  "deployNotes": "As a PHP and Docker application, deployment typically requires persistent storage volumes for your data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

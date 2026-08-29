@@ -1,0 +1,8 @@
+{
+  "summary": "LinkStack is a self-hosted platform that lets you aggregate multiple URLs and social media profiles onto a single customisable landing page. It provides a centralised administrator interface to manage links as an alternative to proprietary services like Linktree. The project is open source and built using PHP and Docker.",
+  "goodFor": "It suits individuals or organisations who want full control over their public link-in-bio page without relying on third-party SaaS providers.",
+  "watchOut": "The project exhibits slowing maintenance activity and competes in a space dominated by mature, cloud-hosted alternatives. You will also need to manage your own hosting, DNS, and uptime.",
+  "deployNotes": "Deployment typically involves running the provided Docker container behind a reverse proxy to handle TLS termination. You will also need to ensure persistent storage is configured for any user data and database files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Concrete 5 is an open source content management system written in PHP under the MIT licence. It provides a structured framework for publishing and managing digital content through a web-based interface. Administrators can use it to build and maintain websites without directly editing source files.",
+  "goodFor": "It suits teams looking for an open source, PHP-based content management system for standard web publishing tasks.",
+  "watchOut": "The project's moderate maintenance activity level and heavy overlap with more dominant alternatives mean you should evaluate community support carefully before adopting it for long-term critical infrastructure.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or MariaDB, and persistent storage for uploaded media files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

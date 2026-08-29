@@ -1,0 +1,8 @@
+{
+  "summary": "Cronmaster is a self-hosted user interface designed for managing cron jobs. It allows you to define schedules using human-readable syntax while providing live output logging and historical run data.",
+  "goodFor": "It is a suitable tool for developers or system administrators who want a centralised web interface to monitor and manage scheduled tasks across their infrastructure.",
+  "watchOut": "The project has a modest community footprint and an AGPL-3.0 licence, which may introduce compliance considerations if you modify and distribute the source code within a commercial network.",
+  "deployNotes": "Because it is distributed as a Docker container, you will typically need to configure persistent storage volumes to preserve your job history and ensure a reverse proxy is set up in front of it for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

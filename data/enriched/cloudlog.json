@@ -1,0 +1,8 @@
+{
+  "summary": "Cloudlog is a self-hosted application designed for amateur radio operators to record and manage their contact logs. It runs via Docker and provides a centralised system to track communications from various locations. The project is available under the MIT licence.",
+  "goodFor": "It suits radio amateurs who want to maintain their own logging database rather than relying on external cloud services.",
+  "watchOut": "The moderate maintenance health score indicates that you should inspect the repository activity and issue tracker to gauge how well it fits your long-term needs.",
+  "deployNotes": "As a PHP application packaged for Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

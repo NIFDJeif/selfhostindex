@@ -1,0 +1,8 @@
+{
+  "summary": "Gocron is an automation tool designed to handle recurring task scheduling. It reads job definitions directly from a simple YAML configuration file, providing a structured approach to running routine processes on your server. The software is distributed under an open-source MIT licence and containerised for straightforward deployment.",
+  "goodFor": "It suits administrators who prefer defining their scheduled maintenance and automation tasks in flat configuration files rather than using a graphical user interface.",
+  "watchOut": "The project has a relatively modest repository star count and a steady rather than high-velocity maintenance score, meaning you may need to rely on community support or your own debugging for edge cases.",
+  "deployNotes": "Because it runs as a Docker container, you will typically need to mount a persistent volume for your YAML configuration files and any associated execution logs. A reverse proxy should be configured in front of the instance if you require secure TLS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

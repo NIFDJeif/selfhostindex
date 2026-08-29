@@ -1,0 +1,8 @@
+{
+  "summary": "Motion.tools (Antragsgrün) is a self-hosted application designed to manage motions and amendments during political conventions and similar large meetings. It provides a structured interface for submitting, reviewing, and voting on proposals before and during an event.",
+  "goodFor": "Political parties, trade unions, and associations that need a dedicated workflow for handling democratic proposal submissions and convention proceedings.",
+  "watchOut": "Adoption outside of specific European political contexts may be low, and user onboarding could require training for attendees unfamiliar with its specific convention workflows.",
+  "deployNotes": "Since it runs via Docker and uses PHP, you will typically need to configure a persistent volume for data storage and place it behind a standard reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

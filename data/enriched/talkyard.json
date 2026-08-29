@@ -1,0 +1,8 @@
+{
+  "summary": "Talkyard is a self-hosted platform designed to combine user communities, feature request boards, question-and-answer sections, and chat functionality into a single space. It merges the core features of multiple popular discussion and support forums into one unified application.",
+  "goodFor": "It suits administrators who want to consolidate feedback collection, community discussions, and user support into a single self-hosted platform rather than running separate tools.",
+  "watchOut": "The AGPL-3.0 licence places strict copyleft obligations on network services, which may affect your legal compliance if you modify and host the code publicly. Additionally, community adoption is relatively modest compared to long-standing alternatives in this category.",
+  "deployNotes": "Deployment relies on Docker containers, which typically require persistent storage volumes for database and application state. You will also need to configure a reverse proxy to handle TLS termination and incoming HTTP traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "myCart is an e-commerce application packaged into a single file, designed to handle online transactions. It provides functionality for processing payments via traditional credit cards and cryptocurrencies.",
+  "goodFor": "This tool is a good fit if you need to quickly embed or deploy a lightweight shopping cart without managing a complex multi-service architecture.",
+  "watchOut": "The single-file design and modest community adoption suggest it may lack advanced inventory management, plugin ecosystems, or extensive documentation compared to established e-commerce platforms.",
+  "deployNotes": "Because it runs as a containerised Go application, you will typically need to configure a reverse proxy to handle TLS termination and ensure persistent storage is attached if transaction data or state needs to be retained.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

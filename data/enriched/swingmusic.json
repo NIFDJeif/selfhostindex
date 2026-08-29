@@ -1,0 +1,8 @@
+{
+  "summary": "SwingMusic is a self-hosted audio streaming server designed to play local music files through a web interface. It functions similarly to commercial streaming services like Spotify, but requires you to provide your own audio collection. Built with Python and licensed under the MIT licence, it allows you to manage and stream your personal music library directly from your own hardware.",
+  "goodFor": "This is a good fit if you maintain a large local collection of audio files and want a dedicated web-based player to stream them across your devices.",
+  "watchOut": "As an independent media server with a modest community and steady maintenance level, it may lack the extensive plugin ecosystem, client app availability, and long-term polish of more established alternatives like Navidrome or Plex.",
+  "deployNotes": "Containerised deployment via Docker typically requires mapping persistent storage volumes for your local music directory and any internal configuration data. You will also usually need to place it behind a reverse proxy to handle TLS termination if you access the web interface externally.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

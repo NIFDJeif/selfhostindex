@@ -1,0 +1,8 @@
+{
+  "summary": "Hypersomnia is a top-down tactical shooter that combines fast-paced combat mechanics with team-based competitive elements. It is written in C++ and can be hosted independently to run multiplayer game sessions across Linux, Windows, macOS, and web browsers.",
+  "goodFor": "Self-hosters and gaming communities looking to spin up a dedicated multiplayer action game server for small groups.",
+  "watchOut": "The absence of tagged releases suggests that you may need to build from source or rely on bleeding-edge development commits, which can introduce instability.",
+  "deployNotes": "Because the project includes Docker support, containerised deployment is straightforward, typically requiring standard port forwarding for game traffic and a reverse proxy if handling web-based clients.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

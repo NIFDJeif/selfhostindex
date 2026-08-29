@@ -1,0 +1,8 @@
+{
+  "summary": "Beaver Habit Tracker is a self-hosted application designed for logging daily routines and personal milestones. It addresses the time-tracking category by letting you record repeated actions over a timeline. The official documentation is brief, so specific alerting or reporting mechanisms are not detailed beyond core logging.",
+  "goodFor": "It suits individuals wanting to privately monitor personal routines without relying on third-party cloud services.",
+  "watchOut": "The moderate maintenance score and limited documentation suggest you might encounter rough edges or need to inspect the codebase directly for troubleshooting.",
+  "deployNotes": "Since it is packaged for Docker, you will typically need to mount a persistent volume for storing application data and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

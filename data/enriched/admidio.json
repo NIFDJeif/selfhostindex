@@ -1,0 +1,8 @@
+{
+  "summary": "Admidio is a self-hosted user management platform designed for clubs, associations, and community groups. It provides a structured environment to handle member databases, assign granular permissions, and mirror the hierarchical roles of an organisation.",
+  "goodFor": "Voluntary associations and community groups requiring a dedicated tool to manage memberships and internal access rights without relying on proprietary SaaS platforms.",
+  "watchOut": "The project has a modest community footprint, meaning you may need to rely on the existing documentation and forums if you encounter specific configuration issues.",
+  "deployNotes": "As a PHP application deployed via Docker, you will typically need to configure a persistent volume for uploaded files and user data, alongside a separate database container and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

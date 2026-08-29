@@ -1,0 +1,8 @@
+{
+  "summary": "BookLogr is a self-hosted application designed to help you organise and track your personal reading collection. While specific feature details are sparse, software in the e-book and document management category typically allows you to catalogue titles, monitor reading status, and maintain a digital inventory of physical or digital books.",
+  "goodFor": "It suits individuals looking for a dedicated, private space to keep tabs on their personal library without relying on third-party commercial platforms.",
+  "watchOut": "With a relatively niche repository size and moderate community traction, you may encounter fewer plugins, integrations, or troubleshooting resources compared to mainstream alternatives.",
+  "deployNotes": "Because it is distributed as a Docker container, you will typically need to configure persistent volumes for your database and uploaded files, as well as set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

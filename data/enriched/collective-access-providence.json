@@ -1,0 +1,8 @@
+{
+  "summary": "Providence is a web-based framework designed for managing, describing, and discovering digital and physical collections. It provides configurable structures to handle diverse metadata standards, various data types, and multiple media formats. The platform acts as a central repository system for archivists and cultural heritage organisations.",
+  "goodFor": "It suits GLAM (Galleries, Libraries, Archives, and Museums) institutions or private collectors needing to manage complex, non-standard cataloguing structures.",
+  "watchOut": "The high degree of configurability means the initial setup and customisation curve can be steep and time-consuming. It also has a relatively small community footprint compared to mainstream alternatives.",
+  "deployNotes": "As a PHP application, it typically requires a traditional web server stack like Apache or Nginx, alongside a relational database such as MySQL or PostgreSQL. You will also need persistent storage volumes to safely store uploaded media files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

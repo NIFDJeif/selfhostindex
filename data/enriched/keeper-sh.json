@@ -1,0 +1,8 @@
+{
+  "summary": "Keeper.sh is a self-hosted calendar synchronisation tool designed to mirror events across multiple sources and destinations. It connects various platforms using standard iCal, ICS, or OAuth protocols, and includes functionality for publishing anonymised busy or free states.",
+  "goodFor": "It suits individuals or teams who need to keep multiple disparate calendars aligned while maintaining privacy regarding specific event details.",
+  "watchOut": "The moderate project maintenance activity means you should verify issue response times and community support before relying on it for critical scheduling workflows.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Meme Search is an AI-driven search engine that indexes image collections using vision-language models and vector embeddings. It automatically generates text descriptions from images to enable both semantic and keyword-based retrieval.",
+  "goodFor": "It is suited for individuals or teams with large, unorganised image collections who need to retrieve specific files using natural language queries.",
+  "watchOut": "Running vision-language models and generating vector embeddings locally will require significant computational resources, likely demanding a dedicated GPU for acceptable performance.",
+  "deployNotes": "As a Docker-based deployment, you will typically need to map persistent volumes for the image library and vector database, alongside configuring a reverse proxy for HTTPS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

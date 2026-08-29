@@ -1,0 +1,8 @@
+{
+  "summary": "Shiori is a self-hosted bookmark manager written in Go. It allows you to save web links, archive webpage content for offline reading, and organise your collection through tags. The application provides a lightweight alternative to commercial bookmarking services.",
+  "goodFor": "Users who want a simple, containerised tool to store and index web links on their own infrastructure without heavy resource usage.",
+  "watchOut": "The project shows slowing maintenance activity, which may impact timely responses to security vulnerabilities or bugs.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent storage volumes for your saved data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "DavMail acts as a local gateway translating standard protocols like POP, IMAP, SMTP, CalDAV, CardDAV, and LDAP into formats compatible with Microsoft Exchange servers. This allows users to connect their preferred desktop or mobile mail and calendar clients to corporate Exchange environments, including through Outlook Web Access. It bridges the gap between proprietary server setups and client-side applications that rely on open standards.",
+  "goodFor": "Users who are constrained to an Exchange environment but want to use independent mail and calendar clients on their own devices.",
+  "watchOut": "Relying on a translation gateway introduces an additional point of failure and complexity when enterprise update cycles alter OWA or Exchange endpoints.",
+  "deployNotes": "As a Java application, it typically runs as a lightweight background service or container, though you will need to allocate sufficient JVM heap memory and manage persistent configuration files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

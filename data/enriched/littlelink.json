@@ -1,0 +1,8 @@
+{
+  "summary": "LittleLink is a self-hosted alternative to proprietary link-in-bio services. It provides a static page featuring a collection of branded buttons that direct visitors to your various online profiles and websites.",
+  "goodFor": "Individuals who want a simple, customisable landing page for their social media profiles without relying on third-party SaaS providers.",
+  "watchOut": "It offers basic functionality and lacks the advanced analytics, automated integrations, or user management systems found in commercial equivalents.",
+  "deployNotes": "As a JavaScript-based static site, it typically requires only a basic web server or container to serve the assets and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Suroi is an open-source 2D battle royale game modelled on surviv.io. Players drop onto a map, scavenge for equipment, and fight to be the last survivor from a top-down perspective.",
+  "goodFor": "Hosting a private multiplayer gaming instance for friends or running a community server based on open-source battle royale mechanics.",
+  "watchOut": "The codebase is a community-driven project with moderate activity, meaning you may encounter balancing issues, bugs, or limited documentation during setup.",
+  "deployNotes": "As a Node.js application, it typically requires a reverse proxy such as Nginx or Caddy to handle TLS termination and process management tools like PM2 to keep the server running.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

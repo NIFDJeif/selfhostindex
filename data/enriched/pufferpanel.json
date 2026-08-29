@@ -1,0 +1,8 @@
+{
+  "summary": "PufferPanel is an administrative control panel built for managing dedicated game servers through a unified web interface. It caters to individual operators running small networks as well as infrastructure providers hosting multiple instances. Written in Go and distributed under the Apache-2.0 licence, it coordinates game server processes and user permissions.",
+  "goodFor": "Self-hosters and small hosting providers who need a centralised web interface to provision and monitor multiple game servers.",
+  "watchOut": "Game server management panels often require deep system-level access and careful port allocation, which can introduce security vulnerabilities if misconfigured.",
+  "deployNotes": "As a compiled Go application, it typically runs as a system service behind a reverse proxy for TLS termination and usually requires a relational database to store user accounts and node configurations.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

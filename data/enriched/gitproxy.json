@@ -1,0 +1,8 @@
+{
+  "summary": "GitProxy is a dedicated proxy server designed to sit in front of your Git repositories and intercept outgoing push operations. It evaluates these pushes against predefined compliance rules, running security scans and validation checks for both HTTP and SSH traffic.",
+  "goodFor": "It is well-suited for engineering teams that need centralized enforcement of security policies and compliance workflows before code changes reach upstream servers.",
+  "watchOut": "Because it intercepts all write operations, any downtime or latency introduced by the proxy will directly disrupt developer workflows and block deployments.",
+  "deployNotes": "As a Node.js application packaged for Docker, it typically requires persistent storage for configuration files and a reverse proxy to handle TLS termination for incoming HTTPS traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

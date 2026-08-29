@@ -1,0 +1,8 @@
+{
+  "summary": "Zim is a graphical text editor designed for managing collections of wiki pages. It allows you to organise notes locally with simple formatting, embedded images, and hyperlinks between pages.",
+  "goodFor": "It suits users who want a desktop-centric personal knowledge base rather than a collaborative web-based wiki service.",
+  "watchOut": "The software relies on local desktop packages and lacks native multi-user collaboration features found in modern web-based alternatives.",
+  "deployNotes": "Because it is distributed as a Python and Debian package, you will typically install it directly on a local desktop environment rather than a headless server with a reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Evidence is a code-driven business intelligence tool that compiles SQL queries and Markdown files into static websites. It allows technical teams to build web-based reports directly from source code repositories rather than traditional drag-and-drop interfaces. The project is distributed under an MIT licence and is built using Node.js.",
+  "goodFor": "Developers and data analysts who prefer version-controlled, text-based workflows over proprietary dashboard applications.",
+  "watchOut": "The software's development activity is currently slowing down, which may impact how quickly bugs are fixed or new features are added.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent environment, process management via a tool like PM2, and a reverse proxy such as Nginx to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

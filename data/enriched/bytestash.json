@@ -1,0 +1,8 @@
+{
+  "summary": "ByteStash is a self-hosted pastebin and file storage application featuring a straightforward web interface. It provides core functionality for text and file sharing, including syntax highlighting, optional user authentication, and public link generation.",
+  "goodFor": "It suits individuals or teams who need a private, self-hosted alternative to public pastebins for sharing code snippets and small files.",
+  "watchOut": "The software occupies a crowded category with many mature alternatives, meaning you should weigh its feature set carefully against more established tools.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volume mounts for stored data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

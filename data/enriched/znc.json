@@ -1,0 +1,8 @@
+{
+  "summary": "ZNC is an IRC bouncer designed to sit between your chat client and one or more servers. It maintains persistent connections so you do not miss messages when your client disconnects, and it can relay chat history across multiple devices.",
+  "goodFor": "It suits users who rely heavily on IRC and need a reliable proxy to stay connected to networks continuously from various endpoints.",
+  "watchOut": "The codebase has a moderate maintenance tempo and lacks recent tagged releases, meaning you should check if it meets your stability and security requirements before adoption.",
+  "deployNotes": "As a C++ application packaged as a Debian artifact, it typically runs as a persistent daemon requiring local storage for configuration and logs, and usually sits behind a reverse proxy to handle client TLS connections securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

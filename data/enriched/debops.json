@@ -1,0 +1,8 @@
+{
+  "summary": "DebOps is a collection of general-purpose Ansible roles designed to configure and maintain Debian or Ubuntu server environments. It functions as an automation toolkit to manage multiple hosts and services from a central control machine without requiring a custom agent on each node.",
+  "goodFor": "Sysadmins and engineers who prefer a modular, playbook-driven approach to standardising infrastructure across Debian and Ubuntu deployments.",
+  "watchOut": "Relying on a large collection of third-party Ansible roles can introduce debugging overhead when upstream updates break existing configurations or playbooks.",
+  "deployNotes": "You will need a local control machine with Python and Ansible installed to execute the playbooks against your target hosts over SSH.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

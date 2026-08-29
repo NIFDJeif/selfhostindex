@@ -1,0 +1,8 @@
+{
+  "summary": "SOLECTRUS is an Internet of Things dashboard designed to track photovoltaic energy production and consumption. It processes solar power generation data to present financial metrics such as ongoing costs and total savings. The application is packaged as a Docker container.",
+  "goodFor": "It is a suitable tool if you want a dedicated, self-hosted interface for monitoring your home solar installation and financial returns.",
+  "watchOut": "The project has a relatively modest community and repository star count, which may mean fewer community resources for troubleshooting compared to larger energy-tracking alternatives.",
+  "deployNotes": "Since it runs via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

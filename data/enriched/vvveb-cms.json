@@ -1,0 +1,8 @@
+{
+  "summary": "Vvveb CMS is a web-based platform designed to help you construct and manage websites, blogs, and online stores. It provides the core tools needed to publish content and handle digital storefronts from a self-hosted environment. The software relies on a standard PHP and Docker architecture.",
+  "goodFor": "This application suits developers or site operators looking for a self-hosted PHP tool to build content sites or e-commerce shops. It fits those who prefer containerised deployments for managing their web presence.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your modifications if you make the software available over a network, which may not suit commercial SaaS projects. It also competes in a crowded field of established content management systems, meaning community resources and plugin ecosystems may be smaller.",
+  "deployNotes": "You will typically run this via Docker alongside a persistent database volume for your site data. A reverse proxy should be configured in front of the container to handle TLS termination and incoming HTTP traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "GraphHopper is a routing engine and library that processes OpenStreetMap data to calculate paths and directions. It provides core algorithms for geographic navigation and route optimisation tasks.",
+  "goodFor": "It is well-suited for developers building self-hosted mapping services or logistics applications requiring direct control over geographical routing data.",
+  "watchOut": "Memory consumption can be high depending on the size of the imported map region, and processing large OpenStreetMap extracts requires adequate hardware resources.",
+  "deployNotes": "Because it is built with Java, you will typically need to allocate sufficient JVM heap space and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

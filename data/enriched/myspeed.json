@@ -1,0 +1,8 @@
+{
+  "summary": "MySpeed is a self-hosted network utility that logs and analyses internet connection speeds over a rolling thirty-day window. It provides historical data visualisation to help you track performance metrics and potential service degradations over time. The application is distributed under the MIT licence and packaged as a Docker container.",
+  "goodFor": "It suits home lab administrators or remote workers who need to monitor their Internet Service Provider's reliability and compile historical performance logs locally.",
+  "watchOut": "Given the modest maintenance score and lack of detailed roadmap information, you should consider whether community support will meet your long-term needs for tracking network outages.",
+  "deployNotes": "As a containerised Node.js application, deployment typically requires mounting a persistent volume to store your historical speed test data across container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

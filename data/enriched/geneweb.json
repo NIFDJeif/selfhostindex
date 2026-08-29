@@ -1,0 +1,8 @@
+{
+  "summary": "GeneWeb is a genealogy application designed to manage family trees and historical lineage data. It can operate entirely offline or function as a web service to allow remote access and collaborative editing. Developed using OCaml, it processes genealogical records and generates web interfaces for viewing family connections.",
+  "goodFor": "Self-hosters looking for a dedicated genealogy tool to manage extensive family trees privately on their own hardware.",
+  "watchOut": "The OCaml ecosystem has a smaller user base than Python or Node.js stacks, which may make customisation or troubleshooting more challenging for administrators unfamiliar with the language.",
+  "deployNotes": "You will typically need to configure persistent storage for your family tree data and place the service behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

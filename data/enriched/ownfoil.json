@@ -1,0 +1,8 @@
+{
+  "summary": "Ownfoil is a library manager designed for Nintendo Switch titles. It automates file organisation, handles missing updates or downloadable content, and serves your media collection to compatible clients via a customisable interface with multi-user access control.",
+  "goodFor": "Self-hosters who want to automate the management and distribution of a Nintendo Switch game library across multiple local clients.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on network-accessible modifications, and maintaining stability may require monitoring given its steady maintenance status.",
+  "deployNotes": "As a containerised Python application, it typically requires persistent storage volumes mapped for your library files and may need a reverse proxy configured for secure remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

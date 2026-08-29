@@ -1,0 +1,8 @@
+{
+  "summary": "Mail-in-a-Box automates the provisioning of an entire email server stack on an Ubuntu host through a single installation command. It configures standard mail transfer agents, IMAP services, DNS records, and TLS certificates collectively to provide a self-contained communication platform. The project is distributed under the CC0-1.0 public domain dedication.",
+  "goodFor": "It suits administrators who want to deploy a complete, standalone email server on a fresh Ubuntu installation without manually configuring every individual mail component.",
+  "watchOut": "Running your own mail server imposes significant operational overhead regarding IP reputation, spam filtering, and ongoing maintenance to ensure reliable message delivery. The project has a relatively modest maintenance tempo, so you may need to rely on community resources for troubleshooting.",
+  "deployNotes": "Because the setup script configures the host operating system directly and manages its own system services, it typically requires a clean, dedicated Ubuntu instance rather than a shared environment. You will also need persistent storage for mail spores and proper reverse DNS entries configured with your hosting provider.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}

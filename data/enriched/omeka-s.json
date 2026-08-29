@@ -1,0 +1,8 @@
+{
+  "summary": "Omeka S is a web publishing platform designed for managing and displaying digital cultural heritage collections. It enables institutions to connect their archival resources with other online datasets using structured metadata. The project operates under the GPL-3.0 licence and is built with Node.js.",
+  "goodFor": "It suits GLAM (galleries, libraries, archives, and museums) institutions that need to publish linked open data collections online.",
+  "watchOut": "The platform requires familiarity with specific metadata standards and archival data structures, which can present a steep learning curve for non-specialist administrators.",
+  "deployNotes": "As a Node.js application, you will typically need to configure a reverse proxy like Nginx or Caddy to handle TLS termination, along with a persistent storage volume for uploaded media assets and a connected database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-29"
+}
