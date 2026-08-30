@@ -1,0 +1,8 @@
+{
+  "summary": "Contao is a PHP-based content management system designed for building websites and structured web applications. It provides the foundational tools required to manage digital content and publish pages from a central administration interface. Administrators can organise site architecture and template data within a standard web hosting environment.",
+  "goodFor": "It suits developers and system administrators looking for a traditional PHP content management system to host client websites or internal publishing portals.",
+  "watchOut": "The project has a modest community footprint compared to dominant alternatives, which may limit the availability of third-party modules and community-driven documentation.",
+  "deployNotes": "As a PHP application, it typically requires a compatible web server like Apache or Nginx, alongside a relational database such as MySQL or MariaDB for persistent data storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

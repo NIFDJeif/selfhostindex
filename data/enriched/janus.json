@@ -1,0 +1,8 @@
+{
+  "summary": "Janus is a general-purpose, lightweight, and minimalist WebRTC server designed to handle real-time video conferencing and media streaming. It acts as a routing engine for browser-to-browser and browser-to-server media streams, allowing you to build custom communication applications. Written in C, it aims to provide low overhead when managing multiple peer-to-peer media sessions.",
+  "goodFor": "It is a suitable choice for developers who want to embed low-level WebRTC capabilities into custom applications without heavy framework bloat.",
+  "watchOut": "The project's slowing maintenance and lack of recent tagged releases mean you may need to rely on the community or your own debugging skills to patch issues. Its minimalist design also implies you will likely need to write significant custom logic to build a complete user-facing application.",
+  "deployNotes": "Because it is written in C, you will typically need to compile it from source or manage native dependencies on your host system. It generally requires a reverse proxy to handle TLS termination securely and may need external components depending on the specific plugins you enable.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

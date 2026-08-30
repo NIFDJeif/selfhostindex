@@ -1,0 +1,8 @@
+{
+  "summary": "Manage My Damn Life is a self-hosted web interface designed for interacting with CalDAV task lists and calendars. It provides a centralised front end to help you organise your schedule and to-do items on your own infrastructure. Because the user interface focuses purely on CalDAV standards, it acts as an alternative client rather than a standalone backend.",
+  "goodFor": "It is well-suited for self-hosters who rely on standard CalDAV servers for their calendar data and want a dedicated web-based dashboard to manage everything in one place.",
+  "watchOut": "The project has a moderate maintenance profile and overlaps heavily with widely adopted groupware suites and established calendar web clients, which might offer more comprehensive feature sets.",
+  "deployNotes": "Since it runs via Docker and Node.js, you will typically need to configure persistent storage for any local state and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

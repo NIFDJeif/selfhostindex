@@ -1,0 +1,8 @@
+{
+  "summary": "OwnTracks Recorder is a lightweight backend service designed to receive, store, and serve location data published by the OwnTracks mobile tracking clients. It persists incoming telemetry so that you can query and visualise historical geographic coordinates over time. Written in C and Lua, it provides a dedicated server-side endpoint for self-hosters managing their own location logs.",
+  "goodFor": "It is a practical choice if you already use the OwnTracks mobile apps and want a private, self-hosted repository for your location history without relying on third-party cloud services.",
+  "watchOut": "The software has a modest maintenance profile, meaning you may need to rely on community resources or self-diagnose issues if you encounter bugs.",
+  "deployNotes": "You will typically run this via Docker or a native package, ensuring you configure persistent storage for your location data and a reverse proxy to handle secure TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

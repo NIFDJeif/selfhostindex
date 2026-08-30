@@ -1,0 +1,8 @@
+{
+  "summary": "Colanode is an open-source collaboration suite designed as an alternative to proprietary platforms like Slack and Notion. It combines real-time messaging, rich text document editing, file management, and dynamic databases into a single workspace that supports offline operation.",
+  "goodFor": "Teams looking for an open-source, self-hosted workspace that merges chat and structured document management with offline capabilities.",
+  "watchOut": "The project's recent development activity is slowing down, and it overlaps heavily with mature, well-established alternatives in the groupware space.",
+  "deployNotes": "As it relies on Docker and Kubernetes, you will typically need to configure persistent volumes for data storage and place the instance behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

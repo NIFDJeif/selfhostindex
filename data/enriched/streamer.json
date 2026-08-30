@@ -1,0 +1,8 @@
+{
+  "summary": "µStreamer is a lightweight server written in C that streams MJPEG video from Video4Linux2 devices over the network. It provides a straightforward way to expose hardware camera feeds through standard HTTP interfaces without heavy transcoding pipelines.",
+  "goodFor": "It suits resource-constrained servers or embedded systems where low latency and minimal CPU overhead are priorities for basic video streaming.",
+  "watchOut": "The absence of tagged releases and slowing development activity suggest you may need to rely on the source repository directly, while the MJPEG format itself lacks modern bandwidth efficiency compared to newer streaming codecs.",
+  "deployNotes": "As a native C application packaged as a debian binary, it typically runs directly on the host or inside a minimal container, usually requiring a reverse proxy like Nginx to handle TLS termination and external access securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

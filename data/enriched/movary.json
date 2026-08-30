@@ -1,0 +1,8 @@
+{
+  "summary": "Movary is a web application designed to help you log and score the films you watch. It provides a centralised interface to maintain a personal archive of your cinematic history.",
+  "goodFor": "It suits self-hosters who want a dedicated, private system to record their movie-watching habits without relying on commercial platforms.",
+  "watchOut": "Maintenance health is moderate and the project has a modest repository size, meaning you may encounter slower responses to bug fixes or feature requests compared to larger ecosystem alternatives.",
+  "deployNotes": "As a containerised PHP application, it typically requires persistent volumes for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

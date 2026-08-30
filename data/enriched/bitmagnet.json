@@ -1,0 +1,8 @@
+{
+  "summary": "Bitmagnet is a self-hosted BitTorrent indexer and search engine that crawls the distributed hash table to classify content. It provides a web user interface, a GraphQL API, and integration with the Servarr application stack. Written in Go, it functions as a backend tool for discovering and indexing peer-to-peer files.",
+  "goodFor": "Self-hosters who want to run a private torrent indexer and need native integration with media management tools like the Servarr suite.",
+  "watchOut": "Development activity has slowed down recently, and crawler-based tools often demand substantial network bandwidth and storage resources.",
+  "deployNotes": "It is typically deployed using Docker with persistent storage volumes attached for database and index data. You will usually need to place it behind a reverse proxy if you require external TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

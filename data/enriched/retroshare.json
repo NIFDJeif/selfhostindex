@@ -1,0 +1,8 @@
+{
+  "summary": "RetroShare is an open-source, decentralised communication system that provides peer-to-peer chat, forums, private messaging, and file transfer capabilities. It connects users directly through encrypted tunnels without relying on central servers. The project is implemented in C++ and distributed under the GPL-2.0 licence.",
+  "goodFor": "It is a suitable choice if you require completely decentralised communication infrastructure that operates independently of third-party servers and central authorities.",
+  "watchOut": "Development activity has slowed down over time, and the decentralised architecture typically requires both peers to be online to establish direct communication and transfers.",
+  "deployNotes": "As a C++ application, you will typically need to manage persistent storage for your identity and data, and you may want to place it behind a reverse proxy depending on how you configure network access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

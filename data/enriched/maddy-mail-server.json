@@ -1,0 +1,8 @@
+{
+  "summary": "Maddy Mail Server is an all-in-one email solution written in Go that integrates SMTP, IMAP, and authentication mechanisms into a single daemon. It aims to replace traditional multi-component mail stacks like Postfix, Dovecot, and various filtering daemons with a unified binary. The software is licensed under the GPL-3.0 and provides a complete mail server implementation.",
+  "goodFor": "Self-hosters who want to run a complete email infrastructure without configuring and maintaining several distinct server applications.",
+  "watchOut": "Consolidating all mail services into a single daemon introduces a single point of failure and means you must rely on a less conventional stack compared to battle-tested traditional components.",
+  "deployNotes": "Being a Go binary, it typically runs as a standalone service with persistent storage for mailboxes and configuration files, alongside proper DNS and TLS certificate management.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

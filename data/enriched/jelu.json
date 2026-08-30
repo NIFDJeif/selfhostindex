@@ -1,0 +1,8 @@
+{
+  "summary": "Jelu is a self-hosted reading tracker designed to help you organise your current books and maintain a to-read list. It provides a centralised web interface to log your reading habits, monitor progress, and catalogue personal libraries. Released under the MIT licence, the project is built using Java and is distributed via Docker.",
+  "goodFor": "This is a suitable tool for someone who wants a dedicated, self-hosted system to manage a personal reading list without relying on third-party commercial platforms.",
+  "watchOut": "The project has a moderate maintenance profile and overlaps heavily with widely adopted alternatives in the media tracking space, meaning community support may be relatively niche.",
+  "deployNotes": "Because the application is packaged as a Docker container running Java, you will typically need to map persistent storage volumes for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

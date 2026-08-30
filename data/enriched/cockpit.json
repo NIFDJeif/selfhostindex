@@ -1,0 +1,8 @@
+{
+  "summary": "Cockpit is a headless content management system built with PHP for handling structured data. It provides an administrative interface to organise and retrieve content via APIs without coupling the backend to a specific frontend technology.",
+  "goodFor": "It is well-suited for developers who need a lightweight, self-hosted backend to manage structured content for decoupled websites or applications.",
+  "watchOut": "The project has a modest community and lower repository activity compared to major alternative CMS platforms, which may impact long-term plugin availability and community support.",
+  "deployNotes": "As a PHP application, you will typically need to provision a web server such as Nginx or Apache alongside a compatible database backend and ensure persistent storage is configured for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

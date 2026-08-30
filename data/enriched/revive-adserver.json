@@ -1,0 +1,8 @@
+{
+  "summary": "Revive Adserver is an open-source ad serving system used to manage online advertising campaigns, banners, and zones across websites. Formerly known as OpenX Adserver and phpAdsNew, it provides infrastructure for publishers and advertisers to track impressions, clicks, and statistics. It operates as a self-hosted platform to run and monitor digital ad inventory.",
+  "goodFor": "It is a suitable fit for website publishers and network operators who need a self-hosted platform to manage and deliver direct-sold digital advertisements and track basic campaign metrics.",
+  "watchOut": "The development activity is slowing down, and the lack of recent tagged releases suggests you may need to rely heavily on the community or patch security issues yourself.",
+  "deployNotes": "Because it is built with PHP, you will typically need to deploy it alongside a web server like Nginx or Apache, a database such as MySQL or MariaDB, and ensure persistent storage for uploaded ad creatives and log files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Note Mark is a minimal, web-based application designed for editing and managing Markdown notes. It provides a browser interface to handle plain text note-taking tasks without complex database setups or heavy client-side frameworks. As a lightweight self-hosted utility, it fits into the broader category of personal knowledge management and documentation tools.",
+  "goodFor": "It is well-suited for individual users who want a straightforward, self-hosted web interface specifically for editing Markdown files without extra bloat.",
+  "watchOut": "The AGPL-3.0 licence carries strong copyleft implications if you plan to modify and redistribute the code or offer it as a managed service, and the project has a modest community footprint.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes to prevent note loss during container updates, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Openmeetings provides a groupware platform featuring video conferencing, instant messaging, whiteboards, and collaborative document editing. It relies on the Red5 Streaming Server to handle remoting and streaming capabilities.",
+  "goodFor": "Teams looking for an open-source, self-hosted suite that combines video communication with shared document tools under an Apache-2.0 licence.",
+  "watchOut": "It faces significant competition from much larger, more widely adopted communication platforms, which may offer better client stability or easier integration.",
+  "deployNotes": "As a Java application, you will typically need to configure a compatible Java runtime environment alongside a reverse proxy for TLS termination and a dedicated database for persistent state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

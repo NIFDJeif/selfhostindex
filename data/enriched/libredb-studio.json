@@ -1,0 +1,8 @@
+{
+  "summary": "LibreDB Studio is a web-based database management interface that allows you to interact with multiple relational and non-relational database engines from a single browser tab. It features an optional artificial intelligence assistant designed to translate plain text prompts into valid queries.",
+  "goodFor": "It suits developers and database administrators who want a unified, browser-accessible environment for managing diverse database types without installing native desktop clients.",
+  "watchOut": "The project has a modest community following and overlaps heavily with established alternatives like DBeaver and DataGrip, meaning you may encounter missing edge-case features or less extensive documentation.",
+  "deployNotes": "As a containerised application built for Docker and Kubernetes, you will typically need to configure a reverse proxy for HTTPS and ensure any internal state or configuration is mapped to persistent volumes.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

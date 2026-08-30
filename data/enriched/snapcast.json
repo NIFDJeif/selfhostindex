@@ -1,0 +1,8 @@
+{
+  "summary": "Snapcast is a multiroom audio server that distributes time-synchronised audio streams to multiple clients over a network. It acts as the central hub for playing coordinated sound across different rooms or hardware targets simultaneously. The system relies on a client-server architecture written in C++ to achieve tight synchronisation.",
+  "goodFor": "It is a suitable choice if you want to build a custom multiroom audio setup using existing playback hardware without proprietary vendor lock-in.",
+  "watchOut": "The project shows signs of slowing development activity, which may impact long-term maintenance and compatibility with newer audio backends.",
+  "deployNotes": "As a compiled C++ application distributed as a deb package, it typically runs as a system daemon without requiring a database or heavy persistent storage. You will need to configure network access and audio inputs properly on the host machine to stream your sources.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

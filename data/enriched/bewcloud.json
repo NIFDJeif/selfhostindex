@@ -1,0 +1,8 @@
+{
+  "summary": "bewCloud provides a self-hosted platform for synchronising files, managing notes, viewing photo galleries, and reading RSS feeds. It functions as an open-source alternative to established productivity suites like Nextcloud and ownCloud.",
+  "goodFor": "It suits users seeking an alternative groupware and file synchronisation suite that keeps their data within local infrastructure.",
+  "watchOut": "The project overlaps heavily with more mature and widely adopted alternatives, which may offer broader community support and plugin ecosystems.",
+  "deployNotes": "As a containerised application, deployment typically requires persistent volume mounts for stored user data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

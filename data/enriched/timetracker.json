@@ -1,0 +1,8 @@
+{
+  "summary": "TimeTracker is an open-source application designed to monitor hours spent on various clients and projects. It includes built-in timers, kanban task management, customer relationship management, expense tracking, and multi-currency invoicing with PDF and e-invoicing support. Additionally, it offers reporting tools, OIDC single sign-on, and a REST API for integration.",
+  "goodFor": "Freelancers and small teams who need an all-in-one platform to handle project time management, client invoicing, and basic CRM tasks in a single self-hosted tool.",
+  "watchOut": "The moderate maintenance health score indicates you should evaluate whether the community and update frequency align with your long-term reliability requirements.",
+  "deployNotes": "Because it is packaged for Docker, you will typically need to configure persistent volumes for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

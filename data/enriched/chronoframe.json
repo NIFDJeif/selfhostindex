@@ -1,0 +1,8 @@
+{
+  "summary": "ChronoFrame is a self-hosted personal gallery application designed for online photo management. It includes features for exploring images via an interactive map and supports modern formats like Live and Motion Photos. The project is distributed under the MIT licence as a Docker container built with Node.js.",
+  "goodFor": "It suits individuals wanting a private, self-hosted web interface to organise and view their photo collections, including specialised formats like motion pictures, without relying on third-party cloud services.",
+  "watchOut": "The software is currently at a release candidate stage (v1.0.0-rc.4), which indicates that you may encounter bugs or breaking changes before a stable release. It also competes in a crowded ecosystem alongside much more mature photo management platforms.",
+  "deployNotes": "You can deploy it using Docker, which typically requires mapping persistent storage volumes for your media library and configuration data. You will also usually need to set up a reverse proxy in front of the container to handle TLS termination and secure external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

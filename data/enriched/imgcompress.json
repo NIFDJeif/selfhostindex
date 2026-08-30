@@ -1,0 +1,8 @@
+{
+  "summary": "ImgCompress is a containerised image processing utility that runs locally via Docker. It provides capabilities for compression, format conversion, resizing, batch operations, and local AI-driven background removal without sending data to external cloud services.",
+  "goodFor": "This is suitable if you need to process large batches of images locally while keeping your data entirely self-contained and free from third-party API dependencies.",
+  "watchOut": "Local AI background removal tasks can demand significant local hardware resources, and the project has a modest community footprint with an average maintenance posture.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent storage volumes for your input and output image directories and place the container behind a reverse proxy if you require remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

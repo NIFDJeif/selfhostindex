@@ -1,0 +1,8 @@
+{
+  "summary": "Claper is an interactive presentation tool designed to collect live feedback, questions, and reactions from an audience during events. It functions as an open-source alternative to proprietary engagement platforms like Slido and Mentimeter. You can run it on your own hardware to host live polling sessions.",
+  "goodFor": "It suits event organisers, educators, and presenters who require a self-hosted audience engagement tool under a GPL-3.0 licence.",
+  "watchOut": "The project has a moderate maintenance score and competes in a niche space with well-established proprietary tools, which may limit community resources and third-party integrations.",
+  "deployNotes": "As it is packaged with Docker, you will typically need to configure persistent storage for application data and sit it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

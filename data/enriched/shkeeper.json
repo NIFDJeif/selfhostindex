@@ -1,0 +1,8 @@
+{
+  "summary": "SHKeeper is a self-hosted cryptocurrency payment processor that combines a payment gateway and merchant dashboard. It enables you to accept digital currencies directly without relying on third-party intermediaries or paying transaction fees.",
+  "goodFor": "This tool is a good fit if you run your own e-commerce infrastructure and want to process crypto payments directly without giving a cut to payment processors.",
+  "watchOut": "Operating a self-hosted crypto payment gateway introduces significant operational risk regarding private key management, node syncing, and handling network forks or failed transactions.",
+  "deployNotes": "As a Python application, it typically requires a persistent storage volume for database state, a reverse proxy to handle TLS termination, and process management to keep the service running reliably.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Wiki-Go is a flat-file wiki platform written in Go that stores information directly on disk without requiring an external database. It provides a structured space for teams or individuals to document knowledge and manage documentation through a web interface. Being a databaseless application, it relies on local file systems to persist all content.",
+  "goodFor": "Self-hosters who prefer lightweight documentation tools that avoid the operational overhead of running a separate database server.",
+  "watchOut": "Flat-file storage can struggle with concurrent edits and high-volume search performance compared to dedicated database-backed wiki systems.",
+  "deployNotes": "You can typically deploy this using Docker, ensuring that you map a persistent volume to the container for your markdown files and configurations. A reverse proxy such as Nginx or Caddy is usually required in front of the container to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

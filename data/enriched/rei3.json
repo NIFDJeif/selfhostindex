@@ -1,0 +1,8 @@
+{
+  "summary": "REI3 is an open-source platform designed to help businesses track internal operations such as tasks, working time, and asset inventories. Built using Go and released under the MIT licence, it provides a centralised system for administrative record-keeping. The software acts as a modular framework where various business processes can be managed in one place.",
+  "goodFor": "It is a suitable choice for small organisations seeking a self-hosted, customisable tool to manage internal administrative workflows without relying on proprietary SaaS platforms.",
+  "watchOut": "The project has a modest community and moderate maintenance activity, meaning you may encounter less third-party documentation and fewer ready-made integrations compared to more established enterprise alternatives.",
+  "deployNotes": "Because it is written in Go, deployment typically involves running a single compiled binary behind a reverse proxy for TLS termination. You will also need to configure persistent storage and a separate database backend to handle application data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

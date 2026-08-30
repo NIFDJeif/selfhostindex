@@ -1,0 +1,8 @@
+{
+  "summary": "Seafile is a self-hosted platform designed for file hosting, sharing, and synchronization within teams and organisations. It provides a central server environment where multiple users can store, manage, and collaborate on documents.",
+  "goodFor": "It suits teams and organisations requiring a dedicated, self-managed solution for internal file storage and collaborative sharing.",
+  "watchOut": "Maintenance activity is relatively slow, and the software operates under a complex mix of open-source and copyleft licences that you will need to review carefully.",
+  "deployNotes": "As a compiled application written in C, it typically requires persistent storage volumes for uploaded data and a database backend, alongside a standard reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

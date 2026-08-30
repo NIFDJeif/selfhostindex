@@ -1,0 +1,8 @@
+{
+  "summary": "Open QuarterMaster is a self-hosted inventory management system designed to track stock levels and assets. It provides a structured way to organise items across locations using scalable data models. The project is distributed under the GPL-3.0 licence and receives frequent development activity.",
+  "goodFor": "It suits teams or individuals who need a dedicated, source-available system to manage internal stock without relying on proprietary cloud services.",
+  "watchOut": "With a relatively small community following and niche adoption, you may encounter fewer community-written guides or third-party integrations compared to more mainstream alternatives.",
+  "deployNotes": "Deployment is typically straightforward using Docker containers or deb packages. You will usually need to configure persistent volumes for data storage and place the service behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

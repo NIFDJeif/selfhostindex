@@ -1,0 +1,8 @@
+{
+  "summary": "Bracket is a self-hosted tournament management system that allows you to configure competitions, register teams, and schedule matches. It tracks scores and outputs a live public ranking view for participants and spectators. The application runs on Node.js and is available as a Docker container under the AGPL-3.0 licence.",
+  "goodFor": "It suits community organisers, local clubs, or gaming groups who need to run tournaments and publish live standings on their own infrastructure.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your deployment if you modify the code and offer it as a service over a network. Additionally, the moderate community size means you should expect to handle support and troubleshooting independently.",
+  "deployNotes": "You will typically need to configure persistent storage for application data and place the container behind a reverse proxy to handle TLS termination. Since it relies on Node.js and Docker, standard container orchestration and environment variable configuration will apply.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

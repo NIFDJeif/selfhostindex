@@ -1,0 +1,8 @@
+{
+  "summary": "sish is an open-source tool that lets you expose local services behind NAT or firewalls to the public internet via HTTP, HTTPS, WebSockets, or raw TCP. It relies entirely on standard SSH connections, removing the need for a dedicated client agent on the target machine. This provides a self-hosted alternative to proprietary tunneling services.",
+  "goodFor": "It suits developers and system administrators who want to host their own tunneling infrastructure on a private server without depending on external third-party services.",
+  "watchOut": "Development activity has slowed down recently, and you may find that it lacks the extensive ecosystem or community support found in more widely adopted alternatives like ngrok.",
+  "deployNotes": "As a Go application packaged for Docker, it typically requires a public-facing server with appropriate port forwarding for SSH and tunnel traffic, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

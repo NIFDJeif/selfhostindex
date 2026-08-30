@@ -1,0 +1,8 @@
+{
+  "summary": "Audioserve is a lightweight personal server designed to stream audio collections directly from your directory structure. Built in Rust under the MIT licence, it allows you to host podcasts, music, and audiobooks while keeping listening positions synchronised across multiple clients.",
+  "goodFor": "It suits self-hosters who store audio in organised file directories and want a straightforward way to stream media to mobile or web clients with progress syncing.",
+  "watchOut": "The moderate maintenance activity and niche focus mean you may encounter fewer community plugins or integrations compared to larger, mainstream media streaming platforms.",
+  "deployNotes": "As a compiled Rust binary, it typically requires persistent storage mounted for your audio directories and usually sits behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

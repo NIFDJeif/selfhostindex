@@ -1,0 +1,8 @@
+{
+  "summary": "Budget Board is a self-hosted application designed for recording monthly expenses and monitoring progress toward personal monetary targets. It addresses the common requirement for private financial bookkeeping without relying on third-party cloud services. The project is distributed under the GPL-3.0 licence.",
+  "goodFor": "It suits individuals who want to take direct control of their personal finance data on their own infrastructure.",
+  "watchOut": "With a modest community following and moderate development activity, you may encounter fewer community resources and plugins compared to larger alternatives.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes to prevent data loss on container restart, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

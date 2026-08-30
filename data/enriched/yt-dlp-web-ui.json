@@ -1,0 +1,8 @@
+{
+  "summary": "yt-dlp Web UI provides a graphical browser interface to interact with the popular command-line media extraction tool. It allows you to manage and trigger downloads through a web browser instead of relying on terminal commands.",
+  "goodFor": "Self-hosters who prefer a visual dashboard over command-line utilities for downloading video and audio content from supported sites.",
+  "watchOut": "The development pace is slowing down, meaning fixes for upstream media site changes might lag behind the core extraction tool.",
+  "deployNotes": "As a containerised application built with Go and Node.js, it typically runs well via Docker with persistent volume mounts required to save downloaded media files to your host storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

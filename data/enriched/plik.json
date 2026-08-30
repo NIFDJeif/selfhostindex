@@ -1,0 +1,8 @@
+{
+  "summary": "Plik is a temporary file upload system designed for sharing files over the web via a web interface or command-line client. It allows you to host your own file transfer service with features like drag-and-drop uploading and configurable file expiration. The backend is written in Go and the project is licensed under the MIT licence.",
+  "goodFor": "It is a practical choice for teams or individuals wanting a self-hosted alternative to public file sharing services for temporary data transfer.",
+  "watchOut": "The moderate maintenance activity means you should monitor for potential security updates or unpatched bugs over time.",
+  "deployNotes": "As a containerised Go application, it typically requires a persistent volume for uploaded files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

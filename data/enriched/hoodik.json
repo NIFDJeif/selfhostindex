@@ -1,0 +1,8 @@
+{
+  "summary": "Hoodik is a zero-knowledge cloud storage server that encrypts and decrypts files directly within your browser. Because the host only receives ciphertext, your stored data remains unreadable to the server operator. It supports both SQLite and PostgreSQL for metadata storage, while placing file chunks onto either local disk or S3-compatible object storage.",
+  "goodFor": "Self-hosters who require strict end-to-end encryption for file storage without trusting the underlying infrastructure provider with plaintext data.",
+  "watchOut": "The CC-BY-NC-4.0 licence restricts commercial usage, and the project's moderate maintenance activity means you should monitor its ongoing development closely.",
+  "deployNotes": "As a containerised application, you will typically need to configure Docker volumes for persistent storage, supply your database connection strings, and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}

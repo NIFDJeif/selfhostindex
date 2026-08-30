@@ -1,0 +1,8 @@
+{
+  "summary": "Alf.io is a self-hosted ticket reservation system designed for managing event registrations and check-ins. It provides tooling for organizers to handle seat allocations, attendee details, and ticket sales. As an open-source platform licensed under the GPL-3.0, it allows you to run your own registration infrastructure.",
+  "goodFor": "Organisers and communities who want full control over attendee data and ticket sales without relying on hosted third-party platforms.",
+  "watchOut": "The moderate maintenance activity and specific tech stack mean you may need to invest time in troubleshooting issues and keeping up with updates yourself.",
+  "deployNotes": "Being built with Java, it typically requires a Java runtime environment, a persistent relational database, and a reverse proxy like Nginx or Apache to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-30"
+}
