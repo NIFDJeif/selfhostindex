@@ -1,0 +1,8 @@
+{
+  "summary": "Isso is a self-hosted commenting server designed as an alternative to proprietary third-party embedding services like Disqus. It allows you to integrate comment sections into static sites or blogs using a combination of a Python backend and JavaScript frontend. Users can post comments, which are stored and served directly from your own infrastructure.",
+  "goodFor": "It is a good fit if you want to remove third-party tracking from your personal blog and prefer managing your own discussion threads.",
+  "watchOut": "The project sees slower maintenance activity, which may impact how quickly future security patches or compatibility updates are released.",
+  "deployNotes": "You will typically deploy this using Docker, ensuring you attach a persistent volume for the SQLite database storage and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

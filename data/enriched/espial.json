@@ -1,0 +1,8 @@
+{
+  "summary": "Espial is a self-hosted, web-based tool for saving, managing, and sharing bookmarks. It runs as a dedicated server on your own infrastructure, giving you control over your stored links and browsing data rather than relying on a third-party service.",
+  "goodFor": "It suits individuals who want a private, self-hosted alternative to commercial bookmarking services and prefer minimalist web interfaces.",
+  "watchOut": "The codebase has a modest adoption level and a moderate maintenance health score, meaning you may need to rely on the community or your own debugging skills for troubleshooting.",
+  "deployNotes": "Because it is built with Haskell, you will typically need to manage a compiled binary or run it inside a container, placing it behind a reverse proxy to handle TLS termination and persistent storage for your data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Revel is an event management and ticketing platform designed for community gatherings. It provides tools to organise events and handle ticket distribution for attendees. Because the official details are sparse, it likely functions similarly to other open-source event coordination systems.",
+  "goodFor": "It suits small communities or self-hosters looking for a dedicated, MIT-licenced alternative to commercial event platforms. It is ideal if you prefer to run your own infrastructure for local meetups or group gatherings.",
+  "watchOut": "With a modest community following and a lower repository star count, you may encounter edge cases or lack readily available documentation and community plugins. It also competes directly with established event management tools that offer broader integration options.",
+  "deployNotes": "Since it is packaged for Docker and uses Python, deployment typically involves running containers via Docker Compose. You will usually need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

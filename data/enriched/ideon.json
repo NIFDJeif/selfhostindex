@@ -1,0 +1,8 @@
+{
+  "summary": "Ideon is a workspace application centred on an infinite canvas for visual project planning. It lets you embed repositories from platforms like GitHub, GitLab, Gitea, and Forgejo directly alongside your notes, links, and task lists while supporting real-time multi-user collaboration.",
+  "goodFor": "Teams looking to map out software development projects spatially on a shared whiteboard alongside their core code repositories.",
+  "watchOut": "It is an AGPL-3.0 licensed tool with a relatively small community footprint, which may introduce compliance considerations and fewer troubleshooting resources.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for your workspace data and set up an external reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

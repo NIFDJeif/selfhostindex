@@ -1,0 +1,8 @@
+{
+  "summary": "Gokapi is a lightweight, self-hosted file sharing server that functions similarly to the discontinued Firefox Send. Files uploaded by the administrator automatically expire based on a pre-configured number of downloads or a set time limit. It provides a simple web interface for distributing temporary links.",
+  "goodFor": "It suits individuals or small teams needing a private, admin-only upload utility to securely share expiring files with external clients or friends.",
+  "watchOut": "The restriction preventing anyone other than the administrator from uploading files limits collaboration. Additionally, project maintenance has slowed down, which could impact long-term responsiveness to security issues.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent volume storage for the uploaded files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

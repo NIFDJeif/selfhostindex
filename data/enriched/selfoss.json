@@ -1,0 +1,8 @@
+{
+  "summary": "Selfoss is a web-based feed reader and content aggregation application designed to pull multiple information streams into a single interface. It functions as a self-hosted platform to collect and manage syndicated feeds and live data sources. The project is licensed under the GPL-3.0 and implemented in PHP.",
+  "goodFor": "It suits users looking for a traditional, self-hosted RSS aggregation tool running on standard PHP infrastructure without heavy resource demands.",
+  "watchOut": "The maintenance velocity has slowed over time, which may lead to compatibility issues with newer PHP versions or web standards.",
+  "deployNotes": "You will typically need a standard web server like Apache or Nginx with a PHP runtime, alongside a compatible database backend for data persistence and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

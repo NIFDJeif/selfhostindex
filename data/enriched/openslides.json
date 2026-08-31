@@ -1,0 +1,8 @@
+{
+  "summary": "OpenSlides is a presentation and assembly system designed for managing and projecting agendas, motions, and elections during formal meetings. It provides a centralised platform to organise assembly procedures and display relevant information to participants in real time. The software operates under the MIT licence.",
+  "goodFor": "It is well-suited for organisations, associations, or committees that need a dedicated tool to run structured assemblies, handle live voting, and manage meeting documentation.",
+  "watchOut": "The codebase has a moderate maintenance health score, meaning you should evaluate whether the update frequency and community size meet your long-term stability requirements.",
+  "deployNotes": "Because it is distributed as a Docker container, deployment typically involves setting up persistent volumes for data storage and configuring a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

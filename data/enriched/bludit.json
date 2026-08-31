@@ -1,0 +1,8 @@
+{
+  "summary": "Bludit is a content management system designed for building websites and blogs quickly. It relies on flat-files in JSON format to store all posts and pages directly on the filesystem rather than using a traditional database engine.",
+  "goodFor": "It is a suitable choice if you want a lightweight blogging platform that avoids the overhead of managing a database.",
+  "watchOut": "The project shows signs of slowing development activity, which may impact long-term security updates and feature expansion.",
+  "deployNotes": "As a PHP application that does not use a traditional database, you typically only need a standard web server with PHP support and persistent storage for the file directory.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

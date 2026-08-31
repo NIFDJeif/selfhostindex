@@ -1,0 +1,8 @@
+{
+  "summary": "Pingvin Share X is a self-hosted file sharing platform that allows you to upload and distribute files via web links. It includes features such as user accounts, S3 storage integration, automated malware scanning with ClamAV, and share expiration controls. As a fork of Pingvin Share, it provides an alternative mechanism for sending assets without relying on third-party cloud services.",
+  "goodFor": "It is well-suited for individuals or small teams who want a private, containerised drop-zone for sharing files with external users.",
+  "watchOut": "The project is maintained at a modest scale with a beta release cycle, meaning you may encounter bugs or breaking changes during updates.",
+  "deployNotes": "Since it is delivered as a Docker container running on Node.js, you will typically need to configure persistent volumes for your uploaded files and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

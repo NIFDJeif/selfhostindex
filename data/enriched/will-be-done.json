@@ -1,0 +1,8 @@
+{
+  "summary": "Will Be Done is an offline-first task management tool designed as an alternative to proprietary services like TickTick and Todoist. It offers features such as weekly planning, project boards, real-time synchronisation, Vim keybindings, and desktop quick add capabilities. You can also import existing tasks from other popular task managers.",
+  "goodFor": "Power users who prefer keyboard-driven navigation through Vim keybindings and want a self-hosted task manager with offline capabilities.",
+  "watchOut": "With a relatively small community and low repository stars, you may encounter edge cases or a lack of third-party plugins compared to mainstream alternatives.",
+  "deployNotes": "As a Dockerised Node.js application, you will typically need to map a persistent volume for your data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

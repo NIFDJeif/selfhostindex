@@ -1,0 +1,8 @@
+{
+  "summary": "Portkey is a self-hosted web portal that functions as a customisable start page and link directory. It allows you to organise collections of URLs and build additional pages, with all content managed through a single configuration file.",
+  "goodFor": "It suits anyone wanting a lightweight, self-hosted dashboard to centralise links and resources behind a single interface.",
+  "watchOut": "Configuration relies entirely on manual edits to a single file rather than a graphical interface, and the project has a relatively small community compared to alternative dashboard solutions.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent storage mounted for the configuration file and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

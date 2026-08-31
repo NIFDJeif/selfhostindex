@@ -1,0 +1,8 @@
+{
+  "summary": "xsrv is a collection of automation scripts and playbooks designed to help you install and manage multiple self-hosted services on your own infrastructure. It acts as an orchestration layer to provision applications without manual configuration of every single component. The project relies on standard configuration management tools to handle deployments across your servers.",
+  "goodFor": "It is a suitable fit if you already use automation frameworks for server administration and want a structured approach to running standard application stacks.",
+  "watchOut": "You will need to be comfortable debugging provisioning scripts and managing underlying server configurations when automation routines fail or require customisation.",
+  "deployNotes": "Because the tool uses configuration automation, you will typically need a control machine with the required execution environment to target your deployment servers and manage state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

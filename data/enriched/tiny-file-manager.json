@@ -1,0 +1,8 @@
+{
+  "summary": "Tiny File Manager is a web-based utility written in PHP for managing files directly on a server through a browser interface. It is packaged as a single file, making it straightforward to drop into an existing web root to browse, upload, and edit files remotely. The tool addresses the common need for lightweight, out-of-band file access without requiring a full desktop sync client or complex protocol setup.",
+  "goodFor": "It is a practical fit for system administrators or developers who need a quick, zero-friction way to manage files on a remote PHP-enabled server via a browser. It works well in constrained environments where deploying a heavier multi-container file management stack is impractical.",
+  "watchOut": "Exposing a web-based file manager directly to the internet significantly expands your attack surface if not properly secured with authentication. Additionally, development activity on the project is currently slow, meaning security fixes or feature updates may be infrequent.",
+  "deployNotes": "Because it runs on PHP, you will typically need to host it behind a standard web server like Apache or Nginx configured with a PHP processor. Ensure that file permissions and upload size limits in your PHP configuration are adjusted to match your expected usage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

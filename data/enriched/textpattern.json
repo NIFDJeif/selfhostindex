@@ -1,0 +1,8 @@
+{
+  "summary": "Textpattern is a content management system built with PHP and licensed under the GPL-2.0. It provides a structured interface for publishing articles, managing web pages, and organising digital content.",
+  "goodFor": "It suits administrators looking for a lightweight, traditional publishing platform with a focus on web standards and structured content organisation.",
+  "watchOut": "The project has a moderate maintenance health score and lower repository engagement than larger, mainstream content management systems, which may impact long-term community support.",
+  "deployNotes": "Deployment typically requires a standard PHP runtime environment connected to a relational database like MySQL or MariaDB, alongside persistent storage for uploaded assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

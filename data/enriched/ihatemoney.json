@@ -1,0 +1,8 @@
+{
+  "summary": "IHateMoney is a web application designed to help groups track and settle shared expenses. It provides a centralised ledger so you can record who paid for what and calculate who owes money to whom.",
+  "goodFor": "It suits flatmates, small travel groups, or social circles needing a straightforward tool to split bills without relying on commercial third-party platforms.",
+  "watchOut": "The project sees moderate maintenance activity, so you should expect slower responses to bug fixes and feature requests.",
+  "deployNotes": "Because it runs as a Python and Docker container, you will typically need to configure persistent storage for your ledger data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

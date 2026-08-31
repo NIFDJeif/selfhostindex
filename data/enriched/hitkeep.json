@@ -1,0 +1,8 @@
+{
+  "summary": "HitKeep is a privacy-first web analytics platform designed to track site traffic, user goals, funnels, and ecommerce activity. Distributed as a single binary with an embedded DuckDB database, it functions as a self-hosted alternative to mainstream tools like Google Analytics and Plausible.",
+  "goodFor": "It suits teams that want to collect website metrics and manage user access locally while avoiding external cloud analytics providers.",
+  "watchOut": "With a relatively small repository star count and an early development status, it may lack the maturity and extensive third-party integrations found in more established alternatives.",
+  "deployNotes": "Because it runs as a Go binary with an embedded database and optional Docker support, you will typically need to configure persistent storage for the database file and place it behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

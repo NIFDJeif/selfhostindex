@@ -1,0 +1,8 @@
+{
+  "summary": "Gaseous Server is a self-hosted game ROM manager that includes a web-based emulator. It queries multiple external sources to automatically identify files and attach relevant metadata. The project is built using .NET and distributed under the AGPL-3.0 licence.",
+  "goodFor": "It suits users looking to organise local game ROM collections and access metadata and emulation directly through a browser interface.",
+  "watchOut": "With a modest repository popularity and moderate maintenance activity, you may encounter edge cases or need to rely on community support for troubleshooting. The copyleft AGPL-3.0 licence may also impose restrictions if you intend to modify and distribute the code.",
+  "deployNotes": "As a containerised .NET application, deployment typically involves Docker with persistent volumes mapped for your ROM library and configuration data. You will usually need to set up a reverse proxy to handle HTTPS traffic securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

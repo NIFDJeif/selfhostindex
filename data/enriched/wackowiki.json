@@ -1,0 +1,8 @@
+{
+  "summary": "WackoWiki is a lightweight, multilingual wiki engine built with PHP. It allows you to create and manage collaborative documentation sites with multiple language variants. It uses the BSD-3-Clause licence and provides a straightforward text editing environment.",
+  "goodFor": "It is a good fit if you need a simple, self-hosted multilingual knowledge base without the bloat of heavier enterprise wiki platforms.",
+  "watchOut": "It has a relatively small community and fewer repository stars compared to dominant alternatives, which may limit the availability of third-party plugins and themes.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a database such as MySQL or MariaDB, and persistent storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Drop is a self-hosted platform tailored for distributing and sharing DRM-free titles. It functions as a private alternative to mainstream distribution networks like Steam or GameVault, allowing you to manage your game library independently.",
+  "goodFor": "It suits individuals or small groups wishing to host, organise, and distribute their own collection of DRM-free games from a private server.",
+  "watchOut": "As an early-stage project under the AGPL-3.0 licence, it carries typical maturity risks and overlaps heavily with more established distribution alternatives.",
+  "deployNotes": "Since it is packaged for Docker, you will typically need to configure persistent storage volumes for game files and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

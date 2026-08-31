@@ -1,0 +1,8 @@
+{
+  "summary": "Docassemble is a free and open-source expert system designed to handle guided interviews and document assembly. It relies on a stack built with Python, YAML, and Markdown to process user inputs and generate structured outputs. You can deploy it to automate the collection of data and the creation of legal or administrative documents.",
+  "goodFor": "It is a suitable choice for developers and legal technologists who need to build complex, questionnaire-driven document generation workflows on their own infrastructure.",
+  "watchOut": "The project shows signs of slowing maintenance activity and lacks recent tagged releases, which may introduce risks for long-term production use.",
+  "deployNotes": "Since it relies on Docker and Python, you will typically need to configure persistent storage for user data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Automatisch is a self-hosted workflow automation tool designed to link different web services together for executing business processes. It functions as an open-source alternative to commercial integration platforms like Zapier. You can run it via Docker to orchestrate triggers and actions across various external applications.",
+  "goodFor": "It is a suitable option if you need a self-hosted alternative to proprietary workflow automation tools and want to keep your integration data on your own infrastructure.",
+  "watchOut": "The project's maintenance pace has slowed recently, and it operates under the AGPL-3.0 licence, which has strict copyleft implications if you modify and distribute the code. It also overlaps heavily with more mature self-hosted automation platforms like n8n.",
+  "deployNotes": "Since it runs via Docker, you will typically need to configure persistent volumes for your database and application state, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

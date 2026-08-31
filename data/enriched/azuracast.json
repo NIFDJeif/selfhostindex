@@ -1,0 +1,8 @@
+{
+  "summary": "AzuraCast is a web-based radio management suite designed to handle audio streaming tasks. It provides a centralised interface for managing station content, listeners, and broadcasting operations. The software is distributed under the Apache-2.0 licence.",
+  "goodFor": "It is a suitable choice if you want to run an internet radio station from your own infrastructure using a containerised deployment method.",
+  "watchOut": "The project's recent development activity has slowed down, which could mean longer waits for bug fixes or updates. You should also consider how well it integrates with your existing audio sources and streaming workflows.",
+  "deployNotes": "Because the application runs via Docker, you will typically need to configure persistent volumes for your media and database files, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

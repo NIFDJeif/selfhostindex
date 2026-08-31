@@ -1,0 +1,8 @@
+{
+  "summary": "Mosparo is a self-hosted spam protection tool designed to replace traditional CAPTCHA methods on web forms. It provides a straightforward backend service that validates form submissions to block automated bot traffic without relying on third-party services. The project is open-source under the MIT licence and built with PHP.",
+  "goodFor": "This is a good fit if you want to eliminate third-party tracking from your form validation or prefer to host your own bot-mitigation infrastructure alongside your web applications.",
+  "watchOut": "You will need to integrate this service into your existing web forms and manage its reliability yourself, meaning a server outage could disrupt your form submissions. It also represents a less widespread alternative to mainstream CAPTCHA providers, so integration guides for specific CMS platforms may be limited.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server such as Nginx or Apache, along with a relational database like MySQL or PostgreSQL for data persistence. You will also need to handle TLS termination via a reverse proxy to secure API communication between your forms and the backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

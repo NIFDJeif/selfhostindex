@@ -1,0 +1,8 @@
+{
+  "summary": "Razzia is a quiz game platform intended as an open-source alternative to proprietary classroom tools like Kahoot! It allows you to host interactive trivia and quiz sessions for small gatherings on your own hardware.",
+  "goodFor": "It suits small, self-hosted events or community meetups where you want a local quiz platform without relying on third-party cloud services.",
+  "watchOut": "With a modest maintenance profile and heavy competition from established proprietary alternatives, you may encounter edge cases or a lack of advanced features.",
+  "deployNotes": "Provided as a Docker image built with Node.js, it typically requires a persistent volume for state storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

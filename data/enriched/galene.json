@@ -1,0 +1,8 @@
+{
+  "summary": "Galene is a self-hosted video conferencing server written in Go and distributed under the MIT licence. It facilitates multi-party audio and video communication while operating on moderate hardware requirements. Because official release tags are absent, installations typically rely on building directly from the source repository.",
+  "goodFor": "A suitable choice if you need a straightforward, lightweight video meeting tool and prefer a simpler alternative to resource-heavy WebRTC stacks.",
+  "watchOut": "Development activity has slowed down significantly, and the lack of standard tagged releases makes tracking stable versions and applying updates more cumbersome.",
+  "deployNotes": "As a Go application, it typically compiles into a single binary that requires a reverse proxy to handle TLS termination and HTTPS traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

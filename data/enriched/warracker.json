@@ -1,0 +1,8 @@
+{
+  "summary": "Warracker is a self-hosted warranty tracking tool designed to help you keep track of product expiry dates. It allows you to upload receipts and relevant files alongside your items and provides alerts prior to warranty expiration.",
+  "goodFor": "It suits individuals or small households wanting a centralised, self-hosted system to manage consumer product guarantees and documentation.",
+  "watchOut": "The project has a relatively modest community footprint and slowing development activity, meaning bugs or feature requests may take longer to address.",
+  "deployNotes": "Because it runs in Docker, you will typically need to configure persistent storage volumes for your uploaded files and receipts, as well as set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

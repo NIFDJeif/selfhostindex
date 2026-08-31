@@ -1,0 +1,8 @@
+{
+  "summary": "Faved is a self-hosted bookmark manager designed to help you store, tag, and search through large collections of web links. It provides a clean, minimalist interface focused on quick retrieval and organisation of saved pages.",
+  "goodFor": "It suits users who manage extensive bookmark archives and prefer a dedicated, searchable local interface over browser-sync services.",
+  "watchOut": "Development activity is currently slowing, meaning you might wait longer for bug fixes or new features compared to more actively maintained alternatives in this space.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent volumes for your bookmark data and run it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

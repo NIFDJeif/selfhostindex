@@ -1,0 +1,8 @@
+{
+  "summary": "Wastebin is a lightweight pastebin application that allows you to store and share plain text snippets via a web interface. It uses an SQLite database backend for data persistence and is distributed under the MIT licence. Written in Rust, it is designed to run efficiently with minimal resource consumption.",
+  "goodFor": "It is a good fit if you need a quick, self-hosted text sharing service for an internal network or personal use without the overhead of a large database setup.",
+  "watchOut": "Development activity is slowing down, which might mean slower responses to security issues or bugs, and it lacks the advanced collaboration features found in larger alternatives.",
+  "deployNotes": "You will typically need to configure persistent storage for the SQLite database file and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

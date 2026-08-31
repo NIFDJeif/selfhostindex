@@ -1,0 +1,8 @@
+{
+  "summary": "UnrealIRCd is an advanced and modular IRC server written in C that operates on Linux, BSD, Windows, and macOS. It allows you to host your own real-time text communication networks with a high degree of configuration.",
+  "goodFor": "It is a suitable choice if you want to run a traditional, customisable Internet Relay Chat network on your own infrastructure.",
+  "watchOut": "You will need to manage server configuration manually, and setting up advanced module integrations requires familiarity with C-based server environments.",
+  "deployNotes": "As a compiled C application, it typically requires persistent storage for configuration and log files, along with proper port configuration for network traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

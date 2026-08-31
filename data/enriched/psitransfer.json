@@ -1,0 +1,8 @@
+{
+  "summary": "PsiTransfer is a self-hosted web application for sharing files directly from your server. It provides a straightforward interface that supports upload and download resumption alongside optional password protection.",
+  "goodFor": "It suits anyone needing a lightweight, self-hosted drop-zone for transferring files to external users without setting up a full cloud storage suite.",
+  "watchOut": "Development activity is slowing, and the project faces strong competition from more actively maintained file-sharing platforms.",
+  "deployNotes": "As a Node.js application, it typically requires a reverse proxy like Nginx or Caddy to handle TLS termination and persistent storage mounted for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

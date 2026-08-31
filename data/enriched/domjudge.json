@@ -1,0 +1,8 @@
+{
+  "summary": "DOMJudge is a web application designed to manage and automate competitive programming contests. It provides automated submission evaluation and leaderboards tailored for events modelled after the ICPC regional and world championships.",
+  "goodFor": "It suits organisers of academic or professional coding competitions who need a dedicated platform to handle contestant submissions and scoring in real time.",
+  "watchOut": "The moderate maintenance activity and lack of a recent tagged release suggest that you may encounter unpatched bugs or need to rely on the current development branch for fixes.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a separate relational database for state storage, and a proper reverse proxy configuration to handle secure TLS traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

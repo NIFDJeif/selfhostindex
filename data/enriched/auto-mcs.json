@@ -1,0 +1,8 @@
+{
+  "summary": "auto-mcs is a cross-platform Minecraft server manager written in Python. It provides administrative utilities and control panel functions to help you manage game instances across different operating systems. As a Python-based utility, it acts as a central control interface for server administration tasks.",
+  "goodFor": "Self-hosters who prefer a Python-based utility for managing game instances across multiple platforms without heavy web-panel bloat.",
+  "watchOut": "The project has moderate maintenance activity and a relatively small community footprint compared to industry giants like Pterodactyl or Multicraft, which may affect long-term support. Its AGPL-3.0 licence also means you must release your modifications if you host a modified version publicly.",
+  "deployNotes": "Being a Python application, you will typically need to ensure a compatible Python runtime is installed and manage dependencies via virtual environments or containerisation. You should also configure persistent storage for your server configurations and place the application behind a secure reverse proxy if you expose its management interface to the network.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

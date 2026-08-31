@@ -1,0 +1,8 @@
+{
+  "summary": "Squidex is a headless content management system that relies on MongoDB, command query responsibility segregation, and event sourcing. It provides a backend interface to store and manage structured content, which you can then distribute to various front-end applications via an API. The platform is written in .NET and distributed under an MIT licence.",
+  "goodFor": "It suits teams that are already invested in the .NET ecosystem and require a structured content repository with audit trails powered by event sourcing.",
+  "watchOut": "The moderate development activity and dependency on both MongoDB and event-sourcing architectures mean you should anticipate a steeper operational and debugging curve than with traditional database-backed CMS options.",
+  "deployNotes": "You will typically need to provision a separate MongoDB instance, configure persistent storage for your data, and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

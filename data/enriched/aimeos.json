@@ -1,0 +1,8 @@
+{
+  "summary": "Aimeos is a PHP-based framework designed for building custom e-commerce platforms, online marketplaces, and complex business-to-business applications using Laravel. It integrates directly into your existing Laravel codebase to handle catalogue management, basket processing, and checkout workflows. The architecture is built to scale up to massive inventories containing billions of items.",
+  "goodFor": "This is a strong option for development teams already working within the Laravel ecosystem who need to build a heavily customised online shop or marketplace rather than using a standard hosted platform.",
+  "watchOut": "Development activity is currently slowing down, which might present risks regarding long-term maintenance and compatibility updates for future Laravel versions. Additionally, the codebase is complex, meaning customisation requires a deep understanding of both Laravel and the framework's specific architectural patterns.",
+  "deployNotes": "You will typically need to host this alongside a standard relational database like MySQL or PostgreSQL, as well as a PHP-FPM compatible web server such as Nginx. Standard PHP caching mechanisms and a reverse proxy for TLS termination should also be provisioned in your hosting environment.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

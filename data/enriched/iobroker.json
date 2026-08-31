@@ -1,0 +1,8 @@
+{
+  "summary": "ioBroker is an integration platform built on Node.js designed to connect various Internet of Things devices and systems. It provides capabilities for smart metering, building automation, process control, data logging, and visualisation.",
+  "goodFor": "It suits technical users who want a unified hub to coordinate diverse smart home hardware and log operational data in one place.",
+  "watchOut": "Development activity is currently slowing down, and you may find less community support or fewer updates compared to more dominant home automation platforms.",
+  "deployNotes": "As a Node.js application, it typically runs as a persistent background service and usually benefits from a reverse proxy for TLS termination and secure remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "CNCjs provides a web-based dashboard for interacting with hardware controllers like Grbl, Smoothieware, and TinyG. It allows you to monitor and command computer numerical control milling machines directly from a browser interface. The application relies on Node.js and is released under an MIT licence.",
+  "goodFor": "Operators seeking a browser-accessible control panel for managing workshop milling equipment running standard controller firmware.",
+  "watchOut": "Project maintenance has slowed down, which might impact compatibility with newer hardware or dependencies over time.",
+  "deployNotes": "As a Node.js application, it typically requires a process manager like PM2, persistent storage for configuration files, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

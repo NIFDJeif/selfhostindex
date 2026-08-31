@@ -1,0 +1,8 @@
+{
+  "summary": "MTA:SA is an open-source modification that adds multiplayer networking to the Grand Theft Auto game series by Rockstar North. It provides server architecture allowing self-hosted sessions for multiple players to connect and play concurrently. The project is written in C++ and licensed under the GPL-3.0.",
+  "goodFor": "This software is a suitable choice if you want to run a dedicated multiplayer server for Grand Theft Auto titles on your own infrastructure.",
+  "watchOut": "The project exhibits slowing maintenance activity, which may impact timely updates and security patch availability. Additionally, you will need to contend with the operational complexity of hosting game server binaries.",
+  "deployNotes": "As a C++ game server daemon, it typically requires persistent storage for game modes and user data, along with properly configured firewall rules to handle incoming game traffic. You will generally run it as a dedicated system service rather than behind a standard web reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}

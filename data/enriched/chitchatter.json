@@ -1,0 +1,8 @@
+{
+  "summary": "Chitchatter is a peer-to-peer messaging application designed to operate without a central server. Built using Node.js under the GPL-2.0 licence, it provides ephemeral communication channels where data typically bypasses intermediary storage.",
+  "goodFor": "It suits technical users who require a decentralised, ephemeral communication channel without the dependency on traditional hosted chat infrastructure.",
+  "watchOut": "The absence of tagged releases and a moderate maintenance velocity indicate that you should expect potential stability issues or manual upgrade efforts when running this in production.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy to handle TLS termination and manage persistent processes or clustering manually.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-08-31"
+}
