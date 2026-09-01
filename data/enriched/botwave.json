@@ -1,0 +1,8 @@
+{
+  "summary": "BotWave is an FM broadcasting system that uses a server-client architecture to manage multiple Raspberry Pi transmitters remotely. It allows you to control and coordinate audio streaming operations across geographically dispersed hardware nodes from a central location. The project is open source and built using Python.",
+  "goodFor": "This is a suitable tool if you maintain a network of Raspberry Pi-based FM radio transmitters and need centralised remote management.",
+  "watchOut": "Managing multiple remote hardware endpoints introduces operational overhead regarding network reliability and physical maintenance at the transmitter sites.",
+  "deployNotes": "As a Python application, you will typically need to manage dependencies within a virtual environment and configure a reverse proxy to handle TLS termination for the server component.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

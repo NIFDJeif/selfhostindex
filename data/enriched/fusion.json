@@ -1,0 +1,8 @@
+{
+  "summary": "Fusion is a lightweight RSS aggregator and reader designed for collecting and viewing web feeds. It provides a centralised interface to track updates across multiple content sources. The application is distributed under the MIT licence and built using Go.",
+  "goodFor": "It is a suitable choice if you want a minimal, self-hosted feed reader deployed via Docker without heavy resource footprints.",
+  "watchOut": "Given the modest repository metrics and maintenance score, you should expect slower community support and fewer feature updates compared to more established alternatives.",
+  "deployNotes": "As a containerised Go application, it will typically require persistent storage volumes for your feed data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

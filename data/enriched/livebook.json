@@ -1,0 +1,8 @@
+{
+  "summary": "Livebook is a web-based, collaborative document application that processes Markdown, TeX, and Mermaid diagrams alongside executable Elixir code snippets. It allows teams to work together in real time within structured notebooks hosted on their own infrastructure. The platform can be set up using containerisation or directly through the underlying language runtime.",
+  "goodFor": "This is a suitable tool for Elixir developers and technical teams who need collaborative, interactive documentation environments for experimentation and code sharing.",
+  "watchOut": "The project relies on a specific ecosystem and has a slowing maintenance cadence, which might present long-term maintenance trade-offs for teams not already invested in Elixir.",
+  "deployNotes": "Deployment typically involves running a Docker container or an Elixir release, requiring persistent storage for your notebooks and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

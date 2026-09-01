@@ -1,0 +1,8 @@
+{
+  "summary": "Deleterr is an open-source media management utility designed to automatically prune watched and inactive files from Plex, Sonarr, and Radarr libraries. It operates via user-defined configuration rules to free up storage space without manual intervention. Distributed under the MIT licence, it is packaged as a Docker container.",
+  "goodFor": "Self-hosters who run automated media stacks and frequently run out of disk space due to accumulated, unwatched content.",
+  "watchOut": "With a modest developer community and repository metrics suggesting moderate activity, you may encounter edge cases or lack of support for newer API changes in downstream media applications.",
+  "deployNotes": "As a Docker container, it typically requires persistent volume mounts to retain configuration data and network access to your existing media server instances.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

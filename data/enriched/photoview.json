@@ -1,0 +1,8 @@
+{
+  "summary": "Photoview is a self-hosted photo gallery designed to let you browse large collections of high-resolution images on your own server. It provides a web interface focused on directory navigation and speed, catering specifically to photographers managing extensive local libraries. The application is built using Go and is distributed as a Docker container under the GPL-3.0 licence.",
+  "goodFor": "This is a suitable choice if you are a photographer looking for a dedicated, lightweight web interface to explore extensive directories of high-resolution images on personal hardware.",
+  "watchOut": "The project's low maintenance health score indicates that you may encounter unresolved issues or infrequent updates, making it a riskier choice for long-term deployments compared to more actively maintained alternatives.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for your photo library and ensure a reverse proxy is set up in front of the container to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

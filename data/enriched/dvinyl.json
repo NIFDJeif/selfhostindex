@@ -1,0 +1,8 @@
+{
+  "summary": "DVinyl is a self-hosted inventory management tool designed to help you catalogue physical media collections such as vinyl records, CDs, cassettes, books, movies, and video games. It provides a centralised web interface to organise and track items you own. The project is distributed under the MIT licence as a containerised application.",
+  "goodFor": "Collectors who want to self-host their own physical media inventory database rather than relying on commercial or proprietary cloud services.",
+  "watchOut": "With a modest community following and moderate development activity, you may encounter edge cases or lack integration with niche third-party databases. It also faces competition from well-established media cataloguing alternatives.",
+  "deployNotes": "Because it runs as a Docker container, you will typically need to configure persistent volume mounts to retain your inventory data across container restarts. You should also place it behind a reverse proxy if you require TLS termination for external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

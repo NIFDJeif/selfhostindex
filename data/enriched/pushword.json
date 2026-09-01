@@ -1,0 +1,8 @@
+{
+  "summary": "Pushword is a content management system built with PHP and the Symfony framework. It relies on Markdown files for page content and Twig templates for themes, with the option to use Git for flat-file storage.",
+  "goodFor": "It is a suitable choice if you prefer managing content using static files and Git version control while keeping a traditional PHP deployment stack.",
+  "watchOut": "With a low repository star count and a release candidate version status, the project may lack a large community and could have undiscovered bugs.",
+  "deployNotes": "You will typically need a standard PHP-compatible web server like Nginx or Apache, and persistent storage if you use the Git flat-file storage option.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

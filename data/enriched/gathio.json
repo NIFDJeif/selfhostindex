@@ -1,0 +1,8 @@
+{
+  "summary": "Gathio is a self-hosted tool for organising temporary events through shareable web pages. It lets you spin up registration-free pages that are designed to disappear after use. The application runs on Node.js and is packaged for containerised environments.",
+  "goodFor": "It is a good fit if you need to coordinate ad hoc gatherings without forcing participants to create accounts or hand over personal data.",
+  "watchOut": "With a modest community following and moderate maintenance activity, you may need to patch bugs yourself or rely on a small contributor base for long-term updates.",
+  "deployNotes": "Because it runs as a Docker container, you will typically need to configure a reverse proxy to handle TLS termination and ensure any necessary data volumes are mounted persistently.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

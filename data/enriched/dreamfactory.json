@@ -1,0 +1,8 @@
+{
+  "summary": "DreamFactory is a backend integration tool that automatically generates RESTful application programming interfaces from existing relational and non-relational data sources. It sits between your databases and your client applications, handling standard CRUD operations through standardised endpoints without requiring custom server-side routing code. The project is distributed under the Apache-2.0 licence and provides containerised deployment options.",
+  "goodFor": "Teams that need to expose legacy database schemas quickly as web services for front-end developers without writing custom boilerplate endpoints from scratch.",
+  "watchOut": "Exposing direct database interfaces over HTTP creates significant security risks if role-based access controls and rate limiting are not configured rigorously.",
+  "deployNotes": "As a PHP application packaged for Docker and Kubernetes, you will typically need to provision persistent storage for configuration data, place it behind a reverse proxy for TLS termination, and connect it to your target database backends.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Open Archiver is a dedicated email archiving solution equipped with full-text search and eDiscovery capabilities. It enables organisations to systematically store, index, and retrieve historical email data for compliance and investigative needs. Distributed under the AGPL-3.0 licence, the project is packaged as a containerised application.",
+  "goodFor": "It is well-suited for system administrators looking to implement a self-hosted email archiving pipeline with search tools for legal or administrative review.",
+  "watchOut": "The software carries a moderate maintenance profile and uses the AGPL-3.0 licence, which places copyleft requirements on network-deployed modifications.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Chevereto is a self-hosted platform designed for publishing and managing images on your own infrastructure. It provides the core functionality needed to run a dedicated media upload and sharing service. The software is written in PHP and can be deployed via Docker.",
+  "goodFor": "It suits individuals or organisations who need a standalone, private repository for handling bulk image uploads and web sharing.",
+  "watchOut": "The project exhibits a moderate maintenance pace, and the AGPL-3.0 licence imposes strict copyleft requirements if you modify and distribute the codebase. You should also consider how it compares to larger, more active media gallery alternatives.",
+  "deployNotes": "As a PHP application running in Docker, it typically requires a persistent volume for uploaded media files and a separate relational database like MySQL or MariaDB. You will also need to configure a reverse proxy to handle HTTPS termination and manage proper file upload size limits in your web server settings.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

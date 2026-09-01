@@ -1,0 +1,8 @@
+{
+  "summary": "Mere Medical is a self-hosted platform designed to aggregate personal health data from multiple patient portals into a single interface. It operates with an offline-first architecture to keep your medical information under your direct control.",
+  "goodFor": "It suits individuals who want to consolidate records from various healthcare providers locally without relying on third-party cloud services.",
+  "watchOut": "Given the moderate development activity and specific focus on niche health portals, integration stability with upstream services may require frequent troubleshooting.",
+  "deployNotes": "As a Dockerised Node.js application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle secure TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

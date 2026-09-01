@@ -1,0 +1,8 @@
+{
+  "summary": "flowctl is a self-hosted automation platform designed to manage workflow execution. It provides built-in mechanisms for handling manual approvals, scheduling tasks, and executing jobs across remote systems.",
+  "goodFor": "It suits technical teams that require a self-contained automation engine with approval gates for internal operational processes.",
+  "watchOut": "With a relatively modest community and an early beta release designation, you should expect potential API changes and limited documentation compared to more established orchestration engines.",
+  "deployNotes": "As a containerised Go application, you will typically need to configure persistent storage for workflow states and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "flatnotes is a web-based note-taking application designed for personal knowledge management. It stores all your notes as plain Markdown files directly within a designated folder, meaning there is no separate database engine required.",
+  "goodFor": "It is well-suited for users who prefer keeping their notes in standard file formats that remain accessible outside the application itself.",
+  "watchOut": "Because it relies entirely on a flat file structure without an underlying database, performance may degrade as the number of individual markdown files scales significantly.",
+  "deployNotes": "You will typically need to configure a Docker volume to persist your markdown directory outside the container, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

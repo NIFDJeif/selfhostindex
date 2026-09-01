@@ -1,0 +1,8 @@
+{
+  "summary": "Genealogy is a self-hosted application designed for recording family members and mapping their relationships to build a comprehensive family tree. It provides a centralised digital space to store personal history, dates, and lineage data on your own infrastructure. The project is written in PHP and distributed under the MIT licence.",
+  "goodFor": "It is a suitable choice for hobbyists and researchers who want to privately manage and map their family history using a lightweight, open-source stack.",
+  "watchOut": "The moderate maintenance activity and smaller community size mean you may encounter fewer third-party plugins and slower responses to bugs compared to larger mainstream alternatives.",
+  "deployNotes": "As a PHP application, you will typically need to run it behind a standard web server like Nginx or Apache with PHP-FPM, alongside a compatible database such as MySQL or MariaDB and persistent storage for uploaded media.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

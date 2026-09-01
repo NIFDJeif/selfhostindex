@@ -1,0 +1,8 @@
+{
+  "summary": "Gerbera is a UPnP media server that enables you to distribute digital audio and video files across a local network. It indexes your media library and streams content directly to compatible playback devices without requiring cloud intermediaries.",
+  "goodFor": "It suits users who want to serve local media files to traditional hardware players like network-attached television sets or dedicated audio receivers.",
+  "watchOut": "The development pace is relatively slow, and configuration usually requires editing XML files or managing a web interface rather than relying on automated setup.",
+  "deployNotes": "You will typically need to mount local storage volumes into the container or host environment so the server can index your files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

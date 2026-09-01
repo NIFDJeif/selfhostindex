@@ -1,0 +1,8 @@
+{
+  "summary": "Family Accounting Tool is a web-based finance management application designed for partners who manage partially shared expenses. It helps you track and divide costs between multiple individuals without requiring fully merged accounts. The software is written in Scala and available under the Apache-2.0 licence.",
+  "goodFor": "It suits couples or roommates who need a dedicated, self-hosted system to split household bills and personal expenditures fairly.",
+  "watchOut": "Development activity is currently slowing, meaning you may encounter unpatched bugs or lag behind newer dependency updates.",
+  "deployNotes": "Because it runs on a Scala stack, you will typically need to allocate sufficient memory for the Java Virtual Machine and put the application behind a reverse proxy to handle TLS termination and persistent data storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

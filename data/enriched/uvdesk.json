@@ -1,0 +1,8 @@
+{
+  "summary": "UVDesk is an open-source helpdesk system designed to handle customer support tickets and enquiries within an organisation. It uses an event-driven architecture built with PHP and is distributed under the MIT licence. The platform aims to streamline client communication through extensible service routines.",
+  "goodFor": "Teams looking for a self-hosted, customisable ticketing system written in PHP that they can adapt to their specific support workflows.",
+  "watchOut": "The low maintenance health score indicates that active development is sparse, meaning you may need to patch security vulnerabilities or bugs yourself.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

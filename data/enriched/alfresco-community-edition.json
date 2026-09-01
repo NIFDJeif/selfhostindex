@@ -1,0 +1,8 @@
+{
+  "summary": "Alfresco Community Edition is an open-source content management system built with Java under the LGPL-3.0 licence. It is designed to let teams store, share, and collaborate on diverse file types across an organisation. While the project maintains a steady level of development activity, it lacks recent tagged releases.",
+  "goodFor": "This software suits organisations that need a self-hosted enterprise content management system and prefer an open-source Java stack.",
+  "watchOut": "Given its enterprise scope, setting up and maintaining this platform can involve a significant operational burden and high resource requirements compared to lighter alternatives.",
+  "deployNotes": "As a Java application, it typically requires a dedicated relational database, a servlet container or application server, and persistent storage volumes for file attachments.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

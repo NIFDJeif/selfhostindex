@@ -1,0 +1,8 @@
+{
+  "summary": "Para is a modular backend framework designed to handle object persistence, API routing, and user authentication on your own infrastructure. It provides foundational services for web applications, allowing developers to manage data models and user sessions without building those systems from scratch.",
+  "goodFor": "It suits developers looking for a ready-made Java backend to handle standard persistence and authentication tasks for custom applications.",
+  "watchOut": "Given the modest community traction and steady maintenance level, you might encounter edge cases or need to contribute fixes yourself if you stray from standard usage.",
+  "deployNotes": "Because it runs in Docker and relies on Java, you will typically need to allocate sufficient memory for the JVM and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

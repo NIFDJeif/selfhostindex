@@ -1,0 +1,8 @@
+{
+  "summary": "EventSchedule is a self-hosted application designed for publishing community events and selling tickets. It helps organisers manage schedules and bring people together around shared occasions. Because the official description lacks concrete details, it functions broadly like standard event-listing and ticketing software.",
+  "goodFor": "It is well-suited for small communities or independent organisers who want to self-host their own event calendars without relying on third-party ticketing platforms.",
+  "watchOut": "The project uses the Academic AFL-derived AAL licence, which may carry specific compliance requirements, and it has a relatively small community with low repository visibility.",
+  "deployNotes": "As a PHP and Docker application, deployment typically requires a container runtime, a persistent volume for uploaded assets and database storage, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

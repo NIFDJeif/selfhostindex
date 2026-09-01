@@ -1,0 +1,8 @@
+{
+  "summary": "Webtrees is an online collaborative genealogy application that runs on your own server. It allows multiple users to manage family trees, store historical records, and build shared ancestral databases through a web browser. The software is written in PHP and provides a structured interface for tracking lineage data.",
+  "goodFor": "It is a suitable choice if you want to host your own family history research collaboratively and maintain full ownership of your genealogical data.",
+  "watchOut": "The codebase has a stagnant release history, meaning you may encounter unpatched bugs or compatibility issues with newer PHP versions. Maintenance activity has slowed significantly.",
+  "deployNotes": "You will typically need a standard LAMP or LEMP stack with a persistent database such as MySQL or MariaDB. Ensure you configure persistent storage for uploaded media files and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

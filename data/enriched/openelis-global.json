@@ -1,0 +1,8 @@
+{
+  "summary": "OpenELIS Global is a laboratory information system designed to manage workflows across clinical, public health, environmental, and vector surveillance laboratories. It includes FHIR-native capabilities, analyser integration via ASTM and HL7 standards, quality control tracking, and national-scale reporting functionality.",
+  "goodFor": "It suits public health organisations and medical laboratories needing a standards-compliant system for tracking diagnostic results and epidemiological data.",
+  "watchOut": "The moderate maintenance health score and niche domain mean you may encounter a steeper learning curve and fewer community resources compared to mainstream enterprise software.",
+  "deployNotes": "Because it relies on Java and Docker, you will typically need to configure persistent storage volumes for database records and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

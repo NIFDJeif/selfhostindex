@@ -1,0 +1,8 @@
+{
+  "summary": "Polaris is a self-hosted audio streaming application designed to browse and play music from your own servers. It is specifically optimised to handle very large libraries efficiently while maintaining high performance. The project is licensed under the MIT licence and provides Docker images for containerised deployments.",
+  "goodFor": "It suits users with extensive local music collections who want a dedicated web interface to access their audio library remotely.",
+  "watchOut": "The moderate maintenance activity means you might experience delays in bug fixes or updates compared to more actively developed alternatives in the audio streaming space.",
+  "deployNotes": "You will typically need to mount a persistent volume for your media directory and configure a reverse proxy to handle TLS termination for secure remote playback.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

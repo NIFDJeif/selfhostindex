@@ -1,0 +1,8 @@
+{
+  "summary": "Gitit is a wiki engine that backs all of its pages and uploaded files with a Git repository. You can edit content either through the built-in web interface or directly on the filesystem using standard version control command-line tools.",
+  "goodFor": "A good fit for technical users who prefer managing their documentation via Git workflows rather than traditional relational databases.",
+  "watchOut": "Development activity is slowing down and the lack of recent tagged releases may pose security or maintenance concerns for long-term production use.",
+  "deployNotes": "As a Haskell application, it typically requires persistent storage for the underlying Git repository and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

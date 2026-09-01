@@ -1,0 +1,8 @@
+{
+  "summary": "MyFin Budget is a self-hosted personal finance platform that includes a web interface, a REST API, and an Android companion. It helps you manage your money, record income and expenditure, and project future financial states. The project is licensed under the GPL-3.0 and relies on a containerised Node.js architecture.",
+  "goodFor": "It is a suitable option if you want a dedicated, private system to track personal accounts and budgets across both desktop and mobile devices without relying on third-party cloud services.",
+  "watchOut": "With a modest repository footprint and moderate maintenance activity, you may encounter edge cases or need to rely on the community for troubleshooting. It also competes directly with much larger, more established open-source personal finance suites.",
+  "deployNotes": "As a Dockerised Node.js application, you will typically need to configure persistent volume storage for your financial data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Hyphanet is a peer-to-peer platform designed for anonymous file sharing, forum chatting, and hosting isolated web sites known as freesites. It routes traffic through a distributed datastore to conceal the identity of both publishers and consumers.",
+  "goodFor": "It suits users who require censorship-resistant communication and decentralized publishing without relying on traditional server infrastructure.",
+  "watchOut": "Development activity is slowing, and the distributed routing model can introduce latency and heavy disk I/O demands.",
+  "deployNotes": "Because the application is written in Java, you will typically need to provision a suitable Java runtime environment and allocate persistent storage for the distributed datastore.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

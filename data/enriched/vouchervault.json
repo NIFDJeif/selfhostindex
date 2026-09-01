@@ -1,0 +1,8 @@
+{
+  "summary": "VoucherVault is a self-hosted application designed for storing and managing digital coupons, loyalty schemes, gift cards, and vouchers in one place. It includes features for tracking transaction histories, setting expiry notifications, attaching uploaded files, and authenticating via OIDC SSO.",
+  "goodFor": "This tool is a good fit for individuals who want to consolidate physical and digital loyalty cards and vouchers onto a private server.",
+  "watchOut": "With a modest project size and a steady maintenance history, you may encounter edge cases or need to rely on community support for troubleshooting.",
+  "deployNotes": "Because it runs as a Docker container, you will typically need to configure persistent volumes for your stored files and data, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

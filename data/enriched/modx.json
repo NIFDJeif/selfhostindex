@@ -1,0 +1,8 @@
+{
+  "summary": "MODX Revolution is a content management and publishing platform written in PHP under the GPL-2.0 licence. It provides tools for managing digital content and structuring web publications on your own infrastructure.",
+  "goodFor": "It suits developers and system administrators who require a customisable, self-hosted PHP publishing platform with full control over the underlying source code.",
+  "watchOut": "The project shows signs of slowing maintenance health, which may present long-term security and update challenges for production environments.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or MariaDB, and persistent storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

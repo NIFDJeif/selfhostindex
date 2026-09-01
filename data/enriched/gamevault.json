@@ -1,0 +1,8 @@
+{
+  "summary": "GameVault is a self-hosted application designed for managing and playing DRM-free digital titles. It provides a central interface to organise your game library, fetch metadata, and download files directly from your own server infrastructure.",
+  "goodFor": "Users with an existing collection of DRM-free games who want a centralised, web-accessible library manager akin to a personal storefront.",
+  "watchOut": "The CC-BY-NC-SA-4.0 licence restricts commercial use and enforces share-alike terms on adaptations, and the moderate project activity means you should verify its long-term maintenance status.",
+  "deployNotes": "Containerised deployments typically require persistent volume mounts for storing game files and application data, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

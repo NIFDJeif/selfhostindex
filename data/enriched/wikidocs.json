@@ -1,0 +1,8 @@
+{
+  "summary": "WikiDocs is a flat-file wiki engine written in PHP that stores all documentation as Markdown files rather than using a traditional database. It allows you to maintain structured documentation directly on a filesystem, making backups and version control straightforward. Being databaseless, it eliminates the overhead of database administration for your documentation workflow.",
+  "goodFor": "It is a suitable choice if you want a lightweight, file-based knowledge base that can be easily hosted via Docker without configuring an external database backend.",
+  "watchOut": "The project exhibits slowing maintenance activity and faces competition from much larger, more established wiki ecosystems with richer plugin architectures.",
+  "deployNotes": "You will typically need to mount a persistent volume for the file storage directory to ensure your Markdown documents survive container restarts. A standard PHP-compatible web server or Docker setup will usually require a reverse proxy in front to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}

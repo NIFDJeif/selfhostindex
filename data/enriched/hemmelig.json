@@ -1,0 +1,8 @@
+{
+  "summary": "Hemmelig is an open-source pastebin utility designed for sharing encrypted text and sensitive data securely between individuals or across distinct organisations. It provides a web-based interface for generating time-limited or view-limited secrets that self-destruct after reading. The platform functions as a dedicated repository for credentials and confidential snippets.",
+  "goodFor": "It suits technical teams or individuals who need a self-hosted mechanism to transmit sensitive configuration values or passwords without relying on third-party cloud services.",
+  "watchOut": "The project has a moderate maintenance tempo and overlaps with many alternative secret-sharing tools, meaning you should evaluate its active security updates against your threat model before adoption.",
+  "deployNotes": "Deployment is typically handled via Docker, and you will usually need to configure persistent storage alongside a reverse proxy to handle TLS termination for secure transport.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-01"
+}
