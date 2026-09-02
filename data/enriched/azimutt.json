@@ -1,0 +1,8 @@
+{
+  "summary": "Azimutt is a self-hosted tool designed to help you visually explore, document, and analyse complex database schemas and their underlying data. It targets messy and large database structures, providing a graphical interface to make sense of relationships and extend them as needed. The software is distributed under the MIT licence and built with Elixir and Node.js.",
+  "goodFor": "It is a suitable fit for developers and database administrators working with large, undocumented, or legacy databases who need a graphical overview to understand table relationships.",
+  "watchOut": "The project lacks tagged releases and has a slowing maintenance health score, which could present risks regarding long-term bug fixes and security patches.",
+  "deployNotes": "Since it is packaged as a Docker image using Elixir and Node.js, you will typically need to run it behind a reverse proxy for TLS termination and ensure any persistent configuration or state is mapped to a dedicated volume.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Plumio is a self-hosted note-taking application built around Markdown editing. It provides a live preview feature alongside built-in document encryption and support for multiple users and organisations.",
+  "goodFor": "It suits small teams or individual users who want to host their own encrypted Markdown documentation workspace with user segmentation.",
+  "watchOut": "With a modest repository size and community backing, it carries a higher maintenance risk and overlaps heavily with more mature note-taking tools.",
+  "deployNotes": "Because it runs on Node.js and Docker, you will typically need to configure persistent volumes for your stored data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

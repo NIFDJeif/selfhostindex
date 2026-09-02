@@ -1,0 +1,8 @@
+{
+  "summary": "Sandstorm functions as a personal server platform designed to host various self-hosted applications with a focus on isolation and security. It acts as an umbrella environment where you can install and run web apps through a unified interface. The codebase is implemented primarily in C++ and Shell scripts.",
+  "goodFor": "It suits technical users who want to trial multiple isolated self-hosted applications on a single machine without configuring separate containers for each one.",
+  "watchOut": "The project exhibits low development activity and lacks recent tagged releases, meaning you may encounter unresolved bugs or security vulnerabilities without timely patches.",
+  "deployNotes": "Given the C++ and shell-based implementation, you will typically need a dedicated Linux environment with persistent storage volumes configured for the underlying application data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

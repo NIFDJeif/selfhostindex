@@ -1,0 +1,8 @@
+{
+  "summary": "Foodsoft is an open-source platform designed to help non-profit food cooperatives manage their daily operations. It provides tools for handling product catalogues, customer orders, internal accounting, and member job scheduling. Built with Ruby and distributed under the AGPL-3.0 licence, it runs via Docker for self-hosting setups.",
+  "goodFor": "It is a suitable choice for small non-profit food co-ops or community-supported agriculture groups needing a dedicated tool to coordinate member orders and basic bookkeeping.",
+  "watchOut": "The project has a relatively small community with moderate maintenance activity, meaning you may need to rely on your own technical resources for troubleshooting and customisations.",
+  "deployNotes": "Because the application runs via Docker, you will typically need to configure persistent volumes for your database and application data, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

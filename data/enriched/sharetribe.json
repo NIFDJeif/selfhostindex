@@ -1,0 +1,8 @@
+{
+  "summary": "Sharetribe is a platform designed to let you build and operate peer-to-peer marketplaces where multiple buyers and sellers transact. It provides the underlying infrastructure for managing listings, user profiles, and commerce workflows. The codebase is written in Ruby.",
+  "goodFor": "It is a suitable option if you want to launch a custom rental, service-booking, or goods-trading marketplace with an open-source codebase. It fits teams comfortable with customising Ruby applications.",
+  "watchOut": "The software is distributed under a proprietary licence rather than a standard open-source licence, which may restrict how you can deploy or commercialise it. Maintenance activity is also slowing, so you may need to handle updates and security patches independently.",
+  "deployNotes": "As a Ruby application, it typically requires a relational database such as PostgreSQL, a reverse proxy for TLS termination, and persistent storage for user uploads. You will also need to manage background job processors and process managers like Puma or Unicorn.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

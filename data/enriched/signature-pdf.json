@@ -1,0 +1,8 @@
+{
+  "summary": "Signature PDF is a self-hosted document management tool designed for handling portable document format files. It provides features for applying digital signatures, editing metadata, compressing file sizes, organising pages, and collaborating on documents.",
+  "goodFor": "It suits teams or individuals needing a private, self-hosted workspace to sign, compress, and organise document collections without relying on third-party cloud services.",
+  "watchOut": "The project exhibits slowing maintenance activity, which may result in delayed security patches or bug fixes. It also competes in a crowded ecosystem with more mature alternatives.",
+  "deployNotes": "You can deploy it using Docker or standard deb packages, typically requiring persistent storage volumes for uploaded documents and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

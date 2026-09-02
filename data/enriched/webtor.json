@@ -1,0 +1,8 @@
+{
+  "summary": "Webtor is a web-based torrent client that allows users to handle peer-to-peer file sharing directly from a browser interface. It also includes functionality for instant audio and video streaming of media files contained within the torrents. The project is distributed under the MIT licence and is maintained on GitHub.",
+  "goodFor": "This tool is a good fit if you want a self-hosted torrent interface accessible via a browser without installing a local client on every device.",
+  "watchOut": "Given the moderate maintenance activity and repository size, you might encounter edge cases or lack support for advanced torrenting features found in more mature alternatives.",
+  "deployNotes": "Because it is packaged as a Docker container, you will typically need to configure persistent storage volumes for downloaded data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

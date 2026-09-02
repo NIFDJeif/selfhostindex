@@ -1,0 +1,8 @@
+{
+  "summary": "IFM is a file manager distributed as a single script, designed for managing files directly on a server through a web interface. It provides basic web-based file transfer and organisation capabilities without requiring a complex installation procedure. Because the official documentation is sparse, users can expect standard directory browsing, upload, and download functions typical of lightweight PHP file management tools.",
+  "goodFor": "This tool is a good fit for quick, temporary deployment when you need an immediate web-based file interface on a server without setting up a heavier platform.",
+  "watchOut": "Single-script file managers often present significant security risks if exposed to the public internet without strict access controls. Furthermore, development activity is slowing, which may lead to unpatched vulnerabilities over time.",
+  "deployNotes": "Deployment typically requires a standard PHP runtime environment on your web server with appropriate read and write permissions for the directory. You should ensure proper TLS termination via a reverse proxy and implement robust HTTP authentication to secure the endpoint.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

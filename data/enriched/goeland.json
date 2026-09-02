@@ -1,0 +1,8 @@
+{
+  "summary": "Goeland is a self-hosted tool that takes standard RSS or Atom web feeds and converts them into structured email digests. It runs as a lightweight containerized service, fetching updates on a schedule and formatting them for your inbox. This allows you to consolidate multiple subscriptions into fewer, periodic reading batches.",
+  "goodFor": "It suits individuals or small teams who prefer managing their RSS consumption directly inside an email client rather than using a dedicated feed reader application.",
+  "watchOut": "Project maintenance has slowed down recently, and with only a modest number of repository stars, you may encounter unresolved bugs or lack community support for advanced configurations.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent storage for configuration and state data, along with a reverse proxy to handle external access if exposed securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

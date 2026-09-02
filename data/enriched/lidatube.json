@@ -1,0 +1,8 @@
+{
+  "summary": "LidaTube is a media management tool that automates finding and downloading missing albums for Lidarr using yt-dlp. It helps bridge gaps in your music library by sourcing audio content from supported video and media platforms. The application is distributed as a Docker container under the GPL-3.0 licence.",
+  "goodFor": "This is a suitable utility if you run Lidarr and need a dedicated mechanism to acquire missing releases via yt-dlp automation.",
+  "watchOut": "The project exhibits a moderate maintenance pace, meaning you may encounter slower bug fixes or limited support for upstream changes in dependent tools.",
+  "deployNotes": "You will typically need to configure persistent volumes for your downloaded media and environment variables to connect the service with your existing Lidarr instance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

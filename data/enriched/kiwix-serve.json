@@ -1,0 +1,8 @@
+{
+  "summary": "Kiwix-serve is an HTTP daemon designed to host offline wiki content directly from ZIM archive files. It allows you to make large collections of reference material, such as Wikipedia dumps, accessible via a standard web browser on your local network or server.",
+  "goodFor": "Self-hosters who need to provide offline or local-network access to large reference libraries and static knowledge bases without an internet connection.",
+  "watchOut": "Development activity is currently slowing, and the daemon's focus is strictly limited to serving ZIM archives rather than managing dynamic document editing or user accounts.",
+  "deployNotes": "As a C++ binary, it typically runs as a lightweight standalone process that requires persistent storage for large ZIM files and usually sits behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

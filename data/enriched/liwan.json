@@ -1,0 +1,8 @@
+{
+  "summary": "Liwan is a privacy-first web analytics tool designed to track site traffic without relying on third-party cookies or intrusive user surveillance. Written in Rust and distributed under the Apache-2.0 licence, it provides an alternative to mainstream cloud-based tracking services. You can run it on your own hardware using Docker containers.",
+  "goodFor": "It suits privacy-conscious site operators who want to collect basic traffic metrics while keeping all visitor data on their own infrastructure.",
+  "watchOut": "The project currently shows a slowing maintenance cadence, which may affect long-term bug fixes and security patching. It also faces strong competition from more mature open-source analytics platforms.",
+  "deployNotes": "As a Dockerised Rust application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

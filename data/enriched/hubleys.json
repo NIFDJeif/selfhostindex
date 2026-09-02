@@ -1,0 +1,8 @@
+{
+  "summary": "Hubleys is a personal dashboard tool designed to help multiple users organise and access their links from a single interface. Configuration is managed centrally via a YAML file, allowing administrators to define the layout and available resources. It is distributed under the MIT licence and packaged as a Docker container.",
+  "goodFor": "It suits small teams or households that want a self-hosted, text-file-driven start page to share common bookmarks and links.",
+  "watchOut": "Editing a central YAML file for configuration lacks a graphical user interface, which may make day-to-day management less convenient for non-technical users.",
+  "deployNotes": "Because it runs in Docker, you will typically need to mount a persistent volume for your configuration files and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

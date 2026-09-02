@@ -1,0 +1,8 @@
+{
+  "summary": "Gramps Web is a self-hosted application designed for collaborative family history research. It allows multiple users to build, view, and share genealogy data while remaining interoperable with the desktop Gramps application. The system helps you manage genealogical records and family trees through a web browser.",
+  "goodFor": "It is a suitable choice if you want to collaborate on family history projects with relatives or colleagues across the internet using your own infrastructure.",
+  "watchOut": "The software relies on the ecosystem and data structures of the desktop parent application, which may present a learning curve if you are only familiar with standard web-based family tree platforms.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent storage volumes for your genealogy data and place the service behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

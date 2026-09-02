@@ -1,0 +1,8 @@
+{
+  "summary": "Tiramisu is a BitTorrent engine featuring a FUSE virtual filesystem designed to stream torrents directly to media servers like Plex and Jellyfin. It acts as a self-hosted alternative to subscription services such as Real-Debrid by mounting live video streams without requiring a full download beforehand. Written in Go and licensed under the GPL-2.0, the application is distributed as a container image.",
+  "goodFor": "It suits self-hosters who want to stream torrented media on-demand through their existing home media server without waiting for complete downloads or paying for third-party caching services.",
+  "watchOut": "Streaming video over FUSE from live torrent swarms can introduce buffering issues depending on seed availability, and the project has a modest community footprint.",
+  "deployNotes": "You can deploy it using Docker, and it typically requires persistent storage configuration for cache data alongside appropriate network ports for BitTorrent traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

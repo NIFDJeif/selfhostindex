@@ -1,0 +1,8 @@
+{
+  "summary": "HomeServerHQ is a shell-based installer that automates the deployment of a home server infrastructure stack. It aims to configure an email server, a VPN, and public websites within an hour, including setups operating behind carrier-grade NAT. The project is licensed under the GPL-3.0 and relies entirely on shell scripts to provision these services.",
+  "goodFor": "This tool is a practical fit for homelab operators who want to rapidly provision multiple standard infrastructure services on a single machine without manual configuration.",
+  "watchOut": "Relying on shell scripts for complex tasks like email and VPN provisioning can make debugging difficult when underlying system dependencies fail or update unexpectedly.",
+  "deployNotes": "Because the runtime relies on shell execution directly on the host operating system, you typically need root access and persistent storage on the target machine to manage system-level configurations and services.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

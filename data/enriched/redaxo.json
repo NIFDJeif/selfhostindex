@@ -1,0 +1,8 @@
+{
+  "summary": "REDAXO is an open-source content management system written in PHP and distributed under the MIT licence. It provides a structured environment for building and maintaining websites, though its primary documentation is written in German. You can run it via containerised setups using Docker.",
+  "goodFor": "It suits technical teams and developers comfortable with German documentation who need a lightweight, flexible CMS for bespoke web projects.",
+  "watchOut": "The primary documentation and community resources are predominantly in German, which can present a barrier if you do not read the language. It also occupies a crowded space alongside much larger, widely adopted content management systems.",
+  "deployNotes": "You will typically need to provision a separate database such as MySQL or MariaDB alongside the application container. Ensure you configure persistent volumes for your uploaded media and database storage, and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}

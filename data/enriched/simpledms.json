@@ -1,0 +1,8 @@
+{
+  "summary": "SimpleDMS is an open-source document management system designed to organise files using metadata. It helps small businesses handle document storage and retrieval without complex manual categorisation.",
+  "goodFor": "Small teams looking for a straightforward, self-hosted repository to organise internal documents and reduce administrative overhead.",
+  "watchOut": "With a modest community and lower repository activity, you may encounter fewer plugins, extensions, or troubleshooting resources compared to more mainstream alternatives.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent volumes for file storage and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-02"
+}
