@@ -1,0 +1,8 @@
+{
+  "summary": "Garlic-Hub is a self-hosted digital signage platform used to manage screens and content centrally. It supports standard SMIL playlists and built-in scheduling to control what media appears on remote displays. You can deploy it to coordinate various types of signage hardware from a single web interface.",
+  "goodFor": "It suits teams or individuals who need an open-source tool to schedule and push media playlists to digital displays across a local network or the internet.",
+  "watchOut": "With a moderate level of project activity and a niche focus, you may encounter edge cases or lack community documentation when troubleshooting hardware compatibility. The AGPL-3.0 licence also means you must release your modified source code if you offer it as a hosted service to third parties.",
+  "deployNotes": "Because it is distributed as a Docker container, you will typically need to configure persistent volumes for media and configuration data, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

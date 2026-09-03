@@ -1,0 +1,8 @@
+{
+  "summary": "Tinyproxy is a lightweight daemon that handles HTTP and HTTPS proxy requests. It acts as an intermediary for web traffic, sitting between client applications and the wider internet. Written in C, it provides core proxy functionality with minimal resource overhead.",
+  "goodFor": "It suits constrained environments where you need a simple, low-resource HTTP and HTTPS forwarding proxy without the bloat of larger enterprise alternatives.",
+  "watchOut": "Development activity has slowed down significantly, and it lacks the advanced traffic shaping, modern caching capabilities, and comprehensive feature sets found in more active alternatives.",
+  "deployNotes": "As a compiled C binary distributed as a Debian package, it typically runs directly on the host system without requiring an external database. You will need to configure your own persistent configuration files and manage any TLS termination upstream if required.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

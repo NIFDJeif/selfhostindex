@@ -1,0 +1,8 @@
+{
+  "summary": "Habitat is a self-hosted platform designed to help local communities organise and communicate. Because the official project description is brief, it broadly targets the social networks and forums category, enabling groups to run their own independent discussion spaces.",
+  "goodFor": "It suits small community groups or technical administrators who want to move their discussions away from proprietary social platforms and onto their own infrastructure.",
+  "watchOut": "With a modest number of repository stars and slowing maintenance activity, you may encounter unresolved bugs or a lack of community support if you run into trouble.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

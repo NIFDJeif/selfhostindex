@@ -1,0 +1,8 @@
+{
+  "summary": "Publify is a web publishing application built to manage blogs and basic content sites. It provides a straightforward interface for authoring articles and organising posts without the overhead of enterprise platforms.",
+  "goodFor": "It suits developers or hobbyists looking for a lightweight, self-hosted blogging engine written in the Ruby ecosystem.",
+  "watchOut": "The codebase sees modest development activity, which may result in slower responses to security vulnerabilities or dependency updates over time.",
+  "deployNotes": "You will typically need to provision a Ruby runtime environment alongside a separate relational database and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

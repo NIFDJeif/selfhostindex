@@ -1,0 +1,8 @@
+{
+  "summary": "Sup3rS3cretMes5age is a lightweight pastebin service written in Go that allows you to share sensitive text via self-destructing links. It relies externally on Hashicorp Vault to securely store the underlying payload until it is retrieved. The application interface is kept minimal for straightforward deployment and usage.",
+  "goodFor": "It is a practical choice if your infrastructure already runs Hashicorp Vault and you need a dedicated, straightforward tool for transmitting one-off credentials.",
+  "watchOut": "You must maintain a working Hashicorp Vault instance to store secrets, which introduces a heavy operational dependency for such a simple service. Development activity has also begun to slow down.",
+  "deployNotes": "Because the application is compiled in Go, it typically runs as a single static binary behind a reverse proxy for TLS termination. You will need to ensure proper network connectivity between the container or binary and your existing Vault deployment.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

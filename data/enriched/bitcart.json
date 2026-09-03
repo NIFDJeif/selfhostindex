@@ -1,0 +1,8 @@
+{
+  "summary": "Bitcart is a self-hosted platform designed for processing cryptocurrency payments and facilitating related development tasks. It provides infrastructure for handling digital currency transactions on your own infrastructure under an MIT licence. The project combines Python and Node.js components within a containerised architecture.",
+  "goodFor": "This is a suitable choice for developers or merchants who want to accept cryptocurrency payments directly without relying on third-party payment processors.",
+  "watchOut": "With a slowing maintenance trajectory and a moderate feature set, you may encounter edge cases or need to patch issues yourself if you rely on it for critical financial operations.",
+  "deployNotes": "Because it is distributed via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

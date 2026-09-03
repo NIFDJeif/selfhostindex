@@ -1,0 +1,8 @@
+{
+  "summary": "Memtly is an event-focused photo sharing platform and gallery system. It provides a live slideshow view and lets attendees access and upload pictures using a QR code.",
+  "goodFor": "It suits individuals running private gatherings or public events who want a self-hosted alternative to commercial photo collection services.",
+  "watchOut": "Development activity is slowing down, so you may encounter unresolved bugs or lack timely feature additions compared to more active projects.",
+  "deployNotes": "Since it is packaged as a Docker container running on C#, you will typically need to configure persistent volumes for uploaded media and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

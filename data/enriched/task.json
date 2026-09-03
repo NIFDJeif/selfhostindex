@@ -1,0 +1,8 @@
+{
+  "summary": "uTask is an automation engine designed to execute business processes that you define using YAML configuration files. It processes structured workflows by stepping through declared tasks and conditions. This allows you to standardise and run repeatable operational sequences without hardcoding them into application logic.",
+  "goodFor": "Teams that need a lightweight, self-hosted workflow orchestrator and prefer defining business logic purely in configuration files rather than writing custom scripts.",
+  "watchOut": "The repository exhibits slowing development activity and a lower maintenance health score, which could mean slower responses to bugs or security issues. Furthermore, you will need to invest time in learning its specific YAML schema and handling edge cases in your declared processes.",
+  "deployNotes": "Because it is built with Go and distributed via Docker, you can containerise it easily alongside a reverse proxy for TLS termination. You will typically need to provision persistent storage and configure an external database if the engine requires state persistence across restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Maza ad blocking is a local network filter that operates directly on your operating system rather than routing queries through a dedicated network hardware sinkhole like Pi-hole. It relies on shell scripts to manage blocking lists and alter system-level request handling. Because there are no tagged releases, deployments require pulling the latest source code directly from the repository.",
+  "goodFor": "It is suitable for single-user environments where you prefer a lightweight, OS-integrated filtering mechanism over managing a separate containerised DNS sinkhole.",
+  "watchOut": "The maintenance activity is slowing down with a low health score, and the lack of structured releases means you may encounter breaking changes when updating via shell scripts.",
+  "deployNotes": "As a shell-based tool, it typically requires direct administrative access to the host operating system and persistent storage for local blocklists, without needing a separate database engine.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

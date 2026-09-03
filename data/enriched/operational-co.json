@@ -1,0 +1,8 @@
+{
+  "summary": "Operational.co is a self-hosted tool designed to aggregate and display product alerts within a live chronological interface. It provides a centralised timeline view for tracking operational events emitted by your applications. The project is distributed under the AGPL-3.0 licence.",
+  "goodFor": "It suits developers or small teams looking for a dedicated, self-hosted timeline to monitor product notifications without relying on a managed third-party service.",
+  "watchOut": "The project has a relatively small community base and modest repository activity, meaning you may encounter unaddressed bugs or slow feature development. Additionally, the AGPL-3.0 licence places strict copyleft requirements on your modifications if you choose to adapt the codebase.",
+  "deployNotes": "Because the application is packaged for Docker and built on Node.js, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

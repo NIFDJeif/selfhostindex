@@ -1,0 +1,8 @@
+{
+  "summary": "Stoat is a self-hosted chat platform designed for custom communication systems. Built using modern web technologies and implemented in Rust, it provides an alternative messaging infrastructure that you can run on your own hardware.",
+  "goodFor": "It is well-suited for technical users who want to host a private chat system using modern web infrastructure under dual AGPL-3.0 and MIT licences.",
+  "watchOut": "The codebase exhibits at-risk maintenance indicators, and as a niche alternative in a crowded field, it may lack the broader ecosystem integration of more established chat platforms.",
+  "deployNotes": "As a Rust application, it typically compiles into a single binary, but you will usually need to configure a reverse proxy for TLS termination and set up persistent storage for message data and user state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

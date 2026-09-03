@@ -1,0 +1,8 @@
+{
+  "summary": "Tamari is a web-based recipe manager that includes a pre-loaded collection of dishes. It allows you to organise recipes using categories and favourites, plan meals, and generate shopping lists.",
+  "goodFor": "Home cooks looking for a straightforward, self-hosted system to store and organise personal culinary collections alongside a starter set of recipes.",
+  "watchOut": "The project has a moderate maintenance profile and a relatively small user base, meaning you may encounter fewer community resources or plugins compared to more established alternatives.",
+  "deployNotes": "Because it runs via Docker and Python, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

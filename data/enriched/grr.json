@@ -1,0 +1,8 @@
+{
+  "summary": "GRR is a self-hosted application designed for asset management and resource booking within small and medium-sized organisations. Written in PHP, it provides a centralised system to track and reserve shared equipment, rooms, or other company assets. The project is licensed under the GPL-2.0 and receives steady maintenance updates.",
+  "goodFor": "It suits small to medium-sized teams that need a straightforward, on-premise system to schedule shared internal resources without relying on third-party SaaS tools.",
+  "watchOut": "With a relatively small community and modest repository visibility, you may find fewer ready-made integrations, themes, or community-contributed plugins compared to mainstream alternatives.",
+  "deployNotes": "As a PHP application, you will typically need to run it behind a standard web server like Nginx or Apache alongside a relational database such as MySQL or MariaDB. Ensure you configure persistent storage for your database and local file uploads if applicable.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

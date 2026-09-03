@@ -1,0 +1,8 @@
+{
+  "summary": "OrcaQ is a desktop database client and integrated development environment designed to connect to and query multiple database systems. It includes an integrated artificial intelligence assistant to help you write queries and explore schemas. The project is open-source under the MIT licence.",
+  "goodFor": "It is a suitable choice if you want an open-source, multi-database client with built-in AI assistance for daily query work.",
+  "watchOut": "The repository has modest traction with only 219 stars and shows signs of slowing development activity, meaning you may encounter unpatched bugs.",
+  "deployNotes": "Since it is distributed as a Docker container or a deb package, you can typically run it locally or behind a reverse proxy if deployed as a web-accessible service, ensuring persistent storage is attached for configuration data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Mikochi is a web-based utility for managing and streaming files stored on remote servers. It allows you to browse directory structures, handle basic file operations, and pipe media directly to external players such as VLC or mpv.",
+  "goodFor": "It suits self-hosters who want a lightweight interface to organise remote storage and stream media directly from a browser to desktop media players.",
+  "watchOut": "The project exhibits slowing maintenance activity, which may result in delayed security patches or lack of support for newer client protocols.",
+  "deployNotes": "As a Go application packaged for Docker and Kubernetes, it typically requires persistent volume mounts for your media directories and a reverse proxy to handle HTTPS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "ClipBucket is a self-hosted platform designed to let you build your own video sharing website, functioning as a clone of services like YouTube or Netflix. It provides the core backend logic and interface required to host, manage, and stream media files directly from your own infrastructure. Built using PHP and containerised with Docker, it targets administrators looking to establish a dedicated video repository.",
+  "goodFor": "It is a suitable choice for developers or hobbyists wanting to experiment with running a dedicated video streaming portal on private hardware.",
+  "watchOut": "The codebase has a moderate maintenance tempo and the AAL license may require careful legal review depending on your intended use case. Video hosting also inherently demands significant storage and CPU resources for transcoding.",
+  "deployNotes": "Because it relies on PHP and is packaged for Docker, you will typically need to configure persistent volumes for uploaded media and provision a reverse proxy to handle HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

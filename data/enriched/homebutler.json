@@ -1,0 +1,8 @@
+{
+  "summary": "HomeButler is a tool designed to install and manage curated software applications using Docker Compose. It tracks container mappings and exposed ports, tests whether backups can be successfully restored, and logs system changes through various interfaces including a command line, JSON outputs, a web interface, and an MCP setup.",
+  "goodFor": "It suits administrators who want an automated way to handle containerised application catalogues and monitor changes across multiple local interfaces.",
+  "watchOut": "With a relatively early release cycle and moderate community adoption, you may encounter edge cases or undocumented behaviours when managing complex multi-container stacks.",
+  "deployNotes": "Because the application relies on Docker and Go, you will typically need to mount persistent volumes for configuration data and ensure the Docker socket is accessible to the container.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "SPIS is a lightweight media server written in Rust that focuses on fast performance and includes mobile support. It provides a straightforward way to host and access your personal media library over the network. The project is distributed under the GPL-3.0 licence and maintains a steady development pace.",
+  "goodFor": "It suits self-hosters looking for a minimal, fast media management tool that does not demand heavy system resources.",
+  "watchOut": "With a modest community following and an early release stage, you may encounter missing features or limited documentation compared to more established media servers.",
+  "deployNotes": "Containerised via Docker, you will typically need to map persistent volumes for your media files and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Aptabase provides self-hosted application metrics collection specifically designed for desktop and mobile software. It focuses on gathering usage data while adhering to privacy requirements without relying on third-party cloud services. The project is distributed under the AGPL-3.0 licence and packaged as a container image.",
+  "goodFor": "Developers or teams managing desktop and mobile applications who need a privacy-compliant, self-hosted alternative to mainstream commercial analytics providers.",
+  "watchOut": "The project currently shows slowing maintenance activity and lacks recent tagged releases, which may introduce risks regarding long-term support and security updates. Additionally, using an AGPL-3.0 licence means you must comply with strict copyleft rules if you modify and network the software.",
+  "deployNotes": "Since it is distributed via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

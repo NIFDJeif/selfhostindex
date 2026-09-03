@@ -1,0 +1,8 @@
+{
+  "summary": "Lidify is a music discovery utility that generates track and artist recommendations by connecting to external streaming or catalog services using data from your existing Lidarr library. It operates within the media management ecosystem to help populate your music collection with new suggestions. The application is distributed as a Docker container under the MIT licence.",
+  "goodFor": "This is a suitable tool if you already use Lidarr for music collection management and want an automated way to surface new artists based on your current preferences.",
+  "watchOut": "The project has a relatively modest community footprint and slowing development activity, meaning you may encounter unpatched bugs or limited support.",
+  "deployNotes": "As a Docker deployment, you will typically need to configure persistent volumes for any local state and set up a reverse proxy if you require external TLS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

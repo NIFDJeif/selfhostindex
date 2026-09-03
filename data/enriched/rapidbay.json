@@ -1,0 +1,8 @@
+{
+  "summary": "Rapidbay is a self-hosted video streaming service and torrent client combined into a single application. It enables you to search for torrents and play video files directly within your web browser or cast them to devices like Chromecast, Apple TV, and Smart TVs. The software is built with Python and distributed as a Docker container under the MIT licence.",
+  "goodFor": "This is a suitable tool if you want an integrated environment to search, manage, and stream video content from torrents to various household screens without switching between multiple applications.",
+  "watchOut": "The project lacks tagged releases and exhibits slowing maintenance activity, which may introduce stability risks or unpatched issues over time. Additionally, torrent-based media streaming carries inherent legal and operational grey areas depending on your jurisdiction and network setup.",
+  "deployNotes": "As a Python application packaged in Docker, you will typically need to mount persistent storage volumes for downloaded media and application state. You should also configure a reverse proxy to handle TLS termination if you plan to access the interface securely from outside your local network.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

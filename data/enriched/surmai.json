@@ -1,0 +1,8 @@
+{
+  "summary": "Surmai is a self-hosted tool designed for organising personal and family travel plans collaboratively. It runs via Docker under an MIT licence, providing a centralised space to manage itineraries and trip details. While specific internal modules are not detailed, it addresses the common need to coordinate travel logistics among multiple people.",
+  "goodFor": "It is suitable for households or small groups looking to self-host their travel planning data rather than relying on commercial cloud services.",
+  "watchOut": "Development activity is currently slowing down and adoption remains modest, which may impact long-term maintenance and community support.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

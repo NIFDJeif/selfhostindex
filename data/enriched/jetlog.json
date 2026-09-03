@@ -1,0 +1,8 @@
+{
+  "summary": "Jetlog is a self-hosted application designed for recording and viewing personal flight history. It helps you maintain a private logbook of your travel data rather than relying on commercial third-party platforms. The project is distributed under the GPL-2.0 licence.",
+  "goodFor": "It is well-suited for aviation enthusiasts who want to keep an independent, self-hosted record of their flights.",
+  "watchOut": "The project has a relatively modest community footprint and development activity has slowed recently, which might affect long-term maintenance.",
+  "deployNotes": "Since it is distributed as a Docker container, you will typically need to mount a persistent volume for storing application data and configure a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

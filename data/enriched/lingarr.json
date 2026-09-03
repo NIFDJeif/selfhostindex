@@ -1,0 +1,8 @@
+{
+  "summary": "Lingarr automates the translation of subtitle files within Radarr and Sonarr media libraries. It integrates with translation backends such as LibreTranslate, local AI models, or paid SaaS APIs to convert subtitles into your preferred language.",
+  "goodFor": "Self-hosters who manage foreign-language film and television collections in Radarr and Sonarr and require automated subtitle localisation.",
+  "watchOut": "The project exhibits slowing maintenance and relies entirely on external translation services or models, which can introduce latency, varying accuracy, or additional operating costs.",
+  "deployNotes": "It runs via Docker, so you will typically need to configure persistent storage volumes for your configuration files and ensure network access to your media management stack.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Databunker is a network-based, self-hosted database designed specifically for storing and managing personal data and personally identifiable information (PII). It acts as a secure vault to help applications achieve GDPR compliance by isolating sensitive user records from standard operational databases. The software is released under the MIT licence and is packaged for containerised environments.",
+  "goodFor": "It suits developers or system administrators who need a dedicated, isolated storage layer to handle user PII and simplify regulatory compliance for their applications.",
+  "watchOut": "Development activity is currently slowing down and there are no tagged releases, which may present risks regarding long-term maintenance, security updates, and bug fixes.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volume storage to ensure data survives container restarts and place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Omeka is a content management system designed for publishing structured digital collections and historical exhibits. It allows you to organise media while adhering to Dublin Core metadata standards for archival and scholarly projects.",
+  "goodFor": "It is a suitable choice for museums, libraries, and academic researchers who need to catalogue and display archival materials with standardised metadata.",
+  "watchOut": "The project's maintenance activity has slowed down recently, which may impact long-term security patching and update cadences. It also occupies a niche compared to mainstream CMS platforms, meaning fewer community plugins and themes are available.",
+  "deployNotes": "Because it is built with PHP, you will typically need to provision a compatible web server, a relational database such as MySQL or MariaDB, and persistent storage for uploaded media files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

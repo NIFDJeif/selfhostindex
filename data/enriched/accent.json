@@ -1,0 +1,8 @@
+{
+  "summary": "Accent is a self-hosted tool designed to assist developers and localisation teams with managing translation workflows. It provides a centralised platform to import, export, and synchronise translation keys across different languages and software projects. By hosting the service yourself, you can keep your language data internal and integrate it directly into your deployment pipelines.",
+  "goodFor": "Development teams looking for a dedicated, self-hosted system to manage application localisations and streamline translation file workflows without relying on external SaaS platforms.",
+  "watchOut": "The project lacks tagged releases, which can make tracking stable versions and upgrading dependencies more difficult in production environments.",
+  "deployNotes": "As an Elixir application packaged with Docker, it typically requires a container runtime, a persistent volume for database storage, and an external reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Medama Analytics is a self-hosted website analytics tool designed to track visitor traffic without relying on cookies. Built using Go, it aims to provide a lightweight alternative to heavier tracking suites while prioritising user privacy. It collects visitor data directly on your own infrastructure.",
+  "goodFor": "It is a good fit for operators who want basic traffic metrics without compliance overheads like cookie banners.",
+  "watchOut": "The project has a relatively modest community size and slowing development activity, which might impact long-term support and feature growth.",
+  "deployNotes": "Because it is distributed as a Docker container, deployment typically involves setting up persistent volumes for data storage and placing it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Titra is a self-hosted time-tracking application designed for freelancers and small teams. It helps users log hours and monitor time spent on various tasks and projects within a central web interface.",
+  "goodFor": "Freelancers and small team administrators who need a dedicated, self-hosted utility specifically for logging time rather than a heavier enterprise project management suite.",
+  "watchOut": "The project exhibits slowing development activity, which might mean slower bug fixes or a lack of new features over time.",
+  "deployNotes": "As a JavaScript application packaged for containerisation, it typically requires a persistent volume for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

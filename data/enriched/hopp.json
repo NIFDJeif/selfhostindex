@@ -1,0 +1,8 @@
+{
+  "summary": "Hopp is a remote pair programming application designed for collaborative coding sessions. It provides ultra-low-latency 4K screen sharing alongside shared drawing tools and remote control functionality. Operating under the AGPL-3.0 licence, it serves as an open-source alternative to proprietary collaboration tools.",
+  "goodFor": "Development teams who want to host their own remote collaboration infrastructure or require high-definition screen sharing for pair programming.",
+  "watchOut": "Low-latency 4K streaming demands significant network bandwidth and server resources, and the platform competes in a space with established commercial alternatives.",
+  "deployNotes": "As a containerised application distributed via Docker, it typically requires persistent storage for configuration data and a reverse proxy to handle TLS termination properly.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

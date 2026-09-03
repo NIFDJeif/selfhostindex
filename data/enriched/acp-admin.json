@@ -1,0 +1,8 @@
+{
+  "summary": "ACP Admin is a self-hosted platform designed for managing Community-Supported Agriculture schemes. It helps organisers handle member lists, subscription plans, distribution deliveries, drop-off sites, and invoicing.",
+  "goodFor": "It suits small to medium organic farming collectives and community groups running local share-based food distribution models.",
+  "watchOut": "The upstream documentation is written entirely in French, which may present an operational barrier if you do not read the language.",
+  "deployNotes": "As a Ruby application, it typically requires a persistent database such as PostgreSQL, a web server running behind a reverse proxy for TLS termination, and persistent storage for file assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

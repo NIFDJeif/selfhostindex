@@ -1,0 +1,8 @@
+{
+  "summary": "This week in past is a self-hosted web application that surfaces historical photographs taken during the current calendar week in previous years. It displays these archival images through a straightforward slideshow interface on a simple web page. The software is written in Rust and distributed via Docker under the MIT licence.",
+  "goodFor": "It suits anyone wanting to resurface personal photography archives automatically based on the calendar date without relying on commercial cloud platforms.",
+  "watchOut": "With a modest community and repository footprint, you may encounter edge cases or lack integration with wider photo management ecosystems.",
+  "deployNotes": "As a Docker container, you will typically need to mount a persistent volume pointing to your image directory and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

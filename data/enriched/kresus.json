@@ -1,0 +1,8 @@
+{
+  "summary": "Kresus is a self-hosted personal finance manager designed to help you track your money, budgeting, and overall financial management. It provides a centralised web interface to record transactions and view your financial status over time. As a personal tool, it runs entirely on your own infrastructure under an open source licence.",
+  "goodFor": "It is a good fit for single users who want to host their own money management tool and keep their financial data off third-party servers.",
+  "watchOut": "Development activity is currently slowing down, which may impact how quickly bugs are fixed or new bank synchronisations are added. The AGPL-3.0 licence also places strict copyleft requirements on any network-accessible modifications you make.",
+  "deployNotes": "Since it runs on Node.js and is packaged for Docker, you will typically need to configure persistent volume storage for your financial data and put it behind a reverse proxy to handle TLS. You should also check the documentation to see if it requires a separate database container or manages state locally.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Mataroa is a stripped-back blogging platform designed specifically for minimalists who want a plain text writing experience. It focuses purely on publishing straightforward articles without heavy markup, complex themes, or unnecessary user interfaces.",
+  "goodFor": "It is a good fit if you want a clean, no-frills personal journal or writing space that stays out of your way.",
+  "watchOut": "The project has a relatively small community and modest repository traction, meaning you may need to rely heavily on your own troubleshooting if something breaks.",
+  "deployNotes": "As a Python application, it will typically require a WSGI server, a reverse proxy such as Nginx to handle TLS termination, and persistent storage for your written content.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}

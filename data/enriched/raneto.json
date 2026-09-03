@@ -1,0 +1,8 @@
+{
+  "summary": "Raneto is a wiki and knowledge base platform that relies on flat Markdown files stored directly on your server rather than a relational database. It parses these text files to generate a searchable documentation site for internal teams or public audiences. The system is written in Node.js and distributed under the MIT licence.",
+  "goodFor": "It suits small technical teams who want to maintain documentation in simple version-controlled text files without managing database infrastructure.",
+  "watchOut": "The project shows signs of being at-risk with low community maintenance, meaning you may need to patch bugs yourself.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy like Nginx to handle TLS termination and manage the process with a tool like PM2 or systemd.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-03"
+}
