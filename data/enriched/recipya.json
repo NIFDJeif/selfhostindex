@@ -1,0 +1,8 @@
+{
+  "summary": "Recipya is a self-hosted recipe manager designed for households. It provides a centralised space to store, organise, and consult culinary instructions and meal ideas.",
+  "goodFor": "It suits families or individuals looking for a dedicated, local-first system to manage their personal recipe collections away from commercial platforms.",
+  "watchOut": "The project relies on a relatively modest community and maintenance pace, meaning you might encounter slower response times for bug fixes or feature requests compared to more mature alternatives.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent storage volumes for your recipe data and configuration, alongside a reverse proxy if you require TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

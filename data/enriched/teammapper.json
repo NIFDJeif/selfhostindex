@@ -1,0 +1,8 @@
+{
+  "summary": "TeamMapper is a self-hosted knowledge management tool for creating and sharing mindmaps. It provides a shared workspace where teams can collaborate on visual brainstorming and structuring sessions in real time.",
+  "goodFor": "It suits teams looking for a dedicated, locally hosted tool for collaborative visual mapping without relying on third-party cloud services.",
+  "watchOut": "The codebase has a relatively low maintenance health score with slowing update activity, which might present risks for long-term support and bug fixes.",
+  "deployNotes": "As a Node.js application packaged with Docker, you will typically need to configure persistent storage volumes for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

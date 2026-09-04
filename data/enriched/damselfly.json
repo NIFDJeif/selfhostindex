@@ -1,0 +1,8 @@
+{
+  "summary": "Damselfly is a self-hosted photo management service designed to handle large image libraries across Linux, macOS, and Windows. It indexes your collection while providing metadata tagging, facial detection, and object recognition capabilities to help you search through extensive archives.",
+  "goodFor": "It is well-suited for users with massive local image collections who require rapid search functionality and EXIF keyword management without relying on cloud services.",
+  "watchOut": "The project's low maintenance health score indicates that you may encounter unpatched bugs, slow issue resolution, or a lack of modern feature updates.",
+  "deployNotes": "As a containerised .NET application, you will typically need to configure persistent volumes for your image library and database storage, alongside a reverse proxy for HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

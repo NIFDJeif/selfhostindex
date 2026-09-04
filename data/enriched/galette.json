@@ -1,0 +1,8 @@
+{
+  "summary": "Galette is a web application designed to help non-profit organisations manage their membership lists and associated administrative tasks. Built with PHP under the GPL-3.0 licence, it provides a centralised platform to keep track of members, contributions, and related organisational data. The project maintains a steady development cadence with regular tagged releases.",
+  "goodFor": "It suits non-profit groups and voluntary associations that require a straightforward, self-hosted system to organise member directories and internal records.",
+  "watchOut": "The project has a relatively small community footprint compared to mainstream alternatives, meaning you may need to rely primarily on community documentation for troubleshooting.",
+  "deployNotes": "Deployment typically requires a standard PHP environment paired with a relational database such as MySQL or PostgreSQL. You will also need to configure a web server like Nginx or Apache with a reverse proxy for TLS, along with persistent storage for any uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

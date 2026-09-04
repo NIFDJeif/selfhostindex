@@ -1,0 +1,8 @@
+{
+  "summary": "ngircd is a portable and lightweight Internet Relay Chat server designed specifically for small or private networks. It provides a straightforward text-based communication channel without the overhead of larger enterprise chat platforms. Written in C, it serves as a traditional IRC daemon to route messages between connected clients.",
+  "goodFor": "It is a suitable choice if you want to set up a private chat server for a small group or a local network with minimal resource consumption.",
+  "watchOut": "Development activity is currently slowing down, and it lacks the modern features and integrations found in newer team chat applications.",
+  "deployNotes": "As a compiled C binary packaged as a deb, it typically runs as a standalone system service and usually handles TLS either natively or via a separate reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

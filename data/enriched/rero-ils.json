@@ -1,0 +1,8 @@
+{
+  "summary": "RERO ILS is an integrated library system designed for multi-institution library networks and consortia. It provides standard library management modules including circulation, acquisitions, and cataloging alongside web-based interfaces for both staff and the public.",
+  "goodFor": "It is suited for large library networks or consortia requiring a shared platform to manage collections and patron operations across multiple distinct branches.",
+  "watchOut": "Deploying a consortial-grade integrated library system carries a high operational burden, and the project has a modest community footprint reflected by its repository metrics.",
+  "deployNotes": "As a containerised Python application, you will typically need to run it behind a reverse proxy for TLS termination, configure persistent volumes for data storage, and provision a separate relational database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

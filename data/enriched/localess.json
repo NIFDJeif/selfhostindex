@@ -1,0 +1,8 @@
+{
+  "summary": "Localess is a self-hosted translation management system and content management system designed to handle multilingual text for applications and websites. It integrates AI-assisted translation workflows to help you generate and manage target-language content more efficiently. The project is distributed under the MIT licence and provides containerised deployment options.",
+  "goodFor": "Development teams or content managers who need a centralised, self-hosted platform to coordinate translation pipelines and AI-assisted localisation workflows.",
+  "watchOut": "With a relatively modest community following and a moderate maintenance health score, you may need to rely on the existing codebase for troubleshooting rather than extensive community support or third-party documentation.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

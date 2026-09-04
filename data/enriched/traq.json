@@ -1,0 +1,8 @@
+{
+  "summary": "Traq is a web-based issue tracking and project management system built using PHP and Node.js. It provides a centralised platform for teams to log tasks, monitor progress, and manage software development workflows.",
+  "goodFor": "It is suited for small teams seeking a traditional, self-hosted project tracking tool that operates on a standard PHP-compatible stack.",
+  "watchOut": "Development activity is slowing down, and the project has a modest community footprint compared to industry-standard alternatives.",
+  "deployNotes": "You will typically need a standard web server configured for PHP, a dedicated database such as MySQL or PostgreSQL, and Node.js available for asset compilation during the build process.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

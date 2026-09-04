@@ -1,0 +1,8 @@
+{
+  "summary": "d9 is a data platform and headless content management system that operates as a fork of Directus. It provides an intuitive administrative interface to automatically transform existing SQL databases into secure APIs.",
+  "goodFor": "This is a suitable choice if you need to quickly expose an existing relational database via a structured API and admin panel without writing custom backend scaffolding.",
+  "watchOut": "As a smaller fork with moderate community traction, it may lack the extensive ecosystem, documentation, and long-term stability of its parent project or more established alternatives.",
+  "deployNotes": "Being a Node.js application, it typically requires a persistent connection to your target SQL database, a reverse proxy for handling TLS termination, and process management to keep the service running.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

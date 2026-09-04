@@ -1,0 +1,8 @@
+{
+  "summary": "Daily Stars Explorer monitors GitHub repository trends by recording daily star counts to help you observe growth and community interest over time. It operates as an analytics tool within the software development domain, packaged for self-hosting. You can run it via Docker to gather historical metrics on projects you care about.",
+  "goodFor": "A developer or maintainer who wants to locally aggregate and archive historical GitHub star metrics independently of third-party SaaS dashboards.",
+  "watchOut": "The project is at an early release stage with moderate activity levels, meaning you may encounter bugs or lack advanced integrations found in mature alternatives.",
+  "deployNotes": "Because it relies on Docker, you will typically need to mount a persistent volume for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

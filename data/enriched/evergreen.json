@@ -1,0 +1,8 @@
+{
+  "summary": "Evergreen is an integrated library system designed to help libraries manage cataloguing, circulation, and patron discovery of materials. It provides a scalable backend for handling large collections and day-to-day library operations.",
+  "goodFor": "Public or academic libraries requiring a self-hosted system to manage their physical and digital inventories and patron accounts.",
+  "watchOut": "Development activity appears to be slowing down, and the lack of recent tagged releases may indicate challenges with stability or timely updates.",
+  "deployNotes": "Given its reliance on PLpgSQL, you will typically need to provision a dedicated PostgreSQL database instance alongside persistent storage for relational data and a reverse proxy for secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

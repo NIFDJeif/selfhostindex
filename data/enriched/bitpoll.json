@@ -1,0 +1,8 @@
+{
+  "summary": "Bitpoll is a self-hosted web application designed for conducting scheduling polls and general questionnaires. It allows organisers to gather availability for dates and times or collect responses to standard questions without relying on third-party services. The project is implemented in Python and distributed under the GPL-3.0 licence.",
+  "goodFor": "This is a suitable choice if you want to host your own scheduling polls on internal infrastructure to keep data private. It fits teams or communities that prefer self-hosted alternatives to commercial polling tools.",
+  "watchOut": "The project shows signs of slowing maintenance with a modest community size, meaning you may need to patch issues yourself. It also overlaps heavily with more widely adopted scheduling tools.",
+  "deployNotes": "Because the application is packaged for Docker, you will typically need to configure persistent volumes for your application data and place it behind a reverse proxy to handle TLS. You may also need to provision a separate database container depending on the default configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

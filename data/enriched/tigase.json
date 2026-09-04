@@ -1,0 +1,8 @@
+{
+  "summary": "Tigase is an implementation of an XMPP server written in Java. It handles instant messaging and chat routing by managing connections between clients and servers. As an Extensible Messaging and Presence Protocol host, it provides the core infrastructure for federated real-time communication.",
+  "goodFor": "It is a suitable choice if you specifically require an XMPP-compliant chat server and your existing infrastructure is already standardised on the Java ecosystem.",
+  "watchOut": "The project has a relatively small community footprint and slower maintenance activity compared to mainstream communication platforms, which may impact support availability. Additionally, running a custom XMPP server often requires careful configuration of federation and client authentication.",
+  "deployNotes": "Because it is built on Java, you will typically need a suitable Java runtime environment installed along with sufficient memory allocation. You will also usually want a relational database backend configured for persistent storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

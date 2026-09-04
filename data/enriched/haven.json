@@ -1,0 +1,8 @@
+{
+  "summary": "Haven is a self-hosted blogging platform that allows you to write posts using markdown formatting. It also includes a built-in RSS reader so you can follow other feeds from the same interface. The project is licensed under the MIT licence and built with Ruby.",
+  "goodFor": "It suits individuals who want a straightforward, private space for markdown blogging combined with an integrated feed reader on their own infrastructure.",
+  "watchOut": "The repository currently has no tagged releases and development activity is slowing, which may introduce stability risks or require you to rely directly on the master branch.",
+  "deployNotes": "Because this application is built with Ruby, you will typically need to run it behind a reverse proxy for TLS termination, provision a persistent database, and manage a Ruby runtime environment on your server.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

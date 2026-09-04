@@ -1,0 +1,8 @@
+{
+  "summary": "Task Keeper is a list editor designed for advanced users who want to organise tasks via a self-hosted server backend. Written in Scala and distributed under the Apache-2.0 licence, it manages structured text and to-do lists outside of third-party cloud platforms. It is maintained at a steady pace with regular updates.",
+  "goodFor": "It is well-suited for developers or power users who prefer self-hosting their productivity tooling and want a dedicated server backend for their task lists.",
+  "watchOut": "With a relatively small community and low repository star count, you may encounter fewer community resources, extensions, or troubleshooting guides compared to mainstream alternatives.",
+  "deployNotes": "As a Scala application, you will typically need to provision a Java Virtual Machine runtime environment on your server. You should also configure a reverse proxy to handle TLS termination and ensure persistent storage is attached for your list data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

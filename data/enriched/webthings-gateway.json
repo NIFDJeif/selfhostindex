@@ -1,0 +1,8 @@
+{
+  "summary": "WebThings Gateway is an open-source platform designed to implement the Web of Things, helping you connect and control smart home devices locally. It provides a centralised interface and supporting framework to manage various internet-connected hardware through web standards. The project is built using Node.js and distributed under the MPL-2.0 licence.",
+  "goodFor": "It is a suitable option if you want to experiment with standards-based smart home control and prefer open-source web technologies for local IoT management.",
+  "watchOut": "The project exhibits low overall maintenance health, meaning you may encounter unpatched bugs, security issues, or a lack of active community support.",
+  "deployNotes": "As a Node.js application, it typically requires persistent storage for configuration data and a reverse proxy to handle secure TLS connections over HTTPS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

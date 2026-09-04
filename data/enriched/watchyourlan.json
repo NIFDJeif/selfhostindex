@@ -1,0 +1,8 @@
+{
+  "summary": "WatchYourLAN is a lightweight IP scanner designed for local networks. It tracks connected devices, logs their history, sends notifications upon new discoveries, and exports data to Grafana.",
+  "goodFor": "It suits homelab administrators who want a simple, containerised utility to monitor local network activity and feed statistics into an existing Grafana dashboard.",
+  "watchOut": "The project exhibits low maintenance activity, meaning you may need to patch issues yourself or look for alternative tools if it falls behind upstream dependencies.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent storage to retain historical logs and network state across restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

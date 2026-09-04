@@ -1,0 +1,8 @@
+{
+  "summary": "Trudora provides a centralised environment for software development teams to manage localisation and translation workflows. It functions as a web-based translation management platform where contributors can collaborate on string updates and resource files. This helps coordinate multi-language support across your codebases without relying on fragmented file exchanges.",
+  "goodFor": "Development teams seeking a self-hosted workspace to coordinate translators and developers on localisation tasks.",
+  "watchOut": "The codebase shows a slowing maintenance trajectory, which may impact how quickly future security patches or updates arrive. AGPL-3.0 licensing also requires careful consideration if you intend to modify and distribute the software.",
+  "deployNotes": "Because the platform runs on Node.js and is containerised for Docker and Kubernetes, you will typically need to configure persistent storage for translation data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

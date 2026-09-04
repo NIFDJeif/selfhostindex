@@ -1,0 +1,8 @@
+{
+  "summary": "Iodine is a networking tool that tunnels IPv4 traffic over the Domain Name System protocol. It allows you to operate a SOCKS5 proxy listener when standard network access is restricted or filtered by routing traffic through DNS queries.",
+  "goodFor": "It is suited for advanced network administrators who need to bypass strict firewall restrictions in controlled laboratory or testing environments.",
+  "watchOut": "The project has low maintenance activity and no recent releases, which means unpatched bugs or compatibility issues may go unaddressed.",
+  "deployNotes": "As a C application packaged as a deb, it typically runs as a system daemon on Linux servers without requiring a database or TLS termination proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

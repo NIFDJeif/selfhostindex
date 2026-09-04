@@ -1,0 +1,8 @@
+{
+  "summary": "Piler is an open-source email archiving solution designed to store and index large volumes of electronic mail. It provides a centralised repository for organisational email data, supporting long-term preservation and retrieval within the Archiving and Digital Preservation category.",
+  "goodFor": "It suits system administrators who need a self-hosted mail archiving system under a GPL-3.0 licence to meet compliance or data retention requirements.",
+  "watchOut": "Development activity is currently slowing, meaning you should evaluate whether the maintenance health matches your long-term operational needs.",
+  "deployNotes": "As a compiled application built with C and distributed via Docker or deb packages, it typically requires persistent storage volumes for mail data and an external database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

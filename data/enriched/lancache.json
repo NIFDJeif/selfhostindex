@@ -1,0 +1,8 @@
+{
+  "summary": "Lancache is a containerised utility designed to cache video game downloads for LAN parties and multi-device local networks. By storing frequently downloaded game files locally, it aims to reduce internet bandwidth usage during large multiplayer gatherings.",
+  "goodFor": "Organisers of local area network events or administrators managing multiple gaming rigs on a constrained internet connection.",
+  "watchOut": "The project lacks recent tagged releases and shows slowing maintenance activity, which may introduce compatibility issues with modern game client updates.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent storage volumes for the downloaded cache data and ensure proper local network routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

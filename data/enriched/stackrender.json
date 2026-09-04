@@ -1,0 +1,8 @@
+{
+  "summary": "StackRender is a self-hosted tool designed for database schema design and SQL migration generation. It provides support for multiple relational database management systems, including PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, and Oracle. The software aims to simplify the creation and maintenance of database structures through a centralised web interface.",
+  "goodFor": "It suits developers and database administrators who manage multi-database environments and need a standardised way to generate and track schema migrations.",
+  "watchOut": "The AGPL-3.0 licence requires you to release the complete source code of your modified version if you offer it as a network service, which may affect proprietary deployments. Additionally, development velocity appears to be slowing.",
+  "deployNotes": "As a Node.js application packaged with Docker, it typically requires persistent storage volumes for state retention and a reverse proxy to handle TLS termination. You will also need to connect it to an external database instance if it does not use an embedded SQLite file by default.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Snipo is a self-hosted snippet manager designed to store and organise code blocks and text using folders and tags. It includes an application programming interface and supports synchronisation with GitHub Gists. The codebase is written in Go and packaging is handled via Docker under the AGPL-3.0 licence.",
+  "goodFor": "This is a suitable choice if you want a dedicated, self-hosted repository for code snippets that integrates directly with your existing GitHub Gist workflows.",
+  "watchOut": "The project has a modest community following and a relatively low maturity profile compared to older, more established pastebin alternatives. The AGPL-3.0 licence also imposes strict copyleft requirements if you plan to modify and redistribute the code.",
+  "deployNotes": "As a containerised Go application, you will typically need to configure a persistent volume for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

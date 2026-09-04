@@ -1,0 +1,8 @@
+{
+  "summary": "FoodCoopShop is an open-source web application designed to help community-supported agriculture groups and food cooperatives manage their operations. It provides a platform to handle member orders, coordinate product distribution, and facilitate the collective purchasing of local goods. The software is written in PHP and distributed under the AGPL-3.0 licence.",
+  "goodFor": "It is a suitable choice for small food cooperatives or buying groups that need a dedicated, self-hosted platform to coordinate orders and members.",
+  "watchOut": "The project has a moderate maintenance tempo and relatively low adoption compared to broader e-commerce alternatives, which might mean you will rely more heavily on community support or self-troubleshooting.",
+  "deployNotes": "As a PHP application, you will typically need to run it behind a web server with a PHP runtime and a separate database backend, though containerisation via Docker can simplify setting up the environment and persistent volumes.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Docat is a self-hosted application designed for hosting versioned documentation. It provides a centralised server where you can publish and manage multiple versions of your project documentation.",
+  "goodFor": "It suits small development teams or individual developers who want an internal, self-hosted alternative to third-party documentation hosting services.",
+  "watchOut": "Development activity has been slowing down, which might mean slower responses to security issues or bugs over time.",
+  "deployNotes": "Since it runs via Docker, you will typically need to configure a persistent volume for storing the documentation files and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

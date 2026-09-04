@@ -1,0 +1,8 @@
+{
+  "summary": "Goploader is a self-hosted file sharing utility written in Go and distributed under the MIT licence. It provides a web-based interface and command-line compatibility with standard tools like curl, httpie, and wget, featuring server-side encryption for stored data.",
+  "goodFor": "It suits individual users or small teams who want a lightweight, command-line friendly file transfer endpoint on their own infrastructure.",
+  "watchOut": "Development activity has slowed down significantly, and the project has a modest community footprint compared to broader cloud storage alternatives.",
+  "deployNotes": "As a compiled Go binary, it typically requires a reverse proxy to handle TLS termination and persistent local storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

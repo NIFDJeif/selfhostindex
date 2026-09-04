@@ -1,0 +1,8 @@
+{
+  "summary": "Websurfx is an open-source metasearch engine written in Rust that queries multiple upstream search providers simultaneously. It strips out advertisements and telemetry to return aggregated results with a focus on user privacy. It serves as a direct alternative to platforms like SearX.",
+  "goodFor": "It suits self-hosters who want to bypass commercial search engine tracking and advertising while maintaining a lightweight infrastructure.",
+  "watchOut": "The project overlaps heavily with the more mature and widely adopted SearXNG, and upstream changes to target search engines can occasionally break result parsing.",
+  "deployNotes": "As a containerised Rust application, you will typically deploy it via Docker behind a reverse proxy to handle TLS termination, with minimal persistent storage requirements as it generally does not rely on a separate database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

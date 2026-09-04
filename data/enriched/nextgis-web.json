@@ -1,0 +1,8 @@
+{
+  "summary": "NextGIS Web is a self-hosted map server designed to store geospatial data and publish interactive web maps. It facilitates collaborative workflows that centre around the QGIS desktop geographic information system, allowing teams to share and manage spatial layers. The application is packaged using Docker for containerised deployment.",
+  "goodFor": "Teams and organisations that already rely heavily on QGIS for spatial data creation and need a central web repository to publish and share maps internally or publicly.",
+  "watchOut": "The project currently lacks tagged releases and has a relatively small community footprint alongside slowing maintenance activity, which may introduce risks for long-term production use.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for your geospatial data storage, set up a reverse proxy to handle TLS termination, and potentially provision a separate database container depending on the exact stack requirements.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

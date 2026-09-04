@@ -1,0 +1,8 @@
+{
+  "summary": "YAFFA is a self-hosted web application designed to help you manage your personal finances. It provides tools to record daily expenses, monitor budgets, and oversee investments to support long-term financial planning.",
+  "goodFor": "It suits individuals who want a dedicated, self-hosted system to track personal wealth and spending habits without relying on third-party cloud services.",
+  "watchOut": "The project has a relatively small community and slower maintenance activity, meaning you may encounter unpatched bugs or lack rapid support for new features. It also overlaps heavily with more mature open-source alternatives.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a database such as MySQL or PostgreSQL for persistent storage, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Tox is a decentralised instant messaging system that supports secure text, audio, and video communication without relying on a central server. Built in C and licensed under the GPL-3.0, it connects peers directly to exchange data over the network. It addresses the category of custom communication systems designed to bypass hosted third-party infrastructure.",
+  "goodFor": "It suits users looking for a direct peer-to-peer communication channel that avoids centralised message routing and metadata collection.",
+  "watchOut": "The project exhibits an at-risk maintenance profile with a low health score, suggesting potential delays in security patches or upstream fixes. Additionally, true peer-to-peer setups can struggle with NAT traversal reliability and persistent offline messaging without dedicated relay nodes.",
+  "deployNotes": "As a compiled C application, it typically requires standard compilation tools and dependencies on the host system, along with persistent storage for configuration and user keys.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

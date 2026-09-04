@@ -1,0 +1,8 @@
+{
+  "summary": "Kapowarr is a self-hosted tool designed to organise and manage digital comic book collections. It handles automated downloading, file renaming, moving, and conversion tasks for specific comic volumes.",
+  "goodFor": "It suits comic enthusiasts who want to curate and automate their digital reading collections on a personal server.",
+  "watchOut": "The project exhibits a slowing maintenance rate, which may affect long-term bug fixes and compatibility with external indexers or scrapers.",
+  "deployNotes": "As a Python application packaged for Docker, you will typically need to map persistent volumes for your downloaded media and library database, along with a reverse proxy if you require external HTTPS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

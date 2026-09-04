@@ -1,0 +1,8 @@
+{
+  "summary": "Leed is a lightweight, self-hosted RSS aggregator written in PHP. It collects and displays web feeds in a minimalist interface, allowing you to centralise your reading subscriptions on your own infrastructure.",
+  "goodFor": "This is a suitable choice if you want a simple, low-resource feed reader deployed via a standard PHP stack without the bloat of heavier applications.",
+  "watchOut": "Development activity is currently modest, and it faces strong competition from more actively maintained alternatives in the same category.",
+  "deployNotes": "You will typically need a standard web server with PHP support, a relational database like MySQL or MariaDB, and persistent storage for your configuration and feed data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "ChiefOnboarding is a self-hosted employee onboarding platform designed to help teams provision user accounts and automate introductory tasks. It offers both a web portal interface and a Slack bot to manage sequences of to-do items, resources, and automated messages.",
+  "goodFor": "It is a suitable fit for organisations running internal infrastructure that want to automate the repetitive administrative tasks associated with welcoming new team members.",
+  "watchOut": "The project exhibits slowing development activity and relies on the AGPL-3.0 licence, which may carry strict compliance implications if you modify and distribute the source code within your network.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

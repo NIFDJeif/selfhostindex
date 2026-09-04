@@ -1,0 +1,8 @@
+{
+  "summary": "RELATE is an open-source courseware package designed to help educators manage educational content. It offers multi-course support, a class calendar, flexible rules, and usage statistics for teaching environments.",
+  "goodFor": "Instructors and institutions needing a self-hosted platform to organise course schedules, rules, and student statistics under an MIT licence.",
+  "watchOut": "The project lacks a tagged release history and shows slowing maintenance activity, which may introduce risks for long-term deployments.",
+  "deployNotes": "As a Python application, you will typically need to run it behind a reverse proxy for TLS termination, configure a persistent database, and manage dependencies within a virtual environment.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

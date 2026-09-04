@@ -1,0 +1,8 @@
+{
+  "summary": "Nefarious is a Python-based utility designed to automate the acquisition of films and television series. It operates within the media management category, handling the discovery, downloading, and organisation of video files. As it lacks tagged releases and has a modest community following, its exact feature set is best understood through standard automated media pipeline practices.",
+  "goodFor": "It suits self-hosters who prefer lightweight Python tools for managing their video libraries and want an alternative to dominant ecosystem solutions.",
+  "watchOut": "Development activity is slowing down and the absence of tagged releases suggests that stability may vary between commits. You should expect to troubleshoot issues yourself given the lower repository visibility compared to mainstream media automation tools.",
+  "deployNotes": "You will typically need to run this within a persistent container or virtual environment with access to shared storage volumes for your media library. A standard reverse proxy configuration will be required if you wish to secure your web interface with TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

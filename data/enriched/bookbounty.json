@@ -1,0 +1,8 @@
+{
+  "summary": "BookBounty is an automation tool designed to retrieve missing literature by connecting Readarr with Library Genesis. It handles the background workflow of sourcing titles that cannot be found through your standard download clients.",
+  "goodFor": "Self-hosters who rely on Readarr for their digital library and frequently encounter unavailable titles that require alternative sourcing channels.",
+  "watchOut": "The project has a modest community footprint with slowing development activity, meaning you may need to rely on community patches or troubleshoot issues yourself.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent storage volumes for application data and ensure proper network routing if you access the interface externally.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

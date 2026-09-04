@@ -1,0 +1,8 @@
+{
+  "summary": "Traggo is a self-hosted time tracking tool that relies on tags rather than predefined tasks. It allows you to record time spans by assigning specific tags to them, offering a flexible alternative to traditional hierarchical task structures. The application is built using Go and distributed via Docker.",
+  "goodFor": "It suits users who prefer a tag-based taxonomy for tracking time rather than managing structured projects and tasks.",
+  "watchOut": "The project shows signs of being at risk regarding maintenance health, which could impact long-term updates and bug fixes.",
+  "deployNotes": "As a Docker-based Go application, you will typically need to configure persistent storage for your time data and place it behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}

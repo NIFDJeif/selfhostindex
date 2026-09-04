@@ -1,0 +1,8 @@
+{
+  "summary": "This application provides an authenticated download queue for fetching videos, audio, and subtitles from various online platforms directly to your storage. It builds upon a previous iteration to add features such as download history, mobile sharing capabilities, and basic file management tailored for network-attached storage. Users interact with a web interface to queue and monitor media extraction tasks running on their own infrastructure.",
+  "goodFor": "Self-hosters who want a dedicated, password-protected web interface to queue video downloads remotely and store them directly on a local NAS.",
+  "watchOut": "The project is a niche fork with modest community traction, meaning updates may lag behind upstream extractor changes and bug fixes could be slow to arrive.",
+  "deployNotes": "As a containerised Python application, you will typically need to map persistent storage volumes for the downloaded media files and configure a reverse proxy to handle authentication securely over TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-04"
+}
