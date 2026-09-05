@@ -1,0 +1,8 @@
+{
+  "summary": "Fedora Commons Repository is a modular Java-based backend system designed for managing, preserving, and disseminating large volumes of digital content. It serves as institutional repository and digital library software, providing structured storage for long-term archiving and access. The platform operates under the Apache-2.0 licence.",
+  "goodFor": "It is well-suited for university libraries, research institutions, and archival organisations that require standardised, long-term preservation of complex digital assets.",
+  "watchOut": "Development activity is slowing, and setting up and maintaining a complex Java-based repository framework involves a steep learning curve and significant administrative overhead.",
+  "deployNotes": "Because it is built with Java, you will typically need a dedicated Java runtime environment, a persistent storage volume for digital objects, and usually a separate relational database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Ratelog is a self-hosted web application that functions as a movie tracker and rating tool, offering an alternative to commercial platforms like Letterboxd. It allows you to log films you have watched, assign ratings, and maintain a personal record of your cinematic viewing history. The project is distributed under the AGPL-3.0 licence and is containerised for deployment.",
+  "goodFor": "This is a suitable tool if you want to self-host your movie tracking data rather than relying on third-party commercial services.",
+  "watchOut": "With a small community and repository footprint, you may encounter edge cases or a lack of extensive documentation compared to more mature media management tools.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volume storage to retain your user data and logs across container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

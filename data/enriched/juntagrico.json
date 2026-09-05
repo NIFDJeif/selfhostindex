@@ -1,0 +1,8 @@
+{
+  "summary": "Juntagrico is a management platform designed for community-supported agriculture initiatives and vegetable cooperatives. It helps administrators handle member subscriptions, harvest distributions, and farm work allocation. The application is built using Python and is licensed under the LGPL-3.0.",
+  "goodFor": "It is a suitable choice for small-to-medium agricultural cooperatives and community gardens that need to manage local member lists and harvest shares.",
+  "watchOut": "With a modest number of repository stars and moderate maintenance activity, you may need to rely on your own technical resources for troubleshooting and customisations.",
+  "deployNotes": "As a Python application, you will typically need to run it behind a reverse proxy for TLS termination, configure a persistent database backend, and manage background worker processes.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

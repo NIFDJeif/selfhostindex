@@ -1,0 +1,8 @@
+{
+  "summary": "Nimbus is a self-hosted personal dashboard featuring a visual drag-and-drop editor and straightforward configuration files. It acts as a central hub to organise links and widgets for your various home server applications. The project is licensed under the AGPL-3.0 and is distributed as a container image.",
+  "goodFor": "It suits users who want a customisable landing page for their homelab without manually writing YAML configuration files.",
+  "watchOut": "The repository has a relatively low star count and a slowing maintenance cadence, meaning updates and bug fixes might be less frequent.",
+  "deployNotes": "As a Docker-based application, you will typically need to map a persistent volume for configuration data and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

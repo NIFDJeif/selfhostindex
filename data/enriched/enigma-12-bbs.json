@@ -1,0 +1,8 @@
+{
+  "summary": "Enigma 1/2 is a BBS engine designed to run across multiple platforms with support for multiple simultaneous callers and legacy DOS door games. It provides a text-based communication and social interface reminiscent of classic bulletin board systems. The project is built using Node.js, Shell scripts, and Docker containers.",
+  "goodFor": "This software suits hobbyists and retro computing enthusiasts looking to host a classic BBS with modern containerisation and legacy game compatibility.",
+  "watchOut": "The maintenance velocity is slowing down and there are no official tagged releases, which may present stability risks for long-term production use. Furthermore, documentation and community support might be limited compared to mainstream communication platforms.",
+  "deployNotes": "You can typically run this via Docker with persistent volumes configured for user data and door games, sitting behind a reverse proxy if you need TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

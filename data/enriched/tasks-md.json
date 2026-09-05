@@ -1,0 +1,8 @@
+{
+  "summary": "Tasks.md is a self-hosted task management board that stores data using Markdown files. It provides a visual interface for organising to-do items while keeping the underlying records in a plain text format on your own infrastructure.",
+  "goodFor": "It suits individuals or small teams who prefer managing tasks through Markdown files rather than traditional relational databases.",
+  "watchOut": "The project exhibits low maintenance activity, which may result in delayed security patches and unresolved bugs over time.",
+  "deployNotes": "As a Docker-deployed application, you will typically need to map a persistent volume to preserve your Markdown files and place the container behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "InvenioRDM is an institutional repository and digital library platform built to manage and publish academic and research data collections. Written in Python and released under the MIT licence, it provides a structured system for organisations to ingest, store, and serve large volumes of scholarly output.",
+  "goodFor": "It is suited for university libraries, research institutions, and organisations needing a dedicated platform to archive and share scholarly datasets.",
+  "watchOut": "The moderate maintenance activity and lack of recent tagged releases suggest you should evaluate community momentum carefully before committing to long-term production use.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI server, a persistent relational database backend, and a reverse proxy for TLS termination and static asset handling.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

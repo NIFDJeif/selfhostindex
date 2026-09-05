@@ -1,0 +1,8 @@
+{
+  "summary": "Mirumoji is a self-hosted Japanese immersion toolkit that processes media to provide clickable, tokenized subtitles. It features integrated dictionary lookups and automated transcription generation to assist learners studying the language.",
+  "goodFor": "Language learners and media enthusiasts who want a dedicated, local tool for parsing Japanese subtitles and looking up vocabulary on their own server.",
+  "watchOut": "With a modest community footprint and repository size, you may encounter edge cases or undocumented bugs requiring manual troubleshooting. Automated transcription generation can also demand significant CPU or GPU resources depending on the underlying models used.",
+  "deployNotes": "Because it runs via Docker and Python, you will typically need to configure persistent volumes for media storage and database files. Ensure you map appropriate ports and place the container behind a reverse proxy if you require external TLS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Bindery is a folder-watching conversion tool designed for electronic books and comic files. It automatically processes files using utilities like kepubify and Kindle Comic Converter to adapt formats for specific reading devices. The software includes a web interface, device profiles, and handling for metadata and chapter bundling.",
+  "goodFor": "It suits self-hosters who routinely manage large digital library collections and need automated, hands-off conversion of files for dedicated e-readers or tablets.",
+  "watchOut": "With a low repository star count and slowing maintenance, you might encounter unresolved bugs or lack rapid support for new upstream conversion tools. It also duplicates functionality often found in broader media management systems.",
+  "deployNotes": "Because it processes files via folder monitoring and a web interface, you will typically need to mount persistent volumes for your input and output directories. A reverse proxy is also usually required to handle TLS termination if you access the web UI remotely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

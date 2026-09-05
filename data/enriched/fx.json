@@ -1,0 +1,8 @@
+{
+  "summary": "Fx is a self-hosted micro-blogging platform designed as an alternative to mainstream networks like Twitter and Bluesky. It provides built-in syntax highlighting and supports publishing from mobile devices.",
+  "goodFor": "It suits individuals wanting an independent micro-blogging presence with native support for code snippets.",
+  "watchOut": "Development activity is slowing down, and it faces strong competition from more established decentralised protocols.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

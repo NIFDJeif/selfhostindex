@@ -1,0 +1,8 @@
+{
+  "summary": "Assets is a self-hosted tool designed for tracking personal net worth and investments. It provides a centralised interface to monitor financial holdings and capital growth over time. The application is packaged as a container for straightforward deployment.",
+  "goodFor": "It suits individuals looking for a dedicated, self-hosted option to consolidate their financial tracking rather than relying on commercial cloud platforms.",
+  "watchOut": "The software is proprietary and carries a moderate maintenance overhead, meaning updates may be less frequent and you must trust the vendor's source availability.",
+  "deployNotes": "You will typically need to configure persistent volumes for your financial data and set up a reverse proxy to handle secure TLS termination for external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

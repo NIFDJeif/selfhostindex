@@ -1,0 +1,8 @@
+{
+  "summary": "Bugzilla is a classic ticketing tool designed to track software defects, issues, and testing tasks. Originally created for the Mozilla project, it provides a centralised database for teams to log, assign, and monitor bugs throughout a development lifecycle. It operates as a web-based issue tracking system under the Mozilla Public Licence 2.0.",
+  "goodFor": "It suits teams looking for a traditional, highly customisable open-source ticketing system with a long history in large-scale software projects.",
+  "watchOut": "Development activity is relatively slow and it often faces strong competition from modern, feature-rich alternatives that offer better user experiences out of the box.",
+  "deployNotes": "As a Perl-based web application, you will typically need to configure a web server with CGI or mod_perl support, connect it to a separate relational database, and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "PictShare is a multilingual image hosting service that provides a straightforward API for uploading and resizing pictures. It is written in PHP and packaged as a Docker container for self-hosting. The platform falls into the file transfer category, specifically supporting drag-and-drop and single-click upload workflows.",
+  "goodFor": "It suits anyone who wants a dedicated, self-hosted endpoint for quick image uploads and programmatic resizing without heavy resource requirements.",
+  "watchOut": "The project lacks a recent tagged release and shows signs of slowing maintenance activity, which could impact security patch availability over time.",
+  "deployNotes": "Because it runs on PHP via Docker, you will typically need to map a persistent volume for uploaded files and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

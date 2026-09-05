@@ -1,0 +1,8 @@
+{
+  "summary": "Pinchflat is a media management tool that automates the downloading of video content from YouTube. It operates as a self-hosted service designed to handle recurring subscription downloads and archive management. The application relies on yt-dlp to process and retrieve media files.",
+  "goodFor": "It is a suitable choice if you want a dedicated, self-hosted utility specifically focused on automated YouTube video archiving rather than a broad media server.",
+  "watchOut": "The project shows signs of low maintenance activity, which may result in delayed fixes for breaking changes when upstream video platforms update their architecture. Additionally, the AGPL-3.0 licence may impose specific compliance obligations if you modify and distribute the code.",
+  "deployNotes": "As a containerised application, you will need to map persistent storage volumes for your downloaded media files and configuration data. You should also ensure proper network configuration if you plan to access the web interface externally behind a reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

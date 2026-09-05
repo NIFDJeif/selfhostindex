@@ -1,0 +1,8 @@
+{
+  "summary": "MintHCM is a human capital management platform adapted from established open-source customer relationship management codebases like SugarCRM and SuiteCRM. It provides a centralised system to handle workforce administration and personnel data on your own infrastructure. Because the core architecture originates from enterprise CRM frameworks, it inherits standard business application structures.",
+  "goodFor": "It suits organisations looking for a self-hosted human resources platform built on a familiar PHP technology stack, especially those already experienced in administering SuiteCRM or SugarCRM instances.",
+  "watchOut": "The project exhibits slowing maintenance activity and relies on an older architectural lineage, which may introduce compatibility challenges with modern PHP environments and security updates over time.",
+  "deployNotes": "You will typically need to provision a standard LAMP or LEMP stack with a relational database like MySQL or MariaDB, alongside persistent storage for user uploads and document attachments.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

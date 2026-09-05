@@ -1,0 +1,8 @@
+{
+  "summary": "Discount Bandit is a self-hosted tool that monitors product pricing and stock availability across major e-commerce platforms like Amazon, eBay, and Walmart. It automates the tracking process so you can observe price fluctuations and inventory changes from a single dashboard. The project is open-source under the GPL-3.0 licence and built with PHP.",
+  "goodFor": "It suits individuals or small teams who want to automate price comparison and stock tracking across multiple retail sites without relying on third-party SaaS services.",
+  "watchOut": "The codebase has a moderate maintenance health score, indicating potential risks regarding long-term support and timely security patches. Retailers frequently change their site structures, which can often break automated scrapers.",
+  "deployNotes": "As a PHP application packaged with Docker, it typically requires persistent storage volumes for your tracking data and configuration. You will also want to place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

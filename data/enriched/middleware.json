@@ -1,0 +1,8 @@
+{
+  "summary": "Middleware is an analytics platform that helps engineering leaders measure team performance using standard DORA metrics. It processes telemetry and workflow data to track delivery speed and operational stability.",
+  "goodFor": "Engineering managers who want to track deployment frequency and lead time without relying on proprietary cloud services.",
+  "watchOut": "The project has a low maintenance score and modest community traction, meaning you may need to patch bugs yourself or deal with abandoned code.",
+  "deployNotes": "Because the stack includes Python and Node.js packaged via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

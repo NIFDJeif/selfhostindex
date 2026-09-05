@@ -1,0 +1,8 @@
+{
+  "summary": "iRedMail is a complete email server solution built around standard components like Postfix and Dovecot. It automates the complex configuration required to run a self-hosted mail transfer agent, handling inbound and outbound mail routing, storage, and retrieval.",
+  "goodFor": "It is suited for administrators who want to set up an independent mail infrastructure using well-established Linux mail components without manually configuring every underlying service.",
+  "watchOut": "Managing a self-hosted mail server carries a heavy operational burden regarding IP reputation, spam filtering, and DNS records such as SPF, DKIM, and DMARC. Additionally, the low maintenance health score suggests you should carefully evaluate its long-term viability before committing.",
+  "deployNotes": "Because it is deployed via shell scripts, you typically need a clean, dedicated server installation to avoid conflicting with existing web services or mail daemons. You will also need to ensure persistent storage is available for mail spools and databases.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

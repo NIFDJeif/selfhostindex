@@ -1,0 +1,8 @@
+{
+  "summary": "Slash is an open-source tool designed to help you save, organise, and share bookmarks and links from your own infrastructure. It provides a centralised web interface for managing collections of URLs without relying on third-party bookmarking services. As a self-hosted platform under the GPL-3.0 licence, it gives you complete control over your stored link data.",
+  "goodFor": "This is a good fit if you want a dedicated, self-hosted alternative to commercial bookmark managers and prefer keeping your link collections on your own hardware.",
+  "watchOut": "The repository currently shows low maintenance activity, which may mean slower responses to security issues or bug fixes. It also competes in a well-established category with many mature alternatives.",
+  "deployNotes": "Since it is distributed for Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

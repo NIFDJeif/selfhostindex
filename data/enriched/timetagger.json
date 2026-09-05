@@ -1,0 +1,8 @@
+{
+  "summary": "TimeTagger is an open-source time tracking tool designed around an interactive timeline interface and detailed reporting capabilities. It allows you to record, categorise and analyse your working hours through a self-hosted web application. The codebase is written in Python and is distributed under the GNU General Public License v3.0.",
+  "goodFor": "This is a suitable option if you want a self-hosted time-tracking utility with a focus on timeline visualization rather than complex billing workflows.",
+  "watchOut": "The repository exhibits low maintenance activity and an at-risk health score, meaning you may encounter unpatched bugs or need to maintain the codebase yourself if issues arise.",
+  "deployNotes": "As a Python application, you will typically need to run it behind a reverse proxy to handle TLS termination and configure persistent storage for your time-tracking database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

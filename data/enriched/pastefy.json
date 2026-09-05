@@ -1,0 +1,8 @@
+{
+  "summary": "Pastefy is a self-hosted pastebin application used for storing and sharing snippets of text or code. It features a highlighted editor, multi-tab pastes, an application programming interface, and optional client-side encryption.",
+  "goodFor": "It is a suitable choice if you need a lightweight, easily deployable alternative to public paste services for internal text sharing.",
+  "watchOut": "Development activity has recently slowed down, which could mean slower responses to security issues or bugs.",
+  "deployNotes": "Since it runs via Docker and Kubernetes, you will typically need to configure persistent storage for your paste data and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

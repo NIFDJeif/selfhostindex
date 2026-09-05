@@ -1,0 +1,8 @@
+{
+  "summary": "MiroTalk C2C is a self-hosted web application that provides real-time, end-to-end encrypted video calls and screen sharing. It is designed to be embedded directly into existing websites using a standard iframe element.",
+  "goodFor": "It suits developers who need to integrate basic, encrypted video communication directly into their own web pages without relying on third-party services.",
+  "watchOut": "The absence of tagged releases suggests that stability may vary, and you should carefully review the AGPL-3.0 licence implications if you plan to modify or integrate the source code.",
+  "deployNotes": "As a Node.js application packaged with Docker, you will typically need to run it behind a reverse proxy to handle TLS termination properly.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

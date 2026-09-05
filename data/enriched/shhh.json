@@ -1,0 +1,8 @@
+{
+  "summary": "Shhh is a self-hosted tool designed to prevent sensitive information from sitting permanently in email threads or chat histories. It allows you to generate secure, time-limited, and passphrase-protected links to transmit sensitive text data safely. Once a secret is accessed or its expiration date is reached, the data is removed.",
+  "goodFor": "It suits teams or individuals who need a private, internal method for sharing single-use credentials or sensitive notes without relying on external third-party services.",
+  "watchOut": "Development activity on the repository has been slowing down, which may indicate a lack of active maintenance for future security updates. You should also consider whether manual secret-sharing aligns with your broader automated credential management policies.",
+  "deployNotes": "As a Python application, you will typically need to run it behind a reverse proxy to handle TLS termination and manage its process lifecycle with a tool like systemd or Docker. Persistent storage may be required depending on whether the application stores secrets in a database or flat files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

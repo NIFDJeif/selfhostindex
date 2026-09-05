@@ -1,0 +1,8 @@
+{
+  "summary": "PrivyDrop is a peer-to-peer file transfer utility that uses WebRTC to route text, images, and documents directly between browsers. Because transfers rely on direct browser-to-browser connections rather than central server storage, files move without being permanently cached on an intermediate host. It offers breakpoint-resumable transfers to handle interrupted network connections during transmission.",
+  "goodFor": "It suits occasional, direct exchanges of large files between trusted parties without relying on third-party cloud storage or email attachments.",
+  "watchOut": "The codebase has a moderate maintenance tempo and lacks the extensive ecosystem of mature enterprise file-sharing platforms, meaning you may need to troubleshoot issues yourself.",
+  "deployNotes": "As a containerised Node.js application, it typically requires a reverse proxy to handle TLS termination, though it generally does not need a separate database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

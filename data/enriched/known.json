@@ -1,0 +1,8 @@
+{
+  "summary": "Known is a collaborative social publishing platform designed for shared blogging and web content creation. It provides a multi-author environment where users can publish posts and interact through a web interface. As a blogging platform written in PHP, it handles content management and community publishing tasks.",
+  "goodFor": "It is a good fit if you need a self-hosted PHP application specifically tailored for multi-author collaborative blogging.",
+  "watchOut": "The project exhibits an at-risk maintenance score, which means you may encounter unpatched bugs or lack timely security updates over time.",
+  "deployNotes": "You will typically need a standard PHP runtime environment paired with a relational database like MySQL or MariaDB, plus a web server such as Nginx or Apache configured to handle PHP requests.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

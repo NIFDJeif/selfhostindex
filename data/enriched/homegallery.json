@@ -1,0 +1,8 @@
+{
+  "summary": "HomeGallery is a self-hosted web application designed to help you browse personal photos and videos through a browser. It includes features for tagging media, accessing the interface from mobile devices, and using artificial intelligence for image discovery.",
+  "goodFor": "It is a suitable choice if you want to organise and search a personal media collection on your own hardware using containerised tools.",
+  "watchOut": "The project currently lacks tagged releases and has a low maintenance score, which indicates that you may encounter unresolved bugs or an abandoned codebase.",
+  "deployNotes": "Since it runs via Docker and Node.js, you will typically need to configure persistent volume mounts for your media library and place the container behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

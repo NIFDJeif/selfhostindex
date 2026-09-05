@@ -1,0 +1,8 @@
+{
+  "summary": "Outline Server is a proxy application that runs individual Shadowsocks instances for separate access keys, controlled via a built-in REST API. It falls under the proxy category, providing encrypted tunnelling for network traffic. The codebase is implemented using Node.js and distributed as a Docker container.",
+  "goodFor": "It is a suitable choice if you need a straightforward way to spin up and manage multiple isolated proxy access keys on your own infrastructure.",
+  "watchOut": "The repository exhibits low maintenance activity, which may result in delayed security patches or unaddressed bugs over time. It also relies on the Shadowsocks protocol, which can be fingerprinted or blocked by sophisticated network filters.",
+  "deployNotes": "Because the application runs via Docker and Node.js, you will typically need to configure persistent storage for your access key database and ensure the necessary proxy ports are exposed on your host firewall.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

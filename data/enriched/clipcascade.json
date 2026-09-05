@@ -1,0 +1,8 @@
+{
+  "summary": "ClipCascade is a self-hosted tool designed to synchronise your clipboard contents automatically across various operating systems including Windows, macOS, Linux, and Android. It handles data transfer over the network using end-to-end encryption to protect sensitive text or media copied by the user. The application relies on Java and is packaged for containerised environments.",
+  "goodFor": "It suits users who need to bridge clipboard histories between mixed desktop and mobile operating systems entirely on private infrastructure.",
+  "watchOut": "The project currently shows low development activity, suggesting potential delays in patch delivery or compatibility updates for newer operating systems.",
+  "deployNotes": "As a Java-based container workload, it typically requires a persistent volume for state storage and a reverse proxy to handle secure transport layers.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

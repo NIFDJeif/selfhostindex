@@ -1,0 +1,8 @@
+{
+  "summary": "Speed Test by OpenSpeedTest is an HTML5-based tool designed to measure network performance directly within a web browser. It helps you estimate connection speeds without requiring browser plugins or third-party client software.",
+  "goodFor": "It is a suitable choice if you want to host an internal speed testing endpoint on your local network to diagnose client-server performance without relying on external services.",
+  "watchOut": "The repository exhibits low maintenance activity with minimal recent releases, which could mean delayed patches for security issues or unaddressed bugs.",
+  "deployNotes": "As a Docker container, it typically requires a reverse proxy to handle TLS termination properly if you intend to access it securely over the internet, though it usually does not need a persistent database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

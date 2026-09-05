@@ -1,0 +1,8 @@
+{
+  "summary": "Vanilla Cookbook is a self-hosted recipe management system that provides a clean user interface while handling complexity behind the scenes. It allows you to store, organise, and view your culinary instructions through a web browser. The project is distributed under the GPL-3.0 licence.",
+  "goodFor": "It suits home users who want a straightforward, self-hosted web interface to manage personal recipe collections without unnecessary visual clutter.",
+  "watchOut": "With a slowing maintenance trajectory and a modest community following, you may encounter unresolved bugs or lack rapid support for new feature requests.",
+  "deployNotes": "As a Node.js application packaged for Docker, you will typically need to configure persistent storage volumes for your recipe data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

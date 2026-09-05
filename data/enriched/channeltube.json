@@ -1,0 +1,8 @@
+{
+  "summary": "ChannelTube is a self-hosted media management tool designed to download video and audio content from YouTube channels automatically on a schedule. It relies on yt-dlp under the hood to handle the retrieval process. The software is provided under the AGPL-3.0 licence and is distributed as a containerised application.",
+  "goodFor": "This is a suitable choice if you want to mirror specific YouTube creators or build a local archive of video and audio feeds without manual intervention.",
+  "watchOut": "Development activity is currently slowing down, which may impact how quickly upstream changes from YouTube or yt-dlp are addressed. Additionally, it overlaps heavily with more established media archiving stacks.",
+  "deployNotes": "As a Docker-based deployment, you will typically need to configure persistent volumes for your downloaded media files and use a reverse proxy if you require external TLS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

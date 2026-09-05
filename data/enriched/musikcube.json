@@ -1,0 +1,8 @@
+{
+  "summary": "Musikcube is an audio streaming server designed to let you host and access your music collection remotely. It provides client applications across multiple operating systems to playback audio streamed from the host server. The project is implemented in C++ and distributed under the BSD-3-Clause licence.",
+  "goodFor": "This is a suitable choice if you want a lightweight, self-hosted audio streaming solution with dedicated clients for various desktop and mobile platforms.",
+  "watchOut": "Development activity is currently minimal, meaning you may encounter unpatched bugs or lack of modern features compared to more actively maintained audio streaming alternatives.",
+  "deployNotes": "As a compiled C++ application distributed as a deb package, you will typically need to provision persistent storage for your media library and place the service behind a reverse proxy to handle secure TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

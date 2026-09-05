@@ -1,0 +1,8 @@
+{
+  "summary": "1time allows you to share passwords, API keys, and files securely via self-destructing links. Data is encrypted client-side in the browser so that plaintext secrets never reach the server, and links expire automatically after a set number of views.",
+  "goodFor": "Teams and individuals who need to transmit sensitive credentials or small files securely without relying on third-party SaaS platforms.",
+  "watchOut": "The project has a modest GitHub star count and slowing maintenance activity, meaning you may need to patch bugs yourself if the upstream project stalls.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure a reverse proxy to handle TLS termination and ensure any necessary persistent storage volumes are mapped correctly.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

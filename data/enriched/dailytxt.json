@@ -1,0 +1,8 @@
+{
+  "summary": "DailyTxT is a self-hosted web application designed for recording daily personal notes and memories with encryption. It provides a text interface alongside search capabilities and support for encrypted file uploads.",
+  "goodFor": "It suits individuals wanting a private, self-hosted journal or scratchpad running locally or on a personal private server.",
+  "watchOut": "The project lacks tagged releases and shows slowing maintenance activity, which may introduce risks for long-term data storage.",
+  "deployNotes": "As a containerised web application, you will typically need to configure persistent volumes for your journal data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

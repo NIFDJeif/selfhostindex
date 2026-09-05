@@ -1,0 +1,8 @@
+{
+  "summary": "Davis is a Docker-ready administration interface for sabre/dav servers, built using PHP, Symfony, and Bootstrap. It provides a web-based panel to manage CalDAV and CardDAV data similar to the Baikal server interface. It is licensed under the MIT licence and relies on existing sabre/dav backend storage.",
+  "goodFor": "This is a suitable choice if you already run a sabre/dav backend and require a straightforward web interface for administration without heavy resource demands.",
+  "watchOut": "The project has a relatively low maintenance health score and slowing update velocity, meaning you may encounter unpatched bugs or lag behind upstream PHP releases.",
+  "deployNotes": "As a PHP application packaged for Docker, you will typically need to configure persistent volumes for your data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "HTMLy is a flat-file content management system and blogging platform written in PHP. It stores your articles and pages directly on the filesystem as files rather than using a traditional database engine.",
+  "goodFor": "It suits users who want to run a simple, lightweight blog on basic PHP hosting without the overhead of managing a database backend.",
+  "watchOut": "The low maintenance score suggests the project might lack active ongoing support, which could leave you exposed to unpatched security vulnerabilities over time.",
+  "deployNotes": "You will typically need a standard web server like Apache or Nginx configured with PHP support, along with persistent storage for your flat-file content.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

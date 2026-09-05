@@ -1,0 +1,8 @@
+{
+  "summary": "Flexisip is a modular Session Initiation Protocol server designed to handle routing and call signaling. It includes an integrated push gateway to deliver incoming calls and messages to mobile clients when the application is backgrounded or inactive. Written in C and distributed under the AGPL-3.0 licence, it focuses on scalability for VoIP infrastructures.",
+  "goodFor": "Self-hosters and system administrators building a private VoIP or SIP infrastructure that requires reliable push notification delivery to mobile apps.",
+  "watchOut": "The AGPL-3.0 licence places strict copyleft obligations on network services, which may affect your compliance if you modify and expose the software. Additionally, ongoing project activity shows signs of slowing.",
+  "deployNotes": "As a C-based application distributed with Docker support, you will typically need to handle container orchestration, configure persistent storage for logs or state if required, and place a secure proxy in front of it to handle TLS termination for SIP traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

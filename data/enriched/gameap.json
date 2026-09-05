@@ -1,0 +1,8 @@
+{
+  "summary": "GameAP is a dedicated control panel designed for hosting and administering game servers across both Linux and Windows environments. It provides a centralised web interface to handle server lifecycle management, file access, and operational commands. The backend is written in Go and utilises Docker for containerisation.",
+  "goodFor": "Self-hosters who run private game servers across mixed operating systems and want a unified web interface to manage them.",
+  "watchOut": "With a moderate maintenance health score and slowing update velocity, you may encounter unresolved bugs or lack timely support for newer game releases.",
+  "deployNotes": "As a containerised Go application, it typically requires a persistent volume for configuration and game data, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}

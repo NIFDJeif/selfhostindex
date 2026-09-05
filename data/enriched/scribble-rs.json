@@ -1,0 +1,8 @@
+{
+  "summary": "Scribble.rs is a self-hosted, web-based drawing and guessing game that allows users to play Pictionary online with friends. It provides a real-time multiplayer environment where participants take turns sketching words while others guess them in a chat interface.",
+  "goodFor": "It is a suitable choice for hosting private game nights or casual online gatherings for friends on your own infrastructure.",
+  "watchOut": "The project shows signs of being at-risk with low maintenance activity, which could mean delayed security patches or unaddressed bugs over time.",
+  "deployNotes": "As a Go application packaged for Docker, it typically requires a container runtime, persistent storage for any user data or custom word lists, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-05"
+}
