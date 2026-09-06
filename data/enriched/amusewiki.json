@@ -1,0 +1,8 @@
+{
+  "summary": "Amusewiki is a wiki engine built around the Emacs Muse markup syntax, maintaining general compatibility with the original implementation. It can be configured to operate as a static read-only publication platform, a moderated collaborative workspace, a public wiki, or a private site.",
+  "goodFor": "It suits technical teams or communities who prefer Emacs Muse markup for document authoring and require flexible access control levels from private to fully open.",
+  "watchOut": "The project exhibits slowing maintenance activity and lacks recent tagged releases, which may concern administrators looking for active upstream development.",
+  "deployNotes": "Since it runs via Docker and relies on Perl, you will typically need to map persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

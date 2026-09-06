@@ -1,0 +1,8 @@
+{
+  "summary": "HamsterBase Tasks is a self-hosted platform designed for managing tasks, organising notes, and tracking product development workflows. It functions as a centralised space to plan and execute projects from initial concept through to final delivery. The software is distributed under the AGPL-3.0 licence and is packaged as a container image.",
+  "goodFor": "It is suitable for individual developers or small teams seeking a self-hosted workspace to manage personal to-do lists and project milestones.",
+  "watchOut": "The project exhibits a slowing development velocity and carries a relatively low maintenance score, meaning you may need to patch bugs yourself. It also enters a crowded field with many mature, well-known alternatives.",
+  "deployNotes": "You can deploy it using Docker, which typically requires configuring persistent volume mounts to retain your task data across container restarts. A reverse proxy should be placed in front of the container to handle TLS termination and secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

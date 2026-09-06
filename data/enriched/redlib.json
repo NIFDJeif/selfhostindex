@@ -1,0 +1,8 @@
+{
+  "summary": "Redlib is a lightweight alternative front-end designed to let you browse social media forums without relying on the official platform interfaces. It acts as a privacy-focused proxy, fetching public content and rendering it locally to prevent tracking scripts from loading. Derived from Libreddit, it offers a comparable way to view discussion threads anonymously.",
+  "goodFor": "It suits individuals who want to browse forum content privately without creating an account or dealing with tracking scripts.",
+  "watchOut": "The project carries an at-risk maintenance status, meaning upstream changes to the underlying platform could break the interface quickly with limited developer support.",
+  "deployNotes": "As a compiled Rust application, it typically runs well inside a container behind a standard reverse proxy for TLS termination, usually without needing a persistent database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Starbase 80 provides a self-hosted personal homepage featuring an application grid arranged similarly to an iPad layout. It is designed to run across both mobile and desktop screens, relying entirely on a single JSON file for configuration.",
+  "goodFor": "It suits users who want a minimalist, touch-friendly starting page for their browser and prefer managing their shortcuts and links through a straightforward flat file rather than a database.",
+  "watchOut": "The lack of tagged releases and low maintenance score suggest that tracking upstream fixes or expecting rapid updates may be risky for long-term deployments.",
+  "deployNotes": "Since it runs via Docker and reads configuration from a flat file, you will typically need to mount a local volume for your JSON file to persist changes across container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

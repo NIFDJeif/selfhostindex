@@ -1,0 +1,8 @@
+{
+  "summary": "Hive-Pal is a mobile-first application designed for apiary management, allowing you to record inspections, track queen lifecycles, and monitor equipment inventories directly from the field. It provides a streamlined interface tailored for quick data entry while working outdoors with hives. Built with Node.js and distributed under the MIT licence, it is intended to be self-hosted via Docker.",
+  "goodFor": "It suits small-scale beekeepers or hobbyists who want to keep their livestock and equipment records on a private server rather than relying on third-party cloud services.",
+  "watchOut": "With a modest community following and a steady but cautious maintenance profile, you may encounter edge cases or lack integration with wider agricultural platforms. You will also need to handle your own mobile synchronisation and backup routines.",
+  "deployNotes": "As a containerised Node.js application, deployment typically requires mounting a persistent volume for your database and configuration files, alongside a reverse proxy to handle HTTPS termination for secure mobile access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

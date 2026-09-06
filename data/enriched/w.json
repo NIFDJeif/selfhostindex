@@ -1,0 +1,8 @@
+{
+  "summary": "W is a lightweight, multi-user wiki engine that uses flat files rather than a traditional relational database. It allows you to create and edit documentation directly in your web browser using Markdown, HTML, CSS, and JavaScript. Its distinguishing characteristic is the ability to customise the style of each individual page.",
+  "goodFor": "It suits small teams or individuals who want a simple documentation system with per-page aesthetic customisation and no database management overhead.",
+  "watchOut": "The project has a relatively low repository star count and slowing maintenance health, indicating potential risks regarding long-term support and timely security patches. Additionally, the AGPL-3.0 licence may impose strict copyleft obligations if you modify and distribute the code.",
+  "deployNotes": "Because it is built with PHP and relies on a flat-file database, you typically need to provision persistent storage for the file system and configure a standard web server stack such as Nginx or Apache with PHP-FPM.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

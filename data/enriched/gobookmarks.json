@@ -1,0 +1,8 @@
+{
+  "summary": "Gobookmarks provides a self-hosted landing page to display and organise links stored in remote version control repositories like GitHub and GitLab, or directly in a local Git store. It acts as a centralised portal for your saved links without relying on proprietary bookmarking services. Written in Go, the application is packaged as a Docker container for straightforward deployment.",
+  "goodFor": "It is well-suited for developers and technical users who already manage their data using Git workflows and prefer to keep their bookmark collections within their own infrastructure.",
+  "watchOut": "Development activity is currently slowing down, and the AGPL-3.0 licence may impose strict copyleft requirements if you modify and redistribute the codebase.",
+  "deployNotes": "You will typically run the Docker container behind a reverse proxy to handle TLS termination. Persistent storage will be required depending on whether your bookmarks are synced from a local Git repository or remote services.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

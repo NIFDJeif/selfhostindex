@@ -1,0 +1,8 @@
+{
+  "summary": "Syncloud is a self-hosted platform intended for managing personal online file storage, a social network, and an email server on your own hardware. It acts as an all-in-one system designed to help users host their own online services rather than relying on third-party cloud providers.",
+  "goodFor": "It suits individuals looking for a consolidated platform to run multiple common web services on a single server without configuring each component separately.",
+  "watchOut": "The lack of recent tagged releases and low maintenance score suggest potential stability risks and a lack of active community support.",
+  "deployNotes": "Given the Go and Shell runtime stack, you will typically need to ensure persistent storage volumes are mounted for your data and configure a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

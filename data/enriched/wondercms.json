@@ -1,0 +1,8 @@
+{
+  "summary": "WonderCMS is a flat-file content management system written in PHP. It allows you to publish and manage website content without needing a traditional database engine, storing data directly in files instead.",
+  "goodFor": "It suits minimalist websites, single-page sites, or personal blogs where you want to avoid the administrative overhead of a database-backed CMS.",
+  "watchOut": "The project has low maintenance activity, which may introduce security risks or unpatched bugs over time. It also lacks the extensive plugin ecosystem found in larger alternatives.",
+  "deployNotes": "Since it runs on PHP, you will typically need a standard web server like Nginx or Apache with a PHP runtime, and persistent storage for the file-based backend data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

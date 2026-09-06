@@ -1,0 +1,8 @@
+{
+  "summary": "re:Director is a containerised application designed to handle domain redirection tasks. It provides a centralised interface for managing URL forwarding rules rather than relying on manual server block configurations. The project is implemented in Java and distributed under the Apache-2.0 licence.",
+  "goodFor": "It is suited for administrators who prefer a dedicated self-hosted utility to manage multiple HTTP redirects in one place.",
+  "watchOut": "The project has a modest community footprint and a relatively early version release, meaning you may encounter rough edges or limited documentation compared to established reverse proxies.",
+  "deployNotes": "As a Docker-based Java application, you will typically need to allocate sufficient memory for the Java Virtual Machine and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

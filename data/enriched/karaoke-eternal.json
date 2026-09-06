@@ -1,0 +1,8 @@
+{
+  "summary": "Karaoke Eternal is a browser-based application designed to host karaoke parties, allowing participants to search and queue tracks directly from their mobile devices. The main player runs entirely in the browser, providing native support for MP3+G files, standard video formats, and WebGL visualisations.",
+  "goodFor": "Anyone looking to run a self-hosted karaoke session with remote queue management from smartphones.",
+  "watchOut": "The codebase exhibits a low maintenance health score, suggesting potential delays in bug fixes or upstream updates.",
+  "deployNotes": "Deployment typically involves running a Docker container, requiring persistent storage for your media library and a reverse proxy to handle browser access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

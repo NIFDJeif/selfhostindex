@@ -1,0 +1,8 @@
+{
+  "summary": "Ziit is a self-hosted alternative to WakaTime that tracks how you spend your time writing code. It aggregates metrics on your programming activity directly from your development environment.",
+  "goodFor": "Developers who want a self-hosted tool to track their programming hours and language usage without relying on proprietary cloud services.",
+  "watchOut": "With a low maintenance health score and slowing development, you may encounter unpatched bugs or need to maintain the codebase yourself. It also faces strong competition from more established tracking solutions.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

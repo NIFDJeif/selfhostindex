@@ -1,0 +1,8 @@
+{
+  "summary": "Chiyogami is a self-hosted pastebin service that allows you to store and share text snippets securely. It provides user accounts, programmatic access via an API, client-side encryption, and visual features such as syntax highlighting and markdown rendering.",
+  "goodFor": "It suits individuals or small teams wanting a private text-sharing service with client-side encryption and markdown support.",
+  "watchOut": "With a modest repository footprint and slowing maintenance metrics, you may encounter unresolved bugs or lack community support compared to mainstream alternatives.",
+  "deployNotes": "As a containerised application distributed via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

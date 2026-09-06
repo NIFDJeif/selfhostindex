@@ -1,0 +1,8 @@
+{
+  "summary": "A Dark Room is a minimalist text-based adventure game that runs entirely within your web browser. It presents a stripped-down interface focusing on narrative progression and resource management without heavy graphics.",
+  "goodFor": "It is a suitable choice if you enjoy retro text adventures or want a lightweight, distraction-free browser game to host locally.",
+  "watchOut": "The project sees very little active maintenance, meaning you are unlikely to receive updates or bug fixes.",
+  "deployNotes": "As a static Javascript application, it typically only requires a basic web server to serve the assets and generally does not need a dedicated database or persistent backend storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

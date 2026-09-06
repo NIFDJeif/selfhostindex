@@ -1,0 +1,8 @@
+{
+  "summary": "Statistics for Strava provides an analytical dashboard compiled directly from your fitness tracking data. It processes exported or synced records to visualise your training metrics and performance trends in a self-hosted environment.",
+  "goodFor": "Athletes and data enthusiasts who want to privately visualise and analyse their fitness metrics beyond the standard web interface of their activity tracker.",
+  "watchOut": "With a small community and low repository visibility, you may encounter edge cases or lack third-party support when troubleshooting issues. The AGPL-3.0 licence also places strict copyleft obligations on your deployment if you modify and expose the codebase over a network.",
+  "deployNotes": "As a containerised application built with Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

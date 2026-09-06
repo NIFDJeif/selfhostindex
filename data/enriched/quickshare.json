@@ -1,0 +1,8 @@
+{
+  "summary": "QuickShare provides a web-based mechanism for transferring files between distinct devices using a single-click and drag-and-drop interface. Written in Go and distributed under the LGPL-3.0 licence, it compiles into a standalone binary and is packaged as a container image. Its exact internal feature set is sparsely documented, but the application broadly addresses ad-hoc file distribution across local or remote networks.",
+  "goodFor": "It suits users who need a lightweight, containerised utility to quickly bounce files between disparate hardware without configuring heavyweight cloud storage.",
+  "watchOut": "The project exhibits an at-risk maintenance score, meaning updates and security patches may be infrequent. It also competes in a crowded space alongside mature alternatives like Nextcloud or Syncthing.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent storage volumes mapped for any uploaded data and sits behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

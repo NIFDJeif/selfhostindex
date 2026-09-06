@@ -1,0 +1,8 @@
+{
+  "summary": "Houndarr automates scheduled backlog searches across media management tools like Radarr, Sonarr, Lidarr, Readarr, and Whisparr. It processes missing and cutoff-unmet items in small, rate-limited batches with hourly caps and item cooldowns to prevent indexer overload.",
+  "goodFor": "Users managing large media libraries who frequently trigger rate limits or blocks on their private and public indexers during automated backlog searches.",
+  "watchOut": "The project shows slowing maintenance activity with a moderate health score, meaning you may encounter unpatched bugs or slow updates.",
+  "deployNotes": "You can deploy this software using Docker, which typically requires persistent volumes for configuration storage and appropriate environment variables to communicate with your existing media stack instances.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "BuddyPress is a PHP-based plugin that adds community and social networking features to an existing WordPress installation. It introduces member profiles, activity streams, and user groups directly into your content management system.",
+  "goodFor": "This is a suitable choice if you already run a WordPress site and want to add basic community or forum functionality without adopting an entirely separate platform.",
+  "watchOut": "The project shows signs of slowing maintenance activity and lacks recent tagged releases, meaning you may encounter unpatched bugs or compatibility issues with newer WordPress versions.",
+  "deployNotes": "As a PHP application running on WordPress, it typically requires a relational database like MySQL or MariaDB and relies on the hosting stack already configured for your core site.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

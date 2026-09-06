@@ -1,0 +1,8 @@
+{
+  "summary": "LibreServer is a configuration tool built on top of the Debian operating system designed to set up a home server environment. Because the official details are sparse, it generally aims to simplify the initial provisioning and management of self-hosted services on standard hardware. It is written entirely in shell scripts to automate system setup.",
+  "goodFor": "It suits technical users who prefer a lightweight, script-based approach to configuring a Debian machine without heavy control panels.",
+  "watchOut": "Development activity is slowing down and there are no tagged releases, meaning you may encounter unverified edge cases and have to rely directly on the shell scripts to fix issues.",
+  "deployNotes": "Since it runs via shell scripts directly on Debian, you will typically need root access to the host system and should ensure persistent storage and proper firewall configurations are handled manually.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

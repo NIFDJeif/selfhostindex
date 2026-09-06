@@ -1,0 +1,8 @@
+{
+  "summary": "Gameyfin is a self-hosted video game library manager designed to help you organise your digital game collection. It features automated file scanning, a web-based interface, download management, and a plugin system for extensibility.",
+  "goodFor": "This is a suitable tool if you want to catalogue and browse your self-hosted game library through a centralised web dashboard.",
+  "watchOut": "The project currently shows signs of limited maintenance activity, meaning you may encounter unresolved bugs or lack timely updates for new upstream dependencies.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volume mounts for your library files and database, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

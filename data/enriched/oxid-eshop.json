@@ -1,0 +1,8 @@
+{
+  "summary": "OXID eShop is a PHP-based e-commerce platform designed for setting up online shops and managing digital catalogues. It provides a modular framework to handle the core transactions and inventory workflows typical of web stores.",
+  "goodFor": "It is suited for merchants and developers looking for a customisable PHP e-commerce engine that they can host independently.",
+  "watchOut": "The software uses a proprietary licence model and shows a slowing maintenance trajectory, which might introduce long-term security or update risks for production environments.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a relational database such as MySQL, and persistent storage for uploaded media assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

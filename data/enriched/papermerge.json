@@ -1,0 +1,8 @@
+{
+  "summary": "Papermerge is a self-hosted document management system designed specifically for archiving scanned paper documents. It provides a file browser interface akin to cloud storage providers alongside built-in optical character recognition and full-text search capabilities.",
+  "goodFor": "It suits individuals or teams who need to digitise physical paperwork and want text-searchable archives stored on their own infrastructure.",
+  "watchOut": "The project exhibits low maintenance health indicators, suggesting potential risks for long-term updates and community support.",
+  "deployNotes": "Containerised deployments via Docker or Kubernetes typically require persistent volumes for file storage, a relational database backend, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

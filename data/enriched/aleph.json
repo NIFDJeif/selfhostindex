@@ -1,0 +1,8 @@
+{
+  "summary": "Aleph is an investigative data platform that indexes unstructured documents like PDFs and Word files alongside structured data such as spreadsheets and SQL databases. It provides a centralised interface for searching and browsing through diverse datasets.",
+  "goodFor": "It suits newsrooms, researchers, and investigative teams who need to organise and search through large, heterogeneous archives of leaked or collected records.",
+  "watchOut": "The project shows low activity relative to its age, which might introduce maintenance risks for long-term deployments.",
+  "deployNotes": "Because it relies on container orchestration via Docker and Kubernetes, you will typically need persistent storage volumes for indexed data and a separate reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

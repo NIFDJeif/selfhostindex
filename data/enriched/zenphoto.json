@@ -1,0 +1,8 @@
+{
+  "summary": "Zenphoto is an open-source content management system and photo gallery platform written in PHP. It provides the core functionality needed to organise and display image collections on a self-hosted web server. It operates under the GPL-2.0 licence.",
+  "goodFor": "It is a suitable choice if you want a dedicated, self-hosted web application specifically structured for publishing photography collections rather than general file storage.",
+  "watchOut": "The project exhibits slowing maintenance activity and lower community traction compared to mainstream alternatives, which may affect long-term security updates and bug fixes.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server stack such as Apache or Nginx, alongside a relational database like MySQL or MariaDB, and persistent storage for uploaded image files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

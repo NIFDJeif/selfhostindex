@@ -1,0 +1,8 @@
+{
+  "summary": "Pønskelisten is a self-hosted tool designed for sharing wishlists and coordinating group gifts. It provides a centralised space where users can list items they would like to receive and collaborate with others on purchases. The application is packaged as a Docker container written in Go and operates under the GPL-3.0 licence.",
+  "goodFor": "It is a suitable option for families or groups of friends who want to manage gift coordination independently without relying on commercial wishlist services.",
+  "watchOut": "The project exhibits a slowing maintenance trajectory and a modest community size, meaning you may need to resolve bugs or manage updates yourself.",
+  "deployNotes": "As a Docker-based Go application, you will typically need to configure persistent volume storage for your lists and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

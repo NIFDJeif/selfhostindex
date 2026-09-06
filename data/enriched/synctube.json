@@ -1,0 +1,8 @@
+{
+  "summary": "SyncTube is a self-hosted platform designed for synchronous video playback and chat with other users, functioning as a simpler alternative to CyTube. It provides a shared virtual room where participants can watch media together in real time. The software is written using Node.js and Haxe and is distributed under the MIT licence.",
+  "goodFor": "It suits small groups wanting a straightforward, self-hosted web application to watch videos together without relying on commercial streaming sync services.",
+  "watchOut": "Development activity is currently slowing down with a low overall maintenance score and no tagged releases, meaning you may encounter unresolved bugs or lack timely security updates.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy to handle TLS termination and manage process lifecycles with a tool like PM2.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Tracim is a groupware platform designed to facilitate team collaboration through shared files, discussion threads, notes, and an agenda. It acts as a central repository for team communication and document management within an organisation. The software combines traditional document organisation with conversational threads to help teams track project discussions.",
+  "goodFor": "It suits teams looking for an open-source, self-hosted groupware solution to handle internal document sharing and collaborative planning.",
+  "watchOut": "The project has a relatively low maintenance health score and modest community traction, meaning you may encounter unpatched bugs or slower responses to issues. It also competes in a crowded market dominated by more widely adopted alternatives.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI server behind a reverse proxy like Nginx or Apache to handle TLS termination. You will also need to configure persistent storage for uploaded files and a separate database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

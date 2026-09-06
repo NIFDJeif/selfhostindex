@@ -1,0 +1,8 @@
+{
+  "summary": "Restreamer is a self-hosted application designed to handle real-time H.264 video streams directly on web pages. It removes the need for third-party streaming providers by processing video feeds locally within your own infrastructure. The project is open-source under the Apache-2.0 licence and built using Node.js and Docker.",
+  "goodFor": "It is a suitable choice if you want to embed live video feeds onto a personal or organisation website while retaining full control over the stream data.",
+  "watchOut": "The low activity level and sparse recent commits suggest that the project is at-risk, meaning you may encounter unpatched bugs or lack support for newer video protocols.",
+  "deployNotes": "As a Docker container, it typically requires persistent storage volumes for configuration and recordings, alongside a reverse proxy to handle TLS termination for secure web delivery.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

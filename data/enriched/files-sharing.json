@@ -1,0 +1,8 @@
+{
+  "summary": "Files Sharing is a self-hosted application designed for transferring files via unique and temporary URLs. It provides a straightforward interface for single-click and drag-and-drop uploads, allowing you to generate downloadable links without relying on third-party cloud services.",
+  "goodFor": "It suits individuals or small teams who need a dedicated, lightweight tool to quickly send files to clients or colleagues through private links.",
+  "watchOut": "Development activity is currently slowing down, and the project overlaps heavily with more mature file-sharing and cloud storage alternatives.",
+  "deployNotes": "Because it relies on PHP and Docker, you will typically need to configure persistent storage volumes for uploaded files and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

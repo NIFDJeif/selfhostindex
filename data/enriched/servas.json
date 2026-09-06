@@ -1,0 +1,8 @@
+{
+  "summary": "Servas is a self-hosted bookmark management tool designed to help you store and structure web links using tags, groups, and a dedicated queue for reading later. It provides multi-user support with two-factor authentication and includes companion browser extensions for both Firefox and Chrome. The project is licensed under the GPL-3.0 and combines Node.js and PHP components.",
+  "goodFor": "This application suits individuals or small teams wanting to self-host their bookmark collections with browser extension integration and multi-user access controls.",
+  "watchOut": "The codebase has an at-risk maintenance score, suggesting potential delays in security patches or bug fixes, and overlaps with many established bookmarking alternatives.",
+  "deployNotes": "Because the application runs via Docker, you will typically need to configure persistent storage volumes for your saved data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

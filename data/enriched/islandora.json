@@ -1,0 +1,8 @@
+{
+  "summary": "Islandora is a Drupal-based module that provides interfaces for browsing and managing digital repositories backed by Fedora. It bridges content management systems with specialised repository storage to help organisations handle structured digital collections. The software relies on PHP and integrates directly with your existing Drupal installation.",
+  "goodFor": "This is a suitable choice if your institution already uses Drupal and needs to manage an institutional repository or digital library backed by Fedora storage.",
+  "watchOut": "Maintenance activity appears to be slowing, and managing a dual-stack setup involving both Drupal and Fedora can introduce significant operational overhead.",
+  "deployNotes": "As a PHP-based application running within Drupal, you will typically need a relational database such as MySQL or PostgreSQL, persistent storage for uploaded files, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

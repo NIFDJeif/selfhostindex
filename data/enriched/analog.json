@@ -1,0 +1,8 @@
+{
+  "summary": "ANALOG is a minimal self-hosted analytics tool designed to capture event data within a rolling ten to thirty day window. It provides lightweight tracking infrastructure for developers who want to monitor user interactions without adopting bloated enterprise suites.",
+  "goodFor": "It suits developers who need a simple, self-hosted event tracker for short-term monitoring or lightweight usage metrics on independent projects.",
+  "watchOut": "Development activity is slowing, and the low repository star count indicates an early-stage project with a very small community. You should expect fewer troubleshooting resources and potential long-term maintenance overhead.",
+  "deployNotes": "Because it runs on Node.js and is packaged via Docker, you will typically need to mount a persistent volume for data retention and configure a reverse proxy like Nginx or Caddy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Teikei is a web application designed to map out community-supported agriculture initiatives using crowdsourced data. Built with Node.js and distributed under the AGPL-3.0 licence, it provides a self-hosted platform for gathering and visualising local food network information. Because the official project details are sparse, its core function is best understood as aggregating geographically distributed agricultural projects into a single interface.",
+  "goodFor": "This is a suitable tool for local food networks, activists, or researchers wanting to self-host a dedicated mapping platform for community-supported agriculture.",
+  "watchOut": "The project lacks a tagged release history and shows slowing maintenance activity, which may introduce stability risks or require you to patch bugs yourself. Additionally, the AGPL-3.0 licence places copyleft constraints on any modified network services you deploy.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy like Nginx or Caddy to handle TLS termination. You should also ensure process management via a tool such as PM2 and verify whether persistent storage or an external database is required for the crowdsourced mapping data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

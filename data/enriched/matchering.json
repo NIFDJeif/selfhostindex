@@ -1,0 +1,8 @@
+{
+  "summary": "Matchering is a self-hosted audio utility designed to automate the process of mastering music tracks. It functions as an open-source alternative to commercial cloud services like LANDR and eMastered, processing audio files directly on your own hardware.",
+  "goodFor": "It is well-suited for audio engineers, producers, or developers who want to experiment with automated audio mastering without relying on proprietary online subscriptions.",
+  "watchOut": "The project exhibits low maintenance activity and an older release history, meaning you may encounter unresolved bugs or lack updates for newer audio formats and dependencies.",
+  "deployNotes": "As it is packaged with Docker, you will typically need to configure persistent volumes for input and output audio files, alongside a reverse proxy if you plan to expose a web interface.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

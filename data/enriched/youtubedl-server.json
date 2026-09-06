@@ -1,0 +1,8 @@
+{
+  "summary": "YoutubeDL-Server provides a web user interface and a REST API wrapper around the yt-dlp or youtube-dl ecosystem. It enables you to trigger video downloads directly from a remote machine and store the media files on local storage.",
+  "goodFor": "Self-hosters who want a lightweight, browser-accessible interface to queue and manage video downloads on a headless server without relying on command-line tools.",
+  "watchOut": "The project has a relatively low maintenance score and lacks recent tagged releases, meaning you might encounter unresolved bugs or compatibility issues with upstream video platform changes.",
+  "deployNotes": "You will typically deploy this via Docker, ensuring you map a persistent volume for downloaded media files and configure a reverse proxy if you require TLS termination for the web interface.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

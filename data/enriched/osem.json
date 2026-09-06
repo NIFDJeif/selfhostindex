@@ -1,0 +1,8 @@
+{
+  "summary": "osem is a self-hosted platform designed to handle the administrative and logistical requirements of free software conferences. It assists organisers with tasks typical of event management, such as setting up schedules and coordinating attendee or speaker workflows. The project uses Ruby and is packaged with Docker for deployment.",
+  "goodFor": "It is a suitable choice for organisers of open source community meetups and conferences who require a dedicated tool tailored to free software event structures.",
+  "watchOut": "The codebase has a low maintenance health score and its last tagged release dates back to 2016, which indicates a high risk of unpatched security vulnerabilities and outdated dependencies.",
+  "deployNotes": "Because it relies on Ruby and Docker, you will typically need to configure persistent volumes for your database and file storage, alongside a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

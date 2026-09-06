@@ -1,0 +1,8 @@
+{
+  "summary": "Aastro is an extensible API gateway written in Go that routes and manages incoming HTTP traffic to backend services. As a centralized entry point, it typically handles cross-cutting concerns like proxying, routing rules, and request handling. The project is distributed under the Apache-2.0 licence.",
+  "goodFor": "This is suited for developers and small teams looking for a lightweight, Go-based gateway to manage internal microservices or public APIs.",
+  "watchOut": "With a low repository star count and slowing maintenance activity, you may encounter edge-case bugs or lack community support compared to established alternatives like Kong or Envoy.",
+  "deployNotes": "Because it is built with Go and Docker, you can containerise the application easily, though you will typically need to configure an external database and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Expressa is a content management system built with Node.js that uses JSON schemas to drive database-backed websites. It automatically generates REST APIs and includes built-in permission management for controlling data access.",
+  "goodFor": "Developers looking to rapidly prototype or power API-driven websites using JSON schemas within a Node.js ecosystem.",
+  "watchOut": "The project exhibits slowing maintenance activity, which may introduce risks regarding long-term security updates and bug fixes.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent server environment, a reverse proxy to handle TLS termination, and a connected database to store content and schema definitions.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

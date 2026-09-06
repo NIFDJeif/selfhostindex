@@ -1,0 +1,8 @@
+{
+  "summary": "Geo2tz is a utility that translates latitude and longitude coordinates into corresponding timezones. It addresses spatial data requirements within the maps and global positioning system domain. The application is written in Go and distributed via Docker containers under an MIT licence.",
+  "goodFor": "This is suitable if you need a lightweight, self-hosted service to resolve timezone boundaries from coordinate pairs without relying on external third-party APIs.",
+  "watchOut": "Development activity is currently slowing, which might impact long-term maintenance or timely updates to timezone boundary datasets.",
+  "deployNotes": "As a containerised Go application, it typically runs behind a standard reverse proxy for TLS termination and usually requires minimal persistent storage unless caching is explicitly enabled.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}

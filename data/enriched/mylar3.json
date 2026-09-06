@@ -1,0 +1,8 @@
+{
+  "summary": "Mylar3 is an automated comic book downloader designed to work with Usenet and torrent providers. It manages the acquisition and organisation of digital comic files in formats like CBR and CBZ. The application handles tracking and fetching issues automatically.",
+  "goodFor": "It suits self-hosters running dedicated media servers who want to automate their comic book collection workflow alongside other media tools.",
+  "watchOut": "The project exhibits a slowing maintenance pace and a modest repository footprint, which may impact support for upstream changes or protocol updates.",
+  "deployNotes": "As a Python application packaged for Docker, it typically requires persistent volume mounts for configuration and downloaded media files, plus a reverse proxy if you require secure remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-06"
+}
