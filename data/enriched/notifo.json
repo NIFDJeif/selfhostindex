@@ -1,0 +1,8 @@
+{
+  "summary": "Notifo is a self-hosted notification server that aggregates and dispatches alerts across multiple channels like email, SMS, and push notifications. It provides developers with a centralised API and JavaScript plugin to manage messaging workflows from a single backend. This allows you to control message delivery and user preferences without relying on third-party communication services.",
+  "goodFor": "Developers or teams who need a self-hosted broker to unify outbound alerts and messaging across various channels into one system.",
+  "watchOut": "The project has low maintenance activity, meaning you may need to patch security vulnerabilities or bugs yourself.",
+  "deployNotes": "As a C# application, it typically runs inside a container and requires a persistent database backend along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

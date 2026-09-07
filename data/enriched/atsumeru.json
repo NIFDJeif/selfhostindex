@@ -1,0 +1,8 @@
+{
+  "summary": "Atsumeru is a self-hosted media server designed for organising and streaming manga, comics, and light novels. It includes dedicated client applications for Windows, Linux, macOS, and Android to access your library.",
+  "goodFor": "Self-hosters who want a centralised platform specifically tailored for manga and light novels rather than general e-book management systems.",
+  "watchOut": "Project maintenance is currently at-risk with a low activity score, meaning updates and bug fixes may be infrequent or stall entirely.",
+  "deployNotes": "As a Java application packaged in Docker, you will typically need to map persistent volumes for your media library and configuration files, and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "vod2pod-rss is a self-hosted tool that converts video streams from platforms like YouTube and Twitch into standard audio podcast feeds. It performs on-the-fly transcoding of video-on-demand content into MP3 format at 192kbps while generating a compatible RSS feed. This allows users to listen to video creators using standard podcast applications without needing to store media files locally.",
+  "goodFor": "It is a practical solution if you want to consume video-based content purely as audio on mobile podcast clients without manual file downloads.",
+  "watchOut": "The software carries an at-risk maintenance status, meaning long-term support and timely updates for upstream platform changes may be uncertain.",
+  "deployNotes": "As a Docker-based application, it typically requires persistent storage for configuration or caching and a reverse proxy to handle external TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

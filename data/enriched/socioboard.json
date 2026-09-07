@@ -1,0 +1,8 @@
+{
+  "summary": "Socioboard is a self-hosted platform designed for managing and analysing social media accounts across multiple networks from a single dashboard. It provides reporting tools to track performance metrics and engagement data for your connected profiles.",
+  "goodFor": "It is suitable for teams that need an on-premise hub to coordinate publishing and track analytics across various social channels without relying on third-party SaaS tools.",
+  "watchOut": "The repository exhibits low maintenance activity with dated releases, meaning you may encounter unpatched bugs or compatibility issues with modern social media APIs.",
+  "deployNotes": "As a Node.js application, it typically requires a reverse proxy such as Nginx to handle TLS termination and a persistent database backend for storing account data and analytics.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

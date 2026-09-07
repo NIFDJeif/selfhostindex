@@ -1,0 +1,8 @@
+{
+  "summary": "Hatsu functions as a bridge that allows static websites to interact with the Fediverse. It enables content published on a static site to reach decentralised social networks without requiring a traditional dynamic backend. The project is written in Rust and distributed under the AGPL-3.0 licence.",
+  "goodFor": "Static site owners who want to syndicate their content or engage with Fediverse users directly from their existing publishing workflow.",
+  "watchOut": "The project has low maintenance activity and an at-risk health score, which may present risks regarding long-term support and security updates under the AGPL-3.0 copyleft licence.",
+  "deployNotes": "As a Docker container written in Rust, it typically requires persistent storage for state and a reverse proxy to handle TLS termination in front of the service.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

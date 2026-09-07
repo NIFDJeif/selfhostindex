@@ -1,0 +1,8 @@
+{
+  "summary": "Anchr provides a centralised web interface for managing everyday internet utilities such as bookmark collections, link redirection, and encrypted image hosting. It acts as a lightweight toolbox designed to handle small, repetitive web management tasks in a single self-hosted location. The project is implemented in Node.js and distributed under the GPL-3.0 licence.",
+  "goodFor": "This software suits individuals who want a self-hosted, all-in-one page for bookmarks and quick file sharing without relying on disparate commercial services.",
+  "watchOut": "The project exhibits low maintenance activity and an at-risk health score, meaning you may need to patch security vulnerabilities or bugs yourself.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent volume for data storage and a reverse proxy like Nginx or Caddy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

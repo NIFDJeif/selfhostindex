@@ -1,0 +1,8 @@
+{
+  "summary": "Christmas Community is a self-hosted web application designed to help families coordinate gift lists and prevent duplicate purchases. It provides a shared space where household members can list their wishes and track what has been bought. The project is built using Node.js and distributed via Docker under the AGPL-3.0 licence.",
+  "goodFor": "It is a suitable choice if you want a dedicated, private space for your family to manage holiday shopping lists on your own infrastructure without relying on commercial services.",
+  "watchOut": "The repository lacks tagged releases and currently shows low maintenance activity, which may mean you will have to patch bugs yourself.",
+  "deployNotes": "Because it runs as a Docker container using Node.js, you will typically need to configure persistent volume storage for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

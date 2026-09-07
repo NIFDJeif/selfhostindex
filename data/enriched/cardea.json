@@ -1,0 +1,8 @@
+{
+  "summary": "Cardea is an SSH bastion server designed to manage and audit remote access to your infrastructure. It provides access control lists, session recording capabilities, and optional hardware security module support via TPM for key protection. Written in Go, it can be deployed via Docker containers.",
+  "goodFor": "Self-hosters and system administrators who require strict auditing and session recording for administrative access to remote servers.",
+  "watchOut": "The project has a relatively small community and a slowing maintenance pace, meaning you might need to rely on your own troubleshooting if you encounter bugs.",
+  "deployNotes": "As a Go application packaged for Docker, it typically requires persistent storage volumes for session logs and proper network configuration to handle SSH traffic safely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "HandBrake Web provides a browser-based user interface for managing video transcoding tasks using the HandBrake engine on headless servers. It allows you to run single or multiple transcoding instances through a remote interface rather than a local desktop environment. This software falls into the media automation category, helping you process video files on dedicated hardware.",
+  "goodFor": "It is a practical choice if you want to run HandBrake video encoding on a remote or headless server and prefer managing queues through a web browser.",
+  "watchOut": "The project carries an at-risk maintenance status and relatively low adoption, which might mean slower responses to bugs or dependency updates. Additionally, video transcoding is computationally heavy and will consume significant CPU or GPU resources on your host.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent volume mounts so the container can access your media files for input and output. You should also ensure adequate resource limits are set in your container configuration to prevent heavy encoding jobs from starving other services.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

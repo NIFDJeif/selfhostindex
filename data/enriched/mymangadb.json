@@ -1,0 +1,8 @@
+{
+  "summary": "MyMangaDB is a self-hosted manager designed for organising physical or digital manga collections. It features automated metadata retrieval, options to import existing lists from MyAnimeList, and generated statistics detailing your reading habits.",
+  "goodFor": "It suits comic and manga enthusiasts who want a dedicated, local database to track their reading progress and library inventory rather than using generic spreadsheet tools.",
+  "watchOut": "Given the modest repository activity and niche feature set, development pace may be slow and troubleshooting uncommon edge cases will likely fall on you.",
+  "deployNotes": "Since it relies on Docker, you will typically need to configure persistent volume mounts to retain your database and cover art, alongside a reverse proxy if you want secure external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

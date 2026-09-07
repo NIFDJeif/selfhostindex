@@ -1,0 +1,8 @@
+{
+  "summary": "Kriss Feed is a lightweight, self-hosted feed reader written in PHP. It is designed to aggregate and display syndication feeds such as RSS or Atom in a minimalist interface.",
+  "goodFor": "This is a suitable choice if you want a basic, low-resource feed aggregator running on standard PHP hosting without heavy dependencies.",
+  "watchOut": "Development activity is low and the lack of recent tagged releases suggests potential maintenance risks for long-term usage.",
+  "deployNotes": "You will typically need a standard web server like Apache or Nginx configured with PHP, along with persistent storage for your feed subscriptions and read states.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Focus Flow provides a structured environment for organising tasks and measuring productivity through scheduled intervals. It is designed around the Pomodoro technique to help you divide your working hours into focused blocks separated by short breaks. As a self-hosted platform, it keeps your task lists and time tracking logs entirely on your own infrastructure.",
+  "goodFor": "It suits individuals who want to organise their daily tasks directly around time-blocking routines without relying on third-party productivity services.",
+  "watchOut": "The low activity level and modest community adoption suggest that development has slowed, which could leave you without timely patches for security vulnerabilities.",
+  "deployNotes": "Since it provides container images and Kubernetes manifests, you will typically need to configure persistent volumes for data retention and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

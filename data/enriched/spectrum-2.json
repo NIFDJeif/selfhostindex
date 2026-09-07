@@ -1,0 +1,8 @@
+{
+  "summary": "Spectrum 2 is an open source instant messaging transport designed to bridge different communication networks together. It allows users on separate chat services to interact within a unified environment. The software is written in C++ and released under the GPL-3.0 licence.",
+  "goodFor": "It is suited for administrators looking to connect disparate instant messaging protocols into a single communication infrastructure.",
+  "watchOut": "The project exhibits low maintenance activity, suggesting you may need to patch bugs or handle compatibility issues yourself.",
+  "deployNotes": "As a C++ application, you will typically need to compile the source or manage native packages, alongside setting up standard persistent storage and a reverse proxy for network traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

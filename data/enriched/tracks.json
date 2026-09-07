@@ -1,0 +1,8 @@
+{
+  "summary": "Tracks is a web-based task management tool designed to support David Allen's Getting Things Done productivity workflow. It allows you to organise actions by contexts, projects, and timeframes to manage personal workloads.",
+  "goodFor": "It suits individuals who strictly follow the Getting Things Done methodology and prefer a dedicated web application for their lists.",
+  "watchOut": "The project's low maintenance health score indicates that you may encounter unpatched bugs, security vulnerabilities, or a lack of modern updates.",
+  "deployNotes": "As a Ruby application, it typically requires a database such as PostgreSQL or MySQL, a reverse proxy to handle TLS termination, and persistent storage for user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

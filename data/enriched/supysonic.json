@@ -1,0 +1,8 @@
+{
+  "summary": "Supysonic is a Python-based server application that implements the Subsonic media streaming API. It allows you to host and stream your personal audio library over the network to various compatible client applications. The software provides a self-hosted alternative for accessing music collections remotely.",
+  "goodFor": "It is a suitable option if you already rely on Subsonic-compatible client apps and want a lightweight, Python-driven server backend for your audio collection.",
+  "watchOut": "The project exhibits low maintenance activity and an at-risk health status, meaning you may encounter unpatched bugs or lack timely updates. Additionally, its AGPL-3.0 licence places copyleft constraints on network usage if you modify and distribute the code.",
+  "deployNotes": "As a Python application packaged via debian formats, you will typically need to configure persistent storage for your media files and place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

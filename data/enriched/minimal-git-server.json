@@ -1,0 +1,8 @@
+{
+  "summary": "minimal-git-server is a lightweight containerised tool for hosting Git repositories. It provides a basic command-line interface to help you manage multiple user accounts and source code repositories on your own infrastructure.",
+  "goodFor": "It is well-suited for developers who want a simple, self-contained Git hosting solution without the overhead of heavy web-based collaboration platforms.",
+  "watchOut": "Development activity is currently slowing down, and the project lacks the extensive feature set and community support of larger, well-known alternatives.",
+  "deployNotes": "Because it runs in a container, you will typically need to configure persistent storage volumes for your repository data and place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

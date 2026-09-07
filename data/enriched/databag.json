@@ -1,0 +1,8 @@
+{
+  "summary": "Databag is a federated and end-to-end encrypted messaging service available on the web and mobile platforms. It facilitates text, photo, and video sharing, alongside WebRTC-based audio and video calls, operating outside of centralised provider infrastructure.",
+  "goodFor": "Self-hosters who want a decentralised and encrypted communication channel across multiple devices without relying on third-party servers.",
+  "watchOut": "The development activity is low, meaning you might encounter unresolved bugs or lack timely security patches for newly discovered vulnerabilities.",
+  "deployNotes": "Since it runs via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

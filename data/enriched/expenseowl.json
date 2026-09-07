@@ -1,0 +1,8 @@
+{
+  "summary": "ExpenseOwl is a self-hosted application designed for tracking personal expenses through a minimalist user interface. It addresses the fundamental problem of recording daily transactions and viewing basic financial balances. The software is distributed under the MIT licence and provides a straightforward alternative to complex accounting suites.",
+  "goodFor": "It suits individuals looking for a lightweight, self-hosted budgeting tool with minimal configuration requirements and a clean visual presentation.",
+  "watchOut": "The project currently shows low maintenance activity, meaning you may encounter unpatched bugs or lack support for newer features. It also overlaps heavily with mature, widely adopted personal finance managers that offer broader feature sets.",
+  "deployNotes": "As a Go application packaged for Docker and Kubernetes, it typically runs with a low memory footprint and can be deployed behind a standard reverse proxy for TLS termination. You should ensure persistent storage is configured if the container stores transaction data locally rather than connecting to an external database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

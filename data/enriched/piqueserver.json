@@ -1,0 +1,8 @@
+{
+  "summary": "Piqueserver is a dedicated game server implementation for OpenSpades, a first-person shooter set within a fully destructible voxel environment. It handles multiplayer coordination and game state management for players connecting to custom matches. The project combines Python and C++ in its codebase.",
+  "goodFor": "This is a suitable choice if you want to host custom multiplayer matches of OpenSpades for a community of players on your own infrastructure.",
+  "watchOut": "The project shows low maintenance activity, meaning you may encounter unresolved bugs or lack timely security updates. Depending on your user base, managing a niche game server can also introduce unexpected moderation and operational overhead.",
+  "deployNotes": "As a Python and C++ application, you will typically need to ensure a suitable interpreter and build tools are available in your environment. Persistent storage is usually required for saving server configurations, maps, and player data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

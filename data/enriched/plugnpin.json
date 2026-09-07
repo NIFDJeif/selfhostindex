@@ -1,0 +1,8 @@
+{
+  "summary": "PlugNPiN is a Docker-based utility that automates local network configuration by scraping container labels. It generates corresponding DNS entries in Pi-Hole or AdGuard Home alongside proxy hosts within Nginx Proxy Manager.",
+  "goodFor": "Home lab operators running Docker who want to automate the process of creating local DNS records and reverse proxy routing without manual intervention.",
+  "watchOut": "The project has a relatively small community footprint and a slowing development pace, which may impact long-term maintenance and bug fixes.",
+  "deployNotes": "As a Docker container, it typically requires network access to your DNS sinkhole and proxy manager APIs, along with persistent storage if state is retained.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

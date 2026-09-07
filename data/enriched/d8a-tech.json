@@ -1,0 +1,8 @@
+{
+  "summary": "d8a.tech is an analytics service designed to integrate with standard Google Analytics configurations. It intercepts user activity data and routes it directly into a self-hosted database under your control. This allows you to retain raw event logs without relying entirely on third-party cloud storage.",
+  "goodFor": "This is well suited for administrators who already use Google Analytics for event tracking but require a private, self-hosted archive of their raw data.",
+  "watchOut": "The repository has a relatively low community adoption and slowing development activity, which could indicate limited support for breaking upstream changes. It also overlaps heavily with established self-hosted tracking alternatives.",
+  "deployNotes": "As a containerised Go application, it typically requires a persistent volume for internal data storage and an external reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

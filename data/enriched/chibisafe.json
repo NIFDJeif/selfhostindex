@@ -1,0 +1,8 @@
+{
+  "summary": "Chibisafe is a self-hosted file sharing service that provides instant links for uploaded content like photos and documents through a web interface. It relies on Node.js and is available as a container image for deployment on private infrastructure under an MIT licence.",
+  "goodFor": "It suits individuals or small teams wanting a dedicated, self-hosted alternative to third-party file hosting services with drag-and-drop capabilities.",
+  "watchOut": "Given the modest community engagement and at-risk maintenance status, you may need to patch bugs yourself if upstream updates stall.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for uploaded files and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

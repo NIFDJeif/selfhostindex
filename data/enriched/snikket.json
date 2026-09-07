@@ -1,0 +1,8 @@
+{
+  "summary": "Snikket provides a complete, containerised XMPP communication platform packaged with a web administration interface and client applications. It allows you to host your own federated messaging infrastructure using container orchestration. The service bundles server and client tooling into a unified deployment to simplify administration.",
+  "goodFor": "Administrators who want to set up an independent, self-hosted XMPP communication service without configuring every component individually.",
+  "watchOut": "The repository currently has no tagged releases and a low computed maintenance score, indicating potential risks regarding long-term updates and stability.",
+  "deployNotes": "Because the service runs via Docker, you will typically need persistent volumes for data storage and a reverse proxy to handle external TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

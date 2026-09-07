@@ -1,0 +1,8 @@
+{
+  "summary": "Limbas is a PHP-based database framework designed to function as a graphical frontend for managing data. It provides the tooling required to develop custom database applications and handle business data stocks efficiently.",
+  "goodFor": "Teams looking for a self-hosted, web-based interface to structure and interact with relational data without writing custom frontend code from scratch.",
+  "watchOut": "The project has a relatively small community and slower development velocity, which may limit long-term support and third-party extension availability.",
+  "deployNotes": "As a PHP application, you will typically need to run it behind a web server like Nginx or Apache, paired with a persistent database backend and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

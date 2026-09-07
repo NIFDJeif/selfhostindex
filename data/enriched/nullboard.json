@@ -1,0 +1,8 @@
+{
+  "summary": "Nullboard is a single-page minimalist kanban board designed for compact data presentation and quick interaction. It helps you organise tasks and to-do lists within a streamlined interface that prioritises readability.",
+  "goodFor": "It suits individuals or small teams wanting a lightweight, self-contained board for task management without complex tooling.",
+  "watchOut": "The project has low development activity and no tagged releases, meaning you may need to patch bugs yourself or risk encountering unaddressed issues.",
+  "deployNotes": "As a JavaScript application, it typically runs as a static site served via any basic web server, often behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

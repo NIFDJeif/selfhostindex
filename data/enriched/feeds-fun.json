@@ -1,0 +1,8 @@
+{
+  "summary": "Feeds Fun is a self-hosted news reader designed to help you aggregate web feeds. It includes organisation via tags, item scoring, and integrated artificial intelligence features for processing content. As a Python-based web application, it serves as an alternative to traditional RSS clients.",
+  "goodFor": "This is a suitable choice if you want an RSS reader that experiments with AI-driven content sorting and categorisation. It fits hobbyists looking to test alternative news aggregation tools.",
+  "watchOut": "The project lacks a tagged release history and shows signs of being at-risk regarding long-term maintenance. You may encounter bugs or incomplete features without stable milestone releases to rely upon.",
+  "deployNotes": "As a Python application, it will typically require a WSGI or ASGI server, a persistent volume for data storage, and a reverse proxy such as Nginx to handle TLS termination. You should also check if it requires a separate relational database depending on its configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

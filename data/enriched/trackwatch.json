@@ -1,0 +1,8 @@
+{
+  "summary": "TrackWatch is an automated tool designed to monitor music releases on Spotify and send email notifications. It functions as an alternative to native features like Release Radar by also generating discographies and cleaning up ghost tracks.",
+  "goodFor": "This is a suitable tool if you want an independent, self-hosted system to track your favourite artists' discographies outside of mainstream music streaming interfaces.",
+  "watchOut": "With a relatively low repository star count and slowing maintenance activity, you may encounter unresolved bugs or lack ongoing support for Spotify API changes.",
+  "deployNotes": "As a containerised application, deployment typically requires persistent volume storage to retain your configuration and tracking data across container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

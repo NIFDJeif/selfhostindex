@@ -1,0 +1,8 @@
+{
+  "summary": "Shifter is a self-hosted web application built with Django designed for sharing files over the web. It provides a straightforward interface centred around drag-and-drop and single-click uploading.",
+  "goodFor": "It suits individuals or small teams who want a private, lightweight file-sharing endpoint without the complexity of a full cloud storage suite.",
+  "watchOut": "Development activity is currently slowing down and it lacks the extensive ecosystem found in larger, more mature file-sharing alternatives.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for your uploaded files and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

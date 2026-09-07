@@ -1,0 +1,8 @@
+{
+  "summary": "SAMA is a self-hosted chat server packaged with corresponding client applications. It provides a private communication environment that you can run on your own infrastructure under the GPL-3.0 licence.",
+  "goodFor": "It suits administrators who want to deploy a custom, self-hosted messaging setup using containerised infrastructure.",
+  "watchOut": "With a low maintenance score and a modest community following, you may encounter unresolved bugs or lack rapid security patches for edge cases.",
+  "deployNotes": "As a Node.js application packaged for Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

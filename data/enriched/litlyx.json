@@ -1,0 +1,8 @@
+{
+  "summary": "Litlyx is a self-hosted analytics platform designed to collect and present website or application traffic data. It features a quick setup process and an AI-powered interface to help users visualise their metrics while remaining GDPR compliant. The project is distributed under the Apache-2.0 licence and managed primarily through containerised deployments.",
+  "goodFor": "It suits teams looking for a lightweight, self-hosted analytics alternative that prioritises data privacy and standard compliance.",
+  "watchOut": "The low maintenance metrics and sparse recent commit history suggest development is infrequent, which could lead to unpatched bugs or stagnation.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

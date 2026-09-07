@@ -1,0 +1,8 @@
+{
+  "summary": "SCM Manager is a web-based application designed to host and administer Git, Mercurial, and Subversion code repositories over HTTP. It provides a centralised interface for managing user access and repository permissions. The software is built with Java and supports deployment through Debian packages, Docker containers, and Kubernetes.",
+  "goodFor": "It suits teams that need to self-host multiple version control systems behind a single HTTP-based interface without relying on cloud-hosted forges.",
+  "watchOut": "The low maintenance score and lack of recent tagged releases suggest potential stagnation, meaning you may encounter unpatched bugs or security vulnerabilities. It also faces heavy competition from more widely adopted self-hosted platforms like GitLab or Gitea.",
+  "deployNotes": "As a Java application deployed via Docker or Kubernetes, it typically requires a persistent volume for repository storage and adequate RAM allocation for the Java Virtual Machine. You will also usually need to place it behind a reverse proxy to handle HTTPS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

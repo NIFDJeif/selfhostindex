@@ -1,0 +1,8 @@
+{
+  "summary": "Elengrab is a self-hosted media downloading and viewing utility designed to capture content from a wide array of video and audio hosting websites. It provides configurable options for format selection and quality output before saving files to your storage. Built as a containerised application, it runs locally to manage media acquisition through a web-accessible interface.",
+  "goodFor": "It suits homelab enthusiasts who want a dedicated, self-hosted service for archiving online video and audio streams without relying on desktop client software.",
+  "watchOut": "The project has a relatively small community footprint and a slowing development velocity, meaning you might encounter unresolved bugs or lack rapid support for site changes. It also overlaps with mature, heavily adopted command-line downloaders that offer broader ecosystem integrations.",
+  "deployNotes": "Deployment typically relies on Docker with persistent volumes mapped for downloaded media storage. You will usually need to place it behind a reverse proxy to handle TLS termination and secure external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

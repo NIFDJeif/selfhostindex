@@ -1,0 +1,8 @@
+{
+  "summary": "Documize is a documentation and wiki platform that includes built-in workflow management features. It is distributed as a single Go binary executable and requires an external MySQL or Percona database to store its data. The software provides a structured space for teams to author, organise, and review internal knowledge bases.",
+  "goodFor": "Self-hosters looking for a self-contained wiki solution written in Go that can integrate directly with an existing MySQL database infrastructure.",
+  "watchOut": "The project exhibits low maintenance activity, and the AGPL-3.0 licence may impose copyleft restrictions on your modifications or network distributions.",
+  "deployNotes": "You will typically need to provision a separate MySQL database, mount persistent storage for any uploaded assets if applicable, and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

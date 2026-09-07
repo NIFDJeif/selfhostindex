@@ -1,0 +1,8 @@
+{
+  "summary": "Uguu is a self-hosted web application designed for temporary file hosting. It allows users to upload files via a web interface and automatically purges them after a predefined period.",
+  "goodFor": "It suits anyone needing a simple, ephemeral file-sharing drop-box for quick peer-to-peer transfers.",
+  "watchOut": "The project shows low development activity, meaning you may need to patch security vulnerabilities or bugs yourself.",
+  "deployNotes": "Since it is built with PHP, you will typically need a standard web server like Nginx or Apache, along with a configured local storage directory for the uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

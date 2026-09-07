@@ -1,0 +1,8 @@
+{
+  "summary": "NeonLink is a self-hosted bookmark management service designed to help you organise and store web links in one central place. It features a distinctive user interface and is packaged for simple deployment using containerisation. The project is distributed under the MIT licence.",
+  "goodFor": "It suits users looking for a straightforward, containerised tool dedicated specifically to managing and sharing web bookmarks without complex configuration.",
+  "watchOut": "The repository currently has a relatively low maintenance health score and modest community traction, suggesting potential risks regarding long-term updates and bug fixes.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for your data and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "BugPin is a self-hosted tool designed for logging and managing software defects within web applications. It provides a visual interface to help teams track issues and organise tickets related to user-facing or backend failures. Because the official details are sparse, it functions like standard issue-tracking software tailored for web development workflows.",
+  "goodFor": "It suits small development teams or solo maintainers who want an open-source ticketing system deployed locally rather than relying on third-party SaaS bug trackers.",
+  "watchOut": "With a modest repository size and slowing maintenance activity, updates may be infrequent and community support will likely be limited compared to mainstream alternatives.",
+  "deployNotes": "As a containerised application, deployment typically requires Docker along with persistent volumes for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

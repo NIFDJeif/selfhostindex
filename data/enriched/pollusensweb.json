@@ -1,0 +1,8 @@
+{
+  "summary": "polluSensWeb provides a web-based serial interface and charting tool designed to visualise and log data from UART pollution sensors. It enables live data acquisition, dynamic charting, CSV export, and webhook integration for environmental metrics such as PM2.5 and VOC levels.",
+  "goodFor": "It is a practical choice if you need a dedicated, self-hosted dashboard to monitor and record live serial data from hardware pollution sensors without configuring complex IoT platforms.",
+  "watchOut": "With a low adoption rate and a relatively quiet development history, you may encounter limited community support or documentation if you run into hardware compatibility issues.",
+  "deployNotes": "As a JavaScript application, it will typically require a Node.js runtime environment and a reverse proxy to handle TLS termination securely, alongside persistent storage if local logging is enabled.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

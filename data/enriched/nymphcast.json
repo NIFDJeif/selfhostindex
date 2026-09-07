@@ -1,0 +1,8 @@
+{
+  "summary": "NymphCast is an open-source media streaming platform written in C++ that turns Linux-capable hardware into a receiver for audio and video. It functions as a self-hosted alternative to proprietary casting devices like Chromecast, allowing you to stream media directly to a television or connected speakers.",
+  "goodFor": "It is a suitable choice if you want to repurpose existing Linux single-board computers or PCs into local media endpoints without relying on commercial streaming sticks.",
+  "watchOut": "The project is currently in an early alpha release stage, meaning you are likely to encounter bugs and incomplete documentation during setup.",
+  "deployNotes": "As a C++ application, it typically runs directly on the host operating system and generally requires you to manage system dependencies manually alongside a local media source.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}

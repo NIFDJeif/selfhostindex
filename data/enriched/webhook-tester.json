@@ -1,0 +1,8 @@
+{
+  "summary": "WebHook Tester provides an endpoint to capture and inspect incoming HTTP requests sent by external services. It is designed to help developers debug webhook integrations by displaying payload data, headers, and query parameters in real time. Because the official documentation is sparse, the exact range of supported inspection tools beyond basic request logging remains uncertain.",
+  "goodFor": "This utility is a suitable fit if you need a quick, self-hosted debugging endpoint to inspect payloads from third-party APIs during local or staging development.",
+  "watchOut": "The repository exhibits low maintenance activity, meaning you may need to patch bugs or security issues yourself if the upstream project stalls.",
+  "deployNotes": "You can typically run this software using Docker or Kubernetes with minimal resource overhead, though you will need to configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-07"
+}
