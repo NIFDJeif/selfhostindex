@@ -1,0 +1,8 @@
+{
+  "summary": "OpenBudgeteer is a self-hosted personal finance application that implements the bucket budgeting methodology. It helps you allocate your income into specific categories or pots to track spending and manage household funds. The software is written in C# and distributed as a container image.",
+  "goodFor": "This tool is a suitable choice if you prefer containerised financial tracking and specifically want to use the bucket budgeting principle to manage your money.",
+  "watchOut": "The project has low maintenance activity, which may result in delayed security patches or unaddressed bugs over time.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for your financial data and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "CyTube is a self-hosted platform designed to let multiple users synchronise video playback and communicate via a shared chat interface across various channels. It provides a centralised way to coordinate media viewing sessions for groups over the web. Because the official details are sparse, exact protocol support and media source integrations remain unspecified beyond general streaming capabilities.",
+  "goodFor": "This is a suitable choice if you want to set up a dedicated, private synchronised viewing room for friends or small online communities without relying on third-party streaming synchronisation services.",
+  "watchOut": "The project has very old tagged releases and shows low overall activity, suggesting it may lack modern security patches or require significant effort to maintain. You should expect potential compatibility issues with current media codecs and web standards.",
+  "deployNotes": "As a Node.js application, it typically requires a reverse proxy such as Nginx to handle TLS termination and traffic routing, along with process management tools to keep the service running. You will also need to provision a persistent database if state retention is required by the instance.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

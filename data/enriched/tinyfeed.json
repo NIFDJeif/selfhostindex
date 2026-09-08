@@ -1,0 +1,8 @@
+{
+  "summary": "TinyFeed is a command-line tool written in Go that processes a collection of web feeds and compiles them into a static HTML page. It operates as a self-hosted static site generator specifically tailored for feed aggregation rather than general publishing. Because the official details are sparse, you can expect it to handle standard feed parsing and output a flat file directory.",
+  "goodFor": "It suits developers who prefer managing personal read-lists via static files served directly from a web server or object storage without dynamic backend dependencies.",
+  "watchOut": "The project shows low maintenance activity, meaning you may need to patch bugs yourself if feed formats change or dependencies break.",
+  "deployNotes": "Since it runs as a CLI utility packaged in Docker, you will typically schedule execution via cron or an orchestrator and mount a persistent volume to output the generated HTML to a web server's root directory.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

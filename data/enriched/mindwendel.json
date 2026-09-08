@@ -1,0 +1,8 @@
+{
+  "summary": "Mindwendel is a web application designed for team collaboration, specifically focusing on collecting and voting on ideas. It provides a centralised space where users can submit thoughts and prioritise them through an upvoting mechanism.",
+  "goodFor": "Teams looking for a dedicated, self-hosted tool to facilitate internal brainstorming sessions and lightweight feature prioritisation without relying on commercial SaaS.",
+  "watchOut": "The project has a low maintenance score and a modest repository star count, indicating that it may lack active support or community contributions for long-term deployments.",
+  "deployNotes": "As a containerised Elixir application distributed via Docker, you will typically need to configure persistent storage for your data, set up environment variables, and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

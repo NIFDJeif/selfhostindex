@@ -1,0 +1,8 @@
+{
+  "summary": "What To Cook? is a self-hosted tool designed to help you decide on a meal based on the ingredients currently available in your kitchen. It falls into the recipe management category, offering a structured way to handle cooking ideas and household food inventory. While exact feature sets are not extensively documented, applications of this type typically match items on hand with stored cooking instructions.",
+  "goodFor": "This tool is a good fit if you want to minimise food waste by generating meal ideas from leftover pantry and fridge items. It suits homelab enthusiasts who prefer dedicated, single-purpose containers for daily household tasks.",
+  "watchOut": "The project exhibits an at-risk maintenance profile and low repository visibility, meaning updates and bug fixes may be infrequent. It also competes in a crowded category with much more mature, widely adopted alternatives like Mealie or Tandoor.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes to prevent recipe and ingredient data from being lost on container restart. You should also place it behind a reverse proxy if you require TLS termination for external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

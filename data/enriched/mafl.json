@@ -1,0 +1,8 @@
+{
+  "summary": "Mafl is a self-hosted personal dashboard designed to act as a minimalistic and flexible homepage for your server or browser. It allows you to organise and display your frequently used links and services in a single centralised location. The project is built using Node.js and distributed under the MIT licence.",
+  "goodFor": "It is a suitable choice if you want a lightweight, customisable landing page for your local network or self-hosted services without heavy dependencies.",
+  "watchOut": "The repository exhibits low maintenance activity, which may mean bug fixes and updates are infrequent. You should also consider that it competes in a crowded space with much more actively maintained alternatives.",
+  "deployNotes": "As a Dockerised Node.js application, you will typically need to configure persistent storage for your configuration files and map appropriate ports for access. Putting it behind a reverse proxy is recommended if you require TLS termination for external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

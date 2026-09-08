@@ -1,0 +1,8 @@
+{
+  "summary": "Picsur is a self-hosted image management platform designed for uploading, editing, and sharing photographs and graphics. It provides a centralised web interface to handle media files through drag-and-drop actions and single-click sharing mechanisms. The application is distributed under the AGPL-3.0 licence and packaged for containerised environments.",
+  "goodFor": "It suits individuals or small teams who want a dedicated, private endpoint for sharing images without relying on commercial third-party storage providers.",
+  "watchOut": "Low community activity and infrequent recent releases suggest potential maintenance risks and slower patch cycles for security vulnerabilities.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for your image data and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Glowing Bear provides a web-based user interface designed to connect to the WeeChat IRC client. It runs on Node.js and allows you to access your ongoing chat sessions through a standard browser. The project is licenced under the GPL-3.0.",
+  "goodFor": "It is a suitable option if you already rely on WeeChat as your core IRC client and want a graphical browser interface to access it remotely.",
+  "watchOut": "The codebase has infrequent recent releases, meaning you might encounter unresolved issues or a lack of modern web platform integration. It also relies entirely on an existing WeeChat backend to function.",
+  "deployNotes": "You will typically need to run this behind a reverse proxy to handle TLS termination securely, and ensure proper network routing to your WeeChat relay port.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

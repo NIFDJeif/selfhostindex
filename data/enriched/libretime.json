@@ -1,0 +1,8 @@
+{
+  "summary": "LibreTime is an open-source platform designed for managing and scheduling internet radio station broadcasts. Functioning as a fork of Airtime, it provides tools for audio asset management and automated playout scheduling over the web.",
+  "goodFor": "It is suited for community radio stations or independent web broadcasters who need a centralised tool to organise schedules and manage audio files.",
+  "watchOut": "The project has low maintenance activity and a concerning health score, meaning you may encounter unresolved bugs or security issues without timely patches.",
+  "deployNotes": "As a PHP application that can be run via Docker, it typically requires a persistent volume for uploaded audio assets, a separate database backend, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

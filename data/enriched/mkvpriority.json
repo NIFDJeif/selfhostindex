@@ -1,0 +1,8 @@
+{
+  "summary": "MKVPriority is a media management utility written in Python and licensed under the MIT licence. It automates the selection of preferred audio and subtitle tracks in MKV files by applying configurable priority scores. Additionally, the tool manages and sets the default and forced flags on the chosen streams.",
+  "goodFor": "This is a suitable tool for self-hosters looking to automate post-processing clean-up of their media library language tracks using containerised workflows.",
+  "watchOut": "The project currently shows signs of lower maintenance activity, meaning you may encounter unpatched bugs or lack timely support for edge cases.",
+  "deployNotes": "As a Docker-based application, you will typically need to mount persistent storage volumes to give the container read and write access to your media files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

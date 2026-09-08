@@ -1,0 +1,8 @@
+{
+  "summary": "Readflow is a self-hosted news reader designed to aggregate, categorise, and search through web feeds. It provides a modern interface with offline support, archiving capabilities, and notifications for tracked content.",
+  "goodFor": "It suits administrators looking for a lightweight, containerised feed reader with a contemporary user experience.",
+  "watchOut": "The project currently shows low development activity and a low maintenance health score, indicating potential risks for long-term updates and bug fixes.",
+  "deployNotes": "As a Docker-based Go application, it typically requires persistent volumes for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

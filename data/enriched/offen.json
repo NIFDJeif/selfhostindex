@@ -1,0 +1,8 @@
+{
+  "summary": "Offen is an open-source web analytics tool designed to capture visitor data while giving users transparent access to the information stored about them. It operates as a self-hosted alternative to mainstream tracking services, focusing on privacy compliance and lightweight data collection. The system is built using Go and distributed via Docker for containerised environments.",
+  "goodFor": "It suits operators who need to track basic website metrics while strictly complying with privacy regulations and granting visitors direct oversight of their data.",
+  "watchOut": "The project shows signs of being at risk regarding ongoing maintenance, meaning you may encounter unpatched bugs or lack timely security updates.",
+  "deployNotes": "As a Docker-based Go application, you will typically need to configure persistent storage for your metrics data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "AWStats is a log file analyser written in Perl that processes server logs to produce visual usage reports. It can parse data from web, streaming, FTP, and mail servers to help administrators understand traffic patterns. The project operates under the GPL-3.0 licence and maintains an open-source repository.",
+  "goodFor": "Self-hosters who need a traditional, log-based analytics tool for multiple server types without relying on external cloud tracking services.",
+  "watchOut": "The project has low maintenance activity and a very low health score, meaning you may encounter unpatched bugs or compatibility issues with modern log formats. It also relies on static log parsing rather than real-time event streaming.",
+  "deployNotes": "Because the application is built with Perl, you typically need a standard web server configured with a Perl interpreter to execute the CGI scripts. Persistent storage is required to retain historical log data and generated statistics between runs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

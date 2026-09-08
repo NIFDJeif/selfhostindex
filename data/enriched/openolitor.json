@@ -1,0 +1,8 @@
+{
+  "summary": "OpenOlitor is an administration platform designed specifically for managing Community Supported Agriculture groups. It helps handle the organisational tasks associated with local food distribution networks and member subscriptions. The project is written in Scala and distributed under the AGPL-3.0 licence.",
+  "goodFor": "It suits small to medium cooperative farming initiatives that need a dedicated tool to track local harvest shares and subscriber memberships.",
+  "watchOut": "The project exhibits slowing maintenance activity, which may mean slower responses to bugs or security issues. The AGPL-3.0 licence also imposes strict copyleft requirements if you modify and network the software.",
+  "deployNotes": "Because it is built on Scala, you will typically need to allocate sufficient memory for the Java Virtual Machine and run it behind a reverse proxy to handle TLS termination. You should also provision persistent storage for application data and a supporting relational database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

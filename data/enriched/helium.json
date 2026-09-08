@@ -1,0 +1,8 @@
+{
+  "summary": "Helium is a self-hosted student planner designed to organise classes, homework, grades, and notes in a single interface. It features color-coded categorisation, smart notifications, and multi-device synchronisation for academic scheduling. The application is built using Python and distributed under the MIT licence.",
+  "goodFor": "It suits students or educators who want a private, self-hosted alternative to commercial planners for tracking academic progress and timetables.",
+  "watchOut": "The lack of official tagged releases and slowing development activity suggest it may lack stability or long-term maintenance support compared to established alternatives.",
+  "deployNotes": "As a Python and Docker application, you will typically need to configure persistent volume storage for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

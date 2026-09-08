@@ -1,0 +1,8 @@
+{
+  "summary": "Socialhome is a decentralised profile builder and social network engine designed to operate within federated ecosystems. It allows individuals to host their own interconnected social identity and publish content to a wider distributed network. The software functions as a node for decentralised communication, though specific protocol implementations remain opaque from the baseline description.",
+  "goodFor": "This is a suitable option if you want to experiment with hosting a personal federated profile node outside of mainstream platforms.",
+  "watchOut": "The long-term maintenance status appears high risk given the minimal recent activity and lack of contemporary releases. You may encounter compatibility issues with modern federated protocols and dependencies.",
+  "deployNotes": "As a Python and Docker application, deployment typically requires configuring persistent storage volumes for user data and setting up a reverse proxy to handle TLS termination. You will also need to provision a separate database instance if one is not bundled in the default container configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

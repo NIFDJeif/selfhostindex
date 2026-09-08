@@ -1,0 +1,8 @@
+{
+  "summary": "Antville is a free and open source weblog hosting platform designed to run multiple blogs from a single installation. Written in JavaScript, it provides the core infrastructure needed to publish and manage journal-style content on your own infrastructure. While the official documentation is sparse on exact module details, it occupies the standard blogging platform category.",
+  "goodFor": "It is suited for administrators wanting to self-host a dedicated multi-user blogging platform under an Apache-2.0 licence.",
+  "watchOut": "The project shows signs of at-risk maintenance health, which may mean slow security patches and a lack of community support. It also competes in a space dominated by much larger, more actively maintained alternatives.",
+  "deployNotes": "As a JavaScript application, you will typically need to run it behind a reverse proxy to handle TLS and manage process persistence using a tool like PM2 or systemd. You should also verify what persistent database backend it expects for configuration and post storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "URL-to-PNG is a self-hosted utility designed to convert web page addresses into image files. It uses Playwright for rendering screenshots in parallel and supports storing the resulting images locally, on S3, or via CouchDB.",
+  "goodFor": "This is a good fit if you need an internal microservice to programmatically capture website screenshots without relying on external paid APIs.",
+  "watchOut": "The repository has low maintenance activity and an at-risk health score, meaning you may need to patch bugs or handle compatibility issues with modern browser automation engines yourself.",
+  "deployNotes": "Because it runs via Docker and Node.js, you will typically need to configure persistent volumes for local file storage if you do not use S3 or CouchDB, alongside a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

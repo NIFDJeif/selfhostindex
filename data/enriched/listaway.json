@@ -1,0 +1,8 @@
+{
+  "summary": "Listaway is a self-hosted task management application designed for creating and sharing item lists publicly. It includes administrative tools, authentication, priorities, item notes, and randomized read-only URLs for public sharing as an alternative to proprietary registries.",
+  "goodFor": "It suits individuals or small teams wanting to host their own public-facing wishlist or item collection without relying on commercial platforms.",
+  "watchOut": "With a low adoption footprint and slowing development activity, you may encounter unpatched bugs or need to maintain the software yourself.",
+  "deployNotes": "As it runs via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

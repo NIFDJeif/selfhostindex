@@ -1,0 +1,8 @@
+{
+  "summary": "Amgix is a hybrid search engine designed to handle unstructured and imperfect data. It combines different search modalities to index and retrieve information effectively. The software is provided under the AGPL-3.0 licence.",
+  "goodFor": "It is suited for technical teams needing a self-hosted search index capable of managing messy, real-world text data.",
+  "watchOut": "The project has a relatively small community and a slowing maintenance trajectory, which may present risks for long-term support and troubleshooting. Additionally, the AGPL-3.0 licence carries strict copyleft obligations if you modify and network the software.",
+  "deployNotes": "Deployment relies on Docker or Kubernetes, so you will typically need to configure persistent volumes for your index data and set up a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Upvote RSS aggregates content from platforms like Reddit, Hacker News, Lemmy, and Mbin to generate structured RSS feeds. It allows you to track discussions and submissions from these community-driven sites directly within your standard feed reader. The software is released under the MIT licence.",
+  "goodFor": "It is a suitable choice if you want to follow specific discussions or communities across multiple social link-aggregator platforms via a single feed reader interface.",
+  "watchOut": "The project currently shows signs of low development activity, which might mean slower bug fixes and delayed support for upstream API changes on the supported platforms.",
+  "deployNotes": "As a Docker-based PHP application, you will typically need to configure persistent volume storage for any local data and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Wakupator is a utility designed to manage Wake-on-LAN procedures based on observed network traffic. Written in C and distributed under the MIT licence, it provides a lightweight way to trigger machine wake states automatically. Because specific protocol and interface details are sparse, it operates within the standard domain of network traffic monitors and power management tools.",
+  "goodFor": "It is suited for administrators looking for a minimal, compiled utility to automate machine power states in response to local network activity.",
+  "watchOut": "The project shows low maintenance activity with an at-risk health score, meaning you may need to patch bugs yourself or handle compatibility issues manually.",
+  "deployNotes": "As a compiled C binary, it typically requires a persistent environment on your host machine and usually does not need a separate database or complex runtime dependencies.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

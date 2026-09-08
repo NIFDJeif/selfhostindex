@@ -1,0 +1,8 @@
+{
+  "summary": "Meetable is a minimal tool designed for aggregating and listing events. As a lightweight PHP application distributed under the MIT licence, it provides a straightforward way to gather calendar items in one place.",
+  "goodFor": "It suits administrators who need a simple, self-hosted events aggregator and prefer a modest PHP stack without complex dependencies.",
+  "watchOut": "The absence of tagged releases and a low maintenance health score suggest potential stability risks and a lack of formal versioning for upgrades.",
+  "deployNotes": "You will typically need a standard web server like Nginx or Apache with a PHP runtime, alongside a database if required by the application, plus a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

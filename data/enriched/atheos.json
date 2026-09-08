@@ -1,0 +1,8 @@
+{
+  "summary": "Atheos is a web-based integrated development environment framework designed as a lightweight successor to Codiad. It allows you to write and edit code directly through a browser interface with minimal server resource requirements. The application is built using PHP and distributed under the MIT licence.",
+  "goodFor": "This is a suitable choice if you need a lightweight, browser-accessible code editor that can run on low-powered hardware or minimal infrastructure.",
+  "watchOut": "The project exhibits low maintenance activity and an at-risk health score, meaning you may encounter unresolved bugs or lack timely security updates. It also overlaps heavily with more mature and widely adopted web-based development environments.",
+  "deployNotes": "Deployment typically involves running the PHP application via Docker, requiring persistent storage volumes for your source code files. You will also need to configure a reverse proxy to handle TLS termination for secure browser access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

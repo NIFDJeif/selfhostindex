@@ -1,0 +1,8 @@
+{
+  "summary": "RapidForge is a lightweight self-hosted platform designed to help you create custom webhooks, scheduled tasks, and basic web pages. It lets you write your functional logic directly using Bash or Lua scripts. The project is implemented in Go and Node.js and is distributed under the Apache-2.0 licence.",
+  "goodFor": "This is a suitable tool for solo developers or small teams who want a simple, script-driven environment to handle lightweight automation tasks without the overhead of heavy enterprise orchestrators.",
+  "watchOut": "With a relatively low repository star count and slowing maintenance signals, the project carries a higher risk of abandonment or unpatched bugs. It also overlaps heavily with established workflow engines and scripting environments.",
+  "deployNotes": "Because it relies on Go and Node.js, you will typically need to run it behind a reverse proxy to handle TLS termination. You should also ensure persistent storage is available if your Lua or Bash scripts write local state or logs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

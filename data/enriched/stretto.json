@@ -1,0 +1,8 @@
+{
+  "summary": "Stretto is an audio streaming application built with Node.js that incorporates music discovery features linked to external platforms like iTunes and Spotify. It also provides functionality to import tracks from sources including YouTube and Soundcloud. The software is released under the MIT licence and relies on community contributions for its ongoing development.",
+  "goodFor": "It suits users who want a self-hosted audio player that aggregates tracks from various online streaming and discovery services into a single interface.",
+  "watchOut": "The latest tagged release dates back to early 2019 and the project has a low maintenance health score, meaning you may encounter unpatched bugs or broken integrations with external APIs.",
+  "deployNotes": "Since it runs on Node.js, you will typically need to provision a persistent environment, manage dependencies using npm or yarn, and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

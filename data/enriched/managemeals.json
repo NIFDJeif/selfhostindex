@@ -1,0 +1,8 @@
+{
+  "summary": "ManageMeals is a self-hosted recipe management tool designed to extract recipes from URLs and store them locally. It provides a clean interface for organising culinary instructions without advertisements or extraneous blog text.",
+  "goodFor": "It suits home cooks who want a dedicated, ad-free repository for digital recipes extracted from various websites.",
+  "watchOut": "The low maintenance health score indicates that you may encounter unpatched bugs or slow responses to pull requests.",
+  "deployNotes": "You can deploy it using Docker, which typically requires persistent storage volumes to retain your recipe database across container restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Bluecherry is a video surveillance platform designed to manage and monitor closed-circuit television feeds. It provides support for both modern IP network cameras and older analog hardware within a single system. The codebase is implemented in PHP and licensed under the GPL-2.0.",
+  "goodFor": "It suits administrators who need to integrate legacy analog CCTV feeds alongside standard IP cameras on-premise. It is an option if you specifically require a GPL-2.0 licensed video surveillance stack.",
+  "watchOut": "The software has a low maintenance health score indicating potential project abandonment or slow patch cycles. It also competes in a crowded market with many heavily maintained alternatives.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Apache or Nginx, alongside a relational database such as MySQL or PostgreSQL. You will need persistent storage volumes to retain video recordings and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

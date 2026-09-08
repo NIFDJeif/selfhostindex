@@ -1,0 +1,8 @@
+{
+  "summary": "Onloc is a self-hosted application designed for real-time location tracking and sharing. It also provides remote control and locking capabilities for lost or stolen mobile devices.",
+  "goodFor": "This tool suits individuals who require a private infrastructure to monitor device locations without relying on third-party commercial services.",
+  "watchOut": "The project has a relatively small community and a moderate maintenance velocity, meaning you may need to resolve bugs independently. Additionally, handling continuous location data requires careful consideration of device battery consumption and network availability.",
+  "deployNotes": "Because the software is distributed via Docker, deployment typically involves managing container volumes for persistent data storage and setting up a reverse proxy to handle secure TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Mybucks.online is a browser-based, password-only cryptocurrency wallet that lets you maintain self-custody of your digital assets. Built under an MIT licence, it provides an interface for managing funds directly from your web browser without relying on third-party custodians.",
+  "goodFor": "It is well-suited for users looking for a straightforward, self-hosted web interface to manage their own cryptocurrency keys.",
+  "watchOut": "The project shows signs of slowing development activity, meaning you may need to rely on community support or your own resources for troubleshooting and security patches.",
+  "deployNotes": "As a Node.js application, it typically requires a reverse proxy such as Nginx or Caddy to handle TLS termination, along with a process manager to keep the service running.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}

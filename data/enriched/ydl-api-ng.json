@@ -1,0 +1,8 @@
+{
+  "summary": "ydl_api_ng provides a simple REST API wrapper around youtube-dl, allowing you to trigger media downloads on a remote server via HTTP requests. Written in Python, it acts as a lightweight bridge for initiating and managing extraction tasks on infrastructure you control. Because the official details are sparse, its exact queue management and authentication capabilities remain undefined.",
+  "goodFor": "This is suited for developers wanting to build custom automation scripts or lightweight frontends that interface with a remote download daemon.",
+  "watchOut": "The repository lacks tagged releases and shows low maintenance activity, which may introduce stability risks or unpatched issues over time.",
+  "deployNotes": "As a Python application, you will typically need to run it behind a reverse proxy for TLS termination and ensure persistent storage is attached for the downloaded media files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-08"
+}
