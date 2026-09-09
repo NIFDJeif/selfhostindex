@@ -1,0 +1,8 @@
+{
+  "summary": "Robust IRC is a distributed Internet Relay Chat server designed to operate without traditional network splits. It is written in Go and implements the custom RobustSession protocol to handle communication across distributed nodes.",
+  "goodFor": "It suits administrators experimenting with alternative IRC network topologies and protocols that aim to prevent traditional netsplits.",
+  "watchOut": "The project has a very low maintenance score and lacks tagged releases, indicating it may not be stable or actively supported for production environments.",
+  "deployNotes": "As a Go binary, it typically runs as a standalone service, though you will likely need a reverse proxy to handle TLS termination and persistent storage for any state it maintains.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

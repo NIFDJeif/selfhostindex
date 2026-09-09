@@ -1,0 +1,8 @@
+{
+  "summary": "myTinyTodo is a lightweight, web-based task management application inspired by Getting Things Done (GTD) principles. It provides an interactive interface for organising and updating your to-do lists asynchronously. The backend relies on PHP with support for either SQLite or MySQL databases.",
+  "goodFor": "This is a suitable choice if you want a minimalist, self-hosted task list that runs on traditional PHP hosting without complex container setups.",
+  "watchOut": "The project shows signs of low development activity, meaning you may not receive prompt security patches or bug fixes. It also competes in a crowded space with many modern, heavily-funded alternatives.",
+  "deployNotes": "You will typically need a standard web server like Apache or Nginx configured with PHP support, alongside a persistent directory for SQLite or access to a MySQL database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

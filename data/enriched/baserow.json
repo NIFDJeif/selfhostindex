@@ -1,0 +1,8 @@
+{
+  "summary": "Baserow is a self-hosted database management tool that allows you to build relational databases and interfaces through a spreadsheet-like interface. It functions as an open-source alternative to proprietary cloud platforms like Airtable. You can organise, query, and collaborate on structured data without writing traditional database code.",
+  "goodFor": "It is a suitable choice if you want to replace cloud-based spreadsheet databases with an on-premise solution under an MIT licence.",
+  "watchOut": "You should verify its active maintenance and update cadence before relying on it for critical production workloads, as activity metrics can vary.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

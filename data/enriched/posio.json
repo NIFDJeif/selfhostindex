@@ -1,0 +1,8 @@
+{
+  "summary": "Posio is a self-hosted geography multiplayer game. It provides an interactive platform where participants can test and challenge their mapping knowledge against others in real time.",
+  "goodFor": "It suits small groups or casual self-hosters looking for a lightweight, entertaining web activity to run on a local network or private server.",
+  "watchOut": "The project lacks recent tagged releases and shows very low maintenance activity, which means you may encounter unresolved bugs or security vulnerabilities without official support.",
+  "deployNotes": "As a Python application, it will typically require a WSGI or ASGI server, a reverse proxy such as Nginx to handle TLS termination, and a process manager like systemd to keep the service running reliably.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

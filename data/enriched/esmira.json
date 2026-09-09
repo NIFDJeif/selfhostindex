@@ -1,0 +1,8 @@
+{
+  "summary": "ESMira is a self-hosted tool designed to run longitudinal studies, such as Experience Sampling Method or Ecological Momentary Assessment research. It facilitates data collection and participant communication while maintaining complete anonymity. The platform is built using PHP and distributed under the AGPL-3.0 licence.",
+  "goodFor": "Researchers running anonymous longitudinal studies who specifically require a self-hosted PHP application under an AGPL-3.0 copyleft licence.",
+  "watchOut": "The project lacks a tagged release history and exhibits low maintenance activity, which may introduce risks regarding security updates and long-term stability.",
+  "deployNotes": "As a PHP application, it will typically require a standard web server like Apache or Nginx, alongside a relational database such as MySQL or MariaDB and persistent storage for study data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

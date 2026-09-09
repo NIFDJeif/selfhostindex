@@ -1,0 +1,8 @@
+{
+  "summary": "Minus Games is a self-hosted utility designed to synchronise video games and save files between different devices. It addresses the administrative problem of keeping local gaming states aligned across multiple personal machines.",
+  "goodFor": "This tool is a suitable fit if you maintain multiple gaming setups and need a self-hosted mechanism to keep your saves and game installations synchronised.",
+  "watchOut": "The project exhibits low maintenance activity and limited community adoption, meaning you may encounter unresolved bugs without prompt fixes.",
+  "deployNotes": "Being built in Rust, it typically compiles to a single static binary that requires persistent storage for your synchronised files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

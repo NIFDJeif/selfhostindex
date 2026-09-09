@@ -1,0 +1,8 @@
+{
+  "summary": "CouchCMS is a content management system tailored for web designers who want to integrate CMS functionality into existing static HTML templates. It transforms standard markup into dynamic editable regions using simple custom tags. Written in PHP, it provides a database-backed administrative interface without requiring complex database management.",
+  "goodFor": "Designers and developers who need to hand over simple content editing capabilities to clients while maintaining strict control over the underlying HTML and CSS.",
+  "watchOut": "The project exhibits very low repository activity and an at-risk maintenance status, suggesting potential long-term security or compatibility concerns. Additionally, its copyleft licence (CPAL-1.0) imposes specific distribution terms that may restrict how you integrate or modify it.",
+  "deployNotes": "Deployment typically requires a standard PHP runtime environment connected to a relational database such as MySQL. You will also need to configure a web server like Nginx or Apache to handle PHP-FPM and ensure persistent storage is available for uploaded media.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

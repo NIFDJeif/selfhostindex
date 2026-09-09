@@ -1,0 +1,8 @@
+{
+  "summary": "PushBits is a self-hosted notification server designed to relay push messages through Matrix. It functions similarly to alternatives like PushBullet and Gotify, allowing you to centralise and route notifications from various services.",
+  "goodFor": "This tool is a good fit if you already rely on Matrix for communication and want to route self-hosted application alerts directly into your existing chat infrastructure.",
+  "watchOut": "The project exhibits low maintenance activity and a low repository star count, meaning you might have to patch bugs yourself or deal with unaddressed security issues.",
+  "deployNotes": "Written in Go, it typically compiles into a single static binary that requires a reverse proxy for TLS termination and persistent storage for configuration data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

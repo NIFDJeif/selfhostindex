@@ -1,0 +1,8 @@
+{
+  "summary": "Local Content Share is a self-hosted utility designed for internal networks to store and distribute text snippets and files. It provides a centralised workspace for sharing data locally without relying on external cloud services. The project is implemented in Go and distributed as a container image under the MIT licence.",
+  "goodFor": "Home lab operators or small offices needing a lightweight internal drop-box for quick file transfers and text sharing.",
+  "watchOut": "The development velocity is currently low, indicating potential risks for long-term maintenance and unpatched security issues.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent volume mounts to retain uploaded files and configuration data across restarts, alongside a standard reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

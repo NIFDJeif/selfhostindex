@@ -1,0 +1,8 @@
+{
+  "summary": "SIP Irrigation Control is an open-source application designed to manage sprinkler and irrigation systems. It provides a web-based interface for scheduling and operating watering zones on your property. The software is written in Python and licensed under the GPL-3.0.",
+  "goodFor": "It suits technical users who want to self-host their sprinkler automation using existing hardware rather than relying on proprietary cloud services.",
+  "watchOut": "The project shows low activity and infrequent tagged releases, meaning you may need to patch bugs yourself or deal with outdated dependencies.",
+  "deployNotes": "As a Python application, you will typically need to configure a WSGI server, set up a reverse proxy for TLS termination, and ensure persistent storage for your schedule configurations.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Quassel IRC is a distributed Internet Relay Chat client where a central core daemon maintains persistent server connections. Multiple user interfaces can attach to or detach from this core at any time without losing chat session state.",
+  "goodFor": "It suits users who want to maintain a permanent, always-online IRC presence from multiple different devices.",
+  "watchOut": "The codebase has a low maintenance activity level and infrequent releases, meaning bug fixes and modern updates may be slow to arrive.",
+  "deployNotes": "As a compiled C++ application, the core typically requires persistent storage for configuration and state, and you will usually want to place a reverse proxy in front of it to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

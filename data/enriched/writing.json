@@ -1,0 +1,8 @@
+{
+  "summary": "Writing is a browser-based text editor designed to provide a minimalist workspace for drafting documents without interface clutter. It includes native rendering support for both Markdown formatting and LaTeX mathematical equations. The application aims to deliver a responsive typing experience within the browser environment.",
+  "goodFor": "It suits individuals who want a lightweight, self-hosted web interface for drafting notes or papers using Markdown and LaTeX.",
+  "watchOut": "The project shows minimal recent development activity and lacks tagged releases, suggesting potential maintenance stagnation. You should also consider that it duplicates the functionality of many mature note-taking alternatives.",
+  "deployNotes": "As a JavaScript application running in the browser, it typically requires a basic web server or static asset host to serve the frontend files. If user data needs to be preserved between sessions, you will need to check whether the software includes local storage mechanisms or requires an external backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

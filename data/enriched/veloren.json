@@ -1,0 +1,8 @@
+{
+  "summary": "Veloren is a multiplayer role-playing game written in Rust and licensed under the GPL-3.0. It draws design inspiration from titles such as Cube World, Minecraft, and Legend of Zelda.",
+  "goodFor": "It suits self-hosters looking to run a dedicated multiplayer game server for a community of players interested in voxel-based RPG exploration.",
+  "watchOut": "The codebase is a complex game server rather than a standard utility, which can entail significant resource requirements and operational overhead during setup and updates.",
+  "deployNotes": "As a Rust-based game server, it typically requires persistent storage for world data and configuration files, along with standard port forwarding or a firewall configuration to handle incoming multiplayer connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

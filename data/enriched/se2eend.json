@@ -1,0 +1,8 @@
+{
+  "summary": "sE2EEnd is an end-to-end encrypted file sharing tool that incorporates password protection, download limits, and automatic expiration for transferred data. It relies on Keycloak for authentication and is distributed as a containerised application. The software addresses the file transfer category by enabling single-click and drag-and-drop uploads.",
+  "goodFor": "It suits administrators who already manage a Keycloak identity provider and require self-hosted, encrypted file sharing with strict access limits.",
+  "watchOut": "The low repository star count and slowing maintenance health score suggest potential risks regarding long-term support and timely security patches.",
+  "deployNotes": "Since it is built with Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

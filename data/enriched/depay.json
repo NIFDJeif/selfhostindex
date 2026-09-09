@@ -1,0 +1,8 @@
+{
+  "summary": "DePay is a self-hosted application designed for processing Web3 transactions. It enables you to receive cryptocurrency payments directly into your designated wallet without relying on traditional payment processors. The software is built using Node.js and distributed under the MIT licence.",
+  "goodFor": "This tool suits technical operators who want to handle peer-to-peer crypto transactions on their own infrastructure without third-party intermediaries.",
+  "watchOut": "The repository exhibits low maintenance activity and a limited community footprint, which may increase the risk of unresolved bugs or security vulnerabilities over time.",
+  "deployNotes": "As a Node.js application, it typically requires a process manager like PM2 or Docker for execution, along with a reverse proxy such as Nginx to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Tellor is a lightweight, single-user kanban board application designed for managing personal tasks and to-do lists through a compact interface. It provides basic board management and includes functionality to import existing boards from Trello. Built with PHP under the MIT licence, it offers a straightforward self-hosted alternative to larger proprietary project management tools.",
+  "goodFor": "It suits individuals looking for a minimalist, self-hosted kanban board to track personal tasks without complex multi-user overhead. It is also practical if you need a straightforward way to migrate existing workflows from Trello onto your own infrastructure.",
+  "watchOut": "The project has low community engagement and minimal recent development activity, meaning you may need to patch bugs yourself. It is limited to a single-user model, so it cannot support team collaboration or shared workspaces.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, along with a compatible PHP runtime and a database backend. You will also need to configure persistent storage for your board data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

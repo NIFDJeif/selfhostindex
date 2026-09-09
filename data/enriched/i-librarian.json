@@ -1,0 +1,8 @@
+{
+  "summary": "I, Librarian is a self-hosted document management tool designed to organise PDF research papers and office files. It includes collaborative features intended for students and academic or industrial research groups.",
+  "goodFor": "It suits small research teams or students who need a centralised, self-hosted repository to collect and share academic papers.",
+  "watchOut": "The low maintenance health score indicates that you may encounter unpatched bugs or a lack of active community support.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Apache or Nginx, a traditional relational database, and persistent storage for uploaded documents.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

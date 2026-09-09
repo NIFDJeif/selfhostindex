@@ -1,0 +1,8 @@
+{
+  "summary": "UI Bakery is a low-code platform designed to help you construct internal tools, customer portals, and basic CRUD applications. It provides a graphical user interface to manage data structures, alongside functionality for configuring webhooks and scheduled jobs.",
+  "goodFor": "It suits developers or teams needing a rapid way to assemble internal administrative interfaces and data management dashboards without writing boilerplate front-end code.",
+  "watchOut": "The codebase carries a proprietary licence and shows low maintenance activity with a lack of recent tagged releases, presenting potential risks for long-term stability and security patches.",
+  "deployNotes": "As it relies on containerised runtimes like Docker and Kubernetes, you will typically need to configure persistent storage volumes for state management and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Prisme Analytics is a privacy-focused web analytics platform built on top of Grafana. It allows self-hosters to collect and visualise visitor metrics while maintaining control over their data.",
+  "goodFor": "It is a suitable choice if you already use Grafana for monitoring and want a unified dashboard for your web analytics.",
+  "watchOut": "The project has a low maintenance health score and modest community adoption, indicating a higher risk of abandonment or lacking support.",
+  "deployNotes": "As a Docker-based deployment, you will typically need to configure persistent volumes for data storage and place the service behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

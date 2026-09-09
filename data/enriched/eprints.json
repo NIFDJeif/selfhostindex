@@ -1,0 +1,8 @@
+{
+  "summary": "EPrints is a digital document management system designed for academic institutions to handle institutional repositories and digital libraries. It provides customisable metadata schemas and workflow models for managing scholarly outputs. The software is written in Perl and distributed under the GPL-3.0 licence.",
+  "goodFor": "University libraries and research groups needing a self-hosted platform to archive and manage academic publications.",
+  "watchOut": "The project exhibits low maintenance activity, which may present long-term security and compatibility challenges. It also overlaps with widely adopted alternatives in the institutional repository space.",
+  "deployNotes": "As a Perl-based web application, it typically requires a relational database backend and persistent storage for uploaded documents. You will also usually need to place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

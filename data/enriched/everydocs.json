@@ -1,0 +1,8 @@
+{
+  "summary": "EveryDocs is a lightweight document management system designed to help individuals digitise and organise personal paperwork. It provides a central repository for storing files, though the specific indexing and search capabilities are basic. The project is implemented in Ruby and distributed under the GPL-3.0 licence.",
+  "goodFor": "It suits individuals looking for a straightforward, self-hosted archive for personal paperwork without the complexity of enterprise document management software.",
+  "watchOut": "The project has an infrequent release schedule and low maintenance activity, meaning you may encounter unresolved bugs or lack security updates over time.",
+  "deployNotes": "As a Dockerised Ruby application, you will typically need to configure persistent volumes for file storage and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

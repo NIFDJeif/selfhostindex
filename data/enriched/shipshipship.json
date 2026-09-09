@@ -1,0 +1,8 @@
+{
+  "summary": "ShipShipShip is a self-hosted platform designed to manage changelogs and roadmaps by connecting internal project tasks with customer-facing updates. It functions as a central hub to publish release notes and track product development milestones.",
+  "goodFor": "Teams looking to streamline their release communication and connect project progress directly to public-facing updates using an Apache-2.0 licensed tool.",
+  "watchOut": "The project currently shows signs of lower maintenance activity relative to its age, meaning you may need to patch bugs yourself or rely on a small community for support.",
+  "deployNotes": "As it is packaged via Docker, you will typically need to configure persistent volumes for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

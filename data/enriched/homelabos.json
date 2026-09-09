@@ -1,0 +1,8 @@
+{
+  "summary": "HomelabOS is a self-hosting solution designed to help you run an offline, privacy-centric data centre on your own hardware. It uses Docker to let you deploy a large collection of over one hundred distinct services with a minimal set of commands. The project is distributed under the MIT licence and provides a structured way to manage multiple self-hosted applications simultaneously.",
+  "goodFor": "This is well-suited for technical users who want to quickly spin up a wide variety of self-hosted services without configuring each container individually from scratch.",
+  "watchOut": "The repository currently shows a complete lack of recent commits, which indicates that development may be stalled and you might encounter unpatched bugs or outdated service configurations.",
+  "deployNotes": "Because the project relies entirely on Docker, you will typically need to ensure persistent storage volumes are configured for your containers and manage your own reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

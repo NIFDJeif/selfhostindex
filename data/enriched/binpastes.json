@@ -1,0 +1,8 @@
+{
+  "summary": "BinPastes is a minimal pastebin service written in Java that lets you store and share text snippets. It includes features for client-side encryption, full-text search, and one-time messages.",
+  "goodFor": "It suits small teams or individual users who want a straightforward, self-hosted text-sharing tool with added privacy features.",
+  "watchOut": "The project has a low maintenance score and a modest user base, meaning you may need to patch bugs yourself.",
+  "deployNotes": "As a Java application, it typically requires a Java runtime environment, persistent storage for your pastes, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

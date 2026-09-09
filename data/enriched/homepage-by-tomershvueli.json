@@ -1,0 +1,8 @@
+{
+  "summary": "Homepage by tomershvueli is a lightweight, standalone PHP application designed to act as a centralised portal for your server applications and bookmarks. It provides a simple landing page that aggregates your frequently accessed web services in one place. Because specific feature lists are limited in the project description, it functions primarily as a customisable start page for local servers or browser homepages.",
+  "goodFor": "It is a suitable fit if you want a minimalist, PHP-driven dashboard that requires very few resources to run on an existing web server.",
+  "watchOut": "The project has not seen active development in years and is considered at-risk, meaning you may encounter unpatched security issues or compatibility problems with newer PHP versions.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server stack such as Apache or Nginx with PHP-FPM installed. You will likely need to configure a reverse proxy for TLS termination if you plan to access it securely over the internet.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

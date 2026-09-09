@@ -1,0 +1,8 @@
+{
+  "summary": "Mayan EDMS is an electronic document management system designed to organise digital files. It provides features such as document previews, optical character recognition, and automated categorisation.",
+  "goodFor": "It suits teams or individuals who need a centralised, self-hosted repository to process, index, and search through large volumes of digital documents.",
+  "watchOut": "The absence of recent tagged releases and commit activity suggests you should carefully evaluate its long-term maintenance status and community support before committing production data to it.",
+  "deployNotes": "As a containerised application built for Docker and Kubernetes, you will typically need to configure persistent volumes for file storage and set up an external database alongside a reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

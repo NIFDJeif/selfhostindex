@@ -1,0 +1,8 @@
+{
+  "summary": "Red Eclipse 2 is a first-person arena shooter styled after classic fast-paced competitive multiplayer games. It provides an environment for hosting deathmatch and objective-based multiplayer matches. The project is written in C and C++ and distributed primarily through Debian packages.",
+  "goodFor": "It suits administrators wishing to host a traditional, self-contained arena shooter for LAN parties or small gaming communities.",
+  "watchOut": "The project has a very low maintenance health score and has not seen a tagged release since late 2019, suggesting potential abandonment or lack of active support.",
+  "deployNotes": "Hosting a game server typically requires opening specific network ports for client connections and managing persistent configuration files on your server.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

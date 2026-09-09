@@ -1,0 +1,8 @@
+{
+  "summary": "cmyflix is a minimalist self-hosted alternative to media servers like Plex and Jellyfin for streaming video over a network. It provides a lightweight backend for hosting and playing personal video collections without the heavy resource footprint of larger ecosystems. Because the available documentation is sparse, expect basic media indexing and playback functionality typical of early-stage streaming daemons.",
+  "goodFor": "This software suits resource-constrained hardware setups or minimalists who want a simple, low-overhead video streaming endpoint rather than a fully-featured media center.",
+  "watchOut": "The project exhibits low maintenance activity and a very small community, meaning you may encounter unpatched bugs or lack support for advanced features like hardware transcoding or rich client apps. It also faces heavy competition from mature alternatives that offer broader platform support.",
+  "deployNotes": "As a compiled C application distributed via a Debian package, it will typically require manual configuration files, a reverse proxy for TLS termination, and persistent storage mounted for your media library. You should also ensure system dependencies are managed carefully since traditional containerised deployment is not explicitly documented.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

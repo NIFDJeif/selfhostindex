@@ -1,0 +1,8 @@
+{
+  "summary": "Swetrix is a self-hosted analytics platform designed to monitor website traffic, track page loading speeds, and analyse user sessions as well as navigation paths. It serves as an alternative to proprietary solutions like Google Analytics, allowing you to collect usage data on your own infrastructure. While the exact scope of its tracking features is broad, it focuses on providing visibility into how visitors interact with your web pages.",
+  "goodFor": "It is a suitable choice if you want to move away from third-party analytics services and keep your site telemetry on a self-hosted server under the AGPL-3.0 licence.",
+  "watchOut": "The project currently lacks tagged releases and has a low maintenance health score, indicating a higher risk of abandonment or unpatched issues compared to more mature alternatives.",
+  "deployNotes": "Since it is distributed via Docker, you will typically need to configure a persistent volume for the database and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

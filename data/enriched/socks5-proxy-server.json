@@ -1,0 +1,8 @@
+{
+  "summary": "This is a containerised SOCKS5 proxy server that includes integrated authentication. It features a Telegram bot interface for managing users and tracking their data usage. This is particularly useful for environments where bandwidth is billed by the gigabyte.",
+  "goodFor": "Ideal for administrators who need to track per-user bandwidth consumption and manage proxy access directly through Telegram.",
+  "watchOut": "The project exhibits low maintenance activity, which may present security risks if unpatched issues arise.",
+  "deployNotes": "As a containerised application, deployment is straightforward via Docker, though you should ensure appropriate port exposure and container networking configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

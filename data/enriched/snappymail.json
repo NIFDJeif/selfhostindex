@@ -1,0 +1,8 @@
+{
+  "summary": "SnappyMail is a browser-based email client derived from RainLoop that provides an interface for accessing IMAP and SMTP servers. It allows you to read, manage, and send messages directly through a lightweight web interface. As a self-hosted webmail tool, it acts as an intermediary between your browser and your existing mail server infrastructure.",
+  "goodFor": "It suits administrators looking for a straightforward, independent webmail portal to sit on top of standard mail protocols without heavy resource demands.",
+  "watchOut": "Development activity is currently minimal, which may introduce security or compatibility risks over time if unmaintained bugs arise. The copyleft AGPL-3.0 licence also imposes strict sharing obligations if you modify and distribute the source code.",
+  "deployNotes": "Because it is written in PHP, you will typically need to run it behind a standard web server like Nginx or Apache with a suitable PHP processor. It generally requires persistent storage for configuration files and session data, alongside TLS termination configured at the reverse proxy level.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Fork Recipes is a self-hosted tool designed to help you organise and manage culinary recipes in a digital format. It provides a centralised space for storing cooking instructions and ingredient lists through a web-based interface. While specific input methods and formatting options are not detailed, it addresses the standard requirements of personal recipe administration.",
+  "goodFor": "This is suitable if you want a dedicated, self-hosted option specifically for organising personal recipes rather than relying on commercial cloud notebooks.",
+  "watchOut": "The project exhibits at-risk maintenance indicators, which means you may encounter unpatched bugs or a lack of timely updates.",
+  "deployNotes": "As a containerised application, you will typically need to configure persistent storage volumes for your recipe data and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

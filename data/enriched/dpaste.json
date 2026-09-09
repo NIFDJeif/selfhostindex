@@ -1,0 +1,8 @@
+{
+  "summary": "dpaste is a lightweight pastebin application designed for sharing text snippets and source code via short, memorable URLs. It provides a simple web interface for quick publishing without complex overhead. The project is written in Python and released under the MIT licence.",
+  "goodFor": "It is a suitable choice if you need a straightforward, self-hosted text-sharing utility for a local network or small team.",
+  "watchOut": "The repository has very low maintenance activity and infrequent releases, meaning you should expect to handle any bug fixes or security patches yourself.",
+  "deployNotes": "Because the application runs on Python within a Docker container, you will typically need to configure a persistent volume for data storage and place it behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

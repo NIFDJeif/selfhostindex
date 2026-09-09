@@ -1,0 +1,8 @@
+{
+  "summary": "Kibitzr is a personal web assistant written in Python that automates interactions with web services. It monitors online sources and triggers workflows or notifications based on changes it detects.",
+  "goodFor": "It suits technical users who want a lightweight, self-hosted automation tool for personal web monitoring tasks without adopting heavier enterprise frameworks.",
+  "watchOut": "Development activity is currently minimal, meaning you may need to patch bugs yourself or maintain compatibility with external dependencies independently.",
+  "deployNotes": "As a Python application, it typically runs inside a virtual environment or container with persistent storage configured for state data, alongside a reverse proxy if you require TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

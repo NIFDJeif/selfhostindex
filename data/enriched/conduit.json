@@ -1,0 +1,8 @@
+{
+  "summary": "Conduit is a chat server implementation built on the Matrix protocol. It enables you to run your own communication infrastructure for federated messaging.",
+  "goodFor": "It suits self-hosters looking for a lightweight Matrix-compatible server option written in Rust.",
+  "watchOut": "As an alternative implementation of the Matrix specification, it may lack feature parity with the reference server and carries inherent protocol maturity risks.",
+  "deployNotes": "You will typically need to place it behind a reverse proxy to handle TLS termination and configure persistent storage for message history.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

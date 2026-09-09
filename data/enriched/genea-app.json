@@ -1,0 +1,8 @@
+{
+  "summary": "Genea.app is a web-based genealogy tool that lets you create and edit family trees while keeping your data private. It uses the standard GEDCOM file format and performs all data processing locally within your browser.",
+  "goodFor": "It suits individuals who want to manage their ancestral records locally without sending sensitive family data to third-party cloud services.",
+  "watchOut": "The project lacks tagged releases and has a low maintenance score, which indicates a higher risk of abandoned development or unresolved bugs.",
+  "deployNotes": "As a client-side Javascript application, it typically only requires a basic static web server to serve the assets, without needing a persistent backend database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}

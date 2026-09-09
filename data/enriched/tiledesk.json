@@ -1,0 +1,8 @@
+{
+  "summary": "Tiledesk is an open-source customer engagement platform designed to handle live chat and automated messaging across both websites and messaging services like WhatsApp. It provides a centralised inbox for human support agents alongside automated bots to manage customer interactions from initial lead generation through to post-sales support.",
+  "goodFor": "Teams looking for an open-source alternative to proprietary customer service tools who want to combine live agent chats and automated bot workflows under an MIT licence.",
+  "watchOut": "The project shows low activity relative to its age and relies on a legacy release, which may introduce maintenance overhead or unpatched issues. It also competes directly with widely adopted commercial solutions that might offer more reliable ecosystem support.",
+  "deployNotes": "As the application relies on containerisation and orchestration platforms, you will typically need to configure persistent volumes for data storage and place a reverse proxy in front for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-09"
+}
