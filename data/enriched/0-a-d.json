@@ -1,0 +1,8 @@
+{
+  "summary": "0 A.D. is a cross-platform real-time strategy game focused on ancient warfare. It provides an environment for managing resources, constructing bases, and training military units.",
+  "goodFor": "It is suitable for users looking for open-source strategy games to install on their local machines.",
+  "watchOut": "As a desktop strategy game rather than a server-based application, it typically requires direct hardware rendering and local client installation rather than a standard headless server deployment.",
+  "deployNotes": "Deployment relies on standard packaging formats such as deb files, meaning you will need to handle local system dependencies and package management on compatible operating systems.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

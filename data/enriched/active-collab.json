@@ -1,0 +1,8 @@
+{
+  "summary": "Active Collab is a proprietary project management application designed to help teams plan tasks, track time, and organise workflows. Written in PHP, it provides a centralised platform for coordinating team deliverables and monitoring progress. As a commercial tool, its source code is closed.",
+  "goodFor": "It is suited for organisations that prefer a proprietary project management suite running on their own infrastructure rather than using a third-party SaaS provider.",
+  "watchOut": "Because the licence is proprietary and recent public repository activity is absent, you must rely entirely on the vendor for updates and security patches.",
+  "deployNotes": "You will typically need a standard PHP runtime environment, a web server such as Nginx or Apache, and a relational database like MySQL or MariaDB to handle persistence.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

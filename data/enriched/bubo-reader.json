@@ -1,0 +1,8 @@
+{
+  "summary": "Bubo Reader is an RSS feed reader designed with an extremely minimal interface. It allows you to aggregate and follow web feeds in a stripped-back environment.",
+  "goodFor": "This is a suitable choice if you want a basic, self-hosted feed aggregator with minimal visual clutter and run an environment suited to simple Node applications.",
+  "watchOut": "Development activity is currently minimal, meaning you may need to patch bugs yourself or deal with outdated dependencies.",
+  "deployNotes": "As a Node.js application, it typically requires a process manager like PM2, a reverse proxy for HTTPS termination, and persistent storage for your feed data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

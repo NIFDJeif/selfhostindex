@@ -1,0 +1,8 @@
+{
+  "summary": "Inkheart is a lightweight application designed for reading and managing PDF documents and e-books. It is packaged as a container image for straightforward deployment on your own infrastructure. The software provides a self-hosted interface for handling document collections.",
+  "goodFor": "It suits homelab users looking for a minimal, containerised tool dedicated specifically to PDF and e-book consumption.",
+  "watchOut": "Repository activity is minimal and the project lacks a health rating, so you may encounter unaddressed bugs or a lack of documentation for complex setups.",
+  "deployNotes": "Because it runs via Docker, you will typically need to mount a persistent volume for your document library and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

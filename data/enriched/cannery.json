@@ -1,0 +1,8 @@
+{
+  "summary": "Cannery is a self-hosted application designed for tracking firearms and ammunition inventory. As a niche inventory management tool, it helps private collectors or enthusiasts keep an organised digital record of their stock.",
+  "goodFor": "It is a suitable choice if you specifically require a private, self-hosted database for tracking a firearm and ammunition collection rather than using generic spreadsheet software.",
+  "watchOut": "The project currently has virtually no community activity, an unrated maintenance status, and no tagged releases, which implies you may encounter bugs or lack support.",
+  "deployNotes": "Since it is distributed as a Docker container, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

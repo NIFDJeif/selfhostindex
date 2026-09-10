@@ -1,0 +1,8 @@
+{
+  "summary": "Eonvelope is a self-hosted application designed for long-term email archiving and digital preservation. It provides a dedicated system to store historical message data indefinitely outside of your active mail server. The project is distributed under the AGPL-3.0 licence.",
+  "goodFor": "It suits administrators who need an independent, self-hosted repository for compliance archiving or historical record-keeping of email correspondence.",
+  "watchOut": "With very low repository visibility and a lack of recent commit activity, the project carries a higher maintenance burden and unknown upgrade stability. You should evaluate whether it meets your long-term preservation standards compared to more mature archiving tools.",
+  "deployNotes": "Because the service is packaged for Docker and Kubernetes, you will typically need to configure persistent volumes to ensure your archived data survives container restarts. You will also want to place the instance behind a reverse proxy to handle TLS termination and secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

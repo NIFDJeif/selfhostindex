@@ -1,0 +1,8 @@
+{
+  "summary": "Simple NixOS Mailserver is a complete mailserver solution built using the Nix ecosystem. It provides the necessary components to handle inbound and outbound email infrastructure on your own hardware.",
+  "goodFor": "Administrators who already manage their infrastructure using NixOS and want an integrated approach to mail services.",
+  "watchOut": "The latest tagged release dates back to late 2019 and recent commit activity is minimal, indicating potential maintenance stagnation.",
+  "deployNotes": "Configuration relies entirely on the Nix ecosystem, and you will typically need to ensure persistent storage is properly mapped for your mail spools and databases.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

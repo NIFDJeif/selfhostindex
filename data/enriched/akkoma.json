@@ -1,0 +1,8 @@
+{
+  "summary": "Akkoma is a federated microblogging server that handles communication across distributed social networks. It implements ActivityPub alongside Mastodon and GNU social compatibility standards to enable decentralised posting and interaction. The application is built using Elixir and packaged for deployment via Docker.",
+  "goodFor": "This is suitable if you want to run your own node within the ActivityPub social ecosystem using Elixir-based infrastructure. It fits administrators looking for a lightweight alternative to larger microblogging servers.",
+  "watchOut": "Federated software requires ongoing moderation effort to manage remote connections, spam, and storage growth over time. Additionally, the lack of recent tagged releases or visible repository metrics means you should verify project stability and activity before committing to production use.",
+  "deployNotes": "You will typically need to configure persistent storage for user data and attach a PostgreSQL database, alongside a reverse proxy to handle TLS termination. Since the application runs on the Erlang VM via Elixir, ensure your container limits account for BEAM memory allocation.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "LibreKB is a web-based application designed for creating and organising knowledge bases. It operates as a straightforward PHP and MySQL web app that can be hosted on standard hosting environments.",
+  "goodFor": "It suits administrators who need a simple, self-hosted documentation tool and already maintain a conventional PHP and MySQL web server stack.",
+  "watchOut": "With low repository engagement and infrequent tagged releases, ongoing maintenance, security updates, and bug fixes may rely heavily on your own intervention.",
+  "deployNotes": "You will typically need a standard web server with PHP support, a connected MySQL database, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

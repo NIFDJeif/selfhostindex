@@ -1,0 +1,8 @@
+{
+  "summary": "memEx is a structured personal knowledge base designed to help you organise notes and ideas. It draws inspiration from established note-taking methodologies such as the Zettelkasten method and Org-mode. Because the exact feature set and interface details are sparse, it functions generally as a self-hosted repository for interconnected text notes.",
+  "goodFor": "It suits individuals who prefer managing their personal notes using Zettelkasten or Org-mode principles on their own infrastructure rather than relying on proprietary cloud services.",
+  "watchOut": "The project currently shows no recent commits, no tagged releases, and minimal community engagement, meaning you should expect a lack of documentation, unresolved bugs, and potential maintenance hurdles.",
+  "deployNotes": "Since it is provided as a Docker image, you will typically need to map a persistent volume for your notes data and configure a reverse proxy to handle TLS termination for secure web access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

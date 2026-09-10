@@ -1,0 +1,8 @@
+{
+  "summary": "Jirafeau is a web application designed for one-click file sharing. Users can select a file, upload it to the server, and immediately obtain a link to distribute.",
+  "goodFor": "It is a suitable choice if you need a straightforward, self-hosted utility to quickly transfer files to others without configuring complex user accounts or cloud storage integrations.",
+  "watchOut": "The repository lacks recent activity and a tagged release history, suggesting that you may need to rely on the community or patch issues yourself.",
+  "deployNotes": "Because the application runs on PHP, you will typically need a standard web server configuration with PHP support or a Docker container setup, alongside persistent storage for the uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

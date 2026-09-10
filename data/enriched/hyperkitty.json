@@ -1,0 +1,8 @@
+{
+  "summary": "HyperKitty provides a web-based interface for accessing and searching GNU Mailman version 3 mailing list archives. It allows users to browse historical email threads and view discussions through a standard browser. The application is written in Python and is released under the GPL-3.0 licence.",
+  "goodFor": "This is a suitable choice if you are already operating a GNU Mailman version 3 email list infrastructure and require a native web archiving frontend.",
+  "watchOut": "Adoption is relatively niche with modest repository activity, meaning you may need to rely on upstream community resources for troubleshooting.",
+  "deployNotes": "As a Python application, it typically requires a WSGI-compatible HTTP server behind a reverse proxy for TLS termination, along with a persistent relational database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

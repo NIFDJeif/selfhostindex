@@ -1,0 +1,8 @@
+{
+  "summary": "Axigen is a proprietary messaging platform designed to handle email and related communication needs. It functions as a turnkey solution aimed at smaller deployments, integration projects, and testing environments.",
+  "goodFor": "This software suits micro businesses or operators requiring a self-contained communication server for controlled or limited user bases.",
+  "watchOut": "Because the source code is proprietary and public activity metrics are absent, auditing the system or contributing bug fixes is not possible.",
+  "deployNotes": "Since the underlying runtime stack is unspecified, you will typically need to provision persistent storage for mail spools and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

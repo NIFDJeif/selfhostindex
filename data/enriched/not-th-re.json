@@ -1,0 +1,8 @@
+{
+  "summary": "not-th.re is a straightforward paste sharing application designed for text and code snippets. It incorporates client-side encryption to secure data before transmission and integrates the Monaco code editor directly into the browser interface. The platform is packaged as a Docker container using Node.js.",
+  "goodFor": "It suits users looking for a self-hosted pastebin with built-in code editing capabilities and client-side privacy controls.",
+  "watchOut": "The project exhibits low maintenance activity and competes in a crowded category with much more established alternatives.",
+  "deployNotes": "You will typically need to run the container behind a reverse proxy to handle TLS termination, and ensure persistent volumes are configured if data retention is required.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

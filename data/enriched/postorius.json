@@ -1,0 +1,8 @@
+{
+  "summary": "Postorius provides a web-based user interface for managing GNU Mailman mailing list servers. It allows administrators and subscribers to handle list memberships, settings, and archives through a browser rather than the command line or email commands. The application is written in Python and is licensed under the GPL-3.0.",
+  "goodFor": "This is a suitable interface choice if you are already running or planning to deploy a GNU Mailman mailing list infrastructure and require a graphical management panel.",
+  "watchOut": "You may find the operational setup complex, as it relies on proper integration with the underlying Mailman core and mail transfer agent services. Additionally, recent release activity is low.",
+  "deployNotes": "As a Python web application, it typically requires a WSGI-compatible application server behind a reverse proxy to handle TLS termination, alongside a persistent database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

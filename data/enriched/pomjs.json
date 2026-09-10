@@ -1,0 +1,8 @@
+{
+  "summary": "POMjs is a self-hosted utility designed for generating random passwords. Written in JavaScript, it provides a web-based interface or API to create secure credentials on demand. Its functionality centres entirely on credential generation rather than full password management or vault storage.",
+  "goodFor": "It suits minimalist setups where you need a quick, locally hosted tool for generating random strings without relying on external web services.",
+  "watchOut": "The project exhibits very low development activity and a low repository star count, meaning bug fixes or updates are unlikely to appear promptly. It also faces heavy competition from built-in browser generators and mature command-line tools that offer identical functionality with less maintenance overhead.",
+  "deployNotes": "As a JavaScript application, you will typically run it behind a reverse proxy to handle TLS termination and manage the Node.js runtime environment. It generally does not require a persistent database for this type of stateless utility.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

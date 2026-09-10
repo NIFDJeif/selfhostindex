@@ -1,0 +1,8 @@
+{
+  "summary": "LazyLibrarian is a Python-based automation tool that tracks your favourite authors and gathers metadata for digital reading materials. It integrates with external literature platforms such as Goodreads, LibraryThing, and Google Books to manage your reading lists and bibliographic data.",
+  "goodFor": "Self-hosters looking for a dedicated automation utility to track author bibliographies and aggregate reading metadata from multiple external sources.",
+  "watchOut": "The repository shows no recent release tags or commits, suggesting development may be stagnant or that you might need to run directly from the main branch. It occupies a niche space that heavily overlaps with broader, more actively maintained media organisation stacks.",
+  "deployNotes": "As a Python application, you will typically need to ensure a persistent storage volume for configuration and metadata, along with a reverse proxy if you require TLS termination. Dependencies are generally managed via pip within a virtual environment or containerised setup.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

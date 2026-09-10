@@ -1,0 +1,8 @@
+{
+  "summary": "Cubiks-2048 is a browser-based puzzle game that translates the traditional sliding tile mechanics of 2048 into a three-dimensional playing space. Players combine matching numbered cubes on a multi-axis grid to reach higher numerical values until no moves remain. It is implemented entirely in JavaScript.",
+  "goodFor": "Casual deployment on a personal web server for users looking for a straightforward, lightweight browser game.",
+  "watchOut": "The project lacks recent development activity and tagged releases, and the non-commercial licence restricts how you can reuse or distribute the code.",
+  "deployNotes": "As a static JavaScript application, it typically only requires a basic web server to serve the asset files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

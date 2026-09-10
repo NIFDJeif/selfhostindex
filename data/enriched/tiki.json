@@ -1,0 +1,8 @@
+{
+  "summary": "Tiki is a wiki-based content management system and groupware application written in PHP and distributed under the LGPL-2.1 licence. It provides a collaborative platform combining wiki pages, content management capabilities, and team communication features within a single package.",
+  "goodFor": "It is a suitable option if you need an all-in-one collaboration suite and wiki platform built on traditional PHP infrastructure.",
+  "watchOut": "The repository shows minimal recent activity and lacks tagged releases, which may indicate maintenance stagnation or an unmonitored development lifecycle.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Apache or Nginx, alongside a relational database like MySQL or MariaDB to handle persistent storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

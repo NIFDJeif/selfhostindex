@@ -1,0 +1,8 @@
+{
+  "summary": "RosarioSIS is a student information system designed for school management tasks. It provides modular functionality to track student demographics, grades, scheduling, attendance, billing, discipline, and food service operations.",
+  "goodFor": "Educational institutions looking for an open-source, self-hosted platform to manage student data and administrative records in one place.",
+  "watchOut": "The small repository star count and lack of recent commit activity suggest you may need to rely heavily on community support or self-maintenance.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or PostgreSQL, and persistent storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

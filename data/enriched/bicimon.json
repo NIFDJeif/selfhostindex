@@ -1,0 +1,8 @@
+{
+  "summary": "Bicimon functions as a bicycle speedometer delivered via a Progressive Web App. Built with JavaScript, it runs directly in the browser to track cycling metrics using device capabilities. It falls under the maps and GPS category, though exact feature sets beyond basic speed tracking remain minimal and unspecified.",
+  "goodFor": "It suits users looking for a lightweight, browser-based cycling display without installing native mobile applications.",
+  "watchOut": "The project has an extremely low maintenance score with no recent activity or tagged releases, indicating a high risk of abandonment and unpatched bugs.",
+  "deployNotes": "As a static Progressive Web App built with JavaScript, it typically requires only a basic web server and a reverse proxy to handle HTTPS for browser geolocation and sensor APIs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

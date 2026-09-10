@@ -1,0 +1,8 @@
+{
+  "summary": "Simple-URL-Shortener is a lightweight utility designed to turn long web addresses into concise links. It operates with minimal complexity and can be configured for public use or restricted access via user accounts. Because it avoids external dependencies, it offers a streamlined approach to managing link redirection.",
+  "goodFor": "It is a suitable choice if you want an extremely basic link redirection tool written in PHP without the overhead of heavy frameworks or complex databases.",
+  "watchOut": "The codebase is exceptionally old and has received virtually no recent development activity, meaning security patches or bug fixes are unlikely to be forthcoming.",
+  "deployNotes": "You will typically need a standard web server like Apache or Nginx configured with a PHP runtime environment to serve the application.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

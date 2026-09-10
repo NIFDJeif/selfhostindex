@@ -1,0 +1,8 @@
+{
+  "summary": "Crafty Controller is a dedicated administrative utility for managing Minecraft server instances through a web-based interface. It acts as a launcher and control panel to help you start, stop, and configure game environments without relying solely on manual command-line inputs.",
+  "goodFor": "It suits server administrators and small communities who want a centralised web interface to manage multiple Minecraft instances on their own infrastructure.",
+  "watchOut": "The repository has low engagement and very few recent commits recorded, meaning you should evaluate its current stability and long-term maintenance status carefully.",
+  "deployNotes": "Because it runs via Docker and Python, you will typically need to configure persistent volumes for your game data and set up a reverse proxy to handle secure HTTPS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

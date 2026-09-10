@@ -1,0 +1,8 @@
+{
+  "summary": "3CX is a private automatic branch exchange (PABX) system that handles telephone routing and call queues. It also bundles web conferencing, live chat, and messaging integration into a single communications platform.",
+  "goodFor": "Teams looking to centralise voice calls, customer live chat, and video meetings within one managed telecommunications suite.",
+  "watchOut": "The software uses a proprietary licence, meaning you cannot inspect or modify the source code, and terms of use are subject to the vendor's commercial model.",
+  "deployNotes": "Because the underlying runtime and database requirements are unspecified, you should check the vendor documentation carefully before provisioning a server, ensuring you budget for TLS termination and persistent storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

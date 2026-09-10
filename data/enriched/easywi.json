@@ -1,0 +1,8 @@
+{
+  "summary": "Easy-Wi provides a web-based control panel for managing various server daemons, with a primary focus on game servers. It also includes an integrated content management system featuring a rental and lending service for voice and game servers.",
+  "goodFor": "Administrators who want to run a hosted rental service for multiplayer game and voice servers through a single web interface.",
+  "watchOut": "The project exhibits low maintenance activity, suggesting potential security and compatibility issues over time.",
+  "deployNotes": "As a PHP and shell-based application, it typically requires a standard web server stack with a database and sufficient permissions to execute management scripts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

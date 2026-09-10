@@ -1,0 +1,8 @@
+{
+  "summary": "AsmBB is a forum engine written entirely in assembly language and backed by an SQLite database. It provides a platform for hosting online discussions and community boards. Due to its minimalist implementation, it aims for high execution speed and low resource utilisation.",
+  "goodFor": "It suits resource-constrained environments or minimal setups where administrators prefer native binaries without complex runtime dependencies.",
+  "watchOut": "The absence of recent version tags and recorded commit activity suggests that maintenance may be inactive, potentially leaving security issues unpatched. Furthermore, the EUPL-1.2 licence carries specific copyleft implications that you should verify against your compliance requirements.",
+  "deployNotes": "Since it is distributed as a compiled binary interacting directly with SQLite, you will typically need to place it behind a reverse proxy to handle TLS termination and manage persistent storage for the database file.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

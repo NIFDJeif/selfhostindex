@@ -1,0 +1,8 @@
+{
+  "summary": "42links is a self-hosted bookmarking server designed to support multiple user accounts. It allows individuals or small groups to save, organise and retrieve web links from a centralised location. As a dedicated link-sharing tool, it operates in the same general domain as traditional read-later services and bookmark managers.",
+  "goodFor": "It is suited for small user bases or individuals who want a self-hosted alternative for collaborative link storage rather than relying on commercial bookmarking platforms.",
+  "watchOut": "The project has no tagged releases and minimal visible activity, meaning you may encounter rough edges, missing documentation, or lack of support. Additionally, its BSD-3-Clause-No-Military-License is a non-standard source licence that restricts military use, which may violate corporate compliance policies.",
+  "deployNotes": "Because it is written in Common Lisp, you will typically need to run it behind a standard reverse proxy like Nginx or Caddy to handle TLS termination. You should also ensure persistent storage is configured for any underlying database or state it requires.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Hook0 provides self-hosted webhooks-as-a-service functionality for applications that need to dispatch outbound events to third parties. It helps you manage endpoint delivery, retries, and event logs through a dedicated backend service rather than building custom dispatch logic.",
+  "goodFor": "Developers who want to offload outbound webhook infrastructure and retry logic from their primary application code into a dedicated service.",
+  "watchOut": "The codebase uses the Server Side Public License (SSPL), which places restrictions on offering the software as a managed service to others, and community activity appears minimal given the low repository traction.",
+  "deployNotes": "You will typically run this via Docker, requiring persistent storage for event history and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

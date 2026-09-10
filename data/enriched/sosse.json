@@ -1,0 +1,8 @@
+{
+  "summary": "Sosse is a Python-based search engine and web crawler that relies on Selenium for rendering web pages. It includes functionality for offline archiving, allowing you to capture and store web content locally. Because the project lacks a tagged release history, its exact feature set remains minimal and relies heavily on its underlying crawling framework.",
+  "goodFor": "It is suited for developers and technical users who want to experiment with a Selenium-driven web crawler and search setup in a self-hosted environment.",
+  "watchOut": "The repository has very low visibility and virtually no recent development activity, meaning you are unlikely to find community support or bug fixes. Additionally, the AGPL-3.0 licence places strict copyleft obligations on your deployment if you modify and distribute the code.",
+  "deployNotes": "Since it is packaged for Docker and built with Python, you will typically need to configure persistent volumes for your archived data and use a reverse proxy to handle TLS termination if accessed over the web.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

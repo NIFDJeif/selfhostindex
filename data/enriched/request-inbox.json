@@ -1,0 +1,8 @@
+{
+  "summary": "Request Inbox provides a dedicated endpoint to receive and review incoming HTTP requests. It allows you to set up capture folders and define custom server replies for diagnostic purposes.",
+  "goodFor": "Developers who need a straightforward, self-hosted webhooks catcher to debug API integrations and inspect raw payload data.",
+  "watchOut": "The low activity level and sparse community adoption suggest this is an early-stage project that may lack long-term maintenance.",
+  "deployNotes": "Since it runs via Docker, you will typically need to map a persistent volume for data retention and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

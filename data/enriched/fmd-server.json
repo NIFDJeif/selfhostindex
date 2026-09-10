@@ -1,0 +1,8 @@
+{
+  "summary": "FMD Server acts as a self-hosted backend for the Find My Device Android application. It allows you to receive location updates and send remote control commands to your mobile devices without relying on third-party cloud infrastructure. The application is written in Go and distributed as a container image.",
+  "goodFor": "Users who want to track and manage their Android devices independently while keeping location data within their own private infrastructure.",
+  "watchOut": "Activity in the repository is currently minimal, which may mean slow responses to upstream Android changes or security issues.",
+  "deployNotes": "As a containerised Go application, it typically requires persistent storage for state data and a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Lesma is a self-hosted pastebin service designed to store and share text snippets. It provides interfaces for both web browsers and command-line tools to upload and retrieve content. The application is built using Rust and packaged via Docker.",
+  "goodFor": "This is suitable for individuals or teams looking for a lightweight, self-hosted text sharing utility that integrates with shell scripts and terminals.",
+  "watchOut": "With very low repository activity and an unrated maintenance status, you may encounter unresolved bugs or lack timely updates. It also competes in a crowded category with much more mature alternatives.",
+  "deployNotes": "As a containerised Rust application, you will typically need to run it behind a reverse proxy to handle TLS termination. Depending on how persistence is configured, you may also need to attach a volume for data storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

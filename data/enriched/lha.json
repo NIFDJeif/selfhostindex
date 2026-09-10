@@ -1,0 +1,8 @@
+{
+  "summary": "LHA is a self-hosted home automation controller designed to manage smart devices and local IoT networks. It allows you to build custom automation logic using Blockly, HTML, or Lua, and includes integrations for hardware ecosystems like Philips Hue and Z-Wave. The project is distributed under the MIT licence and built primarily with Lua.",
+  "goodFor": "It suits technical users who want a lightweight, scriptable alternative to mainstream automation hubs and prefer writing logic in Lua or Blockly.",
+  "watchOut": "The repository has very low engagement and minimal community adoption, meaning you are likely to encounter undocumented edge cases and lack peer support.",
+  "deployNotes": "As a Lua application, you will typically need to ensure the correct Lua runtime dependencies are present on your host, along with persistent storage for your automation scripts and state data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

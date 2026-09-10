@@ -1,0 +1,8 @@
+{
+  "summary": "b1gMail is a complete email solution designed to operate on standard web hosting space. It handles message delivery using PHP and MariaDB, while offering support for POP3 catchall accounts and integration with mail transfer agents like Postfix.",
+  "goodFor": "It suits administrators looking to host a self-contained webmail platform on traditional PHP-compatible hosting environments rather than configuring a complex mail stack from scratch.",
+  "watchOut": "The software shows no recent tagged releases or commit activity in the provided metrics, which may indicate a lack of active maintenance or community support.",
+  "deployNotes": "You will typically need a web server configured with PHP, a MariaDB database backend, and a reverse proxy to handle TLS termination for secure mail and web traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

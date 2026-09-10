@@ -1,0 +1,8 @@
+{
+  "summary": "JARR is a web-based news aggregator and feed reader derived from Newspipe. It allows you to collect and read syndicated web content from multiple sources within a self-hosted interface.",
+  "goodFor": "It suits users looking for a lightweight, alternative web reader that can be run independently using containerised infrastructure.",
+  "watchOut": "The codebase has a very old latest tagged release from 2016, suggesting it may lack modern security updates and compatibility with current Python environments.",
+  "deployNotes": "As a Docker-based Python application, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}

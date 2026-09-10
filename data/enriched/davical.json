@@ -1,0 +1,8 @@
+{
+  "summary": "DAViCal is a CalDAV server designed for calendar sharing and synchronization across multiple clients. It relies on a PostgreSQL database as its underlying data store to persist schedule information. The software provides a standard CalDAV interface for users to manage and share their calendar data.",
+  "goodFor": "It is a suitable choice if you specifically require a dedicated, self-hosted CalDAV server backed by PostgreSQL for calendar management.",
+  "watchOut": "Activity on the project appears minimal with no recent tagged releases, meaning you may need to handle security patches or bugs yourself.",
+  "deployNotes": "As a PHP application, you will typically need a web server like Apache or Nginx with PHP support, alongside a running PostgreSQL instance and persistent storage for your data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-10"
+}
