@@ -1,0 +1,8 @@
+{
+  "summary": "Continuwuity is a community-driven Matrix homeserver written in Rust. As a fork of the conduwuit and Conduit projects, it aims to provide alternative messaging server capabilities with a focus on user experience and new features.",
+  "goodFor": "This project suits administrators looking for an alternative Matrix homeserver implementation written in Rust who want to experiment with community-led development.",
+  "watchOut": "The software currently has no tagged releases and lacks recent commit activity, indicating an early or inactive development stage with unknown stability.",
+  "deployNotes": "Container images and Debian packages are available for deployment, and you will typically need to configure persistent storage and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Digicut is a self-hosted utility designed to cut audio and video files directly in the browser using FFMPEG.wasm. The codebase is implemented in Node.js and distributed under the AGPL-3.0 licence. Please note that the available documentation is written entirely in French.",
+  "goodFor": "This is a suitable choice if you need a lightweight, browser-based media trimming tool and are comfortable navigating French documentation.",
+  "watchOut": "The project currently has no tagged releases and no recent commit activity, suggesting it may be an unmaintained prototype or personal script. Relying on FFMPEG compiled to WebAssembly can also introduce performance overhead on larger media files.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy to handle TLS termination and manage the process with a tool like PM2 or systemd. Since media processing occurs client-side via WebAssembly, server storage requirements are generally minimal.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

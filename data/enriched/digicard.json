@@ -1,0 +1,8 @@
+{
+  "summary": "Digicard is a Node.js-based tool for creating simple graphic compositions, though its specific capabilities are sparsely documented outside of French resources. It falls under miscellaneous graphical tooling where users can assemble visual elements on a self-hosted instance. Due to the lack of recent repository activity and tagged releases, the project appears experimental or unmaintained.",
+  "goodFor": "It may suit French-speaking developers or hobbyists looking to experiment with lightweight, self-hosted graphic composition utilities.",
+  "watchOut": "The codebase lacks recent commits, official releases, and community traction, meaning you will likely encounter bugs without upstream support. Furthermore, the existing documentation is entirely in French, which could hinder troubleshooting.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy to handle TLS termination and manage persistent storage if user compositions are saved to disk rather than an external database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Clink is a compact link shortening service implemented in pure C. It prioritises a tiny binary footprint and straightforward configuration for basic URL redirection tasks.",
+  "goodFor": "Minimalist server administrators seeking an extremely lightweight URL redirection tool with negligible resource consumption.",
+  "watchOut": "The project lacks tagged releases and has no public activity or community metrics, suggesting potential abandonment or a lack of long-term support.",
+  "deployNotes": "As a standalone C binary, it will typically need a reverse proxy like Nginx for TLS termination and persistence for storing mapping data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

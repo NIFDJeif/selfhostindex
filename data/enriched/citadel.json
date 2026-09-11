@@ -1,0 +1,8 @@
+{
+  "summary": "Citadel is a modular groupware suite designed to handle email, calendars, address books, and collaborative spaces like forums and wikis on your own infrastructure. It bundles multiple communication and information-sharing tools into a single integrated server package. It is implemented using C, Docker, and shell scripts.",
+  "goodFor": "Self-hosters looking for an all-in-one collaborative workspace suite rather than maintaining separate standalone applications for email, calendars, and messaging.",
+  "watchOut": "The project lacks recent tagged releases and verifiable activity metrics, meaning you should carefully evaluate its long-term stability and security maintenance before committing critical data.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for your stored data and place a reverse proxy in front of the container to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

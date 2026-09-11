@@ -1,0 +1,8 @@
+{
+  "summary": "Digislides is a self-hosted tool designed to help you create multimedia presentations quickly and easily. While official documentation is currently only available in French, the software provides a web-based interface for assembling slide decks. It falls into the office suites category, addressing the need for collaborative or self-hosted presentation software.",
+  "goodFor": "It is a suitable option if you specifically require a self-hosted presentation tool and are comfortable navigating French-language documentation.",
+  "watchOut": "The project currently has no tagged releases, zero stars, and no recorded recent commits, indicating that it may be unmaintained or in an early experimental state. You should also consider that it competes with much more mature, widely adopted presentation platforms.",
+  "deployNotes": "Because the application relies on Node.js and PHP, you will typically need to configure a web server like Nginx or Apache alongside a process manager, as well as a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Cloudron is an open-core server management platform designed to simplify the installation and administration of web applications on your own infrastructure. It automates the deployment process for various self-hosted services using containerisation and Node.js. The project operates under a proprietary licence model with restricted source access for certain components.",
+  "goodFor": "This platform is suitable if you want to run multiple independent web services on a single server without manually configuring individual Docker containers or reverse proxies.",
+  "watchOut": "The software is proprietary, meaning you depend entirely on the vendor for core updates, and the exact scope of free versus paid features requires careful review before adoption.",
+  "deployNotes": "Because the platform relies on Docker and Node.js, you will typically need a dedicated Linux server with persistent storage volumes configured for application data and root-level access to handle network ports and TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

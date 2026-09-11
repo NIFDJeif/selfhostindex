@@ -1,0 +1,8 @@
+{
+  "summary": "Digibunch is a self-hosted tool designed to help you organise and share curated collections of URLs with students or teammates. It falls into the bookmarks, link sharing, and learning management categories. Because specific interface features are not documented, you should expect a straightforward utility for grouping and distributing web links.",
+  "goodFor": "Educators or team leads who need a dedicated, private space to distribute resource lists and reading material to learners.",
+  "watchOut": "The project lacks tagged releases and has zero recorded recent commits, indicating that it may be a dormant or proof-of-concept codebase with no active maintenance. Additionally, the AGPL-3.0 licence imposes strict copyleft requirements if you modify and distribute the code.",
+  "deployNotes": "As it relies on Node.js and PHP, you will typically need a web server configured to handle PHP alongside a Node.js runtime environment. You will also want to put it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

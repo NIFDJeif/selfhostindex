@@ -1,0 +1,8 @@
+{
+  "summary": "Digiscreen is a self-hosted interactive whiteboard and wallpaper tool designed for classroom use, supporting both in-person and remote teaching scenarios. Its core documentation is provided in French, reflecting its primary regional target. It falls into the learning and courses as well as groupware categories.",
+  "goodFor": "It suits educators and facilitators looking for a self-hosted collaborative canvas, particularly those comfortable navigating French documentation.",
+  "watchOut": "The repository currently has no tagged releases and zero recorded recent commits, indicating potential maintenance risks and a lack of community momentum.",
+  "deployNotes": "Because it relies on Node.js and PHP, you will typically need to configure a web server like Nginx or Apache alongside a process manager for Node, plus a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

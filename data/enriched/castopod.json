@@ -1,0 +1,8 @@
+{
+  "summary": "Castopod is a self-hosted platform for publishing and managing podcasts. It includes built-in analytics, an embeddable player, and support for recent podcasting standards and the Fediverse.",
+  "goodFor": "It suits individuals or organisations wanting to host their own audio content while retaining direct control over their distribution feeds and audience analytics.",
+  "watchOut": "The lack of recent tagged releases and commit activity suggests you should carefully evaluate its long-term maintenance status and security update frequency before adoption.",
+  "deployNotes": "As a PHP application packaged for Docker, it typically requires a persistent storage volume for uploaded media files, a database backend such as MySQL or PostgreSQL, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

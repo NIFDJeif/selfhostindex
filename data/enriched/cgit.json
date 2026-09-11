@@ -1,0 +1,8 @@
+{
+  "summary": "Cgit provides a rapid web-based interface for browsing source code repositories stored in Git. Written in C, it serves as a minimalist alternative to heavier forge software when you need to inspect commits, branches, and file trees via a browser. It focuses purely on displaying repository contents efficiently rather than managing issues or pull requests.",
+  "goodFor": "It suits administrators who want to host a fast, low-resource mirror or browser for Git repositories without running a heavy application stack.",
+  "watchOut": "You should note that it lacks built-in project management tools like issue trackers and pull requests, meaning it only covers code viewing.",
+  "deployNotes": "As a compiled C application, it typically runs behind a CGI-capable web server like Nginx or Apache, requiring persistent disk access to your bare Git repositories.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

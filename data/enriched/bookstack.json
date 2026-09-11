@@ -1,0 +1,8 @@
+{
+  "summary": "BookStack is a self-hosted wiki application designed to organise and store documentation in a hierarchical, book-like structure. It provides a structured interface for teams to author and maintain reference materials. The platform is built with PHP and packaged for containerised environments.",
+  "goodFor": "It suits teams or individuals looking for a straightforward, document-centric wiki to manage internal knowledge bases without complex tooling.",
+  "watchOut": "Without documented release cycles or recent commit metrics available, you should evaluate its current maintenance status carefully before adopting it for critical infrastructure.",
+  "deployNotes": "As a PHP-based application running in Docker, you will typically need to configure persistent storage for user uploads, set up a separate database backend, and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

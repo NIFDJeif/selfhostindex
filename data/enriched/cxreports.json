@@ -1,0 +1,8 @@
+{
+  "summary": "CxReports is an automation tool designed for generating PDF documents and managing reports. It features a visual template editor alongside an API and built-in email delivery functions.",
+  "goodFor": "It suits technical teams that need a self-hosted engine to automate document creation and dispatch reports via an API.",
+  "watchOut": "The software is proprietary and lacks public release history or community engagement metrics, which introduces uncertainty regarding long-term maintenance and stability.",
+  "deployNotes": "Since it runs via Docker, you will typically need to configure persistent volumes for your templates and output files, as well as a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

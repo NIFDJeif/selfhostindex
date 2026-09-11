@@ -1,0 +1,8 @@
+{
+  "summary": "Digiread is a self-hosted tool designed to strip clutter from web pages and articles to provide a clean reading view. It utilises Mozilla's Readability library under the bonnet to parse and format online content. Please note that the available documentation is entirely in French.",
+  "goodFor": "It is suitable if you prefer a self-hosted reading mode utility and are comfortable navigating French-language documentation.",
+  "watchOut": "The project has no tagged releases, zero stars, and no recorded recent commits, indicating that it may be an abandoned or highly experimental codebase. It also overlaps heavily with established, mature alternatives like Wallabag or browser-native reader views.",
+  "deployNotes": "Because the application is built with Node.js and PHP, you will typically need to configure a web server like Nginx or Apache alongside a process manager, plus a reverse proxy for TLS termination if exposed to the internet.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

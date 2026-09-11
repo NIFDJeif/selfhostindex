@@ -1,0 +1,8 @@
+{
+  "summary": "Deskpro is an on-premise help desk platform that centralises customer support channels. It provides tools for managing incoming queries via email, chat, voice, and a self-service help centre.",
+  "goodFor": "It is well-suited for organisations that require a self-hosted ticketing system with full access to the source code and APIs for customisation.",
+  "watchOut": "The software is proprietary rather than open source, and limited public release data is available to gauge its current development velocity.",
+  "deployNotes": "Because the specific underlying runtime is not detailed, you will typically need to provision persistent storage, configure a reverse proxy for TLS termination, and attach a separate relational database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

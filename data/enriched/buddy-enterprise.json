@@ -1,0 +1,8 @@
+{
+  "summary": "Buddy Enterprise is a self-hosted platform designed for Git repository management and continuous integration and delivery pipelines. It provides infrastructure to automate software build, test and deployment workflows within an organisation. Because the exact feature set and architecture details are not fully specified, it functions similarly to standard on-premise development automation tooling.",
+  "goodFor": "This platform suits teams looking for an on-premise alternative to cloud-hosted Git and CI/CD services who prefer managing their own infrastructure.",
+  "watchOut": "The proprietary licence restricts modification and redistribution, and the lack of recent public release metrics requires careful evaluation of long-term stability and update availability.",
+  "deployNotes": "Given the Node.js and Java runtime stack, you will typically need to provision persistent storage for repository data, configure a reverse proxy for TLS termination, and allocate sufficient memory for the JVM.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

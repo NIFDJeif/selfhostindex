@@ -1,0 +1,8 @@
+{
+  "summary": "Chasquid is a mail transfer agent written in Go designed to handle SMTP email delivery. It focuses on offering a simpler operational model compared to traditional mail servers while prioritising security. As a mail server, it routes, sends, and receives messages across networks.",
+  "goodFor": "It is a suitable choice if you prefer a Go-based mail transfer agent that prioritises straightforward configuration over the complexity of legacy alternatives like Postfix or Sendmail.",
+  "watchOut": "Setting up self-hosted email requires careful management of DNS records, reverse DNS, and anti-spam mechanisms to avoid deliverability issues, and this project lacks recent tagged releases.",
+  "deployNotes": "Being a compiled Go binary, it typically runs as a standalone service with minimal external runtime dependencies, though you will need to provision persistent storage for mail queues and configure certificates for TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

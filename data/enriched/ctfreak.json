@@ -1,0 +1,8 @@
+{
+  "summary": "Ctfreak is an IT task scheduler featuring a mobile-friendly web interface. It allows you to configure and execute concurrent, remote, and chained tasks including Bash, PowerShell, SQL scripts, and Webhooks.",
+  "goodFor": "It is suited for administrators looking to manage and trigger various scripts and webhooks from a centralised web dashboard.",
+  "watchOut": "The software uses a proprietary licence with no visible community activity, zero repository stars, and no tagged releases, representing a significant long-term maintenance and security risk.",
+  "deployNotes": "Because the underlying runtime and database requirements are not specified, you should inspect the container or binary requirements carefully and expect to provision your own persistent storage and reverse proxy for secure access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

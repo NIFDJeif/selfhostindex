@@ -1,0 +1,8 @@
+{
+  "summary": "Digiflashcards is a web-based application designed for creating and managing flashcards for study purposes. Its documentation is currently available exclusively in French. The project relies on Node.js and PHP runtimes.",
+  "goodFor": "It is a potential fit if you require a basic, self-hosted flashcard tool and are comfortable navigating French documentation.",
+  "watchOut": "The repository currently has no tagged releases, zero stars, and no recent commit activity, indicating low maturity and maintenance activity.",
+  "deployNotes": "You will typically need to configure a web server capable of handling PHP alongside a Node.js runtime environment, plus a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

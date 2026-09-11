@@ -1,0 +1,8 @@
+{
+  "summary": "Channels DVR Server is a backend application designed to coordinate video streaming and recording across a household. It acts as the central hub for the Channels client ecosystem, managing television tuners and recorded media files. Because specific runtime details are unpublished, its exact internal architecture remains opaque beyond its role as a media recording coordinator.",
+  "goodFor": "It suits administrators who have already invested in the Channels client applications and require a dedicated server to handle television recording schedules.",
+  "watchOut": "The software is proprietary and lacks public code visibility, and its development and maintenance status cannot be verified from public repositories.",
+  "deployNotes": "Since the underlying runtime is unknown, you should allocate persistent storage for recordings and configure standard port mappings for client communication.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

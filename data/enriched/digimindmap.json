@@ -1,0 +1,8 @@
+{
+  "summary": "Digimindmap is a self-hosted tool designed for creating simple mindmaps to organise information visually. Its documentation is currently provided exclusively in French. The repository lacks public activity metrics and tagged releases, suggesting an early-stage or experimental project.",
+  "goodFor": "It is suited for French-speaking users who want a lightweight, self-hosted mindmapping utility and are comfortable working with undocumented or minimal software.",
+  "watchOut": "The lack of recent commits, tagged releases, and the presence of French-only documentation pose significant long-term maintenance risks. You should expect to handle bugs and missing documentation yourself.",
+  "deployNotes": "Because the application is built with Node.js and PHP, you will typically need a web server like Nginx or Apache, a PHP processor, and a Node environment configured with a process manager. Ensure you set up persistent storage if user-generated mindmaps need to be retained across container or server restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

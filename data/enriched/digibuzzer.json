@@ -1,0 +1,8 @@
+{
+  "summary": "Digibuzzer provides a virtual game room interface centered around a connected buzzer system. As the documentation is currently written only in French, users may need to translate configuration guides to set up and host online quiz or game sessions.",
+  "goodFor": "It suits technical hosts running small, interactive group sessions who are comfortable reading French documentation or figuring out basic Node.js deployments.",
+  "watchOut": "The repository currently has no tagged releases and zero recorded recent commits, indicating that development activity is practically non-existent and ongoing maintenance will fall entirely on you under the AGPL-3.0 licence.",
+  "deployNotes": "Being built with Node.js, it typically requires a persistent process manager like PM2 or a container runtime, alongside a reverse proxy such as Nginx to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

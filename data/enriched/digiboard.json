@@ -1,0 +1,8 @@
+{
+  "summary": "Digiboard is a Node.js-based tool for creating collaborative digital whiteboards where multiple users can share visual notes in real time. Please note that the official project documentation is currently available only in French. As an AGPL-3.0 licensed application, any modifications you make to the source code must be shared under the same license if hosted publicly.",
+  "goodFor": "It is suited for teams or individuals looking for a self-hosted visual collaboration space and who are comfortable navigating French-language setup instructions.",
+  "watchOut": "The project currently has no tagged releases and zero recorded recent commits, indicating that it may lack active maintenance or stability guarantees. You should also weigh the AGPL-3.0 copyleft requirements against your organisation's compliance policies.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy to handle TLS termination and manage the Node process using a service manager like PM2. Persistent storage configuration will depend on whether the application relies on an external database or local file storage, which is not explicitly documented.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

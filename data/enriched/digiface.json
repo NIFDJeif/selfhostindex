@@ -1,0 +1,8 @@
+{
+  "summary": "Digiface is a web utility designed for generating avatars using the Avataaars library. Please note that the available documentation is written entirely in French. It addresses the niche requirement of producing cartoon-style vector avatars programmatically or via a user interface.",
+  "goodFor": "It is a suitable choice if you need a lightweight internal tool for generating Avataaars-based profile pictures and you are comfortable working with French documentation.",
+  "watchOut": "The project lacks public activity, has no tagged releases, and carries an unrated maintenance status, meaning you may need to patch bugs yourself. Additionally, the AGPL-3.0 licence places copyleft requirements on your deployment if you modify and network the application.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy like Nginx or Caddy to handle TLS termination. Depending on whether user state or generated assets need to be saved, ensure you configure persistent storage or environment variables appropriately.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

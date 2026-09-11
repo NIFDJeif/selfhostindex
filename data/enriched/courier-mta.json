@@ -1,0 +1,8 @@
+{
+  "summary": "Courier MTA is a mail transfer agent and groupware server that handles core messaging protocols like ESMTP, IMAP, and POP3. It also provides ancillary services including webmail, mailing lists, and basic web-based calendaring.",
+  "goodFor": "Self-hosters who need a traditional, all-in-one mail server stack written in C for Linux environments.",
+  "watchOut": "Setting up and maintaining a complete mail transfer agent involves significant operational complexity, particularly around DNS records and spam prevention. There is also potential overlap with much more widely adopted email stacks.",
+  "deployNotes": "As native Debian packages are used, you will typically need persistent storage for mail spools and configuration files. You will also want to handle TLS termination appropriately via a reverse proxy or direct certificate configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

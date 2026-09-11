@@ -1,0 +1,8 @@
+{
+  "summary": "Digiquiz is a self-hosted online application designed for publishing interactive content created using the H5P framework. It allows you to host and share educational exercises and multimedia content on your own infrastructure. Please note that the available documentation is primarily in French.",
+  "goodFor": "It is a suitable choice if you specifically need a dedicated platform to distribute H5P-based learning materials and you are comfortable navigating French documentation.",
+  "watchOut": "The repository currently has no tagged releases and zero recorded recent activity, indicating an unproven maturity level and potential maintenance risks. Additionally, it may overlap with more widely adopted learning management systems that also support H5P integration.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy like Nginx or Caddy to handle TLS termination. Ensure you provision persistent storage if user submissions or uploaded packages need to be retained across container or service restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

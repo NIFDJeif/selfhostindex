@@ -1,0 +1,8 @@
+{
+  "summary": "Cluster Control is a utility designed to deploy and oversee multiple database instances with minimal manual intervention. It incorporates features for setting up monitoring and load balancing across your database infrastructure. The codebase relies on standard distribution packages, configuration management tools, and containerisation technologies.",
+  "goodFor": "Administrators who need to standardise the rapid deployment and ongoing observation of multiple database instances without manually configuring each node.",
+  "watchOut": "The software uses a proprietary licence and shows no recent development activity or public repository metrics, meaning you may lack community support or timely security updates.",
+  "deployNotes": "You will typically need to ensure persistent storage is properly mounted for any stateful components and use a reverse proxy to handle secure TLS termination for web access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

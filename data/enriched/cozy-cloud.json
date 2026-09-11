@@ -1,0 +1,8 @@
+{
+  "summary": "Cozy Cloud is a self-hosted personal cloud platform designed to help you manage and synchronise your files, notes, contacts, passwords, and documents in one place. It operates as a centralised groupware solution for keeping your personal data under your direct control. Because concrete architectural details beyond its basic scope are sparse, it functions similarly to other self-hosted productivity and file-sync suites.",
+  "goodFor": "This software is a suitable fit if you want to experiment with a lightweight Node.js-based personal cloud alternative for basic file and data synchronisation.",
+  "watchOut": "Activity and release history for this project are currently non-existent, suggesting it may be abandoned, unmaintained, or an early experimental concept lacking community support.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy to handle TLS termination and configure persistent storage for your uploaded files and user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

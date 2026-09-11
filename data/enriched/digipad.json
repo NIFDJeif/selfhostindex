@@ -1,0 +1,8 @@
+{
+  "summary": "Digipad is a self-hosted web application designed for creating shared digital notepads where multiple users can collaborate. Its official documentation is provided entirely in French. It addresses the general requirement of real-time collaborative workspace management.",
+  "goodFor": "It is a potential fit if you specifically require a French-documented collaborative notepad solution hosted on your own infrastructure.",
+  "watchOut": "The project currently lacks tagged releases, public repository stars, and recent commit activity, which indicates an unproven maturity level and potential maintenance risks. Additionally, you will need to rely on French-language documentation for setup and troubleshooting.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy like Nginx or Caddy to handle TLS termination. You should also ensure you have a process manager configured to keep the service running reliably in the background.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

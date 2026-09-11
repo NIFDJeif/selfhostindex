@@ -1,0 +1,8 @@
+{
+  "summary": "Digirecord is a self-hosted web application designed for recording and sharing audio files. Its documentation is currently available only in French, indicating a primarily French-speaking user base. The platform facilitates straightforward media handling through drag-and-drop or single-click upload interfaces.",
+  "goodFor": "It is suited for French-speaking teams or individuals who need a dedicated, private instance for collecting and distributing simple audio recordings.",
+  "watchOut": "The project lacks tagged releases, community engagement metrics, and recent commit activity, suggesting it may be a niche or abandoned proof-of-concept rather than production-ready software. Additionally, the AGPL-3.0 licence places strict copyleft requirements on any modifications you host and distribute over a network.",
+  "deployNotes": "Because the stack combines Node.js and PHP, you will typically need to configure both runtimes behind a reverse proxy like Nginx or Apache to handle TLS termination and request routing. Persistent storage must be attached to retain uploaded and recorded audio files across container or server restarts.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

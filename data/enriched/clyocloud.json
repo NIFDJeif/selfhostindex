@@ -1,0 +1,8 @@
+{
+  "summary": "ClyoCloud is a self-hosted application designed for personal cloud storage and media management. It provides a web-based interface to handle file transfers and stream video content while keeping your data private. Released under the AGPL-3.0 licence, the project is built using Node.js.",
+  "goodFor": "It suits individuals wanting a dedicated, self-hosted web interface specifically tailored for managing personal files and media libraries under an open-source licence.",
+  "watchOut": "The repository currently has zero recorded commits in recent months and no tagged releases, indicating an early-stage or inactive project with virtually no community adoption yet.",
+  "deployNotes": "Because it runs on Node.js, you will typically need to run it behind a reverse proxy to handle TLS termination and configure persistent storage volumes on your server to retain uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

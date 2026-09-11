@@ -1,0 +1,8 @@
+{
+  "summary": "BrowserStack Automate TurboScale deploys a browser automation grid directly onto your own cloud infrastructure, specifically supporting AWS, GCP, and Azure. It provides scalable execution environments for standard testing frameworks like Selenium and Playwright within your private network. Because specific architectural details are limited, you should expect it to function as a self-hosted runner infrastructure for automated test suites.",
+  "goodFor": "Teams that need to run Selenium or Playwright tests at scale within their own private cloud environments (AWS, GCP, or Azure) rather than relying on external third-party testing clouds.",
+  "watchOut": "The software is proprietary with no public repository activity or community metrics available, meaning you will rely entirely on the vendor for support and updates.",
+  "deployNotes": "Since it runs via Docker on major cloud providers, you will typically need to configure container orchestration, persistent storage for test artefacts, and a reverse proxy to handle secure network traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

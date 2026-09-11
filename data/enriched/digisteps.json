@@ -1,0 +1,8 @@
+{
+  "summary": "Digisteps is a self-hosted application designed for building structured online educational paths and documentation. The available materials indicate it functions as a lightweight tool for organising learning content, though primary documentation is maintained exclusively in French.",
+  "goodFor": "It is suited for educators or teams who operate in French-speaking environments and require a straightforward, dedicated system for publishing sequential learning materials.",
+  "watchOut": "The project has no tagged releases, very low community visibility, and appears unmaintained with zero recent commits, posing significant risks regarding long-term reliability and security updates.",
+  "deployNotes": "Because the stack combines Node.js and PHP, you will typically need to configure a web server like Nginx or Apache alongside a process manager, as well as ensure persistent storage is available for user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

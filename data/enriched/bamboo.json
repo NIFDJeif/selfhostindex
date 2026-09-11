@@ -1,0 +1,8 @@
+{
+  "summary": "Bamboo is a continuous integration server that automates the building, testing, and releasing of software projects. It coordinates development workflows to help teams verify code changes before merging or deploying them. As a proprietary Java-based application, it provides pipeline management within a self-hosted environment.",
+  "goodFor": "It suits enterprise teams that already standardise on proprietary Atlassian toolchains and require an on-premises build server.",
+  "watchOut": "You must license commercial software to use it, and the lack of public repository activity or community metrics makes long-term maintenance tracking difficult.",
+  "deployNotes": "You will typically need to provision a dedicated database backend, configure persistent storage for build artifacts, and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

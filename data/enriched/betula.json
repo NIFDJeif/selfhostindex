@@ -1,0 +1,8 @@
+{
+  "summary": "Betula is a single-user bookmark manager written in Go. It includes Fediverse support and archiving capabilities to help you collect and preserve links.",
+  "goodFor": "It is a suitable choice if you want a dedicated, self-hosted bookmarking tool with decentralised social features running on minimal resources.",
+  "watchOut": "The repository currently has no tagged releases and zero recorded activity, indicating that it may be an early-stage or abandoned hobby project. Furthermore, the AGPL-3.0 licence places copyleft requirements on any modified network-deployed versions.",
+  "deployNotes": "Because it is built with Go, it typically compiles to a single static binary that can be run behind a reverse proxy for TLS termination. You will need to ensure persistent storage is configured if the application saves bookmarks and archives to a local database or file structure.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}

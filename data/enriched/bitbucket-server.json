@@ -1,0 +1,8 @@
+{
+  "summary": "BitBucket Server is a proprietary enterprise-level Git repository management solution designed as an alternative to platforms like GitLab. It provides self-hosted source code management and project collaboration tools tailored for large organisations. Written in Java, it facilitates internal version control workflows on private infrastructure.",
+  "goodFor": "This is a suitable choice for corporate environments that require an enterprise-grade, on-premise Git solution within a closed ecosystem and operate under a proprietary software policy.",
+  "watchOut": "As a proprietary enterprise application without public metrics or recent tagged releases visible here, auditing its codebase or verifying active maintenance is not possible. Licensing costs and vendor lock-in are also significant factors to consider.",
+  "deployNotes": "Being built with Java, it typically requires a dedicated Java Runtime Environment, a persistent external database such as PostgreSQL or MySQL, and sufficient RAM allocation. You will also usually need to place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-11"
+}
