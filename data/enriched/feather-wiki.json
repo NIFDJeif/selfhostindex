@@ -1,0 +1,8 @@
+{
+  "summary": "Feather Wiki is a single-file JavaScript application designed for building personal knowledge bases, non-linear notebooks, and structured databases. Running entirely within your web browser, the entire codebase spans a mere 58 kilobytes. It provides a lightweight approach to maintaining interconnected notes without relying on external cloud infrastructure.",
+  "goodFor": "It suits technical users who want an ultra-lightweight, portable tool for local note-taking and personal documentation without installing complex server stacks.",
+  "watchOut": "The lack of recent version tags and recorded community activity means you should expect to maintain it yourself without much upstream support. Additionally, it lacks built-in multi-user synchronisation features out of the box.",
+  "deployNotes": "Because it runs as a client-side JavaScript file, you typically only need a basic static web server to host it, with no separate backend database required.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

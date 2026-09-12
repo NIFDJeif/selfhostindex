@@ -1,0 +1,8 @@
+{
+  "summary": "Flink is a self-hosted tool designed to generate QR codes, create embeddable link previews for websites, and crawl or scrape metadata. Operating in the URL shortener and link management space, it helps administrators handle outgoing link data and visual identifiers. It is distributed under the MIT licence and packaged as a Docker container.",
+  "goodFor": "It is suited for administrators looking for a lightweight, self-hosted utility to handle basic link previews and QR code generation without relying on external SaaS APIs.",
+  "watchOut": "The project currently lacks tagged releases, community engagement metrics, and recent commit activity, which indicates early-stage maturity or abandonment and a risk of unpatched bugs.",
+  "deployNotes": "As a Docker deployment, you will typically need to configure a reverse proxy to handle TLS termination and ensure you allocate persistent volumes if the application stores link data or metadata locally.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

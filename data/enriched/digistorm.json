@@ -1,0 +1,8 @@
+{
+  "summary": "Digistorm is a self-hosted Node.js application designed to facilitate interactive group sessions through collaborative surveys, quizzes, brainstorms, and word clouds. Its core documentation is maintained in French, which may require translation for non-francophone administrators. It addresses the need for real-time audience engagement tools within private infrastructure.",
+  "goodFor": "It suits teams or educators seeking a self-hosted alternative to proprietary polling tools who operate comfortably with French documentation.",
+  "watchOut": "The repository currently shows no tagged releases and zero recent commits, indicating that the project may be an early-stage prototype or largely unmaintained. You should expect to handle bugs and missing features independently.",
+  "deployNotes": "As a Node.js application, it typically requires a persistent process manager like PM2 or a container runtime, alongside a reverse proxy to handle TLS termination. You should also provision persistent storage and check if a separate database is required by inspecting the configuration files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

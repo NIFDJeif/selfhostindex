@@ -1,0 +1,8 @@
+{
+  "summary": "GarageHQ is a geo-distributed, S3-compatible storage service designed to handle object storage requirements across multiple locations. It provides an interface compatible with standard S3 protocols, allowing you to manage and store unstructured data across dispersed nodes.",
+  "goodFor": "It suits administrators looking for a self-hosted, S3-compatible object storage layer distributed across multiple distinct servers or geographical regions.",
+  "watchOut": "The AGPL-3.0 licence places copyleft requirements on your modifications if you offer the software as a network service, and the lack of recent release activity or metrics indicates you should thoroughly evaluate its stability before production use.",
+  "deployNotes": "As a Rust application packaged for containerised environments, you will typically run it via Docker with persistent volume mounts for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

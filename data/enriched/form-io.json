@@ -1,0 +1,8 @@
+{
+  "summary": "form.io is an API building platform centred around a drag-and-drop form designer that works independently of your application framework. It provides a structured approach to generating REST endpoints based on form schemas. Both open-source and enterprise editions are available.",
+  "goodFor": "Developers who need a rapid way to generate form-driven REST APIs and require an interface that integrates across different frontend technologies.",
+  "watchOut": "Activity metrics and repository data indicate very low or nonexistent public engagement, suggesting you may need to rely heavily on community forks or self-support.",
+  "deployNotes": "As a Node.js application packaged with Docker, it will typically require persistent storage for backend state and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

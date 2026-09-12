@@ -1,0 +1,8 @@
+{
+  "summary": "Endurain is a self-hosted fitness tracking service that allows you to maintain complete ownership of your personal activity data. Because the official project details are sparse, it likely functions similarly to standard self-hosted workout loggers, storing your exercise metrics locally. It uses the AGPL-3.0 licence and is distributed via Docker.",
+  "goodFor": "It is a suitable option if you want to log your health activities on your own infrastructure rather than relying on commercial cloud platforms.",
+  "watchOut": "The project has no tagged releases and zero recorded repository stars or recent commits, indicating that it is likely an early-stage or abandoned hobby project with minimal community support.",
+  "deployNotes": "Since it is packaged for Docker, you will typically need to configure persistent volume mounts to prevent data loss when container instances are updated or recreated. You will also want to place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

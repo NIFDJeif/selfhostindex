@@ -1,0 +1,8 @@
+{
+  "summary": "Framadate is a web application designed for scheduling appointments and conducting simple group decisions. Users can create custom polls based on dates or general subjects, share the links with participants, and collect responses to reach a consensus.",
+  "goodFor": "It is suited for organisations or individuals seeking a straightforward, self-hosted tool for coordinating schedules without relying on third-party SaaS alternatives.",
+  "watchOut": "The lack of recent release data and commit activity suggests uncertain long-term maintenance, meaning you may need to patch security vulnerabilities yourself.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or PostgreSQL, and standard persistent storage for poll data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

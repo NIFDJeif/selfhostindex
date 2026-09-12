@@ -1,0 +1,8 @@
+{
+  "summary": "Expensave is a self-hosted application designed for personal and family budget management. It provides tools to track daily spending on a shared calendar, import bank statements, and review financial health through generated reports.",
+  "goodFor": "It suits individuals or families looking for a dedicated, self-hosted platform to monitor household finances and reconcile accounts collaboratively.",
+  "watchOut": "The project currently lacks tagged releases, public engagement, and recent activity, suggesting it may be an early-stage or abandoned codebase with limited community support.",
+  "deployNotes": "Since it is distributed via Docker, you will typically need to configure persistent volume mounts for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

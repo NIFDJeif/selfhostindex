@@ -1,0 +1,8 @@
+{
+  "summary": "Hubzilla is a decentralized platform combining identity management, content publishing, file sharing, and social communication into a single system. Built on PHP under the MIT licence, it allows operators to run independent nodes that interoperate across a distributed network.",
+  "goodFor": "It is suitable for administrators seeking a self-hosted alternative to mainstream social networks and cloud storage providers with an emphasis on data ownership.",
+  "watchOut": "The lack of tagged releases and recent commit activity suggests potential maintenance stagnation, requiring you to carefully assess its stability before production use.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or PostgreSQL, and persistent storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

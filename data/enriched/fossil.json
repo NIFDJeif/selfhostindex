@@ -1,0 +1,8 @@
+{
+  "summary": "Fossil is a distributed version control system that integrates project management tools directly into the core application. It provides built-in wiki and bug tracking capabilities alongside standard source code management. This approach bundles documentation and issue history with the codebase itself.",
+  "goodFor": "It is well-suited for solo developers or small teams who want an all-in-one project management and version control environment without configuring separate web applications.",
+  "watchOut": "The ecosystem and community are considerably smaller than git-based alternatives, which may limit third-party integrations and troubleshooting resources.",
+  "deployNotes": "Being written in C, it typically runs as a lightweight standalone binary or via CGI behind a reverse proxy for TLS termination. You will need to ensure persistent storage for the underlying SQLite-based repository files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

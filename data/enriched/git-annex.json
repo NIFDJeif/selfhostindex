@@ -1,0 +1,8 @@
+{
+  "summary": "Git Annex is a utility designed to handle file synchronisation across multiple local computers, remote servers, and external storage drives. It manages large files within a version control framework without storing the file contents directly inside the revision history itself.",
+  "goodFor": "It suits technical users who need to track and synchronise large media collections or datasets across disparate physical storage locations using command-line workflows.",
+  "watchOut": "The project lacks recent release activity or visibility metrics, which may indicate stagnant development or niche maintenance status. Additionally, the operational learning curve for managing annex-backed repositories can be steep compared to standard synchronisation tools.",
+  "deployNotes": "As a compiled Haskell binary, it typically requires persistent storage volumes mounted for the data directories and does not mandate an external database. You generally run it locally on the machines being synchronised rather than as a centralised daemon requiring a TLS reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

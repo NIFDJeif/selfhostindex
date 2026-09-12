@@ -1,0 +1,8 @@
+{
+  "summary": "Drupal is an open-source content management platform written in PHP and distributed under the GPL-2.0 licence. It functions as a foundational system for structuring, managing, and publishing digital content on a web server. While the official feature set is broadly described, systems of this type generally handle user permissions, database storage, and template rendering for websites.",
+  "goodFor": "It is suited for administrators looking to deploy a self-hosted content management platform using standard PHP hosting environments.",
+  "watchOut": "The provided repository data shows no recent commits or tagged releases, which may indicate a lack of active upstream development or an incomplete mirror. You should verify the stability and maintenance status of the specific source channel before relying on it in production.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a separate relational database like MySQL or PostgreSQL, and persistent storage for uploaded media files. You will also need to configure TLS termination via a reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

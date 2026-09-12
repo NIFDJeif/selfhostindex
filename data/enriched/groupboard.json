@@ -1,0 +1,8 @@
+{
+  "summary": "Groupboard provides a browser-based collaborative canvas combined with audio and video conferencing, screen sharing, and code editing capabilities. It also offers optional session recording and playback functionality for reviewing past meetings. The platform falls under custom communication systems, enabling multi-user real-time interaction.",
+  "goodFor": "It suits teams or educators looking for an integrated virtual workspace that bundles visual whiteboarding with voice, video, and text-based tools.",
+  "watchOut": "The software is proprietary and lacks public development metrics or tagged releases, which raises questions about long-term maintenance and vulnerability patching.",
+  "deployNotes": "Because the runtime environment is not specified, you will typically need to provision a standard server, configure a reverse proxy for TLS termination, and ensure persistent storage is available if session recordings are enabled.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

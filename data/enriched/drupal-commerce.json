@@ -1,0 +1,8 @@
+{
+  "summary": "Drupal Commerce is an e-commerce framework implemented as a module for the Drupal content management system. It provides core online store functionality and integrates with various secondary modules for payment processing and shipping management. Because the official project details are minimal, administrators should expect to configure catalog, cart, and checkout workflows within the standard Drupal architecture.",
+  "goodFor": "It is a suitable choice if you are already maintaining a Drupal website and need to add online store capabilities without adopting a separate standalone platform.",
+  "watchOut": "The lack of recent release data and visible repository activity suggests you should carefully evaluate its long-term maintenance status and community support before committing to production use.",
+  "deployNotes": "As a PHP-based application running on Drupal, it typically requires a relational database such as MySQL or PostgreSQL and a standard web server like Apache or Nginx configured to handle PHP processing. You will also need persistent storage for uploaded media and product assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

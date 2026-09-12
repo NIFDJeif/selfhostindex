@@ -1,0 +1,8 @@
+{
+  "summary": "Digitools is a collection of basic utilities designed to support the facilitation of courses, both in-person and remotely. The available documentation is entirely in French, which may present a barrier for English-speaking administrators. It addresses the category of learning management and groupware tooling for educational settings.",
+  "goodFor": "It suits educators or institutions operating in French who need simple supplementary utilities for teaching and course management.",
+  "watchOut": "The repository shows a lack of recent development activity and lacks official tagged releases, indicating potential maintenance risks. Additionally, you will need to rely on French-language documentation for setup and troubleshooting.",
+  "deployNotes": "As a PHP application, it will typically require a standard web server like Apache or Nginx configured with PHP-FPM, along with a database backend if data persistence is needed. You should also ensure TLS is terminated via a reverse proxy and configure regular backups for any persistent storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

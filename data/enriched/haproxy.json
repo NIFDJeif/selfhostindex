@@ -1,0 +1,8 @@
+{
+  "summary": "HAProxy is a reverse proxy designed to handle web traffic routing, load balancing, and high availability for HTTP and TCP applications. It operates by accepting incoming connections and forwarding them across backend servers according to configured routing rules. Written in C, it can be deployed directly via package managers or inside containerised environments.",
+  "goodFor": "This is a suitable choice for engineers needing to distribute incoming web traffic efficiently across multiple backend servers to ensure service availability.",
+  "watchOut": "Configuration is handled through text files rather than a graphical interface, which introduces a steeper learning curve for operators unfamiliar with manual routing setups.",
+  "deployNotes": "It typically runs as a standalone service without requiring a separate database, though you will need to manage configuration files and handle persistent logging for traffic monitoring.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

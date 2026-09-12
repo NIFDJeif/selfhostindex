@@ -1,0 +1,8 @@
+{
+  "summary": "Full Help is a self-hosted ticketing and knowledge base application designed to manage customer support requests. It provides multi-company and multi-language support, communication channels, custom branding options, and a RESTful API for integration. The project is distributed under a proprietary licence and built using PHP.",
+  "goodFor": "This software is suitable if you need a basic, self-hosted ticketing desk with multi-tenant capabilities and you explicitly prefer proprietary PHP solutions.",
+  "watchOut": "The project currently shows zero repository stars and no recorded commit activity, meaning you face significant maintenance risks and an absence of community support. The proprietary licence also prevents you from modifying or auditing the source code yourself.",
+  "deployNotes": "As a PHP application, you will typically need to host it behind a web server like Nginx or Apache, paired with a database such as MySQL or PostgreSQL. You will also need to configure persistent storage for user uploads and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Compass is a self-hosted landing page designed to aggregate links to your various web services, dashboards, and documents in one central hub. It features automatic service discovery by connecting directly to infrastructure sources like Docker, Kubernetes, and Tailscale. Built using Go, it compiles into a lightweight binary suitable for containerised environments.",
+  "goodFor": "It suits technical users who want an automatically populated start page or dashboard for a homelab or private network without manually maintaining static link lists.",
+  "watchOut": "The repository currently shows no tagged releases or recent commit activity, suggesting early-stage development or an abandoned project with potential stability risks.",
+  "deployNotes": "You can typically run this as a Docker container, requiring appropriate socket or API access to your container runtime or orchestrator for discovery features to function.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "FileRun is a self-hosted file management system designed to handle file storage and transfer tasks. It includes integrations with external services such as Google and Microsoft Office.",
+  "goodFor": "It suits administrators who require a dedicated web-based interface for managing files and wish to connect their deployment with external productivity suites.",
+  "watchOut": "The software is distributed under a proprietary licence rather than open source, and public development metrics are unavailable.",
+  "deployNotes": "Because the application is built with PHP, you will typically need a standard web server stack like Apache or Nginx, a relational database, and persistent storage volumes.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

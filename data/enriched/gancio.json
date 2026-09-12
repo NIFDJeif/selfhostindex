@@ -1,0 +1,8 @@
+{
+  "summary": "Gancio is a self-hosted application designed for local community event and agenda sharing. It allows groups to publish and coordinate schedules for local activities through a centralised web interface. The codebase is implemented in Node.js and distributed under the AGPL-3.0 licence.",
+  "goodFor": "It suits small community groups or neighbourhood associations that want a dedicated, self-hosted space to list local events without relying on commercial social platforms.",
+  "watchOut": "The project lacks tagged releases and public commit activity, which indicates potential maintenance stagnation and a risk of unpatched vulnerabilities. Evaluating the source code before deployment is advised due to the sparse activity metrics.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy such as Nginx or Caddy to handle TLS termination, alongside a process manager like PM2 or systemd to keep the service running. Persistent storage may also be required depending on how the application handles its data persistence layer.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

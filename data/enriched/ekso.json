@@ -1,0 +1,8 @@
+{
+  "summary": "EKSO is a self-hosted help desk ticketing system combined with a project and issue tracker. It is designed to help teams manage incoming support requests alongside internal tasks within a single workspace. The software is distributed as a containerised image.",
+  "goodFor": "It is suited for small teams or evaluators looking to trial a combined ticketing and issue-tracking environment using container deployment.",
+  "watchOut": "The project is proprietary, has no recorded tagged releases, and shows no recent commit activity, carrying significant abandonment risk.",
+  "deployNotes": "As a Docker deployment, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

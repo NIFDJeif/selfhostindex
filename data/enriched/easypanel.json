@@ -1,0 +1,8 @@
+{
+  "summary": "Easypanel is a server control panel that uses Docker to manage applications and infrastructure. It provides a web-based interface for administering self-hosted services without needing to write raw configuration files. Because exact technical specifics are limited, it functions similarly to other container-based management dashboards.",
+  "goodFor": "It suits administrators who prefer a graphical interface over the command line to manage containerised workloads on a single server. It is also an option if you want to experiment with alternative control panels in a test environment.",
+  "watchOut": "The software is proprietary, meaning you cannot inspect or modify the source code yourself. It also lacks public repository metrics and visible release history, which introduces risks regarding long-term maintenance and security patching.",
+  "deployNotes": "Since it runs on Docker, you will typically need to mount persistent volumes for configuration data and ensure your host system has the Docker daemon installed. You may also need to configure a separate reverse proxy to handle TLS termination for the control panel interface.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

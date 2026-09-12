@@ -1,0 +1,8 @@
+{
+  "summary": "GoToSocial is a federated social network server built on the ActivityPub protocol. It implements the standard Mastodon client application programming interface, allowing you to interact with the wider fediverse using compatible apps.",
+  "goodFor": "It suits administrators who want a lightweight, alternative backend for federated social networking without the resource footprint of larger Ruby-based implementations.",
+  "watchOut": "The project lacks tagged releases and current activity metrics are unavailable, meaning you may encounter stability issues or a lack of documentation.",
+  "deployNotes": "As a Go application packaged for Docker, you will typically need to configure persistent storage for user data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Funkwhale is a web-based, multi-user audio streaming server built with Python. It allows you to host and stream your personal music collection through a browser interface. As a self-hosted platform, it gives you full control over your audio files and user access.",
+  "goodFor": "It is a suitable choice if you want to run a private music streaming service for multiple users on your own infrastructure.",
+  "watchOut": "The project currently lacks recent release data and visible repository activity, which indicates potential maintenance risks. You should evaluate its long-term viability before committing to a production deployment.",
+  "deployNotes": "As a Python web application, it typically requires a WSGI or ASGI server behind a reverse proxy like Nginx to handle TLS termination. You will also need to configure persistent storage for the media files and a separate relational database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Digitranscode is a Node.js application designed to handle audio and video file conversions directly within a web browser interface. Its upstream documentation is written entirely in French, which may require translation for non-French speakers. Because the official description is minimal, it operates within the standard domain of web-based media transcoding tools.",
+  "goodFor": "It is a suitable option if you specifically need a lightweight, self-hosted browser utility for media conversion and prefer a Node.js stack with an AGPL-3.0 licence.",
+  "watchOut": "The project lacks tagged releases and has a zero star count, indicating very low community adoption and an unproven maintenance record. Furthermore, you will need to rely on French-language documentation to resolve any configuration issues.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy to handle TLS termination and manage process lifecycles with a utility like PM2 or systemd. Ensure your server has adequate CPU resources if you plan to perform heavy media transcoding operations.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

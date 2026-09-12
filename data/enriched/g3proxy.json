@@ -1,0 +1,8 @@
+{
+  "summary": "g3proxy is a forward proxy server that handles routing traffic through multiple proxy chains, inspecting protocols, and performing man-in-the-middle interception. It also includes support for ICAP adaptation and transparent proxy configurations. It is written in Rust and packaged as a Debian package.",
+  "goodFor": "It is suitable for administrators needing to route and inspect complex corporate or network traffic through custom proxy chains.",
+  "watchOut": "The software lacks significant community adoption metrics and public release history, which may present risks regarding long-term maintenance and troubleshooting support.",
+  "deployNotes": "As a compiled binary packaged for Debian, it typically runs directly on the host system without requiring a complex runtime environment like a database, though you will need to manage its configuration files and systemd service manually.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "FHEM is a home automation server designed to handle common household tasks such as controlling lights and heating systems. It also allows you to log events like temperature fluctuations and power usage over time. You can interact with the system through web browsers, smartphone frontends, telnet, or direct TCP/IP connections.",
+  "goodFor": "It suits technical users who want a self-hosted control hub for diverse Internet of Things devices and prefer managing automation logic directly.",
+  "watchOut": "The lack of recent release data and visible repository activity suggests you may encounter an older codebase with limited community momentum compared to modern alternatives.",
+  "deployNotes": "Because the application is built with Perl, you will typically need to ensure the correct Perl runtime and module dependencies are installed on your server, alongside persistent storage for logs and configuration files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

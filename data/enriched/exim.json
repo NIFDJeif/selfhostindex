@@ -1,0 +1,8 @@
+{
+  "summary": "Exim is a message transfer agent developed at the University of Cambridge for routing, delivering, and receiving electronic mail. As a mail transfer agent, it handles the core underlying infrastructure required to move email messages across networks between servers. It is traditionally configured using plain text configuration files to manage mail delivery rules and policies.",
+  "goodFor": "It is a suitable choice for systems administrators requiring a traditional mail transfer agent on Debian-based Linux distributions who are comfortable with complex text-based configuration.",
+  "watchOut": "Configuring mail transfer agents involves a steep learning curve and significant operational risk if misconfigured, as errors can lead to open relays or rejected mail delivery. Additionally, the project lacks visible modern activity metrics in this directory, meaning you should verify its current upstream status before adoption.",
+  "deployNotes": "As a compiled C application distributed via deb packages, it typically integrates directly with standard system package managers on Linux servers. It generally requires persistent storage for mail queues and proper integration with system TLS certificates to handle encrypted mail transport securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

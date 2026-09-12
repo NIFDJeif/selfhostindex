@@ -1,0 +1,8 @@
+{
+  "summary": "Digiview provides a distraction-free web interface for watching videos from YouTube. Official documentation is currently available in French only. It is built using Node.js and PHP under the AGPL-3.0 licence.",
+  "goodFor": "Users who want a minimal interface for viewing YouTube content without standard platform clutter. It suits self-hosters looking for lightweight, open-source web applications.",
+  "watchOut": "The project has no tagged releases and zero repository stars, indicating very early development or an experimental state. You should expect potential gaps in documentation and maintenance.",
+  "deployNotes": "Hosting this typically requires configuring a web server to handle PHP alongside a Node.js runtime environment. You will also need a standard reverse proxy setup to terminate TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

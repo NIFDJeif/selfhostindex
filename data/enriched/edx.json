@@ -1,0 +1,8 @@
+{
+  "summary": "edX is an open-source online learning platform designed to host and deliver structured educational courses, video lectures, and student assessments. It provides the core engine behind large-scale digital teaching infrastructure, allowing you to run your own virtual campus or training portal. Because the official description is broad, the software generally handles course creation, student enrolment, and progress tracking.",
+  "goodFor": "It suits institutions, organisations, or educators who require a self-hosted, customisable learning management system under an AGPL licence.",
+  "watchOut": "Enterprise-grade learning platforms of this scale typically impose a significant operational and infrastructural burden to install, configure, and maintain. Given the lack of recent release activity and visible metrics, you may encounter challenges with community support and upstream updates.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI application server, a persistent relational database for user and course data, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

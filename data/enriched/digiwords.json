@@ -1,0 +1,8 @@
+{
+  "summary": "Digiwords is a web application designed for generating visual word clouds from text input. The available documentation is written entirely in French, which may present a barrier for English-speaking administrators. It relies on a mixed Node.js and PHP technology stack.",
+  "goodFor": "It suits administrators looking for a straightforward, self-hosted text visualisation tool who are comfortable navigating French documentation.",
+  "watchOut": "The repository currently shows no tagged releases, zero stars, and no recent commit activity, indicating low project momentum. You should also consider that it overlaps heavily with more mature charting and text-processing alternatives.",
+  "deployNotes": "Because the application combines Node.js and PHP runtimes, you will typically need to configure a web server like Nginx or Apache alongside a process manager to handle both components. You should also deploy a standard reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

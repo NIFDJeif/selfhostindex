@@ -1,0 +1,8 @@
+{
+  "summary": "Geeftlist is a collaborative platform designed for managing, sharing, and reserving gifts among friends and family members. It helps groups coordinate gift-giving to avoid duplication and keep track of desired items. The software is packaged as a Docker container.",
+  "goodFor": "It is suitable for families or social groups looking to self-host a private coordination tool for birthdays, holidays, and gift exchanges.",
+  "watchOut": "The project currently has no tagged releases and zero repository stars, indicating very low community adoption and an unproven development history.",
+  "deployNotes": "As a Docker-based application, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

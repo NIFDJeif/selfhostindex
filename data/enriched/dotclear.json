@@ -1,0 +1,8 @@
+{
+  "summary": "Dotclear is a web application designed for publishing and managing a blog. It provides a structured space to author and organise articles on a self-hosted server. As the official details are minimal, it functions broadly like traditional publishing software within the blogging category.",
+  "goodFor": "It is suited for users who want to run a dedicated blogging platform on their own PHP-compatible infrastructure.",
+  "watchOut": "Activity on the project appears stagnant, with no recent releases or commit data available to gauge ongoing maintenance. It also faces heavy competition from more widely adopted alternatives.",
+  "deployNotes": "Since it is built with PHP, you will typically need a web server like Nginx or Apache, a PHP runtime, and a separate database such as MySQL or MariaDB with persistent storage configured.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

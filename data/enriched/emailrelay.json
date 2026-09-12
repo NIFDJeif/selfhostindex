@@ -1,0 +1,8 @@
+{
+  "summary": "EmailRelay functions as a lightweight Simple Mail Transfer Protocol and Post Office Protocol server designed for Linux and Windows operating systems. It acts as an intermediary for message routing and delivery within local networks or between mail clients and upstream servers. The software is written in C++ and operates under the GPL-3.0 licence.",
+  "goodFor": "This utility is a suitable fit if you need a straightforward, resource-efficient mail relay or proxy agent for a small-scale infrastructure without the complexity of larger MTA suites.",
+  "watchOut": "Public repository activity indicators and release histories suggest low maintenance velocity, meaning you should be prepared to handle troubleshooting or patches independently. It also lacks the extensive ecosystem and documentation found in more prominent alternatives like Postfix or Exim.",
+  "deployNotes": "As a compiled C++ binary, it typically requires minimal runtime dependencies and does not usually demand a separate database engine for standard operation. You will need to manage persistent storage for spool directories and configure external TLS termination if encrypted transport is required.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}

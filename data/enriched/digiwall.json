@@ -1,0 +1,8 @@
+{
+  "summary": "Digiwall is a Node.js-based tool designed to create multimedia collaborative walls for remote or in-person group work. Its documentation is currently available only in French, which may affect usability for non-Francophone teams. As part of the groupware category, it facilitates shared digital workspace interactions.",
+  "goodFor": "It suits teams or organisations comfortable with French-language documentation who need a self-hosted collaborative surface for group sessions.",
+  "watchOut": "The repository has no tagged releases and zero recorded stars, indicating very early-stage maturity and a lack of community validation. You should also consider the copyleft implications of the AGPL-3.0 licence if you intend to modify or integrate it with other software.",
+  "deployNotes": "Being built with Node.js, it typically requires a Node runtime environment and a reverse proxy such as Nginx or Caddy to handle TLS termination. You should also ensure a process manager like PM2 or systemd is configured to keep the service running.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-12"
+}
