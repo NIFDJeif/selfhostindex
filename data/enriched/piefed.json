@@ -1,0 +1,8 @@
+{
+  "summary": "PieFed is a decentralised link aggregator and forum platform designed for the fediverse, serving as an open-source alternative to traditional platforms like Reddit. It allows you to participate in community-driven discussions and share content across interconnected servers using open federation protocols. The application is built using Python and packaged via Docker for self-hosting.",
+  "goodFor": "It is a suitable choice if you want to deploy a community link-sharing hub that integrates with the broader fediverse network.",
+  "watchOut": "The project has a very small public footprint with no tagged releases, meaning you should anticipate potential stability issues and a lack of community documentation.",
+  "deployNotes": "You will typically need to configure persistent storage for application data and place the Docker container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

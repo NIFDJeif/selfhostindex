@@ -1,0 +1,8 @@
+{
+  "summary": "Inboxen provides a mechanism for generating an unlimited number of distinct email addresses for incoming messages. Written in Python and released under the GPL-3.0 licence, it manages mail collection for users who require multiple isolated communication endpoints. The project currently lacks tagged releases and has a zero star count, indicating a niche or early-stage codebase.",
+  "goodFor": "This tool suits individual users or developers who need to generate disposable or compartmentalised email addresses to filter spam and manage communication channels.",
+  "watchOut": "The complete absence of recent commit activity and official tagged releases suggests minimal ongoing maintenance and a potential lack of community support. Setting it up may require debugging issues independently.",
+  "deployNotes": "As a Python application, you will typically need to run it behind a reverse proxy that handles TLS termination, and configure a persistent storage backend or mail server integration to retain incoming messages.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

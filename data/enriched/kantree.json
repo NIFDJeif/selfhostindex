@@ -1,0 +1,8 @@
+{
+  "summary": "Kantree is a self-hosted platform designed for work management and team collaboration. It provides tools to organise tasks, track project progress, and coordinate workflows within a shared digital space.",
+  "goodFor": "Teams looking for an internal collaboration and project tracking workspace hosted on their own infrastructure.",
+  "watchOut": "The software uses a proprietary licence, and its exact operational maturity and community activity are unclear given the lack of public repository metrics.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI server behind a reverse proxy for TLS termination, a dedicated database backend, and persistent storage for user data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "PhotoStructure is a self-hosted media management tool designed to organise collections of photographs and videos into a web-based interface. It can be installed as a native desktop application, run via Node.js, or deployed using Docker.",
+  "goodFor": "It suits individuals looking to consolidate family media libraries onto their own hardware rather than relying on commercial cloud storage providers.",
+  "watchOut": "The software is proprietary, and with no recent commits or tagged releases visible, you should consider the long-term maintenance risks of adopting it.",
+  "deployNotes": "As a Node.js-based application, you will typically need to configure persistent storage volumes for your media library and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

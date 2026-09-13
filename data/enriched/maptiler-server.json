@@ -1,0 +1,8 @@
+{
+  "summary": "MapTiler Server is a self-hosted application designed for serving geographic information, including OpenStreetMap vector tiles, satellite imagery, and custom datasets. It allows organisations to host their own mapping infrastructure and connect directly to spatial databases such as PostGIS. This enables local rendering and management of spatial data without relying on external third-party mapping APIs.",
+  "goodFor": "It suits teams that need to keep mapping data on-premise for privacy, regulatory compliance, or offline access.",
+  "watchOut": "The software is proprietary, which may limit modification and auditing compared to open-source alternatives in the maps and GPS category.",
+  "deployNotes": "As the underlying runtime is not specified, you should plan for standard hosting prerequisites like persistent storage for map tiles and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

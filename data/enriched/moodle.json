@@ -1,0 +1,8 @@
+{
+  "summary": "Moodle is an open source learning management system designed to host and manage online courses. It provides a structured environment for educators to publish learning materials and track student progress.",
+  "goodFor": "It suits organisations and educators who need a customisable, community-supported platform to deliver online courses and educational content.",
+  "watchOut": "As an educational platform with a large feature set, it can present a significant configuration and maintenance overhead for administrators.",
+  "deployNotes": "Hosting typically requires a standard PHP stack with a relational database like MySQL or PostgreSQL, alongside persistent storage for user uploads and course files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

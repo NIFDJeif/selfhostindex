@@ -1,0 +1,8 @@
+{
+  "summary": "Inventaire is a collaborative tool designed for mapping physical resources, with its current scope focused primarily on tracking books using Wikidata and ISBN identifiers. It allows communities or individuals to catalogue items in a shared graph structure. The platform acts as a decentralised alternative for bibliographic inventory management.",
+  "goodFor": "It suits small groups or enthusiasts wishing to map and share book collections using open data standards like Wikidata.",
+  "watchOut": "Development appears inactive with no tagged releases, meaning you may encounter unpatched bugs and will likely have to fix issues yourself.",
+  "deployNotes": "As a Node.js application, it will typically require a process manager like PM2, a reverse proxy such as Nginx to handle TLS termination, and a persistent database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

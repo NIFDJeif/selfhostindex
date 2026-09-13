@@ -1,0 +1,8 @@
+{
+  "summary": "NutriTrace is a self-hosted nutrition and diet tracker designed to monitor daily food intake and physical activity. It offers barcode scanning, synchronisation with various wearable fitness devices, and multi-user support alongside an integrated AI assistant. This application serves as a privacy-focused alternative to commercial platforms like MyFitnessPal and Cronometer.",
+  "goodFor": "It suits individuals looking to track their dietary habits and exercise data on their own infrastructure while avoiding third-party data collection.",
+  "watchOut": "The project exhibits a moderate maintenance pace and a relatively small repository community, meaning updates or bug fixes may arrive slowly. It also competes directly with heavily polished proprietary tools which might offer more extensive food databases out of the box.",
+  "deployNotes": "As a containerised application, deployment typically requires persistent volumes for database and user data storage, along with a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

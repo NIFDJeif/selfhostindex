@@ -1,0 +1,8 @@
+{
+  "summary": "Our Shopping List is a lightweight, containerised application designed for collaborative list management. It provides a shared space for household shopping lists and basic task tracking among multiple users. As a minimalist self-hosted tool, it focuses strictly on shared lists without complex project management overhead.",
+  "goodFor": "It suits small households or groups who want a private, self-hosted alternative to commercial cloud-based list apps for grocery and simple task coordination.",
+  "watchOut": "The project lacks public activity metrics, tagged releases, and community traction, suggesting it may be a personal experiment rather than a maintained tool. You should expect to handle bugs yourself or look to established alternatives if you need long-term stability.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for your list data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

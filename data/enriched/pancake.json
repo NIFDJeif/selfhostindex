@@ -1,0 +1,8 @@
+{
+  "summary": "Pancake is a web-based suite designed for handling client billing, project organisation, time tracking, and business proposals. It provides a central workspace to manage the commercial workflow from initial client pitch through to final payment. Because the exact feature set and maturity are difficult to verify from the provided metadata, you should evaluate its suitability for your specific billing requirements thoroughly.",
+  "goodFor": "Freelancers and small agencies that need a single platform to track billable hours, issue invoices, and manage client projects.",
+  "watchOut": "The software is distributed under a proprietary licence and lacks visible public repository activity, which introduces long-term maintenance and security risks.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL, and persistent storage for uploaded files and client documents.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

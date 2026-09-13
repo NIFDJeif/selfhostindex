@@ -1,0 +1,8 @@
+{
+  "summary": "Jitbit Helpdesk is a ticketing system designed to track, manage, and organise customer support requests and IT issues. While the official description provides minimal functional specifics, software in this category typically centralises incoming support emails and organises them into a team-accessible queue. It is built on the .NET framework.",
+  "goodFor": "It suits teams looking for a straightforward ticketing platform to process customer inquiries using a proprietary .NET codebase.",
+  "watchOut": "The software is proprietary with no public repository metrics or recent release visibility, meaning you will need to rely entirely on the vendor for updates, security patches, and support without community auditing.",
+  "deployNotes": "As a .NET application, it will typically require a compatible web server or runtime environment, a persistent relational database such as SQL Server, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

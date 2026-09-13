@@ -1,0 +1,8 @@
+{
+  "summary": "MediaWiki is a web-based wiki application designed to facilitate collaborative documentation and knowledge management. It provides the core engine used by large-scale collaborative reference sites to organise, link, and edit hypertext documents across multiple users.",
+  "goodFor": "It is a suitable choice if you need to host a large, structured knowledge base or documentation repository modelled on the architecture of Wikipedia.",
+  "watchOut": "Operational maintenance can be complex due to the extensive configuration required for extensions, caching layers, and search backends. Additionally, while the core codebase is mature, setup and administration demand dedicated system administration effort.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or MariaDB, and persistent storage for uploaded media files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Jami is a universal communication platform designed to preserve user privacy and freedoms. It operates as a decentralised system for messaging and calls without relying on centralised servers. Because the exact protocol details are broad, it broadly addresses the problem of peer-to-peer digital communication and data sovereignty.",
+  "goodFor": "It is a suitable fit for users and organisations seeking decentralised communication channels that avoid mainstream, proprietary metadata-tracking networks.",
+  "watchOut": "The lack of recent tagged releases and repository activity suggests potential stagnation or maintenance risks that require careful evaluation before production use.",
+  "deployNotes": "As a C++ application, you will typically need to compile from source or manage native packages, alongside standard reverse proxy configurations for secure transport and persistent storage for user state.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

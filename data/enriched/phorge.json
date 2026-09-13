@@ -1,0 +1,8 @@
+{
+  "summary": "Phorge is a community-driven platform designed to help teams collaborate, manage, organise, and review software development projects. It provides tooling centred around project management and code review workflows for development teams. The project is licensed under the Apache-2.0 licence and built using PHP.",
+  "goodFor": "It is a suitable option if you want a self-hosted, open-source workspace for managing tasks and reviewing code within a single integrated platform.",
+  "watchOut": "Community maintenance activity appears limited, and the project lacks recent tagged releases, which may present long-term maintenance risks. It also competes directly with much larger, well-established development platforms.",
+  "deployNotes": "Because it is built on PHP, you will typically need a web server like Nginx or Apache, a PHP runtime environment, and a separate relational database such as MySQL or PostgreSQL. You should also configure a reverse proxy to handle TLS termination and ensure persistent storage is available for any uploaded files or repositories.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

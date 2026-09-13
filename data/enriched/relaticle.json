@@ -1,0 +1,8 @@
+{
+  "summary": "Relaticle is a self-hosted customer relationship management platform that includes an integrated Model Context Protocol server, offering multiple tools for AI agent interactions. It features kanban boards, custom fields, a REST API, and human-in-the-loop approval workflows for operational control.",
+  "goodFor": "Teams looking for a CRM that can integrate directly with AI agent workflows while retaining self-hosted data governance.",
+  "watchOut": "The AGPL-3.0 licence places strong copyleft requirements on your modifications, and the moderate maintenance health score suggests you should evaluate ongoing upstream stability.",
+  "deployNotes": "As a PHP application packaged for Docker, it typically requires persistent volume mounts for storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

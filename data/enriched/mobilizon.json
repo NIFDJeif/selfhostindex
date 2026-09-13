@@ -1,0 +1,8 @@
+{
+  "summary": "Mobilizon is a federated platform designed to help users discover, create, and organise groups and events. As part of the polls and events category, it provides decentralised tools for coordinating activities across different servers. It relies on the Fediverse to enable interaction between distinct instances.",
+  "goodFor": "It is a suitable choice if you want to run an independent, federated event coordination hub for a community without relying on centralised platforms.",
+  "watchOut": "Activity and release metrics indicate potential stagnation or low community engagement, which may pose long-term maintenance and security risks. Additionally, adoption of this alternative remains low compared to mainstream event management tools.",
+  "deployNotes": "Since it uses Docker and Elixir, deployment typically involves running containers via Compose, configuring a persistent database backend, and setting up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

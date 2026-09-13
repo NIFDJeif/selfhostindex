@@ -1,0 +1,8 @@
+{
+  "summary": "PmWiki is a wiki-based system designed for the collaborative creation and maintenance of websites. It provides a structured environment where multiple contributors can author, edit, and organise web pages over a network. As a content management tool in the wiki category, it focuses on simple page linking and markup editing.",
+  "goodFor": "It is a suitable choice if you need a lightweight, text-centric wiki for collaborative documentation without the complexity of a large database backend.",
+  "watchOut": "The lack of recent release data and recorded commit activity suggests you should carefully evaluate its long-term maintenance status and potential security patch availability before adopting it for critical projects.",
+  "deployNotes": "Because it is built with PHP, you will typically need a standard web server like Nginx or Apache configured with a PHP runtime. Persistent storage is required for saving page data, though many setups in this category operate using flat files rather than requiring a separate SQL database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

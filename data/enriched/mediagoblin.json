@@ -1,0 +1,8 @@
+{
+  "summary": "Mediagoblin is a self-hosted media publishing platform designed to handle various forms of user-uploaded content such as images, audio, and video. It serves as an independent alternative to centralised commercial services like YouTube, Flickr, or SoundCloud, allowing you to host and share your own media library. The software is written in Python and licensed under the AGPL-3.0.",
+  "goodFor": "This platform is suitable for individuals or organisations wanting to run their own media hosting service without relying on third-party commercial platforms.",
+  "watchOut": "The repository currently shows no recent commits or tagged releases, suggesting that development activity may be low or dormant. You should carefully evaluate its maturity and security posture before deploying it to production.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI server, a reverse proxy like Nginx to handle TLS termination, and a persistent database backend for metadata storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

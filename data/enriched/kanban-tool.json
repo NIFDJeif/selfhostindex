@@ -1,0 +1,8 @@
+{
+  "summary": "Kanban Tool is a proprietary project management application designed for visual workflow organisation through Kanban boards. It includes built-in time tracking to monitor the duration spent on individual tasks and projects. The software falls within the software development category.",
+  "goodFor": "It suits teams requiring a dedicated visual task board combined with time-tracking capabilities for project oversight.",
+  "watchOut": "The software is proprietary and lacks public code repository activity, which limits community auditing and transparency regarding its current maintenance state.",
+  "deployNotes": "As a Ruby-based application, it typically requires a compatible Ruby runtime environment, a persistent database such as PostgreSQL or MySQL, and a reverse proxy like Nginx to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

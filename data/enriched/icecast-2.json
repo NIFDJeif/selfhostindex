@@ -1,0 +1,8 @@
+{
+  "summary": "Icecast 2 is a streaming media server written in C that handles audio and video transmission. It is commonly used to broadcast Internet radio stations or host private jukeboxes for multiple listeners.",
+  "goodFor": "It is a suitable choice if you want to set up an independent online radio broadcast or a centralised audio streaming service.",
+  "watchOut": "The software has no recent tagged releases or recorded commit activity in the repository, which may indicate stagnant maintenance or a lack of active updates.",
+  "deployNotes": "As a C application, it typically runs as a standalone daemon and usually requires a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

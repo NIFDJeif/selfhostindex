@@ -1,0 +1,8 @@
+{
+  "summary": "Nona is a self-hosted remote configuration and feature flag service that functions as an alternative to Firebase Remote Config. It exposes a single REST API and provides official JavaScript and .NET clients to manage application settings across multiple environments.",
+  "goodFor": "Teams looking for an open-source, self-hosted alternative to proprietary feature flag platforms with specific support for JavaScript and .NET stacks.",
+  "watchOut": "With a relatively small community and modest repository activity, you may encounter edge cases or lack third-party integrations compared to more established alternatives.",
+  "deployNotes": "Because it runs via Docker, you will typically need to ensure persistent storage is attached for configuration data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

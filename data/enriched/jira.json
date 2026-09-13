@@ -1,0 +1,8 @@
+{
+  "summary": "JIRA is a proprietary issue tracking system designed for managing software development tasks and project workflows. It provides professional and extensible tracking capabilities to help teams log, assign, and monitor bugs and project tickets.",
+  "goodFor": "It is suited for organisations already standardised on commercial enterprise tooling that require a proprietary ticketing system.",
+  "watchOut": "Being proprietary software, you face licensing costs and vendor lock-in, and you will lack access to source code for custom modifications.",
+  "deployNotes": "As a Java application, it typically requires a separate relational database, a servlet container or application server, and a reverse proxy for TLS termination with persistent storage for attachments.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

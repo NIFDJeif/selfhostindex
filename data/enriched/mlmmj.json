@@ -1,0 +1,8 @@
+{
+  "summary": "mlmmj is a mailing list manager designed to handle email distribution and subscriber lists. It operates as an email-based mailing list utility, allowing administrators to manage subscription requests and broadcast messages through standard mail transfer agents.",
+  "goodFor": "It suits administrators who prefer lightweight, Unix-native email utilities written in C rather than heavier web-based newsletter platforms.",
+  "watchOut": "Configuration and integration with existing mail servers require manual setup, and the lack of a modern graphical user interface or recent tagged releases may increase the operational overhead.",
+  "deployNotes": "Being compiled in C, it typically integrates directly with an MTA like Postfix or Exim and relies on local filesystem storage for message queues and subscriber lists rather than an external database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

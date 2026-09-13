@@ -1,0 +1,8 @@
+{
+  "summary": "Pleroma is a federated microblogging server that allows you to run your own social networking node. It is compatible with Mastodon, GNU social, and the wider ActivityPub ecosystem, enabling users to interact across different servers. This category of software provides decentralised communication tools for public microblogging.",
+  "goodFor": "It is a suitable choice if you want to host an independent social networking node that integrates with the broader ActivityPub federation. It works well for administrators seeking a lightweight alternative within the microblogging server space.",
+  "watchOut": "ActivityPub servers can require ongoing moderation effort to handle federated content and abuse properly. Furthermore, integration with a wider fediverse means you must account for peer server availability and storage growth.",
+  "deployNotes": "Because it is built with Elixir, it typically requires an underlying relational database such as PostgreSQL to persist state. You will also usually need a reverse proxy like Nginx in front of the application to handle TLS termination and web traffic routing.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

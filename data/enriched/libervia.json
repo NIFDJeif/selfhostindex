@@ -1,0 +1,8 @@
+{
+  "summary": "Libervia functions as a web-based client interface for the Salut à Toi communication ecosystem, which primarily relies on the XMPP protocol. It allows users to access decentralised messaging and related collaboration features directly through a browser. As the official web frontend for this specific protocol stack, it bridges the gap between server-side communication infrastructure and end-user devices.",
+  "goodFor": "This software suits experienced administrators who already run Salut à Toi infrastructure and require a native web interface for XMPP communication. It is appropriate for those committed to decentralised, open-protocol messaging systems.",
+  "watchOut": "The absence of tagged releases and recorded recent commits suggests potential maintenance stagnation and a lack of active development maturity. You may encounter undocumented bugs, missing features, or difficulties in getting community support compared to mainstream web clients.",
+  "deployNotes": "Being built with Python, it typically requires a WSGI or ASGI server behind a reverse proxy like Nginx to handle TLS termination and incoming web traffic. You should also provision persistent storage and configure any necessary database backends as required by the underlying Salut à Toi components.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

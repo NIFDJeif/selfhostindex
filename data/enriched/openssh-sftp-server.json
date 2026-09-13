@@ -1,0 +1,8 @@
+{
+  "summary": "OpenSSH SFTP server provides secure file transfer capabilities over a network. It enables you to copy and manage files remotely using cryptographic protocols. It operates within the standard secure shell architecture.",
+  "goodFor": "It is a suitable choice if you already manage OpenSSH access on your infrastructure and require standard encrypted file transfers without installing extra daemons.",
+  "watchOut": "Configuration options can be verbose and tightly coupled to the wider SSH daemon, which may introduce complexity if you only want restricted file transfer access.",
+  "deployNotes": "As a compiled C binary packaged typically as a deb, it generally requires persistent storage for user data and system-level configuration rather than a separate database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

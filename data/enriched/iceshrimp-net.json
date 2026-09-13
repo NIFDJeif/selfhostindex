@@ -1,0 +1,8 @@
+{
+  "summary": "Iceshrimp.NET is a federated microblogging server that communicates over the ActivityPub protocol. It provides infrastructure for publishing short-form social updates and interacting with other instances across the decentralized network.",
+  "goodFor": "It is suitable for administrators looking to experiment with a .NET-based alternative within the ActivityPub social networking ecosystem.",
+  "watchOut": "The repository currently shows no tagged releases and no recent commits, indicating that the project may be inactive or in an early, unverified state.",
+  "deployNotes": "As a containerised .NET application, you will typically need to configure persistent storage volumes for data, route traffic through a reverse proxy for TLS termination, and provision an associated database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

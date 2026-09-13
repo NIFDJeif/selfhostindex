@@ -1,0 +1,8 @@
+{
+  "summary": "Kasm Workspaces streams containerised applications and desktop environments directly to a web browser. Users can access isolated individual programmes like web browsers and office suites or full operating systems running remotely. It relies on containerisation technology to handle these ephemeral graphical sessions.",
+  "goodFor": "It suits administrators who need to deliver browser-based access to specific graphical applications or isolated desktop environments without installing them locally.",
+  "watchOut": "Streaming multiple graphical desktop environments and browser containers concurrently can demand significant server resources and hardware capacity. You should also verify the operational maturity and release availability before committing to production use.",
+  "deployNotes": "Because it runs on Docker, you will typically need to configure persistent storage volumes for user data and a reverse proxy to handle secure TLS termination for browser access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

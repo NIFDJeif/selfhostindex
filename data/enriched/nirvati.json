@@ -1,0 +1,8 @@
+{
+  "summary": "Nirvati provides a web-based interface intended to simplify the deployment of common self-hosted applications. It abstracts standard container management tasks into a single dashboard for administrators running their own infrastructure.",
+  "goodFor": "It suits home lab operators who want a graphical control panel to quickly instantiate popular services without manually writing configuration files.",
+  "watchOut": "The project currently lacks tagged releases, indicating early-stage maturity and potential instability for production environments.",
+  "deployNotes": "Because the backend is built with Rust and targets Kubernetes, you will typically need an existing cluster setup along with persistent volume provisioning for application data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

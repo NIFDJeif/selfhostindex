@@ -1,0 +1,8 @@
+{
+  "summary": "PassIt is a self-hosted password manager that provides credential storage and allows you to share secrets with specific users and groups. It functions as a collaborative repository for sensitive information, though it lacks a dedicated administration interface for user management.",
+  "goodFor": "It suits small teams or individuals who need a basic, self-hosted method to share credentials amongst a defined group without complex access control overheads.",
+  "watchOut": "The lack of an administration interface means user management may be manual or cumbersome, and the absence of recent tagged releases or community traction suggests you may encounter unpatched bugs or maintenance hurdles.",
+  "deployNotes": "Since it relies on Docker and Python, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

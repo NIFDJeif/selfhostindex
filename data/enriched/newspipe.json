@@ -1,0 +1,8 @@
+{
+  "summary": "Newspipe is a self-hosted web news reader designed for aggregating and reading syndicated feeds. It provides a centralised interface to process updates from various web sources in one place. As a feed reader, it helps you keep track of frequently updated websites without relying on third-party cloud services.",
+  "goodFor": "It is suited for users who want a straightforward, self-hosted feed reader built with Python and licensed under the AGPL-3.0.",
+  "watchOut": "The project currently shows no recent release activity or community traction, meaning you may encounter bugs or lack documentation for troubleshooting. The copyleft AGPL licence also requires you to make source modifications available if you host a modified version publicly.",
+  "deployNotes": "Being a Python application, it typically requires a WSGI or ASGI application server behind a reverse proxy like Nginx to handle TLS termination. You will also need to configure persistent storage and potentially a relational database depending on how the application handles data persistence.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

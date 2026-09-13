@@ -1,0 +1,8 @@
+{
+  "summary": "Plone is a content management system designed for authoring, editing, and administering digital content such as public websites and internal intranets. It runs as a Python application and can be containerised using Docker for deployment on your own infrastructure. The platform provides structured workflows for managing web publications and custom digital solutions.",
+  "goodFor": "It is a suitable option if you need an established Python-based framework for structured document publishing and internal intranet management.",
+  "watchOut": "The ZPL-2.0 licence carries specific legal terms that you should review before distribution, and the lack of recent repository activity suggests you may need to rely heavily on community support or self-maintenance.",
+  "deployNotes": "As a Python web application packaged via Docker, you will typically need to configure persistent volume storage for uploaded content and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

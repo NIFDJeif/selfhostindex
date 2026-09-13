@@ -1,0 +1,8 @@
+{
+  "summary": "Neos is an open source content management system built with PHP. It provides a structured environment for creating and publishing digital content on a web server. As a general-purpose CMS, it helps teams manage website pages, media assets, and editorial workflows.",
+  "goodFor": "It suits developers and organisations specifically looking for a PHP-based content management system under the GPL-3.0 licence. It is a potential option if you prefer open source publishing platforms that you can host independently.",
+  "watchOut": "Activity and release metrics are currently unavailable, which suggests you should carefully evaluate its current maturity and community backing before adopting it for critical projects. It also competes in a crowded ecosystem alongside much more widely deployed alternatives.",
+  "deployNotes": "As a PHP application, it typically requires a web server such as Nginx or Apache, a relational database like MySQL or PostgreSQL, and a persistent storage volume for uploaded assets. You will also need to configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}

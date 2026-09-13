@@ -1,0 +1,8 @@
+{
+  "summary": "Moon is an implementation of the Selenium protocol designed to execute browser tests inside container orchestration platforms like Kubernetes or OpenShift. It provides a way to scale test automation infrastructure natively within cluster environments. The software is written in Go and proprietary.",
+  "goodFor": "It is suited for organisations already running OpenShift or Kubernetes that need to scale Selenium-based test automation across cluster nodes.",
+  "watchOut": "The proprietary licence restricts modification and commercial redistribution, and the lack of visible public activity or tagged releases suggests potential risks regarding ongoing maintenance and support.",
+  "deployNotes": "As a Go application packaged for Kubernetes and OpenShift, it typically runs as a set of cluster workloads and may require ingress configuration for external protocol access depending on your test runner setup.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-13"
+}
