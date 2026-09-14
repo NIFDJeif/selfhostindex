@@ -1,0 +1,8 @@
+{
+  "summary": "Roundup Issue Tracker is a flexible ticketing and issue management system that can handle incoming requests across multiple channels including the command line, web interfaces, and email. Because it is built with customisation in mind, it extends beyond standard bug tracking to suit various organisational workflows. It is implemented in Python and can be run via containerised environments.",
+  "goodFor": "It suits technical teams who want a lightweight, highly customisable ticketing system that integrates deeply with email and command-line scripts.",
+  "watchOut": "The lack of recent version releases and tagged updates means you may need to vet the codebase thoroughly for compatibility or unpatched issues before putting it into production.",
+  "deployNotes": "You will typically need to configure persistent storage for your issue data and set up a reverse proxy to handle TLS termination for the web interface.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

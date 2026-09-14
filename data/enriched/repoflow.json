@@ -1,0 +1,8 @@
+{
+  "summary": "RepoFlow acts as a centralised registry to manage multiple package formats such as npm, PyPI, Docker, Go, and Helm in one place. It provides both a cloud offering with fixed limits and a self-hosted option restricted to personal use.",
+  "goodFor": "It suits individual developers who need to host private package registries for various languages and container formats on their own infrastructure.",
+  "watchOut": "The software carries a proprietary licence limited strictly to personal use, and the current project activity lacks public metrics or tagged releases to gauge long-term stability.",
+  "deployNotes": "As a Node.js application packaged with Docker, it typically requires persistent volumes for stored package data and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

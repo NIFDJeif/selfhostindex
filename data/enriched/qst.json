@@ -1,0 +1,8 @@
+{
+  "summary": "QST is a self-hosted online assessment platform designed to handle testing scenarios ranging from informal mobile quizzes to large-scale proctored desktop examinations. It provides a secure and cost-effective digital environment for administering tests and evaluating participant knowledge. The software falls within the learning management and knowledge management sectors.",
+  "goodFor": "It is suitable for educational institutions or organisations looking to self-host a dedicated platform for quizzes, exams, and structured assessments.",
+  "watchOut": "The repository currently shows no community adoption stars, zero recent commits, and no tagged releases, suggesting it may be unmaintained or an abandoned project. You should expect to handle any bugs, security patches, or configuration issues independently.",
+  "deployNotes": "Because the application is built using Perl, you will typically need to configure a web server with a proper CGI or PSGI handler alongside a database backend. Ensure you place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

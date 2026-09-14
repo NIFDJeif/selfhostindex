@@ -1,0 +1,8 @@
+{
+  "summary": "SquirrelMail is a browser-based IMAP client written in PHP, functioning as a webmail interface for accessing mail servers. It allows users to read, send, and organise emails directly through a web browser rather than a dedicated desktop or mobile application.",
+  "goodFor": "It suits administrators seeking a lightweight, traditional webmail interface running on standard PHP infrastructure.",
+  "watchOut": "The project lacks recent tagged releases and active commits, meaning you may encounter unpatched vulnerabilities or compatibility issues with modern PHP versions.",
+  "deployNotes": "As a PHP application, it typically requires a compatible web server such as Nginx or Apache, along with a PHP runtime environment and a connection to your existing IMAP mail server.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

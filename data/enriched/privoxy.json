@@ -1,0 +1,8 @@
+{
+  "summary": "Privoxy is a non-caching web proxy designed to filter web traffic before it reaches your browser. It inspects and modifies HTTP headers, strips out unwanted content like advertisements, and helps enforce privacy controls on web requests. As a traditional proxy, it sits between your client applications and the wider internet.",
+  "goodFor": "It is suitable for administrators looking to centrally filter web traffic, remove advertisements, and manipulate HTTP headers across multiple client devices without relying on browser extensions.",
+  "watchOut": "The project lacks recent release activity and commit data, meaning you may need to rely on community patches or older package versions for security updates. Additionally, configuring complex filtering rules via text configuration files requires a steep learning curve.",
+  "deployNotes": "Written in C and distributed as a standard Debian package, it typically runs as a lightweight daemon without requiring an external database. You will generally configure it to listen on a local port and point your system or browser proxy settings directly to it.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "SIP3 is a platform designed for monitoring and troubleshooting Voice over IP systems. It helps operators trace call flows, analyse signalling traffic, and diagnose performance issues across communication infrastructure. The software focuses on capturing and processing session data to provide visibility into network behaviour.",
+  "goodFor": "It suits systems administrators and telecommunications engineers who need an open-source tool to inspect and debug VoIP traffic within their own network infrastructure.",
+  "watchOut": "The lack of recent commit activity and official releases suggests that the project may be unmaintained, meaning you could encounter unresolved bugs or security vulnerabilities without community support.",
+  "deployNotes": "As a Java application, it typically requires a suitable Java Runtime Environment and a dedicated database for storing session metrics. You will also need to configure a reverse proxy for secure web access and ensure adequate persistent storage for traffic logs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

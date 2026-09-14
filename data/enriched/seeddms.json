@@ -1,0 +1,8 @@
+{
+  "summary": "SeedDMS is an open-source document management system that provides structured storage, workflow automation, and user access controls. It includes full-text search capabilities to help locate files within the repository. The platform is written in PHP and distributed under the GPL-2.0 licence.",
+  "goodFor": "Organisations looking for a self-hosted platform to manage internal document lifecycles and enforce access permissions.",
+  "watchOut": "The repository shows a lack of recent visible activity or tagged releases, which may present long-term maintenance and security risks.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Apache or Nginx, a separate relational database, and persistent storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

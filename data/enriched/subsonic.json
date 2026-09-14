@@ -1,0 +1,8 @@
+{
+  "summary": "Subsonic is a web-based media streamer and jukebox designed for serving audio and video files over a network. It provides a centralised interface to stream stored digital media collections to remote clients and web browsers. Because the codebase details are largely unspecified, it falls into the traditional category of self-hosted media servers that require manual library management.",
+  "goodFor": "It suits users looking for a straightforward, browser-accessible platform to stream their existing local music and video collections without relying on commercial cloud services.",
+  "watchOut": "The software is proprietary and lacks active development metrics, meaning you may encounter unpatched bugs or licensing restrictions. It also faces heavy competition from more actively maintained open-source alternatives in the media streaming space.",
+  "deployNotes": "Since the exact runtime environment is unspecified, you should provision persistent storage for your media library and configuration data. You will also typically need a reverse proxy to handle TLS termination and secure external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

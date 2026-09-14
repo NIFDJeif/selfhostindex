@@ -1,0 +1,8 @@
+{
+  "summary": "Sourcehut provides a web-based interface for managing source code repositories using Git. It operates entirely without JavaScript, focusing on a lightweight approach to software development and project management. The platform is written in Go and distributed under the GPL-2.0 licence.",
+  "goodFor": "It suits developers who prefer minimal, text-heavy web interfaces that load quickly and function without client-side scripting. It is also an option for teams wanting to self-host their version control infrastructure under a copyleft licence.",
+  "watchOut": "The lack of official tagged releases and the unrated maintenance activity suggest potential risks regarding long-term support and stability. Evaluating whether the feature set meets your specific project management workflow is necessary before adoption.",
+  "deployNotes": "As a Go application, it typically compiles into a single binary that you can run behind a standard reverse proxy like Nginx or Caddy to handle TLS termination. You will also usually need to provision a separate database and ensure persistent storage for your Git repositories.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

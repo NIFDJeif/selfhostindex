@@ -1,0 +1,8 @@
+{
+  "summary": "Sendmail is a message transfer agent that routes and delivers electronic mail between computer systems. It handles the low-level transmission protocols required to move messages across networks. As a foundational mail transfer agent, it processes inbound and outbound SMTP traffic.",
+  "goodFor": "It is suitable for traditional Linux environments requiring a standard, low-level mail routing daemon for system notifications or basic mail relaying. It fits administrators who need a conventional message transfer agent packaged as a native debian binary.",
+  "watchOut": "The specific development status, release cadence, and repository metrics are unrated, which makes assessing current maintenance activity difficult. Furthermore, mail transfer agents in general demand careful configuration to avoid open relay vulnerabilities and delivery failures.",
+  "deployNotes": "As a compiled C application distributed via deb packages, it typically runs directly on the host operating system without requiring a separate database. You will need persistent storage for mail queues and local configuration files managed via standard system service controls.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

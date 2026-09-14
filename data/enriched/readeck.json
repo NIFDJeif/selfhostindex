@@ -1,0 +1,8 @@
+{
+  "summary": "Readeck is a self-hosted application designed to act as a bookmark manager and read-later tool. It captures and stores the primary readable text content from web pages so you can retain copies for long-term access. This places it at the intersection of link management and digital preservation.",
+  "goodFor": "It suits individuals who want to curate a personal, offline-capable archive of web articles and links without relying on commercial third-party services.",
+  "watchOut": "The software currently lacks tagged releases and public traction metrics, suggesting an early-stage project that may lack documentation, stability, or active community support. Furthermore, its AGPL-3.0 licence places copyleft constraints on any modified versions you might host or distribute.",
+  "deployNotes": "As a Go and Docker application, deployment typically involves running a container with persistent volumes mapped for data storage and placing it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "RhodeCode is a self-hosted platform designed to unify and simplify repository management for Git, Subversion, and Mercurial. It provides a central interface to handle multiple version control systems in one place. The software acts as a single point of control for team development workflows.",
+  "goodFor": "Teams that need to manage a mixed environment of Git, Subversion, and Mercurial repositories under a single self-hosted interface.",
+  "watchOut": "The licensing terms under AGPL-3.0 require careful review if you plan to modify the source code or offer it as a service over a network. Additionally, you should evaluate the maturity and active maintenance state of the project before relying on it for critical infrastructure.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI server behind a reverse proxy for TLS termination, along with a persistent database backend for metadata storage.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

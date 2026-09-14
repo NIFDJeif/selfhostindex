@@ -1,0 +1,8 @@
+{
+  "summary": "Schleuder is a mailing list manager that incorporates GPG encryption capabilities for message resending. It allows administrators to operate secure mailing lists where correspondence can be automatically encrypted and verified using OpenPGP keys. The software is written in Ruby and distributed under the GPL-3.0 licence.",
+  "goodFor": "This is suitable for technical groups or privacy-conscious organisations that require end-to-end encrypted email discussions via a central mailing list.",
+  "watchOut": "Setting up and maintaining GPG keys alongside a mailing list server introduces significant operational complexity and administrative overhead for key management. Additionally, the project currently lacks recent release activity or metrics in public repositories.",
+  "deployNotes": "As a Ruby application, you will typically need to configure a compatible Ruby runtime environment, a persistent database backend, and a mail transfer agent to handle incoming and outgoing messages.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

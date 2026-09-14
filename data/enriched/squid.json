@@ -1,0 +1,8 @@
+{
+  "summary": "Squid is a caching proxy for web traffic supporting protocols like HTTP, HTTPS, and FTP. It operates by storing frequently requested resources to reduce external bandwidth usage and improve client response times.",
+  "goodFor": "It is well-suited for network administrators looking to cache web content locally and manage outbound web traffic across an organisation.",
+  "watchOut": "Configuring a caching proxy securely and efficiently can be complex, and you should anticipate a significant operational learning curve.",
+  "deployNotes": "As a compiled C application distributed as a Debian package, it typically runs as a standalone system service and requires persistent storage for its cache directory.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

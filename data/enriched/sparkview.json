@@ -1,0 +1,8 @@
+{
+  "summary": "SparkView is a browser-based remote access gateway designed to sit in a DMZ. It allows users to connect to virtual machines, desktops, servers, and applications directly through a web browser without needing a traditional VPN client installed on their devices.",
+  "goodFor": "It is a suitable option for system administrators who need to provide remote access to internal infrastructure without rolling out client-side software.",
+  "watchOut": "The software is proprietary, has no public repository stars, and lacks visible community activity or release history, meaning you may face challenges with support and long-term maintenance.",
+  "deployNotes": "Because the service is built with Java, you will typically need to provision a suitable Java Runtime Environment and place the application behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

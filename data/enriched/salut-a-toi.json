@@ -1,0 +1,8 @@
+{
+  "summary": "Salut à Toi is a libre, decentralized communication tool featuring multiple frontends. It operates within the XMPP ecosystem to provide a messaging and collaboration environment hosted on your own hardware.",
+  "goodFor": "This is suitable if you prefer decentralized XMPP-based communication systems and want to experiment with alternative web clients.",
+  "watchOut": "Activity and release history appear sparse, suggesting you may encounter maintenance hurdles, missing documentation, or limited community support.",
+  "deployNotes": "As a Python application, it will typically require a WSGI-compatible setup behind a reverse proxy for TLS termination, along with persistent storage for application data and an external database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

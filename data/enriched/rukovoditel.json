@@ -1,0 +1,8 @@
+{
+  "summary": "Rukovoditel is a web-based, open-source project management platform designed for configuration. It provides a framework for organising tasks, schedules, and team workflows on your own infrastructure.",
+  "goodFor": "Teams seeking a customisable, self-hosted project tracking tool built on standard web technologies.",
+  "watchOut": "The lack of recent release data and public repository activity suggests you should carefully evaluate its long-term maintenance and community support before committing production data.",
+  "deployNotes": "As a PHP application, it typically requires a standard LAMP or LEMP stack alongside a relational database like MySQL or MariaDB. You will also need to configure a web server such as Nginx or Apache with a TLS certificate via a reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "SentryShot is a video surveillance management system designed to help you handle video feeds and monitoring tasks on your own infrastructure. Built using Rust and packaged for Docker, it processes camera streams through a containerised deployment. Because specific feature lists are not documented, you should expect the standard capabilities associated with managing camera feeds and storage in a self-hosted environment.",
+  "goodFor": "This tool is a potential fit for home lab enthusiasts who want to experiment with a lightweight, containerised video surveillance manager written in Rust. It suits administrators who prefer evaluating niche projects rather than deploying mature, mainstream alternatives.",
+  "watchOut": "The project lacks tagged releases and has no tracked commit activity, indicating an early stage of development or potential abandonment. You will likely encounter undocumented edge cases, missing configuration guides, and a lack of community support.",
+  "deployNotes": "Since it runs via Docker, you will need to configure persistent volumes to retain your recorded video footage and configuration files. You should also place the service behind a reverse proxy if you require secure TLS access over a network.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

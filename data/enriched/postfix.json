@@ -1,0 +1,8 @@
+{
+  "summary": "Postfix is a Mail Transfer Agent designed to route and deliver electronic mail across networks. It serves as a direct replacement for Sendmail, focusing on administrative simplicity and secure message handling. As part of the email infrastructure layer, it manages the transmission of messages between mail servers.",
+  "goodFor": "It is a suitable choice if you are configuring a dedicated mail server on a Linux environment and need a standard routing agent to handle inbound and outbound mail delivery.",
+  "watchOut": "Configuring email servers securely requires careful attention to DNS records, spam prevention mechanisms, and encryption to avoid delivery failures or being flagged as a source of spam.",
+  "deployNotes": "Since it is packaged as a deb format and written in C, you will typically install it directly onto a Linux host where it will manage its own configuration files and require persistent storage for mail queues.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

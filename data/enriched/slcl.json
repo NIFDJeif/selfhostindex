@@ -1,0 +1,8 @@
+{
+  "summary": "slcl is a web-based file manager designed to provide simple cloud storage through a browser interface. Written in C, it allows you to handle remote file transfers and organisation without a heavy runtime environment. As a lightweight self-hosted storage tool, it serves as a minimalist alternative to larger cloud synchronisation suites.",
+  "goodFor": "This is a suitable choice if you need a low-overhead, resource-efficient file manager to run on constrained hardware or minimal server configurations.",
+  "watchOut": "The project lacks tagged releases and has a zero star count, indicating very early maturity, minimal community testing, and a complete absence of historical updates. You should also verify the AGPL-3.0 copyleft requirements before integrating it into your environment.",
+  "deployNotes": "Being written in C, it typically runs as a compiled binary that will need a reverse proxy like Nginx for TLS termination and persistent disk storage mounted for your files. You will also want to check whether it requires a local database or uses a flat-file structure for metadata.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

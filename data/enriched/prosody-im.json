@@ -1,0 +1,8 @@
+{
+  "summary": "Prosody IM is an XMPP server written in Lua that handles instant messaging and chat protocols. It provides a lightweight backend for hosting private or public communication services based on open standards. Administrators can configure its modular architecture to manage user accounts and message routing.",
+  "goodFor": "It is well-suited for system administrators looking to deploy a lightweight, standards-compliant XMPP messaging service using minimal resources.",
+  "watchOut": "The community activity metrics are unavailable or low, meaning you may need to rely primarily on documentation and self-support for troubleshooting. XMPP deployments also require client-side configuration across all user devices to function effectively.",
+  "deployNotes": "As a Lua application, it typically requires Lua dependencies and modules installed on the host system or container. You will usually need to configure persistent storage for user data and set up a reverse proxy to handle secure TLS connections.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

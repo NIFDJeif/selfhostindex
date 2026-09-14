@@ -1,0 +1,8 @@
+{
+  "summary": "PrivMX WebMail is a web-based email platform that provides end-to-end encryption using an independent public key infrastructure. Written in PHP, it handles secure message exchange within custom communication environments. Because detailed documentation on its internal architecture is sparse, you should expect it to function similarly to standard webmail clients backed by specialised cryptographic layers.",
+  "goodFor": "This is suitable if you require a dedicated, end-to-end encrypted email interface relying on an independent PKI for a closed user group.",
+  "watchOut": "The software is proprietary and unrated in terms of community maintenance health, with no tagged releases or visible repository activity, presenting a significant continuity risk.",
+  "deployNotes": "As a PHP application, it will typically require a standard web server like Nginx or Apache, a PHP runtime, a reverse proxy for TLS termination, and persistent storage for state or configuration.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

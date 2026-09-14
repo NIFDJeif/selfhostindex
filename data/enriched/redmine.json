@@ -1,0 +1,8 @@
+{
+  "summary": "Redmine is a web-based project management application used to track tasks, issues, and project timelines. It helps teams organise workflows and document project progress within a self-hosted environment.",
+  "goodFor": "Teams looking for a traditional, self-hosted issue tracker and project workspace under a copyleft licence.",
+  "watchOut": "Activity metrics and release data are currently absent, which introduces uncertainty regarding the project's active maintenance status and long-term security patching.",
+  "deployNotes": "As a Ruby application, it typically requires a dedicated database like PostgreSQL or MySQL, a process manager such as Puma or Unicorn, and persistent storage for file attachments.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

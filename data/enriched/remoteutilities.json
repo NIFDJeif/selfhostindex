@@ -1,0 +1,8 @@
+{
+  "summary": "RemoteUtilities is proprietary software designed for local area network administration and remote desktop support over the internet. It provides administrators with access to distant machines for troubleshooting and maintenance tasks. Due to the lack of public repository data and release history, exact protocol details and architectural specifics remain opaque.",
+  "goodFor": "It is suited for system administrators seeking a dedicated proprietary tool specifically for LAN management and remote user assistance.",
+  "watchOut": "The proprietary licence prevents source code inspection, and the lack of recent tagged releases or community metrics suggests unknown long-term maintenance status. You will need to carefully evaluate its security posture since public development activity is entirely absent.",
+  "deployNotes": "Because the underlying runtime and dependencies are unspecified, you should typically prepare a standard persistent storage volume and configure a reverse proxy for secure TLS termination. Ensure you isolate the host environment until you can verify its specific port requirements and network traffic patterns.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

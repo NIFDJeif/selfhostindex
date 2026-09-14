@@ -1,0 +1,8 @@
+{
+  "summary": "ProjeQtOr is a multi-user project management system designed to handle all phases of a project lifecycle. It provides collaborative tooling to help teams plan, track, and manage complex tasks within a single web-based interface.",
+  "goodFor": "It suits organisations looking for an open-source project management suite to coordinate multiple users and workflows on self-hosted infrastructure.",
+  "watchOut": "The software is distributed under the AGPL-3.0 licence, which places strict copyleft obligations on network services, and project activity metrics indicate low recent development momentum.",
+  "deployNotes": "As a PHP application, it will typically require a standard web server like Apache or Nginx, alongside a relational database such as MySQL or MariaDB and persistent storage for uploaded files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

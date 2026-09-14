@@ -1,0 +1,8 @@
+{
+  "summary": "Solo is a self-hosted project management application designed specifically for freelance workers. It provides tools to handle client contacts, track task completion, store files, monitor overall project timelines, and record notes. As a proprietary PHP-based system, it operates in the project management software space.",
+  "goodFor": "It is a suitable option for freelancers who want a dedicated, self-hosted workspace to manage clients and tasks on a single server without relying on external SaaS platforms.",
+  "watchOut": "The software is proprietary with no public repository activity or tagged releases, meaning you have no visibility into its maintenance lifecycle, security patch frequency, or source code auditability.",
+  "deployNotes": "Being a PHP application, it typically requires a web server like Nginx or Apache, a PHP runtime, and a persistent database backend such as MySQL or MariaDB. You will also need to configure persistent storage on your server for uploaded files and set up TLS termination via a reverse proxy.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

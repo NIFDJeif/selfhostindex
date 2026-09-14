@@ -1,0 +1,8 @@
+{
+  "summary": "SPIP is a content management system designed to facilitate collaborative web publishing. It supports multilingual workflows, allowing multiple authors to create and manage site content together.",
+  "goodFor": "It suits editorial teams and multilingual projects requiring structured collaboration among content contributors without heavy technical overhead.",
+  "watchOut": "You may find fewer community resources and integrations available compared to more mainstream content management systems.",
+  "deployNotes": "As a PHP application, you will typically need to provision a compatible web server like Nginx or Apache, a separate database such as MySQL or MariaDB, and configure persistent storage for uploaded assets.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

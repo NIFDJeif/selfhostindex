@@ -1,0 +1,8 @@
+{
+  "summary": "Single File PHP Gallery is a lightweight web application contained entirely within a single PHP script to display images stored on a server. It provides a straightforward way to present photo collections without requiring complex database setups or multi-file directory structures.",
+  "goodFor": "It is well-suited for users who need to quickly host a basic photo directory on a standard web hosting environment with minimal administrative overhead.",
+  "watchOut": "The software uses a proprietary licence, and with no recent commits or releases, you may encounter unresolved bugs or security vulnerabilities without official updates.",
+  "deployNotes": "You will typically need a web server with PHP support enabled and persistent storage configured in the same directory for your image files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

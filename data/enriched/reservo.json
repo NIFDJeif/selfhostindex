@@ -1,0 +1,8 @@
+{
+  "summary": "Reservo is a proprietary PHP-based image hosting script designed to handle scalable media uploads. It provides features such as drag-and-drop uploading, CDN integration, advertising placement, and paid account tiers for users.",
+  "goodFor": "It is suited for operators looking to run a monetised or structured image hosting service with built-in advertising and account upgrade mechanisms.",
+  "watchOut": "The software carries a proprietary licence, lacks public development activity or release history, and competes in a crowded space with many mature, open-source alternatives.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a relational database such as MySQL or MariaDB, and persistent local or cloud-backed storage for uploaded media.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

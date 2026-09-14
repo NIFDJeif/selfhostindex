@@ -1,0 +1,8 @@
+{
+  "summary": "ResourceSpace is a web-based application designed to help you organise and manage your digital assets. It provides a centralised repository interface through a browser, allowing users to categorise, store, and retrieve files. While specific internal capabilities are not detailed, it operates within the file management and digital asset organisation software category.",
+  "goodFor": "It suits individuals or teams looking for a self-hosted, web-accessible system to catalog and share digital media and documents.",
+  "watchOut": "The BSD-4-Clause licence includes an advertising clause that requires all promotional material to acknowledge the original contributors, which can complicate compliance. Additionally, the lack of recorded activity and recent releases suggests you may encounter unmaintained code or need to resolve bugs independently.",
+  "deployNotes": "Since the application is built with PHP, you will typically need to provision a standard web server stack such as Apache or Nginx, along with PHP runtimes and a relational database like MySQL or PostgreSQL. You should also ensure persistent storage is configured for your uploaded assets and use a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

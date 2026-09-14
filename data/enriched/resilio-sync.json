@@ -1,0 +1,8 @@
+{
+  "summary": "Resilio Sync is a proprietary peer-to-peer file synchronisation tool designed to transfer data directly between devices without relying on a central cloud storage provider. It operates within the file transfer and synchronisation category, managing directory states across multiple endpoints. Because specific implementation details are closed-source, exact internal mechanisms are not publicly documented.",
+  "goodFor": "It is a practical choice if you need to sync large volumes of data directly between your own machines across the internet without paying for third-party cloud storage.",
+  "watchOut": "The software is strictly proprietary, meaning you cannot inspect the source code, audit its security independently, or modify its behaviour. Additionally, community development metrics are unavailable, which may affect long-term maintenance visibility.",
+  "deployNotes": "Since the underlying runtime stack is not specified, you should ensure persistent storage volumes are correctly mapped and configure a reverse proxy if you require encrypted web administration access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Smederee is a project management and software development platform built specifically around the Darcs version control system. It provides a collaborative environment for teams using Darcs to organise their development workflows. Because the project documentation is sparse, exact feature sets beyond Darcs integration remain unclear.",
+  "goodFor": "This is a suitable choice if you are committed to the Darcs version control ecosystem and want a dedicated project management tool tailored to it.",
+  "watchOut": "The repository currently has no tagged releases and zero recorded recent commits, indicating that the project may be abandoned or in a very early, experimental state.",
+  "deployNotes": "As a Scala application, it typically requires a Java Virtual Machine (JVM) installed on the host server and will benefit from a reverse proxy like Nginx or Caddy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

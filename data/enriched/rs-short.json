@@ -1,0 +1,8 @@
+{
+  "summary": "rs-short is a lightweight link shortener written in Rust. It provides basic URL redirection alongside built-in caching, spambot protection, and phishing detection.",
+  "goodFor": "This is suitable if you prefer a compact, Rust-based utility for managing shortened URLs on your own infrastructure.",
+  "watchOut": "The project currently has no tagged releases and no recorded repository stars or recent commits, indicating an early stage of development or lack of community activity.",
+  "deployNotes": "As a Rust application, it typically compiles into a single binary that requires a reverse proxy for TLS termination and persistent storage configured externally if data retention across reboots is needed.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

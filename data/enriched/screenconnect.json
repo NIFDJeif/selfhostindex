@@ -1,0 +1,8 @@
+{
+  "summary": "ScreenConnect is a proprietary self-hosted application designed for remote support and desktop access. It allows administrators to connect to remote machines quickly to troubleshoot and resolve technical issues.",
+  "goodFor": "It suits organisations requiring a dedicated, self-hosted system for remote desktop assistance and client support sessions.",
+  "watchOut": "The software is proprietary with unknown maintenance metrics and no visible public repository activity, which introduces long-term support risks.",
+  "deployNotes": "Because the runtime environment is unknown, you should provision persistent storage and place the instance behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

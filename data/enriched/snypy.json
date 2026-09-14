@@ -1,0 +1,8 @@
+{
+  "summary": "SnyPy is an open-source, on-premise application designed for managing and storing code snippets. As a self-hosted pastebin alternative, it provides a centralised repository to keep frequently used code blocks organised. Because specific feature lists are not provided, it functions fundamentally like other web-based snippet organisers.",
+  "goodFor": "Developers who want a private, self-hosted web interface to store and retrieve personal code snippets without relying on third-party cloud pastebins.",
+  "watchOut": "The project has no tagged releases and zero repository stars, indicating an early stage of development with potential stability risks and a lack of community support. It also competes in a crowded category with much more mature alternatives.",
+  "deployNotes": "Since it is built with Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Sendy is a self-hosted application designed for managing and sending bulk email newsletters. It routes your email campaigns through Amazon Simple Email Service or standard SMTP providers.",
+  "goodFor": "It suits operators who want a dedicated, self-hosted mailing list platform that leverages external transactional email delivery services to keep infrastructure costs low.",
+  "watchOut": "The software uses a proprietary licence, meaning you cannot freely modify or redistribute the source code, and its upstream release history is opaque.",
+  "deployNotes": "As a PHP application, it typically requires a web server like Nginx or Apache, a PHP runtime, and a relational database such as MySQL for storing subscriber data and campaign logs.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-14"
+}
