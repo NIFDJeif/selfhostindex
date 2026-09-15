@@ -1,0 +1,8 @@
+{
+  "summary": "WiKiss is a wiki application written in PHP designed for straightforward installation and operation. It provides a simple platform for users to create, organise and maintain interconnected web pages of documentation. As a lightweight wiki solution, it addresses the fundamental requirement of collaborative content management.",
+  "goodFor": "It is a suitable option if you want a minimalist PHP-based wiki that avoids the complexity of heavier enterprise documentation platforms.",
+  "watchOut": "The project has virtually no community traction, lacks recent activity and has no tagged releases, meaning you should expect to handle bugs or missing features entirely on your own. It also faces significant competition from more mature and actively maintained alternatives in the wiki space.",
+  "deployNotes": "Because it is built with PHP, you will typically need a standard web server like Apache or Nginx alongside a PHP runtime, and persistent storage is required if it relies on file-based backends or a local database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

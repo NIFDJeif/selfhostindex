@@ -1,0 +1,8 @@
+{
+  "summary": "Virola Messenger is a proprietary self-hosted tool designed for team communication and project collaboration. It provides infrastructure for private and group text channels, persistent voice and video meetings, file transfers, and basic issue tracking through a built-in task board.",
+  "goodFor": "It suits organisations looking for a single self-hosted alternative to proprietary platforms like Slack that combines chat, video conferencing, and task management in one system.",
+  "watchOut": "The software is proprietary, has no public source code repository activity, and directly competes with mature, well-documented open-source alternatives like Mattermost or Rocket.Chat.",
+  "deployNotes": "As a C++ application, you will typically need to run it behind a reverse proxy to handle TLS termination and configure persistent storage volumes for uploaded files and chat history.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

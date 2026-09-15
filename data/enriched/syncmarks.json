@@ -1,0 +1,8 @@
+{
+  "summary": "SyncMarks is a self-hosted tool designed to help you aggregate, sync, and manage your browser bookmarks across multiple web browsers including Chromium, Firefox, and Edge. It addresses the common problem of fragmented link management by providing a centralized repository for your saved URLs. Because specific technical implementation details are sparse, it primarily serves as a lightweight alternative to commercial browser sync services.",
+  "goodFor": "It is a suitable choice for users who want to avoid relying on proprietary cloud services for storing their browser bookmarks and prefer hosting their own data.",
+  "watchOut": "There is no public release history and zero recorded repository stars or recent commits, which suggests the project may be unmaintained or in a very early experimental state.",
+  "deployNotes": "Since the application is built with PHP, you will typically need a standard web server like Nginx or Apache, a PHP runtime, and usually a database such as MySQL or SQLite for data persistence.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

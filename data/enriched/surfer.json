@@ -1,0 +1,8 @@
+{
+  "summary": "Surfer is a basic static file server equipped with a web-based user interface for file management. It provides a straightforward method to serve directories of files while allowing users to interact with and organise those files through a browser. Built using Node.js, it operates under the MIT licence.",
+  "goodFor": "It suits developers or system administrators who need a lightweight, no-frills tool to quickly spin up a file manager and static site host on an internal network.",
+  "watchOut": "The repository currently shows no tagged releases and zero repository stars, indicating an early stage of development or a lack of community adoption. You should carefully evaluate its stability before relying on it for critical infrastructure.",
+  "deployNotes": "Because it runs on Node.js, you will typically need to run it behind a reverse proxy such as Nginx or Caddy to handle TLS termination and manage persistent process uptime.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Väinö is an audio streaming server designed to run on a Raspberry Pi, accompanied by companion applications for both iOS and Android devices. It functions as a dedicated backend for high-fidelity music playback in a self-hosted environment. The system processes and serves audio tracks directly to your mobile clients.",
+  "goodFor": "It suits users who want a dedicated Raspberry Pi setup for streaming high-quality music to their phones using specific proprietary companion apps.",
+  "watchOut": "The project is proprietary with zero recorded repository stars, no tagged releases, and no recent commit activity, indicating an inactive or experimental state.",
+  "deployNotes": "Since it is built with Python, you will typically need to manage a Python environment, install dependencies, and configure a process manager like systemd alongside a reverse proxy for remote access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

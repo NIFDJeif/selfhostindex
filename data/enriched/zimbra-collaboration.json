@@ -1,0 +1,8 @@
+{
+  "summary": "Zimbra Collaboration is a groupware server providing email, calendar management, and collaborative workspace tools accessed via a web interface. It integrates multiple communication features into a single self-hosted platform for organisational use.",
+  "goodFor": "It is suited for organisations needing an on-premise email and calendar suite with web-based access.",
+  "watchOut": "Activity and release history are currently absent, suggesting potential stagnation or a lack of public repository updates.",
+  "deployNotes": "Being built with Java, it typically requires adequate memory allocation and sits behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

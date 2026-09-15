@@ -1,0 +1,8 @@
+{
+  "summary": "Tryton is a free and open-source resource planning system designed to help organisations manage their core business operations. It provides a structured framework for handling standard administrative workflows and data management tasks. As a generalised business solution, it covers foundational enterprise requirements rather than niche tasks.",
+  "goodFor": "It suits technical teams or administrators looking for an open-source framework to build and self-host custom business management processes.",
+  "watchOut": "The lack of recent release data and community activity metrics suggests you should carefully evaluate its long-term maintenance status and availability of documentation before committing to production use.",
+  "deployNotes": "Being built with Python, you will typically need to set up a dedicated virtual environment, a persistent relational database backend, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

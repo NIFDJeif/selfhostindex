@@ -1,0 +1,8 @@
+{
+  "summary": "SupportPal is a proprietary help desk application designed to manage incoming customer service enquiries and support tickets. It provides a centralised ticketing interface to help teams organise, track, and respond to user issues. Because specific feature details are limited, it functions similarly to standard web-based ticketing systems.",
+  "goodFor": "Teams looking for a dedicated ticketing solution written in PHP who are comfortable with proprietary software licences.",
+  "watchOut": "It is a proprietary application with no publicly visible code repository activity or community metrics, which may pose risks for long-term auditing and self-hosted maintenance.",
+  "deployNotes": "As a PHP application, it will typically require a web server like Nginx or Apache, a relational database such as MySQL or MariaDB, and a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

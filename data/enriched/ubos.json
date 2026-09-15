@@ -1,0 +1,8 @@
+{
+  "summary": "UBOS is a specialised Linux distribution designed to run on personal servers and Internet of Things hardware. It provides a command-line interface for the installation and administration of common web applications and services like WordPress, Nextcloud, and Jenkins.",
+  "goodFor": "It is suited for administrators seeking a dedicated operating system for managing self-hosted web applications on small-scale home hardware.",
+  "watchOut": "The project lacks recent tagged releases and visible repository activity, suggesting potential abandonment or low community maintenance. Adopting an unmaintained custom distribution carries significant security and upgrade risks.",
+  "deployNotes": "As a complete operating system rather than a standard container or package, deployment requires provisioning bare metal or a dedicated virtual machine rather than standard container runtimes.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

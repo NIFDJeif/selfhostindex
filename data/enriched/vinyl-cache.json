@@ -1,0 +1,8 @@
+{
+  "summary": "Vinyl Cache is a web application accelerator and caching HTTP reverse proxy, formerly known as Varnish. It sits in front of web servers to cache responses and speed up content delivery for visitors. The project is implemented in Go and distributed via packages or Docker.",
+  "goodFor": "It is suited for administrators looking to offload HTTP traffic handling and caching from origin servers using standard reverse proxy patterns.",
+  "watchOut": "The project currently lacks tagged releases, has minimal community visibility, and shares a functional space with much more mature alternatives like standard Varnish or Nginx, suggesting potential maturity risks.",
+  "deployNotes": "As a Dockerised or compiled Go binary, it typically runs independently without requiring an external database, though you will usually need to handle TLS termination upstream.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Tube is a self-hosted video sharing application written in Go that provides a platform for uploading and distributing media. It includes built-in transcoding to MP4 H.265 AAC, support for multiple collections, and generated RSS feeds for content syndication.",
+  "goodFor": "It is a suitable option if you want a lightweight, standalone video platform with automated transcoding capabilities without the bloat of mainstream streaming services.",
+  "watchOut": "The project has no tagged releases and zero recorded recent commits, indicating that it may be an abandoned or very early-stage experiment lacking active maintenance.",
+  "deployNotes": "As a Go binary, it typically compiles down to a single executable file that requires persistent storage for media files and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

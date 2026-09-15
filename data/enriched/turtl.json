@@ -1,0 +1,8 @@
+{
+  "summary": "Turtl is a self-hosted personal database and note-taking application designed for private information storage. It functions as a secure repository where you can record, organise, and retain control over your personal notes without relying on external cloud services.",
+  "goodFor": "It is suited for users who prioritise data privacy and want a dedicated, self-hosted space for their personal notes and records.",
+  "watchOut": "The project lacks recent tagged releases and visible community activity, meaning you may encounter unmaintained code or missing documentation.",
+  "deployNotes": "As a CommonLisp application, you will typically need to configure a persistent storage volume and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

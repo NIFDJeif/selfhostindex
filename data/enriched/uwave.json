@@ -1,0 +1,8 @@
+{
+  "summary": "üWave is a self-hosted platform designed for collaborative listening sessions. It allows multiple users to take turns queuing and playing media from external sources such as YouTube and SoundCloud within a shared virtual space.",
+  "goodFor": "It suits small communities or groups of friends who want to host a private, synchronized online room to share and queue music or video clips together.",
+  "watchOut": "The project has a very low public profile with zero tagged releases or recorded recent commits, meaning you may encounter bugs or lack community support during setup.",
+  "deployNotes": "As a Node.js application, you will typically need to run it behind a reverse proxy like Nginx or Caddy to handle TLS termination and manage persistent state using an external database.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

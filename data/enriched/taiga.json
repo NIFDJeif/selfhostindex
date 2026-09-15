@@ -1,0 +1,8 @@
+{
+  "summary": "Taiga is an agile project management tool designed to help teams plan and track work using Kanban and Scrum methodologies. It provides a structured interface for organising tasks, managing backlogs, and monitoring progress throughout development lifecycles. The platform is self-hosted using Docker, Python, and Node.js components.",
+  "goodFor": "Development teams who want a dedicated, self-hosted workspace specifically tailored to Scrum and Kanban workflows.",
+  "watchOut": "Because release and commit activity metrics are currently unavailable, you should carefully evaluate its stability and long-term maintenance status before depending on it in production.",
+  "deployNotes": "You will typically need to configure persistent storage volumes for user data and attach a reverse proxy to handle TLS termination for the web containers.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

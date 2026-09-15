@@ -1,0 +1,8 @@
+{
+  "summary": "Traccar is a Java-based application designed to receive and record GPS positions from various remote tracking hardware. It includes mobile apps for Android and iOS alongside a web interface to inspect recorded trips and locations. The system processes incoming data streams from multiple vendor protocols into a centralised map view.",
+  "goodFor": "Self-hosters who need a central platform to collect and visualise location telemetry from multiple physical GPS tracking devices or mobile phones.",
+  "watchOut": "You will need to configure specific device communication protocols correctly, and unfamiliarity with hardware integration can make initial troubleshooting tedious.",
+  "deployNotes": "Because this application runs on Java and handles persistent telemetry data, you will typically need to provision a dedicated database backend and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

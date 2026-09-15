@@ -1,0 +1,8 @@
+{
+  "summary": "YunoHost is a server operating system designed to simplify the administration of self-hosted services. It provides an interface to manage web applications, users, and domains without requiring deep Linux administration expertise.",
+  "goodFor": "This is a suitable choice if you want to run multiple self-hosted services on a dedicated server but prefer a unified management layer rather than configuring everything manually via the command line.",
+  "watchOut": "Operating systems that take over server administration can sometimes make it harder to debug low-level configuration issues or integrate with complex existing infrastructure setups.",
+  "deployNotes": "Because it acts as a base server operating system built with Python and shell scripts, it typically requires a dedicated clean machine or virtual private server rather than running as a standard containerised application.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

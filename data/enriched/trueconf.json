@@ -1,0 +1,8 @@
+{
+  "summary": "TrueConf is a self-hosted corporate communication platform that provides video conferencing and built-in messaging for teams. It supports UltraHD video quality and offers a free tier accommodating up to 1000 users.",
+  "goodFor": "Organisations looking for an on-premises video conferencing and instant messaging infrastructure with a large user capacity on the free tier.",
+  "watchOut": "The software is proprietary, meaning you cannot inspect or modify the source code, and public metrics indicate limited visibility into community development activity.",
+  "deployNotes": "You can deploy this using Docker or standard deb packages, which typically requires configuring persistent storage volumes for chat history and setting up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

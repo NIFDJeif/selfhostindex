@@ -1,0 +1,8 @@
+{
+  "summary": "Ubooquity is a self-hosted server designed to organise and stream digital comic and e-book collections across multiple platforms. It provides a centralised web interface so you can access your reading materials from various devices on your home network.",
+  "goodFor": "This is suitable if you want a dedicated, lightweight application specifically tailored to serving comic books and e-books rather than general-purpose document storage.",
+  "watchOut": "The software is proprietary and unmaintained, which means you will not receive security patches or bug fixes, and you have no access to the source code if issues arise.",
+  "deployNotes": "Because it is built with Java, you will typically need to provision a Java Runtime Environment on your host system and ensure persistent storage is attached for your library files.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

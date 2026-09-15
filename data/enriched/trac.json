@@ -1,0 +1,8 @@
+{
+  "summary": "Trac is a web-based application that combines a wiki with an issue tracking system tailored for software development projects. It provides a centralised space to document project information and track tasks or bugs. The platform is written in Python and is typically distributed via Debian packages.",
+  "goodFor": "It suits technical teams looking for a combined wiki and issue tracker that is hosted locally under a permissive BSD-3-Clause licence.",
+  "watchOut": "The project currently shows no recent tagged releases or commit activity, meaning you may encounter unmaintained code or lack of support for modern Python environments.",
+  "deployNotes": "As a Python application, you will typically need to configure a WSGI-compatible server behind a reverse proxy for TLS termination, along with a persistent database backend.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Virtual TimeClock is a proprietary application designed for tracking employee work hours and attendance. Because technical specifications are sparse, it likely functions as a central logging system where staff record shifts, breaks, and overtime for payroll purposes.",
+  "goodFor": "It is suited for administrators seeking a dedicated, off-the-shelf system specifically for workforce timekeeping rather than generic project management tools.",
+  "watchOut": "The software is proprietary with no public repository activity, meaning you have no visibility into source code, community patches, or security vulnerability disclosures.",
+  "deployNotes": "As the runtime environment is unspecified, you will need to verify whether it requires a dedicated operating system, a separate database instance, or manual configuration behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

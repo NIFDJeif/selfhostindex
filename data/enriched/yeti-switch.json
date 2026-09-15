@@ -1,0 +1,8 @@
+{
+  "summary": "Yeti-Switch is a transit class 4 softswitch and session border controller featuring an integrated billing and routing engine. It comes with a REST API for programmatic control over voice traffic management. As a class 4 switch, it is designed for wholesale VoIP operators handling high volumes of long-distance call routing between carriers.",
+  "goodFor": "It suits telecommunications engineers and wholesale VoIP providers who need an open-source routing and billing engine for carrier-to-carrier traffic. It is ideal if you want to self-host your own transit switching infrastructure using a GPL-licensed codebase.",
+  "watchOut": "The lack of recent commit activity and zero tagged releases indicate that you may encounter unmaintained code, missing documentation, or unpatched bugs. Operating a class 4 softswitch also requires deep domain expertise in SIP signaling, network security, and real-time media handling.",
+  "deployNotes": "Since the application combines C++ and Ruby components, you will typically need to manage a relational database for billing data, along with a process manager like systemd or Foreman to handle the background worker processes. Proper firewall configuration and SIP port management are essential for exposing the signalling engine securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

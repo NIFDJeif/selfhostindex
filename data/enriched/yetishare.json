@@ -1,0 +1,8 @@
+{
+  "summary": "Yetishare is a proprietary file hosting application written in PHP. It provides a web interface for uploading and sharing files, with configuration options for multiple storage backends including Amazon S3, Wasabi, Backblaze, local storage, and SFTP. It is designed to help you run your own file storage and sharing service.",
+  "goodFor": "This software is suitable if you need a self-hosted file sharing platform with out-of-the-box support for various cloud storage providers rather than building a custom solution.",
+  "watchOut": "The software is proprietary and has no public repository stars, indicating a lack of community validation and open-source transparency. You should also verify how updates and security patches are managed under the commercial licence.",
+  "deployNotes": "As a PHP application, it typically requires a standard web server like Nginx or Apache, a relational database such as MySQL or MariaDB, and persistent storage configured for your chosen file backends.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

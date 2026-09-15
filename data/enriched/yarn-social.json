@@ -1,0 +1,8 @@
+{
+  "summary": "yarn.social is a self-hosted micro-logging platform designed around a decentralised, Twitter-like interface. It allows you to run your own short-form publishing node without advertisements or third-party tracking. The application is built using Go and is distributed under the MIT licence.",
+  "goodFor": "It is a suitable choice if you want to experiment with lightweight, self-hosted social networking protocols written in Go. It works well for small, private communities or individual micro-blogging setups.",
+  "watchOut": "The project currently has no tagged releases and no recent commit activity, indicating that it may be an unmaintained or abandoned codebase. You should expect to handle any bugs, missing documentation, or security patches yourself.",
+  "deployNotes": "As a Go application, it typically compiles into a single binary that can be run behind a reverse proxy like Nginx or Caddy for TLS termination. You will need to check the repository for database requirements and configure persistent storage for user data if the application uses a local store.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

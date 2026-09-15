@@ -1,0 +1,8 @@
+{
+  "summary": "Tuleap is an open-source platform designed to help teams plan, track, and collaborate on software development projects. It provides a centralised workspace for managing code repositories, tracking issues, and coordinating team workflows. Because the official details are sparse, it functions similarly to other integrated software lifecycle management suites.",
+  "goodFor": "Teams looking for a libre, self-hosted alternative to proprietary project management and version control systems. It suits organisations that want full control over their development tooling infrastructure.",
+  "watchOut": "The lack of visible release history and repository activity suggests you should carefully evaluate its current maturity and community backing before adopting it for critical workflows.",
+  "deployNotes": "As a PHP-based application, it typically requires a web server like Apache or Nginx, a separate relational database such as MySQL or MariaDB, and persistent storage for uploaded files and repository data.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

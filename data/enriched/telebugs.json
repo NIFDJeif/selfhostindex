@@ -1,0 +1,8 @@
+{
+  "summary": "Telebugs is a lightweight error tracker that runs on your own infrastructure without a recurring subscription. It serves as an alternative to hosted error monitoring platforms like Sentry, capturing and recording application exceptions.",
+  "goodFor": "It is suitable if you want to keep your exception data in-house and avoid SaaS subscription costs for basic error logging.",
+  "watchOut": "The software is proprietary and currently lacks an established community history or active commit metrics, meaning support and updates may be uncertain.",
+  "deployNotes": "Because it is distributed via Docker, you will typically need to configure persistent volumes for data storage and place it behind a reverse proxy to handle TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

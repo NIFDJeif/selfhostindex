@@ -1,0 +1,8 @@
+{
+  "summary": "Unraid is a Linux-based operating system designed to run on home media server setups. It provides a storage and application hosting environment tailored for personal servers. As the exact internal architecture is not specified, it addresses the general requirement of managing disks and running local services on dedicated hardware.",
+  "goodFor": "It suits individuals looking for a dedicated operating system specifically configured for home media and personal server deployments.",
+  "watchOut": "The software is proprietary, meaning you cannot inspect or modify the source code, and its specific maintenance status and feature set are opaque compared to open-source alternatives.",
+  "deployNotes": "Because it functions as an operating system, you typically install it directly onto bare-metal server hardware rather than deploying it as a standard containerised application.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}

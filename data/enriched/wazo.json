@@ -1,0 +1,8 @@
+{
+  "summary": "Wazo is an IPBX communication system built on top of Asterisk. It provides a web-based administration interface and a RESTful API for managing telephony services and SIP routing.",
+  "goodFor": "It is a suitable option for technical administrators who want to build a custom voice-over-IP infrastructure using Asterisk with API-driven management.",
+  "watchOut": "The lack of recent release data and repository activity indicates you should carefully evaluate its current maintenance status before adopting it for production use.",
+  "deployNotes": "As a Python application managing telephony protocols, it typically requires persistent storage for configuration data, a reverse proxy for secure web access, and careful network configuration to handle SIP traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-15"
+}
