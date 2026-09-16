@@ -1,0 +1,8 @@
+{
+  "summary": "SnapOtter provides a collection of over two hundred web utilities for file conversion, document management, and media editing. The suite includes tools for handling images, video, audio, and PDF formats, alongside features such as optical character recognition, transcription, and batch processing pipelines.",
+  "goodFor": "It suits administrators who want to replace external Software-as-a-Service file conversion platforms with a self-hosted alternative.",
+  "watchOut": "The AGPL-3.0 licence places copyleft constraints on network usage and distribution, which may require careful legal review in commercial environments.",
+  "deployNotes": "Since it runs via Docker, you will typically need to configure persistent volumes for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-16"
+}

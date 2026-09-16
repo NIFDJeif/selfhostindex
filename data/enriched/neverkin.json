@@ -1,0 +1,8 @@
+{
+  "summary": "Neverkin is a self-hosted application designed for collaborative writing, worldbuilding, and structuring tabletop roleplaying game sessions. It provides a centralised workspace to organise interconnected notes, lore, and narrative documents. The project is built using Node.js and distributed under the GPL-3.0 licence.",
+  "goodFor": "It is well-suited for tabletop game masters and collaborative fiction writers who want a dedicated, locally hosted tool to manage complex fictional universes.",
+  "watchOut": "With a small repository star count and modest maintenance activity, you may encounter edge cases, limited community documentation, or slower bug fixes compared to mainstream note-taking platforms.",
+  "deployNotes": "Since it is packaged as a Docker container running on Node.js, you will typically need to configure persistent volumes for your data and place the service behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-16"
+}
