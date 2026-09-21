@@ -1,0 +1,8 @@
+{
+  "summary": "RetroArr is a self-hosted game library manager designed for both modern PC games and retro console ROMs. It provides tools for metadata scraping, automated indexer searches, download management, and includes a browser-based emulation interface as an alternative to RomM.",
+  "goodFor": "It is suited for users who want a centralised, self-hosted interface to organise, download, and play their game collections directly in a web browser.",
+  "watchOut": "As an early-stage project with no tagged releases and minimal visible development activity, it carries a high risk of bugs and missing features compared to more mature alternatives like RomM.",
+  "deployNotes": "Since it is distributed as a Docker container using .NET, you will typically need to configure persistent volumes for your game library and metadata storage, along with a reverse proxy for external access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-21"
+}
