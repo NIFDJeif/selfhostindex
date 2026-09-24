@@ -1,0 +1,8 @@
+{
+  "summary": "Paca is an AI-native project management platform designed to let artificial intelligence agents and humans collaborate directly as Scrum teammates on shared boards and sprints. It functions as an alternative to traditional tools like Jira and Trello, allowing you to configure workflows using configuration files and WebAssembly plugins. The software is released under the Apache-2.0 licence and is hosted via containerised environments.",
+  "goodFor": "Teams looking to experiment with AI-driven project management workflows and customisable Scrum boards hosted on their own infrastructure.",
+  "watchOut": "It is an emerging alternative to heavily entrenched commercial tools, meaning you may encounter rough edges, immature documentation, or a smaller community compared to established market leaders.",
+  "deployNotes": "Because the platform is distributed for Docker and Kubernetes, you will typically need to provision persistent storage volumes for stateful data and configure an ingress controller or reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-24"
+}

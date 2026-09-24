@@ -1,0 +1,8 @@
+{
+  "summary": "PKVault is a self-hosted application designed for centralised Pokémon storage management and tracking data similar to a personal Pokédex. It serves as an alternative to proprietary cloud-based services like Pokémon Home, giving you direct control over your database. The project operates under the GPL-3.0 licence and is distributed as a containerised deployment.",
+  "goodFor": "It suits self-hosters and gaming enthusiasts who want to manage their digital Pokémon collections locally without relying on official subscription services.",
+  "watchOut": "The development activity is currently slowing down, which may impact how quickly bugs are addressed or new game generations are supported.",
+  "deployNotes": "Because it runs via Docker, you will typically need to map persistent volumes for data storage and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-24"
+}

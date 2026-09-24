@@ -1,0 +1,8 @@
+{
+  "summary": "HomeTube provides a web interface for downloading media from a wide range of supported websites directly into local Plex or Jellyfin directories. It handles tasks such as quality selection, subtitle retrieval, automated sponsor removal via SponsorBlock, and ongoing playlist synchronisation.",
+  "goodFor": "Self-hosters who want an automated pipeline to ingest online video content directly into their existing media servers without manual intervention.",
+  "watchOut": "The project relies on a large number of upstream site extractors which frequently break, requiring regular updates to maintain functionality.",
+  "deployNotes": "As a containerised Python application, it typically requires persistent volume mounts for downloaded media and configuration data, alongside a reverse proxy for secure web access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-24"
+}
