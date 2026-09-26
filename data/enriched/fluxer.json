@@ -1,0 +1,8 @@
+{
+  "summary": "Fluxer is a self-hosted instant messaging and VoIP platform designed for private groups, friends, and online communities. It serves as an open-source alternative to proprietary chat services like Discord, allowing you to host your own communication infrastructure. The software is distributed under the AGPL-3.0 licence and manages communication channels through a containerised architecture.",
+  "goodFor": "It is well-suited for groups that want to migrate away from third-party chat platforms and retain full ownership of their communication data.",
+  "watchOut": "Adopting an alternative to heavily established chat platforms often requires convincing your community to migrate and manage separate client connections.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-26"
+}

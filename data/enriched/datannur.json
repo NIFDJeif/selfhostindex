@@ -1,0 +1,8 @@
+{
+  "summary": "Datannur is a lightweight data catalog designed for documenting and exploring structured data files and databases. It provides a centralised interface to help teams manage their data assets and schemas. The application is built using Python and distributed under the MIT licence.",
+  "goodFor": "It suits small teams or individual developers who need a straightforward, self-hosted solution for catalogising databases and file-based data without heavy enterprise overhead.",
+  "watchOut": "With a very small community and modest repository activity, you may encounter edge cases or lack support when integrating it into complex workflows.",
+  "deployNotes": "As a Python application, it typically requires a WSGI or ASGI server, persistent storage for catalog metadata, and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-09-26"
+}
