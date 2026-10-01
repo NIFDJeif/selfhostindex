@@ -1,0 +1,8 @@
+{
+  "summary": "OpenWA is a self-hosted WhatsApp API gateway that converts messaging functionality into standard REST endpoints. It provides a web dashboard, supports multi-account sessions, and triggers webhook events as an alternative to official business API providers.",
+  "goodFor": "This is suitable for developers who need to integrate WhatsApp messaging into custom applications via HTTP requests without relying on third-party commercial gateways.",
+  "watchOut": "The lack of recent tags, releases, and repository activity suggests that the project may be unmaintained, which could lead to unpatched bugs or breaking changes if WhatsApp updates its underlying protocols.",
+  "deployNotes": "As a containerised application built with Docker, you will typically need to configure persistent storage for session data and place it behind a reverse proxy to handle TLS termination securely.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-01"
+}
