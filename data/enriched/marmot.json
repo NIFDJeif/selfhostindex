@@ -1,0 +1,8 @@
+{
+  "summary": "Marmot is an open-source data catalog designed to help you discover and organise data assets across your technical stack. It provides a centralised inventory for tracking disparate resources such as databases, APIs, message queues, and data pipelines.",
+  "goodFor": "It is a suitable option if you need an MIT-licenced tool to map out and catalog internal data endpoints and data stores in one place.",
+  "watchOut": "The project currently lacks tagged releases and has zero recorded commits in recent months, indicating that it may be an early-stage prototype or largely unmaintained. You should expect to handle bugs or missing documentation yourself.",
+  "deployNotes": "Since it is distributed via Docker, you will typically need to provide persistent volumes for internal state storage and configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-05"
+}

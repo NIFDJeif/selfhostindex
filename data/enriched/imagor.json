@@ -1,0 +1,8 @@
+{
+  "summary": "Imagor is a self-hosted image processing server and Go library built on top of libvips. It provides on-demand resizing, cropping, filtering, format conversion, and image composition via signed URLs and streaming pipelines designed for high-concurrency throughput.",
+  "goodFor": "It is a suitable choice if you need a dedicated proxy service to handle dynamic image manipulation and optimization workloads efficiently before serving assets to clients.",
+  "watchOut": "The repository currently has no tagged releases and lacks recent commit activity, which may introduce risks regarding long-term maintenance and bug fixes.",
+  "deployNotes": "Since it runs via Docker, you will typically need to place it behind a reverse proxy to handle TLS termination and configure any necessary resource limits for handling intensive image processing tasks.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-05"
+}

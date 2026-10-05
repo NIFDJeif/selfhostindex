@@ -1,0 +1,8 @@
+{
+  "summary": "NoteDiscovery is a self-hosted Markdown note-taking application that stores data as plain files on disk. It includes a visual graph for connecting thoughts and integrates with the Model Context Protocol, offering an alternative to proprietary tools like Obsidian and Notion.",
+  "goodFor": "It suits individuals who want to maintain their personal knowledge base using open file formats while retaining control over their data on a private server.",
+  "watchOut": "As an early-stage project with zero tagged releases and no recent commit history, it may lack stability, documentation, or community support compared to established alternatives.",
+  "deployNotes": "Because it relies on Docker and plain-file storage, you will typically need to mount a persistent volume for your notes directory to prevent data loss during container updates. You will also need to configure a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-05"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "Rustrak is a self-hosted error tracking server designed to accept logs and reports from standard Sentry SDKs. It provides a lightweight backend for capturing application exceptions and system faults. The service is written in Rust and relies on SQLite for data persistence.",
+  "goodFor": "It suits minimalist infrastructure setups or resource-constrained environments where standard error-reporting backends consume too much memory.",
+  "watchOut": "The project lacks a tagged release history and shows no recent development activity, meaning you may encounter unpatched bugs or missing features.",
+  "deployNotes": "You will typically need to configure a persistent volume for the SQLite database file and set up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-05"
+}
