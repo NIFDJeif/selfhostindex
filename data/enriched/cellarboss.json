@@ -1,0 +1,8 @@
+{
+  "summary": "CellarBoss is a self-hosted inventory management system designed specifically for tracking wine collections. It runs via Docker and Node.js under the GPL-3.0 licence, providing a structured way to catalogue bottles, locations, and stock levels on your own hardware.",
+  "goodFor": "This is a suitable tool for individuals or small-scale collectors who want a dedicated, local system to track their wine inventory rather than relying on commercial cloud services.",
+  "watchOut": "With only a modest community following and early-stage versioning, you may encounter missing features, undocumented edge cases, or sparse troubleshooting documentation.",
+  "deployNotes": "As a containerised Node.js application, deployment typically requires mounting persistent volumes for your data storage and configuring a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-10"
+}

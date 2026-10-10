@@ -1,0 +1,8 @@
+{
+  "summary": "Mother-of-All-Self-Hosting is an Ansible-based automation tool designed to help you run various services as Docker containers on a dedicated server. It provides predefined playbooks to provision and manage your self-hosted infrastructure through code. By standardising the deployment process, it removes the need to manually configure individual application containers.",
+  "goodFor": "It suits systems administrators who prefer managing their infrastructure through Ansible and want a repeatable method for spinning up Docker-based services.",
+  "watchOut": "The absence of tagged releases and a moderate maintenance score mean you should inspect the playbook code carefully before running it on production hardware. You must also rely on your own testing to handle breaking upstream changes in the roles or dependencies.",
+  "deployNotes": "Since it orchestrates Docker containers via Ansible, you will typically need an SSH-accessible server with Docker and Python installed on the control node. Persistent storage volumes and a reverse proxy for TLS termination will need to be configured as part of your target architecture.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-10"
+}

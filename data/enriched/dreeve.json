@@ -1,0 +1,8 @@
+{
+  "summary": "Dreeve is a self-hosted analytics dashboard designed to process and display fitness data sourced from Strava. It provides a centralised interface for reviewing activity statistics and performance metrics outside of the proprietary platform. The application is distributed under the AGPL-3.0 licence.",
+  "goodFor": "It suits athletes and developers who want to own their historical Strava data and view aggregated analytics on a private server.",
+  "watchOut": "With a small community and low repository visibility, you may need to troubleshoot issues independently if upstream development slows down or integration endpoints change.",
+  "deployNotes": "Because it packages as container images, you will typically run it via Docker or Kubernetes with persistent volumes configured for data storage and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-10"
+}
