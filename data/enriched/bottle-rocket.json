@@ -1,0 +1,8 @@
+{
+  "summary": "Bottle Rocket is a self-hosted document scanning and management application designed to handle specific file formats like Rocketbook and Scribzee. It processes digital scans and organises them within a centralised repository on your own hardware. The project is available under an MIT licence and is built using C#.",
+  "goodFor": "This is a suitable choice if you specifically use Rocketbook or Scribzee formats and want an independent, local system to store and organise your scanned documents.",
+  "watchOut": "With a relatively low repository star count and slowing maintenance indicators, you may encounter unresolved bugs or lack community support when adopting this software.",
+  "deployNotes": "As a Docker container running on C#, you will typically need to configure persistent storage volumes for your document database and place the application behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-16"
+}
