@@ -1,0 +1,8 @@
+{
+  "summary": "drawDB is a browser-based application that lets you design database diagrams visually and export them as SQL code. It supports multiple relational database management systems and uses DBML for defining schemas. You can run it locally or on your own server to plan and generate database structures without relying on third-party cloud tools.",
+  "goodFor": "Developers and database administrators who want to design database schemas visually and generate migration or creation scripts for common relational databases.",
+  "watchOut": "The project lacks tagged releases, which can complicate release tracking and stability guarantees for production deployments, and it is licensed under the AGPL-3.0 copyleft licence.",
+  "deployNotes": "Since it runs on Node.js and is packaged via Docker, you will typically need to configure a container orchestration setup, a reverse proxy for HTTPS termination, and persistent storage if any local state is saved.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-17"
+}

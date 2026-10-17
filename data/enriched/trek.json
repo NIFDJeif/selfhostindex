@@ -1,0 +1,8 @@
+{
+  "summary": "TREK is a self-hosted collaborative travel planner designed to help groups organise trips together. It includes features for interactive mapping, daily scheduling, financial tracking, packing lists, reservation management, and journey journaling with progressive web app functionality.",
+  "goodFor": "It is well-suited for groups or individuals wanting a private, self-hosted alternative to commercial trip planning tools to manage complex itineraries and travel expenses.",
+  "watchOut": "The AGPL-3.0 licence carries strong copyleft obligations if you modify and distribute the source code, and adoption of self-hosted travel planners is niche compared to mainstream SaaS options.",
+  "deployNotes": "Deployment relies on Docker or Kubernetes, which typically requires configuring persistent volumes for data storage and setting up a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-17"
+}

@@ -1,0 +1,8 @@
+{
+  "summary": "SparkyFitness is a self-hosted alternative to commercial applications like MyFitnessPal. It records nutrition, physical exercise, body measurements, and general health metrics in a centralised database.",
+  "goodFor": "It is suitable if you want to track your personal health and dietary data locally rather than relying on third-party cloud services.",
+  "watchOut": "The software is distributed under a proprietary licence rather than an open-source one, which may restrict how you audit, modify, or redistribute the code.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volume mounts for data storage and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-17"
+}

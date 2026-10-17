@@ -1,0 +1,8 @@
+{
+  "summary": "Grimmory is a self-hosted media server designed to manage and read ebooks, comics, and audiobooks. It includes native metadata retrieval, multi-user accounts, an OPDS feed generator, and synchronisation capabilities for Kobo and KOReader devices.",
+  "goodFor": "It suits self-hosters who want a dedicated, multi-format library manager to serve both web-based reading interfaces and external e-reader hardware.",
+  "watchOut": "The AGPL-3.0 licence carries strict copyleft obligations if you modify and redistribute the code, and the platform may overlap with more mature media servers.",
+  "deployNotes": "Deployment relies on Docker, so you will typically need to configure persistent volumes for your media files and database state, alongside a reverse proxy for HTTPS access.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-17"
+}
