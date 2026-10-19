@@ -1,0 +1,8 @@
+{
+  "summary": "Bloglite is a self-hosted micro-blogging platform designed as an alternative to mainstream social networks like Twitter and Bluesky. It provides built-in syntax highlighting for code snippets and supports mobile publishing for remote updates.",
+  "goodFor": "It is a suitable option if you want a lightweight, self-contained micro-blogging channel for personal thoughts or technical snippets without relying on commercial platforms.",
+  "watchOut": "Development activity has slowed down significantly, and the project overlaps heavily with many established micro-blogging and status-update alternatives.",
+  "deployNotes": "Because it runs via Docker, you will typically need to configure persistent volumes for your data and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-19"
+}
