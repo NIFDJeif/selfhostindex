@@ -1,0 +1,8 @@
+{
+  "summary": "Chobble Tickets is an event ticketing system that handles QR code check-ins and stores attendee records in an encrypted format. It operates as an edge script rather than requiring a traditional always-on server architecture, serving as a self-hosted alternative to platforms like Eventbrite under the AGPL-3.0 licence.",
+  "goodFor": "It is suited for small-scale event organisers who want to self-host their ticketing infrastructure without vendor lock-in, proprietary branding requirements, or standard database overhead.",
+  "watchOut": "With a small community and low repository star count, you may encounter fewer third-party integrations, less documentation, and a steeper troubleshooting curve than more established platforms.",
+  "deployNotes": "Because it runs as an edge script using Deno and Docker, you will typically need to configure a container runtime and a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-23"
+}

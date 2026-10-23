@@ -1,0 +1,8 @@
+{
+  "summary": "Orkyo Community is a self-hosted production scheduling tool designed for manufacturing teams. It provides a centralised plan to coordinate machines, operators, and tooling required to execute jobs. Built with C# and containerised with Docker, it targets resource planning workflows on your own infrastructure.",
+  "goodFor": "It is well-suited for small to medium manufacturing environments needing an open-source tool to track shop floor schedules and asset utilisation.",
+  "watchOut": "The AGPL-3.0 licence requires you to release source modifications if you offer the software as a network service, and early-stage adoption carries typical community maturity risks.",
+  "deployNotes": "As a Docker-based C# application, you will typically need to configure persistent volumes for data storage and place the container behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-23"
+}
