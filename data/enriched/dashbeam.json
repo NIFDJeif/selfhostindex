@@ -1,0 +1,8 @@
+{
+  "summary": "DashBeam is a self-hosted file transfer utility that uses peer-to-peer networking principles to facilitate the movement of files of arbitrary sizes. It falls into the single-click and drag-and-drop upload category, allowing users to share data directly between endpoints. As details regarding its specific architecture are sparse, it functions fundamentally like other direct-transfer tools.",
+  "goodFor": "It is suited for technical users looking for an alternative to centralised cloud storage providers for direct file sharing.",
+  "watchOut": "The repository currently has no stars, no tagged releases, and zero recorded recent commits, indicating that it may be an early-stage, abandoned, or highly experimental project. Additionally, the AGPL-3.0 licence places strong copyleft requirements on any modified network deployments.",
+  "deployNotes": "Since it is provided as a Docker image and a deb package, you can typically run it inside a container with persistent storage volumes attached for any local state. You will also usually need to place it behind a reverse proxy to handle TLS termination and manage incoming network traffic.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02"
+}

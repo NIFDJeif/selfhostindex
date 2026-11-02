@@ -1,0 +1,8 @@
+{
+  "summary": "s3-orchestrator is a storage proxy that exposes multiple cloud object storage providers behind a single S3-compatible API. It manages data redundancy by maintaining configurable numbers of copies across backends, handles read failovers, and applies optional controls such as zstd compression, envelope encryption, and usage limits.",
+  "goodFor": "Systems administrators who need to aggregate disparate cloud storage services into a unified endpoint while enforcing redundancy and extra security measures like client-side encryption.",
+  "watchOut": "The project lacks tagged releases and recorded commit activity, indicating an early stage of maturity with uncertain community support. Relying on an unrated single-maintainer proxy for critical object storage redundancy introduces significant operational risk.",
+  "deployNotes": "As a Go application packaged for Docker and Kubernetes, it typically runs as a stateless container behind a reverse proxy for TLS termination. You will need to configure environment variables or config files to point it at your underlying cloud storage backends.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02"
+}

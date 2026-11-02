@@ -1,0 +1,8 @@
+{
+  "summary": "Tome is a self-hosted ebook and manga library server that includes a built-in web reader, OPDS support, and automated metadata fetching. It features a dedicated KOReader plugin to synchronise reading positions bi-directionally and track reading sessions for statistics such as streaks and heatmaps.",
+  "goodFor": "It suits self-hosters who want to organise digital book collections and use KOReader for synchronised reading across devices.",
+  "watchOut": "The project lacks tagged releases and has no recorded commit history in recent months, suggesting it may be early-stage, unmaintained, or experimental.",
+  "deployNotes": "Because it runs via Docker, you will typically need to map persistent volumes for your media library and configuration data, alongside a reverse proxy for handling TLS.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-02"
+}
