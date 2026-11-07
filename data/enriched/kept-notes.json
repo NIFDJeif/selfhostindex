@@ -1,0 +1,8 @@
+{
+  "summary": "Kept Notes is a self-hosted alternative to Google Keep designed for rapid information capture. It supports various input formats including text, checklists, images, drawings, links, attachments, labels, colours, and reminders.",
+  "goodFor": "It suits individuals looking for a self-hosted, Google Keep-style scratchpad for everyday lists, quick thoughts, and mixed-media capture.",
+  "watchOut": "The repository currently has no tagged releases and no recent commits, indicating that development status and long-term stability are uncertain. The dual AGPL-3.0 and MIT licensing should also be checked against your compliance requirements.",
+  "deployNotes": "As a Node.js application packaged with Docker, you will typically need to configure persistent storage volumes for uploaded attachments and place it behind a reverse proxy to handle TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-07"
+}
