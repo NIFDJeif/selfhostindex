@@ -1,0 +1,8 @@
+{
+  "summary": "RelayTV is a containerised application designed to turn a Linux host connected to a television into a local media playback endpoint. It enables you to cast links from mobile devices, browse external media servers like Jellyfin or Emby, and control playback via Home Assistant or HTTP requests.",
+  "goodFor": "It suits users seeking an open-source alternative to proprietary casting devices who want to integrate media playback into an existing Home Assistant automation setup.",
+  "watchOut": "The repository currently has no tagged releases and zero recorded activity, indicating an early-stage or experimental project with potential stability risks.",
+  "deployNotes": "Since it runs via Docker, you will typically need to map persistent storage for configuration data and ensure appropriate network access to your local media servers and television display.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-16"
+}
