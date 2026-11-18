@@ -1,0 +1,8 @@
+{
+  "summary": "CheezyPizza is a browser-based application that facilitates direct peer-to-peer file transfers using WebRTC protocols. It eliminates the need for intermediate server storage or file uploads by connecting browsers directly to one another. As a fork of file.pizza, it provides a decentralised approach to sharing files across the web.",
+  "goodFor": "It is well-suited for users who need to transfer files quickly between devices without storing data on third-party cloud servers.",
+  "watchOut": "Low repository activity and a lack of recent tagged releases suggest that it may lack active maintenance or timely security updates. Additionally, browser compatibility with WebRTC connection methods can occasionally complicate peer discovery behind strict corporate firewalls or NAT configurations.",
+  "deployNotes": "Containerised via Docker, deployment typically requires a reverse proxy to handle TLS termination for secure WebRTC connections. Persistent storage and external databases are usually unnecessary for basic operation, though signaling server configurations may need network adjustment.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-18"
+}
