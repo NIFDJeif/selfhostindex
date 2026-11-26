@@ -1,0 +1,8 @@
+{
+  "summary": "Nogon is a self-hosted personal search engine that automatically indexes the websites you visit. It offers local file indexing, multi-user support, offline result previews, and optional semantic search capabilities.",
+  "goodFor": "It suits individuals or small teams wanting a private, searchable local archive of their web browsing history and documents without relying on external services.",
+  "watchOut": "The AGPL-3.0 license requires you to share modifications if you offer the software as a network service, and automatic indexing may demand significant storage over time.",
+  "deployNotes": "Because it is distributed as a Docker container written in Go, you will typically need to configure persistent volumes for the search index and place it behind a reverse proxy for TLS termination.",
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-26"
+}
